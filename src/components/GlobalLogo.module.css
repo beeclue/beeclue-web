@@ -1,0 +1,21 @@
+.logoContainer {
+  position: fixed;
+  top: 2rem;
+  left: 2vw;
+  z-index: 2000; /* Stays above the navigation overlay */
+  display: flex;
+  align-items: center;
+  mix-blend-mode: difference; /* Makes it visible on both light and dark if needed, though white logo usually works best on dark */
+  transition: transform 0.3s ease;
+  cursor: none; /* Relies on custom magnetic cursor */
+}
+
+.logoContainer:hover {
+  transform: scale(1.05);
+}
+
+.logoImage {
+  object-fit: contain;
+  width: auto;
+  height: clamp(25px, 4vw, 35px);
+}
