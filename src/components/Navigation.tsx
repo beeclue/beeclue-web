@@ -75,6 +75,7 @@ const menuLinks = [
       { name: "WordPress Design", href: "/wordpress-web-design-canada/" },
     ]
   },
+  { name: "Case Studies", href: "/case-studies/" },
   { name: "About", href: "/about-us/" },
   { name: "Contact", href: "/contact/" },
 ];

@@ -674,3 +674,35 @@
   text-transform: uppercase;
   letter-spacing: 0.1em;
 }
+
+
+/* =========================================
+   ORPHANED GRID ITEM CENTERING FIX 
+   ========================================= */
+@media (min-width: 1025px) {
+  .scroller > *:last-child:nth-child(3n + 1),
+  .valueGrid > *:last-child:nth-child(3n + 1) {
+    grid-column: 2;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .scroller > *:last-child:nth-child(2n + 1),
+  .valueGrid > *:last-child:nth-child(2n + 1) {
+    grid-column: 1 / -1;
+    justify-self: center;
+    width: calc(50% - 1.5rem);
+  }
+}
+
+/* Fix featuredGrid stretching when orphaned */
+.featuredGrid {
+  display: flex !important;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.featuredCard {
+  flex: 1 1 350px !important;
+  max-width: 100% !important;
+}

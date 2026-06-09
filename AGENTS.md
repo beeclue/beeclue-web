@@ -3,3 +3,8 @@
 
 This version has breaking changes — APIs, conventions, and file structure may all differ from your training data. Read the relevant guide in `node_modules/next/dist/docs/` before writing any code. Heed deprecation notices.
 <!-- END:nextjs-agent-rules -->
+
+# New Case Studies
+- Any new case study added, the home page should get the latest case studies. 
+- When adding case studies on the case studies list page and home page, make sure the design is consistent with the overall design of the website. 
+- It should be in chronological order based on the created date.

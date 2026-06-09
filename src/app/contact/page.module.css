@@ -3,6 +3,9 @@
   padding: 150px 5vw 100px;
   position: relative;
   z-index: 10;
+  background: rgba(0, 0, 0, 0.8);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
 }
 
 .container {
@@ -430,4 +433,36 @@
 .modalButton:hover {
   background-color: var(--primary-light);
   transform: translateY(-2px);
+}
+
+
+/* =========================================
+   ORPHANED GRID ITEM CENTERING FIX 
+   ========================================= */
+@media (min-width: 1025px) {
+  .scroller > *:last-child:nth-child(3n + 1),
+  .valueGrid > *:last-child:nth-child(3n + 1) {
+    grid-column: 2;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .scroller > *:last-child:nth-child(2n + 1),
+  .valueGrid > *:last-child:nth-child(2n + 1) {
+    grid-column: 1 / -1;
+    justify-self: center;
+    width: calc(50% - 1.5rem);
+  }
+}
+
+/* Fix featuredGrid stretching when orphaned */
+.featuredGrid {
+  display: flex !important;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.featuredCard {
+  flex: 1 1 350px !important;
+  max-width: 100% !important;
 }

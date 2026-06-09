@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import styles from "./page.module.css";
 import { ArrowRight, Code, LayoutTemplate, Smartphone, ShoppingCart, Search, CheckCircle2, Cloud } from "lucide-react";
 import FadeIn from "@/components/FadeIn";
@@ -102,12 +103,12 @@ export default function Home() {
             <p>We create stunning, user-centric interfaces and brand identities that captivate your audience. Effortlessly transform your ideas into stunning, professional layouts with ease.</p>
             <Link href="/ui-ux-design-toronto/" className={styles.learnMoreLink}>Learn More <ArrowRight size={16} /></Link>
           </div>
-          <div className={styles.serviceCard}>
-            <Code className={styles.serviceIcon} />
-            <h3>WordPress Development</h3>
-            <p>Custom, high-performance WordPress engineering for Canadian enterprises. We strip away bloat and build highly secure, headless and native WP architectures.</p>
-            <Link href="/wordpress-web-design-canada/" className={styles.learnMoreLink}>Learn More <ArrowRight size={16} /></Link>
-          </div>
+        </div>
+        
+        <div style={{ display: "flex", justifyContent: "center", marginTop: "3rem" }}>
+          <Link href="/services" className={styles.ctaButtonLight}>
+            View All Services <ArrowRight className={styles.arrow} size={20} />
+          </Link>
         </div>
       </FadeIn>
 
@@ -118,30 +119,46 @@ export default function Home() {
           <p>A look at how we transform business challenges into scalable technical solutions.</p>
         </div>
         <div className={styles.featuredGrid}>
-          <div className={styles.featuredCard}>
-            <div className={styles.featuredImagePlaceholder}>
-              <span>Luxury E-Commerce Redesign</span>
+          <Link href="/case-studies/sure-shot-photobooth" className={styles.featuredCard}>
+            <div className={styles.featuredImagePlaceholder} style={{ padding: 0, position: 'relative' }}>
+              <Image 
+                src="https://cdn.jsdelivr.net/gh/beeclue/clients@main/self/sure-shot-photobooth-rental.webp"
+                alt="Sure Shot Photobooth"
+                fill
+                style={{ objectFit: 'contain', padding: '2rem 0' }}
+              />
             </div>
             <div className={styles.featuredContent}>
-              <h3>Next.js Headless Shopify Store</h3>
-              <p>We rebuilt a legacy e-commerce platform using Next.js and Shopify, resulting in a 45% increase in mobile conversions and sub-second page load times.</p>
+              <h3>Sure Shot Photobooth — Web Experience</h3>
+              <p>We partnered with Sure Shot Photobooth to elevate their digital presence with a highly interactive, modern Next.js website featuring immersive animations.</p>
               <div className={styles.techTags}>
-                <span>Next.js</span><span>Shopify Plus</span><span>Tailwind</span>
+                <span>Next.js</span><span>Animations</span><span>SEO</span>
               </div>
             </div>
-          </div>
-          <div className={styles.featuredCard}>
-            <div className={styles.featuredImagePlaceholder}>
-              <span>SaaS Analytics Dashboard</span>
+          </Link>
+          <Link href="/case-studies/blues-contracting-services" className={styles.featuredCard}>
+            <div className={styles.featuredImagePlaceholder} style={{ padding: 0, position: 'relative' }}>
+              <Image 
+                src="https://cdn.jsdelivr.net/gh/beeclue/clients@main/self/blues-contracting-services.webp"
+                alt="Blues Contracting Services"
+                fill
+                style={{ objectFit: 'contain', padding: '2rem 0' }}
+              />
             </div>
             <div className={styles.featuredContent}>
-              <h3>Custom Financial Software</h3>
-              <p>A secure, real-time analytics portal for a North American financial firm, handling millions of data points with bank-grade security protocols.</p>
+              <h3>Blues Contracting — Digital Transformation</h3>
+              <p>We completely revitalized the web presence for Blues Contracting Services using modern Next.js technology, strategic UX design, and rigorous technical SEO.</p>
               <div className={styles.techTags}>
-                <span>React</span><span>Node.js</span><span>PostgreSQL</span>
+                <span>Next.js</span><span>UX Design</span><span>SEO</span>
               </div>
             </div>
-          </div>
+          </Link>
+        </div>
+        
+        <div style={{ display: "flex", justifyContent: "center", marginTop: "3rem" }}>
+          <Link href="/case-studies" className={styles.ctaButtonLight}>
+            View All Case Studies <ArrowRight className={styles.arrow} size={20} />
+          </Link>
         </div>
       </FadeIn>
 
