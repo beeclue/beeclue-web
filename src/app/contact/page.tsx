@@ -136,8 +136,31 @@ export default function ContactPage() {
     }
   };
 
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "ContactPage",
+    "name": "Contact Beeclue Tech",
+    "description": "Get in touch with Beeclue Tech for a free consultation on your web design, mobile app, or custom software project.",
+    "url": "https://beeclue.com/contact",
+    "mainEntity": {
+      "@type": "Organization",
+      "name": "Beeclue Tech",
+      "telephone": "+1-647-947-6253",
+      "email": "hello@beeclue.com",
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+1-647-947-6253",
+        "contactType": "customer service"
+      }
+    }
+  };
+
   return (
     <main className={styles.main}>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       <div className={styles.container}>
         
         {/* Left Column - Contact Info */}

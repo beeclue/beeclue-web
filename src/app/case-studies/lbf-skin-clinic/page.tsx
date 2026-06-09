@@ -1,4 +1,3 @@
-"use client";
 
 import Link from "next/link";
 import Image from "next/image";
@@ -7,8 +6,23 @@ import { ArrowRight, CheckCircle2, Globe, TrendingUp, Paintbrush, MapPin, Target
 import FadeIn from "@/components/FadeIn";
 
 export default function LBFSkinClinicCaseStudy() {
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "LBF Skin Clinic Case Study",
+    "author": {
+      "@type": "Organization",
+      "name": "Beeclue Tech"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Beeclue Tech"
+    }
+  };
+
   return (
     <main className={styles.main}>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       {/* HEADER SECTION */}
       <FadeIn className={styles.baseSection} style={{ paddingTop: "20vh", minHeight: "50vh", display: "flex", alignItems: "center" }}>
         <div className={styles.heroContent}>

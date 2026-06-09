@@ -1,0 +1,29 @@
+# Beeclue Tech
+
+Beeclue Tech is an elite digital development agency located in Toronto, Canada, specializing in Next.js, WordPress, Shopify, and custom software development. We help businesses build powerful websites, scalable software systems, and mobile applications to support long-term growth and innovation.
+
+## Site Structure
+
+### Main Pages
+- [Home](https://beeclue.com/)
+- [About Us](https://beeclue.com/about-us)
+- [Services](https://beeclue.com/services)
+- [Case Studies](https://beeclue.com/case-studies)
+- [Contact](https://beeclue.com/contact)
+
+### Core Services
+- [Custom Software Development](https://beeclue.com/custom-software-development-toronto)
+- [E-Commerce Development](https://beeclue.com/ecommerce-development-toronto)
+- [Mobile App Development](https://beeclue.com/mobile-app-development-toronto)
+- [SEO Services](https://beeclue.com/seo-services-toronto)
+- [UI/UX Design](https://beeclue.com/ui-ux-design-toronto)
+- [Web Design](https://beeclue.com/web-design-toronto)
+- [WordPress Design](https://beeclue.com/wordpress-web-design-canada)
+
+### Proprietary Products
+- [Monexa (Finance App)](https://beeclue.com/products/monexa)
+
+### Contact Information
+- Email: hello@beeclue.com
+- Phone: +1-647-947-6253
+- Operating Region: Toronto, Canada (Remote Global Services)

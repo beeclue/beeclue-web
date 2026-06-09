@@ -162,6 +162,7 @@ export default function Home() {
         </div>
       </FadeIn>
 
+
       {/* VALUE PROPOSITION SECTION */}
       <FadeIn className={`${styles.baseSection} ${styles.valueSection}`}>
         <div className={styles.valueHeader}>
@@ -289,6 +290,33 @@ export default function Home() {
             <p>"Thank you for helping me grow my startup. Your web team is really admirable. Exactly what I wanted. Thank you for your efforts and great work!"</p>
             <div className={styles.clientName}>— Payal Sharma</div>
           </div>
+        </div>
+      </FadeIn>
+
+      {/* PRODUCTS SECTION */}
+      <FadeIn className={`${styles.baseSection} ${styles.featuredSection}`}>
+        <div className={styles.servicesHeader}>
+          <h2>Products Built by Beeclue</h2>
+          <p>Proprietary software and applications engineered in-house by our development team.</p>
+        </div>
+        <div className={styles.featuredGrid}>
+          <Link href="/products/monexa" className={styles.featuredCard}>
+            <div className={styles.featuredImagePlaceholder} style={{ padding: 0, position: 'relative' }}>
+              <Image 
+                src="https://cdn.jsdelivr.net/gh/beeclue/clients@main/self/monexa.png"
+                alt="Monexa Logo"
+                fill
+                style={{ objectFit: 'contain', padding: '3rem' }}
+              />
+            </div>
+            <div className={styles.featuredContent}>
+              <h3>Monexa — Personal Finance Manager</h3>
+              <p>The simple, beautiful, and powerful way to track expenses, manage budgets, and achieve your financial goals effortlessly.</p>
+              <div className={styles.techTags}>
+                <span>Finance</span><span>AI Insights</span><span>Budgeting</span>
+              </div>
+            </div>
+          </Link>
         </div>
       </FadeIn>
 

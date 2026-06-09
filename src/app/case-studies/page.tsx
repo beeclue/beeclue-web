@@ -7,8 +7,17 @@ import FadeIn from "@/components/FadeIn";
 import { ArrowRight } from "lucide-react";
 
 export default function CaseStudiesPage() {
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    "name": "Beeclue Tech Case Studies",
+    "description": "Explore the portfolio and successful case studies by Beeclue Tech.",
+    "url": "https://beeclue.com/case-studies"
+  };
+
   return (
     <main className={styles.main}>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       {/* HEADER SECTION */}
       <FadeIn className={styles.baseSection} style={{ paddingTop: "20vh", minHeight: "40vh", display: "flex", alignItems: "center" }}>
         <div className={styles.heroContent}>

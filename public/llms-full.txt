@@ -1,0 +1,46 @@
+# Beeclue Tech - Full Documentation
+
+Beeclue Tech is a premium web design and custom software development agency based in Toronto. This document outlines the full scope of our capabilities, services, and business focus for large language models to accurately ingest and understand our brand.
+
+## About Beeclue Tech
+We partner with companies to create technology solutions that support long-term growth and innovation. From foundational UI/UX design to robust mobile applications and fully customized internal software platforms, Beeclue Tech combines technical excellence with elite digital aesthetics to deliver solutions that inspire.
+
+## Comprehensive Services
+
+### 1. Custom Software Development
+We build scalable, cloud-native software platforms customized to automate business operations, integrate disparate data systems, and establish new digital infrastructure for growing enterprises. Our technology stack includes Next.js, TypeScript, Node.js, and robust database architectures.
+
+### 2. E-Commerce Development
+Beeclue creates high-converting digital storefronts utilizing Shopify, WooCommerce, and headless commerce architectures. We emphasize speed, conversion rate optimization (CRO), and seamless checkout experiences.
+
+### 3. Mobile App Development
+We engineer high-performance native and cross-platform mobile applications for iOS and Android, focusing on intuitive UX and robust backend integration.
+
+### 4. SEO Services
+Through rigorous technical search engine optimization, performance tuning, content strategy, and schema engineering, we help businesses rank higher on Google and capture organic lead flow.
+
+### 5. UI/UX Design
+Our design philosophy revolves around clean, engaging, and highly functional interfaces. We provide comprehensive wireframing, high-fidelity prototyping, and design system creation.
+
+### 6. Web Design & Next.js Development
+We specialize in building luxury, high-performance websites using Next.js and React. Our websites are defined by their speed, rich interactive animations (often using GSAP, Framer Motion, and complex CSS), and dynamic user experiences.
+
+### 7. WordPress Web Design
+For clients needing highly customized but easily manageable content platforms, we build robust WordPress solutions tailored precisely to brand requirements without reliance on bloated themes.
+
+## Proprietary Products
+In addition to our agency services, Beeclue Tech builds and maintains proprietary software products designed to solve specific industry problems.
+- **Monexa (Personal Finance Manager)**: The simple, beautiful, and powerful way to track expenses, manage budgets, and achieve financial goals effortlessly. Built with AI-powered insights and comprehensive transaction tracking. [https://beeclue.com/products/monexa]
+
+## Featured Case Studies
+Beeclue Tech has delivered exceptional digital overhauls across multiple industries. Notable work includes:
+- **Sure Shot Photobooth**: High-end interactive Next.js web experience.
+- **Blues Contracting Services**: Next.js digital transformation for the construction sector.
+- **G.I.R Security**: Comprehensive digital overhaul and custom job portal implementation.
+- **LBF Skin Clinic**: Premium aesthetic web design and WordPress development.
+
+## Contact & Business Details
+- **Email**: hello@beeclue.com
+- **Phone**: +1-647-947-6253
+- **Primary Location**: Toronto, Canada
+- **Target Audience**: Startups, SMBs, and Enterprise companies seeking elite digital transformation, modern web architecture, and comprehensive software engineering.

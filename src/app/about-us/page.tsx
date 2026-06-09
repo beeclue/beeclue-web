@@ -1,13 +1,30 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import styles from "../page.module.css";
 import { ArrowRight, CheckCircle2, Target, Lightbulb, Users, BarChart3, Rocket } from "lucide-react";
 import FadeIn from "@/components/FadeIn";
 
 export default function AboutUsPage() {
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "AboutPage",
+    "name": "About Beeclue Tech",
+    "description": "Beeclue Tech is an elite digital development agency helping businesses build powerful websites, scalable software systems, and mobile applications.",
+    "url": "https://beeclue.com/about-us",
+    "publisher": {
+      "@type": "Organization",
+      "name": "Beeclue Tech"
+    }
+  };
+
   return (
     <main className={styles.main}>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       {/* HEADER SECTION */}
       <FadeIn className={styles.baseSection} style={{ paddingTop: "20vh", minHeight: "50vh", display: "flex", alignItems: "center" }}>
         <div className={styles.heroContent}>
@@ -94,6 +111,33 @@ export default function AboutUsPage() {
               Beeclue Tech strives to become a leading digital development partner known for delivering high-quality software, innovative solutions, and long-term value for businesses. As technology continues to evolve, our goal is to help companies stay competitive by providing scalable digital infrastructure that supports their ambitions.
             </p>
           </div>
+        </div>
+      </FadeIn>
+
+      {/* PRODUCTS SECTION */}
+      <FadeIn className={`${styles.baseSection} ${styles.featuredSection}`}>
+        <div className={styles.servicesHeader}>
+          <h2>Products Built by Beeclue</h2>
+          <p>Proprietary software and applications engineered in-house by our development team.</p>
+        </div>
+        <div className={styles.featuredGrid}>
+          <Link href="/products/monexa" className={styles.featuredCard}>
+            <div className={styles.featuredImagePlaceholder} style={{ padding: 0, position: 'relative' }}>
+              <Image 
+                src="https://cdn.jsdelivr.net/gh/beeclue/clients@main/self/monexa.png"
+                alt="Monexa Logo"
+                fill
+                style={{ objectFit: 'contain', padding: '3rem' }}
+              />
+            </div>
+            <div className={styles.featuredContent}>
+              <h3>Monexa — Personal Finance Manager</h3>
+              <p>The simple, beautiful, and powerful way to track expenses, manage budgets, and achieve your financial goals effortlessly.</p>
+              <div className={styles.techTags}>
+                <span>Finance</span><span>AI Insights</span><span>Budgeting</span>
+              </div>
+            </div>
+          </Link>
         </div>
       </FadeIn>
 

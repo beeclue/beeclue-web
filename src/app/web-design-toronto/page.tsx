@@ -6,8 +6,20 @@ import { ArrowRight, LayoutTemplate, Briefcase, Globe, RefreshCcw, ShoppingCart,
 import FadeIn from "@/components/FadeIn";
 
 export default function WebDesignTorontoPage() {
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    "serviceType": "Web Design Services",
+    "provider": {
+      "@type": "Organization",
+      "name": "Beeclue Tech"
+    },
+    "areaServed": "Toronto"
+  };
+
   return (
     <main className={styles.main}>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       {/* HEADER SECTION */}
       <FadeIn className={styles.baseSection} style={{ paddingTop: "20vh", minHeight: "50vh", display: "flex", alignItems: "center" }}>
         <div className={styles.heroContent}>
