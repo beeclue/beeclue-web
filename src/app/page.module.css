@@ -957,3 +957,28 @@
   }
 }
 
+
+/* Centered Flexbox alternative to .scroller for 5 items */
+.scrollerFlexCentered {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  width: 100%;
+}
+
+.scrollerFlexCentered > div {
+  width: calc(33.333% - 1.34rem);
+}
+
+@media (max-width: 1024px) {
+  .scrollerFlexCentered > div {
+    width: calc(50% - 1rem);
+  }
+}
+
+@media (max-width: 768px) {
+  .scrollerFlexCentered > div {
+    width: 100%;
+  }
+}

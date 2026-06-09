@@ -76,28 +76,28 @@ export default function MonexaProductPage() {
           <p>Built by Beeclue to give you absolute clarity and control over your financial health.</p>
         </div>
         
-        <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "center", gap: "2rem", maxWidth: "1200px", margin: "0 auto" }}>
-          <div className={styles.serviceCard} style={{ flex: "1 1 300px", maxWidth: "380px" }}>
+        <div className={styles.scrollerFlexCentered}>
+          <div className={styles.serviceCard}>
             <LineChart className={styles.serviceIcon} />
             <h3>See Your Full Financial Picture</h3>
             <p>Instantly see your spending trends, account balances, and cash flow without getting lost in spreadsheets. Make informed decisions quickly with a clear, visual overview.</p>
           </div>
-          <div className={styles.serviceCard} style={{ flex: "1 1 300px", maxWidth: "380px" }}>
+          <div className={styles.serviceCard}>
             <PiggyBank className={styles.serviceIcon} />
             <h3>Create Budgets That Work</h3>
             <p>Our flexible budgeting tool helps you plan your spending and stick to it. Proactively manage your money, prevent overspending, and reach your savings goals faster.</p>
           </div>
-          <div className={styles.serviceCard} style={{ flex: "1 1 300px", maxWidth: "380px" }}>
+          <div className={styles.serviceCard}>
             <RefreshCcw className={styles.serviceIcon} />
             <h3>Automate Your Financial Life</h3>
             <p>Set up recurring expenses like rent or subscriptions just once. Our app will automatically log them when they're due, so your records are always accurate with zero effort.</p>
           </div>
-          <div className={styles.serviceCard} style={{ flex: "1 1 300px", maxWidth: "380px" }}>
+          <div className={styles.serviceCard}>
             <Sparkles className={styles.serviceIcon} />
             <h3>AI-Powered Insights</h3>
             <p>Go beyond simple numbers. Our AI analyst studies your habits, provides personalized insights, and highlights trends you might have missed to improve your financial habits.</p>
           </div>
-          <div className={styles.serviceCard} style={{ flex: "1 1 300px", maxWidth: "380px" }}>
+          <div className={styles.serviceCard}>
             <ListTree className={styles.serviceIcon} />
             <h3>Detailed Tracking</h3>
             <p>Log expenses, deposits, and transfers with ease. Categorize everything, assign payments to specific accounts, and maintain a crystal-clear record of all activities.</p>
@@ -141,15 +141,21 @@ export default function MonexaProductPage() {
       {/* FOOTER CTA */}
       <footer className={styles.footer}>
         <div className={styles.footerContent}>
-          <h2>Ready to Achieve Financial Clarity?</h2>
-          <p className={styles.footerSub}>Sign up for free and start tracking your finances in minutes.</p>
+          <h2>Let's Build Something Powerful</h2>
+          <p className={styles.footerSub}>Start your project today and build digital solutions designed for growth.</p>
           <div className={styles.footerActions}>
-            <a href="https://monexa.beeclue.com?utm_source=beeclue&utm_medium=website&utm_campaign=product_page" target="_blank" rel="noopener noreferrer" className={styles.ctaButtonLight}>
-              Sign Up For Free
-            </a>
+            <Link href="/contact" className={styles.ctaButtonLight}>
+              Start a Project
+            </Link>
           </div>
           <div className={styles.footerContact}>
-            <p className={styles.footerLocation}>Proudly Built by Beeclue Tech</p>
+            <a href="mailto:hello@beeclue.com" className={styles.emailLink}>
+              hello@beeclue.com
+            </a>
+            <a href="tel:+16479476253" className={styles.emailLink}>
+              +1 (647) 947-6253
+            </a>
+            <p className={styles.footerLocation}>36 Carslake Crescent, Toronto, ON M1J 2A7</p>
             <div className={styles.legalLinks}>
               <Link href="/privacy-policy">Privacy Policy</Link>
               <span>|</span>
