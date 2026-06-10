@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import FadeIn from "@/components/FadeIn";
-import blogStyles from "./blog.module.css";
+import blogStyles from "../shared-blog.module.css";
 import globalStyles from "@/app/page.module.css";
 
 export const metadata: Metadata = {
@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     url: "https://beeclue.com/is-wix-website-builder-the-right-platform-for-you-pros-and-cons-of-using-wix",
     images: [
       {
-        url: "https://images.unsplash.com/photo-1547658719-da2b511591bc?ixlib=rb-4.0.3&auto=format&fit=crop&w=2400&q=80",
+        url: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-4.0.3&auto=format&fit=crop&w=2400&q=80",
         width: 1200,
         height: 630,
         alt: "Website Builder Interface on Laptop",
@@ -40,7 +40,7 @@ export default function BlogPost() {
 
         <FadeIn className={blogStyles.heroImageContainer}>
           <Image 
-            src="https://images.unsplash.com/photo-1547658719-da2b511591bc?ixlib=rb-4.0.3&auto=format&fit=crop&w=2400&q=80" 
+            src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-4.0.3&auto=format&fit=crop&w=2400&q=80" 
             alt="Website Builder Interface on Laptop" 
             fill
             sizes="(max-width: 1000px) 100vw, 1000px"
@@ -74,7 +74,7 @@ export default function BlogPost() {
 
           <FadeIn className={blogStyles.inlineImageContainer}>
             <Image 
-              src="https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?ixlib=rb-4.0.3&auto=format&fit=crop&w=2400&q=80" 
+              src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-4.0.3&auto=format&fit=crop&w=2400&q=80" 
               alt="Person working on website wireframes and design" 
               fill
               sizes="(max-width: 1000px) 100vw, 1000px"
