@@ -339,6 +339,8 @@ export default function Home() {
             </a>
             <p className={styles.footerLocation}>36 Carslake Crescent, Toronto, ON M1J 2A7</p>
             <div className={styles.legalLinks}>
+              <Link href="/blogs">Blogs</Link>
+              <span>|</span>
               <Link href="/privacy-policy">Privacy Policy</Link>
               <span>|</span>
               <Link href="/terms-and-conditions">Terms & Conditions</Link>

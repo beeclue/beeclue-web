@@ -487,7 +487,7 @@
 
 /* Footer */
 .footer {
-  height: 80vh;
+  min-height: 80vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -495,6 +495,8 @@
   color: #fff;
   position: relative;
   z-index: 5;
+  padding-top: 4rem;
+  padding-bottom: 6rem;
 }
 
 .footerContent {
@@ -982,3 +984,45 @@
     width: 100%;
   }
 }
+
+.heroRatingContainer {
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.heroRatingBadge {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+@media (max-width: 480px) {
+  .heroRatingBadge {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.25rem;
+  }
+}
+
+.industriesGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  margin-top: 3rem;
+}
+
+@media (max-width: 1024px) {
+  .industriesGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 991px) {
+  .industriesGrid {
+    grid-template-columns: 1fr;
+  }
+}
+
+
