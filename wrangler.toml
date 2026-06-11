@@ -1,5 +1,6 @@
 name = "beeclue-web"
 compatibility_date = "2024-06-10"
+pages_build_output_dir = ".vercel/output/static"
 
 [vars]
 # Put your non-secret environment variables here.
