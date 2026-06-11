@@ -6,6 +6,8 @@ import SmoothScroll from "@/components/SmoothScroll";
 import CustomCursor from "@/components/CustomCursor";
 import Navigation from "@/components/Navigation";
 import GlobalLogo from "@/components/GlobalLogo";
+import Footer from "@/components/Footer";
+import { GoogleTagManager, GoogleAnalytics } from '@next/third-parties/google';
 
 import BackgroundScene from "@/components/BackgroundScene";
 
@@ -61,6 +63,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={`${inter.variable} ${outfit.variable}`} suppressHydrationWarning>
+      <GoogleTagManager gtmId="GTM-TPL6XD4" />
+      <GoogleAnalytics gaId="G-23WTB04MCH" />
       <body suppressHydrationWarning>
         <script
           type="application/ld+json"
@@ -98,6 +102,7 @@ export default function RootLayout({
           <div className="animatedGrid"></div>
           <BackgroundScene />
           {children}
+          <Footer />
         </SmoothScroll>
       </body>
     </html>

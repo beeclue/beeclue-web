@@ -286,35 +286,6 @@ export default function UiUxDesignTorontoPage() {
           </div>
         </div>
       </FadeIn>
-
-      {/* FOOTER CTA */}
-      <footer className={styles.footer}>
-        <div className={styles.footerContent}>
-          <h2>Let's Build Something Powerful</h2>
-          <p className={styles.footerSub}>Start your project today and build digital solutions designed for growth.</p>
-          <div className={styles.footerActions}>
-            <Link href="/contact" className={styles.ctaButtonLight}>
-              Start a Project
-            </Link>
-          </div>
-          <div className={styles.footerContact}>
-            <a href="mailto:hello@beeclue.com" className={styles.emailLink}>
-              hello@beeclue.com
-            </a>
-            <a href="tel:+16479476253" className={styles.emailLink}>
-              +1 (647) 947-6253
-            </a>
-            <p className={styles.footerLocation}>36 Carslake Crescent, Toronto, ON M1J 2A7</p>
-            <div className={styles.legalLinks}>
-              <Link href="/blogs">Blogs</Link>
-              <span>|</span>
-              <Link href="/privacy-policy">Privacy Policy</Link>
-              <span>|</span>
-              <Link href="/terms-and-conditions">Terms & Conditions</Link>
-            </div>
-          </div>
-        </div>
-      </footer>
     </main>
   );
 }

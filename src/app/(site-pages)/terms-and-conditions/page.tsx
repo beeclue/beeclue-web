@@ -174,34 +174,6 @@ export default function TermsAndConditions() {
         <p>At Beeclue, we constantly update our website to serve you better. We may also modify our terms and conditions without any prior notice. Modifications are with immediate effect once they are posted on the website. On visiting our website, you are accepting our Terms and Conditions of using our website.</p>
         <p>Last updated: February 07, 2023</p>
       </FadeIn>
-
-      <footer className={pageStyles.footer}>
-        <div className={pageStyles.footerContent}>
-          <h2>Let's Build Something Powerful</h2>
-          <p className={pageStyles.footerSub}>Start your project today and build digital solutions designed for growth.</p>
-          <div className={pageStyles.footerActions}>
-            <Link href="/contact" className={pageStyles.ctaButtonLight}>
-              Start a Project
-            </Link>
-          </div>
-          <div className={pageStyles.footerContact}>
-            <a href="mailto:hello@beeclue.com" className={pageStyles.emailLink}>
-              hello@beeclue.com
-            </a>
-            <a href="tel:+16479476253" className={pageStyles.emailLink}>
-              +1 (647) 947-6253
-            </a>
-            <p className={pageStyles.footerLocation}>36 Carslake Crescent, Toronto, ON M1J 2A7</p>
-            <div className={pageStyles.legalLinks}>
-              <Link href="/blogs">Blogs</Link>
-              <span>|</span>
-              <Link href="/privacy-policy">Privacy Policy</Link>
-              <span>|</span>
-              <Link href="/terms-and-conditions">Terms & Conditions</Link>
-            </div>
-          </div>
-        </div>
-      </footer>
     </main>
   );
 }

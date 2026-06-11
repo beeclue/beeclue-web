@@ -1,0 +1,7 @@
+name = "beeclue-web"
+compatibility_date = "2024-06-10"
+
+[vars]
+# Put your non-secret environment variables here.
+# For secrets like API keys, do NOT put them here. Instead, create a .dev.vars file for local testing
+# and add them via the Cloudflare Dashboard for production.

@@ -151,35 +151,6 @@ export default function BlogPost() {
           </FadeIn>
         </div>
       </article>
-
-      {/* FOOTER CTA */}
-      <footer className={globalStyles.footer}>
-        <div className={globalStyles.footerContent}>
-          <h2>Let's Build Something Powerful</h2>
-          <p className={globalStyles.footerSub}>Start your project today and build digital solutions designed for growth.</p>
-          <div className={globalStyles.footerActions} style={{ marginBottom: "2rem" }}>
-            <Link href="/contact" className={globalStyles.ctaButtonLight}>
-              Start a Project
-            </Link>
-          </div>
-          <div className={globalStyles.footerContact}>
-            <a href="mailto:hello@beeclue.com" className={globalStyles.emailLink}>
-              hello@beeclue.com
-            </a>
-            <a href="tel:+16479476253" className={globalStyles.emailLink}>
-              +1 (647) 947-6253
-            </a>
-            <p className={globalStyles.footerLocation}>36 Carslake Crescent, Toronto, ON M1J 2A7</p>
-            <div className={globalStyles.legalLinks}>
-              <Link href="/blogs">Blogs</Link>
-              <span>|</span>
-              <Link href="/privacy-policy">Privacy Policy</Link>
-              <span>|</span>
-              <Link href="/terms-and-conditions">Terms & Conditions</Link>
-            </div>
-          </div>
-        </div>
-      </footer>
     </main>
   );
 }
