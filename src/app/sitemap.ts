@@ -19,6 +19,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/ui-ux-design-toronto',
     '/web-design-toronto',
     '/wordpress-web-design-canada',
+    // Landing Pages
+    '/19',
     // Case Studies
     '/case-studies/blues-contracting-services',
     '/case-studies/gir-security',
