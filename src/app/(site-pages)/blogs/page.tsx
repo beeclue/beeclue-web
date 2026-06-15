@@ -37,6 +37,29 @@ export default function BlogsPage() {
           <div className={styles.caseStudyListItem}>
             <div className={styles.caseStudyListImage} style={{ position: "relative" }}>
               <Image 
+                src="https://images.unsplash.com/photo-1561070791-2526d30994b5?ixlib=rb-4.0.3&auto=format&fit=crop&w=2400&q=80" 
+                alt="Creative Brand Identity and Website Design Process" 
+                fill
+                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                style={{ objectFit: "cover" }}
+              />
+            </div>
+            <div className={styles.caseStudyListContent}>
+              <h2>How to Design a Website That Reflects Your Brand Identity</h2>
+              <p>
+                Learn the essential strategies to design a website that perfectly aligns with and amplifies your brand identity, ensuring you stand out in a crowded digital landscape.
+              </p>
+              <div>
+                <Link href="/design-a-website-that-reflects-your-brand-identity" className={styles.ctaButtonLight}>
+                  Read Article <ArrowRight className={styles.arrow} size={20} />
+                </Link>
+              </div>
+            </div>
+          </div>
+
+          <div className={styles.caseStudyListItem}>
+            <div className={styles.caseStudyListImage} style={{ position: "relative" }}>
+              <Image 
                 src="https://images.unsplash.com/photo-1606811841689-23dfddce3e95?ixlib=rb-4.0.3&auto=format&fit=crop&w=2400&q=80" 
                 alt="Modern Dental Clinic Interior and Equipment" 
                 fill
