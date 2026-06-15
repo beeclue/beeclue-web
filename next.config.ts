@@ -9,6 +9,11 @@ const nextConfig: NextConfig = {
         destination: '/about-us',
         permanent: true,
       },
+      {
+        source: '/portfolio',
+        destination: '/case-studies',
+        permanent: true,
+      },
     ];
   },
   pageExtensions: ["js", "jsx", "md", "mdx", "ts", "tsx"],
