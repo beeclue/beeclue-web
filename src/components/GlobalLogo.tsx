@@ -11,7 +11,9 @@ export default function GlobalLogo() {
         width={160}
         height={40}
         className={styles.logoImage}
-        priority
+        priority={true}
+        loading="eager"
+        fetchPriority="high"
       />
     </Link>
   );
