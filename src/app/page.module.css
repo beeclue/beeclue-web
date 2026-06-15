@@ -679,7 +679,8 @@
 }
 
 .footerLocation {
-  color: var(--muted);
+  color: var(--foreground);
+  opacity: 0.85;
   font-size: 0.875rem;
   text-transform: uppercase;
   letter-spacing: 0.1em;
@@ -821,18 +822,20 @@
   gap: 1rem;
   margin-top: 1rem;
   font-size: 0.9rem;
-  color: var(--muted);
+  color: var(--foreground);
+  opacity: 0.85;
   justify-content: center;
 }
 
 .legalLinks a {
-  color: var(--muted);
+  color: var(--foreground);
   text-decoration: none;
-  transition: color 0.3s ease;
+  transition: opacity 0.3s ease, color 0.3s ease;
 }
 
 .legalLinks a:hover {
-  color: var(--foreground);
+  opacity: 1;
+  color: #fff;
 }
 
 
