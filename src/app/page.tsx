@@ -71,37 +71,37 @@ export default function Home() {
             <LayoutTemplate className={styles.serviceIcon} />
             <h3>Premium Web Design & Development</h3>
             <p>We craft modern, luxury web interfaces using Next.js, React, and tailored CMS solutions like WordPress. Fast, mobile-first, and structured for maximum usability and search engine visibility.</p>
-            <Link href="/web-design-toronto/" className={styles.learnMoreLink}>Learn More <ArrowRight size={16} /></Link>
+            <Link href="/web-design-toronto/" className={styles.learnMoreLink} aria-label="Learn more about Web Design & Development">Learn More <ArrowRight size={16} /></Link>
           </div>
           <div className={styles.serviceCard}>
             <Code className={styles.serviceIcon} />
             <h3>Custom Software & SaaS</h3>
             <p>From complex internal management portals to highly scalable B2B SaaS platforms. We build reliable, secure backends using Node.js, Python, and scalable cloud architectures.</p>
-            <Link href="/custom-software-development-toronto/" className={styles.learnMoreLink}>Learn More <ArrowRight size={16} /></Link>
+            <Link href="/custom-software-development-toronto/" className={styles.learnMoreLink} aria-label="Learn more about Custom Software & SaaS Development">Learn More <ArrowRight size={16} /></Link>
           </div>
           <div className={styles.serviceCard}>
             <Smartphone className={styles.serviceIcon} />
             <h3>Mobile App Development</h3>
             <p>Powerful, native-feeling mobile applications for iOS and Android using React Native and Swift. We take you from startup MVPs to full-scale, globally distributed enterprise products.</p>
-            <Link href="/mobile-app-development-toronto/" className={styles.learnMoreLink}>Learn More <ArrowRight size={16} /></Link>
+            <Link href="/mobile-app-development-toronto/" className={styles.learnMoreLink} aria-label="Learn more about Mobile App Development">Learn More <ArrowRight size={16} /></Link>
           </div>
           <div className={styles.serviceCard}>
             <ShoppingCart className={styles.serviceIcon} />
             <h3>Ecommerce Development</h3>
             <p>Secure, beautifully designed online stores built on Shopify Plus or custom headless architectures. Optimized for blazing speed, seamless checkout, and customer retention.</p>
-            <Link href="/ecommerce-development-toronto/" className={styles.learnMoreLink}>Learn More <ArrowRight size={16} /></Link>
+            <Link href="/ecommerce-development-toronto/" className={styles.learnMoreLink} aria-label="Learn more about Ecommerce Development">Learn More <ArrowRight size={16} /></Link>
           </div>
           <div className={styles.serviceCard}>
             <Search className={styles.serviceIcon} />
             <h3>SEO & Digital Visibility</h3>
             <p>Strategic local Toronto SEO and broad international search engine optimization. We improve your organic rankings, increase traffic volume, and generate highly qualified leads.</p>
-            <Link href="/seo-services-toronto/" className={styles.learnMoreLink}>Learn More <ArrowRight size={16} /></Link>
+            <Link href="/seo-services-toronto/" className={styles.learnMoreLink} aria-label="Learn more about SEO & Digital Visibility Services">Learn More <ArrowRight size={16} /></Link>
           </div>
           <div className={styles.serviceCard}>
             <LayoutTemplate className={styles.serviceIcon} />
             <h3>UI/UX Design & Branding</h3>
             <p>We create stunning, user-centric interfaces and brand identities that captivate your audience. Effortlessly transform your ideas into stunning, professional layouts with ease.</p>
-            <Link href="/ui-ux-design-toronto/" className={styles.learnMoreLink}>Learn More <ArrowRight size={16} /></Link>
+            <Link href="/ui-ux-design-toronto/" className={styles.learnMoreLink} aria-label="Learn more about UI/UX Design & Branding">Learn More <ArrowRight size={16} /></Link>
           </div>
         </div>
         
