@@ -439,7 +439,7 @@ export default function NineteenDollarPage() {
             <div className={styles.ratingsBadges}>
               <div className={styles.ratingBadge}>
                 <img
-                  src="https://upload.wikimedia.org/wikipedia/commons/c/c1/Google_%22G%22_logo.svg"
+                  src="/google-logo.svg"
                   alt="Google"
                   width="24"
                   height="24"

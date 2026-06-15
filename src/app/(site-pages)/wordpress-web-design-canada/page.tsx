@@ -243,7 +243,7 @@ export default function WordPressWebDesignCanadaPage() {
           <div className={styles.reviewsMeta}>
             <div className={styles.ratingsBadges}>
               <div className={styles.ratingBadge}>
-                <img src="https://upload.wikimedia.org/wikipedia/commons/c/c1/Google_%22G%22_logo.svg" alt="Google" width="24" height="24" />
+                <img src="/google-logo.svg" alt="Google" width="24" height="24" />
                 <div className={styles.ratingInfo}>
                   <div className={styles.ratingStars}>★★★★★</div>
                   <span className={styles.ratingText}>5.0 Rating</span>
