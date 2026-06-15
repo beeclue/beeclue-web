@@ -125,6 +125,7 @@ export default function Home() {
                 src="https://cdn.jsdelivr.net/gh/beeclue/clients@main/self/sure-shot-photobooth-rental.webp"
                 alt="Sure Shot Photobooth"
                 fill
+                sizes="(max-width: 768px) 100vw, 50vw"
                 style={{ objectFit: 'contain', padding: '2rem 0' }}
               />
             </div>
@@ -142,6 +143,7 @@ export default function Home() {
                 src="https://cdn.jsdelivr.net/gh/beeclue/clients@main/self/blues-contracting-services.webp"
                 alt="Blues Contracting Services"
                 fill
+                sizes="(max-width: 768px) 100vw, 50vw"
                 style={{ objectFit: 'contain', padding: '2rem 0' }}
               />
             </div>
@@ -306,6 +308,7 @@ export default function Home() {
                 src="https://cdn.jsdelivr.net/gh/beeclue/clients@main/self/monexa.png"
                 alt="Monexa Logo"
                 fill
+                sizes="(max-width: 768px) 100vw, 50vw"
                 style={{ objectFit: 'contain', padding: '3rem' }}
               />
             </div>
