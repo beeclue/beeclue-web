@@ -1,17 +1,13 @@
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Sure Shot Photobooth Case Study | Beeclue Tech",
-  description: "Discover how Beeclue Tech built a highly interactive, modern Next.js website for Sure Shot Photobooth featuring immersive animations and advanced SEO.",
-  alternates: {
-    canonical: "https://beeclue.com/case-studies/sure-shot-photobooth",
-  },
+  title: "Sure Shot Photobooth - Web Experience Case Study",
 };
 
-export default function SureShotLayout({
+export default function Layout({
   children,
 }: {
   children: React.ReactNode;
 }) {
-  return <>{children}</>;
+  return children;
 }

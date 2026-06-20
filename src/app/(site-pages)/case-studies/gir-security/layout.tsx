@@ -1,14 +1,13 @@
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "G.I.R Security Case Study | Beeclue Tech",
-  description: "Learn how Beeclue Tech transformed G.I.R Security's digital presence with a custom web platform, career portal, and modern branding.",
+  title: "Gir Security - Web Experience Case Study",
 };
 
-export default function CaseStudyLayout({
+export default function Layout({
   children,
 }: {
-  children: React.ReactNode
+  children: React.ReactNode;
 }) {
-  return <>{children}</>;
+  return children;
 }

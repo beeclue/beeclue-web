@@ -1,7 +1,7 @@
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Our Portfolio & Case Studies | Beeclue Tech",
+  title: "UI/UX Design Services in Toronto | Beeclue Tech",
 };
 
 export default function Layout({

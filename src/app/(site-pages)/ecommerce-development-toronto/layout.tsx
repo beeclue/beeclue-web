@@ -1,7 +1,7 @@
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Our Portfolio & Case Studies | Beeclue Tech",
+  title: "E-Commerce Development in Toronto | Shopify Experts | Beeclue Tech",
 };
 
 export default function Layout({

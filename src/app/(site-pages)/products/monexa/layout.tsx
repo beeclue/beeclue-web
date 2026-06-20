@@ -1,17 +1,13 @@
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Monexa | Take Control of Your Finances",
-  description: "Monexa by Beeclue Tech is the simple, beautiful, and powerful way to track expenses, manage budgets, and achieve your financial goals.",
-  alternates: {
-    canonical: "https://beeclue.com/products/monexa",
-  },
+  title: "Monexa | Personal Finance Manager built by Beeclue Tech",
 };
 
-export default function MonexaLayout({
+export default function Layout({
   children,
 }: {
   children: React.ReactNode;
 }) {
-  return <>{children}</>;
+  return children;
 }

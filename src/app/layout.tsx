@@ -22,7 +22,7 @@ const outfit = Outfit({
 });
 
 export const metadata: Metadata = {
-  title: "Beeclue Tech | Luxury Web Design & Software Agency",
+  title: "Beeclue Tech | Luxury Web Design & Custom Software Agency",
   description: "Beeclue Tech is a premium web design and custom software development agency specializing in Next.js, WordPress, and Shopify.",
   icons: {
     icon: [
