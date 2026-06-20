@@ -31,6 +31,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/products/monexa',
     // Blogs
     '/blogs',
+    '/best-school-website-design-companies-canada',
     '/wechat-integration-for-canadian-businesses',
     '/must-have-features-for-modern-school-websites',
     '/cost-to-build-ecommerce-website-canada',

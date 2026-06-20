@@ -6,18 +6,18 @@ import FadeIn from "@/components/FadeIn";
 import blogStyles from "../shared-blog.module.css";
 
 export const metadata: Metadata = {
-  title: "How to Fix the "Not Secure" Website Warning: A Step-by-Step Guide | Beeclue",
-  description: "Seeing a dangerous "Not Secure" warning on your site? Learn exactly how to fix it by installing an SSL certificate to protect your customers and SEO.",
+  title: 'How to Fix the "Not Secure" Website Warning: A Step-by-Step Guide | Beeclue',
+  description: 'Seeing a dangerous "Not Secure" warning on your site? Learn exactly how to fix it by installing an SSL certificate to protect your customers and SEO.',
   openGraph: {
-    title: "How to Fix the "Not Secure" Website Warning: A Step-by-Step Guide | Beeclue",
-    description: "Seeing a dangerous "Not Secure" warning on your site? Learn exactly how to fix it by installing an SSL certificate to protect your customers and SEO.",
+    title: 'How to Fix the "Not Secure" Website Warning: A Step-by-Step Guide | Beeclue',
+    description: 'Seeing a dangerous "Not Secure" warning on your site? Learn exactly how to fix it by installing an SSL certificate to protect your customers and SEO.',
     url: "https://beeclue.com/how-to-fix-not-secure-website-warning",
     images: [
       {
         url: "https://images.unsplash.com/photo-1563206767-5b18f218e8de?ixlib=rb-4.0.3&auto=format&fit=crop&w=2400&q=80",
         width: 1200,
         height: 630,
-        alt: "How to Fix the "Not Secure" Website Warning: A Step-by-Step Guide",
+        alt: 'How to Fix the "Not Secure" Website Warning: A Step-by-Step Guide',
       },
     ],
   },
@@ -40,7 +40,7 @@ export default function BlogPost() {
         <FadeIn className={blogStyles.heroImageContainer}>
           <Image 
             src="https://images.unsplash.com/photo-1563206767-5b18f218e8de?ixlib=rb-4.0.3&auto=format&fit=crop&w=2400&q=80" 
-            alt="How to Fix the "Not Secure" Website Warning: A Step-by-Step Guide" 
+            alt='How to Fix the "Not Secure" Website Warning: A Step-by-Step Guide' 
             fill
             sizes="(max-width: 1000px) 100vw, 1000px"
             className={blogStyles.heroImage}
@@ -52,7 +52,7 @@ export default function BlogPost() {
           <FadeIn>
             
       <p>Imagine a potential customer clicking on your website from a Google search, only to be greeted by a massive red screen that reads: <strong>"Warning: Your connection is not private. Attackers might be trying to steal your information."</strong> What do they do? They panic, hit the back button immediately, and likely never return. This terrifying user experience is the direct result of a "Not Secure" warning.</p>
-      <p>As cyber threats become increasingly sophisticated, modern web browsers like Google Chrome, Safari, and Firefox have drawn a hard line in the sand. They aggressively warn users when they land on a website that is not properly encrypted. If your business website is displaying this warning, you are bleeding traffic, losing revenue, and suffering catastrophic damage to your brand's credibility.</p>
+      <p>As cyber threats become increasingly sophisticated, modern web browsers like Google Chrome, Safari, and Firefox have drawn a hard line in the sand. They aggressively warn users when they land on a website that is not properly encrypted. If your business website is displaying this warning, you are bleeding traffic, losing revenue, and suffering catastrophic damage to your brand's credibility. If you want a deeper dive into the implications of this warning, check out our guide on <Link href="/not-secure-warning-what-does-it-mean-when-a-site-is-not-secure" className={blogStyles.internalLink}>what it means when a site is not secure</Link>.</p>
       <p>The good news? The solution is entirely technical, highly straightforward, and permanently fixable. In this comprehensive guide, the security engineers at Beeclue Tech will explain exactly what causes the "Not Secure" warning and provide a step-by-step tutorial on how to permanently eliminate it from your website.</p>
       
       <h2>Understanding the Root Cause: HTTP vs. HTTPS</h2>
@@ -80,7 +80,7 @@ export default function BlogPost() {
       <h2>Step 3: Force HTTPS with 301 Redirects</h2>
       <p>Installing the SSL certificate is only half the battle. Your website is now technically capable of serving secure HTTPS connections, but users (and Google) can still access the old, unsecure HTTP version if they type it directly or click an old link.</p>
       <p>You must forcefully redirect all HTTP traffic to the secure HTTPS version. This is achieved by implementing server-level 301 (Permanent) redirects. For example, if a user attempts to visit <code>http://beeclue.com</code>, the server must instantly and automatically redirect them to <code>https://beeclue.com</code>.</p>
-      <p>This is a critical step for SEO. If you fail to implement 301 redirects, Google will view the HTTP and HTTPS versions of your site as two completely separate websites, resulting in catastrophic duplicate content penalties and a massive drop in search rankings.</p>
+      <p>This is a critical step for SEO. If you fail to implement 301 redirects, <a href="https://developers.google.com/search/docs/advanced/security/https?utm_source=beeclue&utm_medium=blog&utm_campaign=how-to-fix-not-secure-website-warning" target="_blank" rel="noopener noreferrer" className={blogStyles.internalLink}>Google</a> will view the HTTP and HTTPS versions of your site as two completely separate websites, resulting in catastrophic duplicate content penalties and a massive drop in search rankings. If you need help recovering from a drop like this, our <Link href="/seo-services-toronto" className={blogStyles.internalLink}>Toronto SEO services</Link> can help restore your online visibility.</p>
 
       <h2>Step 4: Resolve "Mixed Content" Errors</h2>
       <p>After forcing HTTPS, you may notice that the padlock icon is still missing, or the browser displays a subtle warning saying "Parts of this page are not secure." This is caused by Mixed Content Errors.</p>
