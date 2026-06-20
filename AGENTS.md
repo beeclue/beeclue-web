@@ -23,6 +23,7 @@ This version has breaking changes — APIs, conventions, and file structure may 
 - Add internal and external relevant links (ask before adding any external link)
 - Each blog's length should be atleast 2000 words upper limit 5000 words. 
 - Add All Blog Links to the SiteMap
+- Add a Unique SEO Friendly Title and Meta Description for It. 
 
 # Links
 - For all the external links or the links opening in a new tab please make sure you add UTM tags for all of them. Use the format: ?utm_source=beeclue&utm_medium=blog&utm_campaign=<blog-name>
