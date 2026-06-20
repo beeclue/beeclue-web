@@ -80,7 +80,7 @@ export default function BlogPost() {
 
           <FadeIn className={blogStyles.inlineImageContainer}>
             <Image 
-              src="https://images.unsplash.com/photo-1521590832167-7bfc17484d56?ixlib=rb-4.0.3&auto=format&fit=crop&w=2400&q=80" 
+              src="https://images.unsplash.com/photo-1634449571010-02389ed0f9b0?ixlib=rb-4.0.3&auto=format&fit=crop&w=2400&q=80" 
               alt="Stylist working on client's hair in a bright salon" 
               fill
               sizes="(max-width: 1000px) 100vw, 1000px"
@@ -163,7 +163,7 @@ export default function BlogPost() {
 
           <FadeIn className={blogStyles.inlineImageContainer}>
             <Image 
-              src="https://images.unsplash.com/photo-1595476108010-b4d1f10d5e43?ixlib=rb-4.0.3&auto=format&fit=crop&w=2400&q=80" 
+              src="https://images.unsplash.com/photo-1580618672591-eb180b1a973f?ixlib=rb-4.0.3&auto=format&fit=crop&w=2400&q=80" 
               alt="Skincare products lined up on a shelf in a spa" 
               fill
               sizes="(max-width: 1000px) 100vw, 1000px"
