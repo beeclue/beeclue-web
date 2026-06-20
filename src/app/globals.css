@@ -55,7 +55,7 @@ a {
   background: var(--background);
 }
 ::-webkit-scrollbar-thumb {
-  background: var(--border);
+  background: var(--primary-light);
   border-radius: 4px;
 }
 ::-webkit-scrollbar-thumb:hover {

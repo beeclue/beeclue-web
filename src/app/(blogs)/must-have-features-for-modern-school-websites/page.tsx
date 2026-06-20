@@ -14,7 +14,7 @@ export const metadata: Metadata = {
     url: "https://beeclue.com/must-have-features-for-modern-school-websites",
     images: [
       {
-        url: "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?ixlib=rb-4.0.3&auto=format&fit=crop&w=2400&q=80",
+        url: "https://images.unsplash.com/photo-1498243691581-b145c3f54a5a?ixlib=rb-4.0.3&auto=format&fit=crop&w=2400&q=80",
         width: 1200,
         height: 630,
         alt: "7 Must-Have Features for Modern School and Educational Websites",
@@ -39,7 +39,7 @@ export default function BlogPost() {
 
         <FadeIn className={blogStyles.heroImageContainer}>
           <Image 
-            src="https://images.unsplash.com/photo-1523050854058-8df90110c9f1?ixlib=rb-4.0.3&auto=format&fit=crop&w=2400&q=80" 
+            src="https://images.unsplash.com/photo-1498243691581-b145c3f54a5a?ixlib=rb-4.0.3&auto=format&fit=crop&w=2400&q=80" 
             alt="7 Must-Have Features for Modern School and Educational Websites" 
             fill
             sizes="(max-width: 1000px) 100vw, 1000px"

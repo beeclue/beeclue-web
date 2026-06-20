@@ -1,4 +1,4 @@
-import { motion } from "framer-motion";
+import { m } from 'framer-motion';
 "use client";
 
 import { Canvas, useFrame } from "@react-three/fiber";
@@ -95,7 +95,7 @@ function Particles() {
 
 export default function Scene() {
   return (
-    <motion.div 
+    <m.div 
       initial={{ opacity: 0 }} 
       animate={{ opacity: 0.8 }} 
       transition={{ duration: 2, ease: "easeOut" }}
@@ -110,6 +110,6 @@ export default function Scene() {
           <Particles />
         </Suspense>
       </Canvas>
-    </motion.div>
+    </m.div>
   );
 }

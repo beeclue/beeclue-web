@@ -31,6 +31,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/products/monexa',
     // Blogs
     '/blogs',
+    '/salon-barbershop-loyalty-programs-to-increase-business',
     '/best-school-website-design-companies-canada',
     '/wechat-integration-for-canadian-businesses',
     '/must-have-features-for-modern-school-websites',

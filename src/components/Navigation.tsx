@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from "react";
 import Link from "next/link";
-import { motion, AnimatePresence } from "framer-motion";
+import { m, AnimatePresence } from 'framer-motion';
 import styles from "./Navigation.module.css";
 import { Menu, X, Plus, Minus } from "lucide-react";
 import { usePathname } from "next/navigation";
@@ -151,7 +151,7 @@ export default function Navigation() {
       {/* Full Screen Overlay */}
       <AnimatePresence>
         {isOpen && (
-          <motion.div 
+          <m.div 
             className={styles.overlay}
             variants={menuVariants}
             initial="closed"
@@ -159,7 +159,7 @@ export default function Navigation() {
             exit="closed"
             data-lenis-prevent="true"
           >
-            <motion.div 
+            <m.div 
               className={styles.menuContainer}
               variants={containerVariants}
               initial="closed"
@@ -167,7 +167,7 @@ export default function Navigation() {
             >
               <nav className={styles.nav}>
                 {menuLinks.map((link, i) => (
-                  <motion.div key={i} variants={itemVariants} className={styles.navItemWrapper}>
+                  <m.div key={i} variants={itemVariants} className={styles.navItemWrapper}>
                     {link.isNested ? (
                       <div className={styles.nestedWrapper}>
                         <button 
@@ -182,7 +182,7 @@ export default function Navigation() {
                         </button>
                         <AnimatePresence>
                           {isServicesOpen && (
-                            <motion.div 
+                            <m.div 
                               className={styles.nestedList}
                               variants={nestedContainerVariants}
                               initial="closed"
@@ -194,7 +194,7 @@ export default function Navigation() {
                                   {child.name}
                                 </Link>
                               ))}
-                            </motion.div>
+                            </m.div>
                           )}
                         </AnimatePresence>
                       </div>
@@ -203,11 +203,11 @@ export default function Navigation() {
                         {link.name}
                       </Link>
                     )}
-                  </motion.div>
+                  </m.div>
                 ))}
               </nav>
 
-              <motion.div variants={itemVariants} className={styles.footer}>
+              <m.div variants={itemVariants} className={styles.footer}>
                 <div className={styles.socialLinks}>
                   {socialLinks.map((social, i) => (
                     <a 
@@ -227,9 +227,9 @@ export default function Navigation() {
                   <a href="tel:+16479476253">+1 (647) 947-6253</a>
                   <span>36 Carslake Crescent<br/>Toronto, ON M1J 2A7</span>
                 </div>
-              </motion.div>
-            </motion.div>
-          </motion.div>
+              </m.div>
+            </m.div>
+          </m.div>
         )}
       </AnimatePresence>
     </>

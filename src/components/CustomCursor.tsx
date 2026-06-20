@@ -1,23 +1,23 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { motion } from "framer-motion";
+import { m, useMotionValue, useSpring } from 'framer-motion';
 import styles from "./CustomCursor.module.css";
 
 export default function CustomCursor() {
-  const [mousePosition, setMousePosition] = useState({
-    x: 0,
-    y: 0,
-  });
+  const cursorX = useMotionValue(-100);
+  const cursorY = useMotionValue(-100);
+
+  const springConfig = { damping: 28, stiffness: 500, mass: 0.5 };
+  const cursorXSpring = useSpring(cursorX, springConfig);
+  const cursorYSpring = useSpring(cursorY, springConfig);
 
   const [isHovering, setIsHovering] = useState(false);
 
   useEffect(() => {
     const updateMousePosition = (e: MouseEvent) => {
-      setMousePosition({
-        x: e.clientX,
-        y: e.clientY,
-      });
+      cursorX.set(e.clientX - 16);
+      cursorY.set(e.clientY - 16);
     };
 
     const handleMouseOver = (e: MouseEvent) => {
@@ -41,17 +41,14 @@ export default function CustomCursor() {
       window.removeEventListener("mousemove", updateMousePosition);
       window.removeEventListener("mouseover", handleMouseOver);
     };
-  }, []);
+  }, [cursorX, cursorY]);
 
   const variants = {
     default: {
-      x: mousePosition.x - 16,
-      y: mousePosition.y - 16,
       scale: 1,
+      backgroundColor: "transparent",
     },
     hover: {
-      x: mousePosition.x - 16,
-      y: mousePosition.y - 16,
       scale: 2.5,
       backgroundColor: "var(--primary)",
       mixBlendMode: "difference" as any,
@@ -60,10 +57,14 @@ export default function CustomCursor() {
   };
 
   return (
-    <motion.div
+    <m.div
       className={styles.cursor}
       variants={variants}
       animate={isHovering ? "hover" : "default"}
+      style={{
+        x: cursorXSpring,
+        y: cursorYSpring,
+      }}
       transition={{
         type: "spring",
         stiffness: 500,

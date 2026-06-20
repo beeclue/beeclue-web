@@ -152,7 +152,7 @@
   color: #fff;
 }
 
-.internalLink {
+.internalLink, .blogContent a {
   color: var(--primary-light);
   text-decoration: underline;
   text-decoration-color: rgba(0, 204, 255, 0.3);
@@ -160,7 +160,7 @@
   transition: all 0.2s ease;
 }
 
-.internalLink:hover {
+.internalLink:hover, .blogContent a:hover {
   text-decoration-color: var(--primary-light);
   color: #fff;
 }

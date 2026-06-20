@@ -10,6 +10,7 @@ import Footer from "@/components/Footer";
 import { GoogleTagManager, GoogleAnalytics } from '@next/third-parties/google';
 
 import BackgroundScene from "@/components/BackgroundScene";
+import AnimationProvider from "@/components/AnimationProvider";
 
 const inter = Inter({
   variable: "--font-inter",
@@ -150,15 +151,17 @@ export default function RootLayout({
             ])
           }}
         />
-        <SmoothScroll>
-          <GlobalLogo />
-          <Navigation />
-          <CustomCursor />
-          <div className="animatedGrid"></div>
-          <BackgroundScene />
-          {children}
-          <Footer />
-        </SmoothScroll>
+        <AnimationProvider>
+          <SmoothScroll>
+            <GlobalLogo />
+            <Navigation />
+            <CustomCursor />
+            <div className="animatedGrid"></div>
+            <BackgroundScene />
+            {children}
+            <Footer />
+          </SmoothScroll>
+        </AnimationProvider>
       </body>
     </html>
   );

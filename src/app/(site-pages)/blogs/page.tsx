@@ -19,24 +19,44 @@ export default function BlogsPage() {
     <main className={styles.main}>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       {/* HEADER SECTION */}
-      <FadeIn className={styles.baseSection} style={{ paddingTop: "20vh", minHeight: "40vh", display: "flex", alignItems: "center" }}>
+      <FadeIn className={styles.baseSection} style={{ paddingTop: "15vh", paddingBottom: "5vh", minHeight: "25vh", display: "flex", alignItems: "center" }}>
         <div className={styles.heroContent}>
           <h1 className={styles.title} style={{ fontSize: "clamp(2.5rem, 6vw, 5rem)" }}>
             <span className={styles.titleLinePrimary}>Our Latest Insights</span>
           </h1>
-          <p className={styles.subtitle} style={{ fontSize: "1.25rem", maxWidth: "800px" }}>
+          <p className={styles.subtitle} style={{ fontSize: "1.25rem", maxWidth: "800px", marginBottom: "1rem" }}>
             Explore industry trends, tech strategies, and actionable advice to scale your digital presence.
           </p>
         </div>
       </FadeIn>
 
       {/* BLOGS LIST */}
-      <FadeIn className={styles.baseSection}>
+      <FadeIn className={styles.baseSection} style={{ paddingTop: "5vh" }}>
         <div className={styles.caseStudyList}>
           <div className={styles.caseStudyListItem}>
             <div className={styles.caseStudyListImage} style={{ position: "relative" }}>
               <Image 
-                src="https://images.unsplash.com/photo-1523050854058-8df90110c9f1?ixlib=rb-4.0.3&auto=format&fit=crop&w=2400&q=80" 
+                src="https://images.unsplash.com/photo-1503951914875-452162b0f3f1?ixlib=rb-4.0.3&auto=format&fit=crop&w=2400&q=80" 
+                alt="Barbershop chair and mirror" 
+                fill
+                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                style={{ objectFit: "cover" }}
+              />
+            </div>
+            <div className={styles.caseStudyListContent}>
+              <h2>How Salons and Barbershops Can Increase Business Using Loyalty Points</h2>
+              <p>Learn how barbershops and salons can use loyalty points and rewards programs to increase client retention, frequency, and revenue. Compare top apps and custom solutions.</p>
+              <div>
+                <Link href="/salon-barbershop-loyalty-programs-to-increase-business" className={styles.ctaButtonLight}>
+                  Read Article <ArrowRight className={styles.arrow} size={20} />
+                </Link>
+              </div>
+            </div>
+          </div>
+          <div className={styles.caseStudyListItem}>
+            <div className={styles.caseStudyListImage} style={{ position: "relative" }}>
+              <Image 
+                src="https://images.unsplash.com/photo-1509062522246-3755977927d7?ixlib=rb-4.0.3&auto=format&fit=crop&w=2400&q=80" 
                 alt="University campus building representing school website design" 
                 fill
                 sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
@@ -78,7 +98,7 @@ export default function BlogsPage() {
           <div className={styles.caseStudyListItem}>
             <div className={styles.caseStudyListImage} style={{ position: "relative" }}>
               <Image 
-                src="https://images.unsplash.com/photo-1523050854058-8df90110c9f1?ixlib=rb-4.0.3&auto=format&fit=crop&w=2400&q=80" 
+                src="https://images.unsplash.com/photo-1498243691581-b145c3f54a5a?ixlib=rb-4.0.3&auto=format&fit=crop&w=2400&q=80" 
                 alt="7 Must-Have Features for Modern School and Educational Websites" 
                 fill
                 sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
