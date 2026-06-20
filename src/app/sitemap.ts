@@ -28,6 +28,18 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/case-studies/sure-shot-photobooth',
     // Products
     '/products/monexa',
+    // Blogs
+    '/blogs',
+    '/5-tips-for-choosing-the-right-website-development-company',
+    '/19-month-website-development-offer',
+    '/data-analytics-the-key-to-making-better-business-decisions',
+    '/design-a-website-that-reflects-your-brand-identity',
+    '/is-wix-website-builder-the-right-platform-for-you-pros-and-cons-of-using-wix',
+    '/not-secure-warning-what-does-it-mean-when-a-site-is-not-secure',
+    '/salon-website-development',
+    '/website-development-for-dental-clinics',
+    '/what-is-cms-web-development',
+    '/why-is-school-website-so-important',
   ];
 
   return routes.map((route) => ({

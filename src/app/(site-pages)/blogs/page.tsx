@@ -33,6 +33,51 @@ export default function BlogsPage() {
       {/* BLOGS LIST */}
       <FadeIn className={styles.baseSection}>
         <div className={styles.caseStudyList}>
+          <div className={styles.caseStudyListItem}>
+            <div className={styles.caseStudyListImage} style={{ position: "relative" }}>
+              <Image 
+                src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-4.0.3&auto=format&fit=crop&w=2400&q=80" 
+                alt="Collaborative tech team working together" 
+                fill
+                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                style={{ objectFit: "cover" }}
+              />
+            </div>
+            <div className={styles.caseStudyListContent}>
+              <h2>5 Critical Tips for Choosing the Right Website Development Company</h2>
+              <p>
+                Choosing a web development agency is a major decision. Learn the top 5 expert tips for finding a reliable, high-performance tech partner for your business.
+              </p>
+              <div>
+                <Link href="/5-tips-for-choosing-the-right-website-development-company" className={styles.ctaButtonLight}>
+                  Read Article <ArrowRight className={styles.arrow} size={20} />
+                </Link>
+              </div>
+            </div>
+          </div>
+
+          <div className={styles.caseStudyListItem}>
+            <div className={styles.caseStudyListImage} style={{ position: "relative" }}>
+              <Image 
+                src="https://images.unsplash.com/photo-1560066984-138dadb4c035?ixlib=rb-4.0.3&auto=format&fit=crop&w=2400&q=80" 
+                alt="Modern hair salon interior with luxury aesthetic" 
+                fill
+                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                style={{ objectFit: "cover" }}
+              />
+            </div>
+            <div className={styles.caseStudyListContent}>
+              <h2>Salon Website Development: The Ultimate Guide</h2>
+              <p>
+                Transform your beauty business with expert salon website development. Learn how custom web design and online booking systems can drive massive client growth.
+              </p>
+              <div>
+                <Link href="/salon-website-development" className={styles.ctaButtonLight}>
+                  Read Article <ArrowRight className={styles.arrow} size={20} />
+                </Link>
+              </div>
+            </div>
+          </div>
 
           <div className={styles.caseStudyListItem}>
             <div className={styles.caseStudyListImage} style={{ position: "relative" }}>
