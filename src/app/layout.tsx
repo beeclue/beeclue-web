@@ -69,30 +69,85 @@ export default function RootLayout({
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
-            __html: JSON.stringify({
-              "@context": "https://schema.org",
-              "@type": "LocalBusiness",
-              "name": "Beeclue Tech",
-              "image": "https://beeclue.com/logo.png",
-              "@id": "https://beeclue.com",
-              "url": "https://beeclue.com",
-              "telephone": "+1-647-947-6253",
-              "email": "hello@beeclue.com",
-              "address": {
-                "@type": "PostalAddress",
-                "streetAddress": "36 Carslake Crescent",
-                "addressLocality": "Toronto",
-                "addressRegion": "ON",
-                "postalCode": "M1J 2A7",
-                "addressCountry": "CA"
+            __html: JSON.stringify([
+              {
+                "@context": "https://schema.org",
+                "@type": "LocalBusiness",
+                "name": "Beeclue Tech",
+                "image": "https://beeclue.com/logo.png",
+                "@id": "https://beeclue.com",
+                "url": "https://beeclue.com",
+                "telephone": "+1-647-947-6253",
+                "email": "hello@beeclue.com",
+                "address": {
+                  "@type": "PostalAddress",
+                  "streetAddress": "36 Carslake Crescent",
+                  "addressLocality": "Toronto",
+                  "addressRegion": "ON",
+                  "postalCode": "M1J 2A7",
+                  "addressCountry": "CA"
+                },
+                "geo": {
+                  "@type": "GeoCoordinates",
+                  "latitude": 43.6532,
+                  "longitude": -79.3832
+                },
+                "priceRange": "$$$"
               },
-              "geo": {
-                "@type": "GeoCoordinates",
-                "latitude": 43.6532,
-                "longitude": -79.3832
+              {
+                "@context": "https://schema.org",
+                "@type": "WebSite",
+                "name": "Beeclue Tech",
+                "url": "https://beeclue.com",
+                "potentialAction": {
+                  "@type": "SearchAction",
+                  "target": "https://beeclue.com/search?q={search_term_string}",
+                  "query-input": "required name=search_term_string"
+                }
               },
-              "priceRange": "$$$"
-            })
+              {
+                "@context": "https://schema.org",
+                "@type": "ItemList",
+                "itemListElement": [
+                  {
+                    "@type": "SiteNavigationElement",
+                    "position": 1,
+                    "name": "Services",
+                    "url": "https://beeclue.com/services"
+                  },
+                  {
+                    "@type": "SiteNavigationElement",
+                    "position": 2,
+                    "name": "Case Studies",
+                    "url": "https://beeclue.com/case-studies"
+                  },
+                  {
+                    "@type": "SiteNavigationElement",
+                    "position": 3,
+                    "name": "Web Design",
+                    "url": "https://beeclue.com/web-design-toronto"
+                  },
+                  {
+                    "@type": "SiteNavigationElement",
+                    "position": 4,
+                    "name": "Custom Software",
+                    "url": "https://beeclue.com/custom-software-development-toronto"
+                  },
+                  {
+                    "@type": "SiteNavigationElement",
+                    "position": 5,
+                    "name": "About Us",
+                    "url": "https://beeclue.com/about-us"
+                  },
+                  {
+                    "@type": "SiteNavigationElement",
+                    "position": 6,
+                    "name": "Contact",
+                    "url": "https://beeclue.com/contact"
+                  }
+                ]
+              }
+            ])
           }}
         />
         <SmoothScroll>
