@@ -12,6 +12,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/privacy-policy',
     '/terms-and-conditions',
     // Services
+    '/school-website-design-services',
     '/custom-software-development-toronto',
     '/ecommerce-development-toronto',
     '/mobile-app-development-toronto',
@@ -30,6 +31,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/products/monexa',
     // Blogs
     '/blogs',
+    '/wechat-integration-for-canadian-businesses',
+    '/must-have-features-for-modern-school-websites',
+    '/cost-to-build-ecommerce-website-canada',
+    '/best-ecommerce-website-builder-canada',
+    '/http-vs-https-why-ssl-is-mandatory-for-seo',
+    '/how-to-fix-not-secure-website-warning',
     '/5-tips-for-choosing-the-right-website-development-company',
     '/19-month-website-development-offer',
     '/data-analytics-the-key-to-making-better-business-decisions',

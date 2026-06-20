@@ -36,6 +36,132 @@ export default function BlogsPage() {
           <div className={styles.caseStudyListItem}>
             <div className={styles.caseStudyListImage} style={{ position: "relative" }}>
               <Image 
+                src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=2400&q=80" 
+                alt="WeChat and Alipay Integration for Canadian Businesses: Tapping the Chinese Market" 
+                fill
+                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                style={{ objectFit: "cover" }}
+              />
+            </div>
+            <div className={styles.caseStudyListContent}>
+              <h2>WeChat and Alipay Integration for Canadian Businesses: Tapping the Chinese Market</h2>
+              <p>Learn how integrating WeChat Pay and Alipay into your Canadian website can unlock massive revenue from the local Chinese demographic and international tourists.</p>
+              <div>
+                <Link href="/wechat-integration-for-canadian-businesses" className={styles.ctaButtonLight}>
+                  Read Article <ArrowRight className={styles.arrow} size={20} />
+                </Link>
+              </div>
+            </div>
+          </div>
+
+          <div className={styles.caseStudyListItem}>
+            <div className={styles.caseStudyListImage} style={{ position: "relative" }}>
+              <Image 
+                src="https://images.unsplash.com/photo-1523050854058-8df90110c9f1?ixlib=rb-4.0.3&auto=format&fit=crop&w=2400&q=80" 
+                alt="7 Must-Have Features for Modern School and Educational Websites" 
+                fill
+                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                style={{ objectFit: "cover" }}
+              />
+            </div>
+            <div className={styles.caseStudyListContent}>
+              <h2>7 Must-Have Features for Modern School and Educational Websites</h2>
+              <p>A professional school website is the foundation of digital education. Learn the 7 must-have features every school website needs to boost enrollment and engagement.</p>
+              <div>
+                <Link href="/must-have-features-for-modern-school-websites" className={styles.ctaButtonLight}>
+                  Read Article <ArrowRight className={styles.arrow} size={20} />
+                </Link>
+              </div>
+            </div>
+          </div>
+
+          <div className={styles.caseStudyListItem}>
+            <div className={styles.caseStudyListImage} style={{ position: "relative" }}>
+              <Image 
+                src="https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?ixlib=rb-4.0.3&auto=format&fit=crop&w=2400&q=80" 
+                alt="The Real Cost to Build an E-Commerce Website in Canada" 
+                fill
+                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                style={{ objectFit: "cover" }}
+              />
+            </div>
+            <div className={styles.caseStudyListContent}>
+              <h2>The Real Cost to Build an E-Commerce Website in Canada</h2>
+              <p>How much does it actually cost to build an e-commerce website in Canada? We break down the real costs of Shopify, WooCommerce, and Custom Development.</p>
+              <div>
+                <Link href="/cost-to-build-ecommerce-website-canada" className={styles.ctaButtonLight}>
+                  Read Article <ArrowRight className={styles.arrow} size={20} />
+                </Link>
+              </div>
+            </div>
+          </div>
+
+          <div className={styles.caseStudyListItem}>
+            <div className={styles.caseStudyListImage} style={{ position: "relative" }}>
+              <Image 
+                src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?ixlib=rb-4.0.3&auto=format&fit=crop&w=2400&q=80" 
+                alt="The Best E-Commerce Website Builder in Canada (Shopify vs. Custom)" 
+                fill
+                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                style={{ objectFit: "cover" }}
+              />
+            </div>
+            <div className={styles.caseStudyListContent}>
+              <h2>The Best E-Commerce Website Builder in Canada (Shopify vs. Custom)</h2>
+              <p>Looking for the best e-commerce website builder in Canada? We compare Shopify, WooCommerce, and Custom Next.js builds for Canadian businesses.</p>
+              <div>
+                <Link href="/best-ecommerce-website-builder-canada" className={styles.ctaButtonLight}>
+                  Read Article <ArrowRight className={styles.arrow} size={20} />
+                </Link>
+              </div>
+            </div>
+          </div>
+
+          <div className={styles.caseStudyListItem}>
+            <div className={styles.caseStudyListImage} style={{ position: "relative" }}>
+              <Image 
+                src="https://images.unsplash.com/photo-1555949963-aa79dcee981c?ixlib=rb-4.0.3&auto=format&fit=crop&w=2400&q=80" 
+                alt="HTTP vs. HTTPS: Why SSL is Mandatory for SEO and Google Rankings" 
+                fill
+                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                style={{ objectFit: "cover" }}
+              />
+            </div>
+            <div className={styles.caseStudyListContent}>
+              <h2>HTTP vs. HTTPS: Why SSL is Mandatory for SEO and Google Rankings</h2>
+              <p>Google actively penalizes websites without SSL. Learn the technical differences between HTTP and HTTPS, and why encryption is now mandatory for high SEO rankings.</p>
+              <div>
+                <Link href="/http-vs-https-why-ssl-is-mandatory-for-seo" className={styles.ctaButtonLight}>
+                  Read Article <ArrowRight className={styles.arrow} size={20} />
+                </Link>
+              </div>
+            </div>
+          </div>
+
+          <div className={styles.caseStudyListItem}>
+            <div className={styles.caseStudyListImage} style={{ position: "relative" }}>
+              <Image 
+                src="https://images.unsplash.com/photo-1563206767-5b18f218e8de?ixlib=rb-4.0.3&auto=format&fit=crop&w=2400&q=80" 
+                alt="How to Fix the 'Not Secure' Website Warning: A Step-by-Step Guide" 
+                fill
+                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                style={{ objectFit: "cover" }}
+              />
+            </div>
+            <div className={styles.caseStudyListContent}>
+              <h2>How to Fix the "Not Secure" Website Warning: A Step-by-Step Guide</h2>
+              <p>Seeing a dangerous "Not Secure" warning on your site? Learn exactly how to fix it by installing an SSL certificate to protect your customers and SEO.</p>
+              <div>
+                <Link href="/how-to-fix-not-secure-website-warning" className={styles.ctaButtonLight}>
+                  Read Article <ArrowRight className={styles.arrow} size={20} />
+                </Link>
+              </div>
+            </div>
+          </div>
+
+          <div className={styles.caseStudyListItem}>
+            <div className={styles.caseStudyListImage} style={{ position: "relative" }}>
+              <Image 
                 src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-4.0.3&auto=format&fit=crop&w=2400&q=80" 
                 alt="Collaborative tech team working together" 
                 fill
