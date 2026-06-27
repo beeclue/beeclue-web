@@ -47,10 +47,21 @@ export default function BlogPost() {
       }
     ]
   };
+  const breadcrumbs = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://beeclue.com/" },
+      { "@type": "ListItem", "position": 2, "name": "Blogs", "item": "https://beeclue.com/blogs" },
+      { "@type": "ListItem", "position": 3, "name": "Not Secure Warning What Does It Mean When A Site Is Not Secure", "item": "https://beeclue.com/not-secure-warning-what-does-it-mean-when-a-site-is-not-secure" }
+    ]
+  };
+
 
   return (
     <main style={{ minHeight: "100vh", position: "relative" }}>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbs) }} />
       <article className={blogStyles.blogContainer}>
         <FadeIn className={blogStyles.blogHeader}>
           <span className={blogStyles.blogCategory}>Website Security</span>

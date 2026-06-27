@@ -20,8 +20,9 @@ export default function WixProsConsBlog() {
     "description": "A comprehensive guide analyzing the pros and cons of using Wix for your business website. Learn about its templates, scalability, SEO, and limitations.",
     "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-4.0.3&auto=format&fit=crop&w=2400&q=80",
     "author": {
-      "@type": "Organization",
-      "name": "Beeclue Tech"
+      "@type": "Person",
+      "name": "Beeclue Editorial Team",
+      "url": "https://beeclue.com/about-us"
     },
     "publisher": {
       "@type": "Organization",
@@ -32,12 +33,24 @@ export default function WixProsConsBlog() {
       }
     },
     "datePublished": new Date().toISOString().split('T')[0],
+    "dateModified": "2026-06-27"
   };
+  const breadcrumbs = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://beeclue.com/" },
+      { "@type": "ListItem", "position": 2, "name": "Blogs", "item": "https://beeclue.com/blogs" },
+      { "@type": "ListItem", "position": 3, "name": "Is Wix Website Builder the Right Platform for You? Pros and Cons", "item": "https://beeclue.com/is-wix-website-builder-the-right-platform-for-you-pros-and-cons-of-using-wix" }
+    ]
+  };
+
 
   return (
     <main style={{ minHeight: "100vh", position: "relative" }}>
       <article className={blogStyles.blogContainer}>
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbs) }} />
         
         <header className={blogStyles.blogHeader}>
           <h1 className={blogStyles.blogTitle}>Is Wix Website Builder the Right Platform for You? Pros and Cons of Using Wix</h1>

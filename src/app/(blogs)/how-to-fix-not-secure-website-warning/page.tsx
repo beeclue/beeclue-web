@@ -24,9 +24,20 @@ export const metadata: Metadata = {
 };
 
 export default function BlogPost() {
+  const breadcrumbs = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://beeclue.com/" },
+      { "@type": "ListItem", "position": 2, "name": "Blogs", "item": "https://beeclue.com/blogs" },
+      { "@type": "ListItem", "position": 3, "name": "How To Fix Not Secure Website Warning", "item": "https://beeclue.com/how-to-fix-not-secure-website-warning" }
+    ]
+  };
+
   return (
     <main style={{ minHeight: "100vh", position: "relative" }}>
       <article className={blogStyles.blogContainer}>
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbs) }} />
         <FadeIn className={blogStyles.blogHeader}>
           <span className={blogStyles.blogCategory}>Website Security</span>
           <h1 className={blogStyles.blogTitle}>How to Fix the "Not Secure" Website Warning: A Step-by-Step Guide</h1>

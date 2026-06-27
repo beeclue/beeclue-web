@@ -24,9 +24,20 @@ export const metadata: Metadata = {
 };
 
 export default function BlogPost() {
+  const breadcrumbs = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://beeclue.com/" },
+      { "@type": "ListItem", "position": 2, "name": "Blogs", "item": "https://beeclue.com/blogs" },
+      { "@type": "ListItem", "position": 3, "name": "5 Tips For Choosing The Right Website Development Company", "item": "https://beeclue.com/5-tips-for-choosing-the-right-website-development-company" }
+    ]
+  };
+
   return (
     <main style={{ minHeight: "100vh", position: "relative" }}>
       <article className={blogStyles.blogContainer}>
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbs) }} />
         <FadeIn className={blogStyles.blogHeader}>
           <span className={blogStyles.blogCategory}>Business Strategy</span>
           <h1 className={blogStyles.blogTitle}>5 Critical Tips for Choosing the Right Website Development Company</h1>

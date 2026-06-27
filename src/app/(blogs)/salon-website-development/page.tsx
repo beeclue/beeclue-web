@@ -24,9 +24,20 @@ export const metadata: Metadata = {
 };
 
 export default function BlogPost() {
+  const breadcrumbs = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://beeclue.com/" },
+      { "@type": "ListItem", "position": 2, "name": "Blogs", "item": "https://beeclue.com/blogs" },
+      { "@type": "ListItem", "position": 3, "name": "Salon Website Development", "item": "https://beeclue.com/salon-website-development" }
+    ]
+  };
+
   return (
     <main style={{ minHeight: "100vh", position: "relative" }}>
       <article className={blogStyles.blogContainer}>
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbs) }} />
         <FadeIn className={blogStyles.blogHeader}>
           <span className={blogStyles.blogCategory}>Industry Solutions</span>
           <h1 className={blogStyles.blogTitle}>Salon Website Development: The Ultimate Guide to Booking More Clients Online</h1>

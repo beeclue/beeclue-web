@@ -20,8 +20,9 @@ export default function ComputerCookiesGuideBlog() {
     "description": "Discover everything you need to know about computer cookies, including how they work, the different types (first-party vs third-party), and how they affect your online privacy and SEO.",
     "image": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?ixlib=rb-4.0.3&auto=format&fit=crop&w=2400&q=80",
     "author": {
-      "@type": "Organization",
-      "name": "Beeclue Tech"
+      "@type": "Person",
+      "name": "Beeclue Editorial Team",
+      "url": "https://beeclue.com/about-us"
     },
     "publisher": {
       "@type": "Organization",
@@ -32,12 +33,24 @@ export default function ComputerCookiesGuideBlog() {
       }
     },
     "datePublished": new Date().toISOString().split('T')[0],
+    "dateModified": "2026-06-27"
   };
+  const breadcrumbs = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://beeclue.com/" },
+      { "@type": "ListItem", "position": 2, "name": "Blogs", "item": "https://beeclue.com/blogs" },
+      { "@type": "ListItem", "position": 3, "name": "What Are Cookies? A Helpful Guide to Computer Cookies", "item": "https://beeclue.com/what-are-cookies-a-helpful-guide-to-computer-cookies" }
+    ]
+  };
+
 
   return (
     <main style={{ minHeight: "100vh", position: "relative" }}>
       <article className={blogStyles.blogContainer}>
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbs) }} />
       
       <header className={blogStyles.blogHeader}>
         <h1 className={blogStyles.blogTitle}>What Are Cookies? A Helpful Guide to Computer Cookies</h1>

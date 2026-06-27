@@ -25,9 +25,20 @@ export const metadata: Metadata = {
 };
 
 export default function BrandIdentityBlog() {
+  const breadcrumbs = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://beeclue.com/" },
+      { "@type": "ListItem", "position": 2, "name": "Blogs", "item": "https://beeclue.com/blogs" },
+      { "@type": "ListItem", "position": 3, "name": "Design A Website That Reflects Your Brand Identity", "item": "https://beeclue.com/design-a-website-that-reflects-your-brand-identity" }
+    ]
+  };
+
   return (
     <main style={{ minHeight: "100vh", position: "relative" }}>
       <article className={blogStyles.blogContainer}>
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbs) }} />
         <FadeIn className={blogStyles.blogHeader}>
           <span className={blogStyles.blogCategory}>Web Design & Branding</span>
           <h1 className={blogStyles.blogTitle}>How to Design a Website That Perfectly Reflects Your Brand Identity</h1>

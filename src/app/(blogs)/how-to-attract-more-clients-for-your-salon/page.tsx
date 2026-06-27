@@ -20,8 +20,9 @@ export default function AttractSalonClientsBlog() {
     "description": "Discover actionable strategies to attract more clients to your salon or barbershop. From advanced SEO to loyalty apps, learn how to maximize your digital presence.",
     "image": "https://images.unsplash.com/photo-1560066984-138dadb4c035?ixlib=rb-4.0.3&auto=format&fit=crop&w=2400&q=80",
     "author": {
-      "@type": "Organization",
-      "name": "Beeclue Tech"
+      "@type": "Person",
+      "name": "Beeclue Editorial Team",
+      "url": "https://beeclue.com/about-us"
     },
     "publisher": {
       "@type": "Organization",
@@ -32,12 +33,24 @@ export default function AttractSalonClientsBlog() {
       }
     },
     "datePublished": new Date().toISOString().split('T')[0],
+    "dateModified": "2026-06-27"
   };
+  const breadcrumbs = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://beeclue.com/" },
+      { "@type": "ListItem", "position": 2, "name": "Blogs", "item": "https://beeclue.com/blogs" },
+      { "@type": "ListItem", "position": 3, "name": "How to Attract More Clients for Your Salon: A Comprehensive Digital Strategy", "item": "https://beeclue.com/how-to-attract-more-clients-for-your-salon" }
+    ]
+  };
+
 
   return (
     <main style={{ minHeight: "100vh", position: "relative" }}>
       <article className={blogStyles.blogContainer}>
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbs) }} />
         
         <header className={blogStyles.blogHeader}>
           <h1 className={blogStyles.blogTitle}>How to Attract More Clients for Your Salon: A Comprehensive Digital Strategy</h1>

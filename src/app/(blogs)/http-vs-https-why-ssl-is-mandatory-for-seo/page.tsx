@@ -24,9 +24,20 @@ export const metadata: Metadata = {
 };
 
 export default function BlogPost() {
+  const breadcrumbs = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://beeclue.com/" },
+      { "@type": "ListItem", "position": 2, "name": "Blogs", "item": "https://beeclue.com/blogs" },
+      { "@type": "ListItem", "position": 3, "name": "Http Vs Https Why Ssl Is Mandatory For Seo", "item": "https://beeclue.com/http-vs-https-why-ssl-is-mandatory-for-seo" }
+    ]
+  };
+
   return (
     <main style={{ minHeight: "100vh", position: "relative" }}>
       <article className={blogStyles.blogContainer}>
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbs) }} />
         <FadeIn className={blogStyles.blogHeader}>
           <span className={blogStyles.blogCategory}>SEO Strategy</span>
           <h1 className={blogStyles.blogTitle}>HTTP vs. HTTPS: Why SSL is Mandatory for SEO and Google Rankings</h1>

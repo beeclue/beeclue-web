@@ -31,6 +31,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     // Products
     '/products/monexa',
     // Blogs
+    '/top-5-free-domain-registrars-pros-and-cons',
+    '/the-importance-of-a-website-for-small-businesses-growth',
     '/the-impact-of-artificial-intelligence-on-web-development',
     '/what-are-cookies-a-helpful-guide-to-computer-cookies',
     '/blogs',
@@ -57,7 +59,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   return routes.map((route) => ({
     url: `${baseUrl}${route}`,
-    lastModified: new Date(),
+    lastModified: new Date('2026-06-27'),
     changeFrequency: route === '' || route === '/case-studies' ? 'weekly' : 'monthly',
     priority: route === '' ? 1 : route.startsWith('/services') || route.startsWith('/custom') ? 0.8 : 0.6,
   }));

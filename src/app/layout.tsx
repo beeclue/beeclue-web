@@ -23,6 +23,7 @@ const outfit = Outfit({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://beeclue.com'),
   title: "Premium Web Design & Custom Software Agency Toronto | Beeclue",
   description: "Transform your business with elite web design, custom software development, and advanced SEO services. Beeclue Tech engineers scalable digital platforms for maximum ROI.",
   icons: {

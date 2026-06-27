@@ -128,6 +128,19 @@ export default function ContactPage() {
       
       if (response.status === 200) {
         setFormStatus("success");
+        
+        // Add the user to EmailOctopus list in the background
+        try {
+          await fetch("/api/newsletter", {
+            method: "POST",
+            headers: {
+              "Content-Type": "application/json",
+            },
+            body: JSON.stringify({ email: formData.email }),
+          });
+        } catch (err) {
+          console.error("Failed to add email to Octopus:", err);
+        }
       } else {
         setFormStatus("error");
       }
