@@ -37,6 +37,28 @@ export default function CaseStudiesPage() {
           <div className={styles.caseStudyListItem}>
             <div className={styles.caseStudyListImage}>
               <Image 
+                src="https://cdn.jsdelivr.net/gh/beeclue/clients@main/self/newangkorwat.webp" 
+                alt="New Angkor Wat Website" 
+                fill
+                style={{ objectFit: "contain", padding: "2rem" }}
+              />
+            </div>
+            <div className={styles.caseStudyListContent}>
+              <h2>New Angkor Wat & David P. Cross — Digital Platform</h2>
+              <p>
+                We partnered with author and public defender David P. Cross to build a comprehensive digital platform that promotes his book &quot;For Who? For What?&quot; and the New Angkor Wat organization, focusing on a clean, premium user experience with seamless animations.
+              </p>
+              <div>
+                <Link href="/case-studies/new-angkor-wat" className={styles.ctaButtonLight}>
+                  Read More <ArrowRight className={styles.arrow} size={20} />
+                </Link>
+              </div>
+            </div>
+          </div>
+
+          <div className={styles.caseStudyListItem}>
+            <div className={styles.caseStudyListImage}>
+              <Image 
                 src="https://cdn.jsdelivr.net/gh/beeclue/clients@main/self/sure-shot-photobooth-rental.webp" 
                 alt="Sure Shot Photobooth Website" 
                 fill

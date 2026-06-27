@@ -26,7 +26,7 @@ export default function Footer() {
           <a href="tel:+16479476253" className={globalStyles.emailLink}>
             +1 (647) 947-6253
           </a>
-          <p className={globalStyles.footerLocation}>36 Carslake Crescent, Toronto, ON M1J 2A7</p>
+          <p className={globalStyles.footerLocation}>Toronto, ON</p>
           <div className={globalStyles.legalLinks}>
             <Link href="/blogs">Blogs</Link>
             <span>|</span>

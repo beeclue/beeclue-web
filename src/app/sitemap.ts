@@ -23,6 +23,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     // Landing Pages
     '/19',
     // Case Studies
+    '/case-studies/new-angkor-wat',
     '/case-studies/blues-contracting-services',
     '/case-studies/gir-security',
     '/case-studies/lbf-skin-clinic',
@@ -30,6 +31,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     // Products
     '/products/monexa',
     // Blogs
+    '/the-impact-of-artificial-intelligence-on-web-development',
+    '/what-are-cookies-a-helpful-guide-to-computer-cookies',
     '/blogs',
     '/salon-barbershop-loyalty-programs-to-increase-business',
     '/best-school-website-design-companies-canada',
@@ -44,6 +47,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/data-analytics-the-key-to-making-better-business-decisions',
     '/design-a-website-that-reflects-your-brand-identity',
     '/is-wix-website-builder-the-right-platform-for-you-pros-and-cons-of-using-wix',
+    '/how-to-attract-more-clients-for-your-salon',
     '/not-secure-warning-what-does-it-mean-when-a-site-is-not-secure',
     '/salon-website-development',
     '/website-development-for-dental-clinics',

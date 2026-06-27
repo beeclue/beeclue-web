@@ -1,8 +1,8 @@
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "About Us | Beeclue Tech | Toronto Web Design Agency",
-  description: "Discover Beeclue Tech, a leading Toronto digital agency specializing in luxury web design, custom software engineering, and innovative mobile applications.",
+  title: "About Beeclue Tech | Top Toronto Web Design & Software Agency",
+  description: "Meet the elite engineers and designers at Beeclue Tech. We build high-performance web applications, custom software, and digital brands that drive massive growth.",
 };
 
 export default function Layout({

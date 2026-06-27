@@ -1,8 +1,8 @@
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Our Digital Services | Web, Mobile & Custom Software",
-  description: "Explore Beeclue Tech's premium digital services, including luxury web design, custom software engineering, mobile app development, and technical SEO strategies.",
+  title: "Custom Software, Mobile Apps & Web Design Services | Beeclue",
+  description: "Dominate your market with our elite digital services. From custom enterprise software and high-conversion web design to advanced SEO strategies, we scale your revenue.",
 };
 
 export default function Layout({

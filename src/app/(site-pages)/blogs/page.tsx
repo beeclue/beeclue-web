@@ -36,6 +36,90 @@ export default function BlogsPage() {
           <div className={styles.caseStudyListItem}>
             <div className={styles.caseStudyListImage} style={{ position: "relative" }}>
               <Image 
+                src="https://images.unsplash.com/photo-1560066984-138dadb4c035?ixlib=rb-4.0.3&auto=format&fit=crop&w=2400&q=80" 
+                alt="Interior of a modern luxury hair salon with styling chairs and mirrors" 
+                fill
+                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                style={{ objectFit: "cover" }}
+              />
+            </div>
+            <div className={styles.caseStudyListContent}>
+              <h2>How to Attract More Clients for Your Salon: A Comprehensive Digital Strategy</h2>
+              <p>
+                Discover actionable strategies to attract more clients to your salon or barbershop. From advanced SEO to loyalty apps, learn how to maximize your digital presence.
+              </p>
+              <div>
+                <Link href="/how-to-attract-more-clients-for-your-salon" className={styles.ctaButtonLight}>
+                  Read Article <ArrowRight className={styles.arrow} size={20} />
+                </Link>
+              </div>
+            </div>
+          </div>
+          <div className={styles.caseStudyListItem}>
+            <div className={styles.caseStudyListImage} style={{ position: "relative" }}>
+              <Image 
+                src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-4.0.3&auto=format&fit=crop&w=2400&q=80" 
+                alt="Website Builder Wix Overview" 
+                fill
+                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                style={{ objectFit: "cover" }}
+              />
+            </div>
+            <div className={styles.caseStudyListContent}>
+              <h2>Is Wix Website Builder the Right Platform for You? Pros and Cons</h2>
+              <p>
+                A comprehensive guide analyzing the pros and cons of using Wix for your business website. Learn about its templates, scalability, SEO, and limitations.
+              </p>
+              <div>
+                <Link href="/is-wix-website-builder-the-right-platform-for-you-pros-and-cons-of-using-wix" className={styles.ctaButtonLight}>
+                  Read Article <ArrowRight className={styles.arrow} size={20} />
+                </Link>
+              </div>
+            </div>
+          </div>
+          <div className={styles.caseStudyListItem}>
+            <div className={styles.caseStudyListImage} style={{ position: "relative" }}>
+              <Image 
+                src="https://images.unsplash.com/photo-1620712943543-bcc4688e7485?ixlib=rb-4.0.3&auto=format&fit=crop&w=2400&q=80" 
+                alt="Artificial Intelligence concept with a futuristic digital interface" 
+                fill
+                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                style={{ objectFit: "cover" }}
+              />
+            </div>
+            <div className={styles.caseStudyListContent}>
+              <h2>The Impact of Artificial Intelligence on Web Development</h2>
+              <p>Explore how Artificial Intelligence (AI) is transforming the web development industry. From automated coding to personalized UX, learn what the future holds.</p>
+              <div>
+                <Link href="/the-impact-of-artificial-intelligence-on-web-development" className={styles.ctaButtonLight}>
+                  Read Article <ArrowRight className={styles.arrow} size={20} />
+                </Link>
+              </div>
+            </div>
+          </div>
+          <div className={styles.caseStudyListItem}>
+            <div className={styles.caseStudyListImage} style={{ position: "relative" }}>
+              <Image 
+                src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?ixlib=rb-4.0.3&auto=format&fit=crop&w=2400&q=80" 
+                alt="A laptop showing code representing computer cookies and digital data" 
+                fill
+                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                style={{ objectFit: "cover" }}
+              />
+            </div>
+            <div className={styles.caseStudyListContent}>
+              <h2>What Are Cookies? A Helpful Guide to Computer Cookies</h2>
+              <p>Discover everything you need to know about computer cookies, including how they work, the different types (first-party vs third-party), and how they affect your online privacy and SEO.</p>
+              <div>
+                <Link href="/what-are-cookies-a-helpful-guide-to-computer-cookies" className={styles.ctaButtonLight}>
+                  Read Article <ArrowRight className={styles.arrow} size={20} />
+                </Link>
+              </div>
+            </div>
+          </div>
+          <div className={styles.caseStudyListItem}>
+            <div className={styles.caseStudyListImage} style={{ position: "relative" }}>
+              <Image 
                 src="https://images.unsplash.com/photo-1503951914875-452162b0f3f1?ixlib=rb-4.0.3&auto=format&fit=crop&w=2400&q=80" 
                 alt="Barbershop chair and mirror" 
                 fill
@@ -361,29 +445,7 @@ export default function BlogsPage() {
             </div>
           </div>
 
-          <div className={styles.caseStudyListItem}>
-            <div className={styles.caseStudyListImage} style={{ position: "relative" }}>
-              <Image 
-                src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-4.0.3&auto=format&fit=crop&w=2400&q=80" 
-                alt="Website Builder Wix Overview" 
-                fill
-                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-                style={{ objectFit: "cover" }}
-              />
-            </div>
-            <div className={styles.caseStudyListContent}>
-              <h2>Is Wix Website Builder the Right Platform for You? Pros and Cons</h2>
-              <p>
-                A comprehensive guide analyzing the pros and cons of using Wix for your business website. Learn about its templates, scalability, SEO, and limitations.
-              </p>
-              <div>
-                <Link href="/is-wix-website-builder-the-right-platform-for-you-pros-and-cons-of-using-wix" className={styles.ctaButtonLight}>
-                  Read Article <ArrowRight className={styles.arrow} size={20} />
-                </Link>
-              </div>
-            </div>
-          </div>
-          
+
           <div className={styles.caseStudyListItem}>
             <div className={styles.caseStudyListImage} style={{ position: "relative" }}>
               <Image 

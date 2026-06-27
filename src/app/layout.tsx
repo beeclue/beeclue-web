@@ -23,8 +23,8 @@ const outfit = Outfit({
 });
 
 export const metadata: Metadata = {
-  title: "Beeclue Tech | Luxury Web Design & Custom Software Agency",
-  description: "Beeclue Tech is a premium web design and custom software development agency specializing in Next.js, WordPress, and Shopify.",
+  title: "Premium Web Design & Custom Software Agency Toronto | Beeclue",
+  description: "Transform your business with elite web design, custom software development, and advanced SEO services. Beeclue Tech engineers scalable digital platforms for maximum ROI.",
   icons: {
     icon: [
       { url: '/favicon-96x96.png', sizes: '96x96', type: 'image/png' },

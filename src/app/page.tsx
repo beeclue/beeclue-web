@@ -119,6 +119,24 @@ export default function Home() {
           <p>A look at how we transform business challenges into scalable technical solutions.</p>
         </div>
         <div className={styles.featuredGrid}>
+          <Link href="/case-studies/new-angkor-wat" className={styles.featuredCard}>
+            <div className={styles.featuredImagePlaceholder} style={{ padding: 0, position: 'relative' }}>
+              <Image 
+                src="https://cdn.jsdelivr.net/gh/beeclue/clients@main/self/newangkorwat.webp"
+                alt="New Angkor Wat"
+                fill
+                sizes="(max-width: 768px) 100vw, 50vw"
+                style={{ objectFit: 'contain', padding: '2rem 0' }}
+              />
+            </div>
+            <div className={styles.featuredContent}>
+              <h3>New Angkor Wat — Digital Platform</h3>
+              <p>We partnered with author David P. Cross to build a comprehensive, highly engaging digital platform promoting his book and charitable organization.</p>
+              <div className={styles.techTags}>
+                <span>Next.js</span><span>Web Design</span><span>Animations</span>
+              </div>
+            </div>
+          </Link>
           <Link href="/case-studies/sure-shot-photobooth" className={styles.featuredCard}>
             <div className={styles.featuredImagePlaceholder} style={{ padding: 0, position: 'relative' }}>
               <Image 

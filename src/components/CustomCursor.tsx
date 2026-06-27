@@ -46,7 +46,7 @@ export default function CustomCursor() {
   const variants = {
     default: {
       scale: 1,
-      backgroundColor: "transparent",
+      backgroundColor: "rgba(0, 77, 153, 0)",
     },
     hover: {
       scale: 2.5,

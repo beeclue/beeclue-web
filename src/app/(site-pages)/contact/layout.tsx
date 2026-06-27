@@ -1,8 +1,8 @@
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Contact Us | Beeclue Tech | Get a Free Consultation",
-  description: "Contact Beeclue Tech for a free consultation today. Let our experts help your Toronto business scale through custom software and premium web design services.",
+  title: "Contact Beeclue Tech | Hire Top Toronto Software Developers",
+  description: "Ready to scale? Contact Beeclue Tech for a free digital consultation. Hire our expert Toronto web designers and software engineers to build your custom platform today.",
 };
 
 export default function Layout({

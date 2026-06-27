@@ -9,6 +9,7 @@ Beeclue Tech is an elite digital development agency located in Toronto, Canada, 
 - [About Us](https://beeclue.com/about-us)
 - [Services](https://beeclue.com/services)
 - [Case Studies](https://beeclue.com/case-studies)
+- [Blogs](https://beeclue.com/blogs)
 - [Contact](https://beeclue.com/contact)
 
 ### Core Services
@@ -19,9 +20,44 @@ Beeclue Tech is an elite digital development agency located in Toronto, Canada, 
 - [UI/UX Design](https://beeclue.com/ui-ux-design-toronto)
 - [Web Design](https://beeclue.com/web-design-toronto)
 - [WordPress Design](https://beeclue.com/wordpress-web-design-canada)
+- [School Website Design](https://beeclue.com/school-website-design-services)
+
+### Case Studies
+- [New Angkor Wat](https://beeclue.com/case-studies/new-angkor-wat)
+- [Blues Contracting Services](https://beeclue.com/case-studies/blues-contracting-services)
+- [G.I.R Security](https://beeclue.com/case-studies/gir-security)
+- [LBF Skin Clinic](https://beeclue.com/case-studies/lbf-skin-clinic)
+- [Sure Shot Photobooth](https://beeclue.com/case-studies/sure-shot-photobooth)
 
 ### Proprietary Products
 - [Monexa (Finance App)](https://beeclue.com/products/monexa)
+
+### Blog Articles
+- [How to Attract More Clients for Your Salon](https://beeclue.com/how-to-attract-more-clients-for-your-salon)
+- [The Impact of Artificial Intelligence on Web Development](https://beeclue.com/the-impact-of-artificial-intelligence-on-web-development)
+- [What Are Cookies? A Helpful Guide to Computer Cookies](https://beeclue.com/what-are-cookies-a-helpful-guide-to-computer-cookies)
+- [Salon Website Development](https://beeclue.com/salon-website-development)
+- [Website Development for Dental Clinics](https://beeclue.com/website-development-for-dental-clinics)
+- [Salon Barbershop Loyalty Programs to Increase Business](https://beeclue.com/salon-barbershop-loyalty-programs-to-increase-business)
+- [Best School Website Design Companies Canada](https://beeclue.com/best-school-website-design-companies-canada)
+- [WeChat Integration for Canadian Businesses](https://beeclue.com/wechat-integration-for-canadian-businesses)
+- [Must-Have Features for Modern School Websites](https://beeclue.com/must-have-features-for-modern-school-websites)
+- [Cost to Build eCommerce Website Canada](https://beeclue.com/cost-to-build-ecommerce-website-canada)
+- [Best eCommerce Website Builder Canada](https://beeclue.com/best-ecommerce-website-builder-canada)
+- [HTTP vs HTTPS: Why SSL is Mandatory for SEO](https://beeclue.com/http-vs-https-why-ssl-is-mandatory-for-seo)
+- [How to Fix "Not Secure" Website Warning](https://beeclue.com/how-to-fix-not-secure-website-warning)
+- [5 Tips for Choosing the Right Website Development Company](https://beeclue.com/5-tips-for-choosing-the-right-website-development-company)
+- [Data Analytics: The Key to Making Better Business Decisions](https://beeclue.com/data-analytics-the-key-to-making-better-business-decisions)
+- [Design a Website That Reflects Your Brand Identity](https://beeclue.com/design-a-website-that-reflects-your-brand-identity)
+- [Is Wix Website Builder the Right Platform for You?](https://beeclue.com/is-wix-website-builder-the-right-platform-for-you-pros-and-cons-of-using-wix)
+- [Not Secure Warning: What Does It Mean?](https://beeclue.com/not-secure-warning-what-does-it-mean-when-a-site-is-not-secure)
+- [What is CMS Web Development?](https://beeclue.com/what-is-cms-web-development)
+- [Why is a School Website So Important?](https://beeclue.com/why-is-school-website-so-important)
+
+### Landing Pages & Legal
+- [$19/Month Website Offer](https://beeclue.com/19)
+- [Privacy Policy](https://beeclue.com/privacy-policy)
+- [Terms and Conditions](https://beeclue.com/terms-and-conditions)
 
 ### Contact Information
 - Email: hello@beeclue.com

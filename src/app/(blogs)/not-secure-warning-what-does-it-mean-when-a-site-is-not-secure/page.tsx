@@ -25,8 +25,32 @@ export const metadata: Metadata = {
 };
 
 export default function BlogPost() {
+  const faqSchema = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "What does not secure mean on a website?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "A 'Not Secure' warning means the website is not using an SSL certificate to encrypt the connection between your browser and the server. Data sent to the site (like passwords or credit cards) can be intercepted by hackers."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Is a site not secure dangerous?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes, visiting a site that is not secure can be dangerous if you input any personal information. While simply reading an article on an unsecure site might not harm your device directly, you should never submit forms, passwords, or payment details."
+        }
+      }
+    ]
+  };
+
   return (
     <main style={{ minHeight: "100vh", position: "relative" }}>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
       <article className={blogStyles.blogContainer}>
         <FadeIn className={blogStyles.blogHeader}>
           <span className={blogStyles.blogCategory}>Website Security</span>
@@ -66,7 +90,7 @@ export default function BlogPost() {
           </FadeIn>
 
           <FadeIn>
-            <h2>The Technical Meaning Behind the "Not Secure" Warning</h2>
+            <h2>What Does Not Secure Mean? The Technical Breakdown</h2>
             <p>
               To understand the warning, you first have to understand how information travels across the internet. When a user visits a website, data is transferred between their web browser (like Chrome) and the web server where the site is hosted.
             </p>
@@ -86,9 +110,9 @@ export default function BlogPost() {
           </FadeIn>
 
           <FadeIn>
-            <h2>How the "Not Secure" Warning Destroys Your Business</h2>
+            <h2>Not Secure Website Meaning: How It Destroys Your Business</h2>
             <p>
-              Many business owners assume that if they aren't directly selling products online or collecting credit card information, they don't need encryption. This is a dangerous misconception. Here is how lacking an SSL certificate hurts your business:
+              Many business owners assume that if they aren't directly selling products online or collecting credit card information, they don't need encryption. If you see a site not secure label, this is a dangerous misconception. Here is how lacking an SSL certificate hurts your business:
             </p>
 
             <h3>1. Complete Loss of User Trust</h3>

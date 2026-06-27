@@ -27,3 +27,9 @@ This version has breaking changes — APIs, conventions, and file structure may 
 
 # Links
 - For all the external links or the links opening in a new tab please make sure you add UTM tags for all of them. Use the format: ?utm_source=beeclue&utm_medium=blog&utm_campaign=<blog-name>
+
+# LLMs & AI Scraper Documentation (llms.txt & llms-full.txt)
+- Whenever asked to add a new page or add any new information on an existing page, YOU MUST ALSO update `public/llms.txt` and `public/llms-full.txt`.
+- Make sure to document each and every piece of new information, including any additional questions, answers, and context within these files. 
+- `llms.txt` should contain the structured list of all links across the site, ensuring every single page is tracked.
+- `llms-full.txt` should include a detailed markdown description of the site's content, capabilities, products, blogs, case studies, and services, ensuring the new content or page is explicitly detailed here.

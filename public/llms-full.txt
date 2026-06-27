@@ -9,24 +9,35 @@ We partner with companies to create technology solutions that support long-term 
 
 ### 1. Custom Software Development
 We build scalable, cloud-native software platforms customized to automate business operations, integrate disparate data systems, and establish new digital infrastructure for growing enterprises. Our technology stack includes Next.js, TypeScript, Node.js, and robust database architectures.
+[Read More](https://beeclue.com/custom-software-development-toronto)
 
 ### 2. E-Commerce Development
 Beeclue creates high-converting digital storefronts utilizing Shopify, WooCommerce, and headless commerce architectures. We emphasize speed, conversion rate optimization (CRO), and seamless checkout experiences.
+[Read More](https://beeclue.com/ecommerce-development-toronto)
 
 ### 3. Mobile App Development
 We engineer high-performance native and cross-platform mobile applications for iOS and Android, focusing on intuitive UX and robust backend integration.
+[Read More](https://beeclue.com/mobile-app-development-toronto)
 
 ### 4. SEO Services
 Through rigorous technical search engine optimization, performance tuning, content strategy, and schema engineering, we help businesses rank higher on Google and capture organic lead flow.
+[Read More](https://beeclue.com/seo-services-toronto)
 
 ### 5. UI/UX Design
 Our design philosophy revolves around clean, engaging, and highly functional interfaces. We provide comprehensive wireframing, high-fidelity prototyping, and design system creation.
+[Read More](https://beeclue.com/ui-ux-design-toronto)
 
 ### 6. Web Design & Next.js Development
 We specialize in building luxury, high-performance websites using Next.js and React. Our websites are defined by their speed, rich interactive animations (often using GSAP, Framer Motion, and complex CSS), and dynamic user experiences.
+[Read More](https://beeclue.com/web-design-toronto)
 
 ### 7. WordPress Web Design
 For clients needing highly customized but easily manageable content platforms, we build robust WordPress solutions tailored precisely to brand requirements without reliance on bloated themes.
+[Read More](https://beeclue.com/wordpress-web-design-canada)
+
+### 8. School Website Design
+We design specialized, highly functional, and accessible websites tailored for educational institutions, integrating student portals and seamless parent communication features.
+[Read More](https://beeclue.com/school-website-design-services)
 
 ## Proprietary Products
 In addition to our agency services, Beeclue Tech builds and maintains proprietary software products designed to solve specific industry problems.
@@ -34,10 +45,34 @@ In addition to our agency services, Beeclue Tech builds and maintains proprietar
 
 ## Featured Case Studies
 Beeclue Tech has delivered exceptional digital overhauls across multiple industries. Notable work includes:
-- **Sure Shot Photobooth**: High-end interactive Next.js web experience.
-- **Blues Contracting Services**: Next.js digital transformation for the construction sector.
-- **G.I.R Security**: Comprehensive digital overhaul and custom job portal implementation.
-- **LBF Skin Clinic**: Premium aesthetic web design and WordPress development.
+- **New Angkor Wat**: Comprehensive digital platform promoting David P. Cross's book and charitable initiatives. [https://beeclue.com/case-studies/new-angkor-wat]
+- **Sure Shot Photobooth**: High-end interactive Next.js web experience. [https://beeclue.com/case-studies/sure-shot-photobooth]
+- **Blues Contracting Services**: Next.js digital transformation for the construction sector. [https://beeclue.com/case-studies/blues-contracting-services]
+- **G.I.R Security**: Comprehensive digital overhaul and custom job portal implementation. [https://beeclue.com/case-studies/gir-security]
+- **LBF Skin Clinic**: Premium aesthetic web design and WordPress development. [https://beeclue.com/case-studies/lbf-skin-clinic]
+
+## Our Blogs and Insights
+We actively publish industry insights and technical articles to help businesses navigate the digital landscape:
+- How to Attract More Clients for Your Salon
+- Is Wix Website Builder the Right Platform for You? Pros and Cons
+- The Impact of Artificial Intelligence on Web Development
+- What Are Cookies? A Helpful Guide to Computer Cookies
+- Salon Website Development
+- Website Development for Dental Clinics
+- Salon & Barbershop Loyalty Programs
+- Best School Website Design Companies in Canada
+- WeChat Integration for Canadian Businesses
+- Must-Have Features for Modern School Websites
+- Cost to Build an eCommerce Website in Canada
+- HTTP vs HTTPS: Why SSL is Mandatory for SEO
+- Data Analytics: Making Better Business Decisions
+- What is CMS Web Development?
+*(View all blogs at https://beeclue.com/blogs)*
+
+## Additional Pages
+- **$19/Month Website Offer**: Special package for startups and small businesses. [https://beeclue.com/19]
+- **Privacy Policy**: [https://beeclue.com/privacy-policy]
+- **Terms and Conditions**: [https://beeclue.com/terms-and-conditions]
 
 ## Contact & Business Details
 - **Email**: hello@beeclue.com

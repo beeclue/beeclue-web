@@ -120,6 +120,26 @@ export default function CustomSoftwareDevelopmentTorontoPage() {
         </div>
       </FadeIn>
 
+      {/* RECENT TORONTO CASE STUDIES */}
+      <FadeIn className={styles.baseSection}>
+        <div className={styles.servicesHeader}>
+          <h2>Recent Toronto Case Studies</h2>
+          <p>See how we engineer custom software for local Toronto businesses.</p>
+        </div>
+        <div className={styles.scroller}>
+          <div className={styles.serviceCard}>
+            <h3>Sure Shot Photobooth</h3>
+            <p>We built a custom booking and management system for Sure Shot Photobooth, a leading Toronto event company. The software automates their entire pipeline, from initial lead capture to contract signing and event scheduling, saving them hundreds of admin hours.</p>
+            <Link href="/case-studies/sure-shot-photobooth" className={styles.learnMoreLink} style={{ marginTop: "1rem", display: "inline-flex", alignItems: "center", gap: "0.5rem", color: "var(--primary-light)", textDecoration: "none" }}>Read Case Study <ArrowRight size={16} /></Link>
+          </div>
+          <div className={styles.serviceCard}>
+            <h3>Blues Contracting Services</h3>
+            <p>For Blues Contracting, a premier Toronto construction and renovation firm, we developed a centralized project management platform. This custom software tracks site progress, manages subcontractor invoices, and provides real-time updates to their clients.</p>
+            <Link href="/case-studies/blues-contracting-services" className={styles.learnMoreLink} style={{ marginTop: "1rem", display: "inline-flex", alignItems: "center", gap: "0.5rem", color: "var(--primary-light)", textDecoration: "none" }}>Read Case Study <ArrowRight size={16} /></Link>
+          </div>
+        </div>
+      </FadeIn>
+
       {/* INDUSTRIES SERVED */}
       <FadeIn className={styles.baseSection} style={{ background: "rgba(0, 0, 0, 0.5)" }}>
         <div className={styles.servicesHeader}>

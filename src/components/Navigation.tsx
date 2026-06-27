@@ -225,7 +225,7 @@ export default function Navigation() {
                 <div className={styles.contactInfo}>
                   <a href="mailto:hello@beeclue.com">hello@beeclue.com</a>
                   <a href="tel:+16479476253">+1 (647) 947-6253</a>
-                  <span>36 Carslake Crescent<br/>Toronto, ON M1J 2A7</span>
+                  <span>Toronto, ON</span>
                 </div>
               </m.div>
             </m.div>

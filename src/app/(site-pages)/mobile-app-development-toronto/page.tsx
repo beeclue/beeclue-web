@@ -8,13 +8,38 @@ import FadeIn from "@/components/FadeIn";
 export default function MobileAppDevelopmentTorontoPage() {
   const jsonLd = {
     "@context": "https://schema.org",
-    "@type": "Service",
-    "serviceType": "Mobile App Development",
-    "provider": {
-      "@type": "Organization",
-      "name": "Beeclue Tech"
-    },
-    "areaServed": "Toronto"
+    "@graph": [
+      {
+        "@type": "Service",
+        "serviceType": "Mobile App Development",
+        "provider": {
+          "@type": "Organization",
+          "name": "Beeclue Tech"
+        },
+        "areaServed": "Toronto"
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "How much does mobile app development cost in Toronto?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "The cost of custom mobile app development varies based on complexity, platforms (iOS and Android), and required integrations. Simple MVP apps can start around $15,000, while enterprise-grade applications with custom backends can exceed $50,000."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Should I build a native app or cross-platform app?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Native apps (built in Swift or Kotlin) offer maximum performance and deep device hardware integration. Cross-platform apps (using React Native) allow you to launch on both iOS and Android simultaneously with a single codebase, significantly reducing development time and cost."
+            }
+          }
+        ]
+      }
+    ]
   };
 
   return (
@@ -52,15 +77,15 @@ export default function MobileAppDevelopmentTorontoPage() {
         <div className={styles.luxuryIntroContent}>
           
           <div className={styles.luxuryText}>
-            <h2>Premium App Development Agency in the GTA</h2>
+            <h2>Premium Mobile App Development Agency in the GTA</h2>
             <p>
-              We live in a mobile-first world. If your business doesn't have a direct presence in your customers' pockets, you are leaving substantial market share on the table. A well-designed mobile application fosters deep brand loyalty and provides an unparalleled channel for direct engagement.
+              We live in a mobile-first world. If your business doesn't have a direct presence in your customers' pockets, you are leaving substantial market share on the table. A well-designed custom mobile app fosters deep brand loyalty and provides an unparalleled channel for direct consumer engagement.
             </p>
             <p>
-              As a top-rated Toronto app development company, Beeclue Tech engineers mobile applications that dominate the App Store and Google Play. We don't just write code; we meticulously design user interfaces (UI/UX) that feel native, intuitive, and lightning-fast. 
+              As a top-rated Toronto mobile app development company, Beeclue Tech engineers custom iOS and Android mobile applications that dominate the App Store and Google Play. We don't just write code; our specialized UI/UX designers meticulously craft mobile app interfaces that feel native, highly intuitive, and lightning-fast. 
             </p>
             <p>
-              Whether you are building a disruptive consumer app, a scalable cross-platform tool in React Native, or an enterprise-grade internal tool for your workforce, our local Canadian developers ensure your app launches flawlessly and scales without breaking.
+              Whether you are building a disruptive consumer app, a scalable cross-platform tool in React Native or Flutter, or an enterprise-grade internal tool for your workforce, our local Canadian app developers ensure your custom mobile app development project launches flawlessly and scales without breaking.
             </p>
           </div>
 
@@ -213,6 +238,24 @@ export default function MobileAppDevelopmentTorontoPage() {
               <h3>Data-Driven Approach</h3>
               <p>Every design and technical architecture choice is backed by analytics and user behavior to maximize your ROI.</p>
             </div>
+          </div>
+        </div>
+      </FadeIn>
+
+      {/* MOBILE APP DEVELOPMENT FAQ SECTION */}
+      <FadeIn className={styles.baseSection}>
+        <div className={styles.servicesHeader}>
+          <h2>Mobile App Development FAQs</h2>
+          <p>Common questions about building custom iOS and Android applications.</p>
+        </div>
+        <div style={{ maxWidth: "800px", margin: "0 auto", display: "flex", flexDirection: "column", gap: "1.5rem" }}>
+          <div style={{ padding: "1.5rem", background: "rgba(255,255,255,0.02)", border: "1px solid var(--border)", borderRadius: "8px" }}>
+            <h3 style={{ fontSize: "1.2rem", marginBottom: "0.5rem" }}>How much does mobile app development cost in Toronto?</h3>
+            <p style={{ color: "var(--muted)", lineHeight: "1.6" }}>The cost of custom mobile app development varies based on complexity, platforms (iOS and Android), and required integrations. Simple MVP apps can start around $15,000, while enterprise-grade applications with custom backends can exceed $50,000.</p>
+          </div>
+          <div style={{ padding: "1.5rem", background: "rgba(255,255,255,0.02)", border: "1px solid var(--border)", borderRadius: "8px" }}>
+            <h3 style={{ fontSize: "1.2rem", marginBottom: "0.5rem" }}>Should I build a native app or cross-platform app?</h3>
+            <p style={{ color: "var(--muted)", lineHeight: "1.6" }}>Native apps (built in Swift or Kotlin) offer maximum performance and deep device hardware integration. Cross-platform apps (using React Native) allow you to launch on both iOS and Android simultaneously with a single codebase, significantly reducing development time and cost.</p>
           </div>
         </div>
       </FadeIn>
