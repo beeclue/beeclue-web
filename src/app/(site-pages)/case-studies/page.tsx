@@ -40,6 +40,7 @@ export default function CaseStudiesPage() {
                 src="https://cdn.jsdelivr.net/gh/beeclue/clients@main/self/newangkorwat.webp" 
                 alt="New Angkor Wat Website" 
                 fill
+                sizes="(max-width: 768px) 100vw, 50vw"
                 style={{ objectFit: "contain", padding: "2rem" }}
               />
             </div>
@@ -62,6 +63,7 @@ export default function CaseStudiesPage() {
                 src="https://cdn.jsdelivr.net/gh/beeclue/clients@main/self/sure-shot-photobooth-rental.webp" 
                 alt="Sure Shot Photobooth Website" 
                 fill
+                sizes="(max-width: 768px) 100vw, 50vw"
                 style={{ objectFit: "contain", padding: "2rem" }}
               />
             </div>
@@ -84,6 +86,7 @@ export default function CaseStudiesPage() {
                 src="https://cdn.jsdelivr.net/gh/beeclue/clients@main/self/blues-contracting-services.webp" 
                 alt="Blues Contracting Services Website" 
                 fill
+                sizes="(max-width: 768px) 100vw, 50vw"
                 style={{ objectFit: "contain", padding: "2rem" }}
               />
             </div>
@@ -106,6 +109,7 @@ export default function CaseStudiesPage() {
                 src="https://cdn.jsdelivr.net/gh/beeclue/clients@main/self/gir-security.webp" 
                 alt="GIR Security Website" 
                 fill
+                sizes="(max-width: 768px) 100vw, 50vw"
                 style={{ objectFit: "contain", padding: "2rem" }}
               />
             </div>
@@ -128,6 +132,7 @@ export default function CaseStudiesPage() {
                 src="https://cdn.jsdelivr.net/gh/beeclue/clients@main/self/lbf-skin-clinic.webp" 
                 alt="LBF Skin Clinic Website" 
                 fill
+                sizes="(max-width: 768px) 100vw, 50vw"
                 style={{ objectFit: "contain", padding: "2rem" }}
               />
             </div>
