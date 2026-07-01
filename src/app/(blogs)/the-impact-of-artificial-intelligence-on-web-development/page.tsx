@@ -155,6 +155,14 @@ export default function AIWebDevelopmentBlog() {
           <p>At Beeclue Tech, we integrate the latest AI technologies into our development workflows to deliver unmatched digital solutions. If your business is ready for a modern, high-performance web platform, <Link href="/contact" className={blogStyles.internalLink}>contact our engineering team</Link> today.</p>
         </div>
       </div>
+      
+        <div className={blogStyles.authorBox}>
+          <Image src="https://cdn.jsdelivr.net/gh/beeclue/clients@main/self/beeclue-icon-blue.png" alt="Beeclue Design Team" width={60} height={60} className={blogStyles.authorImage} />
+          <div className={blogStyles.authorDetails}>
+            <h4>Beeclue Design Team</h4>
+            <p>Beeclue Tech is a Toronto-based engineering and web design agency specializing in high-performance digital platforms. With expertise in Next.js, WordPress, and Custom Software Development, our team delivers scalable solutions that drive measurable business growth.</p>
+          </div>
+        </div>
       </article>
     </main>
   );

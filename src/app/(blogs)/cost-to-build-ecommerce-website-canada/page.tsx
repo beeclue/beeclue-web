@@ -34,10 +34,32 @@ export default function BlogPost() {
     ]
   };
 
+
+  const articleSchema = {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "The Real Cost to Build an E-Commerce Website in Canada | Beeclue",
+    "description": "How much does it actually cost to build an e-commerce website in Canada? We break down the real costs of Shopify, WooCommerce, and Custom Development.",
+    "author": {
+      "@type": "Organization",
+      "name": "Beeclue Design Team"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Beeclue Tech",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://cdn.jsdelivr.net/gh/beeclue/clients@main/self/beeclue-horizontal-blue.png"
+      }
+    },
+    "url": "https://beeclue.com/cost-to-build-ecommerce-website-canada"
+  };
+
   return (
     <main style={{ minHeight: "100vh", position: "relative" }}>
       <article className={blogStyles.blogContainer}>
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbs) }} />
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
         <FadeIn className={blogStyles.blogHeader}>
           <span className={blogStyles.blogCategory}>Business Strategy</span>
           <h1 className={blogStyles.blogTitle}>The Real Cost to Build an E-Commerce Website in Canada</h1>
@@ -107,6 +129,14 @@ export default function BlogPost() {
       <p>If you are a Canadian business ready to seriously scale your digital retail operations, we are here to help. At Beeclue Tech, we engineer high-performance, secure, and <a href="/ecommerce-development-toronto" className={blogStyles.internalLink}>custom e-commerce platforms</a> tailored strictly to your business objectives. Contact us for a precise, transparent quote.</p>
     
           </FadeIn>
+        </div>
+      
+        <div className={blogStyles.authorBox}>
+          <Image src="https://cdn.jsdelivr.net/gh/beeclue/clients@main/self/beeclue-icon-blue.png" alt="Beeclue Design Team" width={60} height={60} className={blogStyles.authorImage} />
+          <div className={blogStyles.authorDetails}>
+            <h4>Beeclue Design Team</h4>
+            <p>Beeclue Tech is a Toronto-based engineering and web design agency specializing in high-performance digital platforms. With expertise in Next.js, WordPress, and Custom Software Development, our team delivers scalable solutions that drive measurable business growth.</p>
+          </div>
         </div>
       </article>
     </main>

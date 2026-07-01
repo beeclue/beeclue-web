@@ -35,10 +35,32 @@ export default function BlogPost() {
     ]
   };
 
+
+  const articleSchema = {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Affordable Website Design – Only $19/Month | Beeclue",
+    "description": "Get a professional website design, hosting, and maintenance for just $19/month. Perfect for small businesses.",
+    "author": {
+      "@type": "Organization",
+      "name": "Beeclue Design Team"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Beeclue Tech",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://cdn.jsdelivr.net/gh/beeclue/clients@main/self/beeclue-horizontal-blue.png"
+      }
+    },
+    "url": "https://beeclue.com/19-month-website-development-offer"
+  };
+
   return (
     <main style={{ minHeight: "100vh", position: "relative" }}>
       <article className={blogStyles.blogContainer}>
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbs) }} />
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
         <FadeIn className={blogStyles.blogHeader}>
           <span className={blogStyles.blogCategory}>Promotional Offer</span>
           <h1 className={blogStyles.blogTitle}>Affordable Website Design – Only $19/Month</h1>
@@ -170,6 +192,14 @@ export default function BlogPost() {
             <h4>18. Contact Information</h4>
             <p>Email: info@beeclue.com<br/>Contact Form: <a href="/contact" style={{ color: "var(--primary-light)" }}>beeclue.com/contact</a></p>
           </FadeIn>
+        </div>
+      
+        <div className={blogStyles.authorBox}>
+          <Image src="https://cdn.jsdelivr.net/gh/beeclue/clients@main/self/beeclue-icon-blue.png" alt="Beeclue Design Team" width={60} height={60} className={blogStyles.authorImage} />
+          <div className={blogStyles.authorDetails}>
+            <h4>Beeclue Design Team</h4>
+            <p>Beeclue Tech is a Toronto-based engineering and web design agency specializing in high-performance digital platforms. With expertise in Next.js, WordPress, and Custom Software Development, our team delivers scalable solutions that drive measurable business growth.</p>
+          </div>
         </div>
       </article>
     </main>

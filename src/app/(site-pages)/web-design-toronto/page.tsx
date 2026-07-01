@@ -101,7 +101,7 @@ export default function WebDesignTorontoPage() {
           <div className={styles.aboutText}>
             <h3 style={{ fontSize: "2rem", marginBottom: "1rem", color: "var(--foreground)" }}>Custom Website Design</h3>
             <p>We engineer visually captivating, bespoke websites strictly aligned with your brand identity. Our user-centric (UX/UI) designs guarantee intuitive navigation and strong engagement, ensuring your business stands out from local competitors.</p>
-            <Link href="/contact" className={styles.learnMoreLink}>Learn More <ArrowRight size={16} /></Link>
+            <Link href="/contact" className={styles.learnMoreLink} aria-label="Contact us to learn more about Custom Web Applications">Learn More <ArrowRight size={16} /></Link>
           </div>
           <div style={{ display: "flex", alignItems: "center", justifyContent: "center" }}>
             <LayoutTemplate size={120} color="#3385ff" strokeWidth={1} />
@@ -112,7 +112,7 @@ export default function WebDesignTorontoPage() {
           <div className={styles.aboutText}>
             <h3 style={{ fontSize: "2rem", marginBottom: "1rem", color: "var(--foreground)" }}>Business Website Development</h3>
             <p>We build professional, corporate-grade websites explicitly structured to showcase your services and capture leads. Every site is fully responsive (mobile-friendly), fast-loading, and architected to support aggressive long-term scaling.</p>
-            <Link href="/contact" className={styles.learnMoreLink}>Learn More <ArrowRight size={16} /></Link>
+            <Link href="/contact" className={styles.learnMoreLink} aria-label="Contact us to learn more about UI/UX Design">Learn More <ArrowRight size={16} /></Link>
           </div>
           <div style={{ display: "flex", alignItems: "center", justifyContent: "center" }}>
             <Briefcase size={120} color="#3385ff" strokeWidth={1} />
@@ -123,7 +123,7 @@ export default function WebDesignTorontoPage() {
           <div className={styles.aboutText}>
             <h3 style={{ fontSize: "2rem", marginBottom: "1rem", color: "var(--foreground)" }}>WordPress Development</h3>
             <p>Empower your team with flexible, highly scalable WordPress platforms. We design custom WP themes, integrate essential plugins, and heavily optimize the backend for blazing performance and effortless content management.</p>
-            <Link href="/contact" className={styles.learnMoreLink}>Learn More <ArrowRight size={16} /></Link>
+            <Link href="/contact" className={styles.learnMoreLink} aria-label="Contact us to learn more about Full Stack Development">Learn More <ArrowRight size={16} /></Link>
           </div>
           <div style={{ display: "flex", alignItems: "center", justifyContent: "center" }}>
             <Globe size={120} color="#3385ff" strokeWidth={1} />
@@ -134,7 +134,7 @@ export default function WebDesignTorontoPage() {
           <div className={styles.aboutText}>
             <h3 style={{ fontSize: "2rem", marginBottom: "1rem", color: "var(--foreground)" }}>Website Redesign</h3>
             <p>Is your current site bleeding leads due to outdated design or slow speeds? Our complete digital overhauls modernize your web presence, resolving technical debt and drastically improving user retention and conversion rates.</p>
-            <Link href="/contact" className={styles.learnMoreLink}>Learn More <ArrowRight size={16} /></Link>
+            <Link href="/contact" className={styles.learnMoreLink} aria-label="Contact us to learn more about Backend Architecture">Learn More <ArrowRight size={16} /></Link>
           </div>
           <div style={{ display: "flex", alignItems: "center", justifyContent: "center" }}>
             <RefreshCcw size={120} color="#3385ff" strokeWidth={1} />
@@ -145,7 +145,7 @@ export default function WebDesignTorontoPage() {
           <div className={styles.aboutText}>
             <h3 style={{ fontSize: "2rem", marginBottom: "1rem", color: "var(--foreground)" }}>Ecommerce Development</h3>
             <p>Scale your digital retail footprint with ultra-secure ecommerce ecosystems. From custom headless builds to advanced Shopify integrations, we optimize the entire checkout flow for maximum sales volume and zero friction.</p>
-            <Link href="/contact" className={styles.learnMoreLink}>Learn More <ArrowRight size={16} /></Link>
+            <Link href="/contact" className={styles.learnMoreLink} aria-label="Contact us to learn more about Cloud Infrastructure">Learn More <ArrowRight size={16} /></Link>
           </div>
           <div style={{ display: "flex", alignItems: "center", justifyContent: "center" }}>
             <ShoppingCart size={120} color="#3385ff" strokeWidth={1} />
@@ -156,7 +156,7 @@ export default function WebDesignTorontoPage() {
           <div className={styles.aboutText}>
             <h3 style={{ fontSize: "2rem", marginBottom: "1rem", color: "var(--foreground)" }}>SEO-Friendly Development</h3>
             <p>Beautiful code means higher rankings. We adhere to rigorous technical SEO best practices—implementing clean architecture, schema markup, and advanced caching so your site naturally dominates Toronto search results from day one.</p>
-            <Link href="/contact" className={styles.learnMoreLink}>Learn More <ArrowRight size={16} /></Link>
+            <Link href="/contact" className={styles.learnMoreLink} aria-label="Contact us to learn more about API Integrations">Learn More <ArrowRight size={16} /></Link>
           </div>
           <div style={{ display: "flex", alignItems: "center", justifyContent: "center" }}>
             <Search size={120} color="#3385ff" strokeWidth={1} />

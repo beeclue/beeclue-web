@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SEO Traffic Master Report - beeclue.com (Live)</title>
+    <style>
+        :root {
+            --bc-primary: #004d99;
+            --bc-primary-dark: #003d7a;
+            --bc-primary-light: #e6f0ff;
+            --bc-success: #10B981;
+            --bc-success-light: #D1FAE5;
+            --bc-warning: #F59E0B;
+            --bc-warning-light: #FEF3C7;
+            --bc-danger: #EF4444;
+            --bc-danger-light: #FEE2E2;
+            --bc-info: #3B82F6;
+            --bc-info-light: #DBEAFE;
+            --bc-bg: #F8FAFC;
+            --bc-surface: #FFFFFF;
+            --bc-border: #E2E8F0;
+            --bc-text: #1E293B;
+            --bc-text-muted: #64748B;
+            --bc-text-light: #94A3B8;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background-color: var(--bc-bg);
+            color: var(--bc-text);
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+        .container { max-width: 1000px; margin: 0 auto; padding: 20px; }
+        .card { background: var(--bc-surface); padding: 30px; border-radius: 12px; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05); margin-bottom: 24px; border: 1px solid var(--bc-border); }
+        .header { text-align: center; padding: 40px 20px; background: var(--bc-surface); border-radius: 12px; margin-bottom: 30px; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05); border: 1px solid var(--bc-border); }
+        .header img { height: 40px; margin-bottom: 20px; }
+        h1, h2, h3 { color: var(--bc-primary); }
+        h1 { font-size: 2.5rem; margin-bottom: 10px; }
+        h2 { font-size: 1.5rem; margin-top: 0; padding-bottom: 15px; border-bottom: 2px solid var(--bc-primary-light); }
+        .score-circle { width: 140px; height: 140px; background: var(--bc-primary-light); border-radius: 50%; display: flex; flex-direction: column; align-items: center; justify-content: center; margin: 30px auto; border: 6px solid var(--bc-primary); }
+        .score-number { font-size: 48px; font-weight: bold; color: var(--bc-primary); line-height: 1; }
+        .score-label { font-size: 14px; color: var(--bc-primary-dark); font-weight: 600; margin-top: 5px; }
+        table { width: 100%; border-collapse: collapse; margin-top: 15px; }
+        th, td { padding: 16px; text-align: left; border-bottom: 1px solid var(--bc-border); }
+        th { background: var(--bc-bg); color: var(--bc-text-muted); font-weight: 600; }
+        .status { display: inline-block; padding: 6px 12px; border-radius: 99px; font-size: 13px; font-weight: 600; }
+        .status.pass { background: var(--bc-success-light); color: var(--bc-success); }
+        .status.warn { background: var(--bc-warning-light); color: var(--bc-warning); }
+        .status.fail { background: var(--bc-danger-light); color: var(--bc-danger); }
+        .status.na { background: var(--bc-bg); color: var(--bc-text-muted); }
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 24px; }
+        .na-state { color: var(--bc-text-muted); font-style: italic; background: var(--bc-bg); padding: 20px; border-radius: 8px; text-align: center; }
+        .footer { text-align: center; padding: 40px; color: var(--bc-text-muted); font-size: 14px; border-top: 1px solid var(--bc-border); margin-top: 40px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- 1. Cover Section -->
+        <div class="header">
+            <img src="https://cdn.jsdelivr.net/gh/beeclue/clients@main/self/beeclue-horizontal-blue.png" alt="Beeclue Tech">
+            <h1>SEO Traffic Master Report</h1>
+            <p>Domain: <strong>beeclue.com (Live Audit)</strong> | Date: <strong>July 1, 2026</strong></p>
+            <div class="score-circle">
+                <div class="score-number">78</div>
+                <div class="score-label">/100</div>
+            </div>
+            <p>Overall Live SEO Health Score</p>
+        </div>
+
+        <!-- 2. Executive Summary -->
+        <div class="card">
+            <h2>Executive Summary</h2>
+            <p>This audit was performed against the live <code>beeclue.com</code> domain utilizing direct connections to Google Search Console. The site generates solid initial impressions (1,307 over 28 days) but suffers from low Click-Through-Rates (0.69%) and CTR collapse on key landing pages.</p>
+            <div class="grid" style="margin-top: 20px;">
+                <div style="background: var(--bc-bg); padding: 20px; border-radius: 8px;">
+                    <h3 style="margin-top:0;">Top Issues to Fix</h3>
+                    <ul style="margin:0; padding-left: 20px;">
+                        <li>CTR collapse on <code>/web-design-toronto/</code> and <code>/careers/</code>.</li>
+                        <li>Overall low CTR (0.69%) across the site.</li>
+                        <li>Missing specific Article schemas for AI visibility.</li>
+                    </ul>
+                </div>
+                <div style="background: var(--bc-bg); padding: 20px; border-radius: 8px;">
+                    <h3 style="margin-top:0;">Quick Wins</h3>
+                    <ul style="margin:0; padding-left: 20px;">
+                        <li>Rewrite Meta Descriptions for pages with CTR drops to improve click appeal.</li>
+                        <li>Add E-E-A-T author signals to blog posts to improve ranking stability.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- 3. Google Search Console Analysis -->
+        <div class="card">
+            <h2>Google Search Console Analysis</h2>
+            <p>Data pulled directly from the Search Console API for the last 28 days.</p>
+            <div class="grid" style="margin-top: 20px; text-align: center;">
+                <div style="background: var(--bc-bg); padding: 20px; border-radius: 8px;">
+                    <div style="font-size: 24px; color: var(--bc-primary); font-weight: bold;">1,307</div>
+                    <div style="color: var(--bc-text-muted);">Total Impressions</div>
+                </div>
+                <div style="background: var(--bc-bg); padding: 20px; border-radius: 8px;">
+                    <div style="font-size: 24px; color: var(--bc-primary); font-weight: bold;">9</div>
+                    <div style="color: var(--bc-text-muted);">Total Clicks</div>
+                </div>
+                <div style="background: var(--bc-bg); padding: 20px; border-radius: 8px;">
+                    <div style="font-size: 24px; color: var(--bc-warning); font-weight: bold;">0.69%</div>
+                    <div style="color: var(--bc-text-muted);">Average CTR</div>
+                </div>
+                <div style="background: var(--bc-bg); padding: 20px; border-radius: 8px;">
+                    <div style="font-size: 24px; color: var(--bc-text-muted); font-weight: bold;">41.5</div>
+                    <div style="color: var(--bc-text-muted);">Average Position</div>
+                </div>
+            </div>
+            
+            <h3 style="margin-top: 30px;">Traffic Drops Identified</h3>
+            <table>
+                <tr><th>Page</th><th>Status</th><th>Prior Rank</th><th>Current Rank</th></tr>
+                <tr><td>/best-platform-for-ecommerce...</td><td><span class="status warn">CTR Collapse</span></td><td>46.6</td><td>30.0 (Rank improved, clicks died)</td></tr>
+                <tr><td>/careers/</td><td><span class="status warn">CTR Collapse</span></td><td>3.0</td><td>2.4 (Rank improved, clicks died)</td></tr>
+                <tr><td>/web-design-toronto/</td><td><span class="status warn">CTR Collapse</span></td><td>40.3</td><td>35.5 (Rank improved, clicks died)</td></tr>
+                <tr><td>/wordpress-vs-shopify...</td><td><span class="status fail">Rank Loss</span></td><td>10.7</td><td>15.5</td></tr>
+            </table>
+            
+            <h3 style="margin-top: 30px;">Quick Win Keyword Opportunities</h3>
+            <div class="na-state">No keywords found ranking in positions 4-15 with >100 impressions to constitute a "Quick Win".</div>
+        </div>
+
+        <!-- 4. Technical SEO Audit -->
+        <div class="card">
+            <h2>Technical SEO Audit (Live)</h2>
+            <table>
+                <tr><th>Check</th><th>Status</th><th>Notes</th></tr>
+                <tr><td>Live Title Tag</td><td><span class="status pass">Pass</span></td><td>Extracted: "Premium Web Design &amp; Custom Software Agency Toronto..."</td></tr>
+                <tr><td>Live Meta Description</td><td><span class="status pass">Pass</span></td><td>Extracted: "Transform your business with elite web design..."</td></tr>
+                <tr><td>robots.txt</td><td><span class="status pass">Pass</span></td><td>Live file exists and is well-formed.</td></tr>
+            </table>
+        </div>
+
+        <!-- 5. PageSpeed Insights -->
+        <div class="card">
+            <h2>PageSpeed Insights</h2>
+            <div class="na-state">Rate Limit Exceeded — Google PageSpeed Insights API quota limits reached for this project.</div>
+        </div>
+
+        <!-- 6. Schema Validation -->
+        <div class="card">
+            <h2>Schema Validation (Live)</h2>
+            <p>Live fetch detected 2 top-level `application/ld+json` script blocks on the homepage representing LocalBusiness, WebSite, and Breadcrumb structures.</p>
+            <table>
+                <tr><th>Schema Type</th><th>Status</th></tr>
+                <tr><td>LocalBusiness</td><td><span class="status pass">Found</span></td></tr>
+                <tr><td>WebSite</td><td><span class="status pass">Found</span></td></tr>
+                <tr><td>Article / BlogPosting</td><td><span class="status fail">Missing from Blogs</span></td></tr>
+            </table>
+        </div>
+
+        <!-- 7. Broken Links & Redirects -->
+        <div class="card">
+            <h2>Broken Links & Redirects</h2>
+            <div class="na-state">Requires full site crawl limit extension; deferred to local codebase audit.</div>
+        </div>
+
+        <!-- 8. Image Optimization -->
+        <div class="card">
+            <h2>Image Optimization</h2>
+            <div class="na-state">Verified via codebase audit: High utilization of Next.js Image component (WebP/AVIF auto-generation).</div>
+        </div>
+
+        <!-- 9. Video SEO -->
+        <div class="card">
+            <h2>Video SEO</h2>
+            <div class="na-state">N/A — No video embeds detected on main landing pages.</div>
+        </div>
+
+        <!-- 10. Local SEO -->
+        <div class="card">
+            <h2>Local SEO</h2>
+            <p>The live homepage exposes a valid `LocalBusiness` schema targeting Toronto, ON.</p>
+            <span class="status pass">Local Schema Verified</span>
+        </div>
+
+        <!-- 11. Ecommerce Checks -->
+        <div class="card">
+            <h2>Ecommerce Checks</h2>
+            <div class="na-state">N/A — B2B Service Agency.</div>
+        </div>
+
+        <!-- 12. AI Search Visibility -->
+        <div class="card">
+            <h2>AI Search Visibility</h2>
+            <table>
+                <tr><th>Factor</th><th>Score</th><th>Assessment</th></tr>
+                <tr><td>Structured Data Coverage</td><td>6/10</td><td>Missing Article schema globally.</td></tr>
+                <tr><td>Content Formatting</td><td>9/10</td><td>Excellent use of clear H2s and structured lists.</td></tr>
+                <tr><td>Author & Source Signals</td><td>5/10</td><td>Missing dedicated author bios/E-E-A-T credentials.</td></tr>
+            </table>
+            <p style="text-align: right; margin-top: 15px; font-weight: bold;">Overall AI Readiness Score: <span class="status warn">6.5 / 10</span></p>
+        </div>
+
+        <!-- 13. Competitor Analysis -->
+        <div class="card">
+            <h2>Competitor Analysis</h2>
+            <p>Based on live SERP analysis for "web design agency toronto":</p>
+            <table>
+                <tr><th>Competitor</th><th>Focus / Gap</th></tr>
+                <tr><td>Parachute Design Group</td><td>Heavy professional branding.</td></tr>
+                <tr><td>Pixelcarve</td><td>Focuses on high-end, brand-focused UX and conversion.</td></tr>
+                <tr><td>Azuro Digital</td><td>Clean conversion-oriented focus with SEO.</td></tr>
+            </table>
+            <p style="margin-top: 15px;"><strong>Opportunity:</strong> Beeclue can differentiate by highlighting "Custom Software Engineering" alongside traditional web design, as many competitors are strictly design studios.</p>
+        </div>
+
+        <!-- 14. Content Intelligence -->
+        <div class="card">
+            <h2>Content Intelligence</h2>
+            <p>Based on GSC Data:</p>
+            <ul>
+                <li><strong>Decay Alert:</strong> The article `/wordpress-vs-shopify...` has lost 4.8 positions recently. Needs a content refresh.</li>
+                <li><strong>CTR Issue:</strong> High-value pages like `/web-design-toronto/` are suffering from CTR collapse despite ranking improvements. The Meta Title and Description must be rewritten to match search intent better.</li>
+            </ul>
+        </div>
+
+        <!-- 15. Backlink Profile -->
+        <div class="card">
+            <h2>Backlink Profile</h2>
+            <div class="na-state">Requires integration with Ahrefs/Semrush APIs to fetch live domain authority metrics.</div>
+        </div>
+
+        <!-- 16. E-E-A-T Assessment -->
+        <div class="card">
+            <h2>E-E-A-T Assessment</h2>
+            <p>Score: <span class="status warn">5 / 10</span></p>
+            <p>The site relies heavily on its case studies to build Trust. However, the lack of defined Author Profiles on technical blog posts diminishes perceived Expertise for AI engines (like Perplexity).</p>
+        </div>
+
+        <!-- 17. International SEO -->
+        <div class="card">
+            <h2>International SEO</h2>
+            <div class="na-state">N/A — Targeting primarily local Canadian (Toronto) markets. No hreflang implemented.</div>
+        </div>
+
+        <!-- 18. Action Plan -->
+        <div class="card">
+            <h2>Action Plan (Live Priorities)</h2>
+            <table>
+                <tr><th>#</th><th>Issue</th><th>Impact</th><th>Effort</th><th>Priority</th></tr>
+                <tr><td>1</td><td>Rewrite Meta Descriptions for `/web-design-toronto/` to fix CTR collapse</td><td>High</td><td>Low</td><td>P0</td></tr>
+                <tr><td>2</td><td>Refresh content on `/wordpress-vs-shopify...` to regain rankings</td><td>High</td><td>Medium</td><td>P1</td></tr>
+                <tr><td>3</td><td>Implement `Article` Schema on blogs</td><td>High</td><td>Low</td><td>P1</td></tr>
+                <tr><td>4</td><td>Create Author Bios (E-E-A-T)</td><td>Medium</td><td>Medium</td><td>P2</td></tr>
+            </table>
+        </div>
+
+        <!-- 19. Footer -->
+        <div class="footer">
+            Generated by Beeclue Tech — SEO Traffic Master
+        </div>
+    </div>
+</body>
+</html>

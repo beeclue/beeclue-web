@@ -63,7 +63,7 @@ export default function ServicesPage() {
             <p style={{ marginTop: "1rem", fontStyle: "italic", color: "var(--muted)" }}>
               Every system is designed to scale with your business and adapt as your operations grow.
             </p>
-            <Link href="/custom-software-development-toronto/" className={styles.learnMoreLink}>Learn More <ArrowRight size={16} /></Link>
+            <Link href="/custom-software-development-toronto/" className={styles.learnMoreLink} aria-label="Learn more about Custom Software Development">Learn More <ArrowRight size={16} /></Link>
           </div>
           <div style={{ display: "flex", alignItems: "center", justifyContent: "center" }}>
             <Code size={120} color="#3385ff" strokeWidth={1} />
@@ -93,7 +93,7 @@ export default function ServicesPage() {
             <p style={{ marginTop: "1rem", fontStyle: "italic", color: "var(--muted)" }}>
               Every website we build is mobile-friendly, optimized for search engines, and designed to convert visitors into customers.
             </p>
-            <Link href="/web-design-toronto/" className={styles.learnMoreLink}>Learn More <ArrowRight size={16} /></Link>
+            <Link href="/web-design-toronto/" className={styles.learnMoreLink} aria-label="Learn more about Web Design in Toronto">Learn More <ArrowRight size={16} /></Link>
           </div>
           <div style={{ display: "flex", alignItems: "center", justifyContent: "center" }}>
             <LayoutTemplate size={120} color="#3385ff" strokeWidth={1} />
@@ -122,7 +122,7 @@ export default function ServicesPage() {
             <p style={{ marginTop: "1rem", fontStyle: "italic", color: "var(--muted)" }}>
               Own your platform completely without vendor lock-in.
             </p>
-            <Link href="/wordpress-web-design-canada/" className={styles.learnMoreLink}>Learn More <ArrowRight size={16} /></Link>
+            <Link href="/wordpress-web-design-canada/" className={styles.learnMoreLink} aria-label="Learn more about WordPress Web Design">Learn More <ArrowRight size={16} /></Link>
           </div>
           <div style={{ display: "flex", alignItems: "center", justifyContent: "center" }}>
             <LayoutTemplate size={120} color="#3385ff" strokeWidth={1} />
@@ -151,7 +151,7 @@ export default function ServicesPage() {
             <p style={{ marginTop: "1rem", fontStyle: "italic", color: "var(--muted)" }}>
               We focus on building reliable mobile applications that deliver seamless user experiences across devices.
             </p>
-            <Link href="/mobile-app-development-toronto/" className={styles.learnMoreLink}>Learn More <ArrowRight size={16} /></Link>
+            <Link href="/mobile-app-development-toronto/" className={styles.learnMoreLink} aria-label="Learn more about Mobile App Development">Learn More <ArrowRight size={16} /></Link>
           </div>
           <div style={{ display: "flex", alignItems: "center", justifyContent: "center" }}>
             <Smartphone size={120} color="#3385ff" strokeWidth={1} />
@@ -177,7 +177,7 @@ export default function ServicesPage() {
             <p style={{ marginTop: "1rem", fontStyle: "italic", color: "var(--muted)" }}>
               We design ecommerce platforms that provide smooth shopping experiences while maintaining high levels of security and performance.
             </p>
-            <Link href="/ecommerce-development-toronto/" className={styles.learnMoreLink}>Learn More <ArrowRight size={16} /></Link>
+            <Link href="/ecommerce-development-toronto/" className={styles.learnMoreLink} aria-label="Learn more about Ecommerce Development">Learn More <ArrowRight size={16} /></Link>
           </div>
           <div style={{ display: "flex", alignItems: "center", justifyContent: "center" }}>
             <ShoppingCart size={120} color="#3385ff" strokeWidth={1} />
@@ -206,7 +206,7 @@ export default function ServicesPage() {
             <p style={{ marginTop: "1rem", fontStyle: "italic", color: "var(--muted)" }}>
               Through structured SEO strategies, we help businesses strengthen their online presence and generate consistent organic traffic.
             </p>
-            <Link href="/seo-services-toronto/" className={styles.learnMoreLink}>Learn More <ArrowRight size={16} /></Link>
+            <Link href="/seo-services-toronto/" className={styles.learnMoreLink} aria-label="Learn more about SEO Services">Learn More <ArrowRight size={16} /></Link>
           </div>
           <div style={{ display: "flex", alignItems: "center", justifyContent: "center" }}>
             <Search size={120} color="#3385ff" strokeWidth={1} />
@@ -235,7 +235,7 @@ export default function ServicesPage() {
             <p style={{ marginTop: "1rem", fontStyle: "italic", color: "var(--muted)" }}>
               We design scalable systems that simplify complex information.
             </p>
-            <Link href="/ui-ux-design-toronto/" className={styles.learnMoreLink}>Learn More <ArrowRight size={16} /></Link>
+            <Link href="/ui-ux-design-toronto/" className={styles.learnMoreLink} aria-label="Learn more about UI/UX Design">Learn More <ArrowRight size={16} /></Link>
           </div>
           <div style={{ display: "flex", alignItems: "center", justifyContent: "center" }}>
             <Search size={120} color="#3385ff" strokeWidth={1} />

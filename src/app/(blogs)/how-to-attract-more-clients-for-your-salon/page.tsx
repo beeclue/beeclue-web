@@ -155,6 +155,14 @@ export default function AttractSalonClientsBlog() {
             <p>If your salon's digital presence doesn't reflect the high quality of your physical services, you are leaving massive amounts of revenue on the table. At Beeclue Tech, we engineer premium digital ecosystems—from stunning <Link href="/web-design-toronto" className={blogStyles.internalLink}>web design Toronto</Link> solutions to custom booking apps—that actively convert local traffic into loyal clients. <Link href="/contact" className={blogStyles.internalLink}>Contact our development team today</Link> to transform your salon into a digital powerhouse.</p>
           </div>
         </div>
+      
+        <div className={blogStyles.authorBox}>
+          <Image src="https://cdn.jsdelivr.net/gh/beeclue/clients@main/self/beeclue-icon-blue.png" alt="Beeclue Design Team" width={60} height={60} className={blogStyles.authorImage} />
+          <div className={blogStyles.authorDetails}>
+            <h4>Beeclue Design Team</h4>
+            <p>Beeclue Tech is a Toronto-based engineering and web design agency specializing in high-performance digital platforms. With expertise in Next.js, WordPress, and Custom Software Development, our team delivers scalable solutions that drive measurable business growth.</p>
+          </div>
+        </div>
       </article>
     </main>
   );

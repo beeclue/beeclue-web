@@ -34,10 +34,32 @@ export default function BlogPost() {
     ]
   };
 
+
+  const articleSchema = {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Salon Website Development: The Ultimate Guide | Beeclue",
+    "description": "Transform your beauty business with expert salon website development. Learn how custom web design and online booking systems can drive massive client growth.",
+    "author": {
+      "@type": "Organization",
+      "name": "Beeclue Design Team"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Beeclue Tech",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://cdn.jsdelivr.net/gh/beeclue/clients@main/self/beeclue-horizontal-blue.png"
+      }
+    },
+    "url": "https://beeclue.com/salon-website-development"
+  };
+
   return (
     <main style={{ minHeight: "100vh", position: "relative" }}>
       <article className={blogStyles.blogContainer}>
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbs) }} />
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
         <FadeIn className={blogStyles.blogHeader}>
           <span className={blogStyles.blogCategory}>Industry Solutions</span>
           <h1 className={blogStyles.blogTitle}>Salon Website Development: The Ultimate Guide to Booking More Clients Online</h1>
@@ -224,6 +246,14 @@ export default function BlogPost() {
               At Beeclue Tech, we specialize in building luxury, high-performance digital platforms that drive real, measurable business growth. We do not build digital brochures; we build highly automated digital machines designed to generate leads, convert clients, and streamline your operations. If you are ready to completely transform your salon's digital presence and start dominating your local market, <Link href="/contact" className={blogStyles.internalLink}>contact us today</Link> for a free, comprehensive consultation.
             </p>
           </FadeIn>
+        </div>
+      
+        <div className={blogStyles.authorBox}>
+          <Image src="https://cdn.jsdelivr.net/gh/beeclue/clients@main/self/beeclue-icon-blue.png" alt="Beeclue Design Team" width={60} height={60} className={blogStyles.authorImage} />
+          <div className={blogStyles.authorDetails}>
+            <h4>Beeclue Design Team</h4>
+            <p>Beeclue Tech is a Toronto-based engineering and web design agency specializing in high-performance digital platforms. With expertise in Next.js, WordPress, and Custom Software Development, our team delivers scalable solutions that drive measurable business growth.</p>
+          </div>
         </div>
       </article>
     </main>

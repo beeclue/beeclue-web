@@ -34,10 +34,32 @@ export default function BlogPost() {
     ]
   };
 
+
+  const articleSchema = {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "5 Tips for Choosing the Right Website Development Company | Beeclue",
+    "description": "Choosing a web development agency is a major decision. Learn the top 5 expert tips for finding a reliable, high-performance tech partner for your business.",
+    "author": {
+      "@type": "Organization",
+      "name": "Beeclue Design Team"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Beeclue Tech",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://cdn.jsdelivr.net/gh/beeclue/clients@main/self/beeclue-horizontal-blue.png"
+      }
+    },
+    "url": "https://beeclue.com/5-tips-for-choosing-the-right-website-development-company"
+  };
+
   return (
     <main style={{ minHeight: "100vh", position: "relative" }}>
       <article className={blogStyles.blogContainer}>
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbs) }} />
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
         <FadeIn className={blogStyles.blogHeader}>
           <span className={blogStyles.blogCategory}>Business Strategy</span>
           <h1 className={blogStyles.blogTitle}>5 Critical Tips for Choosing the Right Website Development Company</h1>
@@ -190,6 +212,14 @@ export default function BlogPost() {
               Remember, you are not just buying a website; you are hiring a long-term technology partner. If you are looking for an elite team of engineers and designers who specialize in building luxury, high-performance digital platforms that actually convert, we are here to help. <Link href="/contact" className={blogStyles.internalLink}>Contact Beeclue Tech today</Link> to schedule a comprehensive consultation and discover how we can engineer your digital success.
             </p>
           </FadeIn>
+        </div>
+      
+        <div className={blogStyles.authorBox}>
+          <Image src="https://cdn.jsdelivr.net/gh/beeclue/clients@main/self/beeclue-icon-blue.png" alt="Beeclue Design Team" width={60} height={60} className={blogStyles.authorImage} />
+          <div className={blogStyles.authorDetails}>
+            <h4>Beeclue Design Team</h4>
+            <p>Beeclue Tech is a Toronto-based engineering and web design agency specializing in high-performance digital platforms. With expertise in Next.js, WordPress, and Custom Software Development, our team delivers scalable solutions that drive measurable business growth.</p>
+          </div>
         </div>
       </article>
     </main>

@@ -190,6 +190,14 @@ export default function WixProsConsBlog() {
             <p>If your business has outgrown Wix, Squarespace, or generic WordPress templates, it is time for a professional upgrade. At Beeclue Tech, we engineer premium, lightning-fast digital platforms that scale with your ambitions. <Link href="/contact" className={blogStyles.internalLink}>Contact our development team today</Link> to discuss your project.</p>
           </div>
         </div>
+      
+        <div className={blogStyles.authorBox}>
+          <Image src="https://cdn.jsdelivr.net/gh/beeclue/clients@main/self/beeclue-icon-blue.png" alt="Beeclue Design Team" width={60} height={60} className={blogStyles.authorImage} />
+          <div className={blogStyles.authorDetails}>
+            <h4>Beeclue Design Team</h4>
+            <p>Beeclue Tech is a Toronto-based engineering and web design agency specializing in high-performance digital platforms. With expertise in Next.js, WordPress, and Custom Software Development, our team delivers scalable solutions that drive measurable business growth.</p>
+          </div>
+        </div>
       </article>
     </main>
   );

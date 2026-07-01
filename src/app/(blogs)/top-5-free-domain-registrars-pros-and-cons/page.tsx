@@ -196,6 +196,14 @@ export default function FreeDomainRegistrarsBlog() {
             <p>Don't let a free domain limit your business potential. Whether you need a simple corporate site or complex <Link href="/ecommerce-development-toronto" className={blogStyles.internalLink}>e-commerce development</Link>, our team at Beeclue Tech is here to help. We even offer an affordable <Link href="/19-month-website-development-offer" className={blogStyles.internalLink}>$19/Month Website Development Package</Link> to get your startup online professionally. <Link href="/contact" className={blogStyles.internalLink}>Contact us today</Link> to get started!</p>
           </div>
         </div>
+      
+        <div className={blogStyles.authorBox}>
+          <Image src="https://cdn.jsdelivr.net/gh/beeclue/clients@main/self/beeclue-icon-blue.png" alt="Beeclue Design Team" width={60} height={60} className={blogStyles.authorImage} />
+          <div className={blogStyles.authorDetails}>
+            <h4>Beeclue Design Team</h4>
+            <p>Beeclue Tech is a Toronto-based engineering and web design agency specializing in high-performance digital platforms. With expertise in Next.js, WordPress, and Custom Software Development, our team delivers scalable solutions that drive measurable business growth.</p>
+          </div>
+        </div>
       </article>
     </main>
   );

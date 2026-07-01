@@ -35,10 +35,32 @@ export default function BrandIdentityBlog() {
     ]
   };
 
+
+  const articleSchema = {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "How to Design a Website That Reflects Your Brand Identity | Beeclue",
+    "description": "Learn the essential strategies to design a website that perfectly aligns with and amplifies your brand identity, ensuring you stand out in a crowded digital landscape.",
+    "author": {
+      "@type": "Organization",
+      "name": "Beeclue Design Team"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Beeclue Tech",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://cdn.jsdelivr.net/gh/beeclue/clients@main/self/beeclue-horizontal-blue.png"
+      }
+    },
+    "url": "https://beeclue.com/design-a-website-that-reflects-your-brand-identity"
+  };
+
   return (
     <main style={{ minHeight: "100vh", position: "relative" }}>
       <article className={blogStyles.blogContainer}>
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbs) }} />
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
         <FadeIn className={blogStyles.blogHeader}>
           <span className={blogStyles.blogCategory}>Web Design & Branding</span>
           <h1 className={blogStyles.blogTitle}>How to Design a Website That Perfectly Reflects Your Brand Identity</h1>
@@ -210,6 +232,14 @@ export default function BrandIdentityBlog() {
               Are you ready to build a digital presence that truly captures the essence of your business? At Beeclue, we specialize in translating complex brand identities into stunning, high-performance web experiences. Explore our <Link href="/case-studies" className={blogStyles.internalLink}>portfolio of case studies</Link> to see our branding in action, or <Link href="/services" className={blogStyles.internalLink}>contact our team today</Link> to start your digital transformation.
             </p>
           </FadeIn>
+        </div>
+      
+        <div className={blogStyles.authorBox}>
+          <Image src="https://cdn.jsdelivr.net/gh/beeclue/clients@main/self/beeclue-icon-blue.png" alt="Beeclue Design Team" width={60} height={60} className={blogStyles.authorImage} />
+          <div className={blogStyles.authorDetails}>
+            <h4>Beeclue Design Team</h4>
+            <p>Beeclue Tech is a Toronto-based engineering and web design agency specializing in high-performance digital platforms. With expertise in Next.js, WordPress, and Custom Software Development, our team delivers scalable solutions that drive measurable business growth.</p>
+          </div>
         </div>
       </article>
     </main>

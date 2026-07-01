@@ -43,7 +43,7 @@ function Blob() {
 }
 
 function Particles() {
-  const count = 1000;
+  const count = 200;
   const mesh = useRef<THREE.InstancedMesh>(null);
   const dummy = useMemo(() => new THREE.Object3D(), []);
 

@@ -34,10 +34,32 @@ export default function BlogPost() {
     ]
   };
 
+
+  const articleSchema = {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "HTTP vs. HTTPS: Why SSL is Mandatory for SEO and Google Rankings | Beeclue",
+    "description": "Google actively penalizes websites without SSL. Learn the technical differences between HTTP and HTTPS, and why encryption is now mandatory for high SEO rankings.",
+    "author": {
+      "@type": "Organization",
+      "name": "Beeclue Design Team"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Beeclue Tech",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://cdn.jsdelivr.net/gh/beeclue/clients@main/self/beeclue-horizontal-blue.png"
+      }
+    },
+    "url": "https://beeclue.com/http-vs-https-why-ssl-is-mandatory-for-seo"
+  };
+
   return (
     <main style={{ minHeight: "100vh", position: "relative" }}>
       <article className={blogStyles.blogContainer}>
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbs) }} />
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
         <FadeIn className={blogStyles.blogHeader}>
           <span className={blogStyles.blogCategory}>SEO Strategy</span>
           <h1 className={blogStyles.blogTitle}>HTTP vs. HTTPS: Why SSL is Mandatory for SEO and Google Rankings</h1>
@@ -91,6 +113,14 @@ export default function BlogPost() {
       <p>At Beeclue Tech, we specialize in high-performance <a href="/seo-services-toronto" className={blogStyles.internalLink}>SEO services</a> and complex infrastructure migrations. We ensure that every digital platform we architect is impenetrable, lightning-fast, and rigorously optimized to dominate Google's search algorithms.</p>
     
           </FadeIn>
+        </div>
+      
+        <div className={blogStyles.authorBox}>
+          <Image src="https://cdn.jsdelivr.net/gh/beeclue/clients@main/self/beeclue-icon-blue.png" alt="Beeclue Design Team" width={60} height={60} className={blogStyles.authorImage} />
+          <div className={blogStyles.authorDetails}>
+            <h4>Beeclue Design Team</h4>
+            <p>Beeclue Tech is a Toronto-based engineering and web design agency specializing in high-performance digital platforms. With expertise in Next.js, WordPress, and Custom Software Development, our team delivers scalable solutions that drive measurable business growth.</p>
+          </div>
         </div>
       </article>
     </main>

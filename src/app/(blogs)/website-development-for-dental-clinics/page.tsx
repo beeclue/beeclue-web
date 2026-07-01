@@ -35,10 +35,32 @@ export default function BlogPost() {
     ]
   };
 
+
+  const articleSchema = {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Website Development for Dental Clinics: The Ultimate Guide | Beeclue",
+    "description": "Learn why a professional website is crucial for your dental clinic. Discover strategies for patient acquisition, SEO, and creating a modern digital presence.",
+    "author": {
+      "@type": "Organization",
+      "name": "Beeclue Design Team"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Beeclue Tech",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://cdn.jsdelivr.net/gh/beeclue/clients@main/self/beeclue-horizontal-blue.png"
+      }
+    },
+    "url": "https://beeclue.com/website-development-for-dental-clinics"
+  };
+
   return (
     <main style={{ minHeight: "100vh", position: "relative" }}>
       <article className={blogStyles.blogContainer}>
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbs) }} />
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
         <FadeIn className={blogStyles.blogHeader}>
           <span className={blogStyles.blogCategory}>Industry Solutions</span>
           <h1 className={blogStyles.blogTitle}>Website Development for Dental Clinics: A Comprehensive Guide to Growing Your Practice Online</h1>
@@ -230,6 +252,14 @@ export default function BlogPost() {
               Are you ready to transform your clinic's digital presence and start attracting high-value patients? Our team at Beeclue specializes in creating high-performance digital solutions tailored specifically for the healthcare sector. Explore our <Link href="/case-studies" className={blogStyles.internalLink}>case studies</Link> to see how we have helped other businesses succeed, and contact us today to schedule a comprehensive digital audit of your current practice.
             </p>
           </FadeIn>
+        </div>
+      
+        <div className={blogStyles.authorBox}>
+          <Image src="https://cdn.jsdelivr.net/gh/beeclue/clients@main/self/beeclue-icon-blue.png" alt="Beeclue Design Team" width={60} height={60} className={blogStyles.authorImage} />
+          <div className={blogStyles.authorDetails}>
+            <h4>Beeclue Design Team</h4>
+            <p>Beeclue Tech is a Toronto-based engineering and web design agency specializing in high-performance digital platforms. With expertise in Next.js, WordPress, and Custom Software Development, our team delivers scalable solutions that drive measurable business growth.</p>
+          </div>
         </div>
       </article>
     </main>

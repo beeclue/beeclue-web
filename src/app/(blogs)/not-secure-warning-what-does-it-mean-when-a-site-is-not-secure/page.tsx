@@ -58,10 +58,32 @@ export default function BlogPost() {
   };
 
 
+  const articleSchema = {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Not Secure Warning: What It Means and How to Fix It | Beeclue",
+    "description": "Seeing a 'Not Secure' warning on your website? Learn what causes this browser error, how it destroys user trust, and exactly how to fix it with an SSL certificate.",
+    "author": {
+      "@type": "Organization",
+      "name": "Beeclue Design Team"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Beeclue Tech",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://cdn.jsdelivr.net/gh/beeclue/clients@main/self/beeclue-horizontal-blue.png"
+      }
+    },
+    "url": "https://beeclue.com/not-secure-warning-what-does-it-mean-when-a-site-is-not-secure"
+  };
+
+
   return (
     <main style={{ minHeight: "100vh", position: "relative" }}>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbs) }} />
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
       <article className={blogStyles.blogContainer}>
         <FadeIn className={blogStyles.blogHeader}>
           <span className={blogStyles.blogCategory}>Website Security</span>
@@ -177,6 +199,14 @@ export default function BlogPost() {
               Ready to eliminate the warnings and secure your customer data? Explore our <Link href="/services" className={blogStyles.internalLink}>Development Services</Link> or <Link href="/contact" className={blogStyles.internalLink}>Contact Us</Link> today for an immediate security audit.
             </p>
           </FadeIn>
+        </div>
+      
+        <div className={blogStyles.authorBox}>
+          <Image src="https://cdn.jsdelivr.net/gh/beeclue/clients@main/self/beeclue-icon-blue.png" alt="Beeclue Design Team" width={60} height={60} className={blogStyles.authorImage} />
+          <div className={blogStyles.authorDetails}>
+            <h4>Beeclue Design Team</h4>
+            <p>Beeclue Tech is a Toronto-based engineering and web design agency specializing in high-performance digital platforms. With expertise in Next.js, WordPress, and Custom Software Development, our team delivers scalable solutions that drive measurable business growth.</p>
+          </div>
         </div>
       </article>
     </main>

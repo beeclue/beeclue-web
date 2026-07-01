@@ -34,10 +34,32 @@ export default function BlogPost() {
     ]
   };
 
+
+  const articleSchema = {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "The Best E-Commerce Website Builder in Canada (Shopify vs. Custom) | Beeclue",
+    "description": "Looking for the best e-commerce website builder in Canada? We compare Shopify, WooCommerce, and Custom Next.js builds for Canadian businesses.",
+    "author": {
+      "@type": "Organization",
+      "name": "Beeclue Design Team"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Beeclue Tech",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://cdn.jsdelivr.net/gh/beeclue/clients@main/self/beeclue-horizontal-blue.png"
+      }
+    },
+    "url": "https://beeclue.com/best-ecommerce-website-builder-canada"
+  };
+
   return (
     <main style={{ minHeight: "100vh", position: "relative" }}>
       <article className={blogStyles.blogContainer}>
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbs) }} />
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
         <FadeIn className={blogStyles.blogHeader}>
           <span className={blogStyles.blogCategory}>E-Commerce</span>
           <h1 className={blogStyles.blogTitle}>The Best E-Commerce Website Builder in Canada (Shopify vs. Custom)</h1>
@@ -112,6 +134,14 @@ export default function BlogPost() {
       <p>At Beeclue Tech, we specialize in building high-performance, custom <Link href="/ecommerce-development-toronto" className={blogStyles.internalLink}>e-commerce platforms</Link> for ambitious Canadian businesses. If you are wondering about the financial investment required, be sure to read our detailed breakdown on the <Link href="/cost-to-build-ecommerce-website-canada" className={blogStyles.internalLink}>cost to build an ecommerce website in Canada</Link>. Contact us today to discuss the optimal architecture for your digital storefront.</p>
     
           </FadeIn>
+        </div>
+      
+        <div className={blogStyles.authorBox}>
+          <Image src="https://cdn.jsdelivr.net/gh/beeclue/clients@main/self/beeclue-icon-blue.png" alt="Beeclue Design Team" width={60} height={60} className={blogStyles.authorImage} />
+          <div className={blogStyles.authorDetails}>
+            <h4>Beeclue Design Team</h4>
+            <p>Beeclue Tech is a Toronto-based engineering and web design agency specializing in high-performance digital platforms. With expertise in Next.js, WordPress, and Custom Software Development, our team delivers scalable solutions that drive measurable business growth.</p>
+          </div>
         </div>
       </article>
     </main>

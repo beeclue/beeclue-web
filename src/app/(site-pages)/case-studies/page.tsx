@@ -19,7 +19,7 @@ export default function CaseStudiesPage() {
     <main className={styles.main}>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       {/* HEADER SECTION */}
-      <FadeIn className={styles.baseSection} style={{ paddingTop: "20vh", minHeight: "40vh", display: "flex", alignItems: "center" }}>
+      <FadeIn className={styles.baseSection} style={{ paddingTop: "20vh", minHeight: "40vh", display: "flex", alignItems: "center", paddingBottom: "5vh" }}>
         <div className={styles.heroContent}>
           <h1 className={styles.title} style={{ fontSize: "clamp(2.5rem, 6vw, 5rem)" }}>
             <span className={styles.titleLinePrimary}>Our Case Studies</span>
@@ -31,7 +31,7 @@ export default function CaseStudiesPage() {
       </FadeIn>
 
       {/* CASE STUDIES LIST */}
-      <FadeIn className={styles.baseSection}>
+      <FadeIn className={styles.baseSection} style={{ paddingTop: "2rem" }}>
         <div className={styles.caseStudyList}>
           
           <div className={styles.caseStudyListItem}>

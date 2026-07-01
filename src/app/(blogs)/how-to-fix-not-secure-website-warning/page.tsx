@@ -34,10 +34,32 @@ export default function BlogPost() {
     ]
   };
 
+
+  const articleSchema = {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "How to Fix the \"Not Secure\" Website Warning: A Step-by-Step Guide | Beeclue",
+    "description": "Seeing a dangerous \"Not Secure\" warning on your site? Learn exactly how to fix it by installing an SSL certificate to protect your customers and SEO.",
+    "author": {
+      "@type": "Organization",
+      "name": "Beeclue Design Team"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Beeclue Tech",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://cdn.jsdelivr.net/gh/beeclue/clients@main/self/beeclue-horizontal-blue.png"
+      }
+    },
+    "url": "https://beeclue.com/how-to-fix-not-secure-website-warning"
+  };
+
   return (
     <main style={{ minHeight: "100vh", position: "relative" }}>
       <article className={blogStyles.blogContainer}>
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbs) }} />
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
         <FadeIn className={blogStyles.blogHeader}>
           <span className={blogStyles.blogCategory}>Website Security</span>
           <h1 className={blogStyles.blogTitle}>How to Fix the "Not Secure" Website Warning: A Step-by-Step Guide</h1>
@@ -103,6 +125,14 @@ export default function BlogPost() {
       <p>At Beeclue Tech, advanced security isn't an afterthought—it's built into the very foundation of our <a href="/custom-software-development-toronto" className={blogStyles.internalLink}>custom software development</a> architectures. Every digital platform we engineer utilizes military-grade encryption, automated SSL renewals, and hardened server configurations to ensure your business is permanently protected from malicious threats.</p>
     
           </FadeIn>
+        </div>
+      
+        <div className={blogStyles.authorBox}>
+          <Image src="https://cdn.jsdelivr.net/gh/beeclue/clients@main/self/beeclue-icon-blue.png" alt="Beeclue Design Team" width={60} height={60} className={blogStyles.authorImage} />
+          <div className={blogStyles.authorDetails}>
+            <h4>Beeclue Design Team</h4>
+            <p>Beeclue Tech is a Toronto-based engineering and web design agency specializing in high-performance digital platforms. With expertise in Next.js, WordPress, and Custom Software Development, our team delivers scalable solutions that drive measurable business growth.</p>
+          </div>
         </div>
       </article>
     </main>
