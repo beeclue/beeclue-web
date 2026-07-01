@@ -56,6 +56,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/website-development-for-dental-clinics',
     '/what-is-cms-web-development',
     '/why-is-school-website-so-important',
+    '/shopify-pos-activity-log',
   ];
 
   return routes.map((route) => ({
