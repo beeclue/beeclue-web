@@ -83,10 +83,8 @@ export default function RootLayout({
                 "email": "hello@beeclue.com",
                 "address": {
                   "@type": "PostalAddress",
-                  "streetAddress": "36 Carslake Crescent",
                   "addressLocality": "Toronto",
                   "addressRegion": "ON",
-                  "postalCode": "M1J 2A7",
                   "addressCountry": "CA"
                 },
                 "geo": {

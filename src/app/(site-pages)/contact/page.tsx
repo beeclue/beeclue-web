@@ -188,7 +188,7 @@ export default function ContactPage() {
               <MapPin className={styles.icon} />
               <div>
                 <h3>Office</h3>
-                <p>36 Carslake Crescent<br/>Toronto, ON M1J 2A7</p>
+                <p>Toronto, ON</p>
               </div>
             </div>
             <div className={styles.detailItem}>
