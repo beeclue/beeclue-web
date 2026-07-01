@@ -2,6 +2,7 @@
 
 import React, { useState } from "react";
 import styles from "./Newsletter.module.css";
+import { trackFormSubmit } from "@/lib/analytics";
 
 export default function Newsletter() {
   const [email, setEmail] = useState("");
@@ -37,6 +38,7 @@ export default function Newsletter() {
 
       setStatus("success");
       setMessage(data.message || "Thanks for subscribing!");
+      trackFormSubmit("newsletter");
       setEmail(""); // Clear the input
     } catch (error: any) {
       setStatus("error");

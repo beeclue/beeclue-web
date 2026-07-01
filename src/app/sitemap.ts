@@ -46,6 +46,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/how-to-fix-not-secure-website-warning',
     '/5-tips-for-choosing-the-right-website-development-company',
     '/19-month-website-development-offer',
+    '/custom-website-vs-wix',
     '/data-analytics-the-key-to-making-better-business-decisions',
     '/design-a-website-that-reflects-your-brand-identity',
     '/is-wix-website-builder-the-right-platform-for-you-pros-and-cons-of-using-wix',

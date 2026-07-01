@@ -14,19 +14,36 @@ export default function Home() {
       <FadeIn className={styles.hero}>
         <div className={styles.heroContent}>
           {/* Visually Hidden SEO H1 */}
-          <h1 className={styles.srOnly}>Custom Web Design & Software Development Agency in Toronto</h1>
+          <h1 className={styles.srOnly}>Websites That Bring You Customers, Not Just Visitors</h1>
 
           <div className={styles.title} aria-hidden="true">
-            <span className={styles.titleLine}>Scalable</span>
-            <span className={styles.titleLine}>Digital</span>
-            <span className={styles.titleLinePrimary}>Foundations</span>
+            <span className={styles.titleLine}>Websites</span>
+            <span className={styles.titleLine}>That Bring You</span>
+            <span className={styles.titleLinePrimary}>Customers</span>
           </div>
           <p className={styles.subtitle}>
-            We build high-performing software platforms and premium web experiences that attract visitors, convert customers, and scale with your business. Proudly based in Toronto, Canada, we serve forward-thinking startups and enterprise companies across North America.
+            We design and build custom websites for Toronto small businesses that turn visitors into paying customers. No templates. No fluff. Just results.
           </p>
           <Link href="/contact" className={styles.ctaButton}>
-            Get Consultation <ArrowRight className={styles.arrow} />
+            Get Your Free Website Audit <ArrowRight className={styles.arrow} />
           </Link>
+          <p className={styles.heroMicrocopy}>Free &bull; No obligation &bull; Takes 2 minutes</p>
+          <div className={styles.heroTrustBar}>
+            <div className={styles.trustItem}>
+              <img src="/google-logo.svg" alt="Google" width="20" height="20" />
+              <span className={styles.trustStars}>★★★★★</span>
+              <span className={styles.trustLabel}>5.0</span>
+            </div>
+            <div className={styles.trustDivider} />
+            <div className={styles.trustItem}>
+              <img src="https://cdn.trustpilot.net/brand-assets/4.1.0/stars/stars-5.svg" alt="Trustpilot 5 Stars" width="80" height="16" />
+              <span className={styles.trustLabel}>Excellent</span>
+            </div>
+            <div className={styles.trustDivider} />
+            <div className={styles.trustItem}>
+              <span className={styles.trustLabel}>Trusted by 50+ Toronto businesses</span>
+            </div>
+          </div>
         </div>
       </FadeIn>
 

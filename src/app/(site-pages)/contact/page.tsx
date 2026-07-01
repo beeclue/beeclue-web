@@ -7,6 +7,7 @@ import styles from "./page.module.css";
 import { Mail, MapPin, ArrowRight, Phone, MessageCircle, Check, X } from "lucide-react";
 import PhoneInput, { isValidPhoneNumber } from "react-phone-number-input";
 import "react-phone-number-input/style.css";
+import { trackFormSubmit } from "@/lib/analytics";
 
 type FormErrors = {
   name?: string;
@@ -14,8 +15,7 @@ type FormErrors = {
   phone?: string;
   service?: string;
   comments?: string;
-  consentTerms?: string;
-  consentStore?: string;
+  consent?: string;
 };
 
 export default function ContactPage() {
@@ -28,8 +28,7 @@ export default function ContactPage() {
     email: "",
     service: "",
     comments: "",
-    consentTerms: false,
-    consentStore: false,
+    consent: false,
   });
 
   // Validation State
@@ -58,16 +57,8 @@ export default function ContactPage() {
       newErrors.service = "Please select a service";
     }
 
-    if (!formData.comments.trim()) {
-      newErrors.comments = "Comments are required";
-    }
-
-    if (!formData.consentTerms) {
-      newErrors.consentTerms = "You must accept the terms and privacy policy";
-    }
-
-    if (!formData.consentStore) {
-      newErrors.consentStore = "You must consent to store your information";
+    if (!formData.consent) {
+      newErrors.consent = "You must agree to the terms and consent to store your information";
     }
 
     setErrors(newErrors);
@@ -128,6 +119,7 @@ export default function ContactPage() {
       
       if (response.status === 200) {
         setFormStatus("success");
+        trackFormSubmit("contact_form", formData.service);
         
         // Add the user to EmailOctopus list in the background
         try {
@@ -244,6 +236,7 @@ export default function ContactPage() {
                   value={formData.email}
                   onChange={handleChange}
                   placeholder="john@company.com" 
+                  autoComplete="email"
                   disabled={formStatus === "submitting"}
                   className={errors.email ? styles.inputError : ""}
                 />
@@ -260,6 +253,7 @@ export default function ContactPage() {
                     value={phone}
                     onChange={handlePhoneChange}
                     placeholder="Enter phone number"
+                    autoComplete="tel"
                     disabled={formStatus === "submitting"}
                   />
                 </div>
@@ -306,38 +300,21 @@ export default function ContactPage() {
                 <label className={styles.checkboxLabel}>
                   <input
                     type="checkbox"
-                    name="consentTerms"
-                    checked={formData.consentTerms}
+                    name="consent"
+                    checked={formData.consent}
                     onChange={handleCheckboxChange}
                     disabled={formStatus === "submitting"}
                     className={styles.checkbox}
                   />
                   <span>
-                    I accept the <a href="/terms-and-conditions" target="_blank" rel="noopener noreferrer">Terms and Conditions</a> and <a href="/privacy-policy" target="_blank" rel="noopener noreferrer">Privacy Policy</a>
+                    I agree to the <a href="/terms-and-conditions" target="_blank" rel="noopener noreferrer">Terms &amp; Conditions</a> and <a href="/privacy-policy" target="_blank" rel="noopener noreferrer">Privacy Policy</a>, and consent to Beeclue storing my information to respond to my inquiry.
                   </span>
                 </label>
-                {errors.consentTerms && <span className={styles.errorText}>{errors.consentTerms}</span>}
-              </div>
-
-              <div className={styles.checkboxGroup}>
-                <label className={styles.checkboxLabel}>
-                  <input
-                    type="checkbox"
-                    name="consentStore"
-                    checked={formData.consentStore}
-                    onChange={handleCheckboxChange}
-                    disabled={formStatus === "submitting"}
-                    className={styles.checkbox}
-                  />
-                  <span>
-                    I consent to have this website store my submitted information so they can respond to my inquiry
-                  </span>
-                </label>
-                {errors.consentStore && <span className={styles.errorText}>{errors.consentStore}</span>}
+                {errors.consent && <span className={styles.errorText}>{errors.consent}</span>}
               </div>
 
               <button type="submit" className={styles.submitButton} disabled={formStatus === "submitting"}>
-                {formStatus === "submitting" ? "Sending..." : "Send Message"} <ArrowRight className={styles.arrow} />
+                {formStatus === "submitting" ? "Sending..." : "Get My Free Consultation"} <ArrowRight className={styles.arrow} />
               </button>
             </form>
         </div>
@@ -350,12 +327,12 @@ export default function ContactPage() {
                <Check size={32} />
             </div>
             <h3 className={styles.modalTitle}>Message Received</h3>
-            <p className={styles.modalText}>Thank you for reaching out. A member of our technical team will be in touch with you shortly.</p>
+            <p className={styles.modalText}>Thanks! We&apos;ll respond within 2 business hours. Check your inbox for a confirmation.</p>
             <button 
               className={styles.modalButton}
               onClick={() => {
                 setFormStatus("idle");
-                setFormData({ name: "", email: "", service: "", comments: "", consentTerms: false, consentStore: false });
+                setFormData({ name: "", email: "", service: "", comments: "", consent: false });
                 setPhone(undefined);
               }}
             >
@@ -372,7 +349,7 @@ export default function ContactPage() {
                <X size={32} />
             </div>
             <h3 className={styles.modalTitle}>Submission Failed</h3>
-            <p className={styles.modalText}>There was an error sending your message. Please try again later or contact us directly.</p>
+            <p className={styles.modalText}>Something went wrong. Please try again or email us directly at hello@beeclue.com.</p>
             <button 
               className={styles.modalButton}
               onClick={() => {
