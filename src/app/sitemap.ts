@@ -57,6 +57,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/what-is-cms-web-development',
     '/why-is-school-website-so-important',
     '/shopify-pos-activity-log',
+    '/wordpress-7-0-armstrong-whats-new',
   ];
 
   return routes.map((route) => ({
