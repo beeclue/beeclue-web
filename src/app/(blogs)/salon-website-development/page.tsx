@@ -243,7 +243,7 @@ export default function BlogPost() {
               To truly stand out in the crowded beauty industry, you require a custom-engineered digital solution built from the ground up to serve your specific business objectives. You need a technology partner who understands the nuanced psychology of UX design, the rigid requirements of technical SEO, and the complex engineering required to build highly secure, lightning-fast web applications.
             </p>
             <p>
-              At Beeclue Tech, we specialize in building luxury, high-performance digital platforms that drive real, measurable business growth. We do not build digital brochures; we build highly automated digital machines designed to generate leads, convert clients, and streamline your operations. If you are ready to completely transform your salon's digital presence and start dominating your local market, <Link href="/contact" className={blogStyles.internalLink}>contact us today</Link> for a free, comprehensive consultation.
+              At Beeclue Tech, we specialize in building luxury, high-performance digital platforms that drive real, measurable business growth. We do not build digital brochures; we build highly automated digital machines designed to generate leads, convert clients, and streamline your operations. If you are ready to completely transform your salon&apos;s digital presence and start dominating your local market, explore our dedicated <Link href="/web-design-for-salons" className={blogStyles.internalLink}>web design for salons</Link> service page to see how we can help, or <Link href="/contact" className={blogStyles.internalLink}>contact us today</Link> for a free, comprehensive consultation.
             </p>
           </FadeIn>
         </div>

@@ -39,6 +39,34 @@ For clients needing highly customized but easily manageable content platforms, w
 We design specialized, highly functional, and accessible websites tailored for educational institutions, integrating student portals and seamless parent communication features.
 [Read More](https://beeclue.com/school-website-design-services)
 
+### 9. Web Design for Salons
+We build high-converting, booking-ready websites for salons, barbershops, and beauty professionals. Our salon websites feature online booking integration, visual portfolio galleries, stylist profile pages, service menus with pricing, and local SEO optimization to dominate "salon near me" searches. Each site is designed mobile-first to capture the 70%+ of salon bookings that happen on mobile devices.
+[Read More](https://beeclue.com/web-design-for-salons)
+
+### 10. Web Design for Dental Clinics
+We create trust-building, patient-ready websites for dental clinics and oral healthcare providers. Features include online appointment booking, smile galleries, patient portal integration, HIPAA-conscious design, and local SEO to dominate "dentist near me" searches.
+[Read More](https://beeclue.com/web-design-for-dental-clinics)
+
+### 11. Web Design for Construction Companies
+We build professional, lead-generating websites for construction companies, contractors, and trades businesses. Features include project portfolios, quote request forms, licensing trust signals, and local SEO to dominate "contractor near me" searches.
+[Read More](https://beeclue.com/web-design-for-construction-companies)
+
+### 12. Web Design for Restaurants
+We build mouth-watering, reservation-ready websites for restaurants, cafes, and food businesses. Features include direct online ordering (no platform commissions), digital menu displays, reservation systems, and local SEO to dominate "restaurant near me" searches.
+[Read More](https://beeclue.com/web-design-for-restaurants)
+
+### 13. Web Design for Real Estate
+We build property-selling, lead-capturing websites for realtors, real estate agencies, and property management companies. Features include MLS-integrated property search, virtual tours, lead capture systems, neighborhood guides, and local SEO.
+[Read More](https://beeclue.com/web-design-for-real-estate)
+
+### 14. Web Design for Healthcare
+We build patient-centric, trust-building websites for medical clinics, physiotherapy centers, wellness providers, and healthcare organizations. Features include telehealth integration, patient portals, provider profiles, and HIPAA-conscious design.
+[Read More](https://beeclue.com/web-design-for-healthcare)
+
+### 15. Web Design for Law Firms
+We build authoritative, client-converting websites for law firms, lawyers, and legal practices. Features include case results showcases, client intake forms, attorney profiles, practice area pages, and local SEO for legal searches.
+[Read More](https://beeclue.com/web-design-for-law-firms)
+
 ## Proprietary Products
 In addition to our agency services, Beeclue Tech builds and maintains proprietary software products designed to solve specific industry problems.
 - **Monexa (Personal Finance Manager)**: The simple, beautiful, and powerful way to track expenses, manage budgets, and achieve financial goals effortlessly. Built with AI-powered insights and comprehensive transaction tracking. [https://beeclue.com/products/monexa]

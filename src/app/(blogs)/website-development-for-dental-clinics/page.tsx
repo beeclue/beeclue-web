@@ -249,7 +249,7 @@ export default function BlogPost() {
               Effective website development for dental clinics requires a delicate balance of stunning aesthetics, psychological understanding of patient behavior, rigorous technical engineering, and aggressive local SEO tactics. It is not a DIY project to be taken lightly. By investing in a custom, professionally designed digital platform, you are investing directly in the sustainable, long-term growth of your practice.
             </p>
             <p>
-              Are you ready to transform your clinic's digital presence and start attracting high-value patients? Our team at Beeclue specializes in creating high-performance digital solutions tailored specifically for the healthcare sector. Explore our <Link href="/case-studies" className={blogStyles.internalLink}>case studies</Link> to see how we have helped other businesses succeed, and contact us today to schedule a comprehensive digital audit of your current practice.
+              Are you ready to transform your clinic&apos;s digital presence and start attracting high-value patients? Explore our dedicated <Link href="/web-design-for-dental-clinics" className={blogStyles.internalLink}>web design for dental clinics</Link> service page, or browse our <Link href="/case-studies" className={blogStyles.internalLink}>case studies</Link> to see how we have helped other businesses succeed. <Link href="/contact" className={blogStyles.internalLink}>Contact us today</Link> to schedule a comprehensive digital audit of your current practice.
             </p>
           </FadeIn>
         </div>

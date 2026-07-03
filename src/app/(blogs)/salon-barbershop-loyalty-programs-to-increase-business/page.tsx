@@ -224,7 +224,7 @@ export default function BlogPost() {
               However, if you are ready to take your business to the next level, stop renting software and start building your own brand equity. A custom white-label booking and loyalty app is the ultimate investment in your shop's future. 
             </p>
             <p>
-              Are you ready to create a digital experience that keeps your clients coming back? <Link href="/contact" className={blogStyles.internalLink}>Contact Beeclue Tech today</Link> to discuss how we can engineer a custom solution tailored to your salon or barbershop.
+              Are you ready to create a digital experience that keeps your clients coming back? Start by exploring our <Link href="/web-design-for-salons" className={blogStyles.internalLink}>web design for salons</Link> page to see how a professional website can transform your beauty business. Then <Link href="/contact" className={blogStyles.internalLink}>contact Beeclue Tech today</Link> to discuss how we can engineer a custom solution tailored to your salon or barbershop.
             </p>
           </FadeIn>
         </div>

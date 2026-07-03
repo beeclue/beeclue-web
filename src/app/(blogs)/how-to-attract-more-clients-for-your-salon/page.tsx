@@ -152,7 +152,7 @@ export default function AttractSalonClientsBlog() {
 
           <div className={blogStyles.ctaSection}>
             <h3>Ready to Scale Your Salon?</h3>
-            <p>If your salon's digital presence doesn't reflect the high quality of your physical services, you are leaving massive amounts of revenue on the table. At Beeclue Tech, we engineer premium digital ecosystems—from stunning <Link href="/web-design-toronto" className={blogStyles.internalLink}>web design Toronto</Link> solutions to custom booking apps—that actively convert local traffic into loyal clients. <Link href="/contact" className={blogStyles.internalLink}>Contact our development team today</Link> to transform your salon into a digital powerhouse.</p>
+            <p>If your salon&apos;s digital presence doesn&apos;t reflect the high quality of your physical services, you are leaving massive amounts of revenue on the table. At Beeclue Tech, we engineer premium digital ecosystems—from stunning <Link href="/web-design-for-salons" className={blogStyles.internalLink}>web design for salons</Link> solutions to custom booking apps—that actively convert local traffic into loyal clients. <Link href="/contact" className={blogStyles.internalLink}>Contact our development team today</Link> to transform your salon into a digital powerhouse.</p>
           </div>
         </div>
       

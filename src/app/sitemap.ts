@@ -13,6 +13,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/terms-and-conditions',
     // Services
     '/school-website-design-services',
+    '/web-design-for-salons',
+    '/web-design-for-dental-clinics',
+    '/web-design-for-construction-companies',
+    '/web-design-for-restaurants',
+    '/web-design-for-real-estate',
+    '/web-design-for-healthcare',
+    '/web-design-for-law-firms',
     '/custom-software-development-toronto',
     '/ecommerce-development-toronto',
     '/mobile-app-development-toronto',

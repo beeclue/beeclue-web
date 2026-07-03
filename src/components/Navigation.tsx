@@ -22,6 +22,13 @@ const menuLinks = [
       { name: "SEO & Marketing", href: "/seo-services-toronto/" },
       { name: "UI/UX Design", href: "/ui-ux-design-toronto/" },
       { name: "WordPress Design", href: "/wordpress-web-design-canada/" },
+      { name: "Web Design for Salons", href: "/web-design-for-salons/" },
+      { name: "Web Design for Dental Clinics", href: "/web-design-for-dental-clinics/" },
+      { name: "Web Design for Construction", href: "/web-design-for-construction-companies/" },
+      { name: "Web Design for Restaurants", href: "/web-design-for-restaurants/" },
+      { name: "Web Design for Real Estate", href: "/web-design-for-real-estate/" },
+      { name: "Web Design for Healthcare", href: "/web-design-for-healthcare/" },
+      { name: "Web Design for Law Firms", href: "/web-design-for-law-firms/" },
     ]
   },
   { name: "Case Studies", href: "/case-studies/" },

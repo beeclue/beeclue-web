@@ -159,6 +159,24 @@ export default function LBFSkinClinicCaseStudy() {
           </div>
         </div>
       </FadeIn>
+
+      {/* CTA SECTION */}
+      <FadeIn className={styles.baseSection} style={{ textAlign: "center", borderTop: "1px solid var(--border)", paddingBottom: "10rem" }}>
+        <div style={{ maxWidth: "800px", margin: "0 auto" }}>
+          <h2 style={{ fontSize: "clamp(2rem, 4vw, 3rem)", marginBottom: "1.5rem" }}>Want Similar Results for Your Beauty Business?</h2>
+          <p style={{ color: "var(--muted)", fontSize: "1.125rem", marginBottom: "2.5rem", lineHeight: "1.7" }}>
+            We specialize in building high-converting websites for salons, barbershops, and skincare clinics. Let us engineer a digital presence that fills your appointment calendar.
+          </p>
+          <div style={{ display: "flex", gap: "1.5rem", justifyContent: "center", flexWrap: "wrap" }}>
+            <Link href="/web-design-for-salons" className={styles.ctaButton}>
+              Web Design for Salons <ArrowRight className={styles.arrow} />
+            </Link>
+            <Link href="/contact" className={styles.ctaButton}>
+              Start Your Project <ArrowRight className={styles.arrow} />
+            </Link>
+          </div>
+        </div>
+      </FadeIn>
     </main>
   );
 }
