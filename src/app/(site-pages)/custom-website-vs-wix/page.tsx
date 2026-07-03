@@ -5,7 +5,7 @@ import { useEffect } from "react";
 import styles from "@/app/page.module.css";
 import { ArrowRight, Check, X, CheckCircle2 } from "lucide-react";
 import FadeIn from "@/components/FadeIn";
-import { trackComparisonView } from "@/lib/analytics";
+import { trackComparisonView, trackCTAClick } from "@/lib/analytics";
 
 const comparisonRows = [
   { feature: "Page Load Speed", custom: "Under 1 second", wix: "2–4 seconds", shopify: "2–3 seconds", winner: "custom" },
@@ -80,7 +80,7 @@ export default function CustomVsWixPage() {
           <p className={styles.subtitle} style={{ fontSize: "1.25rem", maxWidth: "800px" }}>
             Which option gives you better speed, SEO, control, and long-term value for your Toronto business? Here&apos;s an honest comparison.
           </p>
-          <Link href="/contact" className={styles.ctaButton}>
+          <Link href="/contact" className={styles.ctaButton} onClick={() => trackCTAClick("recommendation", "comparison_hero")}>
             Get a Free Recommendation <ArrowRight className={styles.arrow} />
           </Link>
         </div>
@@ -197,7 +197,7 @@ export default function CustomVsWixPage() {
         <p style={{ color: "var(--muted)", fontSize: "1.25rem", maxWidth: "600px", margin: "0 auto 2.5rem auto" }}>
           We&apos;ll review your business goals and give you an honest recommendation — no pressure, no obligation.
         </p>
-        <Link href="/contact" className={styles.ctaButton}>
+        <Link href="/contact" className={styles.ctaButton} onClick={() => trackCTAClick("recommendation", "comparison_bottom")}>
           Get Your Free Recommendation <ArrowRight className={styles.arrow} />
         </Link>
       </FadeIn>

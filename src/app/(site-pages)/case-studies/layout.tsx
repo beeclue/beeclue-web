@@ -1,4 +1,5 @@
 import { Metadata } from "next";
+import CaseStudyTracker from "@/components/CaseStudyTracker";
 
 export const metadata: Metadata = {
   title: "Our Portfolio & Case Studies | Beeclue Tech",
@@ -10,5 +11,10 @@ export default function Layout({
 }: {
   children: React.ReactNode;
 }) {
-  return children;
+  return (
+    <>
+      <CaseStudyTracker />
+      {children}
+    </>
+  );
 }

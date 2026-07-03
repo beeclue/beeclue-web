@@ -4,6 +4,7 @@ import Link from "next/link";
 import styles from "@/app/page.module.css";
 import { ArrowRight, LayoutTemplate, Briefcase, Globe, RefreshCcw, ShoppingCart, Search, CheckCircle2, Check } from "lucide-react";
 import FadeIn from "@/components/FadeIn";
+import ServiceTracker from "@/components/ServiceTracker";
 
 export default function WordPressWebDesignCanadaPage() {
   const jsonLd = {
@@ -29,6 +30,7 @@ export default function WordPressWebDesignCanadaPage() {
 
   return (
     <main className={styles.main}>
+      <ServiceTracker />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbs) }} />
       {/* HEADER SECTION */}

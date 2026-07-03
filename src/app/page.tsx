@@ -5,6 +5,7 @@ import Image from "next/image";
 import styles from "./page.module.css";
 import { ArrowRight, Code, LayoutTemplate, Smartphone, ShoppingCart, Search, CheckCircle2, Cloud } from "lucide-react";
 import FadeIn from "@/components/FadeIn";
+import { trackCTAClick } from "@/lib/analytics";
 
 // Dynamically import the 3D scene to avoid SSR issues
 export default function Home() {
@@ -24,7 +25,7 @@ export default function Home() {
           <p className={styles.subtitle}>
             We design and build custom websites for Toronto small businesses that turn visitors into paying customers. No templates. No fluff. Just results.
           </p>
-          <Link href="/contact" className={styles.ctaButton}>
+          <Link href="/contact" className={styles.ctaButton} onClick={() => trackCTAClick("hero_audit", "homepage_hero")}>
             Get Your Free Website Audit <ArrowRight className={styles.arrow} />
           </Link>
           <p className={styles.heroMicrocopy}>Free &bull; No obligation &bull; Takes 2 minutes</p>
