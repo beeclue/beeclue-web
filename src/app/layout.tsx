@@ -82,6 +82,7 @@ export default function RootLayout({
                 "@context": "https://schema.org",
                 "@type": "LocalBusiness",
                 "name": "Beeclue Tech",
+                "description": "Digital development agency in Toronto specializing in web design, custom software, and e-commerce solutions",
                 "image": "https://beeclue.com/logo.png",
                 "@id": "https://beeclue.com",
                 "url": "https://beeclue.com",
@@ -98,7 +99,22 @@ export default function RootLayout({
                   "latitude": 43.6532,
                   "longitude": -79.3832
                 },
-                "priceRange": "$$$"
+                "priceRange": "$$",
+                "openingHours": "Mo-Fr 09:00-18:00",
+                "sameAs": [
+                  "https://www.facebook.com/beeclue",
+                  "https://www.linkedin.com/company/beeclue",
+                  "https://www.instagram.com/beeclue"
+                ],
+                "hasOfferCatalog": {
+                  "@type": "OfferCatalog",
+                  "name": "Digital Services",
+                  "itemListElement": [
+                    { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Web Design" } },
+                    { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Custom Software Development" } },
+                    { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "E-Commerce Development" } }
+                  ]
+                }
               },
               {
                 "@context": "https://schema.org",
