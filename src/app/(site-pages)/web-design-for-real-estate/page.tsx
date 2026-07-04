@@ -228,18 +228,27 @@ export default function WebDesignForRealEstatePage() {
           <h2>Explore Our Industry Solutions</h2>
           <p>We build specialized websites across multiple industries. See how we can help your sector.</p>
         </div>
-        <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(300px, 1fr))", gap: "2rem", maxWidth: "1100px", margin: "0 auto" }}>
+        <div style={{ display: "grid", gridTemplateColumns: "1fr", gap: "1.5rem", maxWidth: "900px", margin: "0 auto" }}>
           <Link href="/web-design-for-salons" style={{ textDecoration: "none" }}>
-            <div className={styles.serviceCard} style={{ height: "100%", display: "flex", flexDirection: "column", justifyContent: "space-between" }}>
+            <div className={styles.serviceCard} style={{ width: "100%", display: "flex", flexDirection: "column", justifyContent: "space-between" }}>
               <div>
                 <h3 style={{ fontSize: "1.25rem", marginBottom: "1rem", color: "var(--foreground)" }}>Web Design for Salons</h3>
-                <p style={{ color: "var(--muted)", fontSize: "0.875rem" }}>Booking-ready websites for salons and beauty professionals with online scheduling and portfolio showcases.</p>
+                <p style={{ color: "var(--muted)", fontSize: "0.875rem" }}>Booking-ready websites for salons, barbershops, and beauty professionals with online scheduling and portfolio showcases.</p>
+              </div>
+              <span className={styles.learnMoreLink} style={{ marginTop: "1rem" }}>Learn More <ArrowRight size={16} /></span>
+            </div>
+          </Link>
+          <Link href="/web-design-for-dental-clinics" style={{ textDecoration: "none" }}>
+            <div className={styles.serviceCard} style={{ width: "100%", display: "flex", flexDirection: "column", justifyContent: "space-between" }}>
+              <div>
+                <h3 style={{ fontSize: "1.25rem", marginBottom: "1rem", color: "var(--foreground)" }}>Web Design for Dental Clinics</h3>
+                <p style={{ color: "var(--muted)", fontSize: "0.875rem" }}>Patient-ready dental websites with appointment booking, smile galleries, and HIPAA-conscious design.</p>
               </div>
               <span className={styles.learnMoreLink} style={{ marginTop: "1rem" }}>Learn More <ArrowRight size={16} /></span>
             </div>
           </Link>
           <Link href="/web-design-for-construction-companies" style={{ textDecoration: "none" }}>
-            <div className={styles.serviceCard} style={{ height: "100%", display: "flex", flexDirection: "column", justifyContent: "space-between" }}>
+            <div className={styles.serviceCard} style={{ width: "100%", display: "flex", flexDirection: "column", justifyContent: "space-between" }}>
               <div>
                 <h3 style={{ fontSize: "1.25rem", marginBottom: "1rem", color: "var(--foreground)" }}>Web Design for Construction</h3>
                 <p style={{ color: "var(--muted)", fontSize: "0.875rem" }}>Professional websites for contractors with project portfolios, quote forms, and lead capture systems.</p>
@@ -247,11 +256,29 @@ export default function WebDesignForRealEstatePage() {
               <span className={styles.learnMoreLink} style={{ marginTop: "1rem" }}>Learn More <ArrowRight size={16} /></span>
             </div>
           </Link>
+          <Link href="/web-design-for-restaurants" style={{ textDecoration: "none" }}>
+            <div className={styles.serviceCard} style={{ width: "100%", display: "flex", flexDirection: "column", justifyContent: "space-between" }}>
+              <div>
+                <h3 style={{ fontSize: "1.25rem", marginBottom: "1rem", color: "var(--foreground)" }}>Web Design for Restaurants</h3>
+                <p style={{ color: "var(--muted)", fontSize: "0.875rem" }}>Mouth-watering restaurant websites with online ordering, menu displays, and reservation systems.</p>
+              </div>
+              <span className={styles.learnMoreLink} style={{ marginTop: "1rem" }}>Learn More <ArrowRight size={16} /></span>
+            </div>
+          </Link>
+          <Link href="/web-design-for-healthcare" style={{ textDecoration: "none" }}>
+            <div className={styles.serviceCard} style={{ width: "100%", display: "flex", flexDirection: "column", justifyContent: "space-between" }}>
+              <div>
+                <h3 style={{ fontSize: "1.25rem", marginBottom: "1rem", color: "var(--foreground)" }}>Web Design for Healthcare</h3>
+                <p style={{ color: "var(--muted)", fontSize: "0.875rem" }}>HIPAA-conscious healthcare websites with patient portals, appointment booking, and provider directories.</p>
+              </div>
+              <span className={styles.learnMoreLink} style={{ marginTop: "1rem" }}>Learn More <ArrowRight size={16} /></span>
+            </div>
+          </Link>
           <Link href="/web-design-for-law-firms" style={{ textDecoration: "none" }}>
-            <div className={styles.serviceCard} style={{ height: "100%", display: "flex", flexDirection: "column", justifyContent: "space-between" }}>
+            <div className={styles.serviceCard} style={{ width: "100%", display: "flex", flexDirection: "column", justifyContent: "space-between" }}>
               <div>
                 <h3 style={{ fontSize: "1.25rem", marginBottom: "1rem", color: "var(--foreground)" }}>Web Design for Law Firms</h3>
-                <p style={{ color: "var(--muted)", fontSize: "0.875rem" }}>Authoritative legal websites with case results, attorney profiles, and client intake forms.</p>
+                <p style={{ color: "var(--muted)", fontSize: "0.875rem" }}>Professional law firm websites with case evaluation forms, attorney profiles, and practice area pages.</p>
               </div>
               <span className={styles.learnMoreLink} style={{ marginTop: "1rem" }}>Learn More <ArrowRight size={16} /></span>
             </div>
