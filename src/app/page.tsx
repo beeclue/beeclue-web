@@ -31,13 +31,13 @@ export default function Home() {
           <p className={styles.heroMicrocopy}>Free &bull; No obligation &bull; Takes 2 minutes</p>
           <div className={styles.heroTrustBar}>
             <div className={styles.trustItem}>
-              <img src="/google-logo.svg" alt="Google" width="20" height="20" />
+              <Image src="/google-logo.svg" alt="Google" width="20" height="20" priority />
               <span className={styles.trustStars}>★★★★★</span>
               <span className={styles.trustLabel}>5.0</span>
             </div>
             <div className={styles.trustDivider} />
             <div className={styles.trustItem}>
-              <img src="https://cdn.trustpilot.net/brand-assets/4.1.0/stars/stars-5.svg" alt="Trustpilot 5 Stars" width="80" height="16" />
+              <Image src="https://cdn.trustpilot.net/brand-assets/4.1.0/stars/stars-5.svg" alt="Trustpilot 5 Stars" width="80" height="16" priority />
               <span className={styles.trustLabel}>Excellent</span>
             </div>
             <div className={styles.trustDivider} />
@@ -287,14 +287,14 @@ export default function Home() {
           <div className={styles.reviewsMeta}>
             <div className={styles.ratingsBadges}>
               <div className={styles.ratingBadge}>
-                <img src="/google-logo.svg" alt="Google" width="24" height="24" />
+                <Image src="/google-logo.svg" alt="Google" width="24" height="24" priority />
                 <div className={styles.ratingInfo}>
                   <div className={styles.ratingStars}>★★★★★</div>
                   <span className={styles.ratingText}>5.0 Rating</span>
                 </div>
               </div>
               <div className={styles.ratingBadge}>
-                <img src="https://cdn.trustpilot.net/brand-assets/4.1.0/stars/stars-5.svg" alt="Trustpilot 5 Stars" width="100" height="20" />
+                <Image src="https://cdn.trustpilot.net/brand-assets/4.1.0/stars/stars-5.svg" alt="Trustpilot 5 Stars" width="100" height="20" priority />
                 <div className={styles.ratingInfo}>
                   <span className={styles.ratingText}>Excellent</span>
                 </div>
