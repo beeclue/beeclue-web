@@ -3,7 +3,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import styles from "./page.module.css";
-import { ArrowRight, Code, LayoutTemplate, Smartphone, ShoppingCart, Search, CheckCircle2, Cloud } from "lucide-react";
+import { ArrowRight, Code, LayoutTemplate, Smartphone, ShoppingCart, Search, CheckCircle2, Cloud, Scissors, Stethoscope, UtensilsCrossed, Building2, Heart, Scale, HardHat } from "lucide-react";
 import FadeIn from "@/components/FadeIn";
 import { trackCTAClick } from "@/lib/analytics";
 
@@ -141,6 +141,65 @@ export default function Home() {
         <div style={{ display: "flex", justifyContent: "center", marginTop: "3rem" }}>
           <Link href="/services" className={styles.ctaButtonLight}>
             View All Services <ArrowRight className={styles.arrow} size={20} />
+          </Link>
+        </div>
+      </FadeIn>
+
+      {/* INDUSTRIES SECTION */}
+      <FadeIn className={`${styles.baseSection} ${styles.industriesSection}`}>
+        <div className={styles.servicesHeader}>
+          <h2>Industries We Serve</h2>
+          <p>Specialized web solutions tailored to your industry&apos;s unique needs.</p>
+        </div>
+        
+        <div className={styles.industriesGrid}>
+          <Link href="/web-design-for-salons" className={styles.industryCard}>
+            <Scissors className={styles.industryIcon} />
+            <h3>Salons & Barbershops</h3>
+            <p>Online booking, portfolio galleries, and local SEO to fill your chairs.</p>
+            <span className={styles.learnMoreLink}>Learn More <ArrowRight size={16} /></span>
+          </Link>
+          
+          <Link href="/web-design-for-dental-clinics" className={styles.industryCard}>
+            <Stethoscope className={styles.industryIcon} />
+            <h3>Dental Clinics</h3>
+            <p>Patient portals, appointment booking, and HIPAA-compliant forms.</p>
+            <span className={styles.learnMoreLink}>Learn More <ArrowRight size={16} /></span>
+          </Link>
+          
+          <Link href="/web-design-for-restaurants" className={styles.industryCard}>
+            <UtensilsCrossed className={styles.industryIcon} />
+            <h3>Restaurants</h3>
+            <p>Online ordering, reservation systems, and menu management.</p>
+            <span className={styles.learnMoreLink}>Learn More <ArrowRight size={16} /></span>
+          </Link>
+          
+          <Link href="/web-design-for-real-estate" className={styles.industryCard}>
+            <Building2 className={styles.industryIcon} />
+            <h3>Real Estate</h3>
+            <p>MLS/IDX integration, virtual tours, and lead capture forms.</p>
+            <span className={styles.learnMoreLink}>Learn More <ArrowRight size={16} /></span>
+          </Link>
+          
+          <Link href="/web-design-for-healthcare" className={styles.industryCard}>
+            <Heart className={styles.industryIcon} />
+            <h3>Healthcare</h3>
+            <p>Medical practice websites with patient portals and secure forms.</p>
+            <span className={styles.learnMoreLink}>Learn More <ArrowRight size={16} /></span>
+          </Link>
+          
+          <Link href="/web-design-for-law-firms" className={styles.industryCard}>
+            <Scale className={styles.industryIcon} />
+            <h3>Law Firms</h3>
+            <p>Case evaluation forms, attorney profiles, and professional design.</p>
+            <span className={styles.learnMoreLink}>Learn More <ArrowRight size={16} /></span>
+          </Link>
+          
+          <Link href="/web-design-for-construction-companies" className={styles.industryCard}>
+            <HardHat className={styles.industryIcon} />
+            <h3>Construction</h3>
+            <p>Project portfolios, quote request forms, and local SEO.</p>
+            <span className={styles.learnMoreLink}>Learn More <ArrowRight size={16} /></span>
           </Link>
         </div>
       </FadeIn>
