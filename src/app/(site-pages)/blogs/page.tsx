@@ -36,6 +36,29 @@ export default function BlogsPage() {
           <div className={styles.caseStudyListItem}>
             <div className={styles.caseStudyListImage} style={{ position: "relative" }}>
               <Image 
+                src="https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?ixlib=rb-4.0.3&auto=format&fit=crop&w=2400&q=80" 
+                alt="Canadian business owner reviewing website design costs on a laptop" 
+                fill
+                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                style={{ objectFit: "cover" }}
+              />
+            </div>
+            <div className={styles.caseStudyListContent}>
+              <h2>How Much Does a Website Cost in Canada in 2026?</h2>
+              <p>
+                A complete guide to website costs in Canada for 2026. Compare pricing for brochure, e-commerce, and custom websites with ROI breakdowns and expert tips.
+              </p>
+              <div>
+                <Link href="/how-much-does-a-website-cost-in-canada-in-2026" className={styles.ctaButtonLight}>
+                  Read Article <ArrowRight className={styles.arrow} size={20} />
+                </Link>
+              </div>
+            </div>
+          </div>
+
+          <div className={styles.caseStudyListItem}>
+            <div className={styles.caseStudyListImage} style={{ position: "relative" }}>
+              <Image 
                 src="https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?ixlib=rb-4.0.3&auto=format&fit=crop&w=2400&q=80" 
                 alt="Modern laptop showing WordPress dashboard on a clean desk" 
                 fill
