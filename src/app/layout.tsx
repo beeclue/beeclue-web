@@ -125,6 +125,11 @@ export default function RootLayout({
                   "@type": "SearchAction",
                   "target": "https://beeclue.com/search?q={search_term_string}",
                   "query-input": "required name=search_term_string"
+                },
+                "publisher": {
+                  "@type": "Organization",
+                  "name": "Beeclue Tech",
+                  "logo": { "@type": "ImageObject", "url": "https://beeclue.com/logo.png" }
                 }
               },
               {
