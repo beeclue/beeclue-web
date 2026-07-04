@@ -11,6 +11,21 @@ import { trackCTAClick } from "@/lib/analytics";
 export default function Home() {
   return (
     <main className={styles.main}>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Organization",
+            "name": "Beeclue Tech",
+            "url": "https://beeclue.com",
+            "logo": "https://beeclue.com/logo.png",
+            "description": "Toronto-based digital development agency",
+            "areaServed": { "@type": "Country", "name": "Canada" },
+            "knowsAbout": ["Web Design", "Custom Software Development", "E-Commerce", "Mobile Apps", "SEO"]
+          })
+        }}
+      />
       {/* HERO SECTION */}
       <FadeIn className={styles.hero}>
         <div className={styles.heroContent}>
