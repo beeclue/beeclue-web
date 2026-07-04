@@ -75,7 +75,7 @@ export default function RestaurantWebsiteDesignCanadaPage() {
             "name": "Can you integrate reservation systems into my restaurant website?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Yes. We integrate reservation systems like OpenTable, Resy, and custom booking solutions directly into your restaurant website. Patients can view available times, make reservations, receive confirmations, and manage their bookings — all from your site.",
+              "text": "Yes. We integrate reservation systems like OpenTable, Resy, and custom booking solutions directly into your restaurant website. Diners can view available times, make reservations, receive confirmations, and manage their bookings — all from your site.",
             },
           },
           {
