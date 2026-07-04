@@ -36,6 +36,29 @@ export default function BlogsPage() {
           <div className={styles.caseStudyListItem}>
             <div className={styles.caseStudyListImage} style={{ position: "relative" }}>
               <Image 
+                src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&auto=format&fit=crop&w=2400&q=80" 
+                alt="Business owner analyzing website performance metrics on a laptop" 
+                fill
+                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                style={{ objectFit: "cover" }}
+              />
+            </div>
+            <div className={styles.caseStudyListContent}>
+              <h2>10 Signs Your Website Needs a Redesign in 2026</h2>
+              <p>
+                Is your website costing you customers? Discover the 10 critical signs your website needs a redesign in 2026 and how a modern site drives revenue.
+              </p>
+              <div>
+                <Link href="/signs-your-website-needs-redesign-2026" className={styles.ctaButtonLight}>
+                  Read Article <ArrowRight className={styles.arrow} size={20} />
+                </Link>
+              </div>
+            </div>
+          </div>
+
+          <div className={styles.caseStudyListItem}>
+            <div className={styles.caseStudyListImage} style={{ position: "relative" }}>
+              <Image 
                 src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?ixlib=rb-4.0.3&auto=format&fit=crop&w=2400&q=80" 
                 alt="Canadian e-commerce store owner comparing Shopify and custom development options" 
                 fill
