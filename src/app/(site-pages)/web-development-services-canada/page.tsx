@@ -1,5 +1,6 @@
 "use client";
 
+import { useState } from "react";
 import Link from "next/link";
 import styles from "@/app/page.module.css";
 import {
@@ -12,11 +13,24 @@ import {
   Layout,
   Database,
   TrendingUp,
+  ChevronDown,
 } from "lucide-react";
 import FadeIn from "@/components/FadeIn";
 import ServiceTracker from "@/components/ServiceTracker";
 
 export default function WebDevelopmentServicesCanadaPage() {
+  const [openFaq, setOpenFaq] = useState<number | null>(0);
+
+  const faqs = [
+    { q: "How much do web development services cost in Canada?", a: "Web development costs in Canada range from $5,000 for a basic small business website to $100,000+ for complex enterprise applications. A custom business website typically costs $10,000-$30,000, e-commerce sites range from $15,000-$50,000, and custom software applications start at $25,000. The final cost depends on complexity, features, integrations, and whether you need ongoing support." },
+    { q: "Do you work with businesses outside of Toronto?", a: "Absolutely. While headquartered in Toronto, Beeclue Tech serves businesses across all Canadian provinces and territories. We work with clients in Vancouver, Calgary, Edmonton, Winnipeg, Montreal, Ottawa, Halifax, Victoria, and every city in between. Our remote-first approach means location is never a barrier to delivering exceptional web development." },
+    { q: "What web development services do you offer?", a: "We offer comprehensive web development services including: custom website design and development, e-commerce development (Shopify, WooCommerce, headless commerce), custom web applications, CMS development (WordPress, headless CMS), mobile-responsive design, API development and integrations, performance optimization, SEO, and ongoing maintenance and support." },
+    { q: "How long does a typical web development project take?", a: "Project timelines vary based on scope. A basic business website takes 4-6 weeks. A custom e-commerce site takes 6-10 weeks. Complex web applications take 10-20 weeks. Enterprise-level projects with extensive integrations can take 4-6 months. We provide a detailed project timeline with milestones during the scoping phase." },
+    { q: "What technologies do you use for web development?", a: "We use modern, industry-leading technologies: Next.js and React for frontend development, Node.js and Python for backend, WordPress and headless CMS for content management, Shopify and WooCommerce for e-commerce, PostgreSQL and MongoDB for databases, and cloud platforms like AWS and Cloudflare for hosting. We choose the best technology stack for each project&apos;s specific needs." },
+    { q: "Do you build bilingual (English/French) websites?", a: "Yes. We build fully bilingual English/French websites for businesses operating in Canada, particularly those serving Quebec and federal government clients. Our bilingual sites include proper language switching, culturally appropriate content, and SEO optimization for both English and French search queries." },
+    { q: "Can you work with our existing design or branding?", a: "Absolutely. We frequently work with businesses that have existing brand guidelines, design mockups, or partial implementations. We can develop from your Figma files, Adobe XD designs, or existing brand assets while ensuring the final product is technically sound, performant, and built to scale." },
+  ];
+
   const jsonLd = {
     "@context": "https://schema.org",
     "@graph": [
@@ -713,155 +727,24 @@ export default function WebDevelopmentServicesCanadaPage() {
             Common questions about our web development services across Canada.
           </p>
         </div>
-        <div
-          style={{
-            maxWidth: "800px",
-            margin: "0 auto",
-            display: "flex",
-            flexDirection: "column",
-            gap: "1.5rem",
-          }}
-        >
-          <div
-            style={{
-              padding: "1.5rem",
-              background: "rgba(255,255,255,0.02)",
-              border: "1px solid var(--border)",
-              borderRadius: "8px",
-            }}
-          >
-            <h3 style={{ fontSize: "1.2rem", marginBottom: "0.5rem" }}>
-              How much do web development services cost in Canada?
-            </h3>
-            <p style={{ color: "var(--muted)", lineHeight: "1.6" }}>
-              Web development costs in Canada range from $5,000 for a basic
-              small business website to $100,000+ for complex enterprise
-              applications. A custom business website typically costs
-              $10,000-$30,000, e-commerce sites range from $15,000-$50,000,
-              and custom software applications start at $25,000. The final
-              cost depends on complexity, features, integrations, and whether
-              you need ongoing support.
-            </p>
-          </div>
-          <div
-            style={{
-              padding: "1.5rem",
-              background: "rgba(255,255,255,0.02)",
-              border: "1px solid var(--border)",
-              borderRadius: "8px",
-            }}
-          >
-            <h3 style={{ fontSize: "1.2rem", marginBottom: "0.5rem" }}>
-              Do you work with businesses outside of Toronto?
-            </h3>
-            <p style={{ color: "var(--muted)", lineHeight: "1.6" }}>
-              Absolutely. While headquartered in Toronto, Beeclue Tech serves
-              businesses across all Canadian provinces and territories. We work
-              with clients in Vancouver, Calgary, Edmonton, Winnipeg, Montreal,
-              Ottawa, Halifax, Victoria, and every city in between. Our
-              remote-first approach means location is never a barrier to
-              delivering exceptional web development.
-            </p>
-          </div>
-          <div
-            style={{
-              padding: "1.5rem",
-              background: "rgba(255,255,255,0.02)",
-              border: "1px solid var(--border)",
-              borderRadius: "8px",
-            }}
-          >
-            <h3 style={{ fontSize: "1.2rem", marginBottom: "0.5rem" }}>
-              What web development services do you offer?
-            </h3>
-            <p style={{ color: "var(--muted)", lineHeight: "1.6" }}>
-              We offer comprehensive web development services including: custom
-              website design and development, e-commerce development (Shopify,
-              WooCommerce, headless commerce), custom web applications, CMS
-              development (WordPress, headless CMS), mobile-responsive design,
-              API development and integrations, performance optimization, SEO,
-              and ongoing maintenance and support.
-            </p>
-          </div>
-          <div
-            style={{
-              padding: "1.5rem",
-              background: "rgba(255,255,255,0.02)",
-              border: "1px solid var(--border)",
-              borderRadius: "8px",
-            }}
-          >
-            <h3 style={{ fontSize: "1.2rem", marginBottom: "0.5rem" }}>
-              How long does a typical web development project take?
-            </h3>
-            <p style={{ color: "var(--muted)", lineHeight: "1.6" }}>
-              Project timelines vary based on scope. A basic business website
-              takes 4-6 weeks. A custom e-commerce site takes 6-10 weeks.
-              Complex web applications take 10-20 weeks. Enterprise-level
-              projects with extensive integrations can take 4-6 months. We
-              provide a detailed project timeline with milestones during the
-              scoping phase.
-            </p>
-          </div>
-          <div
-            style={{
-              padding: "1.5rem",
-              background: "rgba(255,255,255,0.02)",
-              border: "1px solid var(--border)",
-              borderRadius: "8px",
-            }}
-          >
-            <h3 style={{ fontSize: "1.2rem", marginBottom: "0.5rem" }}>
-              What technologies do you use for web development?
-            </h3>
-            <p style={{ color: "var(--muted)", lineHeight: "1.6" }}>
-              We use modern, industry-leading technologies: Next.js and React
-              for frontend development, Node.js and Python for backend,
-              WordPress and headless CMS for content management, Shopify and
-              WooCommerce for e-commerce, PostgreSQL and MongoDB for databases,
-              and cloud platforms like AWS and Cloudflare for hosting. We
-              choose the best technology stack for each project&apos;s specific
-              needs.
-            </p>
-          </div>
-          <div
-            style={{
-              padding: "1.5rem",
-              background: "rgba(255,255,255,0.02)",
-              border: "1px solid var(--border)",
-              borderRadius: "8px",
-            }}
-          >
-            <h3 style={{ fontSize: "1.2rem", marginBottom: "0.5rem" }}>
-              Do you build bilingual (English/French) websites?
-            </h3>
-            <p style={{ color: "var(--muted)", lineHeight: "1.6" }}>
-              Yes. We build fully bilingual English/French websites for
-              businesses operating in Canada, particularly those serving Quebec
-              and federal government clients. Our bilingual sites include
-              proper language switching, culturally appropriate content, and
-              SEO optimization for both English and French search queries.
-            </p>
-          </div>
-          <div
-            style={{
-              padding: "1.5rem",
-              background: "rgba(255,255,255,0.02)",
-              border: "1px solid var(--border)",
-              borderRadius: "8px",
-            }}
-          >
-            <h3 style={{ fontSize: "1.2rem", marginBottom: "0.5rem" }}>
-              Can you work with our existing design or branding?
-            </h3>
-            <p style={{ color: "var(--muted)", lineHeight: "1.6" }}>
-              Absolutely. We frequently work with businesses that have existing
-              brand guidelines, design mockups, or partial implementations. We
-              can develop from your Figma files, Adobe XD designs, or existing
-              brand assets while ensuring the final product is technically
-              sound, performant, and built to scale.
-            </p>
-          </div>
+        <div className={styles.faqList}>
+          {faqs.map((faq, i) => (
+            <div key={i} className={styles.faqItem}>
+              <button
+                className={styles.faqQuestion}
+                onClick={() => setOpenFaq(openFaq === i ? null : i)}
+              >
+                {faq.q}
+                <ChevronDown
+                  size={20}
+                  className={`${styles.faqChevron} ${openFaq === i ? styles.faqChevronOpen : ""}`}
+                />
+              </button>
+              <div className={`${styles.faqAnswer} ${openFaq === i ? styles.faqAnswerOpen : ""}`}>
+                <p>{faq.a}</p>
+              </div>
+            </div>
+          ))}
         </div>
       </FadeIn>
 

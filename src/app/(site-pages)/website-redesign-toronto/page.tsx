@@ -1,5 +1,6 @@
 "use client";
 
+import { useState } from "react";
 import Link from "next/link";
 import styles from "@/app/page.module.css";
 import {
@@ -12,11 +13,24 @@ import {
   Shield,
   TrendingUp,
   RefreshCcw,
+  ChevronDown,
 } from "lucide-react";
 import FadeIn from "@/components/FadeIn";
 import ServiceTracker from "@/components/ServiceTracker";
 
 export default function WebsiteRedesignTorontoPage() {
+  const [openFaq, setOpenFaq] = useState<number | null>(0);
+
+  const faqs = [
+    { q: "How much does a website redesign cost in Toronto?", a: "Website redesign costs in Toronto range from $5,000 for a simple refresh of a small business site to $50,000+ for a complete enterprise redesign with custom features. The final cost depends on the size of your site, the complexity of the design, whether you need new functionality, and how much content needs to be migrated or rewritten." },
+    { q: "How long does a website redesign take?", a: "A typical website redesign takes 6 to 12 weeks from discovery to launch. Simpler sites with 5-15 pages may be completed in 4 to 6 weeks, while larger sites with custom features, e-commerce, or extensive content migration can take 12 to 16 weeks. We provide a detailed timeline during the scoping phase." },
+    { q: "Will a website redesign hurt my SEO rankings?", a: "Not when done correctly. Our redesign process includes comprehensive SEO preservation strategies: 301 redirects for every changed URL, migration of all meta tags and structured data, preservation of your existing content hierarchy, and implementation of technical SEO best practices. Most of our clients see an improvement in rankings after a redesign because we also optimize site speed and Core Web Vitals." },
+    { q: "Should I redesign my website or rebuild it from scratch?", a: "It depends on your current site&apos;s technology stack and condition. If your site is built on a modern CMS with a solid foundation, a redesign (visual and UX overhaul) is usually sufficient. If your site is on outdated technology, has severe performance issues, or lacks the functionality you need, a full rebuild on a modern stack (like Next.js or WordPress with a custom theme) is the better investment." },
+    { q: "What does your website redesign process include?", a: "Our complete redesign process includes: discovery and strategy (understanding your goals, audience, and competitors), UX/UI design (wireframes, mockups, prototyping), development (building the new site with clean, performant code), content migration and optimization, SEO preservation, testing across devices and browsers, launch, and post-launch support." },
+    { q: "Can you redesign my website without changing the content?", a: "Yes. We can execute a visual and structural redesign while keeping your existing content intact. However, we typically recommend a content audit as part of the redesign process. Outdated or underperforming content is often a major factor in why a site isn&apos;t converting, and refreshing it during the redesign maximizes your return on investment." },
+    { q: "Do you redesign websites built on WordPress, Shopify, or other platforms?", a: "Yes. We redesign websites across all major platforms including WordPress, Shopify, Wix, Squarespace, and custom-built sites. We can keep you on your current platform with a fresh design, or migrate you to a more suitable platform if your current one is limiting your growth." },
+  ];
+
   const jsonLd = {
     "@context": "https://schema.org",
     "@graph": [
@@ -634,156 +648,24 @@ export default function WebsiteRedesignTorontoPage() {
             Common questions about website redesign services in Toronto.
           </p>
         </div>
-        <div
-          style={{
-            maxWidth: "800px",
-            margin: "0 auto",
-            display: "flex",
-            flexDirection: "column",
-            gap: "1.5rem",
-          }}
-        >
-          <div
-            style={{
-              padding: "1.5rem",
-              background: "rgba(255,255,255,0.02)",
-              border: "1px solid var(--border)",
-              borderRadius: "8px",
-            }}
-          >
-            <h3 style={{ fontSize: "1.2rem", marginBottom: "0.5rem" }}>
-              How much does a website redesign cost in Toronto?
-            </h3>
-            <p style={{ color: "var(--muted)", lineHeight: "1.6" }}>
-              Website redesign costs in Toronto range from $5,000 for a simple
-              refresh of a small business site to $50,000+ for a complete
-              enterprise redesign with custom features. The final cost depends
-              on the size of your site, the complexity of the design, whether
-              you need new functionality, and how much content needs to be
-              migrated or rewritten.
-            </p>
-          </div>
-          <div
-            style={{
-              padding: "1.5rem",
-              background: "rgba(255,255,255,0.02)",
-              border: "1px solid var(--border)",
-              borderRadius: "8px",
-            }}
-          >
-            <h3 style={{ fontSize: "1.2rem", marginBottom: "0.5rem" }}>
-              How long does a website redesign take?
-            </h3>
-            <p style={{ color: "var(--muted)", lineHeight: "1.6" }}>
-              A typical website redesign takes 6 to 12 weeks from discovery to
-              launch. Simpler sites with 5-15 pages may be completed in 4 to 6
-              weeks, while larger sites with custom features, e-commerce, or
-              extensive content migration can take 12 to 16 weeks. We provide a
-              detailed timeline during the scoping phase.
-            </p>
-          </div>
-          <div
-            style={{
-              padding: "1.5rem",
-              background: "rgba(255,255,255,0.02)",
-              border: "1px solid var(--border)",
-              borderRadius: "8px",
-            }}
-          >
-            <h3 style={{ fontSize: "1.2rem", marginBottom: "0.5rem" }}>
-              Will a website redesign hurt my SEO rankings?
-            </h3>
-            <p style={{ color: "var(--muted)", lineHeight: "1.6" }}>
-              Not when done correctly. Our redesign process includes
-              comprehensive SEO preservation strategies: 301 redirects for
-              every changed URL, migration of all meta tags and structured data,
-              preservation of your existing content hierarchy, and
-              implementation of technical SEO best practices. Most of our
-              clients see an improvement in rankings after a redesign because we
-              also optimize site speed and Core Web Vitals.
-            </p>
-          </div>
-          <div
-            style={{
-              padding: "1.5rem",
-              background: "rgba(255,255,255,0.02)",
-              border: "1px solid var(--border)",
-              borderRadius: "8px",
-            }}
-          >
-            <h3 style={{ fontSize: "1.2rem", marginBottom: "0.5rem" }}>
-              Should I redesign my website or rebuild it from scratch?
-            </h3>
-            <p style={{ color: "var(--muted)", lineHeight: "1.6" }}>
-              It depends on your current site&apos;s technology stack and
-              condition. If your site is built on a modern CMS with a solid
-              foundation, a redesign (visual and UX overhaul) is usually
-              sufficient. If your site is on outdated technology, has severe
-              performance issues, or lacks the functionality you need, a full
-              rebuild on a modern stack (like Next.js or WordPress with a custom
-              theme) is the better investment.
-            </p>
-          </div>
-          <div
-            style={{
-              padding: "1.5rem",
-              background: "rgba(255,255,255,0.02)",
-              border: "1px solid var(--border)",
-              borderRadius: "8px",
-            }}
-          >
-            <h3 style={{ fontSize: "1.2rem", marginBottom: "0.5rem" }}>
-              What does your website redesign process include?
-            </h3>
-            <p style={{ color: "var(--muted)", lineHeight: "1.6" }}>
-              Our complete redesign process includes: discovery and strategy
-              (understanding your goals, audience, and competitors), UX/UI
-              design (wireframes, mockups, prototyping), development (building
-              the new site with clean, performant code), content migration and
-              optimization, SEO preservation, testing across devices and
-              browsers, launch, and post-launch support.
-            </p>
-          </div>
-          <div
-            style={{
-              padding: "1.5rem",
-              background: "rgba(255,255,255,0.02)",
-              border: "1px solid var(--border)",
-              borderRadius: "8px",
-            }}
-          >
-            <h3 style={{ fontSize: "1.2rem", marginBottom: "0.5rem" }}>
-              Can you redesign my website without changing the content?
-            </h3>
-            <p style={{ color: "var(--muted)", lineHeight: "1.6" }}>
-              Yes. We can execute a visual and structural redesign while keeping
-              your existing content intact. However, we typically recommend a
-              content audit as part of the redesign process. Outdated or
-              underperforming content is often a major factor in why a site
-              isn&apos;t converting, and refreshing it during the redesign
-              maximizes your return on investment.
-            </p>
-          </div>
-          <div
-            style={{
-              padding: "1.5rem",
-              background: "rgba(255,255,255,0.02)",
-              border: "1px solid var(--border)",
-              borderRadius: "8px",
-            }}
-          >
-            <h3 style={{ fontSize: "1.2rem", marginBottom: "0.5rem" }}>
-              Do you redesign websites built on WordPress, Shopify, or other
-              platforms?
-            </h3>
-            <p style={{ color: "var(--muted)", lineHeight: "1.6" }}>
-              Yes. We redesign websites across all major platforms including
-              WordPress, Shopify, Wix, Squarespace, and custom-built sites. We
-              can keep you on your current platform with a fresh design, or
-              migrate you to a more suitable platform if your current one is
-              limiting your growth.
-            </p>
-          </div>
+        <div className={styles.faqList}>
+          {faqs.map((faq, i) => (
+            <div key={i} className={styles.faqItem}>
+              <button
+                className={styles.faqQuestion}
+                onClick={() => setOpenFaq(openFaq === i ? null : i)}
+              >
+                {faq.q}
+                <ChevronDown
+                  size={20}
+                  className={`${styles.faqChevron} ${openFaq === i ? styles.faqChevronOpen : ""}`}
+                />
+              </button>
+              <div className={`${styles.faqAnswer} ${openFaq === i ? styles.faqAnswerOpen : ""}`}>
+                <p>{faq.a}</p>
+              </div>
+            </div>
+          ))}
         </div>
       </FadeIn>
 

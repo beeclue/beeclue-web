@@ -1,12 +1,23 @@
 "use client";
 
+import { useState } from "react";
 import Link from "next/link";
 import styles from "@/app/page.module.css";
-import { ArrowRight, LayoutTemplate, Briefcase, Globe, RefreshCcw, ShoppingCart, Search, CheckCircle2, Check } from "lucide-react";
+import { ArrowRight, LayoutTemplate, Briefcase, Globe, RefreshCcw, ShoppingCart, Search, CheckCircle2, Check, ChevronDown } from "lucide-react";
 import FadeIn from "@/components/FadeIn";
 import ServiceTracker from "@/components/ServiceTracker";
 
 export default function WordPressWebDesignCanadaPage() {
+  const [openFaq, setOpenFaq] = useState<number | null>(0);
+
+  const faqs = [
+    { q: "How much does WordPress web design cost in Canada?", a: "Custom WordPress web design in Canada typically costs between $5,000 and $20,000 for standard business websites. Headless WordPress implementations using Next.js for maximum performance range from $15,000 to $40,000+. Pricing depends on design complexity, custom functionality, and integrations required." },
+    { q: "Why choose custom WordPress over a theme?", a: "Custom WordPress development delivers a faster, more secure, and SEO-optimized website compared to off-the-shelf themes. Custom builds eliminate plugin bloat, are tailored specifically to your business needs, and provide better long-term scalability and maintainability without the limitations of pre-built templates." },
+    { q: "Can you migrate my site from Wix or Squarespace to WordPress?", a: "Yes. We handle complete website migrations from Wix, Squarespace, or any other platform to WordPress. Our migration process includes content transfer, URL redirect mapping to preserve SEO rankings, design upgrade, and performance optimization." },
+    { q: "Do you offer headless WordPress development?", a: "Yes. We build headless WordPress architectures where WordPress serves as the content management backend and Next.js powers the frontend. This approach delivers maximum page speed, improved security, and the flexibility to distribute content across multiple platforms and devices." },
+    { q: "How do you ensure WordPress site security and speed?", a: "We implement enterprise-grade security hardening including firewall configuration, malware scanning, login protection, and regular security audits. For speed, we use CDN delivery, advanced caching, image optimization in next-gen formats, database optimization, and server-level performance tuning to ensure fast load times." },
+  ];
+
   const jsonLd = {
     "@context": "https://schema.org",
     "@graph": [
@@ -285,27 +296,24 @@ export default function WordPressWebDesignCanadaPage() {
           <h2>WordPress Web Design FAQs</h2>
           <p>Common questions about our WordPress development services.</p>
         </div>
-        <div style={{ maxWidth: "800px", margin: "0 auto", display: "flex", flexDirection: "column", gap: "1.5rem" }}>
-          <div style={{ padding: "1.5rem", background: "rgba(255,255,255,0.02)", border: "1px solid var(--border)", borderRadius: "8px" }}>
-            <h3 style={{ fontSize: "1.2rem", marginBottom: "0.5rem" }}>How much does WordPress web design cost in Canada?</h3>
-            <p style={{ color: "var(--muted)", lineHeight: "1.6" }}>Custom WordPress web design in Canada typically costs between $5,000 and $20,000 for standard business websites. Headless WordPress implementations using Next.js for maximum performance range from $15,000 to $40,000+. Pricing depends on design complexity, custom functionality, and integrations required.</p>
-          </div>
-          <div style={{ padding: "1.5rem", background: "rgba(255,255,255,0.02)", border: "1px solid var(--border)", borderRadius: "8px" }}>
-            <h3 style={{ fontSize: "1.2rem", marginBottom: "0.5rem" }}>Why choose custom WordPress over a theme?</h3>
-            <p style={{ color: "var(--muted)", lineHeight: "1.6" }}>Custom WordPress development delivers a faster, more secure, and SEO-optimized website compared to off-the-shelf themes. Custom builds eliminate plugin bloat, are tailored specifically to your business needs, and provide better long-term scalability and maintainability without the limitations of pre-built templates.</p>
-          </div>
-          <div style={{ padding: "1.5rem", background: "rgba(255,255,255,0.02)", border: "1px solid var(--border)", borderRadius: "8px" }}>
-            <h3 style={{ fontSize: "1.2rem", marginBottom: "0.5rem" }}>Can you migrate my site from Wix or Squarespace to WordPress?</h3>
-            <p style={{ color: "var(--muted)", lineHeight: "1.6" }}>Yes. We handle complete website migrations from Wix, Squarespace, or any other platform to WordPress. Our migration process includes content transfer, URL redirect mapping to preserve SEO rankings, design upgrade, and performance optimization.</p>
-          </div>
-          <div style={{ padding: "1.5rem", background: "rgba(255,255,255,0.02)", border: "1px solid var(--border)", borderRadius: "8px" }}>
-            <h3 style={{ fontSize: "1.2rem", marginBottom: "0.5rem" }}>Do you offer headless WordPress development?</h3>
-            <p style={{ color: "var(--muted)", lineHeight: "1.6" }}>Yes. We build headless WordPress architectures where WordPress serves as the content management backend and Next.js powers the frontend. This approach delivers maximum page speed, improved security, and the flexibility to distribute content across multiple platforms and devices.</p>
-          </div>
-          <div style={{ padding: "1.5rem", background: "rgba(255,255,255,0.02)", border: "1px solid var(--border)", borderRadius: "8px" }}>
-            <h3 style={{ fontSize: "1.2rem", marginBottom: "0.5rem" }}>How do you ensure WordPress site security and speed?</h3>
-            <p style={{ color: "var(--muted)", lineHeight: "1.6" }}>We implement enterprise-grade security hardening including firewall configuration, malware scanning, login protection, and regular security audits. For speed, we use CDN delivery, advanced caching, image optimization in next-gen formats, database optimization, and server-level performance tuning to ensure fast load times.</p>
-          </div>
+        <div className={styles.faqList}>
+          {faqs.map((faq, i) => (
+            <div key={i} className={styles.faqItem}>
+              <button
+                className={styles.faqQuestion}
+                onClick={() => setOpenFaq(openFaq === i ? null : i)}
+              >
+                {faq.q}
+                <ChevronDown
+                  size={20}
+                  className={`${styles.faqChevron} ${openFaq === i ? styles.faqChevronOpen : ""}`}
+                />
+              </button>
+              <div className={`${styles.faqAnswer} ${openFaq === i ? styles.faqAnswerOpen : ""}`}>
+                <p>{faq.a}</p>
+              </div>
+            </div>
+          ))}
         </div>
       </FadeIn>
 

@@ -1,5 +1,6 @@
 "use client";
 
+import { useState } from "react";
 import Link from "next/link";
 import styles from "@/app/page.module.css";
 import {
@@ -12,11 +13,23 @@ import {
   Users,
   FileText,
   Heart,
+  ChevronDown,
 } from "lucide-react";
 import FadeIn from "@/components/FadeIn";
 import ServiceTracker from "@/components/ServiceTracker";
 
 export default function HealthcareWebsiteDevelopmentCanadaPage() {
+  const [openFaq, setOpenFaq] = useState<number | null>(0);
+
+  const faqs = [
+    { q: "How much does healthcare website development cost in Canada?", a: "Healthcare website development costs in Canada range from $10,000 for a basic medical practice website to $100,000+ for a full-featured patient portal with telehealth, EHR integration, and custom functionality. The investment depends on features, compliance requirements, and integration complexity." },
+    { q: "Do you build HIPAA-compliant healthcare websites?", a: "Yes. We build healthcare websites that meet HIPAA compliance standards, including encrypted data transmission, secure patient forms, access controls, and audit logging. We work with your compliance team to ensure every aspect of the website meets regulatory requirements." },
+    { q: "Can you integrate with electronic health record (EHR) systems?", a: "Yes. We integrate healthcare websites with major EHR/EMR systems including Epic, Cerner, Allscripts, and others via HL7 FHIR APIs. Our integrations enable seamless patient data flow between your website and clinical systems." },
+    { q: "Do you build patient portals?", a: "Yes. We develop secure patient portals that allow patients to view medical records, book appointments, communicate with providers, access test results, manage prescriptions, and pay bills — all from a single, HIPAA-compliant dashboard." },
+    { q: "How long does it take to build a healthcare website?", a: "A standard medical practice website takes 6 to 10 weeks. Projects involving patient portals, EHR integration, or telehealth features typically take 12 to 20 weeks. We provide a detailed timeline after the initial discovery and compliance review." },
+    { q: "Will my healthcare website be optimized for patient acquisition?", a: "Absolutely. Every healthcare website we build includes local SEO, optimized service pages, online appointment booking, patient testimonials, and conversion-focused design elements that help attract new patients and make it easy for them to book appointments." },
+  ];
+
   const jsonLd = {
     "@context": "https://schema.org",
     "@graph": [
@@ -340,31 +353,24 @@ export default function HealthcareWebsiteDevelopmentCanadaPage() {
           <h2>Frequently Asked Questions</h2>
           <p>Common questions about our healthcare website development services in Canada.</p>
         </div>
-        <div style={{ maxWidth: "800px", margin: "0 auto", display: "flex", flexDirection: "column", gap: "1.5rem" }}>
-          <div style={{ padding: "1.5rem", background: "rgba(255,255,255,0.02)", border: "1px solid var(--border)", borderRadius: "8px" }}>
-            <h3 style={{ fontSize: "1.2rem", marginBottom: "0.5rem" }}>How much does healthcare website development cost in Canada?</h3>
-            <p style={{ color: "var(--muted)", lineHeight: "1.6" }}>Healthcare website development costs in Canada range from $10,000 for a basic medical practice website to $100,000+ for a full-featured patient portal with telehealth, EHR integration, and custom functionality. The investment depends on features, compliance requirements, and integration complexity.</p>
-          </div>
-          <div style={{ padding: "1.5rem", background: "rgba(255,255,255,0.02)", border: "1px solid var(--border)", borderRadius: "8px" }}>
-            <h3 style={{ fontSize: "1.2rem", marginBottom: "0.5rem" }}>Do you build HIPAA-compliant healthcare websites?</h3>
-            <p style={{ color: "var(--muted)", lineHeight: "1.6" }}>Yes. We build healthcare websites that meet HIPAA compliance standards, including encrypted data transmission, secure patient forms, access controls, and audit logging. We work with your compliance team to ensure every aspect of the website meets regulatory requirements.</p>
-          </div>
-          <div style={{ padding: "1.5rem", background: "rgba(255,255,255,0.02)", border: "1px solid var(--border)", borderRadius: "8px" }}>
-            <h3 style={{ fontSize: "1.2rem", marginBottom: "0.5rem" }}>Can you integrate with electronic health record (EHR) systems?</h3>
-            <p style={{ color: "var(--muted)", lineHeight: "1.6" }}>Yes. We integrate healthcare websites with major EHR/EMR systems including Epic, Cerner, Allscripts, and others via HL7 FHIR APIs. Our integrations enable seamless patient data flow between your website and clinical systems.</p>
-          </div>
-          <div style={{ padding: "1.5rem", background: "rgba(255,255,255,0.02)", border: "1px solid var(--border)", borderRadius: "8px" }}>
-            <h3 style={{ fontSize: "1.2rem", marginBottom: "0.5rem" }}>Do you build patient portals?</h3>
-            <p style={{ color: "var(--muted)", lineHeight: "1.6" }}>Yes. We develop secure patient portals that allow patients to view medical records, book appointments, communicate with providers, access test results, manage prescriptions, and pay bills — all from a single, HIPAA-compliant dashboard.</p>
-          </div>
-          <div style={{ padding: "1.5rem", background: "rgba(255,255,255,0.02)", border: "1px solid var(--border)", borderRadius: "8px" }}>
-            <h3 style={{ fontSize: "1.2rem", marginBottom: "0.5rem" }}>How long does it take to build a healthcare website?</h3>
-            <p style={{ color: "var(--muted)", lineHeight: "1.6" }}>A standard medical practice website takes 6 to 10 weeks. Projects involving patient portals, EHR integration, or telehealth features typically take 12 to 20 weeks. We provide a detailed timeline after the initial discovery and compliance review.</p>
-          </div>
-          <div style={{ padding: "1.5rem", background: "rgba(255,255,255,0.02)", border: "1px solid var(--border)", borderRadius: "8px" }}>
-            <h3 style={{ fontSize: "1.2rem", marginBottom: "0.5rem" }}>Will my healthcare website be optimized for patient acquisition?</h3>
-            <p style={{ color: "var(--muted)", lineHeight: "1.6" }}>Absolutely. Every healthcare website we build includes local SEO, optimized service pages, online appointment booking, patient testimonials, and conversion-focused design elements that help attract new patients and make it easy for them to book appointments.</p>
-          </div>
+        <div className={styles.faqList}>
+          {faqs.map((faq, i) => (
+            <div key={i} className={styles.faqItem}>
+              <button
+                className={styles.faqQuestion}
+                onClick={() => setOpenFaq(openFaq === i ? null : i)}
+              >
+                {faq.q}
+                <ChevronDown
+                  size={20}
+                  className={`${styles.faqChevron} ${openFaq === i ? styles.faqChevronOpen : ""}`}
+                />
+              </button>
+              <div className={`${styles.faqAnswer} ${openFaq === i ? styles.faqAnswerOpen : ""}`}>
+                <p>{faq.a}</p>
+              </div>
+            </div>
+          ))}
         </div>
       </FadeIn>
 

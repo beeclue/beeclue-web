@@ -1,12 +1,23 @@
 "use client";
 
+import { useState } from "react";
 import Link from "next/link";
 import styles from "@/app/page.module.css";
-import { ArrowRight, LayoutTemplate, Briefcase, Globe, RefreshCcw, ShoppingCart, Search, CheckCircle2, Check } from "lucide-react";
+import { ArrowRight, LayoutTemplate, Briefcase, Globe, RefreshCcw, ShoppingCart, Search, CheckCircle2, Check, ChevronDown } from "lucide-react";
 import FadeIn from "@/components/FadeIn";
 import ServiceTracker from "@/components/ServiceTracker";
 
 export default function WebDesignTorontoPage() {
+  const [openFaq, setOpenFaq] = useState<number | null>(0);
+
+  const faqs = [
+    { q: "How much does web design cost in Toronto?", a: "Web design costs in Toronto typically range from $5,000 to $15,000 for small business websites, $15,000 to $50,000 for custom or enterprise-level projects, and $50,000+ for complex web applications. We also offer an affordable $19/month website package for startups and small businesses looking for a professional online presence." },
+    { q: "How long does it take to build a website?", a: "A standard business website typically takes 4 to 8 weeks from design to launch. More complex projects such as custom web applications, ecommerce platforms, or enterprise sites generally take 8 to 12 weeks depending on scope, features, and feedback cycles." },
+    { q: "Do you build websites on WordPress or custom code?", a: "We work with both. WordPress is ideal for content-heavy sites that require easy content management. For performance-critical applications, SaaS platforms, and sites needing maximum speed and flexibility, we build custom solutions using Next.js and React. We recommend the best approach based on your specific business needs." },
+    { q: "Will my website rank on Google?", a: "Yes. Every website we build is constructed with SEO best practices from the ground up, including schema markup, Core Web Vitals optimization, mobile-first design, clean URL structures, and proper heading hierarchy. This ensures your site is technically optimized to rank well on Google from launch day." },
+    { q: "Do you offer website redesign services?", a: "Yes. We offer complete website redesign services. Our process begins with a thorough audit of your existing site to identify performance issues, SEO gaps, and conversion bottlenecks. We then rebuild your site with modern design, improved speed, better user experience, and stronger search engine visibility." },
+  ];
+
   const jsonLd = {
     "@context": "https://schema.org",
     "@graph": [
@@ -318,27 +329,24 @@ export default function WebDesignTorontoPage() {
           <h2>Web Design Toronto FAQs</h2>
           <p>Common questions about our web design and development services.</p>
         </div>
-        <div style={{ maxWidth: "800px", margin: "0 auto", display: "flex", flexDirection: "column", gap: "1.5rem" }}>
-          <div style={{ padding: "1.5rem", background: "rgba(255,255,255,0.02)", border: "1px solid var(--border)", borderRadius: "8px" }}>
-            <h3 style={{ fontSize: "1.2rem", marginBottom: "0.5rem" }}>How much does web design cost in Toronto?</h3>
-            <p style={{ color: "var(--muted)", lineHeight: "1.6" }}>Web design costs in Toronto typically range from $5,000 to $15,000 for small business websites, $15,000 to $50,000 for custom or enterprise-level projects, and $50,000+ for complex web applications. We also offer an affordable $19/month website package for startups and small businesses looking for a professional online presence.</p>
-          </div>
-          <div style={{ padding: "1.5rem", background: "rgba(255,255,255,0.02)", border: "1px solid var(--border)", borderRadius: "8px" }}>
-            <h3 style={{ fontSize: "1.2rem", marginBottom: "0.5rem" }}>How long does it take to build a website?</h3>
-            <p style={{ color: "var(--muted)", lineHeight: "1.6" }}>A standard business website typically takes 4 to 8 weeks from design to launch. More complex projects such as custom web applications, ecommerce platforms, or enterprise sites generally take 8 to 12 weeks depending on scope, features, and feedback cycles.</p>
-          </div>
-          <div style={{ padding: "1.5rem", background: "rgba(255,255,255,0.02)", border: "1px solid var(--border)", borderRadius: "8px" }}>
-            <h3 style={{ fontSize: "1.2rem", marginBottom: "0.5rem" }}>Do you build websites on WordPress or custom code?</h3>
-            <p style={{ color: "var(--muted)", lineHeight: "1.6" }}>We work with both. WordPress is ideal for content-heavy sites that require easy content management. For performance-critical applications, SaaS platforms, and sites needing maximum speed and flexibility, we build custom solutions using Next.js and React. We recommend the best approach based on your specific business needs.</p>
-          </div>
-          <div style={{ padding: "1.5rem", background: "rgba(255,255,255,0.02)", border: "1px solid var(--border)", borderRadius: "8px" }}>
-            <h3 style={{ fontSize: "1.2rem", marginBottom: "0.5rem" }}>Will my website rank on Google?</h3>
-            <p style={{ color: "var(--muted)", lineHeight: "1.6" }}>Yes. Every website we build is constructed with SEO best practices from the ground up, including schema markup, Core Web Vitals optimization, mobile-first design, clean URL structures, and proper heading hierarchy. This ensures your site is technically optimized to rank well on Google from launch day.</p>
-          </div>
-          <div style={{ padding: "1.5rem", background: "rgba(255,255,255,0.02)", border: "1px solid var(--border)", borderRadius: "8px" }}>
-            <h3 style={{ fontSize: "1.2rem", marginBottom: "0.5rem" }}>Do you offer website redesign services?</h3>
-            <p style={{ color: "var(--muted)", lineHeight: "1.6" }}>Yes. We offer complete website redesign services. Our process begins with a thorough audit of your existing site to identify performance issues, SEO gaps, and conversion bottlenecks. We then rebuild your site with modern design, improved speed, better user experience, and stronger search engine visibility.</p>
-          </div>
+        <div className={styles.faqList}>
+          {faqs.map((faq, i) => (
+            <div key={i} className={styles.faqItem}>
+              <button
+                className={styles.faqQuestion}
+                onClick={() => setOpenFaq(openFaq === i ? null : i)}
+              >
+                {faq.q}
+                <ChevronDown
+                  size={20}
+                  className={`${styles.faqChevron} ${openFaq === i ? styles.faqChevronOpen : ""}`}
+                />
+              </button>
+              <div className={`${styles.faqAnswer} ${openFaq === i ? styles.faqAnswerOpen : ""}`}>
+                <p>{faq.a}</p>
+              </div>
+            </div>
+          ))}
         </div>
       </FadeIn>
 

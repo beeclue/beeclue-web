@@ -1,5 +1,6 @@
 "use client";
 
+import { useState } from "react";
 import Link from "next/link";
 import styles from "@/app/page.module.css";
 import {
@@ -13,11 +14,23 @@ import {
   BarChart3,
   Shield,
   Monitor,
+  ChevronDown,
 } from "lucide-react";
 import FadeIn from "@/components/FadeIn";
 import ServiceTracker from "@/components/ServiceTracker";
 
 export default function ShopifyEcommerceWebsiteDesignPage() {
+  const [openFaq, setOpenFaq] = useState<number | null>(0);
+
+  const faqs = [
+    { q: "How much does a Shopify e-commerce website design cost?", a: "Shopify e-commerce website design costs range from $5,000 for a custom theme build to $50,000+ for a fully bespoke Shopify Plus headless solution. The investment depends on design complexity, product catalog size, custom features, and third-party integrations." },
+    { q: "How long does it take to design a Shopify e-commerce store?", a: "A standard Shopify e-commerce store takes 4 to 8 weeks from discovery to launch. Complex projects with custom functionality, large product catalogs, or headless architecture typically take 8 to 14 weeks. We provide a detailed timeline during the scoping phase." },
+    { q: "Do you design custom Shopify themes from scratch?", a: "Yes. We design and build custom Shopify themes tailored to your brand and business needs. Every theme is engineered for performance, mobile responsiveness, and conversion optimization — no generic templates or cookie-cutter designs." },
+    { q: "Will my Shopify store be optimized for conversions?", a: "Absolutely. Every Shopify store we design is built with conversion rate optimization as a core principle. From product page layouts and checkout flows to trust signals and urgency elements, every design decision is driven by data and proven conversion psychology." },
+    { q: "Can you redesign my existing Shopify store?", a: "Yes. We specialize in Shopify store redesigns that preserve your existing data, SEO rankings, and integrations while delivering a modern, high-converting design. Our redesign process includes a full UX audit, strategy session, and performance benchmarking." },
+    { q: "Do you provide ongoing Shopify support after launch?", a: "Yes. We offer ongoing Shopify support packages that include maintenance, performance monitoring, feature development, A/B testing, and strategic consulting to ensure your store continues to perform and grow." },
+  ];
+
   const jsonLd = {
     "@context": "https://schema.org",
     "@graph": [
@@ -339,31 +352,24 @@ export default function ShopifyEcommerceWebsiteDesignPage() {
           <h2>Frequently Asked Questions</h2>
           <p>Common questions about our Shopify e-commerce website design services.</p>
         </div>
-        <div style={{ maxWidth: "800px", margin: "0 auto", display: "flex", flexDirection: "column", gap: "1.5rem" }}>
-          <div style={{ padding: "1.5rem", background: "rgba(255,255,255,0.02)", border: "1px solid var(--border)", borderRadius: "8px" }}>
-            <h3 style={{ fontSize: "1.2rem", marginBottom: "0.5rem" }}>How much does a Shopify e-commerce website design cost?</h3>
-            <p style={{ color: "var(--muted)", lineHeight: "1.6" }}>Shopify e-commerce website design costs range from $5,000 for a custom theme build to $50,000+ for a fully bespoke Shopify Plus headless solution. The investment depends on design complexity, product catalog size, custom features, and third-party integrations.</p>
-          </div>
-          <div style={{ padding: "1.5rem", background: "rgba(255,255,255,0.02)", border: "1px solid var(--border)", borderRadius: "8px" }}>
-            <h3 style={{ fontSize: "1.2rem", marginBottom: "0.5rem" }}>How long does it take to design a Shopify e-commerce store?</h3>
-            <p style={{ color: "var(--muted)", lineHeight: "1.6" }}>A standard Shopify e-commerce store takes 4 to 8 weeks from discovery to launch. Complex projects with custom functionality, large product catalogs, or headless architecture typically take 8 to 14 weeks. We provide a detailed timeline during the scoping phase.</p>
-          </div>
-          <div style={{ padding: "1.5rem", background: "rgba(255,255,255,0.02)", border: "1px solid var(--border)", borderRadius: "8px" }}>
-            <h3 style={{ fontSize: "1.2rem", marginBottom: "0.5rem" }}>Do you design custom Shopify themes from scratch?</h3>
-            <p style={{ color: "var(--muted)", lineHeight: "1.6" }}>Yes. We design and build custom Shopify themes tailored to your brand and business needs. Every theme is engineered for performance, mobile responsiveness, and conversion optimization — no generic templates or cookie-cutter designs.</p>
-          </div>
-          <div style={{ padding: "1.5rem", background: "rgba(255,255,255,0.02)", border: "1px solid var(--border)", borderRadius: "8px" }}>
-            <h3 style={{ fontSize: "1.2rem", marginBottom: "0.5rem" }}>Will my Shopify store be optimized for conversions?</h3>
-            <p style={{ color: "var(--muted)", lineHeight: "1.6" }}>Absolutely. Every Shopify store we design is built with conversion rate optimization as a core principle. From product page layouts and checkout flows to trust signals and urgency elements, every design decision is driven by data and proven conversion psychology.</p>
-          </div>
-          <div style={{ padding: "1.5rem", background: "rgba(255,255,255,0.02)", border: "1px solid var(--border)", borderRadius: "8px" }}>
-            <h3 style={{ fontSize: "1.2rem", marginBottom: "0.5rem" }}>Can you redesign my existing Shopify store?</h3>
-            <p style={{ color: "var(--muted)", lineHeight: "1.6" }}>Yes. We specialize in Shopify store redesigns that preserve your existing data, SEO rankings, and integrations while delivering a modern, high-converting design. Our redesign process includes a full UX audit, strategy session, and performance benchmarking.</p>
-          </div>
-          <div style={{ padding: "1.5rem", background: "rgba(255,255,255,0.02)", border: "1px solid var(--border)", borderRadius: "8px" }}>
-            <h3 style={{ fontSize: "1.2rem", marginBottom: "0.5rem" }}>Do you provide ongoing Shopify support after launch?</h3>
-            <p style={{ color: "var(--muted)", lineHeight: "1.6" }}>Yes. We offer ongoing Shopify support packages that include maintenance, performance monitoring, feature development, A/B testing, and strategic consulting to ensure your store continues to perform and grow.</p>
-          </div>
+        <div className={styles.faqList}>
+          {faqs.map((faq, i) => (
+            <div key={i} className={styles.faqItem}>
+              <button
+                className={styles.faqQuestion}
+                onClick={() => setOpenFaq(openFaq === i ? null : i)}
+              >
+                {faq.q}
+                <ChevronDown
+                  size={20}
+                  className={`${styles.faqChevron} ${openFaq === i ? styles.faqChevronOpen : ""}`}
+                />
+              </button>
+              <div className={`${styles.faqAnswer} ${openFaq === i ? styles.faqAnswerOpen : ""}`}>
+                <p>{faq.a}</p>
+              </div>
+            </div>
+          ))}
         </div>
       </FadeIn>
 

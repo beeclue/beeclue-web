@@ -1,12 +1,23 @@
 "use client";
 
+import { useState } from "react";
 import Link from "next/link";
 import styles from "@/app/page.module.css";
-import { ArrowRight, LayoutTemplate, Briefcase, Globe, RefreshCcw, ShoppingCart, Search, CheckCircle2, Check } from "lucide-react";
+import { ArrowRight, LayoutTemplate, Briefcase, Globe, RefreshCcw, ShoppingCart, Search, CheckCircle2, Check, ChevronDown } from "lucide-react";
 import FadeIn from "@/components/FadeIn";
 import ServiceTracker from "@/components/ServiceTracker";
 
 export default function MobileAppDevelopmentTorontoPage() {
+  const [openFaq, setOpenFaq] = useState<number | null>(0);
+
+  const faqs = [
+    { q: "How much does mobile app development cost in Toronto?", a: "The cost of custom mobile app development varies based on complexity, platforms (iOS and Android), and required integrations. Simple MVP apps can start around $15,000, while enterprise-grade applications with custom backends can exceed $50,000." },
+    { q: "Should I build a native app or cross-platform app?", a: "Native apps (built in Swift or Kotlin) offer maximum performance and deep device hardware integration. Cross-platform apps (using React Native) allow you to launch on both iOS and Android simultaneously with a single codebase, significantly reducing development time and cost." },
+    { q: "How long does it take to build a mobile app?", a: "A Minimum Viable Product (MVP) typically takes 8 to 12 weeks to develop and launch. Full-featured applications with complex integrations, custom backends, and advanced UI/UX generally take 12 to 20 weeks depending on scope and platform requirements." },
+    { q: "Do you develop for both iOS and Android?", a: "Yes. We develop for both platforms using native development (Swift for iOS, Kotlin for Android) for maximum performance, as well as cross-platform solutions using React Native and Flutter when simultaneous launch on both platforms is needed to reduce time and cost." },
+    { q: "What ongoing support do you provide after launch?", a: "We provide comprehensive post-launch support including App Store submission management, bug fixes, performance monitoring, feature updates, analytics tracking, and version updates to stay compatible with new iOS and Android releases." },
+  ];
+
   const jsonLd = {
     "@context": "https://schema.org",
     "@graph": [
@@ -285,27 +296,24 @@ export default function MobileAppDevelopmentTorontoPage() {
           <h2>Mobile App Development FAQs</h2>
           <p>Common questions about building custom iOS and Android applications.</p>
         </div>
-        <div style={{ maxWidth: "800px", margin: "0 auto", display: "flex", flexDirection: "column", gap: "1.5rem" }}>
-          <div style={{ padding: "1.5rem", background: "rgba(255,255,255,0.02)", border: "1px solid var(--border)", borderRadius: "8px" }}>
-            <h3 style={{ fontSize: "1.2rem", marginBottom: "0.5rem" }}>How much does mobile app development cost in Toronto?</h3>
-            <p style={{ color: "var(--muted)", lineHeight: "1.6" }}>The cost of custom mobile app development varies based on complexity, platforms (iOS and Android), and required integrations. Simple MVP apps can start around $15,000, while enterprise-grade applications with custom backends can exceed $50,000.</p>
-          </div>
-          <div style={{ padding: "1.5rem", background: "rgba(255,255,255,0.02)", border: "1px solid var(--border)", borderRadius: "8px" }}>
-            <h3 style={{ fontSize: "1.2rem", marginBottom: "0.5rem" }}>Should I build a native app or cross-platform app?</h3>
-            <p style={{ color: "var(--muted)", lineHeight: "1.6" }}>Native apps (built in Swift or Kotlin) offer maximum performance and deep device hardware integration. Cross-platform apps (using React Native) allow you to launch on both iOS and Android simultaneously with a single codebase, significantly reducing development time and cost.</p>
-          </div>
-          <div style={{ padding: "1.5rem", background: "rgba(255,255,255,0.02)", border: "1px solid var(--border)", borderRadius: "8px" }}>
-            <h3 style={{ fontSize: "1.2rem", marginBottom: "0.5rem" }}>How long does it take to build a mobile app?</h3>
-            <p style={{ color: "var(--muted)", lineHeight: "1.6" }}>A Minimum Viable Product (MVP) typically takes 8 to 12 weeks to develop and launch. Full-featured applications with complex integrations, custom backends, and advanced UI/UX generally take 12 to 20 weeks depending on scope and platform requirements.</p>
-          </div>
-          <div style={{ padding: "1.5rem", background: "rgba(255,255,255,0.02)", border: "1px solid var(--border)", borderRadius: "8px" }}>
-            <h3 style={{ fontSize: "1.2rem", marginBottom: "0.5rem" }}>Do you develop for both iOS and Android?</h3>
-            <p style={{ color: "var(--muted)", lineHeight: "1.6" }}>Yes. We develop for both platforms using native development (Swift for iOS, Kotlin for Android) for maximum performance, as well as cross-platform solutions using React Native and Flutter when simultaneous launch on both platforms is needed to reduce time and cost.</p>
-          </div>
-          <div style={{ padding: "1.5rem", background: "rgba(255,255,255,0.02)", border: "1px solid var(--border)", borderRadius: "8px" }}>
-            <h3 style={{ fontSize: "1.2rem", marginBottom: "0.5rem" }}>What ongoing support do you provide after launch?</h3>
-            <p style={{ color: "var(--muted)", lineHeight: "1.6" }}>We provide comprehensive post-launch support including App Store submission management, bug fixes, performance monitoring, feature updates, analytics tracking, and version updates to stay compatible with new iOS and Android releases.</p>
-          </div>
+        <div className={styles.faqList}>
+          {faqs.map((faq, i) => (
+            <div key={i} className={styles.faqItem}>
+              <button
+                className={styles.faqQuestion}
+                onClick={() => setOpenFaq(openFaq === i ? null : i)}
+              >
+                {faq.q}
+                <ChevronDown
+                  size={20}
+                  className={`${styles.faqChevron} ${openFaq === i ? styles.faqChevronOpen : ""}`}
+                />
+              </button>
+              <div className={`${styles.faqAnswer} ${openFaq === i ? styles.faqAnswerOpen : ""}`}>
+                <p>{faq.a}</p>
+              </div>
+            </div>
+          ))}
         </div>
       </FadeIn>
 

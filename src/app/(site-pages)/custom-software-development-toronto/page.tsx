@@ -1,12 +1,23 @@
 "use client";
 
+import { useState } from "react";
 import Link from "next/link";
 import styles from "@/app/page.module.css";
-import { ArrowRight, LayoutTemplate, Briefcase, Globe, RefreshCcw, ShoppingCart, Search, CheckCircle2, Check } from "lucide-react";
+import { ArrowRight, LayoutTemplate, Briefcase, Globe, RefreshCcw, ShoppingCart, Search, CheckCircle2, Check, ChevronDown } from "lucide-react";
 import FadeIn from "@/components/FadeIn";
 import ServiceTracker from "@/components/ServiceTracker";
 
 export default function CustomSoftwareDevelopmentTorontoPage() {
+  const [openFaq, setOpenFaq] = useState<number | null>(0);
+
+  const faqs = [
+    { q: "How much does custom software development cost in Toronto?", a: "Custom software development costs in Toronto typically range from $20,000 to $80,000+ depending on project complexity, features, and integrations required. SaaS MVPs start around $25,000, while enterprise-grade platforms with advanced features can exceed $100,000. We provide detailed estimates after an initial discovery consultation." },
+    { q: "How long does it take to develop custom software?", a: "A Minimum Viable Product (MVP) typically takes 8 to 12 weeks to develop. Full-scale enterprise platforms and complex SaaS products generally take 3 to 6 months depending on scope, number of integrations, and feature complexity. We follow agile methodology to deliver iterative milestones throughout the process." },
+    { q: "What technologies do you use for software development?", a: "We use modern, battle-tested technologies including Node.js and Python for backend development, React and TypeScript for frontend interfaces, PostgreSQL and MongoDB for databases, and AWS or Google Cloud for cloud infrastructure. We select the best tech stack based on your project requirements and scalability needs." },
+    { q: "Can you integrate with our existing tools and APIs?", a: "Yes. We specialize in API integrations and system connectivity. Whether you need to connect your custom software with existing CRM systems like Salesforce, ERP platforms, payment gateways, third-party APIs, or legacy systems, our team ensures seamless, real-time data synchronization across your entire technology stack." },
+    { q: "Do you provide ongoing support after launch?", a: "Yes. We provide comprehensive post-launch support including bug fixes, performance monitoring, security updates, feature enhancements, and scaling assistance. Our maintenance plans ensure your software remains secure, up-to-date, and aligned with your evolving business requirements." },
+  ];
+
   const jsonLd = {
     "@context": "https://schema.org",
     "@graph": [
@@ -305,27 +316,24 @@ export default function CustomSoftwareDevelopmentTorontoPage() {
           <h2>Custom Software Development FAQs</h2>
           <p>Common questions about building custom software and SaaS platforms.</p>
         </div>
-        <div style={{ maxWidth: "800px", margin: "0 auto", display: "flex", flexDirection: "column", gap: "1.5rem" }}>
-          <div style={{ padding: "1.5rem", background: "rgba(255,255,255,0.02)", border: "1px solid var(--border)", borderRadius: "8px" }}>
-            <h3 style={{ fontSize: "1.2rem", marginBottom: "0.5rem" }}>How much does custom software development cost in Toronto?</h3>
-            <p style={{ color: "var(--muted)", lineHeight: "1.6" }}>Custom software development costs in Toronto typically range from $20,000 to $80,000+ depending on project complexity, features, and integrations required. SaaS MVPs start around $25,000, while enterprise-grade platforms with advanced features can exceed $100,000. We provide detailed estimates after an initial discovery consultation.</p>
-          </div>
-          <div style={{ padding: "1.5rem", background: "rgba(255,255,255,0.02)", border: "1px solid var(--border)", borderRadius: "8px" }}>
-            <h3 style={{ fontSize: "1.2rem", marginBottom: "0.5rem" }}>How long does it take to develop custom software?</h3>
-            <p style={{ color: "var(--muted)", lineHeight: "1.6" }}>A Minimum Viable Product (MVP) typically takes 8 to 12 weeks to develop. Full-scale enterprise platforms and complex SaaS products generally take 3 to 6 months depending on scope, number of integrations, and feature complexity. We follow agile methodology to deliver iterative milestones throughout the process.</p>
-          </div>
-          <div style={{ padding: "1.5rem", background: "rgba(255,255,255,0.02)", border: "1px solid var(--border)", borderRadius: "8px" }}>
-            <h3 style={{ fontSize: "1.2rem", marginBottom: "0.5rem" }}>What technologies do you use for software development?</h3>
-            <p style={{ color: "var(--muted)", lineHeight: "1.6" }}>We use modern, battle-tested technologies including Node.js and Python for backend development, React and TypeScript for frontend interfaces, PostgreSQL and MongoDB for databases, and AWS or Google Cloud for cloud infrastructure. We select the best tech stack based on your project requirements and scalability needs.</p>
-          </div>
-          <div style={{ padding: "1.5rem", background: "rgba(255,255,255,0.02)", border: "1px solid var(--border)", borderRadius: "8px" }}>
-            <h3 style={{ fontSize: "1.2rem", marginBottom: "0.5rem" }}>Can you integrate with our existing tools and APIs?</h3>
-            <p style={{ color: "var(--muted)", lineHeight: "1.6" }}>Yes. We specialize in API integrations and system connectivity. Whether you need to connect your custom software with existing CRM systems like Salesforce, ERP platforms, payment gateways, third-party APIs, or legacy systems, our team ensures seamless, real-time data synchronization across your entire technology stack.</p>
-          </div>
-          <div style={{ padding: "1.5rem", background: "rgba(255,255,255,0.02)", border: "1px solid var(--border)", borderRadius: "8px" }}>
-            <h3 style={{ fontSize: "1.2rem", marginBottom: "0.5rem" }}>Do you provide ongoing support after launch?</h3>
-            <p style={{ color: "var(--muted)", lineHeight: "1.6" }}>Yes. We provide comprehensive post-launch support including bug fixes, performance monitoring, security updates, feature enhancements, and scaling assistance. Our maintenance plans ensure your software remains secure, up-to-date, and aligned with your evolving business requirements.</p>
-          </div>
+        <div className={styles.faqList}>
+          {faqs.map((faq, i) => (
+            <div key={i} className={styles.faqItem}>
+              <button
+                className={styles.faqQuestion}
+                onClick={() => setOpenFaq(openFaq === i ? null : i)}
+              >
+                {faq.q}
+                <ChevronDown
+                  size={20}
+                  className={`${styles.faqChevron} ${openFaq === i ? styles.faqChevronOpen : ""}`}
+                />
+              </button>
+              <div className={`${styles.faqAnswer} ${openFaq === i ? styles.faqAnswerOpen : ""}`}>
+                <p>{faq.a}</p>
+              </div>
+            </div>
+          ))}
         </div>
       </FadeIn>
 

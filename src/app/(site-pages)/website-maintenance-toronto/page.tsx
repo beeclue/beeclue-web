@@ -1,5 +1,6 @@
 "use client";
 
+import { useState } from "react";
 import Link from "next/link";
 import styles from "@/app/page.module.css";
 import {
@@ -12,11 +13,23 @@ import {
   HardDrive,
   Lock,
   Clock,
+  ChevronDown,
 } from "lucide-react";
 import FadeIn from "@/components/FadeIn";
 import ServiceTracker from "@/components/ServiceTracker";
 
 export default function WebsiteMaintenanceTorontoPage() {
+  const [openFaq, setOpenFaq] = useState<number | null>(0);
+
+  const faqs = [
+    { q: "How much does website maintenance cost in Toronto?", a: "Website maintenance costs in Toronto typically range from $99/month for basic maintenance (updates and backups) to $999/month for enterprise-level support (24/7 monitoring, performance optimization, and priority support). The right plan depends on your site&apos;s complexity, traffic volume, and how critical uptime is to your business." },
+    { q: "What is included in website maintenance?", a: "Our website maintenance plans include: core CMS and plugin updates, security patches and vulnerability scanning, daily or weekly backups, uptime monitoring, performance optimization, content updates, security monitoring, broken link fixes, and monthly performance reports. Higher-tier plans add priority support, staging environments, and A/B testing." },
+    { q: "Why is website maintenance important?", a: "Without regular maintenance, websites become vulnerable to security breaches, lose search rankings due to outdated content and broken links, slow down from unoptimized code, and eventually break when software becomes incompatible. Studies show 43% of cyber attacks target small businesses through outdated website software. Maintenance prevents these issues before they cost you money." },
+    { q: "Do I need website maintenance if my site is on WordPress.com or Shopify?", a: "Yes. While hosted platforms handle some server-level maintenance, you still need maintenance for theme and plugin updates, content changes, performance monitoring, security hardening, and ensuring your site stays compatible with platform updates. Even Shopify stores need regular maintenance for apps, custom code, and performance optimization." },
+    { q: "What happens if I don&apos;t maintain my website?", a: "Neglected websites face: security vulnerabilities that hackers exploit, declining search rankings from broken links and slow performance, content that becomes outdated and irrelevant, broken functionality from incompatible software updates, and potential data loss from failed backups. The cost of fixing a hacked or broken site far exceeds the cost of preventive maintenance." },
+    { q: "Can you maintain a website you didn&apos;t build?", a: "Absolutely. We maintain websites built by other developers, agencies, or DIY builders. We begin with a comprehensive audit of your current site to understand its technology stack, identify existing issues, and create a maintenance plan tailored to your site&apos;s specific needs." },
+  ];
+
   const jsonLd = {
     "@context": "https://schema.org",
     "@graph": [
@@ -607,135 +620,24 @@ export default function WebsiteMaintenanceTorontoPage() {
             Common questions about website maintenance services in Toronto.
           </p>
         </div>
-        <div
-          style={{
-            maxWidth: "800px",
-            margin: "0 auto",
-            display: "flex",
-            flexDirection: "column",
-            gap: "1.5rem",
-          }}
-        >
-          <div
-            style={{
-              padding: "1.5rem",
-              background: "rgba(255,255,255,0.02)",
-              border: "1px solid var(--border)",
-              borderRadius: "8px",
-            }}
-          >
-            <h3 style={{ fontSize: "1.2rem", marginBottom: "0.5rem" }}>
-              How much does website maintenance cost in Toronto?
-            </h3>
-            <p style={{ color: "var(--muted)", lineHeight: "1.6" }}>
-              Website maintenance costs in Toronto typically range from $99/month
-              for basic maintenance (updates and backups) to $999/month for
-              enterprise-level support (24/7 monitoring, performance
-              optimization, and priority support). The right plan depends on
-              your site&apos;s complexity, traffic volume, and how critical uptime
-              is to your business.
-            </p>
-          </div>
-          <div
-            style={{
-              padding: "1.5rem",
-              background: "rgba(255,255,255,0.02)",
-              border: "1px solid var(--border)",
-              borderRadius: "8px",
-            }}
-          >
-            <h3 style={{ fontSize: "1.2rem", marginBottom: "0.5rem" }}>
-              What is included in website maintenance?
-            </h3>
-            <p style={{ color: "var(--muted)", lineHeight: "1.6" }}>
-              Our website maintenance plans include: core CMS and plugin updates,
-              security patches and vulnerability scanning, daily or weekly
-              backups, uptime monitoring, performance optimization, content
-              updates, security monitoring, broken link fixes, and monthly
-              performance reports. Higher-tier plans add priority support,
-              staging environments, and A/B testing.
-            </p>
-          </div>
-          <div
-            style={{
-              padding: "1.5rem",
-              background: "rgba(255,255,255,0.02)",
-              border: "1px solid var(--border)",
-              borderRadius: "8px",
-            }}
-          >
-            <h3 style={{ fontSize: "1.2rem", marginBottom: "0.5rem" }}>
-              Why is website maintenance important?
-            </h3>
-            <p style={{ color: "var(--muted)", lineHeight: "1.6" }}>
-              Without regular maintenance, websites become vulnerable to security
-              breaches, lose search rankings due to outdated content and broken
-              links, slow down from unoptimized code, and eventually break when
-              software becomes incompatible. Studies show 43% of cyber attacks
-              target small businesses through outdated website software.
-              Maintenance prevents these issues before they cost you money.
-            </p>
-          </div>
-          <div
-            style={{
-              padding: "1.5rem",
-              background: "rgba(255,255,255,0.02)",
-              border: "1px solid var(--border)",
-              borderRadius: "8px",
-            }}
-          >
-            <h3 style={{ fontSize: "1.2rem", marginBottom: "0.5rem" }}>
-              Do I need website maintenance if my site is on WordPress.com or
-              Shopify?
-            </h3>
-            <p style={{ color: "var(--muted)", lineHeight: "1.6" }}>
-              Yes. While hosted platforms handle some server-level maintenance,
-              you still need maintenance for theme and plugin updates, content
-              changes, performance monitoring, security hardening, and ensuring
-              your site stays compatible with platform updates. Even Shopify
-              stores need regular maintenance for apps, custom code, and
-              performance optimization.
-            </p>
-          </div>
-          <div
-            style={{
-              padding: "1.5rem",
-              background: "rgba(255,255,255,0.02)",
-              border: "1px solid var(--border)",
-              borderRadius: "8px",
-            }}
-          >
-            <h3 style={{ fontSize: "1.2rem", marginBottom: "0.5rem" }}>
-              What happens if I don&apos;t maintain my website?
-            </h3>
-            <p style={{ color: "var(--muted)", lineHeight: "1.6" }}>
-              Neglected websites face: security vulnerabilities that hackers
-              exploit, declining search rankings from broken links and slow
-              performance, content that becomes outdated and irrelevant, broken
-              functionality from incompatible software updates, and potential
-              data loss from failed backups. The cost of fixing a hacked or
-              broken site far exceeds the cost of preventive maintenance.
-            </p>
-          </div>
-          <div
-            style={{
-              padding: "1.5rem",
-              background: "rgba(255,255,255,0.02)",
-              border: "1px solid var(--border)",
-              borderRadius: "8px",
-            }}
-          >
-            <h3 style={{ fontSize: "1.2rem", marginBottom: "0.5rem" }}>
-              Can you maintain a website you didn&apos;t build?
-            </h3>
-            <p style={{ color: "var(--muted)", lineHeight: "1.6" }}>
-              Absolutely. We maintain websites built by other developers,
-              agencies, or DIY builders. We begin with a comprehensive audit of
-              your current site to understand its technology stack, identify
-              existing issues, and create a maintenance plan tailored to your
-              site&apos;s specific needs.
-            </p>
-          </div>
+        <div className={styles.faqList}>
+          {faqs.map((faq, i) => (
+            <div key={i} className={styles.faqItem}>
+              <button
+                className={styles.faqQuestion}
+                onClick={() => setOpenFaq(openFaq === i ? null : i)}
+              >
+                {faq.q}
+                <ChevronDown
+                  size={20}
+                  className={`${styles.faqChevron} ${openFaq === i ? styles.faqChevronOpen : ""}`}
+                />
+              </button>
+              <div className={`${styles.faqAnswer} ${openFaq === i ? styles.faqAnswerOpen : ""}`}>
+                <p>{faq.a}</p>
+              </div>
+            </div>
+          ))}
         </div>
       </FadeIn>
 

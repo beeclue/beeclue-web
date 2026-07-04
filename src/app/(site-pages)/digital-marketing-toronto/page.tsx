@@ -1,5 +1,6 @@
 "use client";
 
+import { useState } from "react";
 import Link from "next/link";
 import styles from "@/app/page.module.css";
 import {
@@ -12,11 +13,23 @@ import {
   TrendingUp,
   Megaphone,
   Mail,
+  ChevronDown,
 } from "lucide-react";
 import FadeIn from "@/components/FadeIn";
 import ServiceTracker from "@/components/ServiceTracker";
 
 export default function DigitalMarketingTorontoPage() {
+  const [openFaq, setOpenFaq] = useState<number | null>(0);
+
+  const faqs = [
+    { q: "How much does digital marketing cost in Toronto?", a: "Digital marketing costs in Toronto vary based on scope and channels. Monthly retainers typically range from $2,000 to $15,000 depending on the services included — SEO, PPC, social media, content creation, and analytics. We provide transparent pricing tailored to your business goals and competitive landscape." },
+    { q: "How long does it take to see results from digital marketing?", a: "PPC and paid social campaigns can generate traffic within days. SEO typically shows meaningful results within 3 to 6 months as your domain authority and content library grow. Content marketing compounds over time — most clients see significant ROI within 6 to 12 months of consistent execution." },
+    { q: "What digital marketing services do you offer?", a: "We offer a full suite of digital marketing services including SEO, PPC management (Google Ads and Meta Ads), social media marketing, content strategy and creation, email marketing, conversion rate optimization, analytics and reporting, and marketing automation. Each engagement is customized to your specific business objectives." },
+    { q: "Do you work with small businesses in Toronto?", a: "Yes. We work with businesses of all sizes across Toronto — from startups and local shops to established enterprises. Our strategies are scalable and tailored to your budget, ensuring every dollar drives measurable results regardless of company size." },
+    { q: "How do you measure digital marketing success?", a: "We track ROI through clearly defined KPIs aligned with your business goals — revenue, lead generation, organic traffic growth, conversion rates, and customer acquisition cost. You receive monthly performance reports with transparent data and actionable insights, not vanity metrics." },
+    { q: "Can you integrate digital marketing with my existing website?", a: "Absolutely. We audit your existing website, analytics setup, and marketing infrastructure before making recommendations. Whether your site runs on Shopify, WordPress, or a custom platform, we integrate our strategies with your current stack for a seamless, data-driven marketing engine." },
+  ];
+
   const jsonLd = {
     "@context": "https://schema.org",
     "@graph": [
@@ -372,31 +385,24 @@ export default function DigitalMarketingTorontoPage() {
           <h2>Frequently Asked Questions</h2>
           <p>Common questions about our digital marketing services in Toronto.</p>
         </div>
-        <div style={{ maxWidth: "800px", margin: "0 auto", display: "flex", flexDirection: "column", gap: "1.5rem" }}>
-          <div style={{ padding: "1.5rem", background: "rgba(255,255,255,0.02)", border: "1px solid var(--border)", borderRadius: "8px" }}>
-            <h3 style={{ fontSize: "1.2rem", marginBottom: "0.5rem" }}>How much does digital marketing cost in Toronto?</h3>
-            <p style={{ color: "var(--muted)", lineHeight: "1.6" }}>Digital marketing costs in Toronto vary based on scope and channels. Monthly retainers typically range from $2,000 to $15,000 depending on the services included — SEO, PPC, social media, content creation, and analytics. We provide transparent pricing tailored to your business goals and competitive landscape.</p>
-          </div>
-          <div style={{ padding: "1.5rem", background: "rgba(255,255,255,0.02)", border: "1px solid var(--border)", borderRadius: "8px" }}>
-            <h3 style={{ fontSize: "1.2rem", marginBottom: "0.5rem" }}>How long does it take to see results from digital marketing?</h3>
-            <p style={{ color: "var(--muted)", lineHeight: "1.6" }}>PPC and paid social campaigns can generate traffic within days. SEO typically shows meaningful results within 3 to 6 months as your domain authority and content library grow. Content marketing compounds over time — most clients see significant ROI within 6 to 12 months of consistent execution.</p>
-          </div>
-          <div style={{ padding: "1.5rem", background: "rgba(255,255,255,0.02)", border: "1px solid var(--border)", borderRadius: "8px" }}>
-            <h3 style={{ fontSize: "1.2rem", marginBottom: "0.5rem" }}>What digital marketing services do you offer?</h3>
-            <p style={{ color: "var(--muted)", lineHeight: "1.6" }}>We offer a full suite of digital marketing services including SEO, PPC management (Google Ads and Meta Ads), social media marketing, content strategy and creation, email marketing, conversion rate optimization, analytics and reporting, and marketing automation. Each engagement is customized to your specific business objectives.</p>
-          </div>
-          <div style={{ padding: "1.5rem", background: "rgba(255,255,255,0.02)", border: "1px solid var(--border)", borderRadius: "8px" }}>
-            <h3 style={{ fontSize: "1.2rem", marginBottom: "0.5rem" }}>Do you work with small businesses in Toronto?</h3>
-            <p style={{ color: "var(--muted)", lineHeight: "1.6" }}>Yes. We work with businesses of all sizes across Toronto — from startups and local shops to established enterprises. Our strategies are scalable and tailored to your budget, ensuring every dollar drives measurable results regardless of company size.</p>
-          </div>
-          <div style={{ padding: "1.5rem", background: "rgba(255,255,255,0.02)", border: "1px solid var(--border)", borderRadius: "8px" }}>
-            <h3 style={{ fontSize: "1.2rem", marginBottom: "0.5rem" }}>How do you measure digital marketing success?</h3>
-            <p style={{ color: "var(--muted)", lineHeight: "1.6" }}>We track ROI through clearly defined KPIs aligned with your business goals — revenue, lead generation, organic traffic growth, conversion rates, and customer acquisition cost. You receive monthly performance reports with transparent data and actionable insights, not vanity metrics.</p>
-          </div>
-          <div style={{ padding: "1.5rem", background: "rgba(255,255,255,0.02)", border: "1px solid var(--border)", borderRadius: "8px" }}>
-            <h3 style={{ fontSize: "1.2rem", marginBottom: "0.5rem" }}>Can you integrate digital marketing with my existing website?</h3>
-            <p style={{ color: "var(--muted)", lineHeight: "1.6" }}>Absolutely. We audit your existing website, analytics setup, and marketing infrastructure before making recommendations. Whether your site runs on Shopify, WordPress, or a custom platform, we integrate our strategies with your current stack for a seamless, data-driven marketing engine.</p>
-          </div>
+        <div className={styles.faqList}>
+          {faqs.map((faq, i) => (
+            <div key={i} className={styles.faqItem}>
+              <button
+                className={styles.faqQuestion}
+                onClick={() => setOpenFaq(openFaq === i ? null : i)}
+              >
+                {faq.q}
+                <ChevronDown
+                  size={20}
+                  className={`${styles.faqChevron} ${openFaq === i ? styles.faqChevronOpen : ""}`}
+                />
+              </button>
+              <div className={`${styles.faqAnswer} ${openFaq === i ? styles.faqAnswerOpen : ""}`}>
+                <p>{faq.a}</p>
+              </div>
+            </div>
+          ))}
         </div>
       </FadeIn>
 

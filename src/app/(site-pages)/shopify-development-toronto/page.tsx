@@ -1,5 +1,6 @@
 "use client";
 
+import { useState } from "react";
 import Link from "next/link";
 import styles from "@/app/page.module.css";
 import {
@@ -12,11 +13,24 @@ import {
   RefreshCcw,
   Zap,
   Shield,
+  ChevronDown,
 } from "lucide-react";
 import FadeIn from "@/components/FadeIn";
 import ServiceTracker from "@/components/ServiceTracker";
 
 export default function ShopifyDevelopmentTorontoPage() {
+  const [openFaq, setOpenFaq] = useState<number | null>(0);
+
+  const faqs = [
+    { q: "How much does Shopify development cost in Toronto?", a: "Shopify development costs in Toronto range from $5,000 for a basic custom theme to $50,000+ for a fully custom headless commerce solution. The final cost depends on design complexity, custom features, integrations, and whether you need a standard Shopify store or a Shopify Plus headless build." },
+    { q: "How long does it take to build a custom Shopify store?", a: "A standard custom Shopify store typically takes 4 to 8 weeks from discovery to launch. More complex projects involving custom apps, headless architecture, or extensive third-party integrations can take 8 to 14 weeks. We provide a detailed timeline during the scoping phase." },
+    { q: "Do you build Shopify Plus headless stores?", a: "Yes. We specialize in headless Shopify Plus builds using Next.js and Shopify&apos;s Storefront API. Headless architecture decouples the frontend from the backend, delivering sub-second page loads, unlimited design flexibility, and enterprise-grade performance ideal for high-traffic brands." },
+    { q: "Can you migrate my existing store to Shopify?", a: "Yes. We execute complete platform migrations from WooCommerce, Magento, Wix, Squarespace, and custom platforms to Shopify. Our migration process transfers all products, customer accounts, order history, and content while setting up 301 redirects to preserve your SEO rankings." },
+    { q: "Will my Shopify store be optimized for SEO?", a: "Absolutely. Every Shopify store we build is optimized for search engines with clean URL structures, schema markup, fast page speeds, mobile-first design, optimized product pages, and proper meta tags. We also implement advanced SEO features like automated sitemaps and canonical tags." },
+    { q: "Do you build custom Shopify apps?", a: "Yes. We develop custom Shopify apps tailored to your business needs, including inventory management tools, custom checkout experiences, subscription integrations, wholesale portals, and API-driven solutions that connect Shopify with your existing business systems." },
+    { q: "What makes Beeclue Tech different from other Shopify developers in Toronto?", a: "Beeclue Tech combines deep Shopify platform expertise with a performance-first approach. We don&apos;t use cookie-cutter themes. Every store is engineered for speed, conversion rate optimization, and scalability. Our Toronto-based team provides end-to-end service from strategy and design through development, launch, and ongoing support." },
+  ];
+
   const jsonLd = {
     "@context": "https://schema.org",
     "@graph": [
@@ -436,35 +450,24 @@ export default function ShopifyDevelopmentTorontoPage() {
           <h2>Frequently Asked Questions</h2>
           <p>Common questions about our Shopify development services in Toronto.</p>
         </div>
-        <div style={{ maxWidth: "800px", margin: "0 auto", display: "flex", flexDirection: "column", gap: "1.5rem" }}>
-          <div style={{ padding: "1.5rem", background: "rgba(255,255,255,0.02)", border: "1px solid var(--border)", borderRadius: "8px" }}>
-            <h3 style={{ fontSize: "1.2rem", marginBottom: "0.5rem" }}>How much does Shopify development cost in Toronto?</h3>
-            <p style={{ color: "var(--muted)", lineHeight: "1.6" }}>Shopify development costs in Toronto range from $5,000 for a basic custom theme to $50,000+ for a fully custom headless commerce solution. The final cost depends on design complexity, custom features, integrations, and whether you need a standard Shopify store or a Shopify Plus headless build.</p>
-          </div>
-          <div style={{ padding: "1.5rem", background: "rgba(255,255,255,0.02)", border: "1px solid var(--border)", borderRadius: "8px" }}>
-            <h3 style={{ fontSize: "1.2rem", marginBottom: "0.5rem" }}>How long does it take to build a custom Shopify store?</h3>
-            <p style={{ color: "var(--muted)", lineHeight: "1.6" }}>A standard custom Shopify store typically takes 4 to 8 weeks from discovery to launch. More complex projects involving custom apps, headless architecture, or extensive third-party integrations can take 8 to 14 weeks. We provide a detailed timeline during the scoping phase.</p>
-          </div>
-          <div style={{ padding: "1.5rem", background: "rgba(255,255,255,0.02)", border: "1px solid var(--border)", borderRadius: "8px" }}>
-            <h3 style={{ fontSize: "1.2rem", marginBottom: "0.5rem" }}>Do you build Shopify Plus headless stores?</h3>
-            <p style={{ color: "var(--muted)", lineHeight: "1.6" }}>Yes. We specialize in headless Shopify Plus builds using Next.js and Shopify&apos;s Storefront API. Headless architecture decouples the frontend from the backend, delivering sub-second page loads, unlimited design flexibility, and enterprise-grade performance ideal for high-traffic brands.</p>
-          </div>
-          <div style={{ padding: "1.5rem", background: "rgba(255,255,255,0.02)", border: "1px solid var(--border)", borderRadius: "8px" }}>
-            <h3 style={{ fontSize: "1.2rem", marginBottom: "0.5rem" }}>Can you migrate my existing store to Shopify?</h3>
-            <p style={{ color: "var(--muted)", lineHeight: "1.6" }}>Yes. We execute complete platform migrations from WooCommerce, Magento, Wix, Squarespace, and custom platforms to Shopify. Our migration process transfers all products, customer accounts, order history, and content while setting up 301 redirects to preserve your SEO rankings.</p>
-          </div>
-          <div style={{ padding: "1.5rem", background: "rgba(255,255,255,0.02)", border: "1px solid var(--border)", borderRadius: "8px" }}>
-            <h3 style={{ fontSize: "1.2rem", marginBottom: "0.5rem" }}>Will my Shopify store be optimized for SEO?</h3>
-            <p style={{ color: "var(--muted)", lineHeight: "1.6" }}>Absolutely. Every Shopify store we build is optimized for search engines with clean URL structures, schema markup, fast page speeds, mobile-first design, optimized product pages, and proper meta tags. We also implement advanced SEO features like automated sitemaps and canonical tags.</p>
-          </div>
-          <div style={{ padding: "1.5rem", background: "rgba(255,255,255,0.02)", border: "1px solid var(--border)", borderRadius: "8px" }}>
-            <h3 style={{ fontSize: "1.2rem", marginBottom: "0.5rem" }}>Do you build custom Shopify apps?</h3>
-            <p style={{ color: "var(--muted)", lineHeight: "1.6" }}>Yes. We develop custom Shopify apps tailored to your business needs, including inventory management tools, custom checkout experiences, subscription integrations, wholesale portals, and API-driven solutions that connect Shopify with your existing business systems.</p>
-          </div>
-          <div style={{ padding: "1.5rem", background: "rgba(255,255,255,0.02)", border: "1px solid var(--border)", borderRadius: "8px" }}>
-            <h3 style={{ fontSize: "1.2rem", marginBottom: "0.5rem" }}>What makes Beeclue Tech different from other Shopify developers in Toronto?</h3>
-            <p style={{ color: "var(--muted)", lineHeight: "1.6" }}>Beeclue Tech combines deep Shopify platform expertise with a performance-first approach. We don&apos;t use cookie-cutter themes. Every store is engineered for speed, conversion rate optimization, and scalability. Our Toronto-based team provides end-to-end service from strategy and design through development, launch, and ongoing support.</p>
-          </div>
+        <div className={styles.faqList}>
+          {faqs.map((faq, i) => (
+            <div key={i} className={styles.faqItem}>
+              <button
+                className={styles.faqQuestion}
+                onClick={() => setOpenFaq(openFaq === i ? null : i)}
+              >
+                {faq.q}
+                <ChevronDown
+                  size={20}
+                  className={`${styles.faqChevron} ${openFaq === i ? styles.faqChevronOpen : ""}`}
+                />
+              </button>
+              <div className={`${styles.faqAnswer} ${openFaq === i ? styles.faqAnswerOpen : ""}`}>
+                <p>{faq.a}</p>
+              </div>
+            </div>
+          ))}
         </div>
       </FadeIn>
 

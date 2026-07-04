@@ -1,12 +1,23 @@
 "use client";
 
+import { useState } from "react";
 import Link from "next/link";
 import styles from "@/app/page.module.css";
-import { ArrowRight, LayoutTemplate, Briefcase, Globe, RefreshCcw, ShoppingCart, Search, CheckCircle2, Check, BarChart, TrendingUp, Target, Users } from "lucide-react";
+import { ArrowRight, LayoutTemplate, Briefcase, Globe, RefreshCcw, ShoppingCart, Search, CheckCircle2, Check, BarChart, TrendingUp, Target, Users, ChevronDown } from "lucide-react";
 import FadeIn from "@/components/FadeIn";
 import ServiceTracker from "@/components/ServiceTracker";
 
 export default function SeoServicesTorontoPage() {
+  const [openFaq, setOpenFaq] = useState<number | null>(0);
+
+  const faqs = [
+    { q: "How much do SEO services cost in Toronto?", a: "SEO services in Toronto typically cost between $500 and $2,000 per month for small to mid-sized businesses, and $2,000 to $5,000+ per month for competitive industries or enterprise-level campaigns. Pricing depends on the scope of work, competitiveness of your target keywords, and the services included." },
+    { q: "How long does SEO take to show results?", a: "Technical SEO improvements can show measurable impact within 2 to 4 weeks. Ranking growth for competitive keywords typically takes 3 to 6 months of consistent effort. SEO delivers compounding returns, with the strongest results usually appearing after 6 to 12 months of sustained optimization." },
+    { q: "What is included in your SEO services?", a: "Our SEO services include technical SEO audits and fixes, on-page optimization with keyword mapping, local Toronto SEO with Google Business Profile management, content strategy and creation, link building and digital PR, and detailed monthly performance reporting with actionable insights." },
+    { q: "Do you do local SEO for Toronto businesses?", a: "Yes. Local SEO is one of our core specialties. We optimize your Google Business Profile, build local citations across Canadian directories, create neighborhood-specific landing pages, and implement local schema markup to help you appear in Google Maps and the local map pack for Toronto-area searches." },
+    { q: "How is your SEO different from other agencies?", a: "Unlike agencies that treat SEO and web design as separate services, we build SEO into your website from day one. This means no dropped rankings on redesign, no SEO as an afterthought, and both services working together under one roof. Our approach ensures your site is technically sound, fast, and built to rank from launch." },
+  ];
+
   const jsonLd = {
     "@context": "https://schema.org",
     "@graph": [
@@ -285,27 +296,24 @@ export default function SeoServicesTorontoPage() {
           <h2>SEO Services FAQs</h2>
           <p>Common questions about our search engine optimization services.</p>
         </div>
-        <div style={{ maxWidth: "800px", margin: "0 auto", display: "flex", flexDirection: "column", gap: "1.5rem" }}>
-          <div style={{ padding: "1.5rem", background: "rgba(255,255,255,0.02)", border: "1px solid var(--border)", borderRadius: "8px" }}>
-            <h3 style={{ fontSize: "1.2rem", marginBottom: "0.5rem" }}>How much do SEO services cost in Toronto?</h3>
-            <p style={{ color: "var(--muted)", lineHeight: "1.6" }}>SEO services in Toronto typically cost between $500 and $2,000 per month for small to mid-sized businesses, and $2,000 to $5,000+ per month for competitive industries or enterprise-level campaigns. Pricing depends on the scope of work, competitiveness of your target keywords, and the services included.</p>
-          </div>
-          <div style={{ padding: "1.5rem", background: "rgba(255,255,255,0.02)", border: "1px solid var(--border)", borderRadius: "8px" }}>
-            <h3 style={{ fontSize: "1.2rem", marginBottom: "0.5rem" }}>How long does SEO take to show results?</h3>
-            <p style={{ color: "var(--muted)", lineHeight: "1.6" }}>Technical SEO improvements can show measurable impact within 2 to 4 weeks. Ranking growth for competitive keywords typically takes 3 to 6 months of consistent effort. SEO delivers compounding returns, with the strongest results usually appearing after 6 to 12 months of sustained optimization.</p>
-          </div>
-          <div style={{ padding: "1.5rem", background: "rgba(255,255,255,0.02)", border: "1px solid var(--border)", borderRadius: "8px" }}>
-            <h3 style={{ fontSize: "1.2rem", marginBottom: "0.5rem" }}>What is included in your SEO services?</h3>
-            <p style={{ color: "var(--muted)", lineHeight: "1.6" }}>Our SEO services include technical SEO audits and fixes, on-page optimization with keyword mapping, local Toronto SEO with Google Business Profile management, content strategy and creation, link building and digital PR, and detailed monthly performance reporting with actionable insights.</p>
-          </div>
-          <div style={{ padding: "1.5rem", background: "rgba(255,255,255,0.02)", border: "1px solid var(--border)", borderRadius: "8px" }}>
-            <h3 style={{ fontSize: "1.2rem", marginBottom: "0.5rem" }}>Do you do local SEO for Toronto businesses?</h3>
-            <p style={{ color: "var(--muted)", lineHeight: "1.6" }}>Yes. Local SEO is one of our core specialties. We optimize your Google Business Profile, build local citations across Canadian directories, create neighborhood-specific landing pages, and implement local schema markup to help you appear in Google Maps and the local map pack for Toronto-area searches.</p>
-          </div>
-          <div style={{ padding: "1.5rem", background: "rgba(255,255,255,0.02)", border: "1px solid var(--border)", borderRadius: "8px" }}>
-            <h3 style={{ fontSize: "1.2rem", marginBottom: "0.5rem" }}>How is your SEO different from other agencies?</h3>
-            <p style={{ color: "var(--muted)", lineHeight: "1.6" }}>Unlike agencies that treat SEO and web design as separate services, we build SEO into your website from day one. This means no dropped rankings on redesign, no SEO as an afterthought, and both services working together under one roof. Our approach ensures your site is technically sound, fast, and built to rank from launch.</p>
-          </div>
+        <div className={styles.faqList}>
+          {faqs.map((faq, i) => (
+            <div key={i} className={styles.faqItem}>
+              <button
+                className={styles.faqQuestion}
+                onClick={() => setOpenFaq(openFaq === i ? null : i)}
+              >
+                {faq.q}
+                <ChevronDown
+                  size={20}
+                  className={`${styles.faqChevron} ${openFaq === i ? styles.faqChevronOpen : ""}`}
+                />
+              </button>
+              <div className={`${styles.faqAnswer} ${openFaq === i ? styles.faqAnswerOpen : ""}`}>
+                <p>{faq.a}</p>
+              </div>
+            </div>
+          ))}
         </div>
       </FadeIn>
 

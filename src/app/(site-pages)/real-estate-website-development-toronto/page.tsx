@@ -1,5 +1,6 @@
 "use client";
 
+import { useState } from "react";
 import Link from "next/link";
 import styles from "@/app/page.module.css";
 import {
@@ -15,11 +16,24 @@ import {
   Users,
   BarChart3,
   Camera,
+  ChevronDown,
 } from "lucide-react";
 import FadeIn from "@/components/FadeIn";
 import ServiceTracker from "@/components/ServiceTracker";
 
 export default function RealEstateWebsiteDevelopmentTorontoPage() {
+  const [openFaq, setOpenFaq] = useState<number | null>(0);
+
+  const faqs = [
+    { q: "How much does a real estate website cost in Toronto?", a: "Real estate website development costs in Toronto range from $5,000 for a basic IDX-integrated site to $50,000+ for a fully custom platform with virtual tours, CRM integration, and advanced property search. The final cost depends on design complexity, MLS/IDX integration requirements, and custom features." },
+    { q: "Do you integrate MLS/IDX feeds into real estate websites?", a: "Yes. We integrate MLS/IDX feeds that automatically sync property listings from the Toronto Regional Real Estate Board (TRREB) and other Canadian real estate boards. This ensures your website always displays the most current property data without manual updates." },
+    { q: "How long does it take to build a real estate website?", a: "A standard real estate website with MLS/IDX integration takes 4 to 8 weeks from discovery to launch. More complex projects with virtual tours, custom property search filters, CRM integration, and lead management systems can take 8 to 12 weeks. We provide a detailed timeline during the scoping phase." },
+    { q: "Can you build websites for real estate brokerages and teams?", a: "Yes. We build websites for individual agents, brokerages, and real estate teams. Our solutions include agent profile pages, team directories, brokerage branding, and multi-user dashboards that allow each agent to manage their listings and leads independently." },
+    { q: "Will my real estate website be mobile-friendly?", a: "Absolutely. Every real estate website we build is mobile-first and responsive across all devices. Property searches, listing details, contact forms, and virtual tours are optimized for seamless mobile experiences, which is critical since over 60% of property searches now happen on mobile devices." },
+    { q: "Do you build custom property search features?", a: "Yes. We develop custom property search functionality with filters for price range, bedrooms, bathrooms, property type, neighborhood, school districts, transit access, and more. Advanced features include saved searches, property alerts, map-based search, and comparative market analysis tools." },
+    { q: "What makes Beeclue Tech different from other real estate website developers?", a: "Beeclue Tech combines deep real estate industry knowledge with modern web development expertise. We understand the unique needs of Toronto real estate professionals — from MLS/IDX compliance to lead generation and virtual tour integration. Our Toronto-based team provides end-to-end service with ongoing support and optimization." },
+  ];
+
   const jsonLd = {
     "@context": "https://schema.org",
     "@graph": [
@@ -442,35 +456,24 @@ export default function RealEstateWebsiteDevelopmentTorontoPage() {
           <h2>Frequently Asked Questions</h2>
           <p>Common questions about our real estate website development services in Toronto.</p>
         </div>
-        <div style={{ maxWidth: "800px", margin: "0 auto", display: "flex", flexDirection: "column", gap: "1.5rem" }}>
-          <div style={{ padding: "1.5rem", background: "rgba(255,255,255,0.02)", border: "1px solid var(--border)", borderRadius: "8px" }}>
-            <h3 style={{ fontSize: "1.2rem", marginBottom: "0.5rem" }}>How much does a real estate website cost in Toronto?</h3>
-            <p style={{ color: "var(--muted)", lineHeight: "1.6" }}>Real estate website development costs in Toronto range from $5,000 for a basic IDX-integrated site to $50,000+ for a fully custom platform with virtual tours, CRM integration, and advanced property search. The final cost depends on design complexity, MLS/IDX integration requirements, and custom features.</p>
-          </div>
-          <div style={{ padding: "1.5rem", background: "rgba(255,255,255,0.02)", border: "1px solid var(--border)", borderRadius: "8px" }}>
-            <h3 style={{ fontSize: "1.2rem", marginBottom: "0.5rem" }}>Do you integrate MLS/IDX feeds into real estate websites?</h3>
-            <p style={{ color: "var(--muted)", lineHeight: "1.6" }}>Yes. We integrate MLS/IDX feeds that automatically sync property listings from the Toronto Regional Real Estate Board (TRREB) and other Canadian real estate boards. This ensures your website always displays the most current property data without manual updates.</p>
-          </div>
-          <div style={{ padding: "1.5rem", background: "rgba(255,255,255,0.02)", border: "1px solid var(--border)", borderRadius: "8px" }}>
-            <h3 style={{ fontSize: "1.2rem", marginBottom: "0.5rem" }}>How long does it take to build a real estate website?</h3>
-            <p style={{ color: "var(--muted)", lineHeight: "1.6" }}>A standard real estate website with MLS/IDX integration takes 4 to 8 weeks from discovery to launch. More complex projects with virtual tours, custom property search filters, CRM integration, and lead management systems can take 8 to 12 weeks. We provide a detailed timeline during the scoping phase.</p>
-          </div>
-          <div style={{ padding: "1.5rem", background: "rgba(255,255,255,0.02)", border: "1px solid var(--border)", borderRadius: "8px" }}>
-            <h3 style={{ fontSize: "1.2rem", marginBottom: "0.5rem" }}>Can you build websites for real estate brokerages and teams?</h3>
-            <p style={{ color: "var(--muted)", lineHeight: "1.6" }}>Yes. We build websites for individual agents, brokerages, and real estate teams. Our solutions include agent profile pages, team directories, brokerage branding, and multi-user dashboards that allow each agent to manage their listings and leads independently.</p>
-          </div>
-          <div style={{ padding: "1.5rem", background: "rgba(255,255,255,0.02)", border: "1px solid var(--border)", borderRadius: "8px" }}>
-            <h3 style={{ fontSize: "1.2rem", marginBottom: "0.5rem" }}>Will my real estate website be mobile-friendly?</h3>
-            <p style={{ color: "var(--muted)", lineHeight: "1.6" }}>Absolutely. Every real estate website we build is mobile-first and responsive across all devices. Property searches, listing details, contact forms, and virtual tours are optimized for seamless mobile experiences, which is critical since over 60% of property searches now happen on mobile devices.</p>
-          </div>
-          <div style={{ padding: "1.5rem", background: "rgba(255,255,255,0.02)", border: "1px solid var(--border)", borderRadius: "8px" }}>
-            <h3 style={{ fontSize: "1.2rem", marginBottom: "0.5rem" }}>Do you build custom property search features?</h3>
-            <p style={{ color: "var(--muted)", lineHeight: "1.6" }}>Yes. We develop custom property search functionality with filters for price range, bedrooms, bathrooms, property type, neighborhood, school districts, transit access, and more. Advanced features include saved searches, property alerts, map-based search, and comparative market analysis tools.</p>
-          </div>
-          <div style={{ padding: "1.5rem", background: "rgba(255,255,255,0.02)", border: "1px solid var(--border)", borderRadius: "8px" }}>
-            <h3 style={{ fontSize: "1.2rem", marginBottom: "0.5rem" }}>What makes Beeclue Tech different from other real estate website developers?</h3>
-            <p style={{ color: "var(--muted)", lineHeight: "1.6" }}>Beeclue Tech combines deep real estate industry knowledge with modern web development expertise. We understand the unique needs of Toronto real estate professionals — from MLS/IDX compliance to lead generation and virtual tour integration. Our Toronto-based team provides end-to-end service with ongoing support and optimization.</p>
-          </div>
+        <div className={styles.faqList}>
+          {faqs.map((faq, i) => (
+            <div key={i} className={styles.faqItem}>
+              <button
+                className={styles.faqQuestion}
+                onClick={() => setOpenFaq(openFaq === i ? null : i)}
+              >
+                {faq.q}
+                <ChevronDown
+                  size={20}
+                  className={`${styles.faqChevron} ${openFaq === i ? styles.faqChevronOpen : ""}`}
+                />
+              </button>
+              <div className={`${styles.faqAnswer} ${openFaq === i ? styles.faqAnswerOpen : ""}`}>
+                <p>{faq.a}</p>
+              </div>
+            </div>
+          ))}
         </div>
       </FadeIn>
 

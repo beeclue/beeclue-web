@@ -14,12 +14,13 @@ import {
   Zap,
   Users,
   BarChart3,
+  ChevronDown,
 } from "lucide-react";
 import FadeIn from "@/components/FadeIn";
 import ServiceTracker from "@/components/ServiceTracker";
 
 export default function BestEcommercePlatformCanadaPage() {
-  const [openFaq, setOpenFaq] = useState<number | null>(null);
+  const [openFaq, setOpenFaq] = useState<number | null>(0);
 
   const jsonLd = {
     "@context": "https://schema.org",
@@ -836,57 +837,22 @@ export default function BestEcommercePlatformCanadaPage() {
             Common questions about choosing an e-commerce platform in Canada.
           </p>
         </div>
-        <div
-          style={{
-            maxWidth: "800px",
-            margin: "0 auto",
-            display: "flex",
-            flexDirection: "column",
-            gap: "1rem",
-          }}
-        >
+        <div className={styles.faqList}>
           {faqs.map((faq, i) => (
-            <div
-              key={i}
-              style={{
-                padding: "1.5rem",
-                background: "rgba(255,255,255,0.02)",
-                border: "1px solid var(--border)",
-                borderRadius: "8px",
-                cursor: "pointer",
-              }}
-              onClick={() => setOpenFaq(openFaq === i ? null : i)}
-            >
-              <h3
-                style={{
-                  fontSize: "1.2rem",
-                  marginBottom: "0.5rem",
-                  display: "flex",
-                  justifyContent: "space-between",
-                  alignItems: "center",
-                }}
+            <div key={i} className={styles.faqItem}>
+              <button
+                className={styles.faqQuestion}
+                onClick={() => setOpenFaq(openFaq === i ? null : i)}
               >
                 {faq.q}
-                <span
-                  style={{
-                    transform: openFaq === i ? "rotate(180deg)" : "rotate(0)",
-                    transition: "transform 0.2s",
-                  }}
-                >
-                  ▼
-                </span>
-              </h3>
-              {openFaq === i && (
-                <p
-                  style={{
-                    color: "var(--muted)",
-                    lineHeight: "1.6",
-                    marginTop: "0.5rem",
-                  }}
-                >
-                  {faq.a}
-                </p>
-              )}
+                <ChevronDown
+                  size={20}
+                  className={`${styles.faqChevron} ${openFaq === i ? styles.faqChevronOpen : ""}`}
+                />
+              </button>
+              <div className={`${styles.faqAnswer} ${openFaq === i ? styles.faqAnswerOpen : ""}`}>
+                <p>{faq.a}</p>
+              </div>
             </div>
           ))}
         </div>
