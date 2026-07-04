@@ -36,6 +36,29 @@ export default function BlogsPage() {
           <div className={styles.caseStudyListItem}>
             <div className={styles.caseStudyListImage} style={{ position: "relative" }}>
               <Image 
+                src="https://images.unsplash.com/photo-1563206767-5b18f218e8de?ixlib=rb-4.0.3&auto=format&fit=crop&w=2400&q=80" 
+                alt="Red padlock warning symbol representing a not secure website" 
+                fill
+                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                style={{ objectFit: "cover" }}
+              />
+            </div>
+            <div className={styles.caseStudyListContent}>
+              <h2>Why Your &ldquo;Not Secure&rdquo; Website Is Losing Customers</h2>
+              <p>
+                A Not Secure warning destroys trust and kills conversions. Learn why your website is losing customers and exactly how to fix it with SSL in 2026.
+              </p>
+              <div>
+                <Link href="/not-secure-website-losing-customers" className={styles.ctaButtonLight}>
+                  Read Article <ArrowRight className={styles.arrow} size={20} />
+                </Link>
+              </div>
+            </div>
+          </div>
+
+          <div className={styles.caseStudyListItem}>
+            <div className={styles.caseStudyListImage} style={{ position: "relative" }}>
+              <Image 
                 src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&auto=format&fit=crop&w=2400&q=80" 
                 alt="Business owner analyzing website performance metrics on a laptop" 
                 fill
