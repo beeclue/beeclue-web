@@ -6,6 +6,7 @@ import styles from "@/app/page.module.css";
 import { ArrowRight, CheckCircle2, CalendarCheck, Shield, Smile, Search, Smartphone, Users, Star, TrendingUp } from "lucide-react";
 import FadeIn from "@/components/FadeIn";
 import ServiceTracker from "@/components/ServiceTracker";
+import IndustryList from "@/components/IndustryList";
 
 export default function WebDesignForDentalClinicsPage() {
   const jsonLd = {
@@ -228,35 +229,7 @@ export default function WebDesignForDentalClinicsPage() {
           <h2>Explore Our Industry Solutions</h2>
           <p>We build specialized websites across multiple industries. See how we can help your sector.</p>
         </div>
-        <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(300px, 1fr))", gap: "2rem", maxWidth: "1100px", margin: "0 auto" }}>
-          <Link href="/web-design-for-salons" style={{ textDecoration: "none" }}>
-            <div className={styles.serviceCard} style={{ height: "100%", display: "flex", flexDirection: "column", justifyContent: "space-between" }}>
-              <div>
-                <h3 style={{ fontSize: "1.25rem", marginBottom: "1rem", color: "var(--foreground)" }}>Web Design for Salons</h3>
-                <p style={{ color: "var(--muted)", fontSize: "0.875rem" }}>Booking-ready websites for salons, barbershops, and beauty professionals with online scheduling and portfolio showcases.</p>
-              </div>
-              <span className={styles.learnMoreLink} style={{ marginTop: "1rem" }}>Learn More <ArrowRight size={16} /></span>
-            </div>
-          </Link>
-          <Link href="/web-design-for-healthcare" style={{ textDecoration: "none" }}>
-            <div className={styles.serviceCard} style={{ height: "100%", display: "flex", flexDirection: "column", justifyContent: "space-between" }}>
-              <div>
-                <h3 style={{ fontSize: "1.25rem", marginBottom: "1rem", color: "var(--foreground)" }}>Web Design for Healthcare</h3>
-                <p style={{ color: "var(--muted)", fontSize: "0.875rem" }}>Websites for medical clinics, physiotherapy, wellness centers, and healthcare providers with patient-centric design.</p>
-              </div>
-              <span className={styles.learnMoreLink} style={{ marginTop: "1rem" }}>Learn More <ArrowRight size={16} /></span>
-            </div>
-          </Link>
-          <Link href="/web-design-for-restaurants" style={{ textDecoration: "none" }}>
-            <div className={styles.serviceCard} style={{ height: "100%", display: "flex", flexDirection: "column", justifyContent: "space-between" }}>
-              <div>
-                <h3 style={{ fontSize: "1.25rem", marginBottom: "1rem", color: "var(--foreground)" }}>Web Design for Restaurants</h3>
-                <p style={{ color: "var(--muted)", fontSize: "0.875rem" }}>Mouth-watering restaurant websites with online ordering, menu displays, and reservation systems.</p>
-              </div>
-              <span className={styles.learnMoreLink} style={{ marginTop: "1rem" }}>Learn More <ArrowRight size={16} /></span>
-            </div>
-          </Link>
-        </div>
+        <IndustryList exclude="/web-design-for-dental-clinics" />
       </FadeIn>
 
       {/* CTA SECTION */}

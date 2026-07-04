@@ -5,17 +5,75 @@ import styles from "@/app/page.module.css";
 import { ArrowRight, LayoutTemplate, Briefcase, Globe, RefreshCcw, ShoppingCart, Search, CheckCircle2, Check } from "lucide-react";
 import FadeIn from "@/components/FadeIn";
 import ServiceTracker from "@/components/ServiceTracker";
+import FaqAccordion from "@/components/FaqAccordion";
 
 export default function EcommerceDevelopmentTorontoPage() {
+  const faqs = [
+    { q: "How much does ecommerce website development cost in Toronto?", a: "Ecommerce development costs in Toronto vary by platform and complexity. Standard Shopify stores range from $5,000 to $15,000. Custom headless ecommerce builds using Next.js and Shopify Plus typically cost $20,000 to $60,000+. B2B wholesale portals with complex pricing and ERP integrations start at $30,000+." },
+    { q: "Which ecommerce platform is best for my business?", a: "Shopify is the best choice for most retail businesses due to its ease of use, reliability, and app ecosystem. Headless commerce using Next.js with Shopify Plus is ideal for brands needing maximum performance and design flexibility. WooCommerce works well for businesses already on WordPress. We recommend the right platform based on your products, budget, and growth goals." },
+    { q: "Can you migrate my store from Wix or Squarespace to Shopify?", a: "Yes. We handle complete platform migrations including all products, customer accounts, order history, images, and content. We also set up 301 URL redirects to preserve your SEO rankings and ensure zero loss of search visibility during the transition." },
+    { q: "Do you build B2B wholesale portals?", a: "Yes. We build custom B2B ecommerce portals featuring tiered pricing, bulk ordering capabilities, purchase order management, invoice generation, customer account hierarchies, and seamless integration with your existing ERP or inventory management systems." },
+    { q: "Will my ecommerce site be optimized for conversions?", a: "Yes. Conversion Rate Optimization (CRO) is built into every ecommerce project we deliver. This includes fast checkout flows, mobile-first design, strategic upsell and cross-sell placements, trust signals, and performance optimization. Our goal is to maximize every visitor's likelihood to purchase." },
+  ];
+
   const jsonLd = {
     "@context": "https://schema.org",
-    "@type": "Service",
-    "serviceType": "E-Commerce Development",
-    "provider": {
-      "@type": "Organization",
-      "name": "Beeclue Tech"
-    },
-    "areaServed": "Toronto"
+    "@graph": [
+      {
+        "@type": "Service",
+        "serviceType": "E-Commerce Development",
+        "provider": {
+          "@type": "Organization",
+          "name": "Beeclue Tech"
+        },
+        "areaServed": "Toronto"
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "How much does ecommerce website development cost in Toronto?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Ecommerce development costs in Toronto vary by platform and complexity. Standard Shopify stores range from $5,000 to $15,000. Custom headless ecommerce builds using Next.js and Shopify Plus typically cost $20,000 to $60,000+. B2B wholesale portals with complex pricing and ERP integrations start at $30,000+."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Which ecommerce platform is best for my business?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Shopify is the best choice for most retail businesses due to its ease of use, reliability, and app ecosystem. Headless commerce using Next.js with Shopify Plus is ideal for brands needing maximum performance and design flexibility. WooCommerce works well for businesses already on WordPress. We recommend the right platform based on your products, budget, and growth goals."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can you migrate my store from Wix or Squarespace to Shopify?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. We handle complete platform migrations including all products, customer accounts, order history, images, and content. We also set up 301 URL redirects to preserve your SEO rankings and ensure zero loss of search visibility during the transition."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Do you build B2B wholesale portals?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. We build custom B2B ecommerce portals featuring tiered pricing, bulk ordering capabilities, purchase order management, invoice generation, customer account hierarchies, and seamless integration with your existing ERP or inventory management systems."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Will my ecommerce site be optimized for conversions?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. Conversion Rate Optimization (CRO) is built into every ecommerce project we deliver. This includes fast checkout flows, mobile-first design, strategic upsell and cross-sell placements, trust signals, and performance optimization. Our goal is to maximize every visitor's likelihood to purchase."
+            }
+          }
+        ]
+      }
+    ]
   };
   const breadcrumbs = {
     "@context": "https://schema.org",
@@ -228,6 +286,15 @@ export default function EcommerceDevelopmentTorontoPage() {
             </div>
           </div>
         </div>
+      </FadeIn>
+
+      {/* FAQ SECTION */}
+      <FadeIn className={styles.baseSection}>
+        <div className={styles.servicesHeader}>
+          <h2>Ecommerce Development FAQs</h2>
+          <p>Common questions about building online stores and ecommerce platforms.</p>
+        </div>
+        <FaqAccordion faqs={faqs} />
       </FadeIn>
 
       {/* GTA AREA SECTION */}

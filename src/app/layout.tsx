@@ -24,7 +24,7 @@ const outfit = Outfit({
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://beeclue.com'),
-  title: "Premium Web Design & Custom Software Agency Toronto | Beeclue",
+  title: "Toronto Web Design & Software Development Agency | Beeclue",
   description: "Transform your business with elite web design, custom software development, and advanced SEO services. Beeclue Tech engineers scalable digital platforms for maximum ROI.",
   icons: {
     icon: [
@@ -56,6 +56,12 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     images: ['https://cdn.jsdelivr.net/gh/beeclue/clients@main/self/image.png'],
   },
+  alternates: {
+    canonical: 'https://beeclue.com',
+    languages: {
+      'en-CA': 'https://beeclue.com',
+    },
+  },
 };
 
 export default function RootLayout({
@@ -76,6 +82,7 @@ export default function RootLayout({
                 "@context": "https://schema.org",
                 "@type": "LocalBusiness",
                 "name": "Beeclue Tech",
+                "description": "Digital development agency in Toronto specializing in web design, custom software, and e-commerce solutions",
                 "image": "https://beeclue.com/logo.png",
                 "@id": "https://beeclue.com",
                 "url": "https://beeclue.com",
@@ -92,7 +99,22 @@ export default function RootLayout({
                   "latitude": 43.6532,
                   "longitude": -79.3832
                 },
-                "priceRange": "$$$"
+                "priceRange": "$$",
+                "openingHours": "Mo-Fr 09:00-18:00",
+                "sameAs": [
+                  "https://www.facebook.com/beeclue",
+                  "https://www.linkedin.com/company/beeclue",
+                  "https://www.instagram.com/beeclue"
+                ],
+                "hasOfferCatalog": {
+                  "@type": "OfferCatalog",
+                  "name": "Digital Services",
+                  "itemListElement": [
+                    { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Web Design" } },
+                    { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Custom Software Development" } },
+                    { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "E-Commerce Development" } }
+                  ]
+                }
               },
               {
                 "@context": "https://schema.org",
@@ -103,6 +125,11 @@ export default function RootLayout({
                   "@type": "SearchAction",
                   "target": "https://beeclue.com/search?q={search_term_string}",
                   "query-input": "required name=search_term_string"
+                },
+                "publisher": {
+                  "@type": "Organization",
+                  "name": "Beeclue Tech",
+                  "logo": { "@type": "ImageObject", "url": "https://beeclue.com/logo.png" }
                 }
               },
               {
@@ -124,14 +151,14 @@ export default function RootLayout({
                   {
                     "@type": "SiteNavigationElement",
                     "position": 3,
-                    "name": "Web Design",
-                    "url": "https://beeclue.com/web-design-toronto"
+                    "name": "Blog",
+                    "url": "https://beeclue.com/blogs"
                   },
                   {
                     "@type": "SiteNavigationElement",
                     "position": 4,
-                    "name": "Custom Software",
-                    "url": "https://beeclue.com/custom-software-development-toronto"
+                    "name": "Products",
+                    "url": "https://beeclue.com/products/monexa"
                   },
                   {
                     "@type": "SiteNavigationElement",
@@ -144,6 +171,48 @@ export default function RootLayout({
                     "position": 6,
                     "name": "Contact",
                     "url": "https://beeclue.com/contact"
+                  },
+                  {
+                    "@type": "SiteNavigationElement",
+                    "position": 7,
+                    "name": "Web Design Toronto",
+                    "url": "https://beeclue.com/web-design-toronto"
+                  },
+                  {
+                    "@type": "SiteNavigationElement",
+                    "position": 8,
+                    "name": "Custom Software Development Toronto",
+                    "url": "https://beeclue.com/custom-software-development-toronto"
+                  },
+                  {
+                    "@type": "SiteNavigationElement",
+                    "position": 9,
+                    "name": "WordPress Web Design Canada",
+                    "url": "https://beeclue.com/wordpress-web-design-canada"
+                  },
+                  {
+                    "@type": "SiteNavigationElement",
+                    "position": 10,
+                    "name": "Mobile App Development Toronto",
+                    "url": "https://beeclue.com/mobile-app-development-toronto"
+                  },
+                  {
+                    "@type": "SiteNavigationElement",
+                    "position": 11,
+                    "name": "E-Commerce Development Toronto",
+                    "url": "https://beeclue.com/ecommerce-development-toronto"
+                  },
+                  {
+                    "@type": "SiteNavigationElement",
+                    "position": 12,
+                    "name": "SEO Services Toronto",
+                    "url": "https://beeclue.com/seo-services-toronto"
+                  },
+                  {
+                    "@type": "SiteNavigationElement",
+                    "position": 13,
+                    "name": "UI/UX Design Toronto",
+                    "url": "https://beeclue.com/ui-ux-design-toronto"
                   }
                 ]
               }

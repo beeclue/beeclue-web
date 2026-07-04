@@ -5,17 +5,76 @@ import styles from "@/app/page.module.css";
 import { ArrowRight, LayoutTemplate, Briefcase, Globe, RefreshCcw, ShoppingCart, Search, CheckCircle2, Check } from "lucide-react";
 import FadeIn from "@/components/FadeIn";
 import ServiceTracker from "@/components/ServiceTracker";
+import FaqAccordion from "@/components/FaqAccordion";
 
 export default function CustomSoftwareDevelopmentTorontoPage() {
+
+  const faqs = [
+    { q: "How much does custom software development cost in Toronto?", a: "Custom software development costs in Toronto typically range from $20,000 to $80,000+ depending on project complexity, features, and integrations required. SaaS MVPs start around $25,000, while enterprise-grade platforms with advanced features can exceed $100,000. We provide detailed estimates after an initial discovery consultation." },
+    { q: "How long does it take to develop custom software?", a: "A Minimum Viable Product (MVP) typically takes 8 to 12 weeks to develop. Full-scale enterprise platforms and complex SaaS products generally take 3 to 6 months depending on scope, number of integrations, and feature complexity. We follow agile methodology to deliver iterative milestones throughout the process." },
+    { q: "What technologies do you use for software development?", a: "We use modern, battle-tested technologies including Node.js and Python for backend development, React and TypeScript for frontend interfaces, PostgreSQL and MongoDB for databases, and AWS or Google Cloud for cloud infrastructure. We select the best tech stack based on your project requirements and scalability needs." },
+    { q: "Can you integrate with our existing tools and APIs?", a: "Yes. We specialize in API integrations and system connectivity. Whether you need to connect your custom software with existing CRM systems like Salesforce, ERP platforms, payment gateways, third-party APIs, or legacy systems, our team ensures seamless, real-time data synchronization across your entire technology stack." },
+    { q: "Do you provide ongoing support after launch?", a: "Yes. We provide comprehensive post-launch support including bug fixes, performance monitoring, security updates, feature enhancements, and scaling assistance. Our maintenance plans ensure your software remains secure, up-to-date, and aligned with your evolving business requirements." },
+  ];
+
   const jsonLd = {
     "@context": "https://schema.org",
-    "@type": "Service",
-    "serviceType": "Custom Software Development",
-    "provider": {
-      "@type": "Organization",
-      "name": "Beeclue Tech"
-    },
-    "areaServed": "Toronto"
+    "@graph": [
+      {
+        "@type": "Service",
+        "serviceType": "Custom Software Development",
+        "provider": {
+          "@type": "Organization",
+          "name": "Beeclue Tech"
+        },
+        "areaServed": "Toronto"
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "How much does custom software development cost in Toronto?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Custom software development costs in Toronto typically range from $20,000 to $80,000+ depending on project complexity, features, and integrations required. SaaS MVPs start around $25,000, while enterprise-grade platforms with advanced features can exceed $100,000. We provide detailed estimates after an initial discovery consultation."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How long does it take to develop custom software?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "A Minimum Viable Product (MVP) typically takes 8 to 12 weeks to develop. Full-scale enterprise platforms and complex SaaS products generally take 3 to 6 months depending on scope, number of integrations, and feature complexity. We follow agile methodology to deliver iterative milestones throughout the process."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What technologies do you use for software development?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "We use modern, battle-tested technologies including Node.js and Python for backend development, React and TypeScript for frontend interfaces, PostgreSQL and MongoDB for databases, and AWS or Google Cloud for cloud infrastructure. We select the best tech stack based on your project requirements and scalability needs."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can you integrate with our existing tools and APIs?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. We specialize in API integrations and system connectivity. Whether you need to connect your custom software with existing CRM systems like Salesforce, ERP platforms, payment gateways, third-party APIs, or legacy systems, our team ensures seamless, real-time data synchronization across your entire technology stack."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Do you provide ongoing support after launch?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. We provide comprehensive post-launch support including bug fixes, performance monitoring, security updates, feature enhancements, and scaling assistance. Our maintenance plans ensure your software remains secure, up-to-date, and aligned with your evolving business requirements."
+            }
+          }
+        ]
+      }
+    ]
   };
   const breadcrumbs = {
     "@context": "https://schema.org",
@@ -248,6 +307,15 @@ export default function CustomSoftwareDevelopmentTorontoPage() {
             </div>
           </div>
         </div>
+      </FadeIn>
+
+      {/* FAQ SECTION */}
+      <FadeIn className={styles.baseSection}>
+        <div className={styles.servicesHeader}>
+          <h2>Custom Software Development FAQs</h2>
+          <p>Common questions about building custom software and SaaS platforms.</p>
+        </div>
+        <FaqAccordion faqs={faqs} />
       </FadeIn>
 
       {/* GTA AREA SECTION */}

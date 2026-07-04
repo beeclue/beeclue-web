@@ -5,17 +5,75 @@ import styles from "@/app/page.module.css";
 import { ArrowRight, LayoutTemplate, Briefcase, Globe, RefreshCcw, ShoppingCart, Search, CheckCircle2, Check, BarChart, TrendingUp, Target, Users } from "lucide-react";
 import FadeIn from "@/components/FadeIn";
 import ServiceTracker from "@/components/ServiceTracker";
+import FaqAccordion from "@/components/FaqAccordion";
 
 export default function SeoServicesTorontoPage() {
+  const faqs = [
+    { q: "How much do SEO services cost in Toronto?", a: "SEO services in Toronto typically cost between $500 and $2,000 per month for small to mid-sized businesses, and $2,000 to $5,000+ per month for competitive industries or enterprise-level campaigns. Pricing depends on the scope of work, competitiveness of your target keywords, and the services included." },
+    { q: "How long does SEO take to show results?", a: "Technical SEO improvements can show measurable impact within 2 to 4 weeks. Ranking growth for competitive keywords typically takes 3 to 6 months of consistent effort. SEO delivers compounding returns, with the strongest results usually appearing after 6 to 12 months of sustained optimization." },
+    { q: "What is included in your SEO services?", a: "Our SEO services include technical SEO audits and fixes, on-page optimization with keyword mapping, local Toronto SEO with Google Business Profile management, content strategy and creation, link building and digital PR, and detailed monthly performance reporting with actionable insights." },
+    { q: "Do you do local SEO for Toronto businesses?", a: "Yes. Local SEO is one of our core specialties. We optimize your Google Business Profile, build local citations across Canadian directories, create neighborhood-specific landing pages, and implement local schema markup to help you appear in Google Maps and the local map pack for Toronto-area searches." },
+    { q: "How is your SEO different from other agencies?", a: "Unlike agencies that treat SEO and web design as separate services, we build SEO into your website from day one. This means no dropped rankings on redesign, no SEO as an afterthought, and both services working together under one roof. Our approach ensures your site is technically sound, fast, and built to rank from launch." },
+  ];
+
   const jsonLd = {
     "@context": "https://schema.org",
-    "@type": "Service",
-    "serviceType": "SEO Services",
-    "provider": {
-      "@type": "Organization",
-      "name": "Beeclue Tech"
-    },
-    "areaServed": "Toronto"
+    "@graph": [
+      {
+        "@type": "Service",
+        "serviceType": "SEO Services",
+        "provider": {
+          "@type": "Organization",
+          "name": "Beeclue Tech"
+        },
+        "areaServed": "Toronto"
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "How much do SEO services cost in Toronto?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "SEO services in Toronto typically cost between $500 and $2,000 per month for small to mid-sized businesses, and $2,000 to $5,000+ per month for competitive industries or enterprise-level campaigns. Pricing depends on the scope of work, competitiveness of your target keywords, and the services included."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How long does SEO take to show results?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Technical SEO improvements can show measurable impact within 2 to 4 weeks. Ranking growth for competitive keywords typically takes 3 to 6 months of consistent effort. SEO delivers compounding returns, with the strongest results usually appearing after 6 to 12 months of sustained optimization."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What is included in your SEO services?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Our SEO services include technical SEO audits and fixes, on-page optimization with keyword mapping, local Toronto SEO with Google Business Profile management, content strategy and creation, link building and digital PR, and detailed monthly performance reporting with actionable insights."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Do you do local SEO for Toronto businesses?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. Local SEO is one of our core specialties. We optimize your Google Business Profile, build local citations across Canadian directories, create neighborhood-specific landing pages, and implement local schema markup to help you appear in Google Maps and the local map pack for Toronto-area searches."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How is your SEO different from other agencies?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Unlike agencies that treat SEO and web design as separate services, we build SEO into your website from day one. This means no dropped rankings on redesign, no SEO as an afterthought, and both services working together under one roof. Our approach ensures your site is technically sound, fast, and built to rank from launch."
+            }
+          }
+        ]
+      }
+    ]
   };
   const breadcrumbs = {
     "@context": "https://schema.org",
@@ -228,6 +286,15 @@ export default function SeoServicesTorontoPage() {
             </div>
           </div>
         </div>
+      </FadeIn>
+
+      {/* FAQ SECTION */}
+      <FadeIn className={styles.baseSection}>
+        <div className={styles.servicesHeader}>
+          <h2>SEO Services FAQs</h2>
+          <p>Common questions about our search engine optimization services.</p>
+        </div>
+        <FaqAccordion faqs={faqs} />
       </FadeIn>
 
       {/* GTA AREA SECTION */}

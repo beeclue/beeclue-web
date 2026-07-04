@@ -27,7 +27,23 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/ui-ux-design-toronto',
     '/web-design-toronto',
     '/wordpress-web-design-canada',
+    // Additional Services
+    '/shopify-development-toronto',
+    '/website-redesign-toronto',
+    '/website-maintenance-toronto',
+    '/web-development-services-canada',
+    '/digital-marketing-toronto',
+    // Industry Verticals
+    '/shopify-ecommerce-website-design',
+    '/healthcare-website-development-canada',
+    '/restaurant-website-design-canada',
+    '/real-estate-website-development-toronto',
     // Landing Pages
+    '/ecommerce-website-cost-canada',
+    '/website-development-cost-toronto',
+    '/best-ecommerce-platform-canada',
+    '/not-secure-website-fix',
+    // Legacy Landing Pages
     '/19',
     // Case Studies
     '/case-studies/new-angkor-wat',
@@ -69,7 +85,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   return routes.map((route) => ({
     url: `${baseUrl}${route}`,
-    lastModified: new Date('2026-06-27'),
+    lastModified: new Date(),
     changeFrequency: route === '' || route === '/case-studies' ? 'weekly' : 'monthly',
     priority: route === '' ? 1 : route.startsWith('/services') || route.startsWith('/custom') ? 0.8 : 0.6,
   }));

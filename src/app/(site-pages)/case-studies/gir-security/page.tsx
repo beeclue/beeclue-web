@@ -8,16 +8,32 @@ import FadeIn from "@/components/FadeIn";
 export default function GIRSecurityCaseStudy() {
   const jsonLd = {
     "@context": "https://schema.org",
-    "@type": "Article",
-    "headline": "G.I.R Security Case Study",
-    "author": {
-      "@type": "Organization",
-      "name": "Beeclue Tech"
-    },
-    "publisher": {
-      "@type": "Organization",
-      "name": "Beeclue Tech"
-    }
+    "@graph": [
+      {
+        "@type": "CaseStudy",
+        "name": "G.I.R Security — Digital Presence",
+        "description": "Strong digital presence reflecting professionalism and rapid growth in the security industry",
+        "datePublished": "2024-03-05",
+        "dateModified": "2024-08-10",
+        "image": "https://cdn.jsdelivr.net/gh/beeclue/clients@main/self/gir-security.webp",
+        "author": {
+          "@type": "Organization",
+          "name": "Beeclue Tech"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "Beeclue Tech"
+        }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://beeclue.com" },
+          { "@type": "ListItem", "position": 2, "name": "Case Studies", "item": "https://beeclue.com/case-studies" },
+          { "@type": "ListItem", "position": 3, "name": "G.I.R Security — Digital Presence" }
+        ]
+      }
+    ]
   };
 
   return (

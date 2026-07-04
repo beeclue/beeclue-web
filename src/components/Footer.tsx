@@ -64,6 +64,36 @@ export default function Footer() {
               </a>
             ))}
           </div>
+
+          <div style={{ display: 'flex', gap: '4rem', justifyContent: 'center', flexWrap: 'wrap', margin: '3rem 0 2rem 0' }}>
+            <div style={{ display: 'flex', flexDirection: 'column', gap: '0.75rem', alignItems: 'center' }}>
+              <h4 style={{ color: '#fff', fontSize: '0.875rem', textTransform: 'uppercase', letterSpacing: '0.1em', marginBottom: '0.5rem' }}>Services</h4>
+              <Link href="/web-design-toronto" style={{ color: 'rgba(255,255,255,0.7)', textDecoration: 'none', fontSize: '0.9rem' }}>Web Design</Link>
+              <Link href="/custom-software-development-toronto" style={{ color: 'rgba(255,255,255,0.7)', textDecoration: 'none', fontSize: '0.9rem' }}>Custom Software</Link>
+              <Link href="/mobile-app-development-toronto" style={{ color: 'rgba(255,255,255,0.7)', textDecoration: 'none', fontSize: '0.9rem' }}>Mobile Apps</Link>
+              <Link href="/ecommerce-development-toronto" style={{ color: 'rgba(255,255,255,0.7)', textDecoration: 'none', fontSize: '0.9rem' }}>E-Commerce</Link>
+              <Link href="/seo-services-toronto" style={{ color: 'rgba(255,255,255,0.7)', textDecoration: 'none', fontSize: '0.9rem' }}>SEO & Marketing</Link>
+              <Link href="/ui-ux-design-toronto" style={{ color: 'rgba(255,255,255,0.7)', textDecoration: 'none', fontSize: '0.9rem' }}>UI/UX Design</Link>
+            </div>
+            <div style={{ display: 'flex', flexDirection: 'column', gap: '0.75rem', alignItems: 'center' }}>
+              <h4 style={{ color: '#fff', fontSize: '0.875rem', textTransform: 'uppercase', letterSpacing: '0.1em', marginBottom: '0.5rem' }}>Industries</h4>
+              <Link href="/web-design-for-salons" style={{ color: 'rgba(255,255,255,0.7)', textDecoration: 'none', fontSize: '0.9rem' }}>Salons & Barbershops</Link>
+              <Link href="/web-design-for-dental-clinics" style={{ color: 'rgba(255,255,255,0.7)', textDecoration: 'none', fontSize: '0.9rem' }}>Dental Clinics</Link>
+              <Link href="/web-design-for-restaurants" style={{ color: 'rgba(255,255,255,0.7)', textDecoration: 'none', fontSize: '0.9rem' }}>Restaurants</Link>
+              <Link href="/web-design-for-real-estate" style={{ color: 'rgba(255,255,255,0.7)', textDecoration: 'none', fontSize: '0.9rem' }}>Real Estate</Link>
+              <Link href="/web-design-for-healthcare" style={{ color: 'rgba(255,255,255,0.7)', textDecoration: 'none', fontSize: '0.9rem' }}>Healthcare</Link>
+              <Link href="/web-design-for-law-firms" style={{ color: 'rgba(255,255,255,0.7)', textDecoration: 'none', fontSize: '0.9rem' }}>Law Firms</Link>
+              <Link href="/web-design-for-construction-companies" style={{ color: 'rgba(255,255,255,0.7)', textDecoration: 'none', fontSize: '0.9rem' }}>Construction</Link>
+            </div>
+            <div style={{ display: 'flex', flexDirection: 'column', gap: '0.75rem', alignItems: 'center' }}>
+              <h4 style={{ color: '#fff', fontSize: '0.875rem', textTransform: 'uppercase', letterSpacing: '0.1em', marginBottom: '0.5rem' }}>Resources</h4>
+              <Link href="/case-studies" style={{ color: 'rgba(255,255,255,0.7)', textDecoration: 'none', fontSize: '0.9rem' }}>Case Studies</Link>
+              <Link href="/about-us" style={{ color: 'rgba(255,255,255,0.7)', textDecoration: 'none', fontSize: '0.9rem' }}>About Us</Link>
+              <Link href="/blogs" style={{ color: 'rgba(255,255,255,0.7)', textDecoration: 'none', fontSize: '0.9rem' }}>Blog</Link>
+              <Link href="/contact" style={{ color: 'rgba(255,255,255,0.7)', textDecoration: 'none', fontSize: '0.9rem' }}>Contact</Link>
+            </div>
+          </div>
+
           <div className={globalStyles.legalLinks}>
             <Link href="/blogs">Blogs</Link>
             <span>|</span>

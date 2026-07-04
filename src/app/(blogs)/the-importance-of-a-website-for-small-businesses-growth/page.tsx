@@ -1,6 +1,7 @@
 import { Metadata } from 'next';
 import Image from 'next/image';
 import Link from 'next/link';
+import FaqAccordion from "@/components/FaqAccordion";
 import blogStyles from '../shared-blog.module.css';
 
 export const metadata: Metadata = {
@@ -45,6 +46,20 @@ export default function SmallBusinessWebsiteBlog() {
     ]
   };
 
+  const faqs = [
+    {
+      q: "Is a website necessary if I have a strong social media presence?",
+      a: "Yes. Social media platforms restrict your organic reach and control your audience data. A website gives you complete ownership of your brand narrative, provides better SEO opportunities, and serves as a stable foundation immune to algorithmic changes."
+    },
+    {
+      q: "How much does a small business website cost?",
+      a: <p>Costs vary widely based on requirements. A custom enterprise solution will require a larger investment, but at Beeclue Tech, we also offer an affordable <Link href="/19-month-website-development-offer" className={blogStyles.internalLink}>$19/Month Website Development Package</Link> to help startups and small businesses get a professional start without massive upfront capital.</p>
+    },
+    {
+      q: "How long does it take for a new website to show up on Google?",
+      a: "While a site can be indexed by Google in a few days, ranking competitively for targeted keywords typically takes 3 to 6 months of consistent SEO effort and high-quality content creation."
+    }
+  ];
 
   return (
     <main style={{ minHeight: "100vh", position: "relative" }}>
@@ -131,18 +146,10 @@ export default function SmallBusinessWebsiteBlog() {
 
           <p>Investing in professional <Link href="/web-design-toronto" className={blogStyles.internalLink}>web design</Link> is one of the highest-ROI decisions a business owner can make. It transforms your business from a local player into a scalable, digital-first enterprise.</p>
 
-          <div className={blogStyles.faqSection}>
+          <section className={blogStyles.faqSection}>
             <h2>Frequently Asked Questions (FAQs)</h2>
-            
-            <h3>Is a website necessary if I have a strong social media presence?</h3>
-            <p>Yes. Social media platforms restrict your organic reach and control your audience data. A website gives you complete ownership of your brand narrative, provides better SEO opportunities, and serves as a stable foundation immune to algorithmic changes.</p>
-            
-            <h3>How much does a small business website cost?</h3>
-            <p>Costs vary widely based on requirements. A custom enterprise solution will require a larger investment, but at Beeclue Tech, we also offer an affordable <Link href="/19-month-website-development-offer" className={blogStyles.internalLink}>$19/Month Website Development Package</Link> to help startups and small businesses get a professional start without massive upfront capital.</p>
-            
-            <h3>How long does it take for a new website to show up on Google?</h3>
-            <p>While a site can be indexed by Google in a few days, ranking competitively for targeted keywords typically takes 3 to 6 months of consistent SEO effort and high-quality content creation.</p>
-          </div>
+            <FaqAccordion faqs={faqs} />
+          </section>
 
           <div className={blogStyles.ctaSection}>
             <h3>Ready to Scale Your Small Business?</h3>

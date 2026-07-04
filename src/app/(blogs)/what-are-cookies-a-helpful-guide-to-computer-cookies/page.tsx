@@ -1,6 +1,7 @@
 import { Metadata } from 'next';
 import Image from 'next/image';
 import Link from 'next/link';
+import FaqAccordion from "@/components/FaqAccordion";
 import blogStyles from '../shared-blog.module.css';
 
 export const metadata: Metadata = {
@@ -44,6 +45,25 @@ export default function ComputerCookiesGuideBlog() {
       { "@type": "ListItem", "position": 3, "name": "What Are Cookies? A Helpful Guide to Computer Cookies", "item": "https://beeclue.com/what-are-cookies-a-helpful-guide-to-computer-cookies" }
     ]
   };
+
+  const faqs = [
+    {
+      q: "Are computer cookies dangerous?",
+      a: "No, standard cookies are not inherently dangerous. They are simply text files; they are not executable programs, they cannot carry viruses, and they cannot scan your hard drive for personal information. However, third-party tracking cookies do pose valid privacy concerns regarding how your browsing data is collected and utilized by advertisers."
+    },
+    {
+      q: "Should I accept all cookies?",
+      a: "You should absolutely accept \"Strictly Necessary\" cookies, as they are required for basic website functionality (like logging in). However, you have the right to decline \"Marketing\" or \"Targeting\" cookies if you wish to protect your privacy and limit targeted advertising."
+    },
+    {
+      q: "What is the difference between a cookie and cache?",
+      a: "While both are stored on your device, they serve entirely different purposes. Cookies store small amounts of user-specific data to remember state and preferences. The browser cache stores actual website resources (like images, HTML, and CSS files) to make websites load faster upon subsequent visits."
+    },
+    {
+      q: "What happens if I disable all cookies?",
+      a: "Disabling all cookies, including first-party cookies, will break most modern websites. You will be unable to log into accounts, use shopping carts, or save any preferences."
+    }
+  ];
 
 
   return (
@@ -188,21 +208,10 @@ export default function ComputerCookiesGuideBlog() {
         
         <p>For business owners, understanding cookies is not just a technical exercise; it is a legal and strategic imperative. As the industry moves toward a cookieless future, adapting your digital strategy to prioritize first-party data and transparent user consent will be the key to long-term success. Check out our <Link href="/case-studies" className={blogStyles.internalLink}>case studies</Link> to see how we build robust, privacy-compliant architectures for modern enterprises.</p>
 
-        <div className={blogStyles.faqSection}>
+        <section className={blogStyles.faqSection}>
           <h2>Frequently Asked Questions (FAQs)</h2>
-          
-          <h3>Are computer cookies dangerous?</h3>
-          <p>No, standard cookies are not inherently dangerous. They are simply text files; they are not executable programs, they cannot carry viruses, and they cannot scan your hard drive for personal information. However, third-party tracking cookies do pose valid privacy concerns regarding how your browsing data is collected and utilized by advertisers.</p>
-          
-          <h3>Should I accept all cookies?</h3>
-          <p>You should absolutely accept "Strictly Necessary" cookies, as they are required for basic website functionality (like logging in). However, you have the right to decline "Marketing" or "Targeting" cookies if you wish to protect your privacy and limit targeted advertising.</p>
-          
-          <h3>What is the difference between a cookie and cache?</h3>
-          <p>While both are stored on your device, they serve entirely different purposes. Cookies store small amounts of user-specific data to remember state and preferences. The browser cache stores actual website resources (like images, HTML, and CSS files) to make websites load faster upon subsequent visits.</p>
-          
-          <h3>What happens if I disable all cookies?</h3>
-          <p>Disabling all cookies, including first-party cookies, will break most modern websites. You will be unable to log into accounts, use shopping carts, or save any preferences.</p>
-        </div>
+          <FaqAccordion faqs={faqs} />
+        </section>
 
         <div className={blogStyles.ctaSection}>
           <h3>Need a Robust Digital Strategy?</h3>

@@ -5,17 +5,76 @@ import styles from "@/app/page.module.css";
 import { ArrowRight, LayoutTemplate, Briefcase, Globe, RefreshCcw, ShoppingCart, Search, CheckCircle2, Check } from "lucide-react";
 import FadeIn from "@/components/FadeIn";
 import ServiceTracker from "@/components/ServiceTracker";
+import FaqAccordion from "@/components/FaqAccordion";
 
 export default function WordPressWebDesignCanadaPage() {
+
+  const faqs = [
+    { q: "How much does WordPress web design cost in Canada?", a: "Custom WordPress web design in Canada typically costs between $5,000 and $20,000 for standard business websites. Headless WordPress implementations using Next.js for maximum performance range from $15,000 to $40,000+. Pricing depends on design complexity, custom functionality, and integrations required." },
+    { q: "Why choose custom WordPress over a theme?", a: "Custom WordPress development delivers a faster, more secure, and SEO-optimized website compared to off-the-shelf themes. Custom builds eliminate plugin bloat, are tailored specifically to your business needs, and provide better long-term scalability and maintainability without the limitations of pre-built templates." },
+    { q: "Can you migrate my site from Wix or Squarespace to WordPress?", a: "Yes. We handle complete website migrations from Wix, Squarespace, or any other platform to WordPress. Our migration process includes content transfer, URL redirect mapping to preserve SEO rankings, design upgrade, and performance optimization." },
+    { q: "Do you offer headless WordPress development?", a: "Yes. We build headless WordPress architectures where WordPress serves as the content management backend and Next.js powers the frontend. This approach delivers maximum page speed, improved security, and the flexibility to distribute content across multiple platforms and devices." },
+    { q: "How do you ensure WordPress site security and speed?", a: "We implement enterprise-grade security hardening including firewall configuration, malware scanning, login protection, and regular security audits. For speed, we use CDN delivery, advanced caching, image optimization in next-gen formats, database optimization, and server-level performance tuning to ensure fast load times." },
+  ];
+
   const jsonLd = {
     "@context": "https://schema.org",
-    "@type": "Service",
-    "serviceType": "WordPress Design Services",
-    "provider": {
-      "@type": "Organization",
-      "name": "Beeclue Tech"
-    },
-    "areaServed": "Canada"
+    "@graph": [
+      {
+        "@type": "Service",
+        "serviceType": "WordPress Design Services",
+        "provider": {
+          "@type": "Organization",
+          "name": "Beeclue Tech"
+        },
+        "areaServed": "Canada"
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "How much does WordPress web design cost in Canada?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Custom WordPress web design in Canada typically costs between $5,000 and $20,000 for standard business websites. Headless WordPress implementations using Next.js for maximum performance range from $15,000 to $40,000+. Pricing depends on design complexity, custom functionality, and integrations required."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Why choose custom WordPress over a theme?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Custom WordPress development delivers a faster, more secure, and SEO-optimized website compared to off-the-shelf themes. Custom builds eliminate plugin bloat, are tailored specifically to your business needs, and provide better long-term scalability and maintainability without the limitations of pre-built templates."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can you migrate my site from Wix or Squarespace to WordPress?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. We handle complete website migrations from Wix, Squarespace, or any other platform to WordPress. Our migration process includes content transfer, URL redirect mapping to preserve SEO rankings, design upgrade, and performance optimization."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Do you offer headless WordPress development?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. We build headless WordPress architectures where WordPress serves as the content management backend and Next.js powers the frontend. This approach delivers maximum page speed, improved security, and the flexibility to distribute content across multiple platforms and devices."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How do you ensure WordPress site security and speed?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "We implement enterprise-grade security hardening including firewall configuration, malware scanning, login protection, and regular security audits. For speed, we use CDN delivery, advanced caching, image optimization in next-gen formats, database optimization, and server-level performance tuning to ensure fast load times."
+            }
+          }
+        ]
+      }
+    ]
   };
   const breadcrumbs = {
     "@context": "https://schema.org",
@@ -228,6 +287,15 @@ export default function WordPressWebDesignCanadaPage() {
             </div>
           </div>
         </div>
+      </FadeIn>
+
+      {/* FAQ SECTION */}
+      <FadeIn className={styles.baseSection}>
+        <div className={styles.servicesHeader}>
+          <h2>WordPress Web Design FAQs</h2>
+          <p>Common questions about our WordPress development services.</p>
+        </div>
+        <FaqAccordion faqs={faqs} />
       </FadeIn>
 
       {/* GTA AREA SECTION */}

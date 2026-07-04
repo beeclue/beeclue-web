@@ -9,14 +9,25 @@ import FadeIn from "@/components/FadeIn";
 export default function AboutUsPage() {
   const jsonLd = {
     "@context": "https://schema.org",
-    "@type": "AboutPage",
-    "name": "About Beeclue Tech",
-    "description": "Beeclue Tech is an elite digital development agency helping businesses build powerful websites, scalable software systems, and mobile applications.",
-    "url": "https://beeclue.com/about-us",
-    "publisher": {
-      "@type": "Organization",
-      "name": "Beeclue Tech"
-    }
+    "@graph": [
+      {
+        "@type": "AboutPage",
+        "name": "About Beeclue Tech",
+        "description": "Beeclue Tech is an elite digital development agency helping businesses build powerful websites, scalable software systems, and mobile applications.",
+        "url": "https://beeclue.com/about-us",
+        "publisher": {
+          "@type": "Organization",
+          "name": "Beeclue Tech"
+        }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://beeclue.com" },
+          { "@type": "ListItem", "position": 2, "name": "About Us" }
+        ]
+      }
+    ]
   };
 
   return (

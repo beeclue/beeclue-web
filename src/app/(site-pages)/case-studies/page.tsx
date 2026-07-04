@@ -9,10 +9,21 @@ import { ArrowRight } from "lucide-react";
 export default function CaseStudiesPage() {
   const jsonLd = {
     "@context": "https://schema.org",
-    "@type": "CollectionPage",
-    "name": "Beeclue Tech Case Studies",
-    "description": "Explore the portfolio and successful case studies by Beeclue Tech.",
-    "url": "https://beeclue.com/case-studies"
+    "@graph": [
+      {
+        "@type": "CollectionPage",
+        "name": "Beeclue Tech Case Studies",
+        "description": "Explore the portfolio and successful case studies by Beeclue Tech.",
+        "url": "https://beeclue.com/case-studies"
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://beeclue.com" },
+          { "@type": "ListItem", "position": 2, "name": "Case Studies" }
+        ]
+      }
+    ]
   };
 
   return (

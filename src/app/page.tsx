@@ -5,17 +5,33 @@ import Image from "next/image";
 import styles from "./page.module.css";
 import { ArrowRight, Code, LayoutTemplate, Smartphone, ShoppingCart, Search, CheckCircle2, Cloud } from "lucide-react";
 import FadeIn from "@/components/FadeIn";
+import IndustryList from "@/components/IndustryList";
 import { trackCTAClick } from "@/lib/analytics";
 
 // Dynamically import the 3D scene to avoid SSR issues
 export default function Home() {
   return (
     <main className={styles.main}>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Organization",
+            "name": "Beeclue",
+            "url": "https://beeclue.com",
+            "logo": "https://beeclue.com/logo.png",
+            "description": "Toronto-based digital development agency",
+            "areaServed": { "@type": "Country", "name": "Canada" },
+            "knowsAbout": ["Web Design", "Custom Software Development", "E-Commerce", "Mobile Apps", "SEO"]
+          })
+        }}
+      />
       {/* HERO SECTION */}
       <FadeIn className={styles.hero}>
         <div className={styles.heroContent}>
           {/* Visually Hidden SEO H1 */}
-          <h1 className={styles.srOnly}>Websites That Bring You Customers, Not Just Visitors</h1>
+          <h1 className={styles.srOnly}>Toronto's Premier Web Design & Software Development Agency</h1>
 
           <div className={styles.title} aria-hidden="true">
             <span className={styles.titleLine}>Websites</span>
@@ -31,13 +47,13 @@ export default function Home() {
           <p className={styles.heroMicrocopy}>Free &bull; No obligation &bull; Takes 2 minutes</p>
           <div className={styles.heroTrustBar}>
             <div className={styles.trustItem}>
-              <img src="/google-logo.svg" alt="Google" width="20" height="20" />
+              <Image src="/google-logo.svg" alt="Google" width="20" height="20" priority />
               <span className={styles.trustStars}>★★★★★</span>
               <span className={styles.trustLabel}>5.0</span>
             </div>
             <div className={styles.trustDivider} />
             <div className={styles.trustItem}>
-              <img src="https://cdn.trustpilot.net/brand-assets/4.1.0/stars/stars-5.svg" alt="Trustpilot 5 Stars" width="80" height="16" />
+              <Image src="https://cdn.trustpilot.net/brand-assets/4.1.0/stars/stars-5.svg" alt="Trustpilot 5 Stars" width="80" height="16" priority />
               <span className={styles.trustLabel}>Excellent</span>
             </div>
             <div className={styles.trustDivider} />
@@ -128,6 +144,16 @@ export default function Home() {
             View All Services <ArrowRight className={styles.arrow} size={20} />
           </Link>
         </div>
+      </FadeIn>
+
+      {/* INDUSTRIES SECTION */}
+      <FadeIn className={`${styles.baseSection} ${styles.industriesSection}`}>
+        <div className={styles.servicesHeader}>
+          <h2>Industries We Serve</h2>
+          <p>Specialized web solutions tailored to your industry&apos;s unique needs.</p>
+        </div>
+        
+        <IndustryList />
       </FadeIn>
 
       {/* FEATURED WORK SECTION */}
@@ -287,14 +313,14 @@ export default function Home() {
           <div className={styles.reviewsMeta}>
             <div className={styles.ratingsBadges}>
               <div className={styles.ratingBadge}>
-                <img src="/google-logo.svg" alt="Google" width="24" height="24" />
+                <Image src="/google-logo.svg" alt="Google" width="24" height="24" priority />
                 <div className={styles.ratingInfo}>
                   <div className={styles.ratingStars}>★★★★★</div>
                   <span className={styles.ratingText}>5.0 Rating</span>
                 </div>
               </div>
               <div className={styles.ratingBadge}>
-                <img src="https://cdn.trustpilot.net/brand-assets/4.1.0/stars/stars-5.svg" alt="Trustpilot 5 Stars" width="100" height="20" />
+                <Image src="https://cdn.trustpilot.net/brand-assets/4.1.0/stars/stars-5.svg" alt="Trustpilot 5 Stars" width="100" height="20" priority />
                 <div className={styles.ratingInfo}>
                   <span className={styles.ratingText}>Excellent</span>
                 </div>

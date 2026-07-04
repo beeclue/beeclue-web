@@ -5,17 +5,76 @@ import styles from "@/app/page.module.css";
 import { ArrowRight, LayoutTemplate, Briefcase, Globe, RefreshCcw, ShoppingCart, Search, CheckCircle2, Check, PenTool, Palette, MonitorSmartphone, MousePointerClick } from "lucide-react";
 import FadeIn from "@/components/FadeIn";
 import ServiceTracker from "@/components/ServiceTracker";
+import FaqAccordion from "@/components/FaqAccordion";
 
 export default function UiUxDesignTorontoPage() {
+
+  const faqs = [
+    { q: "How much does UI/UX design cost in Toronto?", a: "UI/UX design costs in Toronto range from $2,000 to $5,000 for a focused UX audit, and $5,000 to $25,000+ for full design projects depending on the number of screens, complexity of user flows, and whether branding is included. We provide transparent estimates after an initial discovery call." },
+    { q: "What is the difference between UI and UX design?", a: "UX (User Experience) design focuses on research, wireframing, information architecture, and user flow mapping to ensure your product is easy and intuitive to use. UI (User Interface) design focuses on the visual layer including layouts, typography, color systems, and interactions. Both are essential for creating successful digital products." },
+    { q: "What tools do you use for design?", a: "We use Figma for all design work including wireframes, high-fidelity mockups, interactive prototypes, design systems, and developer handoff. Figma enables real-time collaboration and ensures seamless communication between designers and developers throughout the project." },
+    { q: "Do you redesign existing websites or apps?", a: "Yes. We conduct comprehensive UX audits of existing websites and applications to identify usability issues, conversion bottlenecks, and design inconsistencies. We then redesign the experience to improve user satisfaction, increase conversions, and align the product with current best practices and user expectations." },
+    { q: "Do you create brand logos and visual identities?", a: "Yes. We offer full brand identity services including logo design, color palette development, typography selection, brand guidelines documentation, and design system creation. Our branding work ensures a cohesive, professional visual identity that resonates with your target audience." },
+  ];
+
   const jsonLd = {
     "@context": "https://schema.org",
-    "@type": "Service",
-    "serviceType": "UI/UX Design Services",
-    "provider": {
-      "@type": "Organization",
-      "name": "Beeclue Tech"
-    },
-    "areaServed": "Toronto"
+    "@graph": [
+      {
+        "@type": "Service",
+        "serviceType": "UI/UX Design Services",
+        "provider": {
+          "@type": "Organization",
+          "name": "Beeclue Tech"
+        },
+        "areaServed": "Toronto"
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "How much does UI/UX design cost in Toronto?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "UI/UX design costs in Toronto range from $2,000 to $5,000 for a focused UX audit, and $5,000 to $25,000+ for full design projects depending on the number of screens, complexity of user flows, and whether branding is included. We provide transparent estimates after an initial discovery call."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What is the difference between UI and UX design?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "UX (User Experience) design focuses on research, wireframing, information architecture, and user flow mapping to ensure your product is easy and intuitive to use. UI (User Interface) design focuses on the visual layer including layouts, typography, color systems, and interactions. Both are essential for creating successful digital products."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What tools do you use for design?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "We use Figma for all design work including wireframes, high-fidelity mockups, interactive prototypes, design systems, and developer handoff. Figma enables real-time collaboration and ensures seamless communication between designers and developers throughout the project."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Do you redesign existing websites or apps?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. We conduct comprehensive UX audits of existing websites and applications to identify usability issues, conversion bottlenecks, and design inconsistencies. We then redesign the experience to improve user satisfaction, increase conversions, and align the product with current best practices and user expectations."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Do you create brand logos and visual identities?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. We offer full brand identity services including logo design, color palette development, typography selection, brand guidelines documentation, and design system creation. Our branding work ensures a cohesive, professional visual identity that resonates with your target audience."
+            }
+          }
+        ]
+      }
+    ]
   };
   const breadcrumbs = {
     "@context": "https://schema.org",
@@ -228,6 +287,15 @@ export default function UiUxDesignTorontoPage() {
             </div>
           </div>
         </div>
+      </FadeIn>
+
+      {/* FAQ SECTION */}
+      <FadeIn className={styles.baseSection}>
+        <div className={styles.servicesHeader}>
+          <h2>UI/UX Design FAQs</h2>
+          <p>Common questions about our design and branding services.</p>
+        </div>
+        <FaqAccordion faqs={faqs} />
       </FadeIn>
 
       {/* GTA AREA SECTION */}
