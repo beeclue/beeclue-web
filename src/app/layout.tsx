@@ -151,14 +151,14 @@ export default function RootLayout({
                   {
                     "@type": "SiteNavigationElement",
                     "position": 3,
-                    "name": "Web Design",
-                    "url": "https://beeclue.com/web-design-toronto"
+                    "name": "Blog",
+                    "url": "https://beeclue.com/blogs"
                   },
                   {
                     "@type": "SiteNavigationElement",
                     "position": 4,
-                    "name": "Custom Software",
-                    "url": "https://beeclue.com/custom-software-development-toronto"
+                    "name": "Products",
+                    "url": "https://beeclue.com/products/monexa"
                   },
                   {
                     "@type": "SiteNavigationElement",
@@ -171,6 +171,48 @@ export default function RootLayout({
                     "position": 6,
                     "name": "Contact",
                     "url": "https://beeclue.com/contact"
+                  },
+                  {
+                    "@type": "SiteNavigationElement",
+                    "position": 7,
+                    "name": "Web Design Toronto",
+                    "url": "https://beeclue.com/web-design-toronto"
+                  },
+                  {
+                    "@type": "SiteNavigationElement",
+                    "position": 8,
+                    "name": "Custom Software Development Toronto",
+                    "url": "https://beeclue.com/custom-software-development-toronto"
+                  },
+                  {
+                    "@type": "SiteNavigationElement",
+                    "position": 9,
+                    "name": "WordPress Web Design Canada",
+                    "url": "https://beeclue.com/wordpress-web-design-canada"
+                  },
+                  {
+                    "@type": "SiteNavigationElement",
+                    "position": 10,
+                    "name": "Mobile App Development Toronto",
+                    "url": "https://beeclue.com/mobile-app-development-toronto"
+                  },
+                  {
+                    "@type": "SiteNavigationElement",
+                    "position": 11,
+                    "name": "E-Commerce Development Toronto",
+                    "url": "https://beeclue.com/ecommerce-development-toronto"
+                  },
+                  {
+                    "@type": "SiteNavigationElement",
+                    "position": 12,
+                    "name": "SEO Services Toronto",
+                    "url": "https://beeclue.com/seo-services-toronto"
+                  },
+                  {
+                    "@type": "SiteNavigationElement",
+                    "position": 13,
+                    "name": "UI/UX Design Toronto",
+                    "url": "https://beeclue.com/ui-ux-design-toronto"
                   }
                 ]
               }
