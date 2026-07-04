@@ -32,6 +32,7 @@ const menuLinks = [
     ]
   },
   { name: "Case Studies", href: "/case-studies/" },
+  { name: "Blog", href: "/blogs" },
   { name: "About", href: "/about-us/" },
   { name: "Contact", href: "/contact/" },
 ];
