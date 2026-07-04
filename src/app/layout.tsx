@@ -56,6 +56,12 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     images: ['https://cdn.jsdelivr.net/gh/beeclue/clients@main/self/image.png'],
   },
+  alternates: {
+    canonical: 'https://beeclue.com',
+    languages: {
+      'en-CA': 'https://beeclue.com',
+    },
+  },
 };
 
 export default function RootLayout({
