@@ -23,11 +23,11 @@ export default function NewAngkorWatCaseStudy() {
         "image": "https://cdn.jsdelivr.net/gh/beeclue/clients@main/self/newangkorwat.webp",
         "author": {
           "@type": "Organization",
-          "name": "Beeclue"
+          "name": "Beeclue Tech"
         },
         "publisher": {
           "@type": "Organization",
-          "name": "Beeclue"
+          "name": "Beeclue Tech"
         }
       },
       {

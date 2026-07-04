@@ -18,11 +18,11 @@ export default function SureShotCaseStudy() {
         "image": "https://cdn.jsdelivr.net/gh/beeclue/clients@main/self/sure-shot-photobooth-rental.webp",
         "author": {
           "@type": "Organization",
-          "name": "Beeclue"
+          "name": "Beeclue Tech"
         },
         "publisher": {
           "@type": "Organization",
-          "name": "Beeclue"
+          "name": "Beeclue Tech"
         }
       },
       {

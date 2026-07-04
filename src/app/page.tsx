@@ -17,7 +17,7 @@ export default function Home() {
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Organization",
-            "name": "Beeclue Tech",
+            "name": "Beeclue",
             "url": "https://beeclue.com",
             "logo": "https://beeclue.com/logo.png",
             "description": "Toronto-based digital development agency",

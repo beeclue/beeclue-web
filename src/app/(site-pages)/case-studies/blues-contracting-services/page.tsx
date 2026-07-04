@@ -18,11 +18,11 @@ export default function BluesContractingCaseStudy() {
         "image": "https://cdn.jsdelivr.net/gh/beeclue/clients@main/self/blues-contracting-services.webp",
         "author": {
           "@type": "Organization",
-          "name": "Beeclue"
+          "name": "Beeclue Tech"
         },
         "publisher": {
           "@type": "Organization",
-          "name": "Beeclue"
+          "name": "Beeclue Tech"
         }
       },
       {

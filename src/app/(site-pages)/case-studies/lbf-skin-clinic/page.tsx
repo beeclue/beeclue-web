@@ -18,11 +18,11 @@ export default function LBFSkinClinicCaseStudy() {
         "image": "https://cdn.jsdelivr.net/gh/beeclue/clients@main/self/lbf-skin-clinic.webp",
         "author": {
           "@type": "Organization",
-          "name": "Beeclue"
+          "name": "Beeclue Tech"
         },
         "publisher": {
           "@type": "Organization",
-          "name": "Beeclue"
+          "name": "Beeclue Tech"
         }
       },
       {

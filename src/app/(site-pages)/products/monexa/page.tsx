@@ -27,7 +27,7 @@ export default function MonexaProductPage() {
         "@type": "BreadcrumbList",
         "itemListElement": [
           { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://beeclue.com" },
-          { "@type": "ListItem", "position": 2, "name": "Products", "item": "https://beeclue.com/products" },
+          { "@type": "ListItem", "position": 2, "name": "Products", "item": "https://beeclue.com/products/monexa" },
           { "@type": "ListItem", "position": 3, "name": "Monexa" }
         ]
       }

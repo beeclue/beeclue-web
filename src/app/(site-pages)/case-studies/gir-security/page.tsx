@@ -18,11 +18,11 @@ export default function GIRSecurityCaseStudy() {
         "image": "https://cdn.jsdelivr.net/gh/beeclue/clients@main/self/gir-security.webp",
         "author": {
           "@type": "Organization",
-          "name": "Beeclue"
+          "name": "Beeclue Tech"
         },
         "publisher": {
           "@type": "Organization",
-          "name": "Beeclue"
+          "name": "Beeclue Tech"
         }
       },
       {
