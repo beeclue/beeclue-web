@@ -2,7 +2,7 @@ import { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "UI/UX Design Services in Toronto | Beeclue Tech",
-  description: "UI/UX design in Toronto that turns visitors into customers. User research, wireframing, prototyping, and usability testing.",
+  description: "UI/UX design services in Toronto that turn visitors into loyal customers. User research, wireframing, prototyping, and usability testing by expert designers.",
 };
 
 export default function Layout({
