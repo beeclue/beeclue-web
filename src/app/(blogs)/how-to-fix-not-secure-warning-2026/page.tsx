@@ -14,7 +14,7 @@ export default function FixNotSecureWebsiteWarning2026() {
     "@type": "BlogPosting",
     "mainEntityOfPage": {
       "@type": "WebPage",
-      "@id": "https://beeclue.com/signs-your-website-needs-redesign-2026"
+      "@id": "https://beeclue.com/how-to-fix-not-secure-warning-2026"
     },
     "headline": "How to Fix the \"Not Secure\" Website Warning in 2026",
     "description": "Seeing a Not Secure warning on your website? Learn what causes it and exactly how to fix it with SSL certificates. Step-by-step guide for 2026.",
@@ -42,7 +42,7 @@ export default function FixNotSecureWebsiteWarning2026() {
     "itemListElement": [
       { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://beeclue.com/" },
       { "@type": "ListItem", "position": 2, "name": "Blogs", "item": "https://beeclue.com/blogs" },
-      { "@type": "ListItem", "position": 3, "name": "Fix Not Secure Website Warning 2026", "item": "https://beeclue.com/signs-your-website-needs-redesign-2026" }
+      { "@type": "ListItem", "position": 3, "name": "Fix Not Secure Website Warning 2026", "item": "https://beeclue.com/how-to-fix-not-secure-warning-2026" }
     ]
   };
 
@@ -219,7 +219,7 @@ export default function FixNotSecureWebsiteWarning2026() {
 
           <h2>Beyond SSL: Complete Website Security</h2>
           <p>
-            SSL is the minimum requirement for website security, but it&apos;s not the only thing you need. For a comprehensive look at why security matters, read our guide on <Link href="/not-secure-website-losing-customers" className={blogStyles.internalLink}>why a Not Secure website is losing you customers</Link>. A truly secure website also requires:
+            SSL is the minimum requirement for website security, but it&apos;s not the only thing you need. For a comprehensive look at why security matters, read our guide on <Link href="/custom-website-development-beats-wix-shopify" className={blogStyles.internalLink}>why a Not Secure website is losing you customers</Link>. A truly secure website also requires:
           </p>
           <ul>
             <li><strong>Regular updates:</strong> Keep your CMS, themes, plugins, and server software updated</li>

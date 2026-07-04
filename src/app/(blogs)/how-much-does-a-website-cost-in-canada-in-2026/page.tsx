@@ -159,7 +159,7 @@ export default function WebsiteCostToronto2026Guide() {
 
           <h3>SSL Certificate</h3>
           <p>
-            Basic SSL certificates are free with most hosting providers (Let&apos;s Encrypt). Extended validation certificates for e-commerce or financial sites cost $100 to $300 per year. An SSL certificate is non-negotiable — browsers now penalize sites without one, as covered in our guide on <Link href="/not-secure-website-losing-customers" className={blogStyles.internalLink}>why a Not Secure warning costs you customers</Link>.
+            Basic SSL certificates are free with most hosting providers (Let&apos;s Encrypt). Extended validation certificates for e-commerce or financial sites cost $100 to $300 per year. An SSL certificate is non-negotiable — browsers now penalize sites without one, as covered in our guide on <Link href="/custom-website-development-beats-wix-shopify" className={blogStyles.internalLink}>why a Not Secure warning costs you customers</Link>.
           </p>
 
           <h3>Email Hosting</h3>
