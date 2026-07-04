@@ -51,3 +51,8 @@ next-env.d.ts
 
 # audits & reports
 /audits
+
+# local tools
+.opencode
+.superpowers
+
