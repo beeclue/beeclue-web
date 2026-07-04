@@ -27,7 +27,23 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/ui-ux-design-toronto',
     '/web-design-toronto',
     '/wordpress-web-design-canada',
+    // Additional Services
+    '/shopify-development-toronto',
+    '/website-redesign-toronto',
+    '/website-maintenance-toronto',
+    '/web-development-services-canada',
+    '/digital-marketing-toronto',
+    // Industry Verticals
+    '/shopify-ecommerce-website-design',
+    '/healthcare-website-development-canada',
+    '/restaurant-website-design-canada',
+    '/real-estate-website-development-toronto',
     // Landing Pages
+    '/ecommerce-website-cost-canada',
+    '/website-development-cost-toronto',
+    '/best-ecommerce-platform-canada',
+    '/not-secure-website-fix',
+    // Legacy Landing Pages
     '/19',
     // Case Studies
     '/case-studies/new-angkor-wat',
