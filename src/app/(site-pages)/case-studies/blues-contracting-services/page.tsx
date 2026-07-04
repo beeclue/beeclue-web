@@ -8,15 +8,19 @@ import FadeIn from "@/components/FadeIn";
 export default function BluesContractingCaseStudy() {
   const jsonLd = {
     "@context": "https://schema.org",
-    "@type": "Article",
-    "headline": "Blues Contracting Services Case Study",
+    "@type": "CaseStudy",
+    "name": "Blues Contracting Services — Digital Transformation",
+    "description": "Professional digital presence highlighting construction expertise and building client trust",
+    "datePublished": "2024-02-10",
+    "dateModified": "2024-07-15",
+    "image": "https://cdn.jsdelivr.net/gh/beeclue/clients@main/self/blues-contracting-services.webp",
     "author": {
       "@type": "Organization",
-      "name": "Beeclue Tech"
+      "name": "Beeclue"
     },
     "publisher": {
       "@type": "Organization",
-      "name": "Beeclue Tech"
+      "name": "Beeclue"
     }
   };
 

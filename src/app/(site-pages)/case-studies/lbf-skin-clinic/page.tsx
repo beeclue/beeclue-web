@@ -8,15 +8,19 @@ import FadeIn from "@/components/FadeIn";
 export default function LBFSkinClinicCaseStudy() {
   const jsonLd = {
     "@context": "https://schema.org",
-    "@type": "Article",
-    "headline": "LBF Skin Clinic Case Study",
+    "@type": "CaseStudy",
+    "name": "LBF Skin Clinic — Digital Presence",
+    "description": "Strong and elegant digital presence reflecting the clinic's focus on beauty, skincare, and client trust",
+    "datePublished": "2024-04-01",
+    "dateModified": "2024-09-05",
+    "image": "https://cdn.jsdelivr.net/gh/beeclue/clients@main/self/lbf-skin-clinic.webp",
     "author": {
       "@type": "Organization",
-      "name": "Beeclue Tech"
+      "name": "Beeclue"
     },
     "publisher": {
       "@type": "Organization",
-      "name": "Beeclue Tech"
+      "name": "Beeclue"
     }
   };
 

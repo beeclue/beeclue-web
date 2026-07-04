@@ -8,15 +8,19 @@ import FadeIn from "@/components/FadeIn";
 export default function GIRSecurityCaseStudy() {
   const jsonLd = {
     "@context": "https://schema.org",
-    "@type": "Article",
-    "headline": "G.I.R Security Case Study",
+    "@type": "CaseStudy",
+    "name": "G.I.R Security — Digital Presence",
+    "description": "Strong digital presence reflecting professionalism and rapid growth in the security industry",
+    "datePublished": "2024-03-05",
+    "dateModified": "2024-08-10",
+    "image": "https://cdn.jsdelivr.net/gh/beeclue/clients@main/self/gir-security.webp",
     "author": {
       "@type": "Organization",
-      "name": "Beeclue Tech"
+      "name": "Beeclue"
     },
     "publisher": {
       "@type": "Organization",
-      "name": "Beeclue Tech"
+      "name": "Beeclue"
     }
   };
 

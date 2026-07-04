@@ -8,15 +8,19 @@ import FadeIn from "@/components/FadeIn";
 export default function SureShotCaseStudy() {
   const jsonLd = {
     "@context": "https://schema.org",
-    "@type": "Article",
-    "headline": "Sure Shot Photobooth Case Study",
+    "@type": "CaseStudy",
+    "name": "Sure Shot Photobooth — Web Experience",
+    "description": "Highly interactive, modern website designed to capture leads and showcase premium event experiences",
+    "datePublished": "2024-05-12",
+    "dateModified": "2024-10-01",
+    "image": "https://cdn.jsdelivr.net/gh/beeclue/clients@main/self/sure-shot-photobooth-rental.webp",
     "author": {
       "@type": "Organization",
-      "name": "Beeclue Tech"
+      "name": "Beeclue"
     },
     "publisher": {
       "@type": "Organization",
-      "name": "Beeclue Tech"
+      "name": "Beeclue"
     }
   };
 
