@@ -1,11 +1,11 @@
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Not Secure Website Fix: SSL Guide 2026 | Beeclue",
+  title: "Fix Not Secure Website Warning: SSL Guide 2026 | Beeclue",
   description:
     "Why your website shows Not Secure and how to fix it. Complete SSL/HTTPS guide for 2026. Step-by-step instructions and professional help.",
   openGraph: {
-    title: "Not Secure Website Fix: SSL Guide 2026 | Beeclue",
+    title: "Fix Not Secure Website Warning: SSL Guide 2026 | Beeclue",
     description:
       "Why your website shows Not Secure and how to fix it. Complete SSL/HTTPS guide.",
     url: "https://beeclue.com/not-secure-website-fix",

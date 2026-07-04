@@ -45,8 +45,8 @@ export default function NotSecureWebsiteFixPage() {
           {
             "@type": "ListItem",
             "position": 2,
-            "name": "Blog",
-            "item": "https://beeclue.com/blog",
+            "name": "Services",
+            "item": "https://beeclue.com/services",
           },
           {
             "@type": "ListItem",
@@ -87,7 +87,7 @@ export default function NotSecureWebsiteFixPage() {
             "name": "Does SSL affect SEO rankings?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Yes. Google confirmed HTTPS is a ranking signal. Websites without SSL rank lower than secured competitors. Chrome also marks HTTP sites as Not Secure, increasing bounce rates. SSL is essential for both SEO and user trust. Since 2018, Chrome has标记所有HTTP网站为Not Secure.",
+              "text": "Yes. Google confirmed HTTPS is a ranking signal. Websites without SSL rank lower than secured competitors. Chrome also marks HTTP sites as Not Secure, increasing bounce rates. SSL is essential for both SEO and user trust. Since 2018, Chrome has marked all HTTP websites as Not Secure.",
             },
           },
           {

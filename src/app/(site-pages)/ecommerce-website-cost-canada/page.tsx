@@ -71,7 +71,7 @@ export default function EcommerceWebsiteCostCanadaPage() {
             "name": "What are the hidden costs of running an e-commerce website?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Beyond the initial build, ongoing costs include hosting ($20-$500/month), SSL certificates ($0-$200/year), payment processing fees (2.5%-3.5% per transaction), platform subscription fees ($29-$300/month for Shopify), plugins and apps ($100-$500/month), maintenance ($100-$500/month), and marketing预算.",
+              "text": "Beyond the initial build, ongoing costs include hosting ($20-$500/month), SSL certificates ($0-$200/year), payment processing fees (2.5%-3.5% per transaction), platform subscription fees ($29-$300/month for Shopify), plugins and apps ($100-$500/month), maintenance ($100-$500/month), and marketing budget.",
             },
           },
           {
@@ -118,7 +118,7 @@ export default function EcommerceWebsiteCostCanadaPage() {
     },
     {
       q: "What are the hidden costs of running an e-commerce website?",
-      a: "Beyond the initial build, ongoing costs include hosting ($20-$500/month), SSL certificates ($0-$200/year), payment processing fees (2.5%-3.5% per transaction), platform subscription fees ($29-$300/month for Shopify), plugins and apps ($100-$500/month), maintenance ($100-$500/month), and marketing预算.",
+      a: "Beyond the initial build, ongoing costs include hosting ($20-$500/month), SSL certificates ($0-$200/year), payment processing fees (2.5%-3.5% per transaction), platform subscription fees ($29-$300/month for Shopify), plugins and apps ($100-$500/month), maintenance ($100-$500/month), and marketing budget.",
     },
     {
       q: "Is Shopify or WooCommerce cheaper?",
