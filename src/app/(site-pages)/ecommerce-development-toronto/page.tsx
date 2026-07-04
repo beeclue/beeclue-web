@@ -1,15 +1,13 @@
 "use client";
 
-import { useState } from "react";
 import Link from "next/link";
 import styles from "@/app/page.module.css";
-import { ArrowRight, LayoutTemplate, Briefcase, Globe, RefreshCcw, ShoppingCart, Search, CheckCircle2, Check, ChevronDown } from "lucide-react";
+import { ArrowRight, LayoutTemplate, Briefcase, Globe, RefreshCcw, ShoppingCart, Search, CheckCircle2, Check } from "lucide-react";
 import FadeIn from "@/components/FadeIn";
 import ServiceTracker from "@/components/ServiceTracker";
+import FaqAccordion from "@/components/FaqAccordion";
 
 export default function EcommerceDevelopmentTorontoPage() {
-  const [openFaq, setOpenFaq] = useState<number | null>(0);
-
   const faqs = [
     { q: "How much does ecommerce website development cost in Toronto?", a: "Ecommerce development costs in Toronto vary by platform and complexity. Standard Shopify stores range from $5,000 to $15,000. Custom headless ecommerce builds using Next.js and Shopify Plus typically cost $20,000 to $60,000+. B2B wholesale portals with complex pricing and ERP integrations start at $30,000+." },
     { q: "Which ecommerce platform is best for my business?", a: "Shopify is the best choice for most retail businesses due to its ease of use, reliability, and app ecosystem. Headless commerce using Next.js with Shopify Plus is ideal for brands needing maximum performance and design flexibility. WooCommerce works well for businesses already on WordPress. We recommend the right platform based on your products, budget, and growth goals." },
@@ -296,25 +294,7 @@ export default function EcommerceDevelopmentTorontoPage() {
           <h2>Ecommerce Development FAQs</h2>
           <p>Common questions about building online stores and ecommerce platforms.</p>
         </div>
-        <div className={styles.faqList}>
-          {faqs.map((faq, i) => (
-            <div key={i} className={styles.faqItem}>
-              <button
-                className={styles.faqQuestion}
-                onClick={() => setOpenFaq(openFaq === i ? null : i)}
-              >
-                {faq.q}
-                <ChevronDown
-                  size={20}
-                  className={`${styles.faqChevron} ${openFaq === i ? styles.faqChevronOpen : ""}`}
-                />
-              </button>
-              <div className={`${styles.faqAnswer} ${openFaq === i ? styles.faqAnswerOpen : ""}`}>
-                <p>{faq.a}</p>
-              </div>
-            </div>
-          ))}
-        </div>
+        <FaqAccordion faqs={faqs} />
       </FadeIn>
 
       {/* GTA AREA SECTION */}

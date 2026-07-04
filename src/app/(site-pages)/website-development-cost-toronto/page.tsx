@@ -1,6 +1,5 @@
 "use client";
 
-import { useState } from "react";
 import Link from "next/link";
 import styles from "@/app/page.module.css";
 import {
@@ -15,13 +14,12 @@ import {
   BarChart3,
   TrendingUp,
   ShoppingCart,
-  ChevronDown,
 } from "lucide-react";
 import FadeIn from "@/components/FadeIn";
 import ServiceTracker from "@/components/ServiceTracker";
+import FaqAccordion from "@/components/FaqAccordion";
 
 export default function WebsiteDevelopmentCostTorontoPage() {
-  const [openFaq, setOpenFaq] = useState<number | null>(0);
 
   const jsonLd = {
     "@context": "https://schema.org",
@@ -734,25 +732,7 @@ export default function WebsiteDevelopmentCostTorontoPage() {
             Common questions about website development costs in Toronto.
           </p>
         </div>
-        <div className={styles.faqList}>
-          {faqs.map((faq, i) => (
-            <div key={i} className={styles.faqItem}>
-              <button
-                className={styles.faqQuestion}
-                onClick={() => setOpenFaq(openFaq === i ? null : i)}
-              >
-                {faq.q}
-                <ChevronDown
-                  size={20}
-                  className={`${styles.faqChevron} ${openFaq === i ? styles.faqChevronOpen : ""}`}
-                />
-              </button>
-              <div className={`${styles.faqAnswer} ${openFaq === i ? styles.faqAnswerOpen : ""}`}>
-                <p>{faq.a}</p>
-              </div>
-            </div>
-          ))}
-        </div>
+        <FaqAccordion faqs={faqs} />
       </FadeIn>
 
       {/* GTA AREA */}

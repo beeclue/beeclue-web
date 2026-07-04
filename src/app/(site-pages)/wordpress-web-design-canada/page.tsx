@@ -1,14 +1,13 @@
 "use client";
 
-import { useState } from "react";
 import Link from "next/link";
 import styles from "@/app/page.module.css";
-import { ArrowRight, LayoutTemplate, Briefcase, Globe, RefreshCcw, ShoppingCart, Search, CheckCircle2, Check, ChevronDown } from "lucide-react";
+import { ArrowRight, LayoutTemplate, Briefcase, Globe, RefreshCcw, ShoppingCart, Search, CheckCircle2, Check } from "lucide-react";
 import FadeIn from "@/components/FadeIn";
 import ServiceTracker from "@/components/ServiceTracker";
+import FaqAccordion from "@/components/FaqAccordion";
 
 export default function WordPressWebDesignCanadaPage() {
-  const [openFaq, setOpenFaq] = useState<number | null>(0);
 
   const faqs = [
     { q: "How much does WordPress web design cost in Canada?", a: "Custom WordPress web design in Canada typically costs between $5,000 and $20,000 for standard business websites. Headless WordPress implementations using Next.js for maximum performance range from $15,000 to $40,000+. Pricing depends on design complexity, custom functionality, and integrations required." },
@@ -296,25 +295,7 @@ export default function WordPressWebDesignCanadaPage() {
           <h2>WordPress Web Design FAQs</h2>
           <p>Common questions about our WordPress development services.</p>
         </div>
-        <div className={styles.faqList}>
-          {faqs.map((faq, i) => (
-            <div key={i} className={styles.faqItem}>
-              <button
-                className={styles.faqQuestion}
-                onClick={() => setOpenFaq(openFaq === i ? null : i)}
-              >
-                {faq.q}
-                <ChevronDown
-                  size={20}
-                  className={`${styles.faqChevron} ${openFaq === i ? styles.faqChevronOpen : ""}`}
-                />
-              </button>
-              <div className={`${styles.faqAnswer} ${openFaq === i ? styles.faqAnswerOpen : ""}`}>
-                <p>{faq.a}</p>
-              </div>
-            </div>
-          ))}
-        </div>
+        <FaqAccordion faqs={faqs} />
       </FadeIn>
 
       {/* GTA AREA SECTION */}

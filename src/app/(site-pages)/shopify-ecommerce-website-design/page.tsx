@@ -1,6 +1,5 @@
 "use client";
 
-import { useState } from "react";
 import Link from "next/link";
 import styles from "@/app/page.module.css";
 import {
@@ -14,13 +13,12 @@ import {
   BarChart3,
   Shield,
   Monitor,
-  ChevronDown,
 } from "lucide-react";
 import FadeIn from "@/components/FadeIn";
 import ServiceTracker from "@/components/ServiceTracker";
+import FaqAccordion from "@/components/FaqAccordion";
 
 export default function ShopifyEcommerceWebsiteDesignPage() {
-  const [openFaq, setOpenFaq] = useState<number | null>(0);
 
   const faqs = [
     { q: "How much does a Shopify e-commerce website design cost?", a: "Shopify e-commerce website design costs range from $5,000 for a custom theme build to $50,000+ for a fully bespoke Shopify Plus headless solution. The investment depends on design complexity, product catalog size, custom features, and third-party integrations." },
@@ -352,25 +350,7 @@ export default function ShopifyEcommerceWebsiteDesignPage() {
           <h2>Frequently Asked Questions</h2>
           <p>Common questions about our Shopify e-commerce website design services.</p>
         </div>
-        <div className={styles.faqList}>
-          {faqs.map((faq, i) => (
-            <div key={i} className={styles.faqItem}>
-              <button
-                className={styles.faqQuestion}
-                onClick={() => setOpenFaq(openFaq === i ? null : i)}
-              >
-                {faq.q}
-                <ChevronDown
-                  size={20}
-                  className={`${styles.faqChevron} ${openFaq === i ? styles.faqChevronOpen : ""}`}
-                />
-              </button>
-              <div className={`${styles.faqAnswer} ${openFaq === i ? styles.faqAnswerOpen : ""}`}>
-                <p>{faq.a}</p>
-              </div>
-            </div>
-          ))}
-        </div>
+        <FaqAccordion faqs={faqs} />
       </FadeIn>
 
       {/* CTA SECTION */}

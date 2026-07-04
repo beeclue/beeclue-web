@@ -1,15 +1,13 @@
 "use client";
 
-import { useState } from "react";
 import Link from "next/link";
 import styles from "@/app/page.module.css";
-import { ArrowRight, LayoutTemplate, Briefcase, Globe, RefreshCcw, ShoppingCart, Search, CheckCircle2, Check, ChevronDown } from "lucide-react";
+import { ArrowRight, LayoutTemplate, Briefcase, Globe, RefreshCcw, ShoppingCart, Search, CheckCircle2, Check } from "lucide-react";
 import FadeIn from "@/components/FadeIn";
 import ServiceTracker from "@/components/ServiceTracker";
+import FaqAccordion from "@/components/FaqAccordion";
 
 export default function WebDesignTorontoPage() {
-  const [openFaq, setOpenFaq] = useState<number | null>(0);
-
   const faqs = [
     { q: "How much does web design cost in Toronto?", a: "Web design costs in Toronto typically range from $5,000 to $15,000 for small business websites, $15,000 to $50,000 for custom or enterprise-level projects, and $50,000+ for complex web applications. We also offer an affordable $19/month website package for startups and small businesses looking for a professional online presence." },
     { q: "How long does it take to build a website?", a: "A standard business website typically takes 4 to 8 weeks from design to launch. More complex projects such as custom web applications, ecommerce platforms, or enterprise sites generally take 8 to 12 weeks depending on scope, features, and feedback cycles." },
@@ -329,25 +327,7 @@ export default function WebDesignTorontoPage() {
           <h2>Web Design Toronto FAQs</h2>
           <p>Common questions about our web design and development services.</p>
         </div>
-        <div className={styles.faqList}>
-          {faqs.map((faq, i) => (
-            <div key={i} className={styles.faqItem}>
-              <button
-                className={styles.faqQuestion}
-                onClick={() => setOpenFaq(openFaq === i ? null : i)}
-              >
-                {faq.q}
-                <ChevronDown
-                  size={20}
-                  className={`${styles.faqChevron} ${openFaq === i ? styles.faqChevronOpen : ""}`}
-                />
-              </button>
-              <div className={`${styles.faqAnswer} ${openFaq === i ? styles.faqAnswerOpen : ""}`}>
-                <p>{faq.a}</p>
-              </div>
-            </div>
-          ))}
-        </div>
+        <FaqAccordion faqs={faqs} />
       </FadeIn>
 
       {/* GTA AREA SECTION */}

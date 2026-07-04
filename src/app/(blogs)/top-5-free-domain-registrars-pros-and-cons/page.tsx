@@ -1,6 +1,7 @@
 import { Metadata } from 'next';
 import Image from 'next/image';
 import Link from 'next/link';
+import FaqAccordion from "@/components/FaqAccordion";
 import blogStyles from '../shared-blog.module.css';
 
 export const metadata: Metadata = {
@@ -44,6 +45,21 @@ export default function FreeDomainRegistrarsBlog() {
       { "@type": "ListItem", "position": 3, "name": "How to Get a Free Domain Name: Top 5 Registrars, Pros, and Cons", "item": "https://beeclue.com/top-5-free-domain-registrars-pros-and-cons" }
     ]
   };
+
+  const faqs = [
+    {
+      q: "Does a free domain hurt SEO?",
+      a: "Yes, free subdomains (like .wixsite.com) and historically free TLDs (like .tk) perform very poorly in search engine rankings. Google prefers authoritative, paid top-level domains because they signal legitimacy."
+    },
+    {
+      q: "Can I monetize a website with a free domain?",
+      a: "It is very difficult. Most ad networks, including Google AdSense, require you to own a top-level domain. Furthermore, users are less likely to enter credit card information on a free, unprofessional domain."
+    },
+    {
+      q: "How do I get a free .com domain?",
+      a: "The only legitimate way to get a free .com domain is by purchasing an annual web hosting plan through providers like Bluehost or Hostinger, who will bundle the domain for free for the first year."
+    }
+  ];
 
 
   return (
@@ -178,18 +194,10 @@ export default function FreeDomainRegistrarsBlog() {
 
           <p>If you are ready to take your business seriously, investing in a custom domain and professional web development is the first step. At Beeclue Tech, we specialize in high-performance digital solutions.</p>
 
-          <div className={blogStyles.faqSection}>
+          <section className={blogStyles.faqSection}>
             <h2>Frequently Asked Questions (FAQs)</h2>
-            
-            <h3>Does a free domain hurt SEO?</h3>
-            <p>Yes, free subdomains (like .wixsite.com) and historically free TLDs (like .tk) perform very poorly in search engine rankings. Google prefers authoritative, paid top-level domains because they signal legitimacy.</p>
-            
-            <h3>Can I monetize a website with a free domain?</h3>
-            <p>It is very difficult. Most ad networks, including Google AdSense, require you to own a top-level domain. Furthermore, users are less likely to enter credit card information on a free, unprofessional domain.</p>
-            
-            <h3>How do I get a free .com domain?</h3>
-            <p>The only legitimate way to get a free .com domain is by purchasing an annual web hosting plan through providers like Bluehost or Hostinger, who will bundle the domain for free for the first year.</p>
-          </div>
+            <FaqAccordion faqs={faqs} />
+          </section>
 
           <div className={blogStyles.ctaSection}>
             <h3>Ready to Build a Professional Website?</h3>

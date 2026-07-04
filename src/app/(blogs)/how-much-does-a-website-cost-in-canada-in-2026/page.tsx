@@ -1,6 +1,7 @@
 import { Metadata } from 'next';
 import Image from 'next/image';
 import Link from 'next/link';
+import FaqAccordion from "@/components/FaqAccordion";
 import blogStyles from '../shared-blog.module.css';
 
 export const metadata: Metadata = {
@@ -45,6 +46,29 @@ export default function WebsiteCostToronto2026Guide() {
       { "@type": "ListItem", "position": 3, "name": "Website Cost Toronto 2026 Guide", "item": "https://beeclue.com/how-much-does-a-website-cost-in-canada-in-2026" }
     ]
   };
+
+  const faqs = [
+    {
+      q: "How much does a basic website cost in Toronto?",
+      a: "A basic brochure website with 5-10 pages typically costs between $2,000 and $5,500 CAD in Toronto. This includes professional design, mobile responsiveness, and basic SEO setup. Ongoing costs are usually $20 to $75 per month for hosting and maintenance."
+    },
+    {
+      q: "Is it cheaper to build a website myself?",
+      a: "DIY builders like Wix or Squarespace cost $15 to $50 per month, but you'll invest significant time and the results often lack the polish, performance, and SEO optimization of a professionally built site. For Toronto businesses serious about growth, a professional build almost always delivers better ROI."
+    },
+    {
+      q: "How long does it take to build a website in Toronto?",
+      a: "A basic brochure site takes 1-3 weeks. E-commerce sites take 3-6 weeks. Custom websites take 8-16 weeks. Complex web applications can take 3-12 months. Timelines depend on project scope, revisions, and content readiness."
+    },
+    {
+      q: "Why are some Toronto agencies more expensive?",
+      a: "Higher-priced Toronto agencies typically offer strategic planning, custom design, advanced development, SEO, content creation, and ongoing support. They also have larger teams with specialized expertise. You're paying for quality, reliability, and results — not just a pretty template."
+    },
+    {
+      q: "Can I start small and expand later?",
+      a: "Absolutely. Many Toronto businesses start with a brochure site or a basic Shopify store and expand as revenue grows. The key is to build on a scalable foundation so you don't have to start from scratch when you're ready to grow."
+    }
+  ];
 
   return (
     <main style={{ minHeight: "100vh", position: "relative" }}>
@@ -311,32 +335,10 @@ export default function WebsiteCostToronto2026Guide() {
             <li><strong>Think long-term.</strong> A cheap website that needs to be rebuilt in 12 months costs more than a quality site that lasts 5 years.</li>
           </ol>
 
-          <h2>Frequently Asked Questions</h2>
-
-          <h3>How much does a basic website cost in Toronto?</h3>
-          <p>
-            A basic brochure website with 5-10 pages typically costs between $2,000 and $5,500 CAD in Toronto. This includes professional design, mobile responsiveness, and basic SEO setup. Ongoing costs are usually $20 to $75 per month for hosting and maintenance.
-          </p>
-
-          <h3>Is it cheaper to build a website myself?</h3>
-          <p>
-            DIY builders like Wix or Squarespace cost $15 to $50 per month, but you&apos;ll invest significant time and the results often lack the polish, performance, and SEO optimization of a professionally built site. For Toronto businesses serious about growth, a professional build almost always delivers better ROI.
-          </p>
-
-          <h3>How long does it take to build a website in Toronto?</h3>
-          <p>
-            A basic brochure site takes 1-3 weeks. E-commerce sites take 3-6 weeks. Custom websites take 8-16 weeks. Complex web applications can take 3-12 months. Timelines depend on project scope, revisions, and content readiness.
-          </p>
-
-          <h3>Why are some Toronto agencies more expensive?</h3>
-          <p>
-            Higher-priced Toronto agencies typically offer strategic planning, custom design, advanced development, SEO, content creation, and ongoing support. They also have larger teams with specialized expertise. You&apos;re paying for quality, reliability, and results — not just a pretty template.
-          </p>
-
-          <h3>Can I start small and expand later?</h3>
-          <p>
-            Absolutely. Many Toronto businesses start with a brochure site or a basic Shopify store and expand as revenue grows. The key is to build on a scalable foundation so you don&apos;t have to start from scratch when you&apos;re ready to grow.
-          </p>
+          <section className={blogStyles.faqSection}>
+            <h2>Frequently Asked Questions</h2>
+            <FaqAccordion faqs={faqs} />
+          </section>
 
           <h2>Get a Custom Quote for Your Toronto Business</h2>
           <p>

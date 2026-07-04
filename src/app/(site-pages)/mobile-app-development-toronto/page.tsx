@@ -1,14 +1,13 @@
 "use client";
 
-import { useState } from "react";
 import Link from "next/link";
 import styles from "@/app/page.module.css";
-import { ArrowRight, LayoutTemplate, Briefcase, Globe, RefreshCcw, ShoppingCart, Search, CheckCircle2, Check, ChevronDown } from "lucide-react";
+import { ArrowRight, LayoutTemplate, Briefcase, Globe, RefreshCcw, ShoppingCart, Search, CheckCircle2, Check } from "lucide-react";
 import FadeIn from "@/components/FadeIn";
 import ServiceTracker from "@/components/ServiceTracker";
+import FaqAccordion from "@/components/FaqAccordion";
 
 export default function MobileAppDevelopmentTorontoPage() {
-  const [openFaq, setOpenFaq] = useState<number | null>(0);
 
   const faqs = [
     { q: "How much does mobile app development cost in Toronto?", a: "The cost of custom mobile app development varies based on complexity, platforms (iOS and Android), and required integrations. Simple MVP apps can start around $15,000, while enterprise-grade applications with custom backends can exceed $50,000." },
@@ -296,25 +295,7 @@ export default function MobileAppDevelopmentTorontoPage() {
           <h2>Mobile App Development FAQs</h2>
           <p>Common questions about building custom iOS and Android applications.</p>
         </div>
-        <div className={styles.faqList}>
-          {faqs.map((faq, i) => (
-            <div key={i} className={styles.faqItem}>
-              <button
-                className={styles.faqQuestion}
-                onClick={() => setOpenFaq(openFaq === i ? null : i)}
-              >
-                {faq.q}
-                <ChevronDown
-                  size={20}
-                  className={`${styles.faqChevron} ${openFaq === i ? styles.faqChevronOpen : ""}`}
-                />
-              </button>
-              <div className={`${styles.faqAnswer} ${openFaq === i ? styles.faqAnswerOpen : ""}`}>
-                <p>{faq.a}</p>
-              </div>
-            </div>
-          ))}
-        </div>
+        <FaqAccordion faqs={faqs} />
       </FadeIn>
 
       {/* GTA AREA SECTION */}

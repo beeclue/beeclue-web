@@ -1,6 +1,5 @@
 "use client";
 
-import { useState } from "react";
 import Link from "next/link";
 import styles from "@/app/page.module.css";
 import {
@@ -13,13 +12,13 @@ import {
   Shield,
   TrendingUp,
   RefreshCcw,
-  ChevronDown,
+  XCircle,
 } from "lucide-react";
 import FadeIn from "@/components/FadeIn";
 import ServiceTracker from "@/components/ServiceTracker";
+import FaqAccordion from "@/components/FaqAccordion";
 
 export default function WebsiteRedesignTorontoPage() {
-  const [openFaq, setOpenFaq] = useState<number | null>(0);
 
   const faqs = [
     { q: "How much does a website redesign cost in Toronto?", a: "Website redesign costs in Toronto range from $5,000 for a simple refresh of a small business site to $50,000+ for a complete enterprise redesign with custom features. The final cost depends on the size of your site, the complexity of the design, whether you need new functionality, and how much content needs to be migrated or rewritten." },
@@ -506,76 +505,87 @@ export default function WebsiteRedesignTorontoPage() {
             presence.
           </p>
         </div>
-        <div className={styles.valueGrid}>
-          <div className={styles.valueItem}>
-            <CheckCircle2 className={styles.valueIcon} />
-            <div>
-              <h3>Before: Generic Template Design</h3>
-              <p>
-                Your site looks like thousands of others. Visitors can&apos;t
-                tell you apart from competitors. The design doesn&apos;t
-                reflect your brand personality or build trust.
-              </p>
+        <div style={{ display: "flex", flexDirection: "column", gap: "2rem", marginTop: "4rem", width: "100%" }}>
+          {/* Pair 1: Design */}
+          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(300px, 1fr))", gap: "2.5rem", background: "rgba(255, 255, 255, 0.02)", border: "1px solid var(--border)", padding: "2.5rem", borderRadius: "16px" }}>
+            <div className={styles.valueItem}>
+              <XCircle className={styles.valueIcon} style={{ color: "rgba(255, 100, 100, 0.8)" }} />
+              <div>
+                <h3 style={{ color: "var(--muted)", marginBottom: "0.5rem" }}>Before: Generic Template Design</h3>
+                <p style={{ color: "var(--muted)", lineHeight: "1.6" }}>
+                  Your site looks like thousands of others. Visitors can&apos;t
+                  tell you apart from competitors. The design doesn&apos;t
+                  reflect your brand personality or build trust.
+                </p>
+              </div>
+            </div>
+            <div className={styles.valueItem}>
+              <CheckCircle2 className={styles.valueIcon} style={{ color: "var(--primary)" }} />
+              <div>
+                <h3 style={{ marginBottom: "0.5rem" }}>After: Custom Brand Experience</h3>
+                <p style={{ lineHeight: "1.6" }}>
+                  A unique, branded digital experience that tells your story,
+                  builds credibility, and makes visitors feel they&apos;ve
+                  come to the right place. Every visual element reinforces
+                  your brand identity.
+                </p>
+              </div>
             </div>
           </div>
-          <div className={styles.valueItem}>
-            <CheckCircle2 className={styles.valueIcon} />
-            <div>
-              <h3>After: Custom Brand Experience</h3>
-              <p>
-                A unique, branded digital experience that tells your story,
-                builds credibility, and makes visitors feel they&apos;ve
-                come to the right place. Every visual element reinforces
-                your brand identity.
-              </p>
+
+          {/* Pair 2: Performance */}
+          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(300px, 1fr))", gap: "2.5rem", background: "rgba(255, 255, 255, 0.02)", border: "1px solid var(--border)", padding: "2.5rem", borderRadius: "16px" }}>
+            <div className={styles.valueItem}>
+              <XCircle className={styles.valueIcon} style={{ color: "rgba(255, 100, 100, 0.8)" }} />
+              <div>
+                <h3 style={{ color: "var(--muted)", marginBottom: "0.5rem" }}>Before: Slow, Frustrating Experience</h3>
+                <p style={{ color: "var(--muted)", lineHeight: "1.6" }}>
+                  Pages take 5+ seconds to load. Images are unoptimized.
+                  Scripts block rendering. Mobile users pinch and scroll
+                  endlessly. Every second of delay costs you 7% in
+                  conversions.
+                </p>
+              </div>
+            </div>
+            <div className={styles.valueItem}>
+              <CheckCircle2 className={styles.valueIcon} style={{ color: "var(--primary)" }} />
+              <div>
+                <h3 style={{ marginBottom: "0.5rem" }}>After: Blazing-Fast Performance</h3>
+                <p style={{ lineHeight: "1.6" }}>
+                  Sub-2-second load times. Optimized images. Lazy loading.
+                  Clean code. Your site loads instantly on any device, earning
+                  top Core Web Vitals scores and Google&apos;s ranking
+                  preference.
+                </p>
+              </div>
             </div>
           </div>
-          <div className={styles.valueItem}>
-            <CheckCircle2 className={styles.valueIcon} />
-            <div>
-              <h3>Before: Slow, Frustrating Experience</h3>
-              <p>
-                Pages take 5+ seconds to load. Images are unoptimized.
-                Scripts block rendering. Mobile users pinch and scroll
-                endlessly. Every second of delay costs you 7% in
-                conversions.
-              </p>
+
+          {/* Pair 3: Conversion */}
+          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(300px, 1fr))", gap: "2.5rem", background: "rgba(255, 255, 255, 0.02)", border: "1px solid var(--border)", padding: "2.5rem", borderRadius: "16px" }}>
+            <div className={styles.valueItem}>
+              <XCircle className={styles.valueIcon} style={{ color: "rgba(255, 100, 100, 0.8)" }} />
+              <div>
+                <h3 style={{ color: "var(--muted)", marginBottom: "0.5rem" }}>Before: Low Conversion Rates</h3>
+                <p style={{ color: "var(--muted)", lineHeight: "1.6" }}>
+                  Visitors land on your site and leave without taking action.
+                  Your bounce rate is above 60%. Contact form submissions are
+                  declining. Your website isn&apos;t generating the leads
+                  your business needs.
+                </p>
+              </div>
             </div>
-          </div>
-          <div className={styles.valueItem}>
-            <CheckCircle2 className={styles.valueIcon} />
-            <div>
-              <h3>After: Blazing-Fast Performance</h3>
-              <p>
-                Sub-2-second load times. Optimized images. Lazy loading.
-                Clean code. Your site loads instantly on any device, earning
-                top Core Web Vitals scores and Google&apos;s ranking
-                preference.
-              </p>
-            </div>
-          </div>
-          <div className={styles.valueItem}>
-            <CheckCircle2 className={styles.valueIcon} />
-            <div>
-              <h3>Before: Low Conversion Rates</h3>
-              <p>
-                Visitors land on your site and leave without taking action.
-                Your bounce rate is above 60%. Contact form submissions are
-                declining. Your website isn&apos;t generating the leads
-                your business needs.
-              </p>
-            </div>
-          </div>
-          <div className={styles.valueItem}>
-            <CheckCircle2 className={styles.valueIcon} />
-            <div>
-              <h3>After: Conversion-Optimized Funnels</h3>
-              <p>
-                Strategic CTAs, clear value propositions, trust signals, and
-                frictionless forms guide visitors toward conversion. Our
-                redesigned sites typically see 2-3x improvements in
-                conversion rates within the first 90 days.
-              </p>
+            <div className={styles.valueItem}>
+              <CheckCircle2 className={styles.valueIcon} style={{ color: "var(--primary)" }} />
+              <div>
+                <h3 style={{ marginBottom: "0.5rem" }}>After: Conversion-Optimized Funnels</h3>
+                <p style={{ lineHeight: "1.6" }}>
+                  Strategic CTAs, clear value propositions, trust signals, and
+                  frictionless forms guide visitors toward conversion. Our
+                  redesigned sites typically see 2-3x improvements in
+                  conversion rates within the first 90 days.
+                </p>
+              </div>
             </div>
           </div>
         </div>
@@ -648,25 +658,7 @@ export default function WebsiteRedesignTorontoPage() {
             Common questions about website redesign services in Toronto.
           </p>
         </div>
-        <div className={styles.faqList}>
-          {faqs.map((faq, i) => (
-            <div key={i} className={styles.faqItem}>
-              <button
-                className={styles.faqQuestion}
-                onClick={() => setOpenFaq(openFaq === i ? null : i)}
-              >
-                {faq.q}
-                <ChevronDown
-                  size={20}
-                  className={`${styles.faqChevron} ${openFaq === i ? styles.faqChevronOpen : ""}`}
-                />
-              </button>
-              <div className={`${styles.faqAnswer} ${openFaq === i ? styles.faqAnswerOpen : ""}`}>
-                <p>{faq.a}</p>
-              </div>
-            </div>
-          ))}
-        </div>
+        <FaqAccordion faqs={faqs} />
       </FadeIn>
 
       {/* SERVICE AREA */}

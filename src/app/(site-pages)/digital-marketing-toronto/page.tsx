@@ -1,6 +1,5 @@
 "use client";
 
-import { useState } from "react";
 import Link from "next/link";
 import styles from "@/app/page.module.css";
 import {
@@ -13,13 +12,12 @@ import {
   TrendingUp,
   Megaphone,
   Mail,
-  ChevronDown,
 } from "lucide-react";
 import FadeIn from "@/components/FadeIn";
 import ServiceTracker from "@/components/ServiceTracker";
+import FaqAccordion from "@/components/FaqAccordion";
 
 export default function DigitalMarketingTorontoPage() {
-  const [openFaq, setOpenFaq] = useState<number | null>(0);
 
   const faqs = [
     { q: "How much does digital marketing cost in Toronto?", a: "Digital marketing costs in Toronto vary based on scope and channels. Monthly retainers typically range from $2,000 to $15,000 depending on the services included — SEO, PPC, social media, content creation, and analytics. We provide transparent pricing tailored to your business goals and competitive landscape." },
@@ -385,25 +383,7 @@ export default function DigitalMarketingTorontoPage() {
           <h2>Frequently Asked Questions</h2>
           <p>Common questions about our digital marketing services in Toronto.</p>
         </div>
-        <div className={styles.faqList}>
-          {faqs.map((faq, i) => (
-            <div key={i} className={styles.faqItem}>
-              <button
-                className={styles.faqQuestion}
-                onClick={() => setOpenFaq(openFaq === i ? null : i)}
-              >
-                {faq.q}
-                <ChevronDown
-                  size={20}
-                  className={`${styles.faqChevron} ${openFaq === i ? styles.faqChevronOpen : ""}`}
-                />
-              </button>
-              <div className={`${styles.faqAnswer} ${openFaq === i ? styles.faqAnswerOpen : ""}`}>
-                <p>{faq.a}</p>
-              </div>
-            </div>
-          ))}
-        </div>
+        <FaqAccordion faqs={faqs} />
       </FadeIn>
 
       {/* CTA SECTION */}

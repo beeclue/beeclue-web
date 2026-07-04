@@ -1,6 +1,5 @@
 "use client";
 
-import { useState } from "react";
 import Link from "next/link";
 import styles from "@/app/page.module.css";
 import {
@@ -13,13 +12,12 @@ import {
   RefreshCcw,
   Zap,
   Shield,
-  ChevronDown,
 } from "lucide-react";
 import FadeIn from "@/components/FadeIn";
 import ServiceTracker from "@/components/ServiceTracker";
+import FaqAccordion from "@/components/FaqAccordion";
 
 export default function ShopifyDevelopmentTorontoPage() {
-  const [openFaq, setOpenFaq] = useState<number | null>(0);
 
   const faqs = [
     { q: "How much does Shopify development cost in Toronto?", a: "Shopify development costs in Toronto range from $5,000 for a basic custom theme to $50,000+ for a fully custom headless commerce solution. The final cost depends on design complexity, custom features, integrations, and whether you need a standard Shopify store or a Shopify Plus headless build." },
@@ -450,25 +448,7 @@ export default function ShopifyDevelopmentTorontoPage() {
           <h2>Frequently Asked Questions</h2>
           <p>Common questions about our Shopify development services in Toronto.</p>
         </div>
-        <div className={styles.faqList}>
-          {faqs.map((faq, i) => (
-            <div key={i} className={styles.faqItem}>
-              <button
-                className={styles.faqQuestion}
-                onClick={() => setOpenFaq(openFaq === i ? null : i)}
-              >
-                {faq.q}
-                <ChevronDown
-                  size={20}
-                  className={`${styles.faqChevron} ${openFaq === i ? styles.faqChevronOpen : ""}`}
-                />
-              </button>
-              <div className={`${styles.faqAnswer} ${openFaq === i ? styles.faqAnswerOpen : ""}`}>
-                <p>{faq.a}</p>
-              </div>
-            </div>
-          ))}
-        </div>
+        <FaqAccordion faqs={faqs} />
       </FadeIn>
 
       {/* GTA AREA */}

@@ -1,6 +1,5 @@
 "use client";
 
-import { useState } from "react";
 import Link from "next/link";
 import styles from "@/app/page.module.css";
 import {
@@ -13,13 +12,12 @@ import {
   HardDrive,
   Lock,
   Clock,
-  ChevronDown,
 } from "lucide-react";
 import FadeIn from "@/components/FadeIn";
 import ServiceTracker from "@/components/ServiceTracker";
+import FaqAccordion from "@/components/FaqAccordion";
 
 export default function WebsiteMaintenanceTorontoPage() {
-  const [openFaq, setOpenFaq] = useState<number | null>(0);
 
   const faqs = [
     { q: "How much does website maintenance cost in Toronto?", a: "Website maintenance costs in Toronto typically range from $99/month for basic maintenance (updates and backups) to $999/month for enterprise-level support (24/7 monitoring, performance optimization, and priority support). The right plan depends on your site&apos;s complexity, traffic volume, and how critical uptime is to your business." },
@@ -620,25 +618,7 @@ export default function WebsiteMaintenanceTorontoPage() {
             Common questions about website maintenance services in Toronto.
           </p>
         </div>
-        <div className={styles.faqList}>
-          {faqs.map((faq, i) => (
-            <div key={i} className={styles.faqItem}>
-              <button
-                className={styles.faqQuestion}
-                onClick={() => setOpenFaq(openFaq === i ? null : i)}
-              >
-                {faq.q}
-                <ChevronDown
-                  size={20}
-                  className={`${styles.faqChevron} ${openFaq === i ? styles.faqChevronOpen : ""}`}
-                />
-              </button>
-              <div className={`${styles.faqAnswer} ${openFaq === i ? styles.faqAnswerOpen : ""}`}>
-                <p>{faq.a}</p>
-              </div>
-            </div>
-          ))}
-        </div>
+        <FaqAccordion faqs={faqs} />
       </FadeIn>
 
       {/* SERVICE AREA */}

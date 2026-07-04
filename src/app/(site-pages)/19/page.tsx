@@ -1,6 +1,5 @@
 "use client";
 
-import { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import styles from "@/app/page.module.css";
@@ -18,51 +17,36 @@ import {
   HardHat,
   Briefcase,
   ShoppingBag,
-  ChevronDown,
   Check,
   X,
 } from "lucide-react";
 import FadeIn from "@/components/FadeIn";
-
-function FaqItem({
-  question,
-  children,
-}: {
-  question: string;
-  children: React.ReactNode;
-}) {
-  const [open, setOpen] = useState(false);
-
-  return (
-    <div className={localStyles.faqItem}>
-      <button
-        className={localStyles.faqQuestion}
-        onClick={() => setOpen(!open)}
-        aria-expanded={open}
-        id={`faq-q-${question.slice(0, 20).replace(/\s/g, "-")}`}
-      >
-        {question}
-        <ChevronDown
-          size={20}
-          className={`${localStyles.faqChevron} ${
-            open ? localStyles.faqChevronOpen : ""
-          }`}
-        />
-      </button>
-      <div
-        className={`${localStyles.faqAnswer} ${
-          open ? localStyles.faqAnswerOpen : ""
-        }`}
-        role="region"
-        aria-labelledby={`faq-q-${question.slice(0, 20).replace(/\s/g, "-")}`}
-      >
-        {children}
-      </div>
-    </div>
-  );
-}
+import FaqAccordion from "@/components/FaqAccordion";
 
 export default function NineteenDollarPage() {
+  const faqs = [
+    {
+      q: "Is there really no upfront cost?",
+      a: "Correct — the $19/month plan covers your full website build, hosting, and ongoing maintenance with no large upfront design fee. You simply pay the monthly subscription."
+    },
+    {
+      q: "What if I already have a website?",
+      a: <p>We can migrate your existing content into a new, modern design under the same $19/month plan — including improvements to mobile responsiveness and page speed, which are key <a href="https://developers.google.com/search/docs/appearance/page-experience?utm_source=beeclue&utm_medium=blog&utm_campaign=19-month-website-design" target="_blank" rel="noopener noreferrer">Google ranking factors</a>.</p>
+    },
+    {
+      q: "How long does it take to build my website?",
+      a: "Most $19/month websites are completed within 5–7 business days once we receive your content (logo, photos, business details)."
+    },
+    {
+      q: "Can I cancel anytime?",
+      a: "Yes. There's no long-term contract — you can cancel the subscription at any time."
+    },
+    {
+      q: "Do you serve businesses outside Toronto?",
+      a: <p>Yes — we work with small businesses across the entire <Link href="/web-design-toronto">Greater Toronto Area</Link>, including Mississauga, Brampton, Markham, Vaughan, Scarborough, and Etobicoke.</p>
+    }
+  ];
+
   const serviceSchema = {
     "@context": "https://schema.org",
     "@type": "Service",
@@ -519,54 +503,7 @@ export default function NineteenDollarPage() {
           <h2>Frequently Asked Questions</h2>
         </div>
 
-        <div className={localStyles.faqList}>
-          <FaqItem question="Is there really no upfront cost?">
-            <p>
-              Correct — the $19/month plan covers your full website build,
-              hosting, and ongoing maintenance with no large upfront design fee.
-              You simply pay the monthly subscription.
-            </p>
-          </FaqItem>
-
-          <FaqItem question="What if I already have a website?">
-            <p>
-              We can migrate your existing content into a new, modern design
-              under the same $19/month plan — including improvements to mobile
-              responsiveness and page speed, which are key{" "}
-              <a
-                href="https://developers.google.com/search/docs/appearance/page-experience?utm_source=beeclue&utm_medium=blog&utm_campaign=19-month-website-design"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Google ranking factors
-              </a>
-              .
-            </p>
-          </FaqItem>
-
-          <FaqItem question="How long does it take to build my website?">
-            <p>
-              Most $19/month websites are completed within 5–7 business days once
-              we receive your content (logo, photos, business details).
-            </p>
-          </FaqItem>
-
-          <FaqItem question="Can I cancel anytime?">
-            <p>
-              Yes. There&apos;s no long-term contract — you can cancel the
-              subscription at any time.
-            </p>
-          </FaqItem>
-
-          <FaqItem question="Do you serve businesses outside Toronto?">
-            <p>
-              Yes — we work with small businesses across the entire{" "}
-              <Link href="/web-design-toronto">Greater Toronto Area</Link>,
-              including Mississauga, Brampton, Markham, Vaughan, Scarborough,
-              and Etobicoke.
-            </p>
-          </FaqItem>
-        </div>
+        <FaqAccordion faqs={faqs} />
       </FadeIn>
 
       {/* ============================================

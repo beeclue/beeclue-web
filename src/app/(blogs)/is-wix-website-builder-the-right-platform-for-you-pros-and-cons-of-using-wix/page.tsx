@@ -1,6 +1,7 @@
 import { Metadata } from 'next';
 import Image from 'next/image';
 import Link from 'next/link';
+import FaqAccordion from "@/components/FaqAccordion";
 import blogStyles from '../shared-blog.module.css';
 
 export const metadata: Metadata = {
@@ -44,6 +45,21 @@ export default function WixProsConsBlog() {
       { "@type": "ListItem", "position": 3, "name": "Is Wix Website Builder the Right Platform for You? Pros and Cons", "item": "https://beeclue.com/is-wix-website-builder-the-right-platform-for-you-pros-and-cons-of-using-wix" }
     ]
   };
+
+  const faqs = [
+    {
+      q: "Is Wix truly free?",
+      a: "Wix offers a free tier, but it forces Wix advertisements onto every page of your site and restricts you to a sub-domain (e.g., yourname.wixsite.com). To remove ads and connect a custom domain, you must upgrade to a paid premium plan."
+    },
+    {
+      q: "Can I migrate my Wix site to WordPress?",
+      a: "Technically, you can copy and paste your text, but you cannot migrate the design, the layout, or the database structure. Because Wix uses proprietary code, moving to WordPress requires completely rebuilding the website from the ground up."
+    },
+    {
+      q: "Why is my Wix website so slow?",
+      a: "Wix websites execute a massive amount of background JavaScript to render the drag-and-drop editor's styling rules. This heavy code payload significantly degrades loading speeds, particularly on mobile devices, which negatively impacts both user experience and SEO."
+    }
+  ];
 
 
   return (
@@ -172,18 +188,10 @@ export default function WixProsConsBlog() {
           
           <p>As your business matures, the limitations of Wix—from its vendor lock-in to its poor performance metrics—will quickly transition from minor annoyances to major operational roadblocks. For serious enterprises, startups seeking funding, and established companies looking to dominate their market, investing in custom web development is the only viable path forward.</p>
 
-          <div className={blogStyles.faqSection}>
+          <section className={blogStyles.faqSection}>
             <h2>Frequently Asked Questions (FAQs)</h2>
-            
-            <h3>Is Wix truly free?</h3>
-            <p>Wix offers a free tier, but it forces Wix advertisements onto every page of your site and restricts you to a sub-domain (e.g., yourname.wixsite.com). To remove ads and connect a custom domain, you must upgrade to a paid premium plan.</p>
-            
-            <h3>Can I migrate my Wix site to WordPress?</h3>
-            <p>Technically, you can copy and paste your text, but you cannot migrate the design, the layout, or the database structure. Because Wix uses proprietary code, moving to WordPress requires completely rebuilding the website from the ground up.</p>
-            
-            <h3>Why is my Wix website so slow?</h3>
-            <p>Wix websites execute a massive amount of background JavaScript to render the drag-and-drop editor's styling rules. This heavy code payload significantly degrades loading speeds, particularly on mobile devices, which negatively impacts both user experience and SEO.</p>
-          </div>
+            <FaqAccordion faqs={faqs} />
+          </section>
 
           <div className={blogStyles.ctaSection}>
             <h3>Ready to Graduate from Website Builders?</h3>

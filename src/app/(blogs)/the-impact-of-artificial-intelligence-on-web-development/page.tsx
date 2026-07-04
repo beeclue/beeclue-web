@@ -1,6 +1,7 @@
 import { Metadata } from 'next';
 import Image from 'next/image';
 import Link from 'next/link';
+import FaqAccordion from "@/components/FaqAccordion";
 import blogStyles from '../shared-blog.module.css';
 
 export const metadata: Metadata = {
@@ -44,6 +45,21 @@ export default function AIWebDevelopmentBlog() {
       { "@type": "ListItem", "position": 3, "name": "The Impact of Artificial Intelligence on Web Development", "item": "https://beeclue.com/the-impact-of-artificial-intelligence-on-web-development" }
     ]
   };
+
+  const faqs = [
+    {
+      q: "How does AI help in web development?",
+      a: "AI assists developers by automating repetitive coding tasks, quickly debugging errors, generating UI layouts, writing automated tests, and dynamically personalizing user experiences."
+    },
+    {
+      q: "Can AI build a website from scratch?",
+      a: "While AI website builders exist (like Wix ADI), they are generally limited to basic, templated designs. For complex, custom web applications that require specific business logic, secure databases, and high-performance architectures, human engineers leveraging AI tools are still absolutely necessary."
+    },
+    {
+      q: "Is AI changing SEO?",
+      a: "Yes, massively. Search engines use AI to understand the semantic context of content. Content must now provide deep \"Information Gain\" and authoritative answers, moving far beyond traditional keyword placement."
+    }
+  ];
 
 
   return (
@@ -137,18 +153,10 @@ export default function AIWebDevelopmentBlog() {
 
         <p>As the web continues to evolve, partnering with a technical agency that understands how to leverage these tools is paramount. Check out our <Link href="/case-studies" className={blogStyles.internalLink}>case studies</Link> to see how we implement cutting-edge technology for our clients.</p>
 
-        <div className={blogStyles.faqSection}>
+        <section className={blogStyles.faqSection}>
           <h2>Frequently Asked Questions (FAQs)</h2>
-          
-          <h3>How does AI help in web development?</h3>
-          <p>AI assists developers by automating repetitive coding tasks, quickly debugging errors, generating UI layouts, writing automated tests, and dynamically personalizing user experiences.</p>
-          
-          <h3>Can AI build a website from scratch?</h3>
-          <p>While AI website builders exist (like Wix ADI), they are generally limited to basic, templated designs. For complex, custom web applications that require specific business logic, secure databases, and high-performance architectures, human engineers leveraging AI tools are still absolutely necessary.</p>
-          
-          <h3>Is AI changing SEO?</h3>
-          <p>Yes, massively. Search engines use AI to understand the semantic context of content. Content must now provide deep "Information Gain" and authoritative answers, moving far beyond traditional keyword placement.</p>
-        </div>
+          <FaqAccordion faqs={faqs} />
+        </section>
 
         <div className={blogStyles.ctaSection}>
           <h3>Ready for the Future of Web Development?</h3>
