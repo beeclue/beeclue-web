@@ -114,40 +114,12 @@ export default function WebsiteMaintenanceTorontoPage() {
     ],
   };
 
-  const breadcrumbLd = {
-    "@context": "https://schema.org",
-    "@type": "BreadcrumbList",
-    "itemListElement": [
-      {
-        "@type": "ListItem",
-        "position": 1,
-        "name": "Home",
-        "item": "https://beeclue.com",
-      },
-      {
-        "@type": "ListItem",
-        "position": 2,
-        "name": "Services",
-        "item": "https://beeclue.com/services",
-      },
-      {
-        "@type": "ListItem",
-        "position": 3,
-        "name": "Website Maintenance Toronto",
-      },
-    ],
-  };
-
   return (
     <main className={styles.main}>
       <ServiceTracker />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
-      />
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbLd) }}
       />
 
       {/* HERO SECTION */}

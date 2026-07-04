@@ -2,12 +2,12 @@ import { Metadata } from "next";
 
 export const metadata: Metadata = {
   title:
-    "Website Redesign Toronto | Modernize Your Online Presence | Beeclue",
+    "Toronto Website Redesign & Web Development Agency | Beeclue",
   description:
     "Professional website redesign in Toronto. Modernize your outdated website with better design, faster performance, and higher conversions.",
   openGraph: {
     title:
-      "Website Redesign Toronto | Modernize Your Online Presence | Beeclue",
+      "Toronto Website Redesign & Web Development Agency | Beeclue",
     description:
       "Professional website redesign in Toronto. Modernize your outdated website with better design, faster performance, and higher conversions.",
     url: "https://beeclue.com/website-redesign-toronto",

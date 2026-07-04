@@ -9,13 +9,62 @@ import ServiceTracker from "@/components/ServiceTracker";
 export default function UiUxDesignTorontoPage() {
   const jsonLd = {
     "@context": "https://schema.org",
-    "@type": "Service",
-    "serviceType": "UI/UX Design Services",
-    "provider": {
-      "@type": "Organization",
-      "name": "Beeclue Tech"
-    },
-    "areaServed": "Toronto"
+    "@graph": [
+      {
+        "@type": "Service",
+        "serviceType": "UI/UX Design Services",
+        "provider": {
+          "@type": "Organization",
+          "name": "Beeclue Tech"
+        },
+        "areaServed": "Toronto"
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "How much does UI/UX design cost in Toronto?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "UI/UX design costs in Toronto range from $2,000 to $5,000 for a focused UX audit, and $5,000 to $25,000+ for full design projects depending on the number of screens, complexity of user flows, and whether branding is included. We provide transparent estimates after an initial discovery call."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What is the difference between UI and UX design?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "UX (User Experience) design focuses on research, wireframing, information architecture, and user flow mapping to ensure your product is easy and intuitive to use. UI (User Interface) design focuses on the visual layer including layouts, typography, color systems, and interactions. Both are essential for creating successful digital products."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What tools do you use for design?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "We use Figma for all design work including wireframes, high-fidelity mockups, interactive prototypes, design systems, and developer handoff. Figma enables real-time collaboration and ensures seamless communication between designers and developers throughout the project."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Do you redesign existing websites or apps?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. We conduct comprehensive UX audits of existing websites and applications to identify usability issues, conversion bottlenecks, and design inconsistencies. We then redesign the experience to improve user satisfaction, increase conversions, and align the product with current best practices and user expectations."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Do you create brand logos and visual identities?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. We offer full brand identity services including logo design, color palette development, typography selection, brand guidelines documentation, and design system creation. Our branding work ensures a cohesive, professional visual identity that resonates with your target audience."
+            }
+          }
+        ]
+      }
+    ]
   };
   const breadcrumbs = {
     "@context": "https://schema.org",
@@ -226,6 +275,36 @@ export default function UiUxDesignTorontoPage() {
               <h3>Data-Driven Approach</h3>
               <p>Every design and technical architecture choice is backed by analytics and user behavior to maximize your ROI.</p>
             </div>
+          </div>
+        </div>
+      </FadeIn>
+
+      {/* FAQ SECTION */}
+      <FadeIn className={styles.baseSection}>
+        <div className={styles.servicesHeader}>
+          <h2>UI/UX Design FAQs</h2>
+          <p>Common questions about our design and branding services.</p>
+        </div>
+        <div style={{ maxWidth: "800px", margin: "0 auto", display: "flex", flexDirection: "column", gap: "1.5rem" }}>
+          <div style={{ padding: "1.5rem", background: "rgba(255,255,255,0.02)", border: "1px solid var(--border)", borderRadius: "8px" }}>
+            <h3 style={{ fontSize: "1.2rem", marginBottom: "0.5rem" }}>How much does UI/UX design cost in Toronto?</h3>
+            <p style={{ color: "var(--muted)", lineHeight: "1.6" }}>UI/UX design costs in Toronto range from $2,000 to $5,000 for a focused UX audit, and $5,000 to $25,000+ for full design projects depending on the number of screens, complexity of user flows, and whether branding is included. We provide transparent estimates after an initial discovery call.</p>
+          </div>
+          <div style={{ padding: "1.5rem", background: "rgba(255,255,255,0.02)", border: "1px solid var(--border)", borderRadius: "8px" }}>
+            <h3 style={{ fontSize: "1.2rem", marginBottom: "0.5rem" }}>What is the difference between UI and UX design?</h3>
+            <p style={{ color: "var(--muted)", lineHeight: "1.6" }}>UX (User Experience) design focuses on research, wireframing, information architecture, and user flow mapping to ensure your product is easy and intuitive to use. UI (User Interface) design focuses on the visual layer including layouts, typography, color systems, and interactions. Both are essential for creating successful digital products.</p>
+          </div>
+          <div style={{ padding: "1.5rem", background: "rgba(255,255,255,0.02)", border: "1px solid var(--border)", borderRadius: "8px" }}>
+            <h3 style={{ fontSize: "1.2rem", marginBottom: "0.5rem" }}>What tools do you use for design?</h3>
+            <p style={{ color: "var(--muted)", lineHeight: "1.6" }}>We use Figma for all design work including wireframes, high-fidelity mockups, interactive prototypes, design systems, and developer handoff. Figma enables real-time collaboration and ensures seamless communication between designers and developers throughout the project.</p>
+          </div>
+          <div style={{ padding: "1.5rem", background: "rgba(255,255,255,0.02)", border: "1px solid var(--border)", borderRadius: "8px" }}>
+            <h3 style={{ fontSize: "1.2rem", marginBottom: "0.5rem" }}>Do you redesign existing websites or apps?</h3>
+            <p style={{ color: "var(--muted)", lineHeight: "1.6" }}>Yes. We conduct comprehensive UX audits of existing websites and applications to identify usability issues, conversion bottlenecks, and design inconsistencies. We then redesign the experience to improve user satisfaction, increase conversions, and align the product with current best practices and user expectations.</p>
+          </div>
+          <div style={{ padding: "1.5rem", background: "rgba(255,255,255,0.02)", border: "1px solid var(--border)", borderRadius: "8px" }}>
+            <h3 style={{ fontSize: "1.2rem", marginBottom: "0.5rem" }}>Do you create brand logos and visual identities?</h3>
+            <p style={{ color: "var(--muted)", lineHeight: "1.6" }}>Yes. We offer full brand identity services including logo design, color palette development, typography selection, brand guidelines documentation, and design system creation. Our branding work ensures a cohesive, professional visual identity that resonates with your target audience.</p>
           </div>
         </div>
       </FadeIn>

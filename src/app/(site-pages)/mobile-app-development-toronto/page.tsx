@@ -37,6 +37,30 @@ export default function MobileAppDevelopmentTorontoPage() {
               "@type": "Answer",
               "text": "Native apps (built in Swift or Kotlin) offer maximum performance and deep device hardware integration. Cross-platform apps (using React Native) allow you to launch on both iOS and Android simultaneously with a single codebase, significantly reducing development time and cost."
             }
+          },
+          {
+            "@type": "Question",
+            "name": "How long does it take to build a mobile app?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "A Minimum Viable Product (MVP) typically takes 8 to 12 weeks to develop and launch. Full-featured applications with complex integrations, custom backends, and advanced UI/UX generally take 12 to 20 weeks depending on scope and platform requirements."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Do you develop for both iOS and Android?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. We develop for both platforms using native development (Swift for iOS, Kotlin for Android) for maximum performance, as well as cross-platform solutions using React Native and Flutter when simultaneous launch on both platforms is needed to reduce time and cost."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What ongoing support do you provide after launch?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "We provide comprehensive post-launch support including App Store submission management, bug fixes, performance monitoring, feature updates, analytics tracking, and version updates to stay compatible with new iOS and Android releases."
+            }
           }
         ]
       }
@@ -269,6 +293,18 @@ export default function MobileAppDevelopmentTorontoPage() {
           <div style={{ padding: "1.5rem", background: "rgba(255,255,255,0.02)", border: "1px solid var(--border)", borderRadius: "8px" }}>
             <h3 style={{ fontSize: "1.2rem", marginBottom: "0.5rem" }}>Should I build a native app or cross-platform app?</h3>
             <p style={{ color: "var(--muted)", lineHeight: "1.6" }}>Native apps (built in Swift or Kotlin) offer maximum performance and deep device hardware integration. Cross-platform apps (using React Native) allow you to launch on both iOS and Android simultaneously with a single codebase, significantly reducing development time and cost.</p>
+          </div>
+          <div style={{ padding: "1.5rem", background: "rgba(255,255,255,0.02)", border: "1px solid var(--border)", borderRadius: "8px" }}>
+            <h3 style={{ fontSize: "1.2rem", marginBottom: "0.5rem" }}>How long does it take to build a mobile app?</h3>
+            <p style={{ color: "var(--muted)", lineHeight: "1.6" }}>A Minimum Viable Product (MVP) typically takes 8 to 12 weeks to develop and launch. Full-featured applications with complex integrations, custom backends, and advanced UI/UX generally take 12 to 20 weeks depending on scope and platform requirements.</p>
+          </div>
+          <div style={{ padding: "1.5rem", background: "rgba(255,255,255,0.02)", border: "1px solid var(--border)", borderRadius: "8px" }}>
+            <h3 style={{ fontSize: "1.2rem", marginBottom: "0.5rem" }}>Do you develop for both iOS and Android?</h3>
+            <p style={{ color: "var(--muted)", lineHeight: "1.6" }}>Yes. We develop for both platforms using native development (Swift for iOS, Kotlin for Android) for maximum performance, as well as cross-platform solutions using React Native and Flutter when simultaneous launch on both platforms is needed to reduce time and cost.</p>
+          </div>
+          <div style={{ padding: "1.5rem", background: "rgba(255,255,255,0.02)", border: "1px solid var(--border)", borderRadius: "8px" }}>
+            <h3 style={{ fontSize: "1.2rem", marginBottom: "0.5rem" }}>What ongoing support do you provide after launch?</h3>
+            <p style={{ color: "var(--muted)", lineHeight: "1.6" }}>We provide comprehensive post-launch support including App Store submission management, bug fixes, performance monitoring, feature updates, analytics tracking, and version updates to stay compatible with new iOS and Android releases.</p>
           </div>
         </div>
       </FadeIn>

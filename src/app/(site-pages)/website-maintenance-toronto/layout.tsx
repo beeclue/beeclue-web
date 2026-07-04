@@ -2,12 +2,12 @@ import { Metadata } from "next";
 
 export const metadata: Metadata = {
   title:
-    "Website Maintenance Toronto | Keep Your Site Running Smoothly | Beeclue",
+    "Toronto Website Maintenance & Support Services | Beeclue",
   description:
     "Website maintenance services in Toronto. Updates, security patches, backups, and performance monitoring. Keep your website safe and fast.",
   openGraph: {
     title:
-      "Website Maintenance Toronto | Keep Your Site Running Smoothly | Beeclue",
+      "Toronto Website Maintenance & Support Services | Beeclue",
     description:
       "Website maintenance services in Toronto. Updates, security patches, backups, and performance monitoring.",
     url: "https://beeclue.com/website-maintenance-toronto",

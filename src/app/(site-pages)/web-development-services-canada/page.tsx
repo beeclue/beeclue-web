@@ -122,40 +122,12 @@ export default function WebDevelopmentServicesCanadaPage() {
     ],
   };
 
-  const breadcrumbLd = {
-    "@context": "https://schema.org",
-    "@type": "BreadcrumbList",
-    "itemListElement": [
-      {
-        "@type": "ListItem",
-        "position": 1,
-        "name": "Home",
-        "item": "https://beeclue.com",
-      },
-      {
-        "@type": "ListItem",
-        "position": 2,
-        "name": "Services",
-        "item": "https://beeclue.com/services",
-      },
-      {
-        "@type": "ListItem",
-        "position": 3,
-        "name": "Web Development Services Canada",
-      },
-    ],
-  };
-
   return (
     <main className={styles.main}>
       <ServiceTracker />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
-      />
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbLd) }}
       />
 
       {/* HERO SECTION */}
@@ -626,7 +598,7 @@ export default function WebDevelopmentServicesCanadaPage() {
         <div className={styles.scroller}>
           <div className={styles.serviceCard}>
             <h3>Next.js & React</h3>
-            <p>Modern frontend frameworks for blazing-fast用户体验</p>
+            <p>Modern frontend frameworks for blazing-fast user experiences</p>
           </div>
           <div className={styles.serviceCard}>
             <h3>Node.js & Python</h3>

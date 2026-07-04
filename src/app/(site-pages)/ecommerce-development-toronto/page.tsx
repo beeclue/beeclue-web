@@ -9,13 +9,62 @@ import ServiceTracker from "@/components/ServiceTracker";
 export default function EcommerceDevelopmentTorontoPage() {
   const jsonLd = {
     "@context": "https://schema.org",
-    "@type": "Service",
-    "serviceType": "E-Commerce Development",
-    "provider": {
-      "@type": "Organization",
-      "name": "Beeclue Tech"
-    },
-    "areaServed": "Toronto"
+    "@graph": [
+      {
+        "@type": "Service",
+        "serviceType": "E-Commerce Development",
+        "provider": {
+          "@type": "Organization",
+          "name": "Beeclue Tech"
+        },
+        "areaServed": "Toronto"
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "How much does ecommerce website development cost in Toronto?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Ecommerce development costs in Toronto vary by platform and complexity. Standard Shopify stores range from $5,000 to $15,000. Custom headless ecommerce builds using Next.js and Shopify Plus typically cost $20,000 to $60,000+. B2B wholesale portals with complex pricing and ERP integrations start at $30,000+."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Which ecommerce platform is best for my business?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Shopify is the best choice for most retail businesses due to its ease of use, reliability, and app ecosystem. Headless commerce using Next.js with Shopify Plus is ideal for brands needing maximum performance and design flexibility. WooCommerce works well for businesses already on WordPress. We recommend the right platform based on your products, budget, and growth goals."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can you migrate my store from Wix or Squarespace to Shopify?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. We handle complete platform migrations including all products, customer accounts, order history, images, and content. We also set up 301 URL redirects to preserve your SEO rankings and ensure zero loss of search visibility during the transition."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Do you build B2B wholesale portals?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. We build custom B2B ecommerce portals featuring tiered pricing, bulk ordering capabilities, purchase order management, invoice generation, customer account hierarchies, and seamless integration with your existing ERP or inventory management systems."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Will my ecommerce site be optimized for conversions?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. Conversion Rate Optimization (CRO) is built into every ecommerce project we deliver. This includes fast checkout flows, mobile-first design, strategic upsell and cross-sell placements, trust signals, and performance optimization. Our goal is to maximize every visitor's likelihood to purchase."
+            }
+          }
+        ]
+      }
+    ]
   };
   const breadcrumbs = {
     "@context": "https://schema.org",
@@ -226,6 +275,36 @@ export default function EcommerceDevelopmentTorontoPage() {
               <h3>Data-Driven Approach</h3>
               <p>Every design and technical architecture choice is backed by analytics and user behavior to maximize your ROI.</p>
             </div>
+          </div>
+        </div>
+      </FadeIn>
+
+      {/* FAQ SECTION */}
+      <FadeIn className={styles.baseSection}>
+        <div className={styles.servicesHeader}>
+          <h2>Ecommerce Development FAQs</h2>
+          <p>Common questions about building online stores and ecommerce platforms.</p>
+        </div>
+        <div style={{ maxWidth: "800px", margin: "0 auto", display: "flex", flexDirection: "column", gap: "1.5rem" }}>
+          <div style={{ padding: "1.5rem", background: "rgba(255,255,255,0.02)", border: "1px solid var(--border)", borderRadius: "8px" }}>
+            <h3 style={{ fontSize: "1.2rem", marginBottom: "0.5rem" }}>How much does ecommerce website development cost in Toronto?</h3>
+            <p style={{ color: "var(--muted)", lineHeight: "1.6" }}>Ecommerce development costs in Toronto vary by platform and complexity. Standard Shopify stores range from $5,000 to $15,000. Custom headless ecommerce builds using Next.js and Shopify Plus typically cost $20,000 to $60,000+. B2B wholesale portals with complex pricing and ERP integrations start at $30,000+.</p>
+          </div>
+          <div style={{ padding: "1.5rem", background: "rgba(255,255,255,0.02)", border: "1px solid var(--border)", borderRadius: "8px" }}>
+            <h3 style={{ fontSize: "1.2rem", marginBottom: "0.5rem" }}>Which ecommerce platform is best for my business?</h3>
+            <p style={{ color: "var(--muted)", lineHeight: "1.6" }}>Shopify is the best choice for most retail businesses due to its ease of use, reliability, and app ecosystem. Headless commerce using Next.js with Shopify Plus is ideal for brands needing maximum performance and design flexibility. WooCommerce works well for businesses already on WordPress. We recommend the right platform based on your products, budget, and growth goals.</p>
+          </div>
+          <div style={{ padding: "1.5rem", background: "rgba(255,255,255,0.02)", border: "1px solid var(--border)", borderRadius: "8px" }}>
+            <h3 style={{ fontSize: "1.2rem", marginBottom: "0.5rem" }}>Can you migrate my store from Wix or Squarespace to Shopify?</h3>
+            <p style={{ color: "var(--muted)", lineHeight: "1.6" }}>Yes. We handle complete platform migrations including all products, customer accounts, order history, images, and content. We also set up 301 URL redirects to preserve your SEO rankings and ensure zero loss of search visibility during the transition.</p>
+          </div>
+          <div style={{ padding: "1.5rem", background: "rgba(255,255,255,0.02)", border: "1px solid var(--border)", borderRadius: "8px" }}>
+            <h3 style={{ fontSize: "1.2rem", marginBottom: "0.5rem" }}>Do you build B2B wholesale portals?</h3>
+            <p style={{ color: "var(--muted)", lineHeight: "1.6" }}>Yes. We build custom B2B ecommerce portals featuring tiered pricing, bulk ordering capabilities, purchase order management, invoice generation, customer account hierarchies, and seamless integration with your existing ERP or inventory management systems.</p>
+          </div>
+          <div style={{ padding: "1.5rem", background: "rgba(255,255,255,0.02)", border: "1px solid var(--border)", borderRadius: "8px" }}>
+            <h3 style={{ fontSize: "1.2rem", marginBottom: "0.5rem" }}>Will my ecommerce site be optimized for conversions?</h3>
+            <p style={{ color: "var(--muted)", lineHeight: "1.6" }}>Yes. Conversion Rate Optimization (CRO) is built into every ecommerce project we deliver. This includes fast checkout flows, mobile-first design, strategic upsell and cross-sell placements, trust signals, and performance optimization. Our goal is to maximize every visitor's likelihood to purchase.</p>
           </div>
         </div>
       </FadeIn>

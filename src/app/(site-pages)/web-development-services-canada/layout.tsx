@@ -2,12 +2,12 @@ import { Metadata } from "next";
 
 export const metadata: Metadata = {
   title:
-    "Web Development Services Canada | Nationwide Digital Solutions | Beeclue",
+    "Professional Web Development Services Canada | Beeclue",
   description:
     "Professional web development services across Canada. Custom websites, e-commerce, and software solutions for businesses from coast to coast.",
   openGraph: {
     title:
-      "Web Development Services Canada | Nationwide Digital Solutions | Beeclue",
+      "Professional Web Development Services Canada | Beeclue",
     description:
       "Professional web development services across Canada. Custom websites, e-commerce, and software solutions.",
     url: "https://beeclue.com/web-development-services-canada",
