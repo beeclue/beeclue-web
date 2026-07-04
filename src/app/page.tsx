@@ -15,7 +15,7 @@ export default function Home() {
       <FadeIn className={styles.hero}>
         <div className={styles.heroContent}>
           {/* Visually Hidden SEO H1 */}
-          <h1 className={styles.srOnly}>Websites That Bring You Customers, Not Just Visitors</h1>
+          <h1 className={styles.srOnly}>Toronto's Premier Web Design & Software Development Agency</h1>
 
           <div className={styles.title} aria-hidden="true">
             <span className={styles.titleLine}>Websites</span>
