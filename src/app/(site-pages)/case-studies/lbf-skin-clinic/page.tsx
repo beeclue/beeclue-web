@@ -8,20 +8,32 @@ import FadeIn from "@/components/FadeIn";
 export default function LBFSkinClinicCaseStudy() {
   const jsonLd = {
     "@context": "https://schema.org",
-    "@type": "CaseStudy",
-    "name": "LBF Skin Clinic — Digital Presence",
-    "description": "Strong and elegant digital presence reflecting the clinic's focus on beauty, skincare, and client trust",
-    "datePublished": "2024-04-01",
-    "dateModified": "2024-09-05",
-    "image": "https://cdn.jsdelivr.net/gh/beeclue/clients@main/self/lbf-skin-clinic.webp",
-    "author": {
-      "@type": "Organization",
-      "name": "Beeclue"
-    },
-    "publisher": {
-      "@type": "Organization",
-      "name": "Beeclue"
-    }
+    "@graph": [
+      {
+        "@type": "CaseStudy",
+        "name": "LBF Skin Clinic — Digital Presence",
+        "description": "Strong and elegant digital presence reflecting the clinic's focus on beauty, skincare, and client trust",
+        "datePublished": "2024-04-01",
+        "dateModified": "2024-09-05",
+        "image": "https://cdn.jsdelivr.net/gh/beeclue/clients@main/self/lbf-skin-clinic.webp",
+        "author": {
+          "@type": "Organization",
+          "name": "Beeclue"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "Beeclue"
+        }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://beeclue.com" },
+          { "@type": "ListItem", "position": 2, "name": "Case Studies", "item": "https://beeclue.com/case-studies" },
+          { "@type": "ListItem", "position": 3, "name": "LBF Skin Clinic — Digital Presence" }
+        ]
+      }
+    ]
   };
 
   return (

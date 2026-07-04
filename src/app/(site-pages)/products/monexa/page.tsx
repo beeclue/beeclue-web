@@ -7,19 +7,31 @@ import FadeIn from "@/components/FadeIn";
 export default function MonexaProductPage() {
   const jsonLd = {
     "@context": "https://schema.org",
-    "@type": "SoftwareApplication",
-    "name": "Monexa",
-    "operatingSystem": "Web",
-    "applicationCategory": "FinanceApplication",
-    "offers": {
-      "@type": "Offer",
-      "price": "0",
-      "priceCurrency": "USD"
-    },
-    "publisher": {
-      "@type": "Organization",
-      "name": "Beeclue Tech"
-    }
+    "@graph": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "Monexa",
+        "operatingSystem": "Web",
+        "applicationCategory": "FinanceApplication",
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "USD"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "Beeclue Tech"
+        }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://beeclue.com" },
+          { "@type": "ListItem", "position": 2, "name": "Products", "item": "https://beeclue.com/products" },
+          { "@type": "ListItem", "position": 3, "name": "Monexa" }
+        ]
+      }
+    ]
   };
 
   return (

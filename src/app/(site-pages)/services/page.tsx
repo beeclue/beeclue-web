@@ -8,10 +8,21 @@ import FadeIn from "@/components/FadeIn";
 export default function ServicesPage() {
   const jsonLd = {
     "@context": "https://schema.org",
-    "@type": "CollectionPage",
-    "name": "Beeclue Tech Services",
-    "description": "Explore the range of digital services offered by Beeclue Tech including Web Design, Custom Software, and SEO.",
-    "url": "https://beeclue.com/services"
+    "@graph": [
+      {
+        "@type": "CollectionPage",
+        "name": "Beeclue Tech Services",
+        "description": "Explore the range of digital services offered by Beeclue Tech including Web Design, Custom Software, and SEO.",
+        "url": "https://beeclue.com/services"
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://beeclue.com" },
+          { "@type": "ListItem", "position": 2, "name": "Services" }
+        ]
+      }
+    ]
   };
 
   return (

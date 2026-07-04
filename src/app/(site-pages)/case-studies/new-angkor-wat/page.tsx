@@ -13,20 +13,32 @@ export const metadata: Metadata = {
 export default function NewAngkorWatCaseStudy() {
   const jsonLd = {
     "@context": "https://schema.org",
-    "@type": "CaseStudy",
-    "name": "New Angkor Wat — Digital Platform",
-    "description": "Comprehensive digital platform promoting book and charitable organization",
-    "datePublished": "2024-01-15",
-    "dateModified": "2024-06-20",
-    "image": "https://cdn.jsdelivr.net/gh/beeclue/clients@main/self/newangkorwat.webp",
-    "author": {
-      "@type": "Organization",
-      "name": "Beeclue"
-    },
-    "publisher": {
-      "@type": "Organization",
-      "name": "Beeclue"
-    }
+    "@graph": [
+      {
+        "@type": "CaseStudy",
+        "name": "New Angkor Wat — Digital Platform",
+        "description": "Comprehensive digital platform promoting book and charitable organization",
+        "datePublished": "2024-01-15",
+        "dateModified": "2024-06-20",
+        "image": "https://cdn.jsdelivr.net/gh/beeclue/clients@main/self/newangkorwat.webp",
+        "author": {
+          "@type": "Organization",
+          "name": "Beeclue"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "Beeclue"
+        }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://beeclue.com" },
+          { "@type": "ListItem", "position": 2, "name": "Case Studies", "item": "https://beeclue.com/case-studies" },
+          { "@type": "ListItem", "position": 3, "name": "New Angkor Wat — Digital Platform" }
+        ]
+      }
+    ]
   };
 
   return (

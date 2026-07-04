@@ -8,20 +8,32 @@ import FadeIn from "@/components/FadeIn";
 export default function BluesContractingCaseStudy() {
   const jsonLd = {
     "@context": "https://schema.org",
-    "@type": "CaseStudy",
-    "name": "Blues Contracting Services — Digital Transformation",
-    "description": "Professional digital presence highlighting construction expertise and building client trust",
-    "datePublished": "2024-02-10",
-    "dateModified": "2024-07-15",
-    "image": "https://cdn.jsdelivr.net/gh/beeclue/clients@main/self/blues-contracting-services.webp",
-    "author": {
-      "@type": "Organization",
-      "name": "Beeclue"
-    },
-    "publisher": {
-      "@type": "Organization",
-      "name": "Beeclue"
-    }
+    "@graph": [
+      {
+        "@type": "CaseStudy",
+        "name": "Blues Contracting Services — Digital Transformation",
+        "description": "Professional digital presence highlighting construction expertise and building client trust",
+        "datePublished": "2024-02-10",
+        "dateModified": "2024-07-15",
+        "image": "https://cdn.jsdelivr.net/gh/beeclue/clients@main/self/blues-contracting-services.webp",
+        "author": {
+          "@type": "Organization",
+          "name": "Beeclue"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "Beeclue"
+        }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://beeclue.com" },
+          { "@type": "ListItem", "position": 2, "name": "Case Studies", "item": "https://beeclue.com/case-studies" },
+          { "@type": "ListItem", "position": 3, "name": "Blues Contracting Services — Digital Transformation" }
+        ]
+      }
+    ]
   };
 
   return (
