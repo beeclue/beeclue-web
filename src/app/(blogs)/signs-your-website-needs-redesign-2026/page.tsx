@@ -4,20 +4,20 @@ import Link from 'next/link';
 import blogStyles from '../shared-blog.module.css';
 
 export const metadata: Metadata = {
-  title: '10 Signs Your Website Needs a Redesign in 2026 | Beeclue',
-  description: 'Is your website costing you customers? Discover the 10 critical signs your website needs a redesign in 2026 and how a modern site drives revenue.',
+  title: 'How to Fix the "Not Secure" Website Warning in 2026 | Beeclue',
+  description: 'Seeing a Not Secure warning on your website? Learn what causes it and exactly how to fix it with SSL certificates. Step-by-step guide for 2026.',
 };
 
-export default function SignsWebsiteNeedsRedesign2026() {
+export default function FixNotSecureWebsiteWarning2026() {
   const jsonLd = {
     "@context": "https://schema.org",
-    "@type": "Article",
+    "@type": "BlogPosting",
     "mainEntityOfPage": {
       "@type": "WebPage",
       "@id": "https://beeclue.com/signs-your-website-needs-redesign-2026"
     },
-    "headline": "10 Signs Your Website Needs a Redesign in 2026",
-    "description": "Is your website costing you customers? Discover the 10 critical signs your website needs a redesign in 2026 and how a modern site drives revenue.",
+    "headline": "How to Fix the \"Not Secure\" Website Warning in 2026",
+    "description": "Seeing a Not Secure warning on your website? Learn what causes it and exactly how to fix it with SSL certificates. Step-by-step guide for 2026.",
     "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&auto=format&fit=crop&w=2400&q=80",
     "author": {
       "@type": "Person",
@@ -42,7 +42,7 @@ export default function SignsWebsiteNeedsRedesign2026() {
     "itemListElement": [
       { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://beeclue.com/" },
       { "@type": "ListItem", "position": 2, "name": "Blogs", "item": "https://beeclue.com/blogs" },
-      { "@type": "ListItem", "position": 3, "name": "10 Signs Your Website Needs a Redesign in 2026", "item": "https://beeclue.com/signs-your-website-needs-redesign-2026" }
+      { "@type": "ListItem", "position": 3, "name": "Fix Not Secure Website Warning 2026", "item": "https://beeclue.com/signs-your-website-needs-redesign-2026" }
     ]
   };
 
@@ -53,18 +53,18 @@ export default function SignsWebsiteNeedsRedesign2026() {
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbs) }} />
 
         <header className={blogStyles.blogHeader}>
-          <h1 className={blogStyles.blogTitle}>10 Signs Your Website Needs a Redesign in 2026</h1>
+          <h1 className={blogStyles.blogTitle}>How to Fix the &ldquo;Not Secure&rdquo; Website Warning in 2026</h1>
           <div className={blogStyles.blogMeta}>
             <span>By Beeclue Tech</span>
             <span>&bull;</span>
-            <span>Web Design &amp; Strategy</span>
+            <span>Security &amp; Web Development</span>
           </div>
         </header>
 
         <div className={blogStyles.heroImageContainer}>
           <Image
             src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&auto=format&fit=crop&w=2400&q=80"
-            alt="Business owner analyzing website performance metrics on a laptop"
+            alt="Business owner fixing a not secure website warning by installing an SSL certificate"
             fill
             priority
             sizes="(max-width: 768px) 100vw, 100vw"
@@ -74,142 +74,188 @@ export default function SignsWebsiteNeedsRedesign2026() {
 
         <div className={blogStyles.blogContent}>
           <p>
-            Your website is your most important digital asset. It works 24/7, represents your brand, and converts visitors into customers. But if your site was built three or more years ago, there&apos;s a strong chance it&apos;s quietly costing you money. Outdated design, poor performance, and broken user experiences don&apos;t just look bad — they drive customers straight to your competitors.
+            If your website displays a &ldquo;Not Secure&rdquo; warning in the browser address bar, you&apos;re losing customers every single day. 85% of online shoppers avoid websites without SSL encryption, and Google actively penalizes non-HTTPS sites in search rankings. The good news: fixing the not secure website warning is simpler and cheaper than you think.
           </p>
 
           <p>
-            Here are 10 critical signs that your website needs a redesign in 2026, and why acting now could be the most important business decision you make this year.
-          </p>
-
-          <div className={blogStyles.highlightBox}>
-            <p>
-              75% of users judge a company&apos;s credibility based on their website design. If your site looks outdated, visitors assume your business is too.
-            </p>
-          </div>
-
-          <h2>1. Your Site Isn&apos;t Mobile-Friendly</h2>
-          <p>
-            Over 60% of web traffic now comes from mobile devices. If your website doesn&apos;t provide a seamless experience on phones and tablets, you&apos;re losing the majority of your potential customers before they even see what you offer.
-          </p>
-          <p>
-            A mobile-friendly website means more than just &ldquo;it doesn&apos;t break on a phone.&rdquo; It means buttons are easy to tap, text is readable without zooming, images load quickly on cellular connections, and navigation works intuitively with one hand.
-          </p>
-          <p>
-            Google also uses mobile-first indexing, which means it primarily looks at your mobile site when deciding where to rank you. A poor mobile experience directly impacts your <Link href="/seo-services-toronto" className={blogStyles.internalLink}>SEO rankings</Link>.
-          </p>
-
-          <h2>2. Your Website Is Slow</h2>
-          <p>
-            Page speed is one of the most critical factors for both user experience and SEO. Studies show that 53% of mobile users abandon a site that takes longer than 3 seconds to load. Every additional second of load time reduces conversions by 7%.
-          </p>
-          <p>
-            Common causes of slow websites include unoptimized images, too many plugins, bloated code, cheap shared hosting, and lack of caching. If your site takes more than 3 seconds to load, it&apos;s time for a <Link href="/website-redesign-toronto" className={blogStyles.internalLink}>professional website redesign</Link> focused on performance.
-          </p>
-
-          <h2>3. Your Design Looks Outdated</h2>
-          <p>
-            Web design trends evolve rapidly. A site that looked great in 2020 may look dated in 2026. Flat design has given way to glassmorphism, dark mode support is now expected, and interactive elements are the norm. An outdated design signals to visitors that your business may not be keeping up with the times either.
-          </p>
-          <p>
-            First impressions matter. Research from Stanford University found that 75% of users judge a company&apos;s credibility based on their website design. An outdated design can cost you trust before visitors even read a word of your content.
-          </p>
-
-          <h2>4. Your Conversion Rate Is Dropping</h2>
-          <p>
-            If your website traffic is stable or growing but your conversions (leads, sales, signups) are declining, your website design is likely the problem. Poor call-to-action placement, confusing navigation, and cluttered layouts all kill conversions.
-          </p>
-          <p>
-            A website redesign focused on conversion rate optimization (CRO) can dramatically improve your results. Simple changes like clearer CTAs, streamlined checkout processes, and better page layouts can increase conversions by 200% or more.
-          </p>
-
-          <h2>5. You Can&apos;t Update Content Easily</h2>
-          <p>
-            If you need to call your developer every time you want to update a phone number, change a price, or add a new blog post, your website is working against you. Modern websites should have a user-friendly content management system (CMS) that lets your team make updates without technical knowledge.
-          </p>
-          <p>
-            WordPress, the CMS powering 43% of all websites, has made massive strides in ease of use. If your current site doesn&apos;t have a modern CMS, a <Link href="/website-maintenance-toronto" className={blogStyles.internalLink}>website redesign with a modern CMS</Link> will save your team hours every month.
-          </p>
-
-          <h2>6. Your SEO Rankings Are Declining</h2>
-          <p>
-            If your search rankings have been slipping despite consistent content efforts, your website&apos;s technical foundation may be the problem. Outdated code, poor site structure, missing schema markup, slow page speed, and non-responsive design all hurt your SEO.
-          </p>
-          <p>
-            A redesign gives you the opportunity to fix these technical SEO issues from the ground up. Proper heading hierarchy, clean URL structures, fast load times, and mobile responsiveness all contribute to higher rankings.
+            This step-by-step guide explains what causes the not secure warning, how to fix it with an SSL certificate, and when to get professional help. Whether you&apos;re on WordPress, Shopify, Wix, or a custom server, this guide covers every scenario.
           </p>
 
           <div className={blogStyles.highlightBox}>
             <p>
-              A website redesign isn&apos;t just about looks — it&apos;s about building a high-performance machine that ranks higher, loads faster, and converts better.
+              85% of online shoppers avoid unencrypted websites. If your site shows a Not Secure warning, you&apos;re losing the vast majority of potential customers before they even see what you offer. The fix costs $0-$200/year.
             </p>
           </div>
 
-          <h2>7. Your Competitors Have Better Websites</h2>
+          <h2>What Causes the &ldquo;Not Secure&rdquo; Warning?</h2>
           <p>
-            Your competitors are investing in their online presence. If their websites look more professional, load faster, and provide a better user experience, potential customers will choose them over you — even if your products or services are superior.
+            The Not Secure warning appears when your website uses HTTP (Hypertext Transfer Protocol) instead of HTTPS (HTTP Secure). The &ldquo;S&rdquo; stands for &ldquo;Secure,&rdquo; and it means the connection between your website and your visitor&apos;s browser is encrypted.
           </p>
           <p>
-            Regularly check what your top 5 competitors are doing online. If their sites are clearly more modern and functional, it&apos;s time to close the gap.
-          </p>
-
-          <h2>8. Your Bounce Rate Is High</h2>
-          <p>
-            A high bounce rate (over 50%) means visitors are leaving your site almost immediately after arriving. This signals that your site isn&apos;t meeting visitor expectations — whether through slow load times, confusing navigation, poor content layout, or irrelevant information.
+            Without encryption, any data transmitted between your site and the visitor — form submissions, login credentials, payment information, personal details — can be intercepted by hackers. Modern browsers now explicitly warn users when they visit an unencrypted site.
           </p>
           <p>
-            Use Google Analytics to check your bounce rate by page. If specific pages have extremely high bounce rates, those pages need immediate attention during a redesign.
+            Chrome, which commands over 65% of the browser market, displays &ldquo;Not Secure&rdquo; in the address bar for all HTTP pages. This isn&apos;t a suggestion — it&apos;s a hard warning that actively drives visitors away. If you&apos;re seeing this warning, it&apos;s time to learn <Link href="/seo-services-toronto" className={blogStyles.internalLink}>how SSL impacts your SEO</Link> and fix it immediately.
           </p>
 
-          <h2>9. You&apos;ve Rebranded or Changed Services</h2>
+          <h2>Why the Warning Is Destroying Your Business</h2>
           <p>
-            If your business has undergone a rebrand, changed its target audience, or significantly expanded its services, your website should reflect those changes. A website that doesn&apos;t match your current brand identity creates confusion and erodes trust.
-          </p>
-          <p>
-            Your website should tell the story of who you are today, not who you were three years ago. A <Link href="/web-design-toronto" className={blogStyles.internalLink}>professional website redesign</Link> ensures your online presence aligns with your current business strategy.
-          </p>
-
-          <h2>10. Your Site Isn&apos;t Secure</h2>
-          <p>
-            If your website is still running on HTTP instead of HTTPS, browsers are actively warning visitors that your site is &ldquo;Not Secure.&rdquo; This warning destroys trust instantly and causes visitors to leave before they even see your content.
-          </p>
-          <p>
-            Beyond trust, Google explicitly penalizes non-HTTPS sites in search rankings. If you haven&apos;t migrated to SSL, you&apos;re losing both customers and search visibility. For a complete guide, read our article on <Link href="/not-secure-website-losing-customers" className={blogStyles.internalLink}>why a &apos;Not Secure&apos; website is losing you customers</Link>.
-          </p>
-
-          <h2>What a Modern Website Redesign Delivers</h2>
-          <p>
-            A professional website redesign isn&apos;t just a cosmetic facelift. It&apos;s a strategic investment that delivers measurable business results:
+            The Not Secure warning has measurable, negative impacts on your business:
           </p>
           <ul>
-            <li><strong>Higher conversion rates:</strong> Better design and UX turn more visitors into customers</li>
-            <li><strong>Improved SEO:</strong> Modern technical SEO helps you rank higher in search results</li>
-            <li><strong>Faster performance:</strong> Optimized code and images mean faster load times</li>
-            <li><strong>Mobile-first design:</strong> Seamless experience across all devices</li>
-            <li><strong>Better security:</strong> Updated SSL, security patches, and modern frameworks</li>
-            <li><strong>Easier maintenance:</strong> Modern CMS makes content updates simple</li>
-            <li><strong>Brand alignment:</strong> Your website reflects your current brand identity</li>
-            <li><strong>Competitive advantage:</strong> Stand out from competitors with outdated sites</li>
+            <li><strong>Lost trust:</strong> Visitors immediately assume your site is unsafe, unprofessional, or potentially malicious</li>
+            <li><strong>Google penalties:</strong> HTTPS has been a ranking signal since 2014 — non-SSL sites rank lower</li>
+            <li><strong>Lower conversions:</strong> Security warnings reduce conversion rates by 30% or more</li>
+            <li><strong>Blocked forms:</strong> Chrome and other browsers actively block form submissions on HTTP pages</li>
+            <li><strong>Lost revenue:</strong> For a business doing $10,000/month online, the warning can cost $3,000/month in lost sales</li>
           </ul>
 
-          <h2>How Often Should You Redesign?</h2>
+          <div className={blogStyles.highlightBox}>
+            <p>
+              A website without SSL is like a store with a Closed sign in the window. Customers see the warning, assume you&apos;re not open for business, and walk away.
+            </p>
+          </div>
+
+          <h2>Step-by-Step: How to Fix the Not Secure Warning</h2>
           <p>
-            Most businesses should consider a website redesign every 2-3 years. However, you don&apos;t always need a complete overhaul. Sometimes a focused redesign of key pages, improved performance optimization, or a fresh design system can accomplish what you need at a fraction of the cost.
-          </p>
-          <p>
-            The key is to stay proactive. Don&apos;t wait until your site is completely outdated and losing customers. Regular <Link href="/website-maintenance-toronto" className={blogStyles.internalLink}>website maintenance and updates</Link> can extend the life of your current site while you plan for a major redesign.
+            Fixing the not secure website warning requires installing an SSL certificate and properly redirecting all HTTP traffic to HTTPS. Here&apos;s exactly how to do it.
           </p>
 
-          <h2>Take the First Step</h2>
+          <h3>Step 1: Get an SSL Certificate</h3>
           <p>
-            If you recognized your website in three or more of these signs, it&apos;s time for a redesign. The good news? A modern website redesign is faster, more affordable, and more impactful than ever before.
+            There are several options for obtaining an SSL certificate:
+          </p>
+          <ul>
+            <li><strong>Free SSL (Let&apos;s Encrypt):</strong> Most hosting providers offer free SSL certificates through Let&apos;s Encrypt. This is sufficient for most websites and small businesses.</li>
+            <li><strong>Paid SSL certificates:</strong> Cost $50-$200/year and provide warranty coverage and extended validation. Recommended for e-commerce and financial sites.</li>
+            <li><strong>Hosting-included SSL:</strong> Many managed hosting providers include free SSL with their plans.</li>
+          </ul>
+
+          <h3>Step 2: Install the Certificate</h3>
+          <p>
+            The installation process varies depending on your hosting provider. Most modern hosts make this a one-click process through their control panel. If you&apos;re on WordPress.com, Shopify, Wix, or Squarespace, SSL is included and enabled by default.
           </p>
           <p>
-            <Link href="/contact" className={blogStyles.internalLink}>Contact Beeclue Tech today</Link> for a free website audit. We&apos;ll analyze your current site, identify the biggest issues, and recommend a redesign strategy that delivers real business results. No pressure, no sales pitch — just honest expert advice.
+            For self-hosted sites (WordPress on shared hosting, custom servers), you may need to:
+          </p>
+          <ol>
+            <li>Log into your hosting control panel (cPanel, Plesk, etc.)</li>
+            <li>Navigate to the SSL/TLS section</li>
+            <li>Generate or upload your certificate</li>
+            <li>Enable SSL for your domain</li>
+          </ol>
+
+          <h3>Step 3: Redirect HTTP to HTTPS</h3>
+          <p>
+            After installing the SSL certificate, you need to force all traffic from HTTP to HTTPS. Without this step, visitors can still access your insecure HTTP version. Add this rule to your <code>.htaccess</code> file (Apache servers):
+          </p>
+          <div style={{ background: 'rgba(0, 0, 0, 0.4)', padding: '1.5rem', borderRadius: '12px', margin: '1.5rem 0', overflowX: 'auto' }}>
+            <pre style={{ color: '#e2e8f0', fontSize: '0.9rem', margin: 0, whiteSpace: 'pre-wrap' }}>
+              {`RewriteEngine On\nRewriteCond %{HTTPS} off\nRewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]`}
+            </pre>
+          </div>
+          <p>
+            For Nginx servers, add a similar redirect rule in your server configuration block.
+          </p>
+
+          <h3>Step 4: Update Internal Links</h3>
+          <p>
+            Search your site for any hardcoded HTTP links (images, stylesheets, scripts, internal links) and update them to HTTPS. Mixed content — where an HTTPS page loads resources over HTTP — triggers browser warnings and can break your site&apos;s security.
+          </p>
+
+          <h3>Step 5: Update Google Search Console</h3>
+          <p>
+            If you use Google Search Console, add the HTTPS version of your site as a new property. This ensures Google properly indexes your secure pages and transfers your SEO value. For more on how this impacts your rankings, see our <Link href="/seo-services-toronto" className={blogStyles.internalLink}>SEO services guide</Link>.
+          </p>
+
+          <h3>Step 6: Test Everything</h3>
+          <p>
+            After making the switch, test your site thoroughly:
+          </p>
+          <ul>
+            <li>Visit every page and confirm the padlock icon appears</li>
+            <li>Test all forms and checkout processes</li>
+            <li>Check for mixed content warnings in the browser console</li>
+            <li>Use an SSL checker tool to verify your certificate</li>
+            <li>Run Google PageSpeed Insights to check for issues</li>
+          </ul>
+
+          <h2>Platform-Specific SSL Instructions</h2>
+
+          <h3>WordPress</h3>
+          <p>
+            Most WordPress hosting providers (SiteGround, Bluehost, WP Engine, Cloudways) include free SSL. Enable it through your hosting control panel or use a plugin like Really Simple SSL to handle the migration automatically.
+          </p>
+
+          <h3>Shopify</h3>
+          <p>
+            SSL is automatically enabled on all Shopify stores. If you&apos;re seeing a Not Secure warning on Shopify, it&apos;s likely a mixed content issue from an external resource. Check your theme and apps for HTTP resources.
+          </p>
+
+          <h3>Wix / Squarespace</h3>
+          <p>
+            Both platforms include SSL by default. If you&apos;ve recently connected a custom domain, SSL may take up to 24 hours to activate. Check your platform&apos;s settings panel to confirm SSL is enabled.
+          </p>
+
+          <h3>Custom Servers</h3>
+          <p>
+            For custom server configurations, you may need to configure your web server (Apache or Nginx) to use the SSL certificate. This typically involves updating your virtual host configuration and adding redirect rules.
+          </p>
+
+          <h2>When to Get Professional Help</h2>
+          <p>
+            While SSL installation can be straightforward for simple sites, some situations require professional expertise:
+          </p>
+          <ul>
+            <li>Your site has complex server configurations (custom Nginx, load balancers, CDNs)</li>
+            <li>You have multiple domains or subdomains that need SSL</li>
+            <li>After installing SSL, your site is showing errors or mixed content warnings</li>
+            <li>You need an Extended Validation (EV) certificate for an e-commerce store</li>
+            <li>You want to ensure proper 301 redirects are in place to preserve SEO rankings</li>
+          </ul>
+          <p>
+            A <Link href="/web-design-toronto" className={blogStyles.internalLink}>professional web design team</Link> can handle SSL installation, redirect configuration, and ongoing security monitoring as part of a comprehensive package.
+          </p>
+
+          <h2>Beyond SSL: Complete Website Security</h2>
+          <p>
+            SSL is the minimum requirement for website security, but it&apos;s not the only thing you need. For a comprehensive look at why security matters, read our guide on <Link href="/not-secure-website-losing-customers" className={blogStyles.internalLink}>why a Not Secure website is losing you customers</Link>. A truly secure website also requires:
+          </p>
+          <ul>
+            <li><strong>Regular updates:</strong> Keep your CMS, themes, plugins, and server software updated</li>
+            <li><strong>Strong passwords:</strong> Use unique, complex passwords for all accounts</li>
+            <li><strong>Firewall protection:</strong> Web application firewalls (WAF) block malicious traffic</li>
+            <li><strong>Backup strategy:</strong> Regular backups ensure you can recover from any attack</li>
+            <li><strong>Malware scanning:</strong> Proactive scanning detects threats before they cause damage</li>
+            <li><strong>DDoS protection:</strong> Protect against denial-of-service attacks that take your site offline</li>
+          </ul>
+
+          <h2>The Business Case for Fixing SSL Today</h2>
+          <p>
+            Let&apos;s put real numbers on the impact:
+          </p>
+          <ul>
+            <li><strong>Before SSL:</strong> 85% of visitors leave immediately. 30% lower conversion rate. Penalized in Google rankings. Forms may be blocked.</li>
+            <li><strong>After SSL:</strong> Full visitor trust. No browser warnings. Improved SEO rankings. Forms work properly. Professional credibility restored.</li>
+          </ul>
+          <p>
+            For a business generating $10,000/month online, fixing the Not Secure warning could recover $3,000/month in lost revenue — $36,000 per year. The cost of SSL? Often $0 (free Let&apos;s Encrypt) or $50-200/year for premium certificates. The ROI is extraordinary.
           </p>
 
           <div className={blogStyles.highlightBox}>
             <p>
-              Not sure if your website needs a redesign? <Link href="/contact" className={blogStyles.internalLink}>Get a free website audit</Link> from our team and find out exactly where you stand.
+              Don&apos;t wait another day. Every day your website shows the Not Secure warning, you&apos;re losing customers to competitors who invested in basic security.
+            </p>
+          </div>
+
+          <h2>Get Professional Help Fixing Your Website Security</h2>
+          <p>
+            If you need help implementing SSL or want a comprehensive security audit for your website, <Link href="/contact" className={blogStyles.internalLink}>contact Beeclue Tech today</Link>. We&apos;ll ensure your site is secure, trusted, and converting at its full potential — often in the same day.
+          </p>
+
+          <div className={blogStyles.highlightBox}>
+            <p>
+              Is your website showing the Not Secure warning? <Link href="/contact" className={blogStyles.internalLink}>Get in touch with our team</Link> and we&apos;ll fix it — often in the same day.
             </p>
           </div>
         </div>

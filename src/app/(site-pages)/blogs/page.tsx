@@ -37,16 +37,16 @@ export default function BlogsPage() {
             <div className={styles.caseStudyListImage} style={{ position: "relative" }}>
               <Image 
                 src="https://images.unsplash.com/photo-1563206767-5b18f218e8de?ixlib=rb-4.0.3&auto=format&fit=crop&w=2400&q=80" 
-                alt="Red padlock warning symbol representing a not secure website" 
+                alt="Business owner comparing custom website development, Wix, and Shopify options" 
                 fill
                 sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                 style={{ objectFit: "cover" }}
               />
             </div>
             <div className={styles.caseStudyListContent}>
-              <h2>Why Your &ldquo;Not Secure&rdquo; Website Is Losing Customers</h2>
+              <h2>Custom Website vs Wix vs Shopify: Which Is Right for Your Business?</h2>
               <p>
-                A Not Secure warning destroys trust and kills conversions. Learn why your website is losing customers and exactly how to fix it with SSL in 2026.
+                Compare custom website development vs Wix vs Shopify for your business in 2026. Find the right platform with our detailed comparison of cost, features, and scalability.
               </p>
               <div>
                 <Link href="/not-secure-website-losing-customers" className={styles.ctaButtonLight}>
@@ -60,16 +60,16 @@ export default function BlogsPage() {
             <div className={styles.caseStudyListImage} style={{ position: "relative" }}>
               <Image 
                 src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&auto=format&fit=crop&w=2400&q=80" 
-                alt="Business owner analyzing website performance metrics on a laptop" 
+                alt="Business owner fixing a not secure website warning by installing an SSL certificate" 
                 fill
                 sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                 style={{ objectFit: "cover" }}
               />
             </div>
             <div className={styles.caseStudyListContent}>
-              <h2>10 Signs Your Website Needs a Redesign in 2026</h2>
+              <h2>How to Fix the &ldquo;Not Secure&rdquo; Website Warning in 2026</h2>
               <p>
-                Is your website costing you customers? Discover the 10 critical signs your website needs a redesign in 2026 and how a modern site drives revenue.
+                Seeing a Not Secure warning on your website? Learn what causes it and exactly how to fix it with SSL certificates. Step-by-step guide for 2026.
               </p>
               <div>
                 <Link href="/signs-your-website-needs-redesign-2026" className={styles.ctaButtonLight}>
@@ -83,16 +83,16 @@ export default function BlogsPage() {
             <div className={styles.caseStudyListImage} style={{ position: "relative" }}>
               <Image 
                 src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?ixlib=rb-4.0.3&auto=format&fit=crop&w=2400&q=80" 
-                alt="Canadian e-commerce store owner comparing Shopify and custom development options" 
+                alt="Canadian e-commerce store owner comparing Shopify, WooCommerce, BigCommerce, and custom development options" 
                 fill
                 sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                 style={{ objectFit: "cover" }}
               />
             </div>
             <div className={styles.caseStudyListContent}>
-              <h2>Shopify vs Custom E-Commerce: Which Is Right for Your Canadian Business?</h2>
+              <h2>Best E-Commerce Platforms Canada 2026: Shopify vs WooCommerce vs BigCommerce vs Custom</h2>
               <p>
-                Compare Shopify vs custom e-commerce development for Canadian businesses. Find out which platform delivers better ROI for your online store in 2026.
+                Compare the best e-commerce platforms in Canada for 2026. Shopify vs WooCommerce vs BigCommerce vs Custom development — find the right ecommerce website builder for your Canadian business.
               </p>
               <div>
                 <Link href="/shopify-vs-custom-ecommerce-canada" className={styles.ctaButtonLight}>
@@ -106,16 +106,16 @@ export default function BlogsPage() {
             <div className={styles.caseStudyListImage} style={{ position: "relative" }}>
               <Image 
                 src="https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?ixlib=rb-4.0.3&auto=format&fit=crop&w=2400&q=80" 
-                alt="Canadian business owner reviewing website design costs on a laptop" 
+                alt="Toronto business owner reviewing website design costs on a laptop" 
                 fill
                 sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                 style={{ objectFit: "cover" }}
               />
             </div>
             <div className={styles.caseStudyListContent}>
-              <h2>How Much Does a Website Cost in Canada in 2026?</h2>
+              <h2>How Much Does a Website Cost in Toronto in 2026? A Complete Guide</h2>
               <p>
-                A complete guide to website costs in Canada for 2026. Compare pricing for brochure, e-commerce, and custom websites with ROI breakdowns and expert tips.
+                A complete guide to website costs in Toronto for 2026. Compare pricing for brochure, e-commerce, and custom websites with ROI breakdowns and expert tips for Toronto businesses.
               </p>
               <div>
                 <Link href="/how-much-does-a-website-cost-in-canada-in-2026" className={styles.ctaButtonLight}>
