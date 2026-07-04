@@ -55,4 +55,5 @@ next-env.d.ts
 # local tools
 .opencode
 .superpowers
+docs
 
