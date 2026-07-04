@@ -216,16 +216,21 @@ export default function EcommerceWebsiteCostCanadaPage() {
               cost?&quot; It&apos;s a fair question — and the answer depends on
               several factors including your platform choice, the complexity of
               your product catalog, custom features, and whether you hire a
-              professional developer or go the DIY route.
+              professional developer or go the DIY route. The e-commerce
+              landscape in Canada is thriving, with online sales projected to
+              exceed $100 billion in 2026, making it more important than ever
+              to have a professional, high-performing online store.
             </p>
             <p>
               At Beeclue Tech, we&apos;ve built hundreds of e-commerce stores
-              for Canadian businesses across every industry. We&apos;ve seen
-              businesses waste thousands on over-engineered solutions and others
-              lose revenue because they under-invested in critical
-              functionality. This guide shares transparent, real-world pricing
-              so you can make informed decisions about your e-commerce
-              investment.
+              for Canadian businesses across every industry — from boutique
+              fashion retailers in Toronto to specialty food producers in
+              Vancouver. We&apos;ve seen businesses waste thousands on
+              over-engineered solutions and others lose revenue because they
+              under-invested in critical functionality. This guide shares
+              transparent, real-world pricing based on our experience building
+              e-commerce stores for Canadian businesses, so you can make informed
+              decisions about your e-commerce investment.
             </p>
             <p>
               The truth is, the cost of your e-commerce website directly
@@ -234,7 +239,16 @@ export default function EcommerceWebsiteCostCanadaPage() {
               they&apos;re different in conversion rates, page speed, SEO
               visibility, and scalability. Understanding what you&apos;re paying
               for helps you invest wisely and avoid the trap of choosing the
-              cheapest option that costs you sales.
+              cheapest option that costs you sales in the long run.
+            </p>
+            <p>
+              Canadian e-commerce businesses face unique considerations that
+              affect pricing. These include GST/HST tax compliance, Canadian
+              payment processor integration, bilingual support for Quebec
+              markets, cross-border shipping with U.S. suppliers, and adherence
+              to Canadian privacy laws like PIPEDA. A developer who understands
+              these requirements will build a store that&apos;s compliant from
+              day one, saving you from costly fixes down the road.
             </p>
           </div>
 
@@ -272,6 +286,18 @@ export default function EcommerceWebsiteCostCanadaPage() {
                   Third-party integrations: ERP, CRM, shipping, accounting
                 </span>
               </div>
+              <div className={styles.luxuryCheckItem}>
+                <Check size={24} color="var(--primary-light)" />
+                <span>
+                  Developer location: Canadian vs. offshore rates
+                </span>
+              </div>
+              <div className={styles.luxuryCheckItem}>
+                <Check size={24} color="var(--primary-light)" />
+                <span>
+                  Ongoing maintenance and support requirements
+                </span>
+              </div>
             </div>
           </div>
         </div>
@@ -283,7 +309,12 @@ export default function EcommerceWebsiteCostCanadaPage() {
           <h2>E-Commerce Website Cost by Platform</h2>
           <p>
             Here&apos;s what Canadian businesses typically pay for each major
-            e-commerce platform in 2026.
+            e-commerce platform in 2026. These costs include both the initial
+            build and ongoing monthly expenses. Each platform has its own
+            strengths, and the right choice depends on your business size,
+            technical requirements, and growth plans. Understanding these
+            cost structures helps you make an informed decision that aligns
+            with your budget and business goals.
           </p>
         </div>
         <div className={styles.scroller}>
@@ -297,7 +328,10 @@ export default function EcommerceWebsiteCostCanadaPage() {
               <br /><br />
               Best for small to medium businesses. Includes hosting, SSL, and
               basic features. Theme customization and apps add to the cost.
-              Transaction fees apply unless using Shopify Payments.
+              Transaction fees apply unless using Shopify Payments. Shopify&apos;s
+              app ecosystem offers hundreds of add-ons for email marketing, reviews,
+              upselling, and inventory management, though many carry additional
+              monthly fees that add to your operating costs.
             </p>
           </div>
           <div className={styles.serviceCard}>
@@ -325,6 +359,10 @@ export default function EcommerceWebsiteCostCanadaPage() {
               Best for content-heavy stores and businesses already on
               WordPress. Platform is free but themes, plugins, and hosting add
               up. More flexibility but requires more technical management.
+              WooCommerce gives you complete control over your store&apos;s code
+              and data, making it ideal for businesses with unique product
+              configurations or complex catalog structures. However, you&apos;re
+              responsible for security, updates, and performance optimization.
             </p>
           </div>
           <div className={styles.serviceCard}>
@@ -338,6 +376,9 @@ export default function EcommerceWebsiteCostCanadaPage() {
               Best for enterprises needing maximum performance and custom UX.
               Uses Next.js/Astro frontend with Shopify Plus, BigCommerce, or
               custom backend. Sub-second loads and unlimited design freedom.
+              Headless architecture separates your storefront from your backend,
+              giving you complete control over the customer experience while
+              leveraging enterprise-grade commerce infrastructure.
             </p>
           </div>
         </div>
@@ -349,7 +390,11 @@ export default function EcommerceWebsiteCostCanadaPage() {
           <h2>Hidden Costs Most Businesses Forget</h2>
           <p>
             The build cost is just the beginning. Here are the ongoing
-            expenses that catch Canadian businesses off guard.
+            expenses that catch Canadian businesses off guard. Understanding
+            these costs upfront helps you create a realistic budget and avoid
+            financial surprises after your store launches. Many businesses
+            focus solely on the initial development cost and are shocked when
+            monthly operating expenses add up to thousands of dollars.
           </p>
         </div>
         <div className={styles.valueGrid}>
@@ -435,6 +480,11 @@ export default function EcommerceWebsiteCostCanadaPage() {
           <p>
             Understanding the return on your e-commerce investment helps
             justify the upfront cost and choose the right level of build.
+            A well-built e-commerce website isn&apos;t an expense — it&apos;s
+            an investment that generates measurable returns. The key is
+            understanding how different aspects of your website directly
+            impact your bottom line. Let&apos;s break down the numbers so you
+            can see exactly how a professional e-commerce build pays for itself.
           </p>
         </div>
         <div className={styles.valueGrid}>
@@ -447,7 +497,10 @@ export default function EcommerceWebsiteCostCanadaPage() {
                 DIY builds. On 10,000 monthly visitors, that&apos;s the
                 difference between 50-100 sales and 200-400 sales. At a $100
                 average order value, you&apos;re looking at $5,000-$10,000 in
-                additional monthly revenue.
+                additional monthly revenue. Professional builds achieve this
+                through optimized product pages, streamlined checkout flows,
+                strategic CTAs, trust signals, and mobile-responsive design that
+                reduces friction at every step of the buyer&apos;s journey.
               </p>
             </div>
           </div>
@@ -459,7 +512,9 @@ export default function EcommerceWebsiteCostCanadaPage() {
                 Every second of page load delay reduces conversions by 7%. A
                 professional build loads in 1-2 seconds vs 3-5 seconds for
                 cheap builds. That speed difference alone can increase revenue
-                by 14-28% on the same traffic volume.
+                by 14-28% on the same traffic volume. Google also uses page
+                speed as a ranking factor, meaning faster stores get more
+                organic traffic, creating a compounding revenue effect over time.
               </p>
             </div>
           </div>
@@ -472,7 +527,10 @@ export default function EcommerceWebsiteCostCanadaPage() {
                 bringing in free organic traffic. The average e-commerce
                 business gets 30-50% of revenue from organic search. A site
                 that&apos;s built with SEO in mind from day one captures this
-                traffic from the start.
+                traffic from the start. This includes optimized product
+                descriptions, schema markup for rich snippets, fast loading
+                pages, mobile-first design, and proper URL structures that
+                help Google understand and index your products.
               </p>
             </div>
           </div>
@@ -498,6 +556,186 @@ export default function EcommerceWebsiteCostCanadaPage() {
             investment. This excludes organic traffic growth from SEO and
             repeat customer revenue.
           </p>
+        </div>
+      </FadeIn>
+
+      {/* HOW TO CHOOSE YOUR BUDGET */}
+      <FadeIn className={`${styles.baseSection} ${styles.valueSection}`}>
+        <div className={styles.servicesHeader}>
+          <h2>How to Choose the Right E-Commerce Budget</h2>
+          <p>
+            Not sure how much to invest? Here&apos;s a practical framework to
+            help you determine the right budget for your e-commerce project.
+          </p>
+        </div>
+        <div className={styles.valueGrid}>
+          <div className={styles.valueItem}>
+            <DollarSign className={styles.valueIcon} />
+            <div>
+              <h3>Start with Revenue Goals</h3>
+              <p>
+                Work backward from your revenue targets. If you want to generate
+                $100,000 in online sales annually, investing $10,000-$20,000 in
+                your website gives you a clear path to ROI. Your website budget
+                should be 10-20% of your first-year revenue target.
+              </p>
+            </div>
+          </div>
+          <div className={styles.valueItem}>
+            <DollarSign className={styles.valueIcon} />
+            <div>
+              <h3>Consider Your Product Catalog</h3>
+              <p>
+                Stores with 10-50 products have different needs than those with
+                1,000+ SKUs. Larger catalogs require advanced search, filtering,
+                and collection structures that add to the development cost but
+                significantly improve the customer experience.
+              </p>
+            </div>
+          </div>
+          <div className={styles.valueItem}>
+            <DollarSign className={styles.valueIcon} />
+            <div>
+              <h3>Evaluate Your Technical Needs</h3>
+              <p>
+                Do you need a simple product catalog with a checkout, or do you
+                require subscription management, wholesale pricing, product
+                configurators, or multi-vendor functionality? Each custom feature
+                adds to the development cost but can significantly increase your
+                revenue potential.
+              </p>
+            </div>
+          </div>
+          <div className={styles.valueItem}>
+            <DollarSign className={styles.valueIcon} />
+            <div>
+              <h3>Plan for Growth</h3>
+              <p>
+                Your e-commerce platform should scale with your business. A
+                $5,000 Shopify store might serve you today, but if you plan to
+                expand internationally, add wholesale channels, or launch a
+                subscription model, investing more upfront in a scalable
+                architecture saves money on future rebuilds.
+              </p>
+            </div>
+          </div>
+        </div>
+      </FadeIn>
+
+      {/* WHY CHOOSE US */}
+      <FadeIn className={`${styles.baseSection} ${styles.valueSection}`}>
+        <div className={styles.valueHeader}>
+          <h2>Why Choose Beeclue Tech for Your E-Commerce Build</h2>
+        </div>
+        <div className={styles.valueGrid}>
+          <div className={styles.valueItem}>
+            <CheckCircle2 className={styles.valueIcon} />
+            <div>
+              <h3>Transparent Pricing</h3>
+              <p>
+                We provide detailed, line-item quotes with no hidden fees. You
+                know exactly what you&apos;re paying for before we start. Our
+                pricing model is designed to give you maximum value for your
+                investment, with clear milestones and payment schedules.
+              </p>
+            </div>
+          </div>
+          <div className={styles.valueItem}>
+            <CheckCircle2 className={styles.valueIcon} />
+            <div>
+              <h3>Platform Expertise</h3>
+              <p>
+                Our team has deep expertise across Shopify, WooCommerce, and
+                custom headless builds. We don&apos;t push one platform — we
+                recommend the right solution for your specific business needs,
+                budget, and growth plans.
+              </p>
+            </div>
+          </div>
+          <div className={styles.valueItem}>
+            <CheckCircle2 className={styles.valueIcon} />
+            <div>
+              <h3>Conversion-Focused Development</h3>
+              <p>
+                Every e-commerce store we build is engineered for conversions.
+                From optimized checkout flows to strategic product page layouts,
+                we design and develop with revenue generation as the primary
+                objective.
+              </p>
+            </div>
+          </div>
+          <div className={styles.valueItem}>
+            <CheckCircle2 className={styles.valueIcon} />
+            <div>
+              <h3>Canadian Market Knowledge</h3>
+              <p>
+                As a Toronto-based team, we understand the Canadian e-commerce
+                landscape — from Canadian payment processors and tax compliance
+                to shipping logistics and consumer expectations.
+              </p>
+            </div>
+          </div>
+          <div className={styles.valueItem}>
+            <CheckCircle2 className={styles.valueIcon} />
+            <div>
+              <h3>Performance-First Architecture</h3>
+              <p>
+                Page speed directly impacts sales. We build e-commerce stores
+                that load in under 2 seconds, earning top Core Web Vitals scores
+                and providing a frictionless shopping experience across all
+                devices.
+              </p>
+            </div>
+          </div>
+          <div className={styles.valueItem}>
+            <CheckCircle2 className={styles.valueIcon} />
+            <div>
+              <h3>Long-Term Support</h3>
+              <p>
+                We don&apos;t disappear after launch. Beeclue Tech provides
+                ongoing maintenance, performance monitoring, feature additions,
+                and strategic guidance to ensure your e-commerce store continues
+                to grow and evolve.
+              </p>
+            </div>
+          </div>
+        </div>
+      </FadeIn>
+
+      {/* TECHNOLOGY STACK */}
+      <FadeIn className={styles.baseSection}>
+        <div className={styles.servicesHeader}>
+          <h2>Technologies We Work With</h2>
+          <p>
+            We leverage the best e-commerce technologies to build stores that
+            perform at the highest level.
+          </p>
+        </div>
+        <div className={styles.scroller}>
+          <div className={styles.serviceCard}>
+            <h3>Shopify & Shopify Plus</h3>
+            <p>Enterprise-grade hosted e-commerce platform</p>
+          </div>
+          <div className={styles.serviceCard}>
+            <h3>WooCommerce</h3>
+            <p>WordPress-based flexible e-commerce</p>
+          </div>
+          <div className={styles.serviceCard}>
+            <h3>Next.js & React</h3>
+            <p>Blazing-fast headless frontend framework</p>
+          </div>
+          <div className={styles.serviceCard}>
+            <h3>Stripe & Moneris</h3>
+            <p>Canadian payment processing solutions</p>
+          </div>
+          <div className={styles.serviceCard}>
+            <h3>Tailwind CSS</h3>
+            <p>Utility-first responsive styling</p>
+          </div>
+          <div className={styles.serviceCard}>
+            <h3>Google Analytics</h3>
+            <p>E-commerce tracking and insights</p>
+          </div>
         </div>
       </FadeIn>
 
@@ -624,6 +862,26 @@ export default function EcommerceWebsiteCostCanadaPage() {
             </div>
           ))}
         </div>
+      </FadeIn>
+
+      {/* CANADA-WIDE SERVICE */}
+      <FadeIn className={styles.baseSection} style={{ textAlign: "center", borderTop: "1px solid var(--border)" }}>
+        <h2 style={{ fontSize: "2rem", marginBottom: "1rem" }}>
+          E-Commerce Website Development Across Canada
+        </h2>
+        <p style={{ color: "var(--muted)", fontSize: "1.25rem", maxWidth: "800px", margin: "0 auto 2rem auto" }}>
+          Beeclue Tech proudly serves e-commerce businesses across:
+        </p>
+        <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "center", gap: "1rem", marginBottom: "2rem" }}>
+          {["Toronto", "Vancouver", "Montreal", "Calgary", "Ottawa", "Edmonton", "Mississauga", "Markham", "Brampton", "Vaughan"].map((city) => (
+            <span key={city} style={{ padding: "0.5rem 1.5rem", border: "1px solid var(--border)", borderRadius: "50px", color: "var(--primary-light)" }}>
+              {city}
+            </span>
+          ))}
+        </div>
+        <p style={{ color: "var(--muted)", fontSize: "1.25rem", maxWidth: "800px", margin: "0 auto" }}>
+          Whether you&apos;re a startup in Toronto or an established business in Vancouver, we can build an e-commerce store that drives real revenue growth.
+        </p>
       </FadeIn>
 
       {/* CTA SECTION */}

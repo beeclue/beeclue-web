@@ -214,7 +214,11 @@ export default function NotSecureWebsiteFixPage() {
               cosmetic issue. It&apos;s actively driving away your visitors,
               tanking your search rankings, and exposing your business to
               security risks. If your website shows this warning, you&apos;re
-              losing potential customers every single day.
+              losing potential customers every single day. Studies show that
+              85% of online shoppers will not complete a purchase on a site
+              marked as &quot;Not Secure,&quot; and Google has confirmed that
+              HTTPS is a ranking signal, meaning your site is being penalized
+              in search results.
             </p>
             <p>
               At Beeclue Tech, we&apos;ve helped hundreds of Canadian businesses
@@ -223,14 +227,18 @@ export default function NotSecureWebsiteFixPage() {
               Google&apos;s HTTPS ranking signal update, and we&apos;ve seen
               others recover fully within weeks of implementing proper SSL
               configuration. This guide shares everything you need to know to
-              fix your website and protect your online presence.
+              fix your website and protect your online presence. We&apos;ve
+              compiled this knowledge from years of experience fixing SSL issues
+              for businesses across Toronto and Canada.
             </p>
             <p>
               The good news: fixing a Not Secure website is straightforward
               with the right knowledge. Whether you handle it yourself or get
               professional help, this guide walks you through exactly what
               causes the warning, how to fix it step by step, and how to
-              prevent it from happening again.
+              prevent it from happening again. In 2026, SSL certificates are
+              free through services like Let&apos;s Encrypt, so there&apos;s
+              no reason to delay securing your website.
             </p>
           </div>
 
@@ -269,7 +277,9 @@ export default function NotSecureWebsiteFixPage() {
           <h2>Why Your Website Shows Not Secure</h2>
           <p>
             The most common reasons websites display the Not Secure warning,
-            and how to identify which one affects you.
+            and how to identify which one affects you. Understanding the root
+            cause helps you choose the right solution and prevent the issue
+            from recurring.
           </p>
         </div>
         <div className={styles.scroller}>
@@ -347,7 +357,10 @@ export default function NotSecureWebsiteFixPage() {
           <h2>How to Fix a Not Secure Website</h2>
           <p>
             Step-by-step instructions to secure your website and remove the
-            Not Secure warning.
+            Not Secure warning. Follow these steps in order for the best
+            results. Each step builds on the previous one, so don&apos;t skip
+            ahead. If you&apos;re not comfortable with technical configurations,
+            our team can handle this entire process for you.
           </p>
         </div>
         <div className={styles.processTimeline}>
@@ -360,7 +373,9 @@ export default function NotSecureWebsiteFixPage() {
               into your hosting panel, find the SSL/TLS section, and activate
               the certificate. For advanced users, use Certbot for automatic
               certificate management. Paid certificates are available from
-              DigiCert, Comodo, and GlobalSign for enterprise needs.
+              DigiCert, Comodo, and GlobalSign for enterprise needs. The
+              installation process typically takes just a few minutes, and
+              most hosts handle the technical configuration automatically.
             </p>
           </div>
           <div className={styles.processStep}>
@@ -371,7 +386,10 @@ export default function NotSecureWebsiteFixPage() {
               Apache, add a rewrite rule to your .htaccess file. In Nginx,
               configure a server block redirect. In WordPress, update the
               Site URL to use https://. This ensures all visitors and search
-              engines access the secure version of your site.
+              engines access the secure version of your site. Without proper
+              redirects, users can still access your site over HTTP, and
+              search engines may index both versions, causing duplicate
+              content issues.
             </p>
           </div>
           <div className={styles.processStep}>
@@ -383,6 +401,9 @@ export default function NotSecureWebsiteFixPage() {
               URLs, script sources, and stylesheet references to use HTTPS.
               Check third-party embeds and iframes. Use protocol-relative URLs
               (//example.com) or absolute HTTPS URLs for external resources.
+              Mixed content is one of the most common causes of Not Secure
+              warnings even after SSL installation, so thorough scanning is
+              essential.
             </p>
           </div>
           <div className={styles.processStep}>
@@ -393,8 +414,111 @@ export default function NotSecureWebsiteFixPage() {
               rating. Check all pages load correctly. Verify search console
               shows HTTPS URLs. Monitor for certificate expiration. Set up
               auto-renewal to prevent future issues. Update your sitemap and
-              internal links to use HTTPS.
+              internal links to use HTTPS. Regular monitoring ensures your
+              SSL certificate stays valid and your website remains secure.
             </p>
+          </div>
+        </div>
+      </FadeIn>
+
+      {/* HOW TO PREVENT FUTURE ISSUES */}
+      <FadeIn className={`${styles.baseSection} ${styles.valueSection}`}>
+        <div className={styles.servicesHeader}>
+          <h2>How to Prevent Future SSL Issues</h2>
+          <p>
+            Once your website is secure, follow these best practices to keep
+            it that way. Prevention is always better than cure when it comes
+            to SSL certificates and website security.
+          </p>
+        </div>
+        <div className={styles.valueGrid}>
+          <div className={styles.valueItem}>
+            <CheckCircle2 className={styles.valueIcon} />
+            <div>
+              <h3>Enable Auto-Renewal</h3>
+              <p>
+                Configure your SSL certificate to auto-renew before expiration.
+                Let&apos;s Encrypt certificates expire every 90 days, so
+                auto-renewal is essential. Most hosting providers handle this
+                automatically, but verify it&apos;s enabled. Set up calendar
+                reminders as a backup.
+              </p>
+            </div>
+          </div>
+          <div className={styles.valueItem}>
+            <CheckCircle2 className={styles.valueIcon} />
+            <div>
+              <h3>Monitor Certificate Status</h3>
+              <p>
+                Use monitoring tools to check your SSL certificate status
+                regularly. Services like UptimeRobot, StatusCake, or SSL
+                monitoring plugins can alert you before your certificate
+                expires. Don&apos;t wait for visitors to see the Not Secure
+                warning.
+              </p>
+            </div>
+          </div>
+          <div className={styles.valueItem}>
+            <CheckCircle2 className={styles.valueIcon} />
+            <div>
+              <h3>Keep Software Updated</h3>
+              <p>
+                Outdated CMS versions, plugins, and themes can cause SSL issues
+                and security vulnerabilities. Regularly update WordPress,
+                WooCommerce, plugins, and themes. Test updates in a staging
+                environment before applying to production.
+              </p>
+            </div>
+          </div>
+          <div className={styles.valueItem}>
+            <CheckCircle2 className={styles.valueIcon} />
+            <div>
+              <h3>Regular Security Audits</h3>
+              <p>
+                Schedule quarterly security audits to identify and address
+                potential issues before they become problems. Check for mixed
+                content, expired certificates, outdated software, and
+                security vulnerabilities. Proactive monitoring prevents
+                downtime and protects your reputation.
+              </p>
+            </div>
+          </div>
+        </div>
+      </FadeIn>
+
+      {/* TECHNOLOGY STACK */}
+      <FadeIn className={styles.baseSection}>
+        <div className={styles.servicesHeader}>
+          <h2>SSL/HTTPS Technologies We Work With</h2>
+          <p>
+            We have expertise across all major SSL and security technologies
+            to keep your website secure.
+          </p>
+        </div>
+        <div className={styles.scroller}>
+          <div className={styles.serviceCard}>
+            <h3>Let&apos;s Encrypt</h3>
+            <p>Free SSL certificates with auto-renewal</p>
+          </div>
+          <div className={styles.serviceCard}>
+            <h3>DigiCert & Comodo</h3>
+            <p>Enterprise SSL certificates</p>
+          </div>
+          <div className={styles.serviceCard}>
+            <h3>Cloudflare SSL</h3>
+            <p>CDN-integrated SSL and security</p>
+          </div>
+          <div className={styles.serviceCard}>
+            <h3>SSL Labs Testing</h3>
+            <p>A+ rated SSL configuration</p>
+          </div>
+          <div className={styles.serviceCard}>
+            <h3>HSTS Headers</h3>
+            <p>HTTP Strict Transport Security</p>
+          </div>
+          <div className={styles.serviceCard}>
+            <h3>Mixed Content Scanners</h3>
+            <p>Comprehensive security auditing</p>
           </div>
         </div>
       </FadeIn>
@@ -404,6 +528,11 @@ export default function NotSecureWebsiteFixPage() {
         <div className={styles.valueHeader}>
           <h2>Why Get Professional Help</h2>
         </div>
+        <p style={{ color: "var(--muted)", maxWidth: "800px", margin: "0 auto 2rem auto", textAlign: "center" }}>
+          While some SSL issues can be fixed with basic technical knowledge,
+          many require expertise to resolve properly without causing additional
+          problems. Here&apos;s why professional help ensures a faster, safer fix.
+        </p>
         <div className={styles.valueGrid}>
           <div className={styles.valueItem}>
             <CheckCircle2 className={styles.valueIcon} />
@@ -437,7 +566,10 @@ export default function NotSecureWebsiteFixPage() {
                 While fixing your SSL issue, we audit your entire site for
                 security vulnerabilities — outdated software, weak passwords,
                 missing security headers, and malware. We don&apos;t just fix
-                the symptom; we harden your site against future threats.
+                the immediate problem; we ensure your entire website is secure
+                and protected against future threats. This comprehensive
+                approach saves you from dealing with multiple security issues
+                separately.
               </p>
             </div>
           </div>
