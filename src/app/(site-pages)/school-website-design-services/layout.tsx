@@ -2,10 +2,10 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "School Website Design & Development Services | Beeclue Tech",
-  description: "Beeclue Tech engineers secure, AODA-compliant, and high-performance websites for private schools, public districts, and universities across Canada.",
+  description: "School website design in Canada. Student portals, event calendars, and parent communication tools. Built for Canadian schools.",
   openGraph: {
     title: "School Website Design & Development Services | Beeclue Tech",
-    description: "Beeclue Tech engineers secure, AODA-compliant, and high-performance websites for private schools, public districts, and universities across Canada.",
+    description: "School website design in Canada. Student portals, event calendars, and parent communication tools. Built for Canadian schools.",
     url: "https://beeclue.com/school-website-design-services",
   },
 };

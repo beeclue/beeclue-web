@@ -2,7 +2,7 @@ import { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "SEO & Digital Marketing Services in Toronto | Beeclue Tech",
-  description: "Dominate search engine rankings with our advanced technical SEO and digital marketing services in Toronto. We drive massive organic traffic and conversions.",
+  description: "SEO services in Toronto that drive real results. Technical SEO, content strategy, and local search optimization. Free SEO audit available.",
 };
 
 export default function Layout({
