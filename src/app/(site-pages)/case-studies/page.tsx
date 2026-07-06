@@ -48,6 +48,29 @@ export default function CaseStudiesPage() {
           <div className={styles.caseStudyListItem}>
             <div className={styles.caseStudyListImage}>
               <Image 
+                src="https://cdn.jsdelivr.net/gh/beeclue/clients@main/self/tara-lattanzio.webp" 
+                alt="Tara Lattanzio Family Law Website" 
+                fill
+                sizes="(max-width: 768px) 100vw, 50vw"
+                style={{ objectFit: "contain", padding: "2rem" }}
+              />
+            </div>
+            <div className={styles.caseStudyListContent}>
+              <h2>Tara Lattanzio Family Law — Digital Platform &amp; Legal Branding</h2>
+              <p>
+                We partnered with Waterloo Region family law attorney Tara Lattanzio to build an authoritative, compassionate digital presence. Leveraging Next.js and Tailwind CSS, we engineered intuitive consultation workflows, empathetic reassurance modules, and robust local SEO designed to build immediate client trust and drive consultation inquiries.
+              </p>
+              <div>
+                <Link href="/case-studies/tara-lattanzio" className={styles.ctaButtonLight}>
+                  Read More <ArrowRight className={styles.arrow} size={20} />
+                </Link>
+              </div>
+            </div>
+          </div>
+
+          <div className={styles.caseStudyListItem}>
+            <div className={styles.caseStudyListImage}>
+              <Image 
                 src="https://cdn.jsdelivr.net/gh/beeclue/clients@main/self/newangkorwat.webp" 
                 alt="New Angkor Wat Website" 
                 fill

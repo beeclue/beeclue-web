@@ -113,6 +113,7 @@ In addition to our agency services, Beeclue Tech builds and maintains proprietar
 
 ## Featured Case Studies
 Beeclue Tech has delivered exceptional digital overhauls across multiple industries. Notable work includes:
+- **Tara Lattanzio Family Law**: High-converting, empathetic Next.js digital platform built for a leading Waterloo Region family lawyer. [https://beeclue.com/case-studies/tara-lattanzio]
 - **New Angkor Wat**: Comprehensive digital platform promoting David P. Cross's book and charitable initiatives. [https://beeclue.com/case-studies/new-angkor-wat]
 - **Sure Shot Photobooth**: High-end interactive Next.js web experience. [https://beeclue.com/case-studies/sure-shot-photobooth]
 - **Blues Contracting Services**: Next.js digital transformation for the construction sector. [https://beeclue.com/case-studies/blues-contracting-services]

@@ -172,6 +172,48 @@ export default function WebDesignForLawFirmsPage() {
         </div>
       </FadeIn>
 
+      {/* CASE STUDY FEATURE */}
+      <FadeIn className={styles.luxuryIntro}>
+        <div className={styles.luxuryBlobs}>
+          <div className={styles.blob1}></div>
+          <div className={styles.blob2}></div>
+        </div>
+        <div className={styles.luxuryIntroContent}>
+          <div className={styles.luxuryText}>
+            <h2>Real Results: Tara Lattanzio Family Law</h2>
+            <p>
+              We partnered with Cambridge &amp; Waterloo Region attorney Tara Lattanzio to build a compassionate, high-converting digital presence that builds immediate trust with potential family law clients.
+            </p>
+            <p>
+              The result: a modern Next.js website deployed on Cloudflare with empathetic Reassurance modules, transparent legal process roadmaps, and local SEO dominance that converts visitors into consultation inquiries.
+            </p>
+            <div style={{ display: "flex", gap: "1.5rem", flexWrap: "wrap", marginTop: "1.5rem", alignItems: "center" }}>
+              <Link href="/case-studies/tara-lattanzio" className={styles.learnMoreLink}>
+                Read the Full Case Study <ArrowRight size={16} />
+              </Link>
+              <a 
+                href="https://taralattanzio.ca?utm_source=beeclue&utm_medium=blog&utm_campaign=tara-lattanzio" 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                className={styles.learnMoreLink}
+                style={{ color: "var(--foreground)" }}
+              >
+                Visit Live Website <ArrowRight size={16} />
+              </a>
+            </div>
+          </div>
+          <div className={styles.luxuryCard}>
+            <h3>What We Delivered for Tara Lattanzio</h3>
+            <div className={styles.luxuryChecklist}>
+              <div className={styles.luxuryCheckItem}><CheckCircle2 size={24} color="var(--primary-light)" /><span>Custom Next.js Legal Architecture</span></div>
+              <div className={styles.luxuryCheckItem}><CheckCircle2 size={24} color="var(--primary-light)" /><span>Empathetic UX &amp; Reassurance Modules</span></div>
+              <div className={styles.luxuryCheckItem}><CheckCircle2 size={24} color="var(--primary-light)" /><span>Waterloo Region Local SEO Dominance</span></div>
+              <div className={styles.luxuryCheckItem}><CheckCircle2 size={24} color="var(--primary-light)" /><span>Confidential Consultation Workflows</span></div>
+            </div>
+          </div>
+        </div>
+      </FadeIn>
+
       {/* WHY CHOOSE BEECLUE */}
       <FadeIn className={`${styles.baseSection} ${styles.valueSection}`}>
         <div className={styles.valueHeader}>
@@ -243,6 +285,9 @@ export default function WebDesignForLawFirmsPage() {
           <div style={{ display: "flex", gap: "1.5rem", justifyContent: "center", flexWrap: "wrap" }}>
             <Link href="/contact" className={styles.ctaButton}>
               Schedule a Free Strategy Call <ArrowRight className={styles.arrow} />
+            </Link>
+            <Link href="/case-studies/tara-lattanzio" className={styles.ctaButton}>
+              See Our Legal Case Study <ArrowRight className={styles.arrow} />
             </Link>
             <Link href="/services" className={styles.ctaButton}>
               View All Services <ArrowRight className={styles.arrow} />

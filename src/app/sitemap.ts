@@ -46,6 +46,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     // Legacy Landing Pages
     '/19',
     // Case Studies
+    '/case-studies/tara-lattanzio',
     '/case-studies/new-angkor-wat',
     '/case-studies/blues-contracting-services',
     '/case-studies/gir-security',

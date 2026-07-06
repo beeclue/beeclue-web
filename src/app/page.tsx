@@ -163,6 +163,24 @@ export default function Home() {
           <p>A look at how we transform business challenges into scalable technical solutions.</p>
         </div>
         <div className={styles.featuredGrid}>
+          <Link href="/case-studies/tara-lattanzio" className={styles.featuredCard}>
+            <div className={styles.featuredImagePlaceholder} style={{ padding: 0, position: 'relative' }}>
+              <Image 
+                src="https://cdn.jsdelivr.net/gh/beeclue/clients@main/self/tara-lattanzio.webp"
+                alt="Tara Lattanzio Family Law Website"
+                fill
+                sizes="(max-width: 768px) 100vw, 50vw"
+                style={{ objectFit: 'contain', padding: '2rem 0' }}
+              />
+            </div>
+            <div className={styles.featuredContent}>
+              <h3>Tara Lattanzio — Legal Platform</h3>
+              <p>We partnered with Waterloo Region attorney Tara Lattanzio to build a high-converting, empathetic web architecture designed for client trust and consultations.</p>
+              <div className={styles.techTags}>
+                <span>Next.js</span><span>Legal UX</span><span>SEO</span>
+              </div>
+            </div>
+          </Link>
           <Link href="/case-studies/new-angkor-wat" className={styles.featuredCard}>
             <div className={styles.featuredImagePlaceholder} style={{ padding: 0, position: 'relative' }}>
               <Image 
