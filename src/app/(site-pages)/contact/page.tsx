@@ -2,12 +2,12 @@
 
 import FadeIn from "@/components/FadeIn";
 
-import { useState } from "react";
+import { useState, useEffect, useRef } from "react";
 import styles from "./page.module.css";
 import { Mail, MapPin, ArrowRight, Phone, MessageCircle, Check, X } from "lucide-react";
 import PhoneInput, { isValidPhoneNumber } from "react-phone-number-input";
 import "react-phone-number-input/style.css";
-import { trackFormSubmit } from "@/lib/analytics";
+import { trackFormSubmit, trackFormStart, trackPageView } from "@/lib/analytics";
 
 type FormErrors = {
   name?: string;
@@ -21,6 +21,18 @@ type FormErrors = {
 export default function ContactPage() {
   const [formStatus, setFormStatus] = useState<"idle" | "submitting" | "success" | "error">("idle");
   const [phone, setPhone] = useState<string | undefined>();
+  const hasStartedRef = useRef(false);
+
+  useEffect(() => {
+    trackPageView("/contact");
+  }, []);
+
+  const handleFormStart = () => {
+    if (!hasStartedRef.current) {
+      hasStartedRef.current = true;
+      trackFormStart("contact_form", formData.service || "general");
+    }
+  };
 
   // Form State
   const [formData, setFormData] = useState({
@@ -211,7 +223,7 @@ export default function ContactPage() {
 
         {/* Right Column - Form */}
         <div className={styles.formColumn}>
-            <form className={styles.form} onSubmit={handleSubmit} noValidate>
+            <form className={styles.form} onSubmit={handleSubmit} onFocus={handleFormStart} onChange={handleFormStart} noValidate>
               <div className={styles.inputGroup}>
                 <label htmlFor="name">Name</label>
                 <input 
@@ -334,6 +346,7 @@ export default function ContactPage() {
                 setFormStatus("idle");
                 setFormData({ name: "", email: "", service: "", comments: "", consent: false });
                 setPhone(undefined);
+                hasStartedRef.current = false;
               }}
             >
               Close

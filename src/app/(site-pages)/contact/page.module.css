@@ -419,7 +419,7 @@
 
 .modalButton {
   background-color: var(--primary);
-  color: #000;
+  color: #fff;
   border: none;
   border-radius: 8px;
   padding: 1rem 2rem;
@@ -432,6 +432,7 @@
 
 .modalButton:hover {
   background-color: var(--primary-light);
+  color: #fff;
   transform: translateY(-2px);
 }
 

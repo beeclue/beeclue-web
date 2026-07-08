@@ -1,13 +1,21 @@
 "use client";
 
-import React, { useState } from "react";
+import React, { useState, useRef } from "react";
 import styles from "./Newsletter.module.css";
-import { trackFormSubmit } from "@/lib/analytics";
+import { trackFormSubmit, trackFormStart } from "@/lib/analytics";
 
 export default function Newsletter() {
   const [email, setEmail] = useState("");
   const [status, setStatus] = useState<"idle" | "loading" | "success" | "error">("idle");
   const [message, setMessage] = useState("");
+  const hasStartedRef = useRef(false);
+
+  const handleFormStart = () => {
+    if (!hasStartedRef.current) {
+      hasStartedRef.current = true;
+      trackFormStart("newsletter");
+    }
+  };
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
@@ -48,7 +56,7 @@ export default function Newsletter() {
 
   return (
     <div className={styles.newsletterWrapper}>
-      <form onSubmit={handleSubmit} className={styles.newsletterForm}>
+      <form onSubmit={handleSubmit} onFocus={handleFormStart} onChange={handleFormStart} className={styles.newsletterForm}>
         <input
           type="email"
           value={email}

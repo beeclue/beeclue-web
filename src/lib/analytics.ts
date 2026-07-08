@@ -23,6 +23,13 @@ export function trackEvent(eventName: string, params?: EventParams) {
 
 // ── P0 Events ──────────────────────────────────────────────────────────
 
+export function trackFormStart(formType: string, serviceName?: string) {
+  trackEvent("form_start", {
+    form_type: formType,
+    ...(serviceName ? { service: serviceName } : {}),
+  });
+}
+
 export function trackFormSubmit(formType: string, serviceName?: string) {
   trackEvent("form_submit", {
     form_type: formType,
