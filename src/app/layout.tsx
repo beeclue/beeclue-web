@@ -11,6 +11,7 @@ import { GoogleTagManager, GoogleAnalytics } from '@next/third-parties/google';
 
 import BackgroundScene from "@/components/BackgroundScene";
 import AnimationProvider from "@/components/AnimationProvider";
+import FreeSEOReportModal from "@/components/FreeSEOReportModal";
 
 const inter = Inter({
   variable: "--font-inter",
@@ -230,6 +231,7 @@ export default function RootLayout({
             <Footer />
           </SmoothScroll>
         </AnimationProvider>
+        <FreeSEOReportModal />
       </body>
     </html>
   );
