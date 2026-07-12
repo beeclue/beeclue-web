@@ -88,9 +88,17 @@ export function IndustryList({ exclude }: { exclude?: string }) {
   return (
     <div className={styles.industriesGrid} style={{ width: "100%" }}>
       {filteredIndustries.map((item, index) => {
+        const isLast = index === filteredIndustries.length - 1;
+        const isSingleIn3Col = isLast && filteredIndustries.length % 3 === 1;
+        const isSingleIn2Col = isLast && filteredIndustries.length % 2 === 1;
+        
+        let cardClass = styles.industryCard;
+        if (isSingleIn3Col) cardClass += ` ${styles.lastCard3Col}`;
+        if (isSingleIn2Col) cardClass += ` ${styles.lastCard2Col}`;
+
         const IconComponent = item.icon;
         return (
-          <Link key={index} href={item.href} className={styles.industryCard}>
+          <Link key={index} href={item.href} className={cardClass}>
             <IconComponent className={styles.industryIcon} />
             <h3>{item.title}</h3>
             <p>{item.description}</p>
