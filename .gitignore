@@ -57,3 +57,5 @@ next-env.d.ts
 .superpowers
 docs
 
+# sales
+sales/
