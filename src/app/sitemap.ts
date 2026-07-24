@@ -82,6 +82,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/why-is-school-website-so-important',
     '/shopify-pos-activity-log',
     '/wordpress-7-0-armstrong-whats-new',
+    '/real-estate-website-design-toronto-idx-mls-guide',
+    '/web-design-for-construction-companies-guide',
+    '/law-firm-website-design-seo-guide',
   ];
 
   return routes.map((route) => ({

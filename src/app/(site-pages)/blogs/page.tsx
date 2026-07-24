@@ -36,6 +36,75 @@ export default function BlogsPage() {
           <div className={styles.caseStudyListItem}>
             <div className={styles.caseStudyListImage} style={{ position: "relative" }}>
               <Image 
+                src="https://images.unsplash.com/photo-1589829545856-d10d557cf95f?ixlib=rb-4.0.3&auto=format&fit=crop&w=2400&q=80" 
+                alt="Law firm boardroom reflecting modern law firm website design and attorney SEO" 
+                fill
+                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                style={{ objectFit: "cover" }}
+              />
+            </div>
+            <div className={styles.caseStudyListContent}>
+              <h2>Law Firm Website Design & SEO: 7 Strategies to Attract High-Value Clients</h2>
+              <p>
+                Learn how professional law firm website design and legal SEO in Toronto & Canada empower attorneys, law practices, and boutique firms to attract high-value clients and automate intake.
+              </p>
+              <div>
+                <Link href="/law-firm-website-design-seo-guide" className={styles.ctaButtonLight}>
+                  Read Article <ArrowRight className={styles.arrow} size={20} />
+                </Link>
+              </div>
+            </div>
+          </div>
+
+          <div className={styles.caseStudyListItem}>
+            <div className={styles.caseStudyListImage} style={{ position: "relative" }}>
+              <Image 
+                src="https://images.unsplash.com/photo-1503387762-592deb58ef4e?ixlib=rb-4.0.3&auto=format&fit=crop&w=2400&q=80" 
+                alt="Modern commercial construction site highlighting web design for construction companies" 
+                fill
+                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                style={{ objectFit: "cover" }}
+              />
+            </div>
+            <div className={styles.caseStudyListContent}>
+              <h2>Web Design for Construction Companies: 7 Essential Features That Win Bids</h2>
+              <p>
+                Discover how specialized web design for construction companies helps general contractors, builders, and trades win commercial bids and showcase project portfolios.
+              </p>
+              <div>
+                <Link href="/web-design-for-construction-companies-guide" className={styles.ctaButtonLight}>
+                  Read Article <ArrowRight className={styles.arrow} size={20} />
+                </Link>
+              </div>
+            </div>
+          </div>
+
+          <div className={styles.caseStudyListItem}>
+            <div className={styles.caseStudyListImage} style={{ position: "relative" }}>
+              <Image 
+                src="https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?ixlib=rb-4.0.3&auto=format&fit=crop&w=2400&q=80" 
+                alt="Luxury real estate property in Toronto illustrating real estate website design and IDX MLS integration" 
+                fill
+                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                style={{ objectFit: "cover" }}
+              />
+            </div>
+            <div className={styles.caseStudyListContent}>
+              <h2>Real Estate Website Design Toronto: Complete IDX & MLS Integration Guide</h2>
+              <p>
+                Discover how custom web development, TREB DDF / IDX / MLS integration, interactive mapping, and lead capture systems empower Toronto realtors to generate 30+ qualified leads monthly.
+              </p>
+              <div>
+                <Link href="/real-estate-website-design-toronto-idx-mls-guide" className={styles.ctaButtonLight}>
+                  Read Article <ArrowRight className={styles.arrow} size={20} />
+                </Link>
+              </div>
+            </div>
+          </div>
+
+          <div className={styles.caseStudyListItem}>
+            <div className={styles.caseStudyListImage} style={{ position: "relative" }}>
+              <Image 
                 src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&auto=format&fit=crop&w=2400&q=80" 
                 alt="Custom website development outperforming Wix and Shopify for growing businesses" 
                 fill
