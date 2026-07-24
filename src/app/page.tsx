@@ -15,16 +15,60 @@ export default function Home() {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "Organization",
-            "name": "Beeclue",
-            "url": "https://beeclue.com",
-            "logo": "https://beeclue.com/logo.png",
-            "description": "Toronto-based digital development agency",
-            "areaServed": { "@type": "Country", "name": "Canada" },
-            "knowsAbout": ["Web Design", "Custom Software Development", "E-Commerce", "Mobile Apps", "SEO"]
-          })
+          __html: JSON.stringify([
+            {
+              "@context": "https://schema.org",
+              "@type": "Organization",
+              "name": "Beeclue Tech",
+              "url": "https://beeclue.com",
+              "logo": "https://beeclue.com/apple-touch-icon.png",
+              "description": "Toronto-based digital development agency specializing in web design, custom software, and SEO.",
+              "areaServed": { "@type": "Country", "name": "Canada" },
+              "knowsAbout": ["Web Design", "Custom Software Development", "E-Commerce", "Mobile Apps", "SEO"]
+            },
+            {
+              "@context": "https://schema.org",
+              "@type": "WebSite",
+              "name": "Beeclue Tech",
+              "url": "https://beeclue.com"
+            },
+            {
+              "@context": "https://schema.org",
+              "@type": "ItemList",
+              "itemListElement": [
+                {
+                  "@type": "SiteNavigationElement",
+                  "position": 1,
+                  "name": "About Us",
+                  "url": "https://beeclue.com/about-us"
+                },
+                {
+                  "@type": "SiteNavigationElement",
+                  "position": 2,
+                  "name": "Services",
+                  "url": "https://beeclue.com/services"
+                },
+                {
+                  "@type": "SiteNavigationElement",
+                  "position": 3,
+                  "name": "Case Studies",
+                  "url": "https://beeclue.com/case-studies"
+                },
+                {
+                  "@type": "SiteNavigationElement",
+                  "position": 4,
+                  "name": "Blogs",
+                  "url": "https://beeclue.com/blogs"
+                },
+                {
+                  "@type": "SiteNavigationElement",
+                  "position": 5,
+                  "name": "Contact",
+                  "url": "https://beeclue.com/contact"
+                }
+              ]
+            }
+          ])
         }}
       />
       {/* HERO SECTION */}
