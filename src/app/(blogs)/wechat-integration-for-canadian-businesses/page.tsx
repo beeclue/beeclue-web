@@ -121,7 +121,7 @@ export default function BlogPost() {
         </div>
       
         <div className={blogStyles.authorBox}>
-          <Image src="https://cdn.jsdelivr.net/gh/beeclue/clients@main/self/beeclue-icon-blue.png" alt="Beeclue Design Team" width={60} height={60} className={blogStyles.authorImage} />
+          <Image src="/apple-touch-icon.png" alt="Beeclue Design Team" width={60} height={60} className={blogStyles.authorImage} />
           <div className={blogStyles.authorDetails}>
             <h4>Beeclue Design Team</h4>
             <p>Beeclue Tech is a Toronto-based engineering and web design agency specializing in high-performance digital platforms. With expertise in Next.js, WordPress, and Custom Software Development, our team delivers scalable solutions that drive measurable business growth.</p>
