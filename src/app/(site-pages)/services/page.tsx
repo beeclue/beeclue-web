@@ -4,6 +4,7 @@ import Link from "next/link";
 import styles from "./page.module.css";
 import { ArrowRight, Code, LayoutTemplate, Smartphone, ShoppingCart, Search, CheckCircle2 } from "lucide-react";
 import FadeIn from "@/components/FadeIn";
+import ReviewsMeta from "@/components/ReviewsMeta";
 
 export default function ServicesPage() {
   const jsonLd = {
@@ -346,27 +347,7 @@ export default function ServicesPage() {
         <div className={styles.testimonialsTop}>
           <h2>What Our Clients Say</h2>
           
-          <div className={styles.reviewsMeta}>
-            <div className={styles.ratingsBadges}>
-              <div className={styles.ratingBadge}>
-                <img src="/google-logo.svg" alt="Google" width="24" height="24" />
-                <div className={styles.ratingInfo}>
-                  <div className={styles.ratingStars}>★★★★★</div>
-                  <span className={styles.ratingText}>5.0 Rating</span>
-                </div>
-              </div>
-              <div className={styles.ratingBadge}>
-                <img src="https://cdn.trustpilot.net/brand-assets/4.1.0/stars/stars-5.svg" alt="Trustpilot 5 Stars" width="100" height="20" />
-                <div className={styles.ratingInfo}>
-                  <span className={styles.ratingText}>Excellent</span>
-                </div>
-              </div>
-            </div>
-            
-            <a href="https://g.page/r/" target="_blank" rel="noopener noreferrer" className={styles.reviewButton}>
-              Review Us on Google
-            </a>
-          </div>
+          <ReviewsMeta campaign="services_review" />
         </div>
 
         <div className={styles.testimonialScroller}>
