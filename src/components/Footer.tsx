@@ -23,7 +23,7 @@ const socialLinks = [
   { name: "Facebook", icon: <FacebookIcon />, href: "https://facebook.com/fb.beeclue?utm_source=beeclue_web&utm_medium=website_footer&utm_campaign=social_click" },
   { name: "LinkedIn", icon: <LinkedinIcon />, href: "https://linkedin.com/company/beeclue?utm_source=beeclue_web&utm_medium=website_footer&utm_campaign=social_click" },
   { name: "Instagram", icon: <InstagramIcon />, href: "https://instagram.com/bee.clue.ca?utm_source=beeclue_web&utm_medium=website_footer&utm_campaign=social_click" },
-  { name: "WhatsApp", icon: <WhatsAppIcon />, href: "https://wa.me/16479476253" },
+  { name: "WhatsApp", icon: <WhatsAppIcon />, href: "https://api.whatsapp.com/send/?phone=16479476253&text&type=phone_number&app_absent=0" },
 ];
 
 export default function Footer() {
