@@ -143,13 +143,13 @@ export default function DentalWebsiteDesignTorontoBlogPage() {
             </p>
           </FadeIn>
 
-          <FadeIn className={blogStyles.secondaryImageContainer}>
+          <FadeIn className={blogStyles.inlineImageContainer}>
             <Image 
               src="https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80" 
               alt="Dentist consulting with a patient highlighting patient trust and local SEO in Toronto" 
               fill
               sizes="(max-width: 1000px) 100vw, 1000px"
-              className={blogStyles.secondaryImage}
+              className={blogStyles.inlineImage}
             />
           </FadeIn>
 
@@ -195,13 +195,13 @@ export default function DentalWebsiteDesignTorontoBlogPage() {
             </ul>
           </FadeIn>
 
-          <FadeIn className={blogStyles.secondaryImageContainer}>
+          <FadeIn className={blogStyles.inlineImageContainer}>
             <Image 
               src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80" 
               alt="Dental team using modern technology for patient care and website integration" 
               fill
               sizes="(max-width: 1000px) 100vw, 1000px"
-              className={blogStyles.secondaryImage}
+              className={blogStyles.inlineImage}
             />
           </FadeIn>
 

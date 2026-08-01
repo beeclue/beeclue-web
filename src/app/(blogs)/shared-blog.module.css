@@ -121,7 +121,8 @@
   font-weight: bold;
 }
 
-.inlineImageContainer {
+.inlineImageContainer,
+.secondaryImageContainer {
   width: 100%;
   border-radius: 16px;
   overflow: hidden;
@@ -131,7 +132,8 @@
   aspect-ratio: 16/9;
 }
 
-.inlineImage {
+.inlineImage,
+.secondaryImage {
   width: 100%;
   height: 100%;
   object-fit: cover;
