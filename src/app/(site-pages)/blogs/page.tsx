@@ -36,6 +36,29 @@ export default function BlogsPage() {
           <div className={styles.caseStudyListItem}>
             <div className={styles.caseStudyListImage} style={{ position: "relative" }}>
               <Image 
+                src="https://images.unsplash.com/photo-1629909613654-28e377c37b09?ixlib=rb-4.0.3&auto=format&fit=crop&w=2400&q=80" 
+                alt="Modern dental clinic in Toronto illustrating high-converting dental website design" 
+                fill
+                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                style={{ objectFit: "cover" }}
+              />
+            </div>
+            <div className={styles.caseStudyListContent}>
+              <h2>Dental Website Design Toronto: How Modern Dental Clinics Attract 50+ New Patients Monthly</h2>
+              <p>
+                Discover how custom dental website design in Toronto, online booking, PIPEDA compliance, and local SEO empower dental practices to rank #1 on Google.
+              </p>
+              <div>
+                <Link href="/dental-website-design-toronto-patient-growth-guide" className={styles.ctaButtonLight}>
+                  Read Article <ArrowRight className={styles.arrow} size={20} />
+                </Link>
+              </div>
+            </div>
+          </div>
+
+          <div className={styles.caseStudyListItem}>
+            <div className={styles.caseStudyListImage} style={{ position: "relative" }}>
+              <Image 
                 src="https://images.unsplash.com/photo-1589829545856-d10d557cf95f?ixlib=rb-4.0.3&auto=format&fit=crop&w=2400&q=80" 
                 alt="Law firm boardroom reflecting modern law firm website design and attorney SEO" 
                 fill
