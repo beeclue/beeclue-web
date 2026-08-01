@@ -215,7 +215,7 @@ export default function ContactPage() {
               <MessageCircle className={styles.icon} />
               <div>
                 <h3>WhatsApp</h3>
-                <a href="https://wa.me/16479476253">+1 (647) 947-6253</a>
+                <a href="https://api.whatsapp.com/send/?phone=16479476253&text&type=phone_number&app_absent=0" target="_blank" rel="noopener noreferrer">+1 (647) 947-6253</a>
               </div>
             </div>
           </div>
