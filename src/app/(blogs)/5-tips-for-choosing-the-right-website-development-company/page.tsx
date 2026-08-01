@@ -8,6 +8,9 @@ import blogStyles from "../shared-blog.module.css";
 export const metadata: Metadata = {
   title: "5 Tips for Choosing a Website Development Company",
   description: "Choosing a web development agency is a major decision. Learn the top 5 expert tips for finding a reliable, high-performance tech partner.",
+  alternates: {
+    canonical: "https://beeclue.com/5-tips-for-choosing-the-right-website-development-company",
+  },
   openGraph: {
     title: "5 Tips for Choosing a Website Development Company",
     description: "Choosing a web development agency is a major decision. Learn the top 5 expert tips for finding a reliable, high-performance tech partner.",

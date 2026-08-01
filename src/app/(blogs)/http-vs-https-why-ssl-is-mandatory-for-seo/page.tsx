@@ -8,6 +8,9 @@ import blogStyles from "../shared-blog.module.css";
 export const metadata: Metadata = {
   title: "Why SSL is Mandatory for SEO Rankings in 2026",
   description: "Google penalizes websites without SSL. Learn the differences between HTTP and HTTPS, and why encryption is mandatory for SEO rankings.",
+  alternates: {
+    canonical: "https://beeclue.com/http-vs-https-why-ssl-is-mandatory-for-seo",
+  },
   openGraph: {
     title: "Why SSL is Mandatory for SEO Rankings in 2026",
     description: "Google penalizes websites without SSL. Learn the differences between HTTP and HTTPS, and why encryption is mandatory for SEO rankings.",

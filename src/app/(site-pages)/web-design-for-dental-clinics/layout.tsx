@@ -5,6 +5,9 @@ export const metadata: Metadata = {
     "Dental Clinic Website Design Toronto | Patient-Focused Sites | Beeclue",
   description:
     "Custom dental clinic websites in Toronto with online booking, patient portals, and HIPAA-compliant forms. Convert more visitors into appointments.",
+  alternates: {
+    canonical: "https://beeclue.com/web-design-for-dental-clinics",
+  },
   openGraph: {
     title:
       "Dental Clinic Website Design Toronto | Patient-Focused Sites | Beeclue",

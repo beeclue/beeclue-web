@@ -4,6 +4,9 @@ export const metadata: Metadata = {
     title: "Healthcare Website Development & Design Canada | Beeclue",
   description:
     "Healthcare website development in Canada. HIPAA-compliant medical websites with patient portals, appointment booking, and secure forms.",
+  alternates: {
+    canonical: "https://beeclue.com/healthcare-website-development-canada",
+  },
   openGraph: {
   title: "Healthcare Website Development & Design Canada | Beeclue",
     description:

@@ -5,6 +5,9 @@ import FaqAccordion from "@/components/FaqAccordion";
 import blogStyles from '../shared-blog.module.css';
 
 export const metadata: Metadata = {
+  alternates: {
+    canonical: "https://beeclue.com/the-impact-of-artificial-intelligence-on-web-development",
+  },
   title: 'The Impact of Artificial Intelligence on Web Development',
   description: 'Explore how Artificial Intelligence (AI) is transforming the web development industry. From automated coding to personalized UX, learn what the future holds.',
 };

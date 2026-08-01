@@ -8,6 +8,9 @@ import blogStyles from "../shared-blog.module.css";
 export const metadata: Metadata = {
   title: "Custom Website Development Beats Wix and Shopify in 2026",
   description: "Why custom website development outperforms Wix and Shopify for growing businesses. Compare performance, SEO, scalability, and long-term ROI.",
+  alternates: {
+    canonical: "https://beeclue.com/custom-website-development-beats-wix-shopify",
+  },
   openGraph: {
     title: "Custom Website Development Beats Wix and Shopify in 2026",
     description: "Why custom website development outperforms Wix and Shopify for growing businesses. Compare performance, SEO, scalability, and long-term ROI.",

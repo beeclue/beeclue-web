@@ -4,6 +4,9 @@ import Link from 'next/link';
 import blogStyles from '../shared-blog.module.css';
 
 export const metadata: Metadata = {
+  alternates: {
+    canonical: "https://beeclue.com/how-to-fix-not-secure-warning-2026",
+  },
   title: 'How to Fix the "Not Secure" Website Warning in 2026 | Beeclue',
   description: 'Seeing a Not Secure warning on your website? Learn what causes it and exactly how to fix it with SSL certificates. Step-by-step guide for 2026.',
 };

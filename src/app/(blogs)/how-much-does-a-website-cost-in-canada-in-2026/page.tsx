@@ -5,6 +5,9 @@ import FaqAccordion from "@/components/FaqAccordion";
 import blogStyles from '../shared-blog.module.css';
 
 export const metadata: Metadata = {
+  alternates: {
+    canonical: "https://beeclue.com/how-much-does-a-website-cost-in-canada-in-2026",
+  },
   title: 'How Much Does a Website Cost in Toronto in 2026? | Beeclue',
   description: 'A complete guide to website costs in Toronto for 2026. Compare pricing for brochure, e-commerce, and custom websites with ROI breakdowns and expert tips for Toronto businesses.',
 };

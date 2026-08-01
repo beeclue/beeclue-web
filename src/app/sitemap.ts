@@ -85,6 +85,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/real-estate-website-design-toronto-idx-mls-guide',
     '/web-design-for-construction-companies-guide',
     '/law-firm-website-design-seo-guide',
+    '/custom-website-development-beats-wix-shopify',
+    '/how-much-does-a-website-cost-in-canada-in-2026',
+    '/how-to-fix-not-secure-warning-2026',
+    '/shopify-vs-custom-ecommerce-canada',
   ];
 
   return routes.map((route) => ({

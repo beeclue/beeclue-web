@@ -1,8 +1,23 @@
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "WordPress Web Design & Development in Canada | Beeclue Tech",
-  description: "WordPress web design in Canada. Custom themes, WooCommerce integration, and performance optimization. Fast, reliable Canadian hosting available for your site.",
+  title: "WordPress Web Design Canada | Custom Headless & WooCommerce",
+  description: "WordPress web design in Canada. Custom themes, WooCommerce integration, headless Next.js architecture, and speed optimization. Get your free project quote.",
+  alternates: {
+    canonical: "https://beeclue.com/wordpress-web-design-canada",
+  },
+  openGraph: {
+    title: "WordPress Web Design Canada | Custom Headless & WooCommerce",
+    description: "WordPress web design in Canada. Custom themes, WooCommerce integration, headless Next.js architecture, and speed optimization.",
+    url: "https://beeclue.com/wordpress-web-design-canada",
+    siteName: "Beeclue Tech",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "WordPress Web Design Canada | Custom Headless & WooCommerce",
+    description: "WordPress web design in Canada. Custom themes, WooCommerce integration, and performance optimization.",
+  },
 };
 
 export default function Layout({

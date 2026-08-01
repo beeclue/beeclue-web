@@ -5,6 +5,9 @@ export const metadata: Metadata = {
     "Healthcare Website Design Toronto | Patient-Centered Medical Sites | Beeclue",
   description:
     "Healthcare and medical practice websites in Toronto. Appointment booking, patient portals, and HIPAA-compliant solutions.",
+  alternates: {
+    canonical: "https://beeclue.com/web-design-for-healthcare",
+  },
   openGraph: {
     title:
       "Healthcare Website Design Toronto | Patient-Centered Medical Sites | Beeclue",

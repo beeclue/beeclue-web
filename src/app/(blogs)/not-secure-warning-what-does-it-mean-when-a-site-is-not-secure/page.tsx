@@ -9,6 +9,9 @@ import globalStyles from "@/app/page.module.css";
 export const metadata: Metadata = {
   title: "Not Secure Warning: What It Means and How to Fix It | Beeclue",
   description: "Seeing a 'Not Secure' warning on your website? Learn what causes this browser error, how it destroys user trust, and exactly how to fix it with an SSL certificate.",
+  alternates: {
+    canonical: "https://beeclue.com/not-secure-warning-what-does-it-mean-when-a-site-is-not-secure",
+  },
   openGraph: {
     title: "Not Secure Warning: What It Means and How to Fix It | Beeclue",
     description: "Learn what causes the 'Not Secure' browser error and exactly how to fix it.",

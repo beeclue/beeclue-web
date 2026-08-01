@@ -8,6 +8,9 @@ import blogStyles from "../shared-blog.module.css";
 export const metadata: Metadata = {
   title: "E-Commerce Website Cost in Canada: 2026 Pricing Guide",
   description: "How much does it cost to build an e-commerce website in Canada? Break down real costs of Shopify, WooCommerce, and custom development.",
+  alternates: {
+    canonical: "https://beeclue.com/cost-to-build-ecommerce-website-canada",
+  },
   openGraph: {
     title: "E-Commerce Website Cost in Canada: 2026 Pricing Guide",
     description: "How much does it cost to build an e-commerce website in Canada? Break down real costs of Shopify, WooCommerce, and custom development.",

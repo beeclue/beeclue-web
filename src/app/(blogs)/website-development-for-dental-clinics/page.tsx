@@ -9,6 +9,9 @@ import globalStyles from "@/app/page.module.css";
 export const metadata: Metadata = {
   title: "Website Development for Dental Clinics: The Ultimate Guide | Beeclue",
   description: "Learn why a professional website is crucial for your dental clinic. Discover strategies for patient acquisition, SEO, and creating a modern digital presence.",
+  alternates: {
+    canonical: "https://beeclue.com/website-development-for-dental-clinics",
+  },
   openGraph: {
     title: "Website Development for Dental Clinics: The Ultimate Guide | Beeclue",
     description: "Discover how top-tier website development can transform your dental practice, attract more patients, and streamline your clinic's operations.",

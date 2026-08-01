@@ -5,6 +5,9 @@ import FaqAccordion from "@/components/FaqAccordion";
 import blogStyles from '../shared-blog.module.css';
 
 export const metadata: Metadata = {
+  alternates: {
+    canonical: "https://beeclue.com/the-importance-of-a-website-for-small-businesses-growth",
+  },
   title: 'The Importance of a Website for Small Business Growth in 2026',
   description: 'Discover why having a professional website is the most critical asset for your small business growth. Learn about credibility, digital marketing, and scaling your brand.',
 };
