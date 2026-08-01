@@ -5,6 +5,9 @@ export const metadata: Metadata = {
     "Toronto Website Redesign & Web Development Agency | Beeclue",
   description:
     "Professional website redesign in Toronto. Modernize your outdated website with better design, faster performance, and higher conversions.",
+  alternates: {
+    canonical: "https://beeclue.com/website-redesign-toronto",
+  },
   openGraph: {
     title:
       "Toronto Website Redesign & Web Development Agency | Beeclue",

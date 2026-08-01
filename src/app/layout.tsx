@@ -25,7 +25,10 @@ const outfit = Outfit({
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://beeclue.com'),
-  title: "Toronto Web Design & Software Development Agency | Beeclue",
+  title: {
+    default: "Toronto Web Design & Software Development Agency | Beeclue Tech",
+    template: "%s | Beeclue Tech",
+  },
   description: "Transform your business with elite web design, custom software development, and advanced SEO services. Beeclue Tech engineers scalable digital platforms for maximum ROI.",
   icons: {
     icon: [
@@ -58,7 +61,6 @@ export const metadata: Metadata = {
     images: ['https://cdn.jsdelivr.net/gh/beeclue/clients@main/self/image.png'],
   },
   alternates: {
-    canonical: 'https://beeclue.com',
     languages: {
       'en-CA': 'https://beeclue.com',
     },
@@ -122,11 +124,6 @@ export default function RootLayout({
                 "@type": "WebSite",
                 "name": "Beeclue Tech",
                 "url": "https://beeclue.com",
-                "potentialAction": {
-                  "@type": "SearchAction",
-                  "target": "https://beeclue.com/search?q={search_term_string}",
-                  "query-input": "required name=search_term_string"
-                },
                 "publisher": {
                   "@type": "Organization",
                   "name": "Beeclue Tech",

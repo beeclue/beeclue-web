@@ -5,6 +5,9 @@ export const metadata: Metadata = {
     "Law Firm Website Design Toronto | Professional Legal Websites | Beeclue",
   description:
     "Law firm websites in Toronto with case evaluation forms, attorney profiles, and SEO to attract high-value clients.",
+  alternates: {
+    canonical: "https://beeclue.com/web-design-for-law-firms",
+  },
   openGraph: {
     title:
       "Law Firm Website Design Toronto | Professional Legal Websites | Beeclue",

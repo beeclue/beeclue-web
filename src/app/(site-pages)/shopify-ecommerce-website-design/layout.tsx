@@ -4,6 +4,9 @@ export const metadata: Metadata = {
     title: "Shopify E-Commerce Website Design & Development | Beeclue",
   description:
     "Professional Shopify e-commerce website design. Custom themes, product pages, and checkout optimization. Convert more visitors into paying customers.",
+  alternates: {
+    canonical: "https://beeclue.com/shopify-ecommerce-website-design",
+  },
   openGraph: {
   title: "Shopify E-Commerce Website Design & Development | Beeclue",
     description:

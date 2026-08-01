@@ -8,6 +8,9 @@ import blogStyles from "../shared-blog.module.css";
 export const metadata: Metadata = {
   title: "Salon Website Development: The Ultimate Guide | Beeclue",
   description: "Transform your beauty business with expert salon website development. Learn how custom web design and online booking systems can drive massive client growth.",
+  alternates: {
+    canonical: "https://beeclue.com/salon-website-development",
+  },
   openGraph: {
     title: "Salon Website Development: The Ultimate Guide | Beeclue",
     description: "Transform your beauty business with expert salon website development. Learn how custom web design and online booking systems can drive massive client growth.",

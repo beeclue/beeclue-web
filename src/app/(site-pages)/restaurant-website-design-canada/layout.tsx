@@ -4,6 +4,9 @@ export const metadata: Metadata = {
     title: "Restaurant Website Design & Development Canada | Beeclue",
   description:
     "Restaurant website design in Canada. Online ordering, reservation systems, menu management, and local SEO. Increase direct orders and bookings.",
+  alternates: {
+    canonical: "https://beeclue.com/restaurant-website-design-canada",
+  },
   openGraph: {
   title: "Restaurant Website Design & Development Canada | Beeclue",
     description:

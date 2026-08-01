@@ -9,6 +9,9 @@ import globalStyles from "@/app/page.module.css";
 export const metadata: Metadata = {
   title: "What is CMS Web Development? The Ultimate Guide | Beeclue",
   description: "Learn everything about CMS Web Development. Discover how Content Management Systems like WordPress and Shopify empower businesses to control their digital presence.",
+  alternates: {
+    canonical: "https://beeclue.com/what-is-cms-web-development",
+  },
   openGraph: {
     title: "What is CMS Web Development? The Ultimate Guide | Beeclue",
     description: "Discover how Content Management Systems empower businesses to control their digital presence without writing code.",

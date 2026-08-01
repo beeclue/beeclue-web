@@ -5,6 +5,9 @@ import FaqAccordion from "@/components/FaqAccordion";
 import blogStyles from '../shared-blog.module.css';
 
 export const metadata: Metadata = {
+  alternates: {
+    canonical: "https://beeclue.com/what-are-cookies-a-helpful-guide-to-computer-cookies",
+  },
   title: 'What Are Cookies? A Helpful Guide to Computer Cookies',
   description: 'Discover everything you need to know about computer cookies, including how they work, the different types (first-party vs third-party), and how they affect your online privacy and SEO.',
 };

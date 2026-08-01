@@ -8,6 +8,9 @@ import blogStyles from "../shared-blog.module.css";
 export const metadata: Metadata = {
   title: "WeChat and Alipay Integration for Canadian Businesses: Tapping the Chinese Market | Beeclue",
   description: "Learn how integrating WeChat Pay and Alipay into your Canadian website can unlock massive revenue from the local Chinese demographic and international tourists.",
+  alternates: {
+    canonical: "https://beeclue.com/wechat-integration-for-canadian-businesses",
+  },
   openGraph: {
     title: "WeChat and Alipay Integration for Canadian Businesses: Tapping the Chinese Market | Beeclue",
     description: "Learn how integrating WeChat Pay and Alipay into your Canadian website can unlock massive revenue from the local Chinese demographic and international tourists.",

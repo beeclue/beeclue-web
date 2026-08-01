@@ -4,6 +4,9 @@ import Link from 'next/link';
 import blogStyles from '../shared-blog.module.css';
 
 export const metadata: Metadata = {
+  alternates: {
+    canonical: "https://beeclue.com/shopify-vs-custom-ecommerce-canada",
+  },
   title: 'Best E-Commerce Platforms Canada 2026: Shopify vs WooCommerce vs BigCommerce vs Custom | Beeclue',
   description: 'Compare the best e-commerce platforms in Canada for 2026. Shopify vs WooCommerce vs BigCommerce vs Custom development — find the right ecommerce website builder for your Canadian business.',
 };

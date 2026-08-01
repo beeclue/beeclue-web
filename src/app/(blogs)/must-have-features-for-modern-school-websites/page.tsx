@@ -8,6 +8,9 @@ import blogStyles from "../shared-blog.module.css";
 export const metadata: Metadata = {
   title: "7 Must-Have Features for Modern School and Educational Websites | Beeclue",
   description: "A professional school website is the foundation of digital education. Learn the 7 must-have features every school website needs to boost enrollment and engagement.",
+  alternates: {
+    canonical: "https://beeclue.com/must-have-features-for-modern-school-websites",
+  },
   openGraph: {
     title: "7 Must-Have Features for Modern School and Educational Websites | Beeclue",
     description: "A professional school website is the foundation of digital education. Learn the 7 must-have features every school website needs to boost enrollment and engagement.",

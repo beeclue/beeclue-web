@@ -4,6 +4,9 @@ import Link from 'next/link';
 import blogStyles from '../shared-blog.module.css';
 
 export const metadata: Metadata = {
+  alternates: {
+    canonical: "https://beeclue.com/wordpress-7-0-armstrong-whats-new",
+  },
   title: 'WordPress 7.0 Armstrong: AI Integration, Modern Dashboard & New Design Tools | Beeclue Tech',
   description: 'WordPress 7.0 "Armstrong" introduces AI integration, a modernized dashboard, new blocks, and an expanded developer toolbox. Everything you need to know about the biggest WordPress release yet.',
 };

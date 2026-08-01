@@ -5,6 +5,9 @@ import FaqAccordion from "@/components/FaqAccordion";
 import blogStyles from '../shared-blog.module.css';
 
 export const metadata: Metadata = {
+  alternates: {
+    canonical: "https://beeclue.com/is-wix-website-builder-the-right-platform-for-you-pros-and-cons-of-using-wix",
+  },
   title: 'Is Wix the Right Platform for You? Pros & Cons of Wix | Beeclue Tech',
   description: 'A comprehensive, unbiased guide analyzing the pros and cons of using Wix for your business website. Learn about its templates, scalability, SEO capabilities, and severe limitations.',
 };

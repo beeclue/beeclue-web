@@ -8,6 +8,9 @@ import blogStyles from "../shared-blog.module.css";
 export const metadata: Metadata = {
   title: "Best E-Commerce Builder Canada: Shopify vs Custom 2026",
   description: "Compare the best e-commerce website builders in Canada for 2026. Shopify vs WooCommerce vs Custom Next.js builds for Canadian businesses.",
+  alternates: {
+    canonical: "https://beeclue.com/best-ecommerce-website-builder-canada",
+  },
   openGraph: {
     title: "Best E-Commerce Builder Canada: Shopify vs Custom 2026",
     description: "Compare the best e-commerce website builders in Canada for 2026. Shopify vs WooCommerce vs Custom Next.js builds for Canadian businesses.",

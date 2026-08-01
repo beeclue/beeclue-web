@@ -8,6 +8,9 @@ import blogStyles from "../shared-blog.module.css";
 export const metadata: Metadata = {
   title: "Law Firm Website Design & SEO: 7 Strategies for High-Value Clients | Beeclue",
   description: "Learn how professional law firm website design and legal SEO in Toronto & Canada empower attorneys, law practices, and boutique firms to attract high-value clients, build digital authority, and automate client intake.",
+  alternates: {
+    canonical: "https://beeclue.com/law-firm-website-design-seo-guide",
+  },
   openGraph: {
     title: "Law Firm Website Design & SEO: 7 Strategies for High-Value Clients | Beeclue",
     description: "Learn how professional law firm website design and legal SEO in Toronto & Canada empower attorneys, law practices, and boutique firms to attract high-value clients, build digital authority, and automate client intake.",

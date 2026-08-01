@@ -1,0 +1,71 @@
+.reviewsMeta {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+@media (min-width: 768px) {
+  .reviewsMeta {
+    align-items: flex-end;
+  }
+}
+
+.ratingsBadges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+
+.ratingBadge {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  background: rgba(255, 255, 255, 0.03);
+  padding: 0.75rem 1rem;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+}
+
+.ratingInfo {
+  display: flex;
+  flex-direction: column;
+}
+
+.ratingStars {
+  color: #fbbf24;
+  font-size: 1rem;
+  letter-spacing: 0.1em;
+  line-height: 1;
+  margin-bottom: 0.25rem;
+}
+
+.ratingText {
+  color: var(--muted);
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.reviewButton {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+  color: var(--foreground);
+  border: 1px solid var(--border);
+  padding: 0.75rem 1.5rem;
+  border-radius: 50px;
+  font-size: 0.875rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.reviewButton:hover {
+  background: var(--foreground);
+  color: #000;
+  border-color: var(--foreground);
+}

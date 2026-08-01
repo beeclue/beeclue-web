@@ -9,6 +9,9 @@ import globalStyles from "@/app/page.module.css";
 export const metadata: Metadata = {
   title: "How Salons & Barbershops Can Increase Business with Loyalty Programs",
   description: "Learn how barbershops and salons can use loyalty points and rewards programs to increase client retention, frequency, and revenue. Compare top apps and custom solutions.",
+  alternates: {
+    canonical: "https://beeclue.com/salon-barbershop-loyalty-programs-to-increase-business",
+  },
   openGraph: {
     title: "How Salons & Barbershops Can Increase Business with Loyalty Programs",
     description: "Learn how barbershops and salons can use loyalty points and rewards programs to increase client retention, frequency, and revenue.",

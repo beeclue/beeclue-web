@@ -1,8 +1,23 @@
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "SEO & Digital Marketing Services in Toronto | Beeclue Tech",
-  description: "SEO services in Toronto that deliver measurable results. Technical SEO audits, content strategy, and local search optimization. Get your free SEO audit today.",
+  title: "SEO Services Toronto | Technical Audits & Search Optimization",
+  description: "SEO services in Toronto that deliver measurable organic growth. Technical SEO audits, content strategy, link building, and local search optimization.",
+  alternates: {
+    canonical: "https://beeclue.com/seo-services-toronto",
+  },
+  openGraph: {
+    title: "SEO Services Toronto | Technical Audits & Search Optimization",
+    description: "SEO services in Toronto that deliver measurable organic growth. Technical SEO audits, content strategy, and local search optimization.",
+    url: "https://beeclue.com/seo-services-toronto",
+    siteName: "Beeclue Tech",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "SEO Services Toronto | Technical Audits & Search Optimization",
+    description: "SEO services in Toronto that deliver measurable organic growth.",
+  },
 };
 
 export default function Layout({
