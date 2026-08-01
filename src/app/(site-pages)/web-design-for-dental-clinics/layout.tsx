@@ -2,19 +2,19 @@ import { Metadata } from "next";
 
 export const metadata: Metadata = {
   title:
-    "Dental Clinic Web Design Toronto",
+    "Dental Website Design Toronto | High-Converting Dental Web Design | Beeclue",
   description:
-    "Custom dental clinic websites in Toronto with online booking, patient portals, and HIPAA-compliant forms. Convert more visitors into appointments.",
+    "Top-rated dental website design in Toronto with online booking, patient portal integration, and local dental SEO. Turn searchers into new patient appointments.",
   alternates: {
     canonical: "https://beeclue.com/web-design-for-dental-clinics",
   },
   openGraph: {
     title:
-      "Dental Clinic Web Design Toronto",
+      "Dental Website Design Toronto | High-Converting Dental Web Design",
     description:
-      "Custom dental clinic websites in Toronto with online booking, patient portals, and HIPAA-compliant forms. Convert more visitors into appointments.",
+      "Top-rated dental website design in Toronto with online booking, patient portal integration, and local dental SEO. Turn searchers into new patient appointments.",
     url: "https://beeclue.com/web-design-for-dental-clinics",
-    siteName: "Beeclue",
+    siteName: "Beeclue Tech",
     type: "website",
   },
 };
