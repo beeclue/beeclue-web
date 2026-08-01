@@ -4,7 +4,7 @@ import Link from "next/link";
 import pageStyles from "@/app/page.module.css";
 
 export const metadata = {
-  title: "Terms and Conditions | Beeclue Tech",
+  title: "Terms and Conditions",
   description: "Understand the obligations and rights outlined in Beeclue's Terms and Conditions for using our services.",
 };
 

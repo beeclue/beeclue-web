@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://beeclue.com/what-are-cookies-a-helpful-guide-to-computer-cookies",
   },
-  title: 'What Are Cookies? A Helpful Guide to Computer Cookies',
+  title: 'What Are Computer Cookies Guide',
   description: 'Discover everything you need to know about computer cookies, including how they work, the different types (first-party vs third-party), and how they affect your online privacy and SEO.',
 };
 
@@ -20,7 +20,7 @@ export default function ComputerCookiesGuideBlog() {
       "@type": "WebPage",
       "@id": "https://beeclue.com/what-are-cookies-a-helpful-guide-to-computer-cookies"
     },
-    "headline": "What Are Cookies? A Helpful Guide to Computer Cookies",
+    "headline": "What Are Computer Cookies Guide",
     "description": "Discover everything you need to know about computer cookies, including how they work, the different types (first-party vs third-party), and how they affect your online privacy and SEO.",
     "image": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?ixlib=rb-4.0.3&auto=format&fit=crop&w=2400&q=80",
     "author": {
@@ -45,7 +45,7 @@ export default function ComputerCookiesGuideBlog() {
     "itemListElement": [
       { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://beeclue.com/" },
       { "@type": "ListItem", "position": 2, "name": "Blogs", "item": "https://beeclue.com/blogs" },
-      { "@type": "ListItem", "position": 3, "name": "What Are Cookies? A Helpful Guide to Computer Cookies", "item": "https://beeclue.com/what-are-cookies-a-helpful-guide-to-computer-cookies" }
+      { "@type": "ListItem", "position": 3, "name": "What Are Computer Cookies Guide", "item": "https://beeclue.com/what-are-cookies-a-helpful-guide-to-computer-cookies" }
     ]
   };
 
@@ -76,7 +76,7 @@ export default function ComputerCookiesGuideBlog() {
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbs) }} />
       
       <header className={blogStyles.blogHeader}>
-        <h1 className={blogStyles.blogTitle}>What Are Cookies? A Helpful Guide to Computer Cookies</h1>
+        <h1 className={blogStyles.blogTitle}>What Are Computer Cookies Guide</h1>
         <div className={blogStyles.blogMeta}>
           <span>By Beeclue Tech</span>
           <span>•</span>

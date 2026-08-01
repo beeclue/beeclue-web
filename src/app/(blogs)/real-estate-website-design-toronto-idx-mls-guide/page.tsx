@@ -6,13 +6,13 @@ import FadeIn from "@/components/FadeIn";
 import blogStyles from "../shared-blog.module.css";
 
 export const metadata: Metadata = {
-  title: "Real Estate Website Design Toronto: IDX & MLS Integration Guide | Beeclue",
+  title: "Real Estate Web Design Toronto: IDX & MLS Guide",
   description: "Looking for real estate website design in Toronto? Learn how custom web development, TREB DDF, IDX/MLS integration, interactive mapping, and lead capture systems empower Toronto realtors to generate 30+ leads monthly.",
   alternates: {
     canonical: "https://beeclue.com/real-estate-website-design-toronto-idx-mls-guide",
   },
   openGraph: {
-    title: "Real Estate Website Design Toronto: IDX & MLS Integration Guide | Beeclue",
+    title: "Real Estate Web Design Toronto: IDX & MLS Guide",
     description: "Looking for real estate website design in Toronto? Learn how custom web development, TREB DDF, IDX/MLS integration, interactive mapping, and lead capture systems empower Toronto realtors to generate 30+ leads monthly.",
     url: "https://beeclue.com/real-estate-website-design-toronto-idx-mls-guide",
     images: [

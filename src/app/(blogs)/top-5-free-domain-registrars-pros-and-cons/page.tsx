@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://beeclue.com/top-5-free-domain-registrars-pros-and-cons",
   },
-  title: 'Top 5 Free Domain Registrars: Options, Pros & Cons',
+  title: 'Top 5 Free Domain Registrars',
   description: 'Looking for a free domain for personal projects or clients? Discover the top 5 free domain registrars, their pros and cons, and when to use them.',
 };
 

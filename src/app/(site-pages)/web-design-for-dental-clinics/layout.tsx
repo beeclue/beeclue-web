@@ -2,7 +2,7 @@ import { Metadata } from "next";
 
 export const metadata: Metadata = {
   title:
-    "Dental Clinic Website Design Toronto | Patient-Focused Sites | Beeclue",
+    "Dental Clinic Web Design Toronto",
   description:
     "Custom dental clinic websites in Toronto with online booking, patient portals, and HIPAA-compliant forms. Convert more visitors into appointments.",
   alternates: {
@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title:
-      "Dental Clinic Website Design Toronto | Patient-Focused Sites | Beeclue",
+      "Dental Clinic Web Design Toronto",
     description:
       "Custom dental clinic websites in Toronto with online booking, patient portals, and HIPAA-compliant forms. Convert more visitors into appointments.",
     url: "https://beeclue.com/web-design-for-dental-clinics",

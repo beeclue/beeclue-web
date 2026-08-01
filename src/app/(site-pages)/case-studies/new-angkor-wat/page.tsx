@@ -6,7 +6,7 @@ import { ArrowRight, CheckCircle2, Globe, BookOpen, Code2, Search, Heart } from 
 import FadeIn from "@/components/FadeIn";
 
 export const metadata: Metadata = {
-  title: "New Angkor Wat Digital Platform | Beeclue Tech Case Study",
+  title: "New Angkor Wat Case Study",
   description: "Read our case study on how we built a comprehensive, high-performance digital platform for author David P. Cross to promote his book and New Angkor Wat.",
 };
 

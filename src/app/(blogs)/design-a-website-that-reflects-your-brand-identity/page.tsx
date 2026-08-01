@@ -7,13 +7,13 @@ import blogStyles from "../shared-blog.module.css";
 import globalStyles from "@/app/page.module.css";
 
 export const metadata: Metadata = {
-  title: "How to Design a Website That Reflects Your Brand Identity | Beeclue",
+  title: "Web Design for Brand Identity",
   description: "Learn the essential strategies to design a website that perfectly aligns with and amplifies your brand identity, ensuring you stand out in a crowded digital landscape.",
   alternates: {
     canonical: "https://beeclue.com/design-a-website-that-reflects-your-brand-identity",
   },
   openGraph: {
-    title: "How to Design a Website That Reflects Your Brand Identity | Beeclue",
+    title: "Web Design for Brand Identity",
     description: "Discover actionable insights on how to weave your brand's unique personality, values, and visual identity into every element of your website design.",
     url: "https://beeclue.com/design-a-website-that-reflects-your-brand-identity",
     images: [
@@ -42,7 +42,7 @@ export default function BrandIdentityBlog() {
   const articleSchema = {
     "@context": "https://schema.org",
     "@type": "Article",
-    "headline": "How to Design a Website That Reflects Your Brand Identity | Beeclue",
+    "headline": "Web Design for Brand Identity",
     "description": "Learn the essential strategies to design a website that perfectly aligns with and amplifies your brand identity, ensuring you stand out in a crowded digital landscape.",
     "author": {
       "@type": "Organization",

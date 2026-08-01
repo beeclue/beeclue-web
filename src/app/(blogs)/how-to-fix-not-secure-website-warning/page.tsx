@@ -6,13 +6,13 @@ import FadeIn from "@/components/FadeIn";
 import blogStyles from "../shared-blog.module.css";
 
 export const metadata: Metadata = {
-  title: 'How to Fix the "Not Secure" Website Warning: A Step-by-Step Guide | Beeclue',
+  title: 'How to Fix "Not Secure" Website Warning Guide',
   description: 'Seeing a dangerous "Not Secure" warning on your site? Learn exactly how to fix it by installing an SSL certificate to protect your customers and SEO.',
   alternates: {
     canonical: "https://beeclue.com/how-to-fix-not-secure-website-warning",
   },
   openGraph: {
-    title: 'How to Fix the "Not Secure" Website Warning: A Step-by-Step Guide | Beeclue',
+    title: 'How to Fix "Not Secure" Website Warning Guide',
     description: 'Seeing a dangerous "Not Secure" warning on your site? Learn exactly how to fix it by installing an SSL certificate to protect your customers and SEO.',
     url: "https://beeclue.com/how-to-fix-not-secure-website-warning",
     images: [

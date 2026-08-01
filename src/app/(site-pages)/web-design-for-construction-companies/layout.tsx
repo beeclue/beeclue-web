@@ -1,20 +1,18 @@
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title:
-    "Construction Company Website Design Toronto | Showcase Your Projects | Beeclue",
+  title: "Construction Company Web Design Toronto",
   description:
     "Professional construction company websites in Toronto. Project portfolios, quote request forms, and SEO to dominate local search.",
   alternates: {
     canonical: "https://beeclue.com/web-design-for-construction-companies",
   },
   openGraph: {
-    title:
-      "Construction Company Website Design Toronto | Showcase Your Projects | Beeclue",
+    title: "Construction Company Web Design Toronto",
     description:
       "Professional construction company websites in Toronto. Project portfolios, quote request forms, and SEO to dominate local search.",
     url: "https://beeclue.com/web-design-for-construction-companies",
-    siteName: "Beeclue",
+    siteName: "Beeclue Tech",
     type: "website",
   },
 };

@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://beeclue.com/wordpress-7-0-armstrong-whats-new",
   },
-  title: 'WordPress 7.0 Armstrong: AI Integration, Modern Dashboard & New Design Tools | Beeclue Tech',
+  title: 'WordPress 7.0 Armstrong: AI & New Features Guide',
   description: 'WordPress 7.0 "Armstrong" introduces AI integration, a modernized dashboard, new blocks, and an expanded developer toolbox. Everything you need to know about the biggest WordPress release yet.',
 };
 

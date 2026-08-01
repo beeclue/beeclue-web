@@ -4,7 +4,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://beeclue.com/blogs",
   },
-  title: "Insights & Blogs | Web Design & Tech News by Beeclue",
+  title: "Insights & Web Design Blogs",
   description: "Explore the Beeclue Tech blog for expert insights, practical tutorials, and industry news on luxury web design, SEO, and custom software development trends.",
 };
 

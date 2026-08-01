@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://beeclue.com/the-impact-of-artificial-intelligence-on-web-development",
   },
-  title: 'The Impact of Artificial Intelligence on Web Development',
+  title: 'AI Impact on Web Development',
   description: 'Explore how Artificial Intelligence (AI) is transforming the web development industry. From automated coding to personalized UX, learn what the future holds.',
 };
 
@@ -20,7 +20,7 @@ export default function AIWebDevelopmentBlog() {
       "@type": "WebPage",
       "@id": "https://beeclue.com/the-impact-of-artificial-intelligence-on-web-development"
     },
-    "headline": "The Impact of Artificial Intelligence on Web Development",
+    "headline": "AI Impact on Web Development",
     "description": "Explore how Artificial Intelligence (AI) is transforming the web development industry. From automated coding to personalized UX, learn what the future holds.",
     "image": "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?ixlib=rb-4.0.3&auto=format&fit=crop&w=2400&q=80",
     "author": {
@@ -45,7 +45,7 @@ export default function AIWebDevelopmentBlog() {
     "itemListElement": [
       { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://beeclue.com/" },
       { "@type": "ListItem", "position": 2, "name": "Blogs", "item": "https://beeclue.com/blogs" },
-      { "@type": "ListItem", "position": 3, "name": "The Impact of Artificial Intelligence on Web Development", "item": "https://beeclue.com/the-impact-of-artificial-intelligence-on-web-development" }
+      { "@type": "ListItem", "position": 3, "name": "AI Impact on Web Development", "item": "https://beeclue.com/the-impact-of-artificial-intelligence-on-web-development" }
     ]
   };
 
@@ -72,7 +72,7 @@ export default function AIWebDevelopmentBlog() {
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbs) }} />
       
       <header className={blogStyles.blogHeader}>
-        <h1 className={blogStyles.blogTitle}>The Impact of Artificial Intelligence on Web Development</h1>
+        <h1 className={blogStyles.blogTitle}>AI Impact on Web Development</h1>
         <div className={blogStyles.blogMeta}>
           <span>By Beeclue Tech</span>
           <span>•</span>

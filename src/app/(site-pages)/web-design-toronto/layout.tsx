@@ -1,13 +1,13 @@
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Top Web Design Agency Toronto | Custom & E-Commerce Web Design",
+  title: "Web Design Agency Toronto",
   description: "Custom web design in Toronto that converts. Responsive, SEO-optimized websites built with React, Next.js, and modern frameworks. Get a free quote.",
   alternates: {
     canonical: "https://beeclue.com/web-design-toronto",
   },
   openGraph: {
-    title: "Top Web Design Agency Toronto | Custom & E-Commerce Web Design",
+    title: "Web Design Agency Toronto",
     description: "Custom web design in Toronto that converts. Responsive, SEO-optimized websites built with React, Next.js, and modern frameworks.",
     url: "https://beeclue.com/web-design-toronto",
     siteName: "Beeclue Tech",
@@ -15,7 +15,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Top Web Design Agency Toronto | Custom & E-Commerce Web Design",
+    title: "Web Design Agency Toronto",
     description: "Custom web design in Toronto that converts. Responsive, SEO-optimized websites built with React, Next.js, and modern frameworks.",
   },
 };

@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://beeclue.com/case-studies",
   },
-  title: "Our Portfolio & Case Studies | Beeclue Tech",
+  title: "Our Portfolio & Case Studies",
   description: "Browse our extensive portfolio of successful digital transformations, innovative custom software builds, and luxury web designs for businesses across Canada.",
 };
 

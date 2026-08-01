@@ -113,7 +113,7 @@ export default function BlogsPage() {
               />
             </div>
             <div className={styles.caseStudyListContent}>
-              <h2>Why Custom Website Development Beats Wix and Shopify in 2026</h2>
+              <h2>Why Custom Web Development vs Wix & Shopify</h2>
               <p>
                 Why custom website development outperforms Wix and Shopify for growing businesses. Compare performance, SEO, scalability, and long-term ROI.
               </p>
@@ -272,7 +272,7 @@ export default function BlogsPage() {
               />
             </div>
             <div className={styles.caseStudyListContent}>
-              <h2>Top 5 Free Domain Registrars: Options, Pros & Cons</h2>
+              <h2>Top 5 Free Domain Registrars</h2>
               <p>
                 Looking for a free domain for personal projects or clients? Discover the top 5 free domain registrars, their pros and cons, and when to use them.
               </p>
@@ -360,7 +360,7 @@ export default function BlogsPage() {
               />
             </div>
             <div className={styles.caseStudyListContent}>
-              <h2>The Impact of Artificial Intelligence on Web Development</h2>
+              <h2>AI Impact on Web Development</h2>
               <p>Explore how Artificial Intelligence (AI) is transforming the web development industry. From automated coding to personalized UX, learn what the future holds.</p>
               <div>
                 <Link href="/the-impact-of-artificial-intelligence-on-web-development" className={styles.ctaButtonLight}>
@@ -380,7 +380,7 @@ export default function BlogsPage() {
               />
             </div>
             <div className={styles.caseStudyListContent}>
-              <h2>What Are Cookies? A Helpful Guide to Computer Cookies</h2>
+              <h2>What Are Computer Cookies Guide</h2>
               <p>Discover everything you need to know about computer cookies, including how they work, the different types (first-party vs third-party), and how they affect your online privacy and SEO.</p>
               <div>
                 <Link href="/what-are-cookies-a-helpful-guide-to-computer-cookies" className={styles.ctaButtonLight}>

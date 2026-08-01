@@ -4,7 +4,7 @@ import Link from "next/link";
 import pageStyles from "@/app/page.module.css";
 
 export const metadata = {
-  title: "Privacy Policy | Beeclue Tech",
+  title: "Privacy Policy",
   description: "Beeclue values your privacy. Read our comprehensive privacy policy to understand how we collect, use, and share your personal information.",
 };
 

@@ -7,13 +7,13 @@ import blogStyles from "../shared-blog.module.css";
 import globalStyles from "@/app/page.module.css";
 
 export const metadata: Metadata = {
-  title: "How Salons & Barbershops Can Increase Business with Loyalty Programs",
+  title: "Salon Loyalty Programs Guide",
   description: "Learn how barbershops and salons can use loyalty points and rewards programs to increase client retention, frequency, and revenue. Compare top apps and custom solutions.",
   alternates: {
     canonical: "https://beeclue.com/salon-barbershop-loyalty-programs-to-increase-business",
   },
   openGraph: {
-    title: "How Salons & Barbershops Can Increase Business with Loyalty Programs",
+    title: "Salon Loyalty Programs Guide",
     description: "Learn how barbershops and salons can use loyalty points and rewards programs to increase client retention, frequency, and revenue.",
     url: "https://beeclue.com/salon-barbershop-loyalty-programs-to-increase-business",
     images: [
@@ -42,7 +42,7 @@ export default function BlogPost() {
   const articleSchema = {
     "@context": "https://schema.org",
     "@type": "Article",
-    "headline": "How Salons & Barbershops Can Increase Business with Loyalty Programs",
+    "headline": "Salon Loyalty Programs Guide",
     "description": "Learn how barbershops and salons can use loyalty points and rewards programs to increase client retention, frequency, and revenue. Compare top apps and custom solutions.",
     "author": {
       "@type": "Organization",

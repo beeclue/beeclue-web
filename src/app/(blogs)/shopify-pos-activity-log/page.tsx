@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://beeclue.com/shopify-pos-activity-log",
   },
-  title: 'Shopify POS Activity Log: Everything You Need to Know About the New Feature | Beeclue Tech',
+  title: 'Shopify POS Activity Log: Complete Feature Guide',
   description: 'Shopify introduced the POS Activity Log on June 29, 2026. Learn what it tracks, how it improves store accountability, and why it matters for your retail business.',
 };
 
