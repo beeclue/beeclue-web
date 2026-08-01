@@ -6,13 +6,13 @@ import FadeIn from "@/components/FadeIn";
 import blogStyles from "../shared-blog.module.css";
 
 export const metadata: Metadata = {
-  title: "Custom Website Development Beats Wix and Shopify in 2026",
+  title: "Custom Web Development vs Wix & Shopify",
   description: "Why custom website development outperforms Wix and Shopify for growing businesses. Compare performance, SEO, scalability, and long-term ROI.",
   alternates: {
     canonical: "https://beeclue.com/custom-website-development-beats-wix-shopify",
   },
   openGraph: {
-    title: "Custom Website Development Beats Wix and Shopify in 2026",
+    title: "Custom Web Development vs Wix & Shopify",
     description: "Why custom website development outperforms Wix and Shopify for growing businesses. Compare performance, SEO, scalability, and long-term ROI.",
     url: "https://beeclue.com/custom-website-development-beats-wix-shopify",
     images: [
@@ -20,7 +20,7 @@ export const metadata: Metadata = {
         url: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&auto=format&fit=crop&w=2400&q=80",
         width: 1200,
         height: 630,
-        alt: "Custom Website Development Beats Wix and Shopify in 2026",
+        alt: "Custom Web Development vs Wix & Shopify",
       },
     ],
   },
@@ -41,7 +41,7 @@ export default function BlogPost() {
   const articleSchema = {
     "@context": "https://schema.org",
     "@type": "Article",
-    "headline": "Custom Website Development Beats Wix and Shopify in 2026",
+    "headline": "Custom Web Development vs Wix & Shopify",
     "description": "Why custom website development outperforms Wix and Shopify for growing businesses. Compare performance, SEO, scalability, and long-term ROI.",
     "author": {
       "@type": "Organization",
@@ -76,7 +76,7 @@ export default function BlogPost() {
         <FadeIn className={blogStyles.heroImageContainer}>
           <Image 
             src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&auto=format&fit=crop&w=2400&q=80" 
-            alt="Custom Website Development Beats Wix and Shopify in 2026" 
+            alt="Custom Web Development vs Wix & Shopify" 
             fill
             sizes="(max-width: 1000px) 100vw, 1000px"
             className={blogStyles.heroImage}

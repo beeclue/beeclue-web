@@ -6,13 +6,13 @@ import FadeIn from "@/components/FadeIn";
 import blogStyles from "../shared-blog.module.css";
 
 export const metadata: Metadata = {
-  title: "Web Design for Construction Companies: 7 Features That Win Commercial Bids | Beeclue",
+  title: "Construction Web Design: 7 Features That Win Bids",
   description: "Discover how specialized web design for construction companies in Toronto & Canada helps general contractors, builders, and trades win lucrative commercial bids, showcase project portfolios, and capture high-value leads.",
   alternates: {
     canonical: "https://beeclue.com/web-design-for-construction-companies-guide",
   },
   openGraph: {
-    title: "Web Design for Construction Companies: 7 Features That Win Commercial Bids | Beeclue",
+    title: "Construction Web Design: 7 Features That Win Bids",
     description: "Discover how specialized web design for construction companies in Toronto & Canada helps general contractors, builders, and trades win lucrative commercial bids, showcase project portfolios, and capture high-value leads.",
     url: "https://beeclue.com/web-design-for-construction-companies-guide",
     images: [

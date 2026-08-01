@@ -36,6 +36,29 @@ export default function BlogsPage() {
           <div className={styles.caseStudyListItem}>
             <div className={styles.caseStudyListImage} style={{ position: "relative" }}>
               <Image 
+                src="https://images.unsplash.com/photo-1629909613654-28e377c37b09?ixlib=rb-4.0.3&auto=format&fit=crop&w=2400&q=80" 
+                alt="Modern dental clinic in Toronto illustrating high-converting dental website design" 
+                fill
+                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                style={{ objectFit: "cover" }}
+              />
+            </div>
+            <div className={styles.caseStudyListContent}>
+              <h2>Dental Website Design Toronto: How Modern Dental Clinics Attract 50+ New Patients Monthly</h2>
+              <p>
+                Discover how custom dental website design in Toronto, online booking, PIPEDA compliance, and local SEO empower dental practices to rank #1 on Google.
+              </p>
+              <div>
+                <Link href="/dental-website-design-toronto-patient-growth-guide" className={styles.ctaButtonLight}>
+                  Read Article <ArrowRight className={styles.arrow} size={20} />
+                </Link>
+              </div>
+            </div>
+          </div>
+
+          <div className={styles.caseStudyListItem}>
+            <div className={styles.caseStudyListImage} style={{ position: "relative" }}>
+              <Image 
                 src="https://images.unsplash.com/photo-1589829545856-d10d557cf95f?ixlib=rb-4.0.3&auto=format&fit=crop&w=2400&q=80" 
                 alt="Law firm boardroom reflecting modern law firm website design and attorney SEO" 
                 fill
@@ -113,7 +136,7 @@ export default function BlogsPage() {
               />
             </div>
             <div className={styles.caseStudyListContent}>
-              <h2>Why Custom Website Development Beats Wix and Shopify in 2026</h2>
+              <h2>Why Custom Web Development vs Wix & Shopify</h2>
               <p>
                 Why custom website development outperforms Wix and Shopify for growing businesses. Compare performance, SEO, scalability, and long-term ROI.
               </p>
@@ -272,7 +295,7 @@ export default function BlogsPage() {
               />
             </div>
             <div className={styles.caseStudyListContent}>
-              <h2>Top 5 Free Domain Registrars: Options, Pros & Cons</h2>
+              <h2>Top 5 Free Domain Registrars</h2>
               <p>
                 Looking for a free domain for personal projects or clients? Discover the top 5 free domain registrars, their pros and cons, and when to use them.
               </p>
@@ -360,7 +383,7 @@ export default function BlogsPage() {
               />
             </div>
             <div className={styles.caseStudyListContent}>
-              <h2>The Impact of Artificial Intelligence on Web Development</h2>
+              <h2>AI Impact on Web Development</h2>
               <p>Explore how Artificial Intelligence (AI) is transforming the web development industry. From automated coding to personalized UX, learn what the future holds.</p>
               <div>
                 <Link href="/the-impact-of-artificial-intelligence-on-web-development" className={styles.ctaButtonLight}>
@@ -380,7 +403,7 @@ export default function BlogsPage() {
               />
             </div>
             <div className={styles.caseStudyListContent}>
-              <h2>What Are Cookies? A Helpful Guide to Computer Cookies</h2>
+              <h2>What Are Computer Cookies Guide</h2>
               <p>Discover everything you need to know about computer cookies, including how they work, the different types (first-party vs third-party), and how they affect your online privacy and SEO.</p>
               <div>
                 <Link href="/what-are-cookies-a-helpful-guide-to-computer-cookies" className={styles.ctaButtonLight}>

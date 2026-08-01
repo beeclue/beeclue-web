@@ -4,7 +4,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://beeclue.com/19",
   },
-  title: "Affordable Website Design – Only $19/Month | Beeclue Tech",
+  title: "Affordable Website Design – Only $19/Month",
   description: "Get a premium, fully managed, and highly optimized website for just $19/month. Affordable, professional web design built by experts for small businesses.",
 };
 

@@ -7,13 +7,13 @@ import blogStyles from "../shared-blog.module.css";
 import globalStyles from "@/app/page.module.css";
 
 export const metadata: Metadata = {
-  title: "Data Analytics: The Key to Making Better Business Decisions | Beeclue",
+  title: "Data Analytics for Business Growth",
   description: "Discover how data analytics transforms raw information into actionable business strategies. Learn about predictive analytics, AEO optimization, and driving growth.",
   alternates: {
     canonical: "https://beeclue.com/data-analytics-the-key-to-making-better-business-decisions",
   },
   openGraph: {
-    title: "Data Analytics: The Key to Making Better Business Decisions | Beeclue",
+    title: "Data Analytics for Business Growth",
     description: "Discover how data analytics transforms raw information into actionable business strategies.",
     url: "https://beeclue.com/data-analytics-the-key-to-making-better-business-decisions",
     images: [
@@ -42,7 +42,7 @@ export default function BlogPost() {
   const articleSchema = {
     "@context": "https://schema.org",
     "@type": "Article",
-    "headline": "Data Analytics: The Key to Making Better Business Decisions | Beeclue",
+    "headline": "Data Analytics for Business Growth",
     "description": "Discover how data analytics transforms raw information into actionable business strategies. Learn about predictive analytics, AEO optimization, and driving growth.",
     "author": {
       "@type": "Organization",

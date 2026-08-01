@@ -1,13 +1,13 @@
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "SEO Services Toronto | Technical Audits & Search Optimization",
+  title: "SEO Services Toronto",
   description: "SEO services in Toronto that deliver measurable organic growth. Technical SEO audits, content strategy, link building, and local search optimization.",
   alternates: {
     canonical: "https://beeclue.com/seo-services-toronto",
   },
   openGraph: {
-    title: "SEO Services Toronto | Technical Audits & Search Optimization",
+    title: "SEO Services Toronto",
     description: "SEO services in Toronto that deliver measurable organic growth. Technical SEO audits, content strategy, and local search optimization.",
     url: "https://beeclue.com/seo-services-toronto",
     siteName: "Beeclue Tech",
@@ -15,7 +15,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "SEO Services Toronto | Technical Audits & Search Optimization",
+    title: "SEO Services Toronto",
     description: "SEO services in Toronto that deliver measurable organic growth.",
   },
 };

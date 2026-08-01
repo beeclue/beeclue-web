@@ -79,15 +79,15 @@ export default function WebDesignForLawFirmsPage() {
         </div>
         <div className={styles.luxuryIntroContent}>
           <div className={styles.luxuryText}>
-            <h2>Why Your Law Firm Needs a Professional Website</h2>
+            <h2>Why Your Law Firm Needs Professional Web Design & Legal SEO in Toronto</h2>
             <p>
-              When someone needs a lawyer, they don&apos;t pick up a phone book — they search Google. Whether it&apos;s a personal injury case, a family law matter, or a business dispute, your potential clients are researching attorneys online before they ever make contact.
+              When someone needs a lawyer, they don&apos;t pick up a phone book — they search Google. Whether it&apos;s a personal injury case, a family law matter, or a business dispute, your potential clients are researching attorneys online before they ever make contact. Read our detailed guide on <Link href="/law-firm-website-design-seo-guide" style={{ color: "var(--primary-light)", textDecoration: "underline" }}>Law Firm Website Design & SEO Strategies</Link>.
             </p>
             <p>
               In the legal industry, credibility is everything. A poorly designed or generic website signals to potential clients that your practice may not be the premium choice they&apos;re looking for. Your website must convey authority, expertise, and trust from the very first pixel.
             </p>
             <p>
-              At Beeclue Tech, we build websites specifically for the legal industry. We understand that law firms need to establish expertise, showcase results, and make it effortless for potential clients to take the next step — whether that&apos;s calling your office or filling out a consultation form.
+              At Beeclue Tech, we build websites specifically for the legal industry across Toronto and Canada. We understand that law firms need to establish expertise, showcase results, and make it effortless for potential clients to take the next step — whether that&apos;s calling your office or filling out a consultation form.
             </p>
           </div>
           <div className={styles.luxuryCard}>

@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://beeclue.com/shopify-vs-custom-ecommerce-canada",
   },
-  title: 'Best E-Commerce Platforms Canada 2026: Shopify vs WooCommerce vs BigCommerce vs Custom | Beeclue',
+  title: 'Shopify vs Custom E-Commerce Canada',
   description: 'Compare the best e-commerce platforms in Canada for 2026. Shopify vs WooCommerce vs BigCommerce vs Custom development — find the right ecommerce website builder for your Canadian business.',
 };
 

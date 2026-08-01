@@ -6,13 +6,13 @@ import FadeIn from "@/components/FadeIn";
 import blogStyles from "../shared-blog.module.css";
 
 export const metadata: Metadata = {
-  title: "Best School Website Design Companies in Canada (2026 Guide) | Beeclue",
+  title: "Best School Web Design Canada 2026",
   description: "Searching for the best school website design companies in Canada? Learn what makes a top-tier educational website and why custom development outshines templates.",
   alternates: {
     canonical: "https://beeclue.com/best-school-website-design-companies-canada",
   },
   openGraph: {
-    title: "Best School Website Design Companies in Canada (2026 Guide) | Beeclue",
+    title: "Best School Web Design Canada 2026",
     description: "Searching for the best school website design companies in Canada? Learn what makes a top-tier educational website and why custom development outshines templates.",
     url: "https://beeclue.com/best-school-website-design-companies-canada",
     images: [
@@ -41,7 +41,7 @@ export default function BlogPost() {
   const articleSchema = {
     "@context": "https://schema.org",
     "@type": "Article",
-    "headline": "Best School Website Design Companies in Canada (2026 Guide) | Beeclue",
+    "headline": "Best School Web Design Canada 2026",
     "description": "Searching for the best school website design companies in Canada? Learn what makes a top-tier educational website and why custom development outshines templates.",
     "author": {
       "@type": "Organization",

@@ -6,13 +6,13 @@ import FadeIn from "@/components/FadeIn";
 import blogStyles from "../shared-blog.module.css";
 
 export const metadata: Metadata = {
-  title: "E-Commerce Website Cost in Canada: 2026 Pricing Guide",
+  title: "E-Commerce Website Cost Canada Guide",
   description: "How much does it cost to build an e-commerce website in Canada? Break down real costs of Shopify, WooCommerce, and custom development.",
   alternates: {
     canonical: "https://beeclue.com/cost-to-build-ecommerce-website-canada",
   },
   openGraph: {
-    title: "E-Commerce Website Cost in Canada: 2026 Pricing Guide",
+    title: "E-Commerce Website Cost Canada Guide",
     description: "How much does it cost to build an e-commerce website in Canada? Break down real costs of Shopify, WooCommerce, and custom development.",
     url: "https://beeclue.com/cost-to-build-ecommerce-website-canada",
     images: [
@@ -20,7 +20,7 @@ export const metadata: Metadata = {
         url: "https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?ixlib=rb-4.0.3&auto=format&fit=crop&w=2400&q=80",
         width: 1200,
         height: 630,
-        alt: "E-Commerce Website Cost in Canada: 2026 Pricing Guide",
+        alt: "E-Commerce Website Cost Canada Guide",
       },
     ],
   },
@@ -41,7 +41,7 @@ export default function BlogPost() {
   const articleSchema = {
     "@context": "https://schema.org",
     "@type": "Article",
-    "headline": "E-Commerce Website Cost in Canada: 2026 Pricing Guide",
+    "headline": "E-Commerce Website Cost Canada Guide",
     "description": "How much does it cost to build an e-commerce website in Canada? Break down real costs of Shopify, WooCommerce, and custom development.",
     "author": {
       "@type": "Organization",

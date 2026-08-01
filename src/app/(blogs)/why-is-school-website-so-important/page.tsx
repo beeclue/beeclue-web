@@ -7,13 +7,13 @@ import blogStyles from "../shared-blog.module.css";
 import globalStyles from "@/app/page.module.css";
 
 export const metadata: Metadata = {
-  title: "Why is a School Website So Important? | Beeclue",
+  title: "Why is a School Website So Important?",
   description: "Discover why a well-designed school website is essential for modern education. Learn how it improves communication, boosts enrollment, and streamlines administration.",
   alternates: {
     canonical: "https://beeclue.com/why-is-school-website-so-important",
   },
   openGraph: {
-    title: "Why is a School Website So Important? | Beeclue",
+    title: "Why is a School Website So Important?",
     description: "Discover why a well-designed school website is essential for modern education.",
     url: "https://beeclue.com/why-is-school-website-so-important",
     images: [

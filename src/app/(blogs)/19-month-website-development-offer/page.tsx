@@ -7,13 +7,13 @@ import blogStyles from "../shared-blog.module.css";
 import globalStyles from "@/app/page.module.css";
 
 export const metadata: Metadata = {
-  title: "Affordable Website Design – Only $19/Month | Beeclue",
+  title: "Affordable Website Design – Only $19/Month",
   description: "Get a professional website design, hosting, and maintenance for just $19/month. Perfect for small businesses.",
   alternates: {
     canonical: "https://beeclue.com/19-month-website-development-offer",
   },
   openGraph: {
-    title: "Affordable Website Design – Only $19/Month | Beeclue",
+    title: "Affordable Website Design – Only $19/Month",
     description: "Get a professional website design, hosting, and maintenance for just $19/month. Perfect for small businesses.",
     url: "https://beeclue.com/19-month-website-development-offer",
     images: [

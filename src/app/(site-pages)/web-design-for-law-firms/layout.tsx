@@ -1,20 +1,18 @@
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title:
-    "Law Firm Website Design Toronto | Professional Legal Websites | Beeclue",
+  title: "Law Firm Website Design Toronto | Legal SEO Agency | Beeclue",
   description:
-    "Law firm websites in Toronto with case evaluation forms, attorney profiles, and SEO to attract high-value clients.",
+    "Specialized law firm website design in Toronto. Build client trust with case evaluation forms, attorney profiles, and legal SEO engineered for high ROI.",
   alternates: {
     canonical: "https://beeclue.com/web-design-for-law-firms",
   },
   openGraph: {
-    title:
-      "Law Firm Website Design Toronto | Professional Legal Websites | Beeclue",
+    title: "Law Firm Website Design Toronto | Legal SEO Agency",
     description:
-      "Law firm websites in Toronto with case evaluation forms, attorney profiles, and SEO to attract high-value clients.",
+      "Specialized law firm website design in Toronto. Build client trust with case evaluation forms, attorney profiles, and legal SEO engineered for high ROI.",
     url: "https://beeclue.com/web-design-for-law-firms",
-    siteName: "Beeclue",
+    siteName: "Beeclue Tech",
     type: "website",
   },
 };

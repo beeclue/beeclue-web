@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://beeclue.com/how-to-attract-more-clients-for-your-salon",
   },
-  title: 'How to Attract More Clients for Your Salon in 2026 | Beeclue Tech',
+  title: 'How to Attract More Salon Clients',
   description: 'Discover actionable strategies to attract more clients to your salon or barbershop. From advanced SEO to loyalty apps, learn how to maximize your digital presence.',
 };
 
