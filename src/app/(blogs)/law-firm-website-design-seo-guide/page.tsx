@@ -3,6 +3,7 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import FadeIn from "@/components/FadeIn";
+import BlogAuthorBox from "@/components/BlogAuthorBox";
 import blogStyles from "../shared-blog.module.css";
 
 export const metadata: Metadata = {
@@ -225,13 +226,7 @@ export default function LawFirmBlogPage() {
           </FadeIn>
         </div>
 
-        <div className={blogStyles.authorBox}>
-          <Image src="/apple-touch-icon.png" alt="Beeclue Strategy Team" width={60} height={60} className={blogStyles.authorImage} />
-          <div className={blogStyles.authorDetails}>
-            <h4>Beeclue Strategy Team</h4>
-            <p>Beeclue Tech is a Toronto-based web engineering agency specializing in high-performance digital platforms, custom software development, and specialized web design for law firms, real estate, healthcare, and commercial enterprises across Canada.</p>
-          </div>
-        </div>
+        <BlogAuthorBox />
       </article>
     </main>
   );

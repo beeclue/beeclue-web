@@ -90,6 +90,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/how-much-does-a-website-cost-in-canada-in-2026',
     '/how-to-fix-not-secure-warning-2026',
     '/shopify-vs-custom-ecommerce-canada',
+    '/law-firm-website-design-cost-pricing-guide',
+    '/legal-seo-guide-for-lawyers-and-attorneys',
+    '/personal-injury-law-firm-website-design',
+    '/family-law-firm-website-design-strategy',
+    '/law-firm-website-audit-checklist',
   ];
 
   return routes.map((route) => ({

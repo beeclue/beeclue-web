@@ -33,6 +33,125 @@ export default function BlogsPage() {
       {/* BLOGS LIST */}
       <FadeIn className={styles.baseSection} style={{ paddingTop: "5vh" }}>
         <div className={styles.caseStudyList}>
+          {/* BLOG: LAW FIRM COST PRICING GUIDE */}
+          <div className={styles.caseStudyListItem}>
+            <div className={styles.caseStudyListImage} style={{ position: "relative" }}>
+              <Image 
+                src="https://images.unsplash.com/photo-1450133064473-71024230f91b?ixlib=rb-4.0.3&auto=format&fit=crop&w=2400&q=80" 
+                alt="Law firm financial breakdown and calculator representing website pricing" 
+                fill
+                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                style={{ objectFit: "cover" }}
+              />
+            </div>
+            <div className={styles.caseStudyListContent}>
+              <h2>How Much Does Law Firm Website Design Cost in 2026? [Complete Pricing Breakdown]</h2>
+              <p>
+                A comprehensive guide on attorney website design costs in 2026. Explore pricing models for solo attorneys, boutique firms, and enterprise practices, plus ROI calculations and hidden costs.
+              </p>
+              <div>
+                <Link href="/law-firm-website-design-cost-pricing-guide" className={styles.ctaButtonLight}>
+                  Read Article <ArrowRight className={styles.arrow} size={20} />
+                </Link>
+              </div>
+            </div>
+          </div>
+
+          {/* BLOG: LEGAL SEO GUIDE */}
+          <div className={styles.caseStudyListItem}>
+            <div className={styles.caseStudyListImage} style={{ position: "relative" }}>
+              <Image 
+                src="https://images.unsplash.com/photo-1507679799987-c73779587ccf?ixlib=rb-4.0.3&auto=format&fit=crop&w=2400&q=80" 
+                alt="Attorney analyzing legal SEO rankings and Google map performance" 
+                fill
+                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                style={{ objectFit: "cover" }}
+              />
+            </div>
+            <div className={styles.caseStudyListContent}>
+              <h2>Legal SEO for Law Firms: How Attorneys Rank #1 on Google in 2026</h2>
+              <p>
+                Master legal SEO for law firms in 2026. Discover how attorneys and legal practices rank #1 on Google using local map optimization, technical schema, and practice-area content strategies.
+              </p>
+              <div>
+                <Link href="/legal-seo-guide-for-lawyers-and-attorneys" className={styles.ctaButtonLight}>
+                  Read Article <ArrowRight className={styles.arrow} size={20} />
+                </Link>
+              </div>
+            </div>
+          </div>
+
+          {/* BLOG: PERSONAL INJURY LAW FIRM WEB DESIGN */}
+          <div className={styles.caseStudyListItem}>
+            <div className={styles.caseStudyListImage} style={{ position: "relative" }}>
+              <Image 
+                src="https://images.unsplash.com/photo-1589829545856-d10d557cf95f?ixlib=rb-4.0.3&auto=format&fit=crop&w=2400&q=80" 
+                alt="Personal injury attorney firm office representing client consultation" 
+                fill
+                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                style={{ objectFit: "cover" }}
+              />
+            </div>
+            <div className={styles.caseStudyListContent}>
+              <h2>Personal Injury Law Firm Website Design: Winning High-Value Case Inquiries</h2>
+              <p>
+                Learn how personal injury lawyers and attorneys build high-converting websites that win high-value case inquiries, showcase settlement results, and dominate local legal SEO.
+              </p>
+              <div>
+                <Link href="/personal-injury-law-firm-website-design" className={styles.ctaButtonLight}>
+                  Read Article <ArrowRight className={styles.arrow} size={20} />
+                </Link>
+              </div>
+            </div>
+          </div>
+
+          {/* BLOG: FAMILY LAW WEBSITE DESIGN */}
+          <div className={styles.caseStudyListItem}>
+            <div className={styles.caseStudyListImage} style={{ position: "relative" }}>
+              <Image 
+                src="https://images.unsplash.com/photo-1521791136064-7986c2920216?ixlib=rb-4.0.3&auto=format&fit=crop&w=2400&q=80" 
+                alt="Family law lawyer consulting with client in supportive office environment" 
+                fill
+                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                style={{ objectFit: "cover" }}
+              />
+            </div>
+            <div className={styles.caseStudyListContent}>
+              <h2>Family Law Website Design &amp; SEO: Building Client Trust &amp; Compassionate UX</h2>
+              <p>
+                Discover how family law attorneys and divorce lawyers design websites that build immediate trust, convey empathy, and convert confidential consultation inquiries.
+              </p>
+              <div>
+                <Link href="/family-law-firm-website-design-strategy" className={styles.ctaButtonLight}>
+                  Read Article <ArrowRight className={styles.arrow} size={20} />
+                </Link>
+              </div>
+            </div>
+          </div>
+
+          {/* BLOG: LAW FIRM WEBSITE AUDIT CHECKLIST */}
+          <div className={styles.caseStudyListItem}>
+            <div className={styles.caseStudyListImage} style={{ position: "relative" }}>
+              <Image 
+                src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixlib=rb-4.0.3&auto=format&fit=crop&w=2400&q=80" 
+                alt="Law firm partners inspecting technical website audit and SEO dashboard" 
+                fill
+                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                style={{ objectFit: "cover" }}
+              />
+            </div>
+            <div className={styles.caseStudyListContent}>
+              <h2>The 10-Point Law Firm Website Audit Checklist Every Attorney Needs</h2>
+              <p>
+                Evaluate your law firm&apos;s digital presence with our 10-point audit checklist. Benchmark mobile UX, legal SEO schema, page speed, client intake forms, and conversion rates.
+              </p>
+              <div>
+                <Link href="/law-firm-website-audit-checklist" className={styles.ctaButtonLight}>
+                  Read Article <ArrowRight className={styles.arrow} size={20} />
+                </Link>
+              </div>
+            </div>
+          </div>
           <div className={styles.caseStudyListItem}>
             <div className={styles.caseStudyListImage} style={{ position: "relative" }}>
               <Image 
