@@ -7,18 +7,22 @@ import { ArrowRight, CheckCircle2, Scale, FileCheck, Search, Smartphone, Users, 
 import FadeIn from "@/components/FadeIn";
 import ServiceTracker from "@/components/ServiceTracker";
 import IndustryList from "@/components/IndustryList";
+import LawFirmCalculator from "@/components/LawFirmCalculator";
 
 export default function WebDesignForLawFirmsPage() {
   const jsonLd = {
     "@context": "https://schema.org",
-    "@type": "Service",
+    "@type": ["Service", "LegalService"],
+    "name": "Law Firm Website Design & Attorney Web Development",
     "serviceType": "Web Design for Law Firms",
     "provider": {
       "@type": "Organization",
-      "name": "Beeclue Tech"
+      "name": "Beeclue Tech",
+      "url": "https://beeclue.com"
     },
-    "description": "Professional web design and development services for law firms, lawyers, and legal practices in Canada. Authoritative websites with case results, attorney profiles, and client intake forms.",
-    "areaServed": "Canada"
+    "description": "Professional web design and legal SEO services for law firms, attorneys, and legal practices in Toronto, Canada, and North America. Custom sites with case results, attorney profiles, and client intake forms.",
+    "areaServed": ["Canada", "United States"],
+    "priceRange": "$$$"
   };
   const breadcrumbs = {
     "@context": "https://schema.org",
@@ -29,22 +33,53 @@ export default function WebDesignForLawFirmsPage() {
       { "@type": "ListItem", "position": 3, "name": "Web Design for Law Firms", "item": "https://beeclue.com/web-design-for-law-firms" }
     ]
   };
+  const faqSchema = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "How much does law firm website design cost?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Law firm website design typically ranges from $3,500 for boutique practices to $12,500+ for multi-attorney practices requiring custom legal SEO, client intake portals, and case result showcases."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Why is specialized web design important for lawyers and attorneys?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Legal clients evaluate trust, authority, and track record before booking a consultation. A specialized legal website includes case outcome highlights, confidential client intake forms, and local SEO optimizations engineered to rank for legal search terms."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How long does it take to design and launch a law firm website?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Most custom law firm websites are designed, developed, and launched within 2 to 4 weeks, including mobile optimization, legal content writing, and technical SEO setup."
+        }
+      }
+    ]
+  };
 
   return (
     <main className={styles.main}>
       <ServiceTracker />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbs) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
 
       {/* HERO SECTION */}
       <FadeIn className={styles.baseSection} style={{ paddingTop: "20vh", minHeight: "50vh", display: "flex", alignItems: "center" }}>
         <div className={styles.heroContent}>
           <h1 className={styles.title} style={{ fontSize: "clamp(2.5rem, 6vw, 5rem)" }}>
             <span className={styles.titleLinePrimary}>Web Design</span>
-            <span className={styles.titleLine}>for Law Firms</span>
+            <span className={styles.titleLine}>for Law Firms &amp; Attorneys</span>
           </h1>
           <p className={styles.subtitle} style={{ fontSize: "1.25rem", maxWidth: "800px" }}>
-            We build authoritative, client-converting websites for law firms, lawyers, and legal practices. From case results to client intake, we engineer sites that establish expertise and generate consultations.
+            We build authoritative, client-converting websites for law firms, lawyers, and legal practices in Toronto and across North America. From case results to client intake, we engineer sites that establish expertise and generate high-value consultations.
           </p>
           <div className={styles.heroRatingContainer}>
             <Link href="/contact" className={styles.ctaButton}>
@@ -263,6 +298,11 @@ export default function WebDesignForLawFirmsPage() {
             </div>
           </div>
         </div>
+      </FadeIn>
+
+      {/* INTERACTIVE LAW FIRM CALCULATOR */}
+      <FadeIn className={styles.baseSection}>
+        <LawFirmCalculator />
       </FadeIn>
 
       {/* MORE RESOURCES */}
