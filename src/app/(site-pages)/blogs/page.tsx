@@ -37,7 +37,7 @@ export default function BlogsPage() {
           <div className={styles.caseStudyListItem}>
             <div className={styles.caseStudyListImage} style={{ position: "relative" }}>
               <Image 
-                src="https://images.unsplash.com/photo-1450133064473-71024230f91b?ixlib=rb-4.0.3&auto=format&fit=crop&w=2400&q=80" 
+                src="https://cdn.jsdelivr.net/gh/beeclue/clients@main/self/blog.webp" 
                 alt="Law firm financial breakdown and calculator representing website pricing" 
                 fill
                 sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"

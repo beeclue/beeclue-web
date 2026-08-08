@@ -18,10 +18,10 @@ export const metadata: Metadata = {
     url: "https://beeclue.com/law-firm-website-design-cost-pricing-guide",
     images: [
       {
-        url: "https://images.unsplash.com/photo-1450133064473-71024230f91b?ixlib=rb-4.0.3&auto=format&fit=crop&w=2400&q=80",
+        url: "https://cdn.jsdelivr.net/gh/beeclue/clients@main/self/blog.webp",
         width: 1200,
         height: 630,
-        alt: "Law firm financial documents and calculator for website pricing evaluation",
+        alt: "Law firm website design cost and pricing guide hero illustration",
       },
     ],
   },
@@ -80,7 +80,7 @@ export default function LawFirmCostPricingBlog() {
 
         <FadeIn className={blogStyles.heroImageContainer}>
           <Image
-            src="https://images.unsplash.com/photo-1450133064473-71024230f91b?ixlib=rb-4.0.3&auto=format&fit=crop&w=2400&q=80"
+            src="https://cdn.jsdelivr.net/gh/beeclue/clients@main/self/blog.webp"
             alt="Law firm financial breakdown and calculator representing website pricing"
             fill
             sizes="(max-width: 1000px) 100vw, 1000px"
