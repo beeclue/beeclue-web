@@ -57,5 +57,8 @@ next-env.d.ts
 .superpowers
 docs
 
-# sales
-sales/
+# Agents data directories
+/seo-reports/
+/marketing/
+/sales/
+
