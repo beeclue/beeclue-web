@@ -18,13 +18,16 @@ function scanDirectory(dir, routePath = "") {
         const stat = fs.statSync(fullPath);
 
         if (stat.isDirectory()) {
-            if (file.startsWith('(') || file.startsWith('_')) {
-                // Skip route groups/internal directories but scan children
+            if (file.startsWith('_')) {
+                // Skip private directories entirely
+                continue;
+            } else if (file.startsWith('(')) {
+                // Route group: scan children without appending directory name
                 scanDirectory(fullPath, routePath);
             } else {
                 scanDirectory(fullPath, routePath + "/" + file);
             }
-        } else if (file === "page.tsx") {
+        } else if (file === "page.tsx" || file === "page.ts" || file === "page.jsx" || file === "page.js") {
             hasPage = true;
             pageContent = fs.readFileSync(fullPath, 'utf8');
         }
@@ -35,10 +38,10 @@ function scanDirectory(dir, routePath = "") {
         let title = "Beeclue Page";
         let desc = "B2B Software and Web Services";
 
-        const titleMatch = pageContent.match(/title:\s*["']([^"']+)["']/);
+        const titleMatch = pageContent.match(/title:\s*["'`]([^"'`]+)["'`]/);
         if (titleMatch) title = titleMatch[1];
 
-        const descMatch = pageContent.match(/description:\s*["']([^"']+)["']/);
+        const descMatch = pageContent.match(/description:\s*["'`]([^"'`]+)["'`]/);
         if (descMatch) desc = descMatch[1];
 
         routes.push({
