@@ -58,7 +58,19 @@ next-env.d.ts
 docs
 
 # Agents data directories
-/seo-reports/
-/marketing/
-/sales/
+/seo-reports/*
+!/seo-reports/history/
+/seo-reports/history/*
+!/seo-reports/.keep
+!/seo-reports/history/.keep
+/marketing/*
+!/marketing/.keep
+/sales/*
+!/sales/leads/
+/sales/leads/*
+!/sales/.keep
+!/sales/leads/.keep
+
+# local python environment
+.venv/
 
