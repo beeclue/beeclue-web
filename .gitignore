@@ -74,3 +74,6 @@ docs
 # local python environment
 .venv/
 
+# Automation scripts
+/scripts/
+
