@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import styles from "@/app/page.module.css";
-import { ArrowRight, LayoutTemplate, Briefcase, Globe, RefreshCcw, ShoppingCart, Search, CheckCircle2, Check } from "lucide-react";
+import { ArrowRight, LayoutTemplate, Briefcase, Globe, RefreshCcw, ShoppingCart, Search, CheckCircle2, Check, Zap, Gauge, XCircle } from "lucide-react";
 import FadeIn from "@/components/FadeIn";
 import ServiceTracker from "@/components/ServiceTracker";
 import FaqAccordion from "@/components/FaqAccordion";
@@ -235,6 +235,92 @@ export default function EcommerceDevelopmentTorontoPage() {
             <h3 style={{ fontSize: "1.25rem", color: "var(--foreground)", marginBottom: "0.5rem" }}>Education & E-Learning</h3>
             <p style={{ color: "var(--muted)", fontSize: "0.875rem" }}>Private schools, online course platforms, and tutoring centers.</p>
           </div>
+        </div>
+      </FadeIn>
+
+      {/* HEAD-TO-HEAD COMPARISON SECTION */}
+      <FadeIn className={styles.baseSection}>
+        <div className={styles.servicesHeader}>
+          <h2>Why Custom Next.js Beats Bloated Platforms</h2>
+          <p>A head-to-head performance comparison against Shopify and Wix.</p>
+        </div>
+
+        <div style={{ overflowX: "auto", margin: "2rem 0" }}>
+          <table style={{ width: "100%", borderCollapse: "collapse", border: "1px solid rgba(255,255,255,0.1)", borderRadius: "12px", overflow: "hidden", minWidth: "800px" }}>
+            <thead>
+              <tr style={{ background: "rgba(0, 77, 153, 0.2)" }}>
+                <th style={{ padding: "1.5rem", textAlign: "left", borderBottom: "1px solid rgba(255,255,255,0.1)", width: "25%" }}>Performance Metric</th>
+                <th style={{ padding: "1.5rem", textAlign: "left", borderBottom: "1px solid rgba(255,255,255,0.1)", width: "25%" }}>Wix</th>
+                <th style={{ padding: "1.5rem", textAlign: "left", borderBottom: "1px solid rgba(255,255,255,0.1)", width: "25%" }}>Shopify</th>
+                <th style={{ padding: "1.5rem", textAlign: "left", borderBottom: "1px solid rgba(255,255,255,0.1)", width: "25%", background: "rgba(0, 255, 128, 0.05)" }}><span style={{ color: "var(--primary-light)", display: "flex", alignItems: "center", gap: "0.5rem" }}><Zap size={20} /> Custom Next.js</span></th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr style={{ borderBottom: "1px solid rgba(255,255,255,0.05)" }}>
+                <td style={{ padding: "1.5rem" }}>
+                  <strong>LCP (Load Time)</strong>
+                  <div style={{ fontSize: "0.85rem", color: "var(--muted)", marginTop: "0.25rem" }}>Largest Contentful Paint</div>
+                </td>
+                <td style={{ padding: "1.5rem" }}>
+                  <span style={{ color: "#ef4444", display: "flex", alignItems: "center", gap: "0.5rem" }}><XCircle size={16} /> 3.5s - 5.0s</span>
+                  <div style={{ fontSize: "0.85rem", color: "var(--muted)", marginTop: "0.25rem" }}>Heavy monolithic code</div>
+                </td>
+                <td style={{ padding: "1.5rem" }}>
+                  <span style={{ color: "#eab308", display: "flex", alignItems: "center", gap: "0.5rem" }}><Check size={16} /> 2.5s - 4.0s</span>
+                  <div style={{ fontSize: "0.85rem", color: "var(--muted)", marginTop: "0.25rem" }}>Often blocked by 3rd-party apps</div>
+                </td>
+                <td style={{ padding: "1.5rem", background: "rgba(0, 255, 128, 0.02)" }}>
+                  <span style={{ color: "#22c55e", display: "flex", alignItems: "center", gap: "0.5rem", fontWeight: "bold" }}><CheckCircle2 size={16} /> &lt; 1.5s</span>
+                  <div style={{ fontSize: "0.85rem", color: "var(--muted)", marginTop: "0.25rem" }}>Server-side rendering & optimized images</div>
+                </td>
+              </tr>
+              <tr style={{ borderBottom: "1px solid rgba(255,255,255,0.05)" }}>
+                <td style={{ padding: "1.5rem" }}>
+                  <strong>INP (Interactivity)</strong>
+                  <div style={{ fontSize: "0.85rem", color: "var(--muted)", marginTop: "0.25rem" }}>Interaction to Next Paint</div>
+                </td>
+                <td style={{ padding: "1.5rem" }}>
+                  <span style={{ color: "#ef4444", display: "flex", alignItems: "center", gap: "0.5rem" }}><XCircle size={16} /> &gt; 300ms</span>
+                  <div style={{ fontSize: "0.85rem", color: "var(--muted)", marginTop: "0.25rem" }}>Sluggish UI response</div>
+                </td>
+                <td style={{ padding: "1.5rem" }}>
+                  <span style={{ color: "#eab308", display: "flex", alignItems: "center", gap: "0.5rem" }}><Check size={16} /> 150ms - 300ms</span>
+                  <div style={{ fontSize: "0.85rem", color: "var(--muted)", marginTop: "0.25rem" }}>Javascript execution delays</div>
+                </td>
+                <td style={{ padding: "1.5rem", background: "rgba(0, 255, 128, 0.02)" }}>
+                  <span style={{ color: "#22c55e", display: "flex", alignItems: "center", gap: "0.5rem", fontWeight: "bold" }}><CheckCircle2 size={16} /> &lt; 100ms</span>
+                  <div style={{ fontSize: "0.85rem", color: "var(--muted)", marginTop: "0.25rem" }}>Instant interactions via React Server Components</div>
+                </td>
+              </tr>
+              <tr>
+                <td style={{ padding: "1.5rem" }}>
+                  <strong>CLS (Visual Stability)</strong>
+                  <div style={{ fontSize: "0.85rem", color: "var(--muted)", marginTop: "0.25rem" }}>Cumulative Layout Shift</div>
+                </td>
+                <td style={{ padding: "1.5rem" }}>
+                  <span style={{ color: "#ef4444", display: "flex", alignItems: "center", gap: "0.5rem" }}><XCircle size={16} /> &gt; 0.25</span>
+                  <div style={{ fontSize: "0.85rem", color: "var(--muted)", marginTop: "0.25rem" }}>Unpredictable layout shifts</div>
+                </td>
+                <td style={{ padding: "1.5rem" }}>
+                  <span style={{ color: "#eab308", display: "flex", alignItems: "center", gap: "0.5rem" }}><Check size={16} /> 0.1 - 0.25</span>
+                  <div style={{ fontSize: "0.85rem", color: "var(--muted)", marginTop: "0.25rem" }}>Apps popping in after load</div>
+                </td>
+                <td style={{ padding: "1.5rem", background: "rgba(0, 255, 128, 0.02)" }}>
+                  <span style={{ color: "#22c55e", display: "flex", alignItems: "center", gap: "0.5rem", fontWeight: "bold" }}><CheckCircle2 size={16} /> Near 0</span>
+                  <div style={{ fontSize: "0.85rem", color: "var(--muted)", marginTop: "0.25rem" }}>Strict layout definitions & font optimization</div>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div style={{ textAlign: "center", marginTop: "2rem" }}>
+          <p style={{ color: "var(--muted)", marginBottom: "1.5rem", fontSize: "1.1rem" }}>
+            For a deep dive into how platforms stack up in terms of cost and performance in Canada, read our full analysis:
+          </p>
+          <Link href="/shopify-vs-custom-ecommerce-canada" className={styles.ctaButton} style={{ background: "transparent", border: "1px solid var(--primary)", color: "var(--foreground)" }}>
+            <Gauge className={styles.arrow} style={{ marginRight: "0.5rem" }} /> Shopify vs Custom E-Commerce Canada
+          </Link>
         </div>
       </FadeIn>
 
