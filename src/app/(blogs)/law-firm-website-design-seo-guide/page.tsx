@@ -178,6 +178,9 @@ export default function LawFirmBlogPage() {
             <p>
               Under Ontario's AODA regulations and WCAG 2.1 AA standards, legal websites must be fully accessible to individuals with visual or motor impairments. Ensuring high-contrast text, screen-reader navigation, and fast page loads via modern frameworks like Next.js guarantees legal compliance and superior search rankings. Learn more in <a href="https://developers.google.com/search/docs/appearance/core-web-vitals?utm_source=beeclue&utm_medium=blog&utm_campaign=law-firm-website-design-seo-guide" target="_blank" rel="noopener noreferrer" className={blogStyles.internalLink}>Google's Core Web Vitals documentation</a>.
             </p>
+            <p>
+              For a custom-engineered web presence tailored specifically to Law Society compliance and modern client conversion, discover our specialized <Link href="/web-design-for-law-firms" className={blogStyles.internalLink}>law firm website development</Link> solutions.
+            </p>
           </FadeIn>
 
           <FadeIn className={blogStyles.highlightBox}>

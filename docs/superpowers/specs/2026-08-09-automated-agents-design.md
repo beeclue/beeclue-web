@@ -130,9 +130,32 @@ Identify local service businesses within a specific region (province/city) and n
 
 ---
 
+## 🤝 Agent 5: Partnership Outreach Agent (On-Demand / Automated)
+
+### Objective
+Find high-potential B2B referral partners (Accountants, CPAs, Bookkeepers, and local Print Shops) to establish a mutual client-referral pipeline. Never target other web design, development, or search marketing agencies.
+
+### The Value Pitch
+* **For Recurring Builds**: Referred clients receive a premium Done-For-You website for **$29/mo** (design, migration, hosting, and updates). The referring partner receives a recurring commission of **$5/month** for every active client.
+* **For Custom Projects**: Partners receive a one-time referral fee of **20% of the project profit**.
+
+### Workflow & Tool Orchestration
+1. **Trigger**: Triggered on-demand via command `node scripts/find-partners.js --city=<city> --niche=<niche>` (or automated via daily scheduler at 12:00 PM).
+2. **Partner Scouting**:
+   - Performs web searches to discover agencies or consultants in the target city and niche.
+   - Extracts their business name, website, and email address.
+3. **Outbound Customization**:
+   - Drafts a professional partnership proposal email outlining the $5/mo recurring referral program and 20% custom project profit sharing.
+   - Saves daily logs to `sales/partners/partners_YYYY-MM-DD.md`.
+   - Appends entries to `sales/partners_pipeline.md` in `DRAFTED` status.
+4. **Reporting**: Displays the scouted partners and partnership proposal emails directly in the chat window.
+
+---
+
 ## ⏰ Scheduler Config
 
 The tasks are registered in the environment using the `schedule` tool:
 - SEO Cron: `CronExpression="0 9 * * *"` with Prompt="[SEO Agent] Trigger daily SEO check and update live report."
 - Marketing Cron: `CronExpression="0 10 * * *"` with Prompt="[Marketing Agent] Trigger daily marketing tip generation."
 - Sales Cron: `CronExpression="0 11 * * *"` with Prompt="[Sales Agent] Trigger daily lead generation and outreach templates."
+- Partnership Cron: `CronExpression="0 12 * * *"` with Prompt="[Partnership Agent] Trigger daily partner scouting and outreach templates."
