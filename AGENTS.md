@@ -41,3 +41,8 @@ This version has breaking changes — APIs, conventions, and file structure may 
 - Outbound pitches must offer the special client subscription rate (**$29/mo**) and the partner recurring payout (**$5/month**) or custom project profit sharing (**20%**).
 - Append UTM tracking to all external links in outreach emails using the format: `?utm_source=beeclue&utm_medium=partner-outreach&utm_campaign=sales-outreach-partner-<slug>`.
 - Always BCC all outreach emails to `admin@beeclue.com`.
+
+# Design System Guidelines
+- ALWAYS refer to `DESIGN_SYSTEM.md` whenever adding new pages or components.
+- Reuse existing components from the `src/components/` directory whenever a new component is needed. DO NOT recreate components that already exist.
+- Follow the design guidelines, CSS variables, and layout modules (`baseSection`, `servicesHeader`, etc.) outlined in the Design System to maintain a consistent visual language across the site.

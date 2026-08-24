@@ -43,6 +43,14 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/website-development-cost-toronto',
     '/best-ecommerce-platform-canada',
     '/not-secure-website-fix',
+    // Regional Landing Pages
+    '/web-design/huntsville',
+    '/web-design/cobourg',
+    '/web-design/port-hope',
+    '/web-design/pembroke',
+    '/web-design/midland',
+    '/web-design/orillia',
+    '/web-design/owen-sound',
     // Legacy Landing Pages
     '/19',
     // Case Studies

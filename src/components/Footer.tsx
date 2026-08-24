@@ -92,6 +92,16 @@ export default function Footer() {
               <Link href="/blogs" style={{ color: 'rgba(255,255,255,0.7)', textDecoration: 'none', fontSize: '0.9rem' }}>Blog</Link>
               <Link href="/contact" style={{ color: 'rgba(255,255,255,0.7)', textDecoration: 'none', fontSize: '0.9rem' }}>Contact</Link>
             </div>
+            <div style={{ display: 'flex', flexDirection: 'column', gap: '0.75rem', alignItems: 'center' }}>
+              <h4 style={{ color: '#fff', fontSize: '0.875rem', textTransform: 'uppercase', letterSpacing: '0.1em', marginBottom: '0.5rem' }}>Service Areas</h4>
+              <Link href="/web-design/huntsville" style={{ color: 'rgba(255,255,255,0.7)', textDecoration: 'none', fontSize: '0.9rem' }}>Huntsville</Link>
+              <Link href="/web-design/cobourg" style={{ color: 'rgba(255,255,255,0.7)', textDecoration: 'none', fontSize: '0.9rem' }}>Cobourg</Link>
+              <Link href="/web-design/port-hope" style={{ color: 'rgba(255,255,255,0.7)', textDecoration: 'none', fontSize: '0.9rem' }}>Port Hope</Link>
+              <Link href="/web-design/pembroke" style={{ color: 'rgba(255,255,255,0.7)', textDecoration: 'none', fontSize: '0.9rem' }}>Pembroke</Link>
+              <Link href="/web-design/midland" style={{ color: 'rgba(255,255,255,0.7)', textDecoration: 'none', fontSize: '0.9rem' }}>Midland</Link>
+              <Link href="/web-design/orillia" style={{ color: 'rgba(255,255,255,0.7)', textDecoration: 'none', fontSize: '0.9rem' }}>Orillia</Link>
+              <Link href="/web-design/owen-sound" style={{ color: 'rgba(255,255,255,0.7)', textDecoration: 'none', fontSize: '0.9rem' }}>Owen Sound</Link>
+            </div>
           </div>
 
           <div className={globalStyles.legalLinks}>
