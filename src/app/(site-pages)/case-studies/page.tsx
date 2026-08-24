@@ -48,6 +48,29 @@ export default function CaseStudiesPage() {
           <div className={styles.caseStudyListItem}>
             <div className={styles.caseStudyListImage}>
               <Image 
+                src="https://cdn.jsdelivr.net/gh/beeclue/clients@main/self/mac-mates.webp" 
+                alt="MacMates Device Repair Website" 
+                fill
+                sizes="(max-width: 768px) 100vw, 50vw"
+                style={{ objectFit: "contain", padding: "2rem" }}
+              />
+            </div>
+            <div className={styles.caseStudyListContent}>
+              <h2>MacMates — Digital Platform &amp; Local SEO</h2>
+              <p>
+                We partnered with Oakville's premier device repair experts to build a high-performance digital presence. With a comprehensive Next.js platform, robust local SEO, custom logo design, and detailed analytics, we significantly boosted their local search visibility and lead generation.
+              </p>
+              <div>
+                <Link href="/case-studies/mac-mates" className={styles.ctaButtonLight}>
+                  Read More <ArrowRight className={styles.arrow} size={20} />
+                </Link>
+              </div>
+            </div>
+          </div>
+
+          <div className={styles.caseStudyListItem}>
+            <div className={styles.caseStudyListImage}>
+              <Image 
                 src="https://cdn.jsdelivr.net/gh/beeclue/clients@main/self/tara-lattanzio.webp" 
                 alt="Tara Lattanzio Family Law Website" 
                 fill

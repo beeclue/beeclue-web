@@ -48,6 +48,7 @@ Beeclue Tech is an elite digital development agency located in Toronto, Canada, 
 - [Custom Website vs Wix](https://beeclue.com/custom-website-vs-wix)
 
 ### Case Studies
+- [MacMates](https://beeclue.com/case-studies/mac-mates)
 - [Tara Lattanzio](https://beeclue.com/case-studies/tara-lattanzio)
 - [New Angkor Wat](https://beeclue.com/case-studies/new-angkor-wat)
 - [Blues Contracting Services](https://beeclue.com/case-studies/blues-contracting-services)
