@@ -262,42 +262,6 @@ export default function Home() {
               </div>
             </div>
           </Link>
-          <Link href="/case-studies/sure-shot-photobooth" className={styles.featuredCard}>
-            <div className={styles.featuredImagePlaceholder} style={{ padding: 0, position: 'relative' }}>
-              <Image 
-                src="https://cdn.jsdelivr.net/gh/beeclue/clients@main/self/sure-shot-photobooth-rental.webp"
-                alt="Sure Shot Photobooth"
-                fill
-                sizes="(max-width: 768px) 100vw, 50vw"
-                style={{ objectFit: 'contain', padding: '2rem 0' }}
-              />
-            </div>
-            <div className={styles.featuredContent}>
-              <h3>Sure Shot Photobooth — Web Experience</h3>
-              <p>We partnered with Sure Shot Photobooth to elevate their digital presence with a highly interactive, modern Next.js website featuring immersive animations.</p>
-              <div className={styles.techTags}>
-                <span>Next.js</span><span>Animations</span><span>SEO</span>
-              </div>
-            </div>
-          </Link>
-          <Link href="/case-studies/blues-contracting-services" className={styles.featuredCard}>
-            <div className={styles.featuredImagePlaceholder} style={{ padding: 0, position: 'relative' }}>
-              <Image 
-                src="https://cdn.jsdelivr.net/gh/beeclue/clients@main/self/blues-contracting-services.webp"
-                alt="Blues Contracting Services"
-                fill
-                sizes="(max-width: 768px) 100vw, 50vw"
-                style={{ objectFit: 'contain', padding: '2rem 0' }}
-              />
-            </div>
-            <div className={styles.featuredContent}>
-              <h3>Blues Contracting — Digital Transformation</h3>
-              <p>We completely revitalized the web presence for Blues Contracting Services using modern Next.js technology, strategic UX design, and rigorous technical SEO.</p>
-              <div className={styles.techTags}>
-                <span>Next.js</span><span>UX Design</span><span>SEO</span>
-              </div>
-            </div>
-          </Link>
         </div>
         
         <div style={{ display: "flex", justifyContent: "center", marginTop: "3rem" }}>
