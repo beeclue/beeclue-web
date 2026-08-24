@@ -208,6 +208,24 @@ export default function Home() {
           <p>A look at how we transform business challenges into scalable technical solutions.</p>
         </div>
         <div className={styles.featuredGrid}>
+          <Link href="/case-studies/mac-mates" className={styles.featuredCard}>
+            <div className={styles.featuredImagePlaceholder} style={{ padding: 0, position: 'relative' }}>
+              <Image 
+                src="https://cdn.jsdelivr.net/gh/beeclue/clients@main/self/mac-mates.webp"
+                alt="MacMates Device Repair Website"
+                fill
+                sizes="(max-width: 768px) 100vw, 50vw"
+                style={{ objectFit: 'contain', padding: '2rem 0' }}
+              />
+            </div>
+            <div className={styles.featuredContent}>
+              <h3>MacMates — Digital Platform</h3>
+              <p>We partnered with Oakville's device repair experts to build a high-performance Next.js platform with robust local SEO and custom brand identity.</p>
+              <div className={styles.techTags}>
+                <span>Next.js</span><span>Local SEO</span><span>Analytics</span>
+              </div>
+            </div>
+          </Link>
           <Link href="/case-studies/tara-lattanzio" className={styles.featuredCard}>
             <div className={styles.featuredImagePlaceholder} style={{ padding: 0, position: 'relative' }}>
               <Image 

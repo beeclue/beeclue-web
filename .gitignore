@@ -68,8 +68,11 @@ docs
 /sales/*
 !/sales/leads/
 /sales/leads/*
+!/sales/partners/
+/sales/partners/*
 !/sales/.keep
 !/sales/leads/.keep
+!/sales/partners/.keep
 
 # local python environment
 .venv/

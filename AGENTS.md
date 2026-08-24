@@ -34,3 +34,10 @@ This version has breaking changes — APIs, conventions, and file structure may 
 - Make sure to document each and every piece of new information, including any additional questions, answers, and context within these files. 
 - `llms.txt` should contain the structured list of all links across the site, ensuring every single page is tracked.
 - `llms-full.txt` should include a detailed markdown description of the site's content, capabilities, products, blogs, case studies, and services, ensuring the new content or page is explicitly detailed here.
+
+# B2B Partnership Outreach
+- Never search for or target other web agencies, web design firms, development agencies, or SEO/marketing providers that offer similar services.
+- Always focus outreach on complementary B2B partners who serve small business owners but do not provide web services, specifically **Accountants/CPAs, Bookkeepers, Tax Advisors, and Print Shops/Copy Centers**.
+- Outbound pitches must offer the special client subscription rate (**$29/mo**) and the partner recurring payout (**$5/month**) or custom project profit sharing (**20%**).
+- Append UTM tracking to all external links in outreach emails using the format: `?utm_source=beeclue&utm_medium=partner-outreach&utm_campaign=sales-outreach-partner-<slug>`.
+- Always BCC all outreach emails to `admin@beeclue.com`.
