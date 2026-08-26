@@ -63,6 +63,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     // Products
     '/products/monexa',
     // Blogs
+    '/how-to-choose-mobile-app-development-company-toronto',
     '/top-5-free-domain-registrars-pros-and-cons',
     '/the-importance-of-a-website-for-small-businesses-growth',
     '/the-impact-of-artificial-intelligence-on-web-development',

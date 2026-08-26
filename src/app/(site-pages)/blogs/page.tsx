@@ -33,6 +33,30 @@ export default function BlogsPage() {
       {/* BLOGS LIST */}
       <FadeIn className={styles.baseSection} style={{ paddingTop: "5vh" }}>
         <div className={styles.caseStudyList}>
+          {/* BLOG: MOBILE APP DEVELOPMENT TORONTO GUIDE */}
+          <div className={styles.caseStudyListItem}>
+            <div className={styles.caseStudyListImage} style={{ position: "relative" }}>
+              <Image 
+                src="https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?ixlib=rb-4.0.3&auto=format&fit=crop&w=2400&q=80" 
+                alt="Mobile app design wireframe and development planning session in Toronto" 
+                fill
+                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                style={{ objectFit: "cover" }}
+              />
+            </div>
+            <div className={styles.caseStudyListContent}>
+              <h2>How to Choose the Best Mobile App Development Company in Toronto: A Complete Guide for Businesses</h2>
+              <p>
+                A comprehensive guide for businesses on choosing the best mobile app development company in Toronto. Learn about app costs, native vs. cross-platform tech, and key vetting questions.
+              </p>
+              <div>
+                <Link href="/how-to-choose-mobile-app-development-company-toronto" className={styles.ctaButtonLight}>
+                  Read Article <ArrowRight className={styles.arrow} size={20} />
+                </Link>
+              </div>
+            </div>
+          </div>
+
           {/* BLOG: LAW FIRM COST PRICING GUIDE */}
           <div className={styles.caseStudyListItem}>
             <div className={styles.caseStudyListImage} style={{ position: "relative" }}>
@@ -688,8 +712,8 @@ export default function BlogsPage() {
               />
             </div>
             <div className={styles.caseStudyListContent}>
-              <h2>How to Fix the "Not Secure" Website Warning: A Step-by-Step Guide</h2>
-              <p>Seeing a dangerous "Not Secure" warning on your site? Learn exactly how to fix it by installing an SSL certificate to protect your customers and SEO.</p>
+              <h2>How to Fix the &ldquo;Not Secure&rdquo; Website Warning: A Step-by-Step Guide</h2>
+              <p>Seeing a dangerous &ldquo;Not Secure&rdquo; warning on your site? Learn exactly how to fix it by installing an SSL certificate to protect your customers and SEO.</p>
               <div>
                 <Link href="/how-to-fix-not-secure-website-warning" className={styles.ctaButtonLight}>
                   Read Article <ArrowRight className={styles.arrow} size={20} />
@@ -801,9 +825,9 @@ export default function BlogsPage() {
               />
             </div>
             <div className={styles.caseStudyListContent}>
-              <h2>"Not Secure" Warning: What Does It Mean When a Site is Not Secure?</h2>
+              <h2>&ldquo;Not Secure&rdquo; Warning: What Does It Mean When a Site is Not Secure?</h2>
               <p>
-                Seeing a 'Not Secure' warning on your website? Learn what causes this browser error, how it destroys user trust, and exactly how to fix it with an SSL certificate.
+                Seeing a &lsquo;Not Secure&rsquo; warning on your website? Learn what causes this browser error, how it destroys user trust, and exactly how to fix it with an SSL certificate.
               </p>
               <div>
                 <Link href="/not-secure-warning-what-does-it-mean-when-a-site-is-not-secure" className={styles.ctaButtonLight}>
