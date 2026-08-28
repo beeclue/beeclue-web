@@ -122,7 +122,7 @@ export default function BlogPost() {
 
           <FadeIn className={blogStyles.inlineImageContainer}>
             <Image 
-              src="https://images.unsplash.com/photo-1598256989800-fea5f95213ea?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=75" 
+              src="https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=75" 
               alt="Dentist examining patient's teeth" 
               fill
               sizes="(max-width: 1000px) 100vw, 1000px"
