@@ -6,7 +6,7 @@ export default function GlobalLogo() {
   return (
     <Link href="/" className={styles.logoContainer} aria-label="Beeclue Tech Home">
       <Image
-        src="https://cdn.jsdelivr.net/gh/beeclue/clients@main/self/beeclue-horizontal-white.png"
+        src="/beeclue-logo.png"
         alt="Beeclue Tech"
         width={160}
         height={40}

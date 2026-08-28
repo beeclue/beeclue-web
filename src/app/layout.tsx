@@ -2,16 +2,13 @@ import type { Metadata } from "next";
 import { Inter, Outfit } from "next/font/google";
 import dynamic from "next/dynamic";
 import "./globals.css";
-import SmoothScroll from "@/components/SmoothScroll";
-import CustomCursor from "@/components/CustomCursor";
 import Navigation from "@/components/Navigation";
 import GlobalLogo from "@/components/GlobalLogo";
 import Footer from "@/components/Footer";
 import { GoogleTagManager, GoogleAnalytics } from '@next/third-parties/google';
 
-import BackgroundScene from "@/components/BackgroundScene";
 import AnimationProvider from "@/components/AnimationProvider";
-import FreeSEOReportModal from "@/components/FreeSEOReportModal";
+import ClientFeatures from "@/components/ClientFeatures";
 
 const inter = Inter({
   variable: "--font-inter",
@@ -228,17 +225,14 @@ export default function RootLayout({
           }}
         />
         <AnimationProvider>
-          <SmoothScroll>
+          <ClientFeatures>
             <GlobalLogo />
             <Navigation />
-            <CustomCursor />
             <div className="animatedGrid"></div>
-            <BackgroundScene />
             {children}
             <Footer />
-          </SmoothScroll>
+          </ClientFeatures>
         </AnimationProvider>
-        <FreeSEOReportModal />
       </body>
     </html>
   );
