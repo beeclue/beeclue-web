@@ -1,9 +1,18 @@
 
+import { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
 import styles from "@/app/page.module.css";
 import { ArrowRight, CheckCircle2, Globe, TrendingUp, Paintbrush, MapPin, Target } from "lucide-react";
 import FadeIn from "@/components/FadeIn";
+
+export const metadata: Metadata = {
+  title: "Medical Spa & Clinic Website Design Case Study: LBF Skin Clinic | Beeclue",
+  description: "Explore our clinic website design case study for LBF Skin Clinic. Learn how we build luxury web designs and online booking systems for clinics and med spas.",
+  alternates: {
+    canonical: "https://beeclue.com/case-studies/lbf-skin-clinic",
+  },
+};
 
 export default function LBFSkinClinicCaseStudy() {
   const jsonLd = {

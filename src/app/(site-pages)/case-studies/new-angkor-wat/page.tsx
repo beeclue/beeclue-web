@@ -6,8 +6,11 @@ import { ArrowRight, CheckCircle2, Globe, BookOpen, Code2, Search, Heart } from 
 import FadeIn from "@/components/FadeIn";
 
 export const metadata: Metadata = {
-  title: "New Angkor Wat Case Study",
-  description: "Read our case study on how we built a comprehensive, high-performance digital platform for author David P. Cross to promote his book and New Angkor Wat.",
+  title: "Book Author & Non-Profit Website Design Case Study: New Angkor Wat | Beeclue",
+  description: "Read our non-profit website design case study for author David P. Cross's New Angkor Wat. Learn how we build custom book promotion and charity platforms.",
+  alternates: {
+    canonical: "https://beeclue.com/case-studies/new-angkor-wat",
+  },
 };
 
 export default function NewAngkorWatCaseStudy() {

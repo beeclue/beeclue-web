@@ -1,10 +1,17 @@
-"use client";
-
+import { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
 import styles from "@/app/page.module.css";
 import { ArrowRight, CheckCircle2, Globe, Scale, ShieldCheck, Search, Users, HeartHandshake } from "lucide-react";
 import FadeIn from "@/components/FadeIn";
+
+export const metadata: Metadata = {
+  title: "Law Firm Website Design Case Study: Tara Lattanzio Law | Beeclue",
+  description: "See our law firm website design case study for Tara Lattanzio Law. Learn how we design high-converting, compassionate, and secure websites for attorneys.",
+  alternates: {
+    canonical: "https://beeclue.com/case-studies/tara-lattanzio",
+  },
+};
 
 export default function TaraLattanzioCaseStudy() {
   const jsonLd = {

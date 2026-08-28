@@ -1,9 +1,18 @@
 
+import { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
 import styles from "@/app/page.module.css";
 import { ArrowRight, CheckCircle2, Globe, TrendingUp, Users, Shield, Target } from "lucide-react";
 import FadeIn from "@/components/FadeIn";
+
+export const metadata: Metadata = {
+  title: "Security Company Website Design Case Study: GIR Security | Beeclue",
+  description: "Read our security services website design case study for GIR Security. Discover how we build trustworthy, high-converting B2B security firm websites.",
+  alternates: {
+    canonical: "https://beeclue.com/case-studies/gir-security",
+  },
+};
 
 export default function GIRSecurityCaseStudy() {
   const jsonLd = {

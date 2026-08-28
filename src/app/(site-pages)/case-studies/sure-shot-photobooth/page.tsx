@@ -1,9 +1,18 @@
 
+import { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
 import styles from "@/app/page.module.css";
 import { ArrowRight, CheckCircle2, Globe, Sparkles, Code2, Search, Smartphone } from "lucide-react";
 import FadeIn from "@/components/FadeIn";
+
+export const metadata: Metadata = {
+  title: "Event Booking & Photo Booth Website Design Case Study: Sure Shot | Beeclue",
+  description: "See our event booking website design case study for Sure Shot Photo Booth. Discover how we build high-converting e-commerce sites for event rental services.",
+  alternates: {
+    canonical: "https://beeclue.com/case-studies/sure-shot-photobooth",
+  },
+};
 
 export default function SureShotCaseStudy() {
   const jsonLd = {

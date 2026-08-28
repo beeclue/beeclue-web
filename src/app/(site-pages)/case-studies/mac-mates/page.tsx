@@ -1,8 +1,17 @@
+import { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
 import styles from "@/app/page.module.css";
 import { ArrowRight, CheckCircle2, Globe, TrendingUp, Users, Target, Laptop } from "lucide-react";
 import FadeIn from "@/components/FadeIn";
+
+export const metadata: Metadata = {
+  title: "Tech Support & IT Website Design Case Study: MacMates | Beeclue",
+  description: "See our IT services website design case study for MacMates. Discover how we build fast, intuitive websites for computer repair and tech support companies.",
+  alternates: {
+    canonical: "https://beeclue.com/case-studies/mac-mates",
+  },
+};
 
 export default function MacMatesCaseStudy() {
   const jsonLd = {

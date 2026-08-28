@@ -1,9 +1,18 @@
 
+import { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
 import styles from "@/app/page.module.css";
 import { ArrowRight, CheckCircle2, Globe, HardHat, Code2, Search, Smartphone } from "lucide-react";
 import FadeIn from "@/components/FadeIn";
+
+export const metadata: Metadata = {
+  title: "Construction Company Web Design Case Study: Blues Contracting | Beeclue",
+  description: "See our construction website design case study for Blues Contracting Services. Learn how we design high-performance websites for contractors and builders.",
+  alternates: {
+    canonical: "https://beeclue.com/case-studies/blues-contracting-services",
+  },
+};
 
 export default function BluesContractingCaseStudy() {
   const jsonLd = {
