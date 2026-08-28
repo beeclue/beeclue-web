@@ -13,6 +13,12 @@ export default function SmoothScroll({
   const [lenis, setLenis] = useState<Lenis | null>(null);
 
   useEffect(() => {
+    // Skip Lenis on mobile — smooth scroll is useless on touch devices
+    const isMobile = window.matchMedia("(max-width: 768px)").matches;
+    const prefersReducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+    if (isMobile || prefersReducedMotion) return;
+
     const l = new Lenis({
       duration: 1.2,
       easing: (t) => Math.min(1, 1.001 - Math.pow(2, -10 * t)),
