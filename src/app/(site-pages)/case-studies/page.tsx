@@ -44,6 +44,29 @@ export default function CaseStudiesPage() {
       {/* CASE STUDIES LIST */}
       <FadeIn className={styles.baseSection} style={{ paddingTop: "2rem" }}>
         <div className={styles.caseStudyList}>
+
+          <div className={styles.caseStudyListItem}>
+            <div className={styles.caseStudyListImage}>
+              <Image 
+                src="https://cdn.jsdelivr.net/gh/beeclue/clients@main/self/iv-uniforms.webp" 
+                alt="IV Uniforms Website" 
+                fill
+                sizes="(max-width: 768px) 100vw, 50vw"
+                style={{ objectFit: "contain", padding: "2rem" }}
+              />
+            </div>
+            <div className={styles.caseStudyListContent}>
+              <h2>IV Uniforms — WooCommerce E-commerce Platform</h2>
+              <p>
+                We partnered with Ismaili Volunteer Uniforms to build a robust, custom WooCommerce e-commerce platform designed to coordinate uniform distribution across North America. The site features weight-based Canada Post API shipping calculations and localized Jamatkhana pickup selectors to streamline logistics.
+              </p>
+              <div>
+                <Link href="/case-studies/iv-uniforms" className={styles.ctaButtonLight}>
+                  Read More <ArrowRight className={styles.arrow} size={20} />
+                </Link>
+              </div>
+            </div>
+          </div>
           
           <div className={styles.caseStudyListItem}>
             <div className={styles.caseStudyListImage}>

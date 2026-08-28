@@ -54,6 +54,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     // Legacy Landing Pages
     '/19',
     // Case Studies
+    '/case-studies/iv-uniforms',
+    '/case-studies/mac-mates',
     '/case-studies/tara-lattanzio',
     '/case-studies/new-angkor-wat',
     '/case-studies/blues-contracting-services',
@@ -63,6 +65,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     // Products
     '/products/monexa',
     // Blogs
+    '/best-dental-appointment-booking-tools',
     '/how-to-choose-mobile-app-development-company-toronto',
     '/top-5-free-domain-registrars-pros-and-cons',
     '/the-importance-of-a-website-for-small-businesses-growth',

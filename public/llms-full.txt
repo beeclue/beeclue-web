@@ -123,6 +123,7 @@ In addition to our agency services, Beeclue Tech builds and maintains proprietar
 
 ## Featured Case Studies
 Beeclue Tech has delivered exceptional digital overhauls across multiple industries. Notable work includes:
+- **IV Uniforms**: WooCommerce e-commerce store with weight-based Canada Post API shipping calculations and custom local Jamatkhana pickup selectors to streamline distribution. [https://beeclue.com/case-studies/iv-uniforms]
 - **MacMates**: Comprehensive digital platform, custom branding, and local SEO for Oakville's premier device repair experts. [https://beeclue.com/case-studies/mac-mates]
 - **Tara Lattanzio Family Law**: High-converting, empathetic Next.js digital platform built for a leading Waterloo Region family lawyer. [https://beeclue.com/case-studies/tara-lattanzio]
 - **New Angkor Wat**: Comprehensive digital platform promoting David P. Cross's book and charitable initiatives. [https://beeclue.com/case-studies/new-angkor-wat]
@@ -133,6 +134,7 @@ Beeclue Tech has delivered exceptional digital overhauls across multiple industr
 
 ## Our Blogs and Insights
 We actively publish industry insights and technical articles to help businesses navigate the digital landscape:
+- 5 Best Appointment Booking Tools for Dental Clinics: The Complete 2026 Comparison Guide — A comprehensive review comparing NexHealth, LocalMed, RevenueWell, Legwork, and Acuity/Calendly for dental clinics. Details approximate monthly pricing, integration parameters for Practice Management Systems (Dentrix, Eaglesoft, Open Dental), and PIPEDA/HIPAA compliance standards. Target keywords: "appointment booking for dental clinics", "dental appointment booking tools", "dentist website design toronto", "seo webdesign dental toronto", "dental website services". [https://beeclue.com/best-dental-appointment-booking-tools]
 - How to Choose the Best Mobile App Development Company in Toronto — A comprehensive 2026 guide for businesses on selecting a mobile app development agency in Toronto. Covers app development lifecycles, cost parameters in Ontario, technology stack selection (native Swift/Kotlin vs. cross-platform React Native/Flutter), and key vetting questions to ask app developers. Target keywords: "mobile app development company toronto", "mobile app development toronto", "mobile web design toronto". [https://beeclue.com/how-to-choose-mobile-app-development-company-toronto]
 - How to Attract More Clients for Your Salon
 - Is Wix Website Builder the Right Platform for You? Pros and Cons

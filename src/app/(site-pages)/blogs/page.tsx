@@ -33,6 +33,30 @@ export default function BlogsPage() {
       {/* BLOGS LIST */}
       <FadeIn className={styles.baseSection} style={{ paddingTop: "5vh" }}>
         <div className={styles.caseStudyList}>
+          {/* BLOG: DENTAL APPOINTMENT BOOKING TOOLS */}
+          <div className={styles.caseStudyListItem}>
+            <div className={styles.caseStudyListImage} style={{ position: "relative" }}>
+              <Image 
+                src="https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80" 
+                alt="Modern dental receptionist checking patient schedules on clinic computer" 
+                fill
+                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                style={{ objectFit: "cover" }}
+              />
+            </div>
+            <div className={styles.caseStudyListContent}>
+              <h2>5 Best Appointment Booking Tools for Dental Clinics: The Complete 2026 Comparison Guide</h2>
+              <p>
+                Discover the best appointment booking tools for dental clinics in 2026. Compare NexHealth, LocalMed, RevenueWell, Legwork, and Acuity by pricing, PMS integration (Dentrix, Eaglesoft, Open Dental), and PIPEDA compliance.
+              </p>
+              <div>
+                <Link href="/best-dental-appointment-booking-tools" className={styles.ctaButtonLight}>
+                  Read Article <ArrowRight className={styles.arrow} size={20} />
+                </Link>
+              </div>
+            </div>
+          </div>
+
           {/* BLOG: MOBILE APP DEVELOPMENT TORONTO GUIDE */}
           <div className={styles.caseStudyListItem}>
             <div className={styles.caseStudyListImage} style={{ position: "relative" }}>

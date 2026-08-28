@@ -208,6 +208,24 @@ export default function Home() {
           <p>A look at how we transform business challenges into scalable technical solutions.</p>
         </div>
         <div className={styles.featuredGrid}>
+          <Link href="/case-studies/iv-uniforms" className={styles.featuredCard}>
+            <div className={styles.featuredImagePlaceholder} style={{ padding: 0, position: 'relative' }}>
+              <Image 
+                src="https://cdn.jsdelivr.net/gh/beeclue/clients@main/self/iv-uniforms.webp"
+                alt="IV Uniforms E-commerce Website"
+                fill
+                sizes="(max-width: 768px) 100vw, 50vw"
+                style={{ objectFit: 'contain', padding: '2rem 0' }}
+              />
+            </div>
+            <div className={styles.featuredContent}>
+              <h3>IV Uniforms — E-commerce</h3>
+              <p>We built a custom WooCommerce platform with Canada Post shipping calculations and localized Jamatkhana pickup selectors to streamline distribution.</p>
+              <div className={styles.techTags}>
+                <span>WooCommerce</span><span>Canada Post API</span><span>Checkout Logistics</span>
+              </div>
+            </div>
+          </Link>
           <Link href="/case-studies/mac-mates" className={styles.featuredCard}>
             <div className={styles.featuredImagePlaceholder} style={{ padding: 0, position: 'relative' }}>
               <Image 
@@ -241,24 +259,6 @@ export default function Home() {
               <p>We partnered with Waterloo Region attorney Tara Lattanzio to build a high-converting, empathetic web architecture designed for client trust and consultations.</p>
               <div className={styles.techTags}>
                 <span>Next.js</span><span>Legal UX</span><span>SEO</span>
-              </div>
-            </div>
-          </Link>
-          <Link href="/case-studies/new-angkor-wat" className={styles.featuredCard}>
-            <div className={styles.featuredImagePlaceholder} style={{ padding: 0, position: 'relative' }}>
-              <Image 
-                src="https://cdn.jsdelivr.net/gh/beeclue/clients@main/self/newangkorwat.webp"
-                alt="New Angkor Wat"
-                fill
-                sizes="(max-width: 768px) 100vw, 50vw"
-                style={{ objectFit: 'contain', padding: '2rem 0' }}
-              />
-            </div>
-            <div className={styles.featuredContent}>
-              <h3>New Angkor Wat — Digital Platform</h3>
-              <p>We partnered with author David P. Cross to build a comprehensive, highly engaging digital platform promoting his book and charitable organization.</p>
-              <div className={styles.techTags}>
-                <span>Next.js</span><span>Web Design</span><span>Animations</span>
               </div>
             </div>
           </Link>
