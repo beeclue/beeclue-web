@@ -19,27 +19,35 @@ export default function SmoothScroll({
 
     if (isMobile || prefersReducedMotion) return;
 
-    const l = new Lenis({
-      duration: 1.2,
-      easing: (t) => Math.min(1, 1.001 - Math.pow(2, -10 * t)),
-      orientation: "vertical",
-      gestureOrientation: "vertical",
-      smoothWheel: true,
-      wheelMultiplier: 1,
-      touchMultiplier: 2,
-    });
+    let l: Lenis | null = null;
 
-    setLenis(l);
+    // Defer initialization to avoid forced reflows during initial paint
+    const timer = setTimeout(() => {
+      l = new Lenis({
+        duration: 1.2,
+        easing: (t) => Math.min(1, 1.001 - Math.pow(2, -10 * t)),
+        orientation: "vertical",
+        gestureOrientation: "vertical",
+        smoothWheel: true,
+        wheelMultiplier: 1,
+        touchMultiplier: 2,
+      });
 
-    function raf(time: number) {
-      l.raf(time);
+      setLenis(l);
+
+      function raf(time: number) {
+        if (l) l.raf(time);
+        requestAnimationFrame(raf);
+      }
+
       requestAnimationFrame(raf);
-    }
-
-    requestAnimationFrame(raf);
+    }, 100);
 
     return () => {
-      l.destroy();
+      clearTimeout(timer);
+      if (l) {
+        l.destroy();
+      }
     };
   }, []);
 
