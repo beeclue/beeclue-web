@@ -14,6 +14,11 @@ const nextConfig: NextConfig = {
         destination: '/case-studies',
         permanent: true,
       },
+      {
+        source: '/19',
+        destination: '/',
+        permanent: true,
+      },
     ];
   },
   pageExtensions: ["js", "jsx", "md", "mdx", "ts", "tsx"],
