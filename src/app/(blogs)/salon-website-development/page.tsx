@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     url: "https://beeclue.com/salon-website-development",
     images: [
       {
-        url: "https://images.unsplash.com/photo-1560066984-138dadb4c035?ixlib=rb-4.0.3&auto=format&fit=crop&w=2400&q=80",
+        url: "https://images.unsplash.com/photo-1560066984-138dadb4c035?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=75",
         width: 1200,
         height: 630,
         alt: "Modern hair salon interior with luxury aesthetic",
@@ -75,7 +75,7 @@ export default function BlogPost() {
 
         <FadeIn className={blogStyles.heroImageContainer}>
           <Image 
-            src="https://images.unsplash.com/photo-1560066984-138dadb4c035?ixlib=rb-4.0.3&auto=format&fit=crop&w=2400&q=80" 
+            src="https://images.unsplash.com/photo-1560066984-138dadb4c035?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=75" 
             alt="Modern hair salon interior with luxury aesthetic" 
             fill
             sizes="(max-width: 1000px) 100vw, 1000px"
@@ -116,7 +116,7 @@ export default function BlogPost() {
 
           <FadeIn className={blogStyles.inlineImageContainer}>
             <Image 
-              src="https://images.unsplash.com/photo-1634449571010-02389ed0f9b0?ixlib=rb-4.0.3&auto=format&fit=crop&w=2400&q=80" 
+              src="https://images.unsplash.com/photo-1634449571010-02389ed0f9b0?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=75" 
               alt="Stylist working on client's hair in a bright salon" 
               fill
               sizes="(max-width: 1000px) 100vw, 1000px"
@@ -199,7 +199,7 @@ export default function BlogPost() {
 
           <FadeIn className={blogStyles.inlineImageContainer}>
             <Image 
-              src="https://images.unsplash.com/photo-1580618672591-eb180b1a973f?ixlib=rb-4.0.3&auto=format&fit=crop&w=2400&q=80" 
+              src="https://images.unsplash.com/photo-1580618672591-eb180b1a973f?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=75" 
               alt="Skincare products lined up on a shelf in a spa" 
               fill
               sizes="(max-width: 1000px) 100vw, 1000px"

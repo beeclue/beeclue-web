@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     url: "https://beeclue.com/salon-barbershop-loyalty-programs-to-increase-business",
     images: [
       {
-        url: "https://images.unsplash.com/photo-1503951914875-452162b0f3f1?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80",
+        url: "https://images.unsplash.com/photo-1503951914875-452162b0f3f1?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=75",
         width: 1200,
         height: 630,
         alt: "Barbershop Loyalty Programs",
@@ -76,7 +76,7 @@ export default function BlogPost() {
 
         <FadeIn className={blogStyles.heroImageContainer}>
           <Image 
-            src="https://images.unsplash.com/photo-1503951914875-452162b0f3f1?ixlib=rb-4.0.3&auto=format&fit=crop&w=2400&q=80" 
+            src="https://images.unsplash.com/photo-1503951914875-452162b0f3f1?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=75" 
             alt="Barbershop chair and mirror" 
             fill
             className={blogStyles.heroImage}
@@ -122,7 +122,7 @@ export default function BlogPost() {
 
           <FadeIn className={blogStyles.inlineImageContainer}>
             <Image 
-              src="https://images.unsplash.com/photo-1560066984-138dadb4c035?ixlib=rb-4.0.3&auto=format&fit=crop&w=2400&q=80" 
+              src="https://images.unsplash.com/photo-1560066984-138dadb4c035?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=75" 
               alt="Salon tools and equipment" 
               width={900}
               height={500}

@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     url: "https://beeclue.com/family-law-firm-website-design-strategy",
     images: [
       {
-        url: "https://images.unsplash.com/photo-1521791136064-7986c2920216?ixlib=rb-4.0.3&auto=format&fit=crop&w=2400&q=80",
+        url: "https://images.unsplash.com/photo-1521791136064-7986c2920216?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=75",
         width: 1200,
         height: 630,
         alt: "Family law attorney counseling clients in a compassionate law office environment",
@@ -80,7 +80,7 @@ export default function FamilyLawBlogPage() {
 
         <FadeIn className={blogStyles.heroImageContainer}>
           <Image
-            src="https://images.unsplash.com/photo-1521791136064-7986c2920216?ixlib=rb-4.0.3&auto=format&fit=crop&w=2400&q=80"
+            src="https://images.unsplash.com/photo-1521791136064-7986c2920216?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=75"
             alt="Family law lawyer consulting with client in supportive office environment"
             fill
             sizes="(max-width: 1000px) 100vw, 1000px"
@@ -114,7 +114,7 @@ export default function FamilyLawBlogPage() {
 
           <FadeIn className={blogStyles.secondaryImageContainer}>
             <Image
-              src="https://images.unsplash.com/photo-1450133064473-71024230f91b?ixlib=rb-4.0.3&auto=format&fit=crop&w=2400&q=80"
+              src="https://images.unsplash.com/photo-1450133064473-71024230f91b?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=75"
               alt="Attorney reviewing family law agreements and client documents"
               fill
               sizes="(max-width: 1000px) 100vw, 1000px"

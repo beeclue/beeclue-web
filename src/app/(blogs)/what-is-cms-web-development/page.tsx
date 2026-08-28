@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     url: "https://beeclue.com/what-is-cms-web-development",
     images: [
       {
-        url: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?ixlib=rb-4.0.3&auto=format&fit=crop&w=2400&q=80",
+        url: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=75",
         width: 1200,
         height: 630,
         alt: "Computer Screen with Code and Web Development",
@@ -76,7 +76,7 @@ export default function BlogPost() {
 
         <FadeIn className={blogStyles.heroImageContainer}>
           <Image 
-            src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?ixlib=rb-4.0.3&auto=format&fit=crop&w=2400&q=80" 
+            src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=75" 
             alt="Computer Screen with Code and Web Development" 
             fill
             sizes="(max-width: 1000px) 100vw, 1000px"
@@ -144,7 +144,7 @@ export default function BlogPost() {
 
           <FadeIn className={blogStyles.inlineImageContainer}>
             <Image 
-              src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=2400&q=80" 
+              src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=75" 
               alt="Data Analytics and CMS Dashboard on a laptop screen" 
               fill
               sizes="(max-width: 1000px) 100vw, 1000px"

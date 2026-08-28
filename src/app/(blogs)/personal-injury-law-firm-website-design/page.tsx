@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     url: "https://beeclue.com/personal-injury-law-firm-website-design",
     images: [
       {
-        url: "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?ixlib=rb-4.0.3&auto=format&fit=crop&w=2400&q=80",
+        url: "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=75",
         width: 1200,
         height: 630,
         alt: "Personal injury lawyer office representing high-value case client intake design",
@@ -80,7 +80,7 @@ export default function PersonalInjuryBlogPage() {
 
         <FadeIn className={blogStyles.heroImageContainer}>
           <Image
-            src="https://images.unsplash.com/photo-1589829545856-d10d557cf95f?ixlib=rb-4.0.3&auto=format&fit=crop&w=2400&q=80"
+            src="https://images.unsplash.com/photo-1589829545856-d10d557cf95f?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=75"
             alt="Personal injury attorney firm office representing client consultation"
             fill
             sizes="(max-width: 1000px) 100vw, 1000px"
@@ -120,7 +120,7 @@ export default function PersonalInjuryBlogPage() {
 
           <FadeIn className={blogStyles.secondaryImageContainer}>
             <Image
-              src="https://images.unsplash.com/photo-1450133064473-71024230f91b?ixlib=rb-4.0.3&auto=format&fit=crop&w=2400&q=80"
+              src="https://images.unsplash.com/photo-1450133064473-71024230f91b?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=75"
               alt="Personal injury lawyer reviewing client case file"
               fill
               sizes="(max-width: 1000px) 100vw, 1000px"

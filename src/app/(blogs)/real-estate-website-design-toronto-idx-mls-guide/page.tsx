@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     url: "https://beeclue.com/real-estate-website-design-toronto-idx-mls-guide",
     images: [
       {
-        url: "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?ixlib=rb-4.0.3&auto=format&fit=crop&w=2400&q=80",
+        url: "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=75",
         width: 1200,
         height: 630,
         alt: "Luxury real estate property in Toronto illustrating real estate website design",
@@ -77,7 +77,7 @@ export default function RealEstateBlogPage() {
 
         <FadeIn className={blogStyles.heroImageContainer}>
           <Image 
-            src="https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?ixlib=rb-4.0.3&auto=format&fit=crop&w=2400&q=80" 
+            src="https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=75" 
             alt="Luxury real estate property in Toronto illustrating modern real estate website design and IDX MLS integration" 
             fill
             sizes="(max-width: 1000px) 100vw, 1000px"
@@ -143,7 +143,7 @@ export default function RealEstateBlogPage() {
 
           <FadeIn className={blogStyles.inlineImageContainer}>
             <Image 
-              src="https://images.unsplash.com/photo-1560518883-ce09059eeffa?ixlib=rb-4.0.3&auto=format&fit=crop&w=2400&q=80" 
+              src="https://images.unsplash.com/photo-1560518883-ce09059eeffa?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=75" 
               alt="Real estate professional presenting digital property search tools on a tablet" 
               fill
               sizes="(max-width: 1000px) 100vw, 1000px"
@@ -219,7 +219,7 @@ export default function RealEstateBlogPage() {
 
           <FadeIn className={blogStyles.inlineImageContainer}>
             <Image 
-              src="https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?ixlib=rb-4.0.3&auto=format&fit=crop&w=2400&q=80" 
+              src="https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=75" 
               alt="Realtor reviewing web analytics and lead conversion metrics on a laptop" 
               fill
               sizes="(max-width: 1000px) 100vw, 1000px"

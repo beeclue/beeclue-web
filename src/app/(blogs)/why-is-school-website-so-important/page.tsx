@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     url: "https://beeclue.com/why-is-school-website-so-important",
     images: [
       {
-        url: "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?ixlib=rb-4.0.3&auto=format&fit=crop&w=2400&q=80",
+        url: "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=75",
         width: 1200,
         height: 630,
         alt: "School Classroom with Students",
@@ -76,7 +76,7 @@ export default function BlogPost() {
 
         <FadeIn className={blogStyles.heroImageContainer}>
           <Image 
-            src="https://images.unsplash.com/photo-1503676260728-1c00da094a0b?ixlib=rb-4.0.3&auto=format&fit=crop&w=2400&q=80" 
+            src="https://images.unsplash.com/photo-1503676260728-1c00da094a0b?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=75" 
             alt="School Classroom with Students" 
             fill
             sizes="(max-width: 1000px) 100vw, 1000px"
@@ -122,7 +122,7 @@ export default function BlogPost() {
 
           <FadeIn className={blogStyles.inlineImageContainer}>
             <Image 
-              src="https://images.unsplash.com/photo-1427504494785-3a9ca7044f45?ixlib=rb-4.0.3&auto=format&fit=crop&w=2400&q=80" 
+              src="https://images.unsplash.com/photo-1427504494785-3a9ca7044f45?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=75" 
               alt="Students using laptops in a modern educational environment" 
               fill
               sizes="(max-width: 1000px) 100vw, 1000px"

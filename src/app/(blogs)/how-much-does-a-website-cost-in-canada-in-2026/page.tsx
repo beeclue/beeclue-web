@@ -22,7 +22,7 @@ export default function WebsiteCostToronto2026Guide() {
     },
     "headline": "How Much Does a Website Cost in Toronto in 2026? A Complete Guide",
     "description": "A complete guide to website costs in Toronto for 2026. Compare pricing for brochure, e-commerce, and custom websites with ROI breakdowns and expert tips for Toronto businesses.",
-    "image": "https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?ixlib=rb-4.0.3&auto=format&fit=crop&w=2400&q=80",
+    "image": "https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=75",
     "author": {
       "@type": "Person",
       "name": "Beeclue Editorial Team",
@@ -90,7 +90,7 @@ export default function WebsiteCostToronto2026Guide() {
 
         <div className={blogStyles.heroImageContainer}>
           <Image
-            src="https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?ixlib=rb-4.0.3&auto=format&fit=crop&w=2400&q=80"
+            src="https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=75"
             alt="Toronto business owner reviewing website design costs on a laptop"
             fill
             priority

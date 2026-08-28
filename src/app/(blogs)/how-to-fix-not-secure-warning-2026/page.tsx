@@ -21,7 +21,7 @@ export default function FixNotSecureWebsiteWarning2026() {
     },
     "headline": "How to Fix the \"Not Secure\" Website Warning in 2026",
     "description": "Seeing a Not Secure warning on your website? Learn what causes it and exactly how to fix it with SSL certificates. Step-by-step guide for 2026.",
-    "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&auto=format&fit=crop&w=2400&q=80",
+    "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=75",
     "author": {
       "@type": "Person",
       "name": "Beeclue Editorial Team",
@@ -66,7 +66,7 @@ export default function FixNotSecureWebsiteWarning2026() {
 
         <div className={blogStyles.heroImageContainer}>
           <Image
-            src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&auto=format&fit=crop&w=2400&q=80"
+            src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=75"
             alt="Business owner fixing a not secure website warning by installing an SSL certificate"
             fill
             priority

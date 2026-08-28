@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     url: "https://beeclue.com/law-firm-website-design-seo-guide",
     images: [
       {
-        url: "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?ixlib=rb-4.0.3&auto=format&fit=crop&w=2400&q=80",
+        url: "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=75",
         width: 1200,
         height: 630,
         alt: "Law firm office symbolizing professional law firm website design",
@@ -78,7 +78,7 @@ export default function LawFirmBlogPage() {
 
         <FadeIn className={blogStyles.heroImageContainer}>
           <Image 
-            src="https://images.unsplash.com/photo-1589829545856-d10d557cf95f?ixlib=rb-4.0.3&auto=format&fit=crop&w=2400&q=80" 
+            src="https://images.unsplash.com/photo-1589829545856-d10d557cf95f?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=75" 
             alt="Law firm boardroom reflecting modern law firm website design and attorney SEO" 
             fill
             sizes="(max-width: 1000px) 100vw, 1000px"
@@ -150,7 +150,7 @@ export default function LawFirmBlogPage() {
 
           <FadeIn className={blogStyles.inlineImageContainer}>
             <Image 
-              src="https://images.unsplash.com/photo-1450133064473-71024230f91b?ixlib=rb-4.0.3&auto=format&fit=crop&w=2400&q=80" 
+              src="https://images.unsplash.com/photo-1450133064473-71024230f91b?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=75" 
               alt="Attorneys collaborating in a modern boardroom discussing legal strategy" 
               fill
               sizes="(max-width: 1000px) 100vw, 1000px"
@@ -189,7 +189,7 @@ export default function LawFirmBlogPage() {
 
           <FadeIn className={blogStyles.inlineImageContainer}>
             <Image 
-              src="https://images.unsplash.com/photo-1505664194779-8beaceb93744?ixlib=rb-4.0.3&auto=format&fit=crop&w=2400&q=80" 
+              src="https://images.unsplash.com/photo-1505664194779-8beaceb93744?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=75" 
               alt="Legal team analyzing digital client case files on a tablet in a modern office" 
               fill
               sizes="(max-width: 1000px) 100vw, 1000px"

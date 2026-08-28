@@ -21,7 +21,7 @@ export default function ShopifyPOSActivityLogBlog() {
     },
     "headline": "Shopify POS Activity Log: Everything You Need to Know About the New Feature",
     "description": "Shopify introduced the POS Activity Log on June 29, 2026. Learn what it tracks, how it improves store accountability, and why it matters for your retail business.",
-    "image": "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?ixlib=rb-4.0.3&auto=format&fit=crop&w=2400&q=80",
+    "image": "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=75",
     "author": {
       "@type": "Person",
       "name": "Beeclue Editorial Team",
@@ -65,7 +65,7 @@ export default function ShopifyPOSActivityLogBlog() {
 
         <div className={blogStyles.heroImageContainer}>
           <Image
-            src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?ixlib=rb-4.0.3&auto=format&fit=crop&w=2400&q=80"
+            src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=75"
             alt="Modern retail point of sale terminal in a store"
             fill
             priority

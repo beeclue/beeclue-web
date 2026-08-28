@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     url: "https://beeclue.com/http-vs-https-why-ssl-is-mandatory-for-seo",
     images: [
       {
-        url: "https://images.unsplash.com/photo-1555949963-aa79dcee981c?ixlib=rb-4.0.3&auto=format&fit=crop&w=2400&q=80",
+        url: "https://images.unsplash.com/photo-1555949963-aa79dcee981c?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=75",
         width: 1200,
         height: 630,
         alt: "Why SSL is Mandatory for SEO Rankings in 2026",
@@ -75,7 +75,7 @@ export default function BlogPost() {
 
         <FadeIn className={blogStyles.heroImageContainer}>
           <Image 
-            src="https://images.unsplash.com/photo-1555949963-aa79dcee981c?ixlib=rb-4.0.3&auto=format&fit=crop&w=2400&q=80" 
+            src="https://images.unsplash.com/photo-1555949963-aa79dcee981c?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=75" 
             alt="HTTP vs. HTTPS: Why SSL is Mandatory for SEO and Google Rankings" 
             fill
             sizes="(max-width: 1000px) 100vw, 1000px"

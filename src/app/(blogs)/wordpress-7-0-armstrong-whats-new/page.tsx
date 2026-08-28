@@ -21,7 +21,7 @@ export default function WordPress7Blog() {
     },
     "headline": "WordPress 7.0 Armstrong: AI Integration, Modern Dashboard & New Design Tools",
     "description": "WordPress 7.0 introduces AI integration, a modernized dashboard, new blocks, and an expanded developer toolbox. Everything you need to know about the biggest WordPress release yet.",
-    "image": "https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?ixlib=rb-4.0.3&auto=format&fit=crop&w=2400&q=80",
+    "image": "https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=75",
     "author": {
       "@type": "Person",
       "name": "Beeclue Editorial Team",
@@ -65,7 +65,7 @@ export default function WordPress7Blog() {
 
         <div className={blogStyles.heroImageContainer}>
           <Image
-            src="https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?ixlib=rb-4.0.3&auto=format&fit=crop&w=2400&q=80"
+            src="https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=75"
             alt="Modern laptop showing WordPress dashboard on a clean desk"
             fill
             priority

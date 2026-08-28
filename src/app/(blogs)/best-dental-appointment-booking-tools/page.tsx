@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     url: "https://beeclue.com/best-dental-appointment-booking-tools",
     images: [
       {
-        url: "https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80",
+        url: "https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=75",
         width: 1200,
         height: 630,
         alt: "Modern dental clinic front desk showcasing dental appointment booking tools",
@@ -78,7 +78,7 @@ export default function DentalBookingToolsBlogPage() {
 
         <FadeIn className={blogStyles.heroImageContainer}>
           <Image 
-            src="https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80" 
+            src="https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=75" 
             alt="Modern dental receptionist checking patient schedules on clinic computer" 
             fill
             sizes="(max-width: 1000px) 100vw, 1000px"

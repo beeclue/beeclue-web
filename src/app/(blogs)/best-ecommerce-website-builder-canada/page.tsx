@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     url: "https://beeclue.com/best-ecommerce-website-builder-canada",
     images: [
       {
-        url: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?ixlib=rb-4.0.3&auto=format&fit=crop&w=2400&q=80",
+        url: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=75",
         width: 1200,
         height: 630,
         alt: "Best Ecommerce Website Builder Canada 2026",
@@ -75,7 +75,7 @@ export default function BlogPost() {
 
         <FadeIn className={blogStyles.heroImageContainer}>
           <Image 
-            src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?ixlib=rb-4.0.3&auto=format&fit=crop&w=2400&q=80" 
+            src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=75" 
             alt="The Best E-Commerce Website Builder in Canada (Shopify vs. Custom)" 
             fill
             sizes="(max-width: 1000px) 100vw, 1000px"

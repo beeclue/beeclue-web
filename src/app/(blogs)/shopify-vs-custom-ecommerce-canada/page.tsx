@@ -21,7 +21,7 @@ export default function BestEcommercePlatformsCanada2026() {
     },
     "headline": "Best E-Commerce Platforms Canada 2026: Shopify vs WooCommerce vs BigCommerce vs Custom",
     "description": "Compare the best e-commerce platforms in Canada for 2026. Shopify vs WooCommerce vs BigCommerce vs Custom development — find the right ecommerce website builder for your Canadian business.",
-    "image": "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?ixlib=rb-4.0.3&auto=format&fit=crop&w=2400&q=80",
+    "image": "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=75",
     "author": {
       "@type": "Person",
       "name": "Beeclue Editorial Team",
@@ -66,7 +66,7 @@ export default function BestEcommercePlatformsCanada2026() {
 
         <div className={blogStyles.heroImageContainer}>
           <Image
-            src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?ixlib=rb-4.0.3&auto=format&fit=crop&w=2400&q=80"
+            src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=75"
             alt="Canadian e-commerce store owner comparing Shopify, WooCommerce, BigCommerce, and custom development options"
             fill
             priority

@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     url: "https://beeclue.com/web-design-for-construction-companies-guide",
     images: [
       {
-        url: "https://images.unsplash.com/photo-1541888946425-d0fbb186a5b3?ixlib=rb-4.0.3&auto=format&fit=crop&w=2400&q=80",
+        url: "https://images.unsplash.com/photo-1541888946425-d0fbb186a5b3?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=75",
         width: 1200,
         height: 630,
         alt: "Commercial construction project site representing construction web design",
@@ -77,7 +77,7 @@ export default function ConstructionBlogPage() {
 
         <FadeIn className={blogStyles.heroImageContainer}>
           <Image 
-            src="https://images.unsplash.com/photo-1503387762-592deb58ef4e?ixlib=rb-4.0.3&auto=format&fit=crop&w=2400&q=80" 
+            src="https://images.unsplash.com/photo-1503387762-592deb58ef4e?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=75" 
             alt="Modern commercial construction site highlighting web design for construction companies" 
             fill
             sizes="(max-width: 1000px) 100vw, 1000px"
@@ -148,7 +148,7 @@ export default function ConstructionBlogPage() {
 
           <FadeIn className={blogStyles.inlineImageContainer}>
             <Image 
-              src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?ixlib=rb-4.0.3&auto=format&fit=crop&w=2400&q=80" 
+              src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=75" 
               alt="Engineers and general contractors reviewing construction blueprints on job site" 
               fill
               sizes="(max-width: 1000px) 100vw, 1000px"
@@ -204,7 +204,7 @@ export default function ConstructionBlogPage() {
 
           <FadeIn className={blogStyles.inlineImageContainer}>
             <Image 
-              src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?ixlib=rb-4.0.3&auto=format&fit=crop&w=2400&q=80" 
+              src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=75" 
               alt="Modern architectural glass building representing high-end commercial construction" 
               fill
               sizes="(max-width: 1000px) 100vw, 1000px"

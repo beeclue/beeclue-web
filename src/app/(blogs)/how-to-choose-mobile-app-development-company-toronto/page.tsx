@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     url: "https://beeclue.com/how-to-choose-mobile-app-development-company-toronto",
     images: [
       {
-        url: "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80",
+        url: "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=75",
         width: 1200,
         height: 630,
         alt: "Mobile app design wireframe and development planning session in Toronto",
@@ -78,7 +78,7 @@ export default function MobileAppDevelopmentTorontoBlogPage() {
 
         <FadeIn className={blogStyles.heroImageContainer}>
           <Image 
-            src="https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80" 
+            src="https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=75" 
             alt="Mobile app design wireframe and development planning session in Toronto" 
             fill
             sizes="(max-width: 1000px) 100vw, 1000px"

@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     url: "https://beeclue.com/cost-to-build-ecommerce-website-canada",
     images: [
       {
-        url: "https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?ixlib=rb-4.0.3&auto=format&fit=crop&w=2400&q=80",
+        url: "https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=75",
         width: 1200,
         height: 630,
         alt: "E-Commerce Website Cost Canada Guide",
@@ -75,7 +75,7 @@ export default function BlogPost() {
 
         <FadeIn className={blogStyles.heroImageContainer}>
           <Image 
-            src="https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?ixlib=rb-4.0.3&auto=format&fit=crop&w=2400&q=80" 
+            src="https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=75" 
             alt="The Real Cost to Build an E-Commerce Website in Canada" 
             fill
             sizes="(max-width: 1000px) 100vw, 1000px"

@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     url: "https://beeclue.com/how-to-fix-not-secure-website-warning",
     images: [
       {
-        url: "https://images.unsplash.com/photo-1563206767-5b18f218e8de?ixlib=rb-4.0.3&auto=format&fit=crop&w=2400&q=80",
+        url: "https://images.unsplash.com/photo-1563206767-5b18f218e8de?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=75",
         width: 1200,
         height: 630,
         alt: 'How to Fix the "Not Secure" Website Warning: A Step-by-Step Guide',
@@ -75,7 +75,7 @@ export default function BlogPost() {
 
         <FadeIn className={blogStyles.heroImageContainer}>
           <Image 
-            src="https://images.unsplash.com/photo-1563206767-5b18f218e8de?ixlib=rb-4.0.3&auto=format&fit=crop&w=2400&q=80" 
+            src="https://images.unsplash.com/photo-1563206767-5b18f218e8de?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=75" 
             alt='How to Fix the "Not Secure" Website Warning: A Step-by-Step Guide' 
             fill
             sizes="(max-width: 1000px) 100vw, 1000px"

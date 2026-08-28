@@ -21,7 +21,7 @@ export default function AttractSalonClientsBlog() {
     },
     "headline": "How to Attract More Clients for Your Salon: A Comprehensive Digital Strategy",
     "description": "Discover actionable strategies to attract more clients to your salon or barbershop. From advanced SEO to loyalty apps, learn how to maximize your digital presence.",
-    "image": "https://images.unsplash.com/photo-1560066984-138dadb4c035?ixlib=rb-4.0.3&auto=format&fit=crop&w=2400&q=80",
+    "image": "https://images.unsplash.com/photo-1560066984-138dadb4c035?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=75",
     "author": {
       "@type": "Person",
       "name": "Beeclue Editorial Team",
@@ -66,7 +66,7 @@ export default function AttractSalonClientsBlog() {
 
         <div className={blogStyles.heroImageContainer}>
           <Image 
-            src="https://images.unsplash.com/photo-1560066984-138dadb4c035?ixlib=rb-4.0.3&auto=format&fit=crop&w=2400&q=80" 
+            src="https://images.unsplash.com/photo-1560066984-138dadb4c035?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=75" 
             alt="Interior of a modern luxury hair salon with styling chairs and mirrors" 
             fill
             priority
@@ -90,7 +90,7 @@ export default function AttractSalonClientsBlog() {
           <p>At Beeclue Tech, we specialize in high-performance <Link href="/salon-website-development" className={blogStyles.internalLink}>salon website development</Link>. We engineer platforms that do more than just display your address; they actively funnel visitors into an intuitive, frictionless online booking system. Your website must clearly articulate your brand's value proposition, showcase high-resolution portfolios of your stylists' work, and provide a seamless checkout experience.</p>
 
           <Image 
-            src="https://images.unsplash.com/photo-1503951914875-452162b0f3f1?ixlib=rb-4.0.3&auto=format&fit=crop&w=2400&q=80" 
+            src="https://images.unsplash.com/photo-1503951914875-452162b0f3f1?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=75" 
             alt="Close up of a stylist cutting hair" 
             width={1200}
             height={600}
@@ -127,7 +127,7 @@ export default function AttractSalonClientsBlog() {
           <p>A strategic loyalty program incentivizes clients to return more frequently, spend more on retail products, and refer their friends. Rather than just offering a generic "10th haircut free" punch card, consider digitizing the experience. We have an extensive guide on <Link href="/salon-barbershop-loyalty-programs-to-increase-business" className={blogStyles.internalLink}>how salons and barbershops can increase business using loyalty programs</Link>, detailing how custom apps and points systems create fiercely loyal communities.</p>
           
           <Image 
-            src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?q=80&w=2370&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" 
+            src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?q=75&w=1200&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" 
             alt="Customer using a smartphone for digital loyalty program checkout" 
             width={1200}
             height={800}

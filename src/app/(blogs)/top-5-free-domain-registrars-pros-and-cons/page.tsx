@@ -22,7 +22,7 @@ export default function FreeDomainRegistrarsBlog() {
     },
     "headline": "How to Get a Free Domain Name: Top 5 Registrars, Pros, and Cons",
     "description": "Looking for a free domain for personal projects or clients? Discover the top 5 free domain registrars, their pros and cons, and when to use them.",
-    "image": "https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?q=80&w=2400&auto=format&fit=crop",
+    "image": "https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?q=75&w=1200&auto=format&fit=crop",
     "author": {
       "@type": "Person",
       "name": "Beeclue Editorial Team",
@@ -82,7 +82,7 @@ export default function FreeDomainRegistrarsBlog() {
 
         <div className={blogStyles.heroImageContainer}>
           <Image 
-            src="https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?q=80&w=2400&auto=format&fit=crop" 
+            src="https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?q=75&w=1200&auto=format&fit=crop" 
             alt="Person working on a laptop, registering a free domain name" 
             fill
             priority
@@ -155,7 +155,7 @@ export default function FreeDomainRegistrarsBlog() {
           <p><em>Note: Historically, Freenom was the go-to registrar for free .tk, .ml, and .ga domains. However, due to severe legal issues and abuse by spammers, Freenom has suspended new registrations indefinitely.</em></p>
 
           <Image 
-            src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&auto=format&fit=crop&w=2400&q=80" 
+            src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=75" 
             alt="Data analytics showing the impact of a professional domain on SEO" 
             width={1200}
             height={600}

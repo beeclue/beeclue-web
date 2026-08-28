@@ -22,7 +22,7 @@ export default function ComputerCookiesGuideBlog() {
     },
     "headline": "What Are Computer Cookies Guide",
     "description": "Discover everything you need to know about computer cookies, including how they work, the different types (first-party vs third-party), and how they affect your online privacy and SEO.",
-    "image": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?ixlib=rb-4.0.3&auto=format&fit=crop&w=2400&q=80",
+    "image": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=75",
     "author": {
       "@type": "Person",
       "name": "Beeclue Editorial Team",
@@ -86,7 +86,7 @@ export default function ComputerCookiesGuideBlog() {
 
       <div className={blogStyles.heroImageContainer}>
         <Image 
-          src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?ixlib=rb-4.0.3&auto=format&fit=crop&w=2400&q=80" 
+          src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=75" 
           alt="A laptop showing code representing computer cookies and digital data" 
           fill
           priority
@@ -140,7 +140,7 @@ export default function ComputerCookiesGuideBlog() {
         <p>Zombie cookies (or supercookies) are deeply hidden, highly resilient cookies that automatically recreate themselves even after a user clears their browser cache. They are often stored outside of the standard browser cookie directory, making them notoriously difficult to eradicate. They are primarily used for aggressive tracking and are generally frowned upon by cybersecurity experts.</p>
 
         <Image 
-          src="https://images.unsplash.com/photo-1563206767-5b18f218e8de?ixlib=rb-4.0.3&auto=format&fit=crop&w=2400&q=80" 
+          src="https://images.unsplash.com/photo-1563206767-5b18f218e8de?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=75" 
           alt="Digital privacy and security padlock illustrating secure cookies" 
           width={1200}
           height={600}

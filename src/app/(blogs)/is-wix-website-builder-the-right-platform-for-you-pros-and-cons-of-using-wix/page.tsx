@@ -22,7 +22,7 @@ export default function WixProsConsBlog() {
     },
     "headline": "Is Wix Website Builder the Right Platform for You? Pros and Cons",
     "description": "A comprehensive guide analyzing the pros and cons of using Wix for your business website. Learn about its templates, scalability, SEO, and limitations.",
-    "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-4.0.3&auto=format&fit=crop&w=2400&q=80",
+    "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=75",
     "author": {
       "@type": "Person",
       "name": "Beeclue Editorial Team",
@@ -82,7 +82,7 @@ export default function WixProsConsBlog() {
 
         <div className={blogStyles.heroImageContainer}>
           <Image 
-            src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-4.0.3&auto=format&fit=crop&w=2400&q=80" 
+            src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=75" 
             alt="Website Builder Interface on Laptop representing Wix platform" 
             fill
             priority
@@ -134,7 +134,7 @@ export default function WixProsConsBlog() {
           <p>Because Wix sites rely heavily on client-side rendering and are bogged down by excessive proprietary Javascript and bloated DOM (Document Object Model) structures required to make their drag-and-drop editor function, Wix websites are notoriously slow. Page speed is a critical factor for both user experience and Google search rankings. Unlike a modern, statically generated <Link href="/custom-software-development-toronto" className={blogStyles.internalLink}>custom website</Link> built on React/Next.js, you have zero control over the server infrastructure or the underlying codebase on Wix, making deep performance optimization physically impossible.</p>
 
           <Image 
-            src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=2400&q=80" 
+            src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=75" 
             alt="Data analytics showing web performance metrics" 
             width={1200}
             height={600}

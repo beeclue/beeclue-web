@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     url: "https://beeclue.com/website-development-for-dental-clinics",
     images: [
       {
-        url: "https://images.unsplash.com/photo-1606811841689-23dfddce3e95?ixlib=rb-4.0.3&auto=format&fit=crop&w=2400&q=80",
+        url: "https://images.unsplash.com/photo-1606811841689-23dfddce3e95?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=75",
         width: 1200,
         height: 630,
         alt: "Modern Dental Clinic Interior and Equipment",
@@ -76,7 +76,7 @@ export default function BlogPost() {
 
         <FadeIn className={blogStyles.heroImageContainer}>
           <Image 
-            src="https://images.unsplash.com/photo-1606811841689-23dfddce3e95?ixlib=rb-4.0.3&auto=format&fit=crop&w=2400&q=80" 
+            src="https://images.unsplash.com/photo-1606811841689-23dfddce3e95?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=75" 
             alt="Modern Dental Clinic Interior and Equipment" 
             fill
             sizes="(max-width: 1000px) 100vw, 1000px"
@@ -122,7 +122,7 @@ export default function BlogPost() {
 
           <FadeIn className={blogStyles.inlineImageContainer}>
             <Image 
-              src="https://images.unsplash.com/photo-1598256989800-fea5f95213ea?ixlib=rb-4.0.3&auto=format&fit=crop&w=2400&q=80" 
+              src="https://images.unsplash.com/photo-1598256989800-fea5f95213ea?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=75" 
               alt="Dentist examining patient's teeth" 
               fill
               sizes="(max-width: 1000px) 100vw, 1000px"
@@ -212,7 +212,7 @@ export default function BlogPost() {
 
           <FadeIn className={blogStyles.inlineImageContainer}>
             <Image 
-              src="https://images.unsplash.com/photo-1609840114035-3c981b782dfe?ixlib=rb-4.0.3&auto=format&fit=crop&w=2400&q=80" 
+              src="https://images.unsplash.com/photo-1609840114035-3c981b782dfe?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=75" 
               alt="Dental tools and mirror on a blue background" 
               fill
               sizes="(max-width: 1000px) 100vw, 1000px"

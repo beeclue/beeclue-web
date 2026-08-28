@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     url: "https://beeclue.com/legal-seo-guide-for-lawyers-and-attorneys",
     images: [
       {
-        url: "https://images.unsplash.com/photo-1507679799987-c73779587ccf?ixlib=rb-4.0.3&auto=format&fit=crop&w=2400&q=80",
+        url: "https://images.unsplash.com/photo-1507679799987-c73779587ccf?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=75",
         width: 1200,
         height: 630,
         alt: "Attorney working on laptop executing legal SEO search engine optimization",
@@ -80,7 +80,7 @@ export default function LegalSEOGuideBlog() {
 
         <FadeIn className={blogStyles.heroImageContainer}>
           <Image
-            src="https://images.unsplash.com/photo-1507679799987-c73779587ccf?ixlib=rb-4.0.3&auto=format&fit=crop&w=2400&q=80"
+            src="https://images.unsplash.com/photo-1507679799987-c73779587ccf?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=75"
             alt="Attorney analyzing legal SEO rankings and Google map performance"
             fill
             sizes="(max-width: 1000px) 100vw, 1000px"
@@ -114,7 +114,7 @@ export default function LegalSEOGuideBlog() {
 
           <FadeIn className={blogStyles.secondaryImageContainer}>
             <Image
-              src="https://images.unsplash.com/photo-1450133064473-71024230f91b?ixlib=rb-4.0.3&auto=format&fit=crop&w=2400&q=80"
+              src="https://images.unsplash.com/photo-1450133064473-71024230f91b?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=75"
               alt="Law firm team executing search engine optimization strategy"
               fill
               sizes="(max-width: 1000px) 100vw, 1000px"

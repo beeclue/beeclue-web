@@ -22,7 +22,7 @@ export default function AIWebDevelopmentBlog() {
     },
     "headline": "AI Impact on Web Development",
     "description": "Explore how Artificial Intelligence (AI) is transforming the web development industry. From automated coding to personalized UX, learn what the future holds.",
-    "image": "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?ixlib=rb-4.0.3&auto=format&fit=crop&w=2400&q=80",
+    "image": "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=75",
     "author": {
       "@type": "Person",
       "name": "Beeclue Editorial Team",
@@ -82,7 +82,7 @@ export default function AIWebDevelopmentBlog() {
 
       <div className={blogStyles.heroImageContainer}>
         <Image 
-          src="https://images.unsplash.com/photo-1620712943543-bcc4688e7485?ixlib=rb-4.0.3&auto=format&fit=crop&w=2400&q=80" 
+          src="https://images.unsplash.com/photo-1620712943543-bcc4688e7485?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=75" 
           alt="Artificial Intelligence concept with a futuristic digital interface" 
           fill
           priority
@@ -124,7 +124,7 @@ export default function AIWebDevelopmentBlog() {
         <p>The "one-size-fits-all" website is rapidly becoming obsolete. AI enables websites to adapt dynamically to the individual user. Machine learning algorithms analyze user behavior—such as the pages they visit, the time spent on specific sections, and their past purchasing history—to alter the website's interface in real-time. This could mean showing different product recommendations, changing the layout to highlight preferred categories, or dynamically altering the language and tone of the copy.</p>
 
         <Image 
-          src="https://images.unsplash.com/photo-1555255707-c07966088b7b?ixlib=rb-4.0.3&auto=format&fit=crop&w=2400&q=80" 
+          src="https://images.unsplash.com/photo-1555255707-c07966088b7b?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=75" 
           alt="A developer working on dual monitors with futuristic data visualizations" 
           width={1200}
           height={600}

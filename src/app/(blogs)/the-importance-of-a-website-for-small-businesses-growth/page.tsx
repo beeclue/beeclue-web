@@ -22,7 +22,7 @@ export default function SmallBusinessWebsiteBlog() {
     },
     "headline": "The Importance of a Website for Small Business Growth",
     "description": "Discover why having a professional website is the most critical asset for your small business growth. Learn about credibility, digital marketing, and scaling your brand.",
-    "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=2426&auto=format&fit=crop",
+    "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=75&w=2426&auto=format&fit=crop",
     "author": {
       "@type": "Person",
       "name": "Beeclue Editorial Team",
@@ -81,7 +81,7 @@ export default function SmallBusinessWebsiteBlog() {
 
         <div className={blogStyles.heroImageContainer}>
           <Image 
-            src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=2426&auto=format&fit=crop" 
+            src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=75&w=2426&auto=format&fit=crop" 
             alt="Laptop displaying business growth charts and analytics on a desk" 
             fill
             priority
@@ -115,7 +115,7 @@ export default function SmallBusinessWebsiteBlog() {
           <p>For small businesses, local SEO is paramount. By optimizing your website for localized keywords (e.g., "best <Link href="/seo-services-toronto" className={blogStyles.internalLink}>SEO services Toronto</Link>"), you ensure that your business appears at the exact moment a local customer needs you. A well-structured website with proper schema markup, fast loading speeds, and high-quality content will consistently outrank competitors who rely solely on third-party directories.</p>
 
           <Image 
-            src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=2400&q=80" 
+            src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=75" 
             alt="Data analytics showing web performance metrics and SEO growth" 
             width={1200}
             height={600}
