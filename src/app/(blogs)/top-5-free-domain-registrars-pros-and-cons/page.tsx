@@ -8,8 +8,8 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://beeclue.com/top-5-free-domain-registrars-pros-and-cons",
   },
-  title: 'Top 5 Free Domain Registrars',
-  description: 'Looking for a free domain for personal projects or clients? Discover the top 5 free domain registrars, their pros and cons, and when to use them.',
+  title: 'Top 5 Free Domain Registrars: Pros, Cons & Vetting Guide',
+  description: 'Compare the best free domain registrars of 2026. Discover how to get a free domain name, which extensions are safe, and the pros/cons for small websites.',
 };
 
 export default function FreeDomainRegistrarsBlog() {

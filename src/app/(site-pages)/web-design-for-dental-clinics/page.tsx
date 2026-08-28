@@ -87,7 +87,7 @@ export default function WebDesignForDentalClinicsPage() {
               A dental website is more than a digital brochure. It&apos;s your 24/7 receptionist, your marketing department, and your first impression all rolled into one. Patients judge your practice within seconds of landing on your site — and that judgment directly impacts whether they pick up the phone or click away. Read our comprehensive <Link href="/website-development-for-dental-clinics" style={{ color: "var(--primary-light)", textDecoration: "underline" }}>Dental Clinic Website Development Guide</Link> to learn more.
             </p>
             <p>
-              At Beeclue Tech, we understand the unique needs of dental practices across Toronto and the GTA. We build websites that handle everything from new patient acquisition to existing patient self-service, all while maintaining the professional, clean aesthetic that healthcare demands.
+              At Beeclue Tech, we understand the unique needs of dental practices across Toronto and the GTA. We build websites that handle everything from new patient acquisition to existing patient self-service, all while maintaining the professional, clean aesthetic that healthcare demands. Read our comprehensive <Link href="/dental-website-design-toronto-patient-growth-guide" style={{ color: "var(--primary-light)", textDecoration: "underline" }}>dental website design toronto</Link> guide to learn more about patient acquisition.
             </p>
           </div>
           <div className={styles.luxuryCard}>

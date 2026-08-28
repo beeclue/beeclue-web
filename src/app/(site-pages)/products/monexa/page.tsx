@@ -1,8 +1,17 @@
+import { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
 import styles from "@/app/page.module.css";
 import { ArrowRight, CheckCircle2, LineChart, PiggyBank, RefreshCcw, Sparkles, ListTree } from "lucide-react";
 import FadeIn from "@/components/FadeIn";
+
+export const metadata: Metadata = {
+  title: "Monexa: Free AI Expense Tracker & Budget Planner | Beeclue",
+  description: "Track expenses, plan budgets, and get AI-powered financial insights with Monexa, a free personal finance app built by Beeclue.",
+  alternates: {
+    canonical: "https://beeclue.com/products/monexa",
+  },
+};
 
 export default function MonexaProductPage() {
   const jsonLd = {

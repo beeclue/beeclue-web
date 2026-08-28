@@ -6,21 +6,21 @@ import FadeIn from "@/components/FadeIn";
 import blogStyles from "../shared-blog.module.css";
 
 export const metadata: Metadata = {
-  title: "Best E-Commerce Builder Canada 2026",
-  description: "Compare the best e-commerce website builders in Canada for 2026. Shopify vs WooCommerce vs Custom Next.js builds for Canadian businesses.",
+  title: "Best Ecommerce Website Builder Canada (2026 Comparison)",
+  description: "Compare the best ecommerce website builders in Canada for 2026. Shopify vs WooCommerce vs Custom builds for Canadian businesses.",
   alternates: {
     canonical: "https://beeclue.com/best-ecommerce-website-builder-canada",
   },
   openGraph: {
-    title: "Best E-Commerce Builder Canada 2026",
-    description: "Compare the best e-commerce website builders in Canada for 2026. Shopify vs WooCommerce vs Custom Next.js builds for Canadian businesses.",
+    title: "Best Ecommerce Website Builder Canada (2026 Comparison)",
+    description: "Compare the best ecommerce website builders in Canada for 2026. Shopify vs WooCommerce vs Custom builds for Canadian businesses.",
     url: "https://beeclue.com/best-ecommerce-website-builder-canada",
     images: [
       {
         url: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?ixlib=rb-4.0.3&auto=format&fit=crop&w=2400&q=80",
         width: 1200,
         height: 630,
-        alt: "Best E-Commerce Builder Canada 2026",
+        alt: "Best Ecommerce Website Builder Canada 2026",
       },
     ],
   },
@@ -41,8 +41,8 @@ export default function BlogPost() {
   const articleSchema = {
     "@context": "https://schema.org",
     "@type": "Article",
-    "headline": "Best E-Commerce Builder Canada 2026",
-    "description": "Compare the best e-commerce website builders in Canada for 2026. Shopify vs WooCommerce vs Custom Next.js builds for Canadian businesses.",
+    "headline": "Best Ecommerce Website Builder Canada: Shopify vs. Custom (2026)",
+    "description": "Compare the best ecommerce website builders in Canada for 2026. Shopify vs WooCommerce vs Custom builds for Canadian businesses.",
     "author": {
       "@type": "Organization",
       "name": "Beeclue Design Team"

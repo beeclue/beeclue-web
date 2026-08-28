@@ -29,7 +29,7 @@ export const metadata: Metadata = {
     default: "Toronto Web Design & Software Development Agency | Beeclue Tech",
     template: "%s | Beeclue Tech",
   },
-  description: "Transform your business with elite web design, custom software development, and advanced SEO services. Beeclue Tech engineers high-converting digital platforms for maximum ROI. Get a free homepage mockup design today!",
+  description: "Get your Free Website Audit in 2 minutes. We design and build custom websites, mobile apps, and custom software for Toronto businesses that turn visitors into customers. Get a free mockup today!",
   icons: {
     icon: [
       { url: '/favicon-96x96.png', sizes: '96x96', type: 'image/png' },
