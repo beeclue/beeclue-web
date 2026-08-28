@@ -13,8 +13,20 @@ export default function CustomCursor() {
   const cursorYSpring = useSpring(cursorY, springConfig);
 
   const [isHovering, setIsHovering] = useState(false);
+  const [isMobile, setIsMobile] = useState(true); // Default hidden to avoid flash
 
   useEffect(() => {
+    // Custom cursors don't exist on mobile/touch devices — skip entirely
+    const mobile = window.matchMedia("(max-width: 768px)").matches;
+    const isTouch = "ontouchstart" in window || navigator.maxTouchPoints > 0;
+
+    if (mobile || isTouch) {
+      setIsMobile(true);
+      return;
+    }
+
+    setIsMobile(false);
+
     const updateMousePosition = (e: MouseEvent) => {
       cursorX.set(e.clientX - 16);
       cursorY.set(e.clientY - 16);
@@ -42,6 +54,9 @@ export default function CustomCursor() {
       window.removeEventListener("mouseover", handleMouseOver);
     };
   }, [cursorX, cursorY]);
+
+  // Don't render on mobile/touch devices
+  if (isMobile) return null;
 
   const variants = {
     default: {
