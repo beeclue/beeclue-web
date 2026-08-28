@@ -67,7 +67,7 @@ export default function Footer() {
 
           <div style={{ display: 'flex', gap: '4rem', justifyContent: 'center', flexWrap: 'wrap', margin: '3rem 0 2rem 0' }}>
             <div style={{ display: 'flex', flexDirection: 'column', gap: '0.75rem', alignItems: 'center' }}>
-              <h4 style={{ color: '#fff', fontSize: '0.875rem', textTransform: 'uppercase', letterSpacing: '0.1em', marginBottom: '0.5rem' }}>Services</h4>
+              <div style={{ color: '#fff', fontSize: '0.875rem', textTransform: 'uppercase', letterSpacing: '0.1em', marginBottom: '0.5rem', fontWeight: 'bold' }}>Services</div>
               <Link href="/web-design-toronto" style={{ color: 'rgba(255,255,255,0.7)', textDecoration: 'none', fontSize: '0.9rem' }}>Web Design</Link>
               <Link href="/custom-software-development-toronto" style={{ color: 'rgba(255,255,255,0.7)', textDecoration: 'none', fontSize: '0.9rem' }}>Custom Software</Link>
               <Link href="/mobile-app-development-toronto" style={{ color: 'rgba(255,255,255,0.7)', textDecoration: 'none', fontSize: '0.9rem' }}>Mobile Apps</Link>
@@ -76,7 +76,7 @@ export default function Footer() {
               <Link href="/ui-ux-design-toronto" style={{ color: 'rgba(255,255,255,0.7)', textDecoration: 'none', fontSize: '0.9rem' }}>UI/UX Design</Link>
             </div>
             <div style={{ display: 'flex', flexDirection: 'column', gap: '0.75rem', alignItems: 'center' }}>
-              <h4 style={{ color: '#fff', fontSize: '0.875rem', textTransform: 'uppercase', letterSpacing: '0.1em', marginBottom: '0.5rem' }}>Industries</h4>
+              <div style={{ color: '#fff', fontSize: '0.875rem', textTransform: 'uppercase', letterSpacing: '0.1em', marginBottom: '0.5rem', fontWeight: 'bold' }}>Industries</div>
               <Link href="/web-design-for-salons" style={{ color: 'rgba(255,255,255,0.7)', textDecoration: 'none', fontSize: '0.9rem' }}>Salons & Barbershops</Link>
               <Link href="/web-design-for-dental-clinics" style={{ color: 'rgba(255,255,255,0.7)', textDecoration: 'none', fontSize: '0.9rem' }}>Dental Clinics</Link>
               <Link href="/web-design-for-restaurants" style={{ color: 'rgba(255,255,255,0.7)', textDecoration: 'none', fontSize: '0.9rem' }}>Restaurants</Link>
@@ -86,14 +86,14 @@ export default function Footer() {
               <Link href="/web-design-for-construction-companies" style={{ color: 'rgba(255,255,255,0.7)', textDecoration: 'none', fontSize: '0.9rem' }}>Construction</Link>
             </div>
             <div style={{ display: 'flex', flexDirection: 'column', gap: '0.75rem', alignItems: 'center' }}>
-              <h4 style={{ color: '#fff', fontSize: '0.875rem', textTransform: 'uppercase', letterSpacing: '0.1em', marginBottom: '0.5rem' }}>Resources</h4>
+              <div style={{ color: '#fff', fontSize: '0.875rem', textTransform: 'uppercase', letterSpacing: '0.1em', marginBottom: '0.5rem', fontWeight: 'bold' }}>Resources</div>
               <Link href="/case-studies" style={{ color: 'rgba(255,255,255,0.7)', textDecoration: 'none', fontSize: '0.9rem' }}>Case Studies</Link>
               <Link href="/about-us" style={{ color: 'rgba(255,255,255,0.7)', textDecoration: 'none', fontSize: '0.9rem' }}>About Us</Link>
               <Link href="/blogs" style={{ color: 'rgba(255,255,255,0.7)', textDecoration: 'none', fontSize: '0.9rem' }}>Blog</Link>
               <Link href="/contact" style={{ color: 'rgba(255,255,255,0.7)', textDecoration: 'none', fontSize: '0.9rem' }}>Contact</Link>
             </div>
             <div style={{ display: 'flex', flexDirection: 'column', gap: '0.75rem', alignItems: 'center' }}>
-              <h4 style={{ color: '#fff', fontSize: '0.875rem', textTransform: 'uppercase', letterSpacing: '0.1em', marginBottom: '0.5rem' }}>Service Areas</h4>
+              <div style={{ color: '#fff', fontSize: '0.875rem', textTransform: 'uppercase', letterSpacing: '0.1em', marginBottom: '0.5rem', fontWeight: 'bold' }}>Service Areas</div>
               <Link href="/web-design/huntsville" style={{ color: 'rgba(255,255,255,0.7)', textDecoration: 'none', fontSize: '0.9rem' }}>Huntsville</Link>
               <Link href="/web-design/cobourg" style={{ color: 'rgba(255,255,255,0.7)', textDecoration: 'none', fontSize: '0.9rem' }}>Cobourg</Link>
               <Link href="/web-design/port-hope" style={{ color: 'rgba(255,255,255,0.7)', textDecoration: 'none', fontSize: '0.9rem' }}>Port Hope</Link>
