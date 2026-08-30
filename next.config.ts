@@ -5,6 +5,17 @@ const nextConfig: NextConfig = {
   async redirects() {
     return [
       {
+        source: '/:path*',
+        has: [
+          {
+            type: 'host',
+            value: 'beeclue-web.pages.dev',
+          },
+        ],
+        destination: 'https://beeclue.com/:path*',
+        permanent: true,
+      },
+      {
         source: '/about',
         destination: '/about-us',
         permanent: true,
