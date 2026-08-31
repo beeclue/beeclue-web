@@ -87,7 +87,7 @@ export default function WebDesignForDentalClinicsPage() {
               A dental website is more than a digital brochure. It&apos;s your 24/7 receptionist, your marketing department, and your first impression all rolled into one. Patients judge your practice within seconds of landing on your site — and that judgment directly impacts whether they pick up the phone or click away. Read our comprehensive <Link href="/website-development-for-dental-clinics" style={{ color: "var(--primary-light)", textDecoration: "underline" }}>Dental Clinic Website Development Guide</Link> to learn more.
             </p>
             <p>
-              At Beeclue Tech, we understand the unique needs of dental practices across Toronto and the GTA. We build websites that handle everything from new patient acquisition to existing patient self-service, all while maintaining the professional, clean aesthetic that healthcare demands. Read our comprehensive <Link href="/dental-website-design-toronto-patient-growth-guide" style={{ color: "var(--primary-light)", textDecoration: "underline" }}>dental website design toronto</Link> guide to learn more about patient acquisition.
+              At Beeclue Tech, we understand the unique needs of dental practices across Toronto and the GTA. We build custom websites that handle everything from new patient acquisition to existing patient self-service, all while maintaining the professional, clean aesthetic that healthcare demands.
             </p>
           </div>
           <div className={styles.luxuryCard}>
@@ -168,6 +168,35 @@ export default function WebDesignForDentalClinicsPage() {
           </div>
           <div style={{ display: "flex", alignItems: "center", justifyContent: "center" }}>
             <Users size={120} color="#3385ff" strokeWidth={1} />
+          </div>
+        </div>
+      </FadeIn>
+
+      {/* LOCAL SEO & PIPEDA COMPLIANCE */}
+      <FadeIn className={styles.luxuryIntro} style={{ paddingTop: "5vh" }}>
+        <div className={styles.luxuryIntroContent}>
+          <div className={styles.luxuryText}>
+            <h2>Toronto Local SEO & Patient Growth Strategies</h2>
+            <p>
+              To dominate local search results in high-density GTA areas—from Downtown Toronto and Yorkville to North York, Scarborough, and Mississauga—your clinic needs a targeted local search engine strategy.
+            </p>
+            <p>
+              We optimize your Google Business Profile (GBP), ensure exact Name, Address, and Phone number (NAP) consistency across directories, and inject structured <code>DentalClinic</code> and <code>MedicalBusiness</code> JSON-LD schema into your website. This signals your hours, geo-coordinates, and accepted insurance providers directly to Google search engines.
+            </p>
+            <h3>PIPEDA & RCDSO Compliance</h3>
+            <p>
+              In Ontario, patient data privacy is strictly governed by PIPEDA and RCDSO guidelines. We construct secure patient intake forms with end-to-end SSL encryption and secure database integrations, ensuring all communication remains fully compliant and confidential.
+            </p>
+          </div>
+          <div className={styles.luxuryCard}>
+            <h3>Local Search Domination</h3>
+            <p>Accelerate clinic growth with these targeted local search tactics:</p>
+            <div className={styles.luxuryChecklist}>
+              <div className={styles.luxuryCheckItem}><CheckCircle2 size={24} color="var(--primary-light)" /><span>Curve Dental, Cleardent, & Dentrix booking integration</span></div>
+              <div className={styles.luxuryCheckItem}><CheckCircle2 size={24} color="var(--primary-light)" /><span>Google Local Map Pack optimization</span></div>
+              <div className={styles.luxuryCheckItem}><CheckCircle2 size={24} color="var(--primary-light)" /><span>Geo-targeted neighborhood landing pages</span></div>
+              <div className={styles.luxuryCheckItem}><CheckCircle2 size={24} color="var(--primary-light)" /><span>RCDSO-compliant dentist biographies & profiles</span></div>
+            </div>
           </div>
         </div>
       </FadeIn>

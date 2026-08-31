@@ -30,6 +30,11 @@ const nextConfig: NextConfig = {
         destination: '/',
         permanent: true,
       },
+      {
+        source: '/dental-website-design-toronto-patient-growth-guide',
+        destination: '/web-design-for-dental-clinics',
+        permanent: true,
+      },
     ];
   },
   pageExtensions: ["js", "jsx", "md", "mdx", "ts", "tsx"],

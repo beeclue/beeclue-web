@@ -122,7 +122,7 @@ export default function DentalBookingToolsBlogPage() {
               Without a secure, automated two-way read/write sync, your staff must manually cross-reference appointments, leading to double-bookings, human error, and patient frustration. Conversely, when a system automatically reflects available time slots and immediately writes new appointments back to your scheduler, your front-desk workload drops by up to 40%.
             </p>
             <p>
-              From a marketing standpoint, having a direct "Book Online" call-to-action significantly boosts conversion rates. Local searchers looking for immediate care (such as emergency dentistry) will choose a clinic that allows them to lock in a slot instantly. For more details on building a conversion-focused dental site, see our comprehensive guide to <Link href="/dental-website-design-toronto-patient-growth-guide" className={blogStyles.internalLink}>dental website design toronto</Link>.
+              From a marketing standpoint, having a direct "Book Online" call-to-action significantly boosts conversion rates. Local searchers looking for immediate care (such as emergency dentistry) will choose a clinic that allows them to lock in a slot instantly. For more details on building a conversion-focused dental site, see our comprehensive <Link href="/web-design-for-dental-clinics" className={blogStyles.internalLink}>dental website design toronto</Link> services.
             </p>
           </FadeIn>
 
