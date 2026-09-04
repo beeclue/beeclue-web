@@ -42,6 +42,14 @@ This version has breaking changes — APIs, conventions, and file structure may 
 - Append UTM tracking to all external links in outreach emails using the format: `?utm_source=beeclue&utm_medium=partner-outreach&utm_campaign=sales-outreach-partner-<slug>`.
 - Always BCC all outreach emails to `admin@beeclue.com`.
 
+# Law Firm Sales Outreach
+- Outbound pitches targeting lawyers and law firms must be priced at **$19/month** (using the `taralattanzio.ca` case study).
+- **Verified Direct Emails Only**: Always find, verify, and use the firm's real, active direct email address (from their official website, state bar directory, or verified local business profile) before saving or sending outreach. Never guess generic email prefixes or placeholder emails. Exclude generic gatekeeper emails (info@, contact@, office@, admin@) entirely and ONLY target specific decision-makers (partners, founders, named attorneys). If direct email cannot be confirmed, explicitly research or ask the user for confirmation.
+- Do NOT include BCC headers in any outbound sales emails.
+- **One Contact Per Firm**: Never send multiple emails to different attorneys at the same firm. Pick ONE primary decision-maker per company to avoid spamming their office.
+- **Subject Line Formatting**: The subject line must always use the Firm/Company Name, NEVER the person's name (e.g., "Modernizing the website for Smith & Jones Law", not "Modernizing the website for David").
+- Append UTM tracking to all case study and website links using the format: `?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-<firm-slug>`.
+
 # Design System Guidelines
 - ALWAYS refer to `DESIGN_SYSTEM.md` whenever adding new pages or components.
 - Reuse existing components from the `src/components/` directory whenever a new component is needed. DO NOT recreate components that already exist.

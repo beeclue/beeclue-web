@@ -65,6 +65,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     // Products
     '/products/monexa',
     // Blogs
+    '/how-much-storage-do-i-need-for-my-website',
     '/best-dental-appointment-booking-tools',
     '/how-to-choose-mobile-app-development-company-toronto',
     '/top-5-free-domain-registrars-pros-and-cons',

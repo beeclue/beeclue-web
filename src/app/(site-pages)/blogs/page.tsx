@@ -33,6 +33,30 @@ export default function BlogsPage() {
       {/* BLOGS LIST */}
       <FadeIn className={styles.baseSection} style={{ paddingTop: "5vh" }}>
         <div className={styles.caseStudyList}>
+          {/* BLOG: HOW MUCH STORAGE DO I NEED FOR MY WEBSITE */}
+          <div className={styles.caseStudyListItem}>
+            <div className={styles.caseStudyListImage} style={{ position: "relative" }}>
+              <Image 
+                src="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80" 
+                alt="High performance cloud server rack arrays illuminating web hosting storage infrastructure" 
+                fill
+                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                style={{ objectFit: "cover" }}
+              />
+            </div>
+            <div className={styles.caseStudyListContent}>
+              <h2>How Much Storage Do I Need for My Website? [2026 Complete Guide &amp; Size Calculator]</h2>
+              <p>
+                Discover how much web hosting storage and disk space your website truly needs. Compare realistic benchmarks for brochure sites, eCommerce stores, and custom web applications, plus how to avoid paying for bloated hosting.
+              </p>
+              <div>
+                <Link href="/how-much-storage-do-i-need-for-my-website" className={styles.ctaButtonLight}>
+                  Read Article <ArrowRight className={styles.arrow} size={20} />
+                </Link>
+              </div>
+            </div>
+          </div>
+
           {/* BLOG: DENTAL APPOINTMENT BOOKING TOOLS */}
           <div className={styles.caseStudyListItem}>
             <div className={styles.caseStudyListImage} style={{ position: "relative" }}>
