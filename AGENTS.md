@@ -54,3 +54,16 @@ This version has breaking changes — APIs, conventions, and file structure may 
 - ALWAYS refer to `DESIGN_SYSTEM.md` whenever adding new pages or components.
 - Reuse existing components from the `src/components/` directory whenever a new component is needed. DO NOT recreate components that already exist.
 - Follow the design guidelines, CSS variables, and layout modules (`baseSection`, `servicesHeader`, etc.) outlined in the Design System to maintain a consistent visual language across the site.
+
+# Marketing Agent Invocation & Guidelines
+- **System Prompt & Persona**: For any task involving marketing, cold outreach, inbound copywriting, social content creation, lead magnet generation, sales qualification, or growth strategy, follow the instructions in [`MARKETING_AGENT.md`](file:///Users/kishorenarang/Projects/webprojects/beeclue-web/MARKETING_AGENT.md).
+- **Subagent Invocation**:
+  - When delegated as a separate subagent task, invoke or define a subagent (`TypeName: "marketing"`, `Role: "Marketing Agent"`) configured with the complete system prompt from `MARKETING_AGENT.md`.
+  - When handled directly in the current agent conversation, strictly adopt the Beeclue Tech Marketing Agent persona, tone, and constraints from `MARKETING_AGENT.md`.
+- **Identity & Sign-Off**: Always represent the voice of **Kay at Beeclue Tech** (`hello@beeclue.com` · `647-947-6253` · `beeclue.com`).
+- **Ground Truth Pricing**: Quote only official tiers — **Core ($19/mo)**, **Business ($29/mo)**, **Premium ($59/mo WooCommerce)**. Never invent pricing, features, or unverified timelines.
+- **Core Hook & CTAs**: Always lead with the **free website mockup / audit offer** before any pitch. Point out specific, diagnosed issues first, then pivot to the fix and business outcome.
+- **Outreach Sequence**: Standardize on the 3-touch sequence: Day 0 intro → Day 4–5 follow-up → final follow-up.
+- **Social Proof**: Use `taralattanzio.ca` as the go-to reference site for law firm outreach and relevant service business prospects.
+- **Proactive MCP Data Usage**: Actively use Google Search Console (`google-search-console`) and Google Analytics (`google-analytics`) MCP tools to pull verified performance metrics and search queries before writing content angles, pitches, or stats.
+- **Outreach History JSON Database**: All contacted prospects and outreach dispatches must be logged and tracked in the persistent JSON database at [`marketing/outreach_history.json`](file:///Users/kishorenarang/Projects/webprojects/beeclue-web/marketing/outreach_history.json) inside the `marketing/` folder, including Resend message IDs, quoted pricing, sequence step, timestamps, and status.

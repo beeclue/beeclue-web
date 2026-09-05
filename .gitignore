@@ -65,6 +65,9 @@ docs
 !/seo-reports/history/.keep
 /marketing/*
 !/marketing/.keep
+!/marketing/outreach_history.json
+!/marketing/website_index.json
+!/marketing/*.md
 /sales/*
 !/sales/leads/
 /sales/leads/*
