@@ -33,6 +33,78 @@ export default function BlogsPage() {
       {/* BLOGS LIST */}
       <FadeIn className={styles.baseSection} style={{ paddingTop: "5vh" }}>
         <div className={styles.caseStudyList}>
+          {/* BLOG: CUSTOM SOFTWARE DEVELOPMENT TORONTO */}
+          <div className={styles.caseStudyListItem}>
+            <div className={styles.caseStudyListImage} style={{ position: "relative" }}>
+              <Image 
+                src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80" 
+                alt="Software developers in Toronto writing code" 
+                fill
+                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                style={{ objectFit: "cover" }}
+              />
+            </div>
+            <div className={styles.caseStudyListContent}>
+              <h2>Custom Software Development in Toronto: 2026 Cost & Hiring Guide</h2>
+              <p>
+                A comprehensive guide to custom software and mobile app development in Toronto. Discover average pricing models, how to choose the right agency, and the differences between offshore and local development.
+              </p>
+              <div>
+                <Link href="/custom-software-development-toronto-cost-guide" className={styles.ctaButtonLight}>
+                  Read Article <ArrowRight className={styles.arrow} size={20} />
+                </Link>
+              </div>
+            </div>
+          </div>
+
+          {/* BLOG: HEALTHCARE WEBSITE DESIGN CANADA */}
+          <div className={styles.caseStudyListItem}>
+            <div className={styles.caseStudyListImage} style={{ position: "relative" }}>
+              <Image 
+                src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80" 
+                alt="Healthcare professional using modern clinical software" 
+                fill
+                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                style={{ objectFit: "cover" }}
+              />
+            </div>
+            <div className={styles.caseStudyListContent}>
+              <h2>Healthcare Website Design in Canada: PIPEDA Compliance & Patient Growth</h2>
+              <p>
+                Learn how behavioral health practices and medical clinics in Canada can build PIPEDA-compliant, accessible websites that build trust and drive patient acquisition.
+              </p>
+              <div>
+                <Link href="/healthcare-website-design-canada-pipeda" className={styles.ctaButtonLight}>
+                  Read Article <ArrowRight className={styles.arrow} size={20} />
+                </Link>
+              </div>
+            </div>
+          </div>
+
+          {/* BLOG: ULTIMATE GUIDE WEB DESIGN AGENCY TORONTO */}
+          <div className={styles.caseStudyListItem}>
+            <div className={styles.caseStudyListImage} style={{ position: "relative" }}>
+              <Image 
+                src="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80" 
+                alt="Web design team collaborating on a strategy in Toronto" 
+                fill
+                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                style={{ objectFit: "cover" }}
+              />
+            </div>
+            <div className={styles.caseStudyListContent}>
+              <h2>The Ultimate Guide to Choosing a Web Design Agency in Toronto</h2>
+              <p>
+                Looking for a web design agency in Toronto? Learn what to look for, the red flags to avoid, how to structure pricing, and why mobile-first design is critical for local businesses.
+              </p>
+              <div>
+                <Link href="/ultimate-guide-choosing-web-design-agency-toronto" className={styles.ctaButtonLight}>
+                  Read Article <ArrowRight className={styles.arrow} size={20} />
+                </Link>
+              </div>
+            </div>
+          </div>
+
           {/* BLOG: HOW MUCH STORAGE DO I NEED FOR MY WEBSITE */}
           <div className={styles.caseStudyListItem}>
             <div className={styles.caseStudyListImage} style={{ position: "relative" }}>

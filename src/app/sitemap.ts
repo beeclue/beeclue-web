@@ -65,6 +65,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
     // Products
     '/products/monexa',
     // Blogs
+    '/custom-software-development-toronto-cost-guide',
+    '/healthcare-website-design-canada-pipeda',
+    '/ultimate-guide-choosing-web-design-agency-toronto',
     '/how-much-storage-do-i-need-for-my-website',
     '/best-dental-appointment-booking-tools',
     '/how-to-choose-mobile-app-development-company-toronto',
