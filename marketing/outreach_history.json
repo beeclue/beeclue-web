@@ -3118,5 +3118,525 @@
         "notes": "Initial outreach offering $20/month legal website plan, taralattanzio.ca case study, and free mockup offer."
       }
     ]
+  },
+  {
+    "id": "a-dhillon-law",
+    "firmName": "A. Dhillon Law",
+    "contactName": "Akash (Barrister & Solicitor / Principal)",
+    "email": "akash@adhillonlaw.com",
+    "website": "https://adhillonlaw.com",
+    "niche": "Criminal Defence & Sexual Assault Law",
+    "location": "Scarborough, ON",
+    "pricingQuoted": "$20/month",
+    "initialContactDate": "2026-09-07T16:57:16.454Z",
+    "lastContactDate": "2026-09-07T16:57:16.454Z",
+    "status": "delivered",
+    "sequenceStep": "Day 0 - Initial Pitch",
+    "diagnosedIssues": "Built on a heavy Wix template with slow initial mobile load times; lacks sticky tap-to-call emergency triage.",
+    "caseStudySent": "https://beeclue.com/case-studies/tara-lattanzio?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-a-dhillon-law",
+    "history": [
+      {
+        "step": "Day 0",
+        "sentAt": "2026-09-07T16:57:16.454Z",
+        "subject": "Modernizing the website for A. Dhillon Law",
+        "resendId": "236567ec-b5d5-4f19-85cc-6ab5f81fe35c",
+        "status": "delivered",
+        "notes": "Initial outreach offering $20/month legal website plan, taralattanzio.ca case study, and free mockup offer."
+      }
+    ]
+  },
+  {
+    "id": "rohoman-and-mohammed",
+    "firmName": "Rohoman & Mohammed LLP",
+    "contactName": "Allan (Barrister & Solicitor / Principal)",
+    "email": "allan@rohomanmohammed.com",
+    "website": "https://rohomanmohammed.com",
+    "niche": "Real Estate, Civil Litigation & Family Law",
+    "location": "Scarborough, ON (885 Progress Ave, Unit LPH5)",
+    "pricingQuoted": "$20/month",
+    "initialContactDate": "2026-09-07T16:57:17.491Z",
+    "lastContactDate": "2026-09-07T16:57:17.491Z",
+    "status": "delivered",
+    "sequenceStep": "Day 0 - Initial Pitch",
+    "diagnosedIssues": "Website builder framework creates noticeable load lag on mobile connections; consultation request form is unoptimized.",
+    "caseStudySent": "https://beeclue.com/case-studies/tara-lattanzio?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-rohoman-and-mohammed",
+    "history": [
+      {
+        "step": "Day 0",
+        "sentAt": "2026-09-07T16:57:17.491Z",
+        "subject": "Modernizing the website for Rohoman & Mohammed LLP",
+        "resendId": "af9c4196-fdad-48db-a643-10a1789c3f4c",
+        "status": "delivered",
+        "notes": "Initial outreach offering $20/month legal website plan, taralattanzio.ca case study, and free mockup offer."
+      }
+    ]
+  },
+  {
+    "id": "ortega-law-office",
+    "firmName": "Ortega Law Office",
+    "contactName": "Jarvis (Barrister & Solicitor / Principal)",
+    "email": "jarvis.ortega@ortegalaw.ca",
+    "website": "https://ortegalaw.ca",
+    "niche": "Real Estate, Immigration & Business Law",
+    "location": "Scarborough, ON (919 Ellesmere Rd, Suite 303)",
+    "pricingQuoted": "$20/month",
+    "initialContactDate": "2026-09-07T16:57:18.411Z",
+    "lastContactDate": "2026-09-07T16:57:18.411Z",
+    "status": "delivered",
+    "sequenceStep": "Day 0 - Initial Pitch",
+    "diagnosedIssues": "Older builder site with uncompressed assets dragging mobile performance; lacks direct mobile consultation booking.",
+    "caseStudySent": "https://beeclue.com/case-studies/tara-lattanzio?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-ortega-law-office",
+    "history": [
+      {
+        "step": "Day 0",
+        "sentAt": "2026-09-07T16:57:18.411Z",
+        "subject": "Modernizing the website for Ortega Law Office",
+        "resendId": "35e6d1e5-e87a-48c8-922f-62196bc83b57",
+        "status": "delivered",
+        "notes": "Initial outreach offering $20/month legal website plan, taralattanzio.ca case study, and free mockup offer."
+      }
+    ]
+  },
+  {
+    "id": "arif-hussain-law",
+    "firmName": "Arif Hussain Law",
+    "contactName": "Arif (Barrister & Solicitor / Principal)",
+    "email": "ah@arifhussain.ca",
+    "website": "https://arifhussain.ca",
+    "niche": "Criminal Defence & Immigration Law",
+    "location": "Scarborough, ON (2226 Kingston Rd)",
+    "pricingQuoted": "$20/month",
+    "initialContactDate": "2026-09-07T16:57:19.325Z",
+    "lastContactDate": "2026-09-07T16:57:19.325Z",
+    "status": "delivered",
+    "sequenceStep": "Day 0 - Initial Pitch",
+    "diagnosedIssues": "Basic layout with slow mobile render speed; lacks prominent 1-click emergency call buttons for criminal matters.",
+    "caseStudySent": "https://beeclue.com/case-studies/tara-lattanzio?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-arif-hussain-law",
+    "history": [
+      {
+        "step": "Day 0",
+        "sentAt": "2026-09-07T16:57:19.325Z",
+        "subject": "Modernizing the website for Arif Hussain Law",
+        "resendId": "c88e7319-09eb-4cf0-960a-1aa6101b4cda",
+        "status": "delivered",
+        "notes": "Initial outreach offering $20/month legal website plan, taralattanzio.ca case study, and free mockup offer."
+      }
+    ]
+  },
+  {
+    "id": "dutta-law-pc",
+    "firmName": "Dutta Law Professional Corporation",
+    "contactName": "Chayanika (Barrister & Solicitor / Principal)",
+    "email": "chaya@duttalaw.com",
+    "website": "https://duttalaw.com",
+    "niche": "Family, Immigration & Real Estate Law",
+    "location": "Scarborough, ON",
+    "pricingQuoted": "$20/month",
+    "initialContactDate": "2026-09-07T16:57:20.294Z",
+    "lastContactDate": "2026-09-07T16:57:20.294Z",
+    "status": "delivered",
+    "sequenceStep": "Day 0 - Initial Pitch",
+    "diagnosedIssues": "Template code overhead slows down mobile scroll; lacks streamlined family law consultation triage.",
+    "caseStudySent": "https://beeclue.com/case-studies/tara-lattanzio?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-dutta-law-pc",
+    "history": [
+      {
+        "step": "Day 0",
+        "sentAt": "2026-09-07T16:57:20.294Z",
+        "subject": "Modernizing the website for Dutta Law Professional Corporation",
+        "resendId": "67aa97b8-366c-4d55-bf8a-82d7956ca4bb",
+        "status": "delivered",
+        "notes": "Initial outreach offering $20/month legal website plan, taralattanzio.ca case study, and free mockup offer."
+      }
+    ]
+  },
+  {
+    "id": "norton-law",
+    "firmName": "Norton Law",
+    "contactName": "Steven (Barrister & Solicitor / Principal)",
+    "email": "Steven@Norton-Law.ca",
+    "website": "https://norton-law.ca",
+    "niche": "Criminal Defence & Charter Litigation",
+    "location": "Scarborough, ON",
+    "pricingQuoted": "$20/month",
+    "initialContactDate": "2026-09-07T16:57:21.245Z",
+    "lastContactDate": "2026-09-07T16:57:21.245Z",
+    "status": "delivered",
+    "sequenceStep": "Day 0 - Initial Pitch",
+    "diagnosedIssues": "Text-dense layout on a dated template that delays visual paint on smartphones; no instant case evaluation triage.",
+    "caseStudySent": "https://beeclue.com/case-studies/tara-lattanzio?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-norton-law",
+    "history": [
+      {
+        "step": "Day 0",
+        "sentAt": "2026-09-07T16:57:21.245Z",
+        "subject": "Modernizing the website for Norton Law",
+        "resendId": "26701061-0846-4fcb-aaa2-9d2c15f6ef53",
+        "status": "delivered",
+        "notes": "Initial outreach offering $20/month legal website plan, taralattanzio.ca case study, and free mockup offer."
+      }
+    ]
+  },
+  {
+    "id": "niro-law",
+    "firmName": "Niro Law",
+    "contactName": "Niro (Barrister & Solicitor / Principal)",
+    "email": "niro@nirolaw.ca",
+    "website": "https://nirolaw.ca",
+    "niche": "Real Estate & Criminal Law",
+    "location": "Scarborough, ON",
+    "pricingQuoted": "$20/month",
+    "initialContactDate": "2026-09-07T16:57:22.179Z",
+    "lastContactDate": "2026-09-07T16:57:22.179Z",
+    "status": "delivered",
+    "sequenceStep": "Day 0 - Initial Pitch",
+    "diagnosedIssues": "Basic website framework dragging down mobile speed scores; consultation request form is unoptimized.",
+    "caseStudySent": "https://beeclue.com/case-studies/tara-lattanzio?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-niro-law",
+    "history": [
+      {
+        "step": "Day 0",
+        "sentAt": "2026-09-07T16:57:22.179Z",
+        "subject": "Modernizing the website for Niro Law",
+        "resendId": "ef42a757-6faa-4ba7-ab13-9c2ed89e7534",
+        "status": "delivered",
+        "notes": "Initial outreach offering $20/month legal website plan, taralattanzio.ca case study, and free mockup offer."
+      }
+    ]
+  },
+  {
+    "id": "malik-law-office",
+    "firmName": "Malik Law Office",
+    "contactName": "Atique (Barrister & Solicitor / Principal)",
+    "email": "atique@maliklawoffice.ca",
+    "website": "https://maliklawoffice.ca",
+    "niche": "Family Law, Wills, Corporate & Real Estate",
+    "location": "Scarborough, ON",
+    "pricingQuoted": "$20/month",
+    "initialContactDate": "2026-09-07T16:57:23.120Z",
+    "lastContactDate": "2026-09-07T16:57:23.120Z",
+    "status": "delivered",
+    "sequenceStep": "Day 0 - Initial Pitch",
+    "diagnosedIssues": "Heavy WordPress/Divi scripts dragging mobile speed scores; consultation request workflow needs mobile optimization.",
+    "caseStudySent": "https://beeclue.com/case-studies/tara-lattanzio?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-malik-law-office",
+    "history": [
+      {
+        "step": "Day 0",
+        "sentAt": "2026-09-07T16:57:23.120Z",
+        "subject": "Modernizing the website for Malik Law Office",
+        "resendId": "29639532-d7d2-4793-add0-8f6f4f4515af",
+        "status": "delivered",
+        "notes": "Initial outreach offering $20/month legal website plan, taralattanzio.ca case study, and free mockup offer."
+      }
+    ]
+  },
+  {
+    "id": "nizar-fakirani-law-pc",
+    "firmName": "Nizar Fakirani Law PC",
+    "contactName": "Nizar (Barrister & Solicitor / Principal)",
+    "email": "nhflawoffice@gmail.com",
+    "website": "https://canadianlawlist.com/listingdetail/contact/nizar-h-fakirani-570188/",
+    "niche": "Civil Litigation, Real Estate & Business Law",
+    "location": "Scarborough, ON (1065 McNicoll Ave)",
+    "pricingQuoted": "$20/month",
+    "initialContactDate": "2026-09-07T16:57:24.037Z",
+    "lastContactDate": "2026-09-07T16:57:24.037Z",
+    "status": "delivered",
+    "sequenceStep": "Day 0 - Initial Pitch",
+    "diagnosedIssues": "Operates without a dedicated modern mobile site; relies on directory profiles and personal Gmail for correspondence.",
+    "caseStudySent": "https://beeclue.com/case-studies/tara-lattanzio?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-nizar-fakirani-law-pc",
+    "history": [
+      {
+        "step": "Day 0",
+        "sentAt": "2026-09-07T16:57:24.037Z",
+        "subject": "Modernizing the website for Nizar Fakirani Law PC",
+        "resendId": "e430b6d8-9481-4f0e-8957-1ab2a1053874",
+        "status": "delivered",
+        "notes": "Initial outreach offering $20/month legal website plan, taralattanzio.ca case study, and free mockup offer."
+      }
+    ]
+  },
+  {
+    "id": "elias-defence",
+    "firmName": "Elias Defence",
+    "contactName": "Elias (Barrister & Solicitor / Principal)",
+    "email": "elias@eliasdefence.ca",
+    "website": "https://eliasdefence.ca",
+    "niche": "Criminal Defence & Bail Hearings",
+    "location": "Serving Scarborough & East Toronto",
+    "pricingQuoted": "$20/month",
+    "initialContactDate": "2026-09-07T16:57:25.046Z",
+    "lastContactDate": "2026-09-07T16:57:25.046Z",
+    "status": "delivered",
+    "sequenceStep": "Day 0 - Initial Pitch",
+    "diagnosedIssues": "Template has background script overhead; lacks direct 1-click mobile emergency call integration.",
+    "caseStudySent": "https://beeclue.com/case-studies/tara-lattanzio?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-elias-defence",
+    "history": [
+      {
+        "step": "Day 0",
+        "sentAt": "2026-09-07T16:57:25.046Z",
+        "subject": "Modernizing the website for Elias Defence",
+        "resendId": "5374da91-58f4-4e0a-8723-499e5bde6e4f",
+        "status": "delivered",
+        "notes": "Initial outreach offering $20/month legal website plan, taralattanzio.ca case study, and free mockup offer."
+      }
+    ]
+  },
+  {
+    "id": "vilkhov-law",
+    "firmName": "Vilkhov Law",
+    "contactName": "Igor (Barrister & Solicitor / Principal)",
+    "email": "ivilkhov@vilkhovlaw.ca",
+    "website": "https://vilkhovlaw.ca",
+    "niche": "Criminal Defence & Trial Advocacy",
+    "location": "Serving Scarborough & GTA",
+    "pricingQuoted": "$20/month",
+    "initialContactDate": "2026-09-07T16:57:25.982Z",
+    "lastContactDate": "2026-09-07T16:57:25.982Z",
+    "status": "delivered",
+    "sequenceStep": "Day 0 - Initial Pitch",
+    "diagnosedIssues": "Older layout with uncompressed media assets dragging mobile speed; consultation form requires multiple steps.",
+    "caseStudySent": "https://beeclue.com/case-studies/tara-lattanzio?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-vilkhov-law",
+    "history": [
+      {
+        "step": "Day 0",
+        "sentAt": "2026-09-07T16:57:25.982Z",
+        "subject": "Modernizing the website for Vilkhov Law",
+        "resendId": "f77d33f2-0eec-4661-ac21-b73947f19f93",
+        "status": "delivered",
+        "notes": "Initial outreach offering $20/month legal website plan, taralattanzio.ca case study, and free mockup offer."
+      }
+    ]
+  },
+  {
+    "id": "caramanna-friedberg-llp",
+    "firmName": "Caramanna Friedberg LLP",
+    "contactName": "Salvatore (Barrister & Solicitor / Principal)",
+    "email": "scaramanna@cflaw.ca",
+    "website": "https://cflaw.ca",
+    "niche": "Criminal Defence & Regulatory Offences",
+    "location": "Serving Scarborough & GTA",
+    "pricingQuoted": "$20/month",
+    "initialContactDate": "2026-09-07T16:57:26.891Z",
+    "lastContactDate": "2026-09-07T16:57:26.891Z",
+    "status": "delivered",
+    "sequenceStep": "Day 0 - Initial Pitch",
+    "diagnosedIssues": "Desktop-first layout with delayed mobile paint; consultation request workflow needs mobile optimization.",
+    "caseStudySent": "https://beeclue.com/case-studies/tara-lattanzio?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-caramanna-friedberg-llp",
+    "history": [
+      {
+        "step": "Day 0",
+        "sentAt": "2026-09-07T16:57:26.891Z",
+        "subject": "Modernizing the website for Caramanna Friedberg LLP",
+        "resendId": "9486735c-d10a-4fa3-9732-a4b67948463a",
+        "status": "delivered",
+        "notes": "Initial outreach offering $20/month legal website plan, taralattanzio.ca case study, and free mockup offer."
+      }
+    ]
+  },
+  {
+    "id": "gelman-and-associates-scarborough",
+    "firmName": "Gelman & Associates Scarborough",
+    "contactName": "Lisa (Barrister & Solicitor / Principal)",
+    "email": "lgelman@gelmanlaw.ca",
+    "website": "https://lisagelman.com",
+    "niche": "Family Law, Divorce & Custody",
+    "location": "Scarborough, ON (Scarborough Office)",
+    "pricingQuoted": "$20/month",
+    "initialContactDate": "2026-09-07T16:57:27.790Z",
+    "lastContactDate": "2026-09-07T16:57:27.790Z",
+    "status": "delivered",
+    "sequenceStep": "Day 0 - Initial Pitch",
+    "diagnosedIssues": "Heavy page weight with multiple marketing scripts slowing mobile rendering; consultation form has high friction.",
+    "caseStudySent": "https://beeclue.com/case-studies/tara-lattanzio?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-gelman-and-associates-scarborough",
+    "history": [
+      {
+        "step": "Day 0",
+        "sentAt": "2026-09-07T16:57:27.790Z",
+        "subject": "Modernizing the website for Gelman & Associates Scarborough",
+        "resendId": "c5ba6a31-4e57-4e07-be15-7e982fe961ee",
+        "status": "delivered",
+        "notes": "Initial outreach offering $20/month legal website plan, taralattanzio.ca case study, and free mockup offer."
+      }
+    ]
+  },
+  {
+    "id": "mbb-law",
+    "firmName": "MBB Law",
+    "contactName": "Edmond (Barrister & Solicitor / Principal)",
+    "email": "edmondwong@mbb.ca",
+    "website": "https://mbb.ca",
+    "niche": "Corporate, Commercial & Real Estate Law",
+    "location": "Scarborough & Toronto, ON",
+    "pricingQuoted": "$20/month",
+    "initialContactDate": "2026-09-07T16:57:28.716Z",
+    "lastContactDate": "2026-09-07T16:57:28.716Z",
+    "status": "delivered",
+    "sequenceStep": "Day 0 - Initial Pitch",
+    "diagnosedIssues": "Basic template with delayed mobile first paint; lacks dedicated practice funnels and fast consultation booking.",
+    "caseStudySent": "https://beeclue.com/case-studies/tara-lattanzio?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-mbb-law",
+    "history": [
+      {
+        "step": "Day 0",
+        "sentAt": "2026-09-07T16:57:28.716Z",
+        "subject": "Modernizing the website for MBB Law",
+        "resendId": "35946a6b-4cb0-4ccd-b7ef-6dcec355c691",
+        "status": "delivered",
+        "notes": "Initial outreach offering $20/month legal website plan, taralattanzio.ca case study, and free mockup offer."
+      }
+    ]
+  },
+  {
+    "id": "the-law-office-of-meleni-david",
+    "firmName": "The Law Office of Meleni David",
+    "contactName": "Meleni (Barrister & Solicitor / Principal)",
+    "email": "melenid@mdlaw.ca",
+    "website": "https://mdlaw.ca",
+    "niche": "Personal Injury & Civil Litigation",
+    "location": "Scarborough, ON (885 Progress Ave, Suite 111A)",
+    "pricingQuoted": "$20/month",
+    "initialContactDate": "2026-09-07T16:57:29.644Z",
+    "lastContactDate": "2026-09-07T16:57:29.644Z",
+    "status": "delivered",
+    "sequenceStep": "Day 0 - Initial Pitch",
+    "diagnosedIssues": "Older website template taking time to load on mobile connections; lacks instant consultation triage.",
+    "caseStudySent": "https://beeclue.com/case-studies/tara-lattanzio?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-the-law-office-of-meleni-david",
+    "history": [
+      {
+        "step": "Day 0",
+        "sentAt": "2026-09-07T16:57:29.644Z",
+        "subject": "Modernizing the website for The Law Office of Meleni David",
+        "resendId": "f5ea817d-23a4-4fb0-b779-0d137fa7f70c",
+        "status": "delivered",
+        "notes": "Initial outreach offering $20/month legal website plan, taralattanzio.ca case study, and free mockup offer."
+      }
+    ]
+  },
+  {
+    "id": "law-office-of-rajananth-s",
+    "firmName": "Law Office of Rajananth S",
+    "contactName": "Rajananth (Barrister & Solicitor / Principal)",
+    "email": "law@rajananthlaw.com",
+    "website": "https://rajananthlaw.com",
+    "niche": "Immigration, Refugee & Criminal Law",
+    "location": "Scarborough, ON (2020 Brimley Rd)",
+    "pricingQuoted": "$20/month",
+    "initialContactDate": "2026-09-07T16:57:30.538Z",
+    "lastContactDate": "2026-09-07T16:57:30.538Z",
+    "status": "delivered",
+    "sequenceStep": "Day 0 - Initial Pitch",
+    "diagnosedIssues": "Basic single-column template that loads slowly on mobile; lacks interactive questionnaire triage.",
+    "caseStudySent": "https://beeclue.com/case-studies/tara-lattanzio?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-law-office-of-rajananth-s",
+    "history": [
+      {
+        "step": "Day 0",
+        "sentAt": "2026-09-07T16:57:30.538Z",
+        "subject": "Modernizing the website for Law Office of Rajananth S",
+        "resendId": "0f57c8db-3495-4790-8c38-494d6204eadc",
+        "status": "delivered",
+        "notes": "Initial outreach offering $20/month legal website plan, taralattanzio.ca case study, and free mockup offer."
+      }
+    ]
+  },
+  {
+    "id": "ps-law-ontario",
+    "firmName": "PS Law Ontario",
+    "contactName": "Peter (Barrister & Solicitor / Principal)",
+    "email": "peter@pslawtoronto.com",
+    "website": "https://pslawontario.com",
+    "niche": "Real Estate, Corporate & Civil Litigation",
+    "location": "Scarborough, ON (200-100 Consilium Pl)",
+    "pricingQuoted": "$20/month",
+    "initialContactDate": "2026-09-07T16:57:31.455Z",
+    "lastContactDate": "2026-09-07T16:57:31.455Z",
+    "status": "delivered",
+    "sequenceStep": "Day 0 - Initial Pitch",
+    "diagnosedIssues": "Legacy design with slow mobile scrolling; lacks modern encrypted consultation intake forms.",
+    "caseStudySent": "https://beeclue.com/case-studies/tara-lattanzio?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-ps-law-ontario",
+    "history": [
+      {
+        "step": "Day 0",
+        "sentAt": "2026-09-07T16:57:31.455Z",
+        "subject": "Modernizing the website for PS Law Ontario",
+        "resendId": "c8fe6d1e-f88c-48dc-9db3-4c31a538267b",
+        "status": "delivered",
+        "notes": "Initial outreach offering $20/month legal website plan, taralattanzio.ca case study, and free mockup offer."
+      }
+    ]
+  },
+  {
+    "id": "accord-law-pc",
+    "firmName": "Accord Law Professional Corporation",
+    "contactName": "Amarjit (Barrister & Solicitor / Principal)",
+    "email": "asaini@accordlaw.ca",
+    "website": "https://accordlaw.ca",
+    "niche": "Real Estate, Immigration & Business Law",
+    "location": "Scarborough, ON (1457 McCowan Rd, Suite 209)",
+    "pricingQuoted": "$20/month",
+    "initialContactDate": "2026-09-07T16:57:32.397Z",
+    "lastContactDate": "2026-09-07T16:57:32.397Z",
+    "status": "delivered",
+    "sequenceStep": "Day 0 - Initial Pitch",
+    "diagnosedIssues": "Heavy background scripts dragging mobile performance; consultation form is multi-step and unoptimized for mobile.",
+    "caseStudySent": "https://beeclue.com/case-studies/tara-lattanzio?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-accord-law-pc",
+    "history": [
+      {
+        "step": "Day 0",
+        "sentAt": "2026-09-07T16:57:32.397Z",
+        "subject": "Modernizing the website for Accord Law Professional Corporation",
+        "resendId": "b16f6b8f-9a07-4ea2-a60d-6b01dfb2523d",
+        "status": "delivered",
+        "notes": "Initial outreach offering $20/month legal website plan, taralattanzio.ca case study, and free mockup offer."
+      }
+    ]
+  },
+  {
+    "id": "t-jegatheesan-law-office",
+    "firmName": "T. Jegatheesan Law Office",
+    "contactName": "T. (Barrister & Solicitor / Principal)",
+    "email": "t.jegatheesan@tjlaw.ca",
+    "website": "https://tjlaw.ca",
+    "niche": "Real Estate, Family & General Practice",
+    "location": "Scarborough, ON (2620 Eglinton Ave E, Suite 201)",
+    "pricingQuoted": "$20/month",
+    "initialContactDate": "2026-09-07T16:57:33.312Z",
+    "lastContactDate": "2026-09-07T16:57:33.312Z",
+    "status": "delivered",
+    "sequenceStep": "Day 0 - Initial Pitch",
+    "diagnosedIssues": "Older layout with unminified styling; lacks modern mobile tap-to-call and quick consultation request options.",
+    "caseStudySent": "https://beeclue.com/case-studies/tara-lattanzio?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-t-jegatheesan-law-office",
+    "history": [
+      {
+        "step": "Day 0",
+        "sentAt": "2026-09-07T16:57:33.312Z",
+        "subject": "Modernizing the website for T. Jegatheesan Law Office",
+        "resendId": "cbed0f98-fb78-488e-9057-3b37bf54cb35",
+        "status": "delivered",
+        "notes": "Initial outreach offering $20/month legal website plan, taralattanzio.ca case study, and free mockup offer."
+      }
+    ]
+  },
+  {
+    "id": "rajasingam-law-pc",
+    "firmName": "Rajasingam Law Professional Corporation",
+    "contactName": "S. (Barrister & Solicitor / Principal)",
+    "email": "sr@rajasingamlaw.ca",
+    "website": "https://rajasingamlaw.ca",
+    "niche": "Real Estate, Wills, Corporate & Immigration",
+    "location": "Scarborough & East GTA (Kingston Rd)",
+    "pricingQuoted": "$20/month",
+    "initialContactDate": "2026-09-07T16:57:34.228Z",
+    "lastContactDate": "2026-09-07T16:57:34.228Z",
+    "status": "delivered",
+    "sequenceStep": "Day 0 - Initial Pitch",
+    "diagnosedIssues": "Basic template with slow mobile render speed; lacks an interactive intake questionnaire for real estate and wills.",
+    "caseStudySent": "https://beeclue.com/case-studies/tara-lattanzio?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-rajasingam-law-pc",
+    "history": [
+      {
+        "step": "Day 0",
+        "sentAt": "2026-09-07T16:57:34.228Z",
+        "subject": "Modernizing the website for Rajasingam Law Professional Corporation",
+        "resendId": "2fbba4f8-028d-421c-b35d-938320d0c561",
+        "status": "delivered",
+        "notes": "Initial outreach offering $20/month legal website plan, taralattanzio.ca case study, and free mockup offer."
+      }
+    ]
   }
 ]
