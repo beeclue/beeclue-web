@@ -7,7 +7,7 @@ interface BlogAuthorBoxProps {
   bio?: string;
 }
 
-export default function BlogAuthorBox({
+export function BlogAuthorBox({
   name = "Beeclue Design Team",
   bio = "Beeclue Tech is a Toronto-based engineering and web design agency specializing in high-performance digital platforms. With expertise in Next.js, WordPress, and Custom Software Development, our team delivers scalable solutions that drive measurable business growth."
 }: BlogAuthorBoxProps) {
@@ -27,3 +27,5 @@ export default function BlogAuthorBox({
     </div>
   );
 }
+
+export default BlogAuthorBox;

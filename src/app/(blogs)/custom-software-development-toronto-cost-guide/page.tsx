@@ -1,8 +1,8 @@
 import { Metadata } from 'next';
 import Image from 'next/image';
 import Link from 'next/link';
-import { FadeIn } from '@/components/FadeIn';
-import { BlogAuthorBox } from '@/components/BlogAuthorBox';
+import FadeIn from '@/components/FadeIn';
+import BlogAuthorBox from '@/components/BlogAuthorBox';
 import blogStyles from '../shared-blog.module.css';
 
 export const metadata: Metadata = {

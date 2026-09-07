@@ -9,7 +9,7 @@ interface FadeInProps {
   style?: React.CSSProperties;
 }
 
-export default function FadeIn({ children, delay = 0, className, style }: FadeInProps) {
+export function FadeIn({ children, delay = 0, className, style }: FadeInProps) {
   return (
     <m.section
       initial={{ opacity: 0, y: 40 }}
@@ -23,3 +23,5 @@ export default function FadeIn({ children, delay = 0, className, style }: FadeIn
     </m.section>
   );
 }
+
+export default FadeIn;
