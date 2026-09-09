@@ -87,6 +87,13 @@ export default function DentalBookingToolsBlogPage() {
           />
         </FadeIn>
 
+        {/* HERO CALLOUT / SERVICE LINK */}
+        <FadeIn className={blogStyles.highlightBox} style={{ borderLeft: "4px solid var(--accent, #3b82f6)", background: "rgba(59, 130, 246, 0.08)", marginTop: "1.5rem", marginBottom: "2rem", borderRadius: "12px", padding: "1.25rem 1.5rem" }}>
+          <p style={{ margin: 0, fontSize: "1.05rem", lineHeight: 1.6 }}>
+            🦷 <strong>Need seamless patient booking integrated into your clinic website?</strong> Check out Beeclue Tech&apos;s <Link href="/web-design-for-dental-clinics" style={{ color: "var(--accent, #3b82f6)", textDecoration: "underline", fontWeight: 700 }}>Web Design for Dental Clinics & Dental SEO</Link> to deploy HIPAA/PIPEDA-compliant booking systems that turn search traffic into booked appointments.
+          </p>
+        </FadeIn>
+
         <div className={blogStyles.blogContent}>
           <FadeIn>
             <p>

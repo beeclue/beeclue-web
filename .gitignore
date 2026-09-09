@@ -68,6 +68,7 @@ docs
 !/marketing/outreach_history.json
 !/marketing/website_index.json
 !/marketing/*.md
+!/marketing/*.csv
 /sales/*
 !/sales/leads/
 /sales/leads/*

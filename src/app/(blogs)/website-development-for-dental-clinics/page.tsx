@@ -3,6 +3,7 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import FadeIn from "@/components/FadeIn";
+import BlogAuthorBox from "@/components/BlogAuthorBox";
 import blogStyles from "../shared-blog.module.css";
 import globalStyles from "@/app/page.module.css";
 
@@ -85,6 +86,13 @@ export default function BlogPost() {
           />
         </FadeIn>
 
+        {/* HERO CALLOUT / CANONICAL SERVICE LINK */}
+        <FadeIn className={blogStyles.highlightBox} style={{ borderLeft: "4px solid var(--accent, #3b82f6)", background: "rgba(59, 130, 246, 0.08)", marginTop: "1.5rem", marginBottom: "2rem", borderRadius: "12px", padding: "1.25rem 1.5rem" }}>
+          <p style={{ margin: 0, fontSize: "1.05rem", lineHeight: 1.6 }}>
+            🦷 <strong>Looking to build or redesign your clinic&apos;s digital presence?</strong> Explore our dedicated <Link href="/web-design-for-dental-clinics" style={{ color: "var(--accent, #3b82f6)", textDecoration: "underline", fontWeight: 700 }}>Dental Website Design Toronto & Dental SEO Services</Link> to discover custom patient portals, online booking integrations, and top-ranking local healthcare SEO.
+          </p>
+        </FadeIn>
+
         <div className={blogStyles.blogContent}>
           <FadeIn>
             <p>
@@ -94,7 +102,7 @@ export default function BlogPost() {
               Website development for dental clinics is a specialized field. It isn't just about putting up a digital brochure with your clinic's name, address, and phone number. It is about creating a comprehensive digital ecosystem that establishes trust, showcases your expertise, simplifies the appointment booking process, and ultimately converts anonymous web visitors into loyal, long-term patients. Whether you are a brand-new practice trying to build a patient base from scratch or a well-established clinic looking to modernize your digital footprint, the quality of your website directly impacts your bottom line.
             </p>
             <p>
-              In this extensive guide, we will explore the critical elements of successful website development specifically tailored for dental clinics. We will dive deep into user experience (UX) design, search engine optimization (SEO), technical performance, content strategy, and the essential features every modern dental website must have. We will also look at how partnering with a professional agency for <Link href="/services" className={blogStyles.internalLink}>comprehensive web development services</Link> can give you a massive competitive advantage.
+              In this extensive guide, we will explore the critical elements of successful website development specifically tailored for dental clinics. We will dive deep into user experience (UX) design, search engine optimization (SEO), technical performance, content strategy, and the essential features every modern dental website must have. We will also look at how partnering with an engineering team for <Link href="/web-design-for-dental-clinics" className={blogStyles.internalLink}>custom dental website design and SEO in Toronto</Link> gives your clinic a massive competitive advantage.
             </p>
           </FadeIn>
 
@@ -257,13 +265,7 @@ export default function BlogPost() {
           </FadeIn>
         </div>
       
-        <div className={blogStyles.authorBox}>
-          <Image src="/apple-touch-icon.png" alt="Beeclue Design Team" width={60} height={60} className={blogStyles.authorImage} />
-          <div className={blogStyles.authorDetails}>
-            <h4>Beeclue Design Team</h4>
-            <p>Beeclue Tech is a Toronto-based engineering and web design agency specializing in high-performance digital platforms. With expertise in Next.js, WordPress, and Custom Software Development, our team delivers scalable solutions that drive measurable business growth.</p>
-          </div>
-        </div>
+        <BlogAuthorBox />
       </article>
     </main>
   );
