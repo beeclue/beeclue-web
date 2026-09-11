@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Lisa White",
+    "firmName": "Lisa White Criminal Defence",
+    "email": "lisaannawhite@gmail.com",
+    "reason": "Responded not interested - do not contact",
+    "blacklistedAt": "2026-09-11T20:53:50.072Z"
+  },
+  {
+    "name": "Tony Kiru",
+    "firmName": "Gina Ceci Barristers & Solicitors",
+    "email": "kirutony@gmail.com",
+    "reason": "Responded not interested - do not contact",
+    "blacklistedAt": "2026-09-11T20:53:50.072Z"
+  },
+  {
+    "name": "Lisa Gelman",
+    "firmName": "Gelman & Associates Scarborough",
+    "email": "lgelman@gelmanlaw.ca",
+    "reason": "Responded not interested - do not contact",
+    "blacklistedAt": "2026-09-11T20:53:50.072Z"
+  },
+  {
+    "name": "Peter Sialtsis",
+    "firmName": "PS Law Ontario",
+    "email": "peter@pslawtoronto.com",
+    "reason": "Responded not interested - do not contact",
+    "blacklistedAt": "2026-09-11T20:53:50.072Z"
+  }
+]

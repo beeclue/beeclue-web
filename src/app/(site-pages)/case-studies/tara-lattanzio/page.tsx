@@ -4,6 +4,7 @@ import Image from "next/image";
 import styles from "@/app/page.module.css";
 import { ArrowRight, CheckCircle2, Globe, Scale, ShieldCheck, Search, Users, HeartHandshake } from "lucide-react";
 import FadeIn from "@/components/FadeIn";
+import LawFirmAuditForm from "@/components/LawFirmAuditForm";
 
 export const metadata: Metadata = {
   title: "Law Firm Website Design Case Study: Tara Lattanzio Law | Beeclue",
@@ -183,6 +184,9 @@ export default function TaraLattanzioCaseStudy() {
           </div>
         </div>
       </FadeIn>
+
+      {/* INTERACTIVE LAW FIRM MOCKUP FORM */}
+      <LawFirmAuditForm />
 
       {/* MORE RESOURCES / RELATED INDUSTRY */}
       <FadeIn className={styles.baseSection} style={{ textAlign: "center", borderTop: "1px solid var(--border)", paddingBottom: "10rem" }}>

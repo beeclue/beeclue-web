@@ -8,6 +8,7 @@ import FadeIn from "@/components/FadeIn";
 import ServiceTracker from "@/components/ServiceTracker";
 import IndustryList from "@/components/IndustryList";
 import LawFirmCalculator from "@/components/LawFirmCalculator";
+import LawFirmAuditForm from "@/components/LawFirmAuditForm";
 
 export default function WebDesignForLawFirmsPage() {
   const jsonLd = {
@@ -22,7 +23,7 @@ export default function WebDesignForLawFirmsPage() {
     },
     "description": "Professional web design and legal SEO services for law firms, attorneys, and legal practices in Toronto, Canada, and North America. Custom sites with case results, attorney profiles, and client intake forms.",
     "areaServed": ["Canada", "United States"],
-    "priceRange": "$$$"
+    "priceRange": "$19/month"
   };
   const breadcrumbs = {
     "@context": "https://schema.org",
@@ -42,7 +43,7 @@ export default function WebDesignForLawFirmsPage() {
         "name": "How much does law firm website design cost?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Law firm website design typically ranges from $3,500 for boutique practices to $12,500+ for multi-attorney practices requiring custom legal SEO, client intake portals, and case result showcases."
+          "text": "Law firm websites at Beeclue Tech start at just $19/month on our Core subscription with zero upfront build fee ($0 down). This includes custom 5-page legal website design, high-speed hosting, SSL security, confidential client intake, and ongoing maintenance."
         }
       },
       {
@@ -304,6 +305,9 @@ export default function WebDesignForLawFirmsPage() {
       <FadeIn className={styles.baseSection}>
         <LawFirmCalculator />
       </FadeIn>
+
+      {/* INTERACTIVE LAW FIRM MOCKUP FORM */}
+      <LawFirmAuditForm />
 
       {/* MORE RESOURCES */}
       <FadeIn className={styles.baseSection}>

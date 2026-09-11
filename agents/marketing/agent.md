@@ -108,10 +108,10 @@ When instructed to dispatch or send emails directly:
   - Always BCC `admin@beeclue.com`.
   - Include UTM tracking: `?utm_source=beeclue&utm_medium=partner-outreach&utm_campaign=sales-outreach-partner-<slug>`.
 
-## Contact History & Outreach JSON Database (`marketing/outreach_history.json`)
+## Contact History & Outreach JSON Database (`agents/marketing/outreach_history.json`)
 
 Whenever any outreach emails are dispatched or planned, you MUST log and update the persistent JSON database located at:
-`marketing/outreach_history.json` (inside the existing `marketing/` folder).
+`agents/marketing/outreach_history.json` (inside the `agents/marketing/` folder).
 
 Every contacted prospect must have a complete record with:
 - `id` / `firmSlug`: Unique identifier (e.g. `baidwan-and-baidwan-lawyers`)
@@ -139,7 +139,8 @@ Every contacted prospect must have a complete record with:
 **Rules for the Database**:
 1. **Never overwrite existing client history** — always append new outreach records or update existing contact entries with new touchpoint events.
 2. **Always persist Resend message IDs** — each dispatch must record the returned `id` from Resend to track deliverability and threading.
-3. Check `marketing/outreach_history.json` before any new outreach to prevent duplicate emails to the same firm or contact.
+3. Check `agents/marketing/outreach_history.json` before any new outreach to prevent duplicate emails to the same firm or contact.
+4. **Permanent Blacklist Suppression**: Always check `agents/marketing/blacklist.json` before sending any emails or follow-ups. Any contact or domain present in this suppression list must be strictly excluded from all current and future campaigns.
 
 ## Quick Reference — Don't Re-Ask, Just Use
 
