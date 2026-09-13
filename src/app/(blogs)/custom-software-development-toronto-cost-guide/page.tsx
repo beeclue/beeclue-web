@@ -8,34 +8,82 @@ import blogStyles from '../shared-blog.module.css';
 export const metadata: Metadata = {
   title: 'Custom Software Development in Toronto: 2026 Cost & Hiring Guide',
   description: 'A comprehensive 2026 guide to custom software development in Toronto, covering costs, hiring strategies, local vs offshore, and timeline expectations for mobile app development companies in Toronto.',
+  alternates: {
+    canonical: "https://beeclue.com/custom-software-development-toronto-cost-guide",
+  },
+  openGraph: {
+    title: 'Custom Software Development in Toronto: 2026 Cost & Hiring Guide',
+    description: 'A comprehensive 2026 guide to custom software development in Toronto, covering costs, hiring strategies, local vs offshore, and timeline expectations for mobile app development companies in Toronto.',
+    url: "https://beeclue.com/custom-software-development-toronto-cost-guide",
+    images: [
+      {
+        url: "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1200&q=75",
+        width: 1200,
+        height: 630,
+        alt: "Custom Software Development in Toronto: 2026 Cost & Hiring Guide",
+      },
+    ],
+  },
 };
 
 export default function CustomSoftwareDevelopmentTorontoCostGuide() {
-  return (
-    <article className={blogStyles.article}>
-      <FadeIn>
-        <header className={blogStyles.header}>
-          <h1 className={blogStyles.title}>Custom Software Development in Toronto: 2026 Cost & Hiring Guide</h1>
-          <div className={blogStyles.meta}>
-            <time dateTime="2026-09-06">September 6, 2026</time>
-          </div>
-        </header>
-      </FadeIn>
+  const breadcrumbs = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://beeclue.com/" },
+      { "@type": "ListItem", "position": 2, "name": "Blogs", "item": "https://beeclue.com/blogs" },
+      { "@type": "ListItem", "position": 3, "name": "Custom Software Development Toronto Cost Guide", "item": "https://beeclue.com/custom-software-development-toronto-cost-guide" }
+    ]
+  };
 
-      <FadeIn>
-        <div className={blogStyles.featuredImage}>
+  const articleSchema = {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Custom Software Development in Toronto: 2026 Cost & Hiring Guide",
+    "description": "A comprehensive 2026 guide to custom software development in Toronto, covering costs, hiring strategies, local vs offshore, and timeline expectations for mobile app development companies in Toronto.",
+    "author": {
+      "@type": "Organization",
+      "name": "Beeclue Design Team"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Beeclue Tech",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://cdn.jsdelivr.net/gh/beeclue/clients@main/self/beeclue-horizontal-blue.png"
+      }
+    },
+    "url": "https://beeclue.com/custom-software-development-toronto-cost-guide"
+  };
+
+  return (
+    <main style={{ minHeight: "100vh", position: "relative" }}>
+      <article className={blogStyles.blogContainer}>
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbs) }} />
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
+        <FadeIn className={blogStyles.blogHeader}>
+          <span className={blogStyles.blogCategory}>Custom Software Development</span>
+          <h1 className={blogStyles.blogTitle}>Custom Software Development in Toronto: 2026 Cost & Hiring Guide</h1>
+          <div className={blogStyles.blogMeta}>
+            <span>By Beeclue Strategy Team</span>
+            <span>•</span>
+            <span>September 6, 2026</span>
+          </div>
+        </FadeIn>
+
+        <FadeIn className={blogStyles.heroImageContainer}>
           <Image
             src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1200&q=75"
             alt="Custom software development in Toronto skyline"
-            width={1200}
-            height={630}
-            className={blogStyles.image}
+            fill
+            sizes="(max-width: 1000px) 100vw, 1000px"
+            className={blogStyles.heroImage}
             priority
           />
-        </div>
-      </FadeIn>
+        </FadeIn>
 
-      <div className={blogStyles.content}>
+      <div className={blogStyles.blogContent}>
         <FadeIn>
           <h2>The Definitive 2026 Guide to Custom Software Development in Toronto</h2>
           <p>
@@ -80,16 +128,14 @@ export default function CustomSoftwareDevelopmentTorontoCostGuide() {
           </p>
         </FadeIn>
 
-        <FadeIn>
-          <div className={blogStyles.imageContainer}>
-            <Image
-              src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=1200&q=75"
-              alt="Team of software developers collaborating in a Toronto office"
-              width={1200}
-              height={600}
-              className={blogStyles.image}
-            />
-          </div>
+        <FadeIn className={blogStyles.inlineImageContainer}>
+          <Image
+            src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=1200&q=75"
+            alt="Team of software developers collaborating in a Toronto office"
+            fill
+            sizes="(max-width: 1000px) 100vw, 1000px"
+            className={blogStyles.inlineImage}
+          />
         </FadeIn>
 
         <FadeIn>
@@ -147,16 +193,14 @@ export default function CustomSoftwareDevelopmentTorontoCostGuide() {
           </ul>
         </FadeIn>
 
-        <FadeIn>
-          <div className={blogStyles.imageContainer}>
-            <Image
-              src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=1200&q=75"
-              alt="Data and analytics dashboard for custom software"
-              width={1200}
-              height={600}
-              className={blogStyles.image}
-            />
-          </div>
+        <FadeIn className={blogStyles.inlineImageContainer}>
+          <Image
+            src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=1200&q=75"
+            alt="Data and analytics dashboard for custom software"
+            fill
+            sizes="(max-width: 1000px) 100vw, 1000px"
+            className={blogStyles.inlineImage}
+          />
         </FadeIn>
 
         <FadeIn>
@@ -305,9 +349,8 @@ export default function CustomSoftwareDevelopmentTorontoCostGuide() {
         </FadeIn>
       </div>
 
-      <FadeIn>
         <BlogAuthorBox />
-      </FadeIn>
-    </article>
+      </article>
+    </main>
   );
 }
