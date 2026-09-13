@@ -33,6 +33,30 @@ export default function BlogsPage() {
       {/* BLOGS LIST */}
       <FadeIn className={styles.baseSection} style={{ paddingTop: "5vh" }}>
         <div className={styles.caseStudyList}>
+          {/* BLOG: BEST PAYMENT GATEWAYS CANADA */}
+          <div className={styles.caseStudyListItem}>
+            <div className={styles.caseStudyListImage} style={{ position: "relative" }}>
+              <Image
+                src="https://images.unsplash.com/photo-1563013544-824ae1b704d3?ixlib=rb-4.0.3&auto=format&fit=crop&w=2400&q=80"
+                alt="Canadian store owner comparing payment gateways Moneris Interac Stripe"
+                fill
+                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                style={{ objectFit: "cover" }}
+              />
+            </div>
+            <div className={styles.caseStudyListContent}>
+              <h2>Best Payment Gateways in Canada for E-Commerce (2026 Comparison)</h2>
+              <p>
+                Compare the 6 best payment gateways in Canada for e-commerce. Shopify Payments vs Stripe vs Moneris vs Interac vs PayPal vs Square — fees, Interac support, CAD settlement, and the 2026 verdict for your store.
+              </p>
+              <div>
+                <Link href="/best-payment-gateways-canada" className={styles.ctaButtonLight}>
+                  Read Article <ArrowRight className={styles.arrow} size={20} />
+                </Link>
+              </div>
+            </div>
+          </div>
+
           {/* BLOG: CUSTOM SOFTWARE DEVELOPMENT TORONTO */}
           <div className={styles.caseStudyListItem}>
             <div className={styles.caseStudyListImage} style={{ position: "relative" }}>

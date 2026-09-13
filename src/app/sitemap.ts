@@ -110,6 +110,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/personal-injury-law-firm-website-design',
     '/family-law-firm-website-design-strategy',
     '/law-firm-website-audit-checklist',
+    '/best-payment-gateways-canada',
   ];
 
   return routes.map((route) => ({
