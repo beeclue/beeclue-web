@@ -176,12 +176,12 @@ export default function FreeDomainRegistrarsBlog() {
           />
 
           <h3>100% Free vs Beeclue Free-While-Subscribed</h3>
-          <table style={{ width: "100%", borderCollapse: "collapse", margin: "1rem 0", background: "white", color: "#111", borderRadius: "12px", overflow: "hidden" }}>
-            <thead><tr><th style={{ textAlign: "left", padding: "0.75rem", borderBottom: "2px solid #eee" }}></th><th style={{ textAlign: "left", padding: "0.75rem", borderBottom: "2px solid #eee" }}>100% free (.tk/subdomain)</th><th style={{ textAlign: "left", padding: "0.75rem", borderBottom: "2px solid #eee" }}>Beeclue $29/mo (free .com/.ca)</th></tr></thead>
+          <table style={{ width: "100%", borderCollapse: "collapse", margin: "1rem 0", background: "var(--background)", color: "var(--foreground)", borderRadius: "12px", overflow: "hidden" }}>
+            <thead><tr><th scope="col" style={{ textAlign: "left", padding: "0.75rem", borderBottom: "2px solid var(--border)" }}></th><th scope="col" style={{ textAlign: "left", padding: "0.75rem", borderBottom: "2px solid var(--border)" }}>100% free (.tk/subdomain)</th><th scope="col" style={{ textAlign: "left", padding: "0.75rem", borderBottom: "2px solid var(--border)" }}>Beeclue $29/mo (free .com/.ca)</th></tr></thead>
             <tbody>
-              <tr><td style={{ padding: "0.75rem", borderBottom: "1px solid #eee" }}>Looks professional</td><td style={{ padding: "0.75rem", borderBottom: "1px solid #eee" }}>No</td><td style={{ padding: "0.75rem", borderBottom: "1px solid #eee" }}>Yes</td></tr>
-              <tr><td style={{ padding: "0.75rem", borderBottom: "1px solid #eee" }}>SEO trust</td><td style={{ padding: "0.75rem", borderBottom: "1px solid #eee" }}>Poor, often blocked</td><td style={{ padding: "0.75rem", borderBottom: "1px solid #eee" }}>High (.com/.ca + SSL)</td></tr>
-              <tr><td style={{ padding: "0.75rem" }}>You own control</td><td style={{ padding: "0.75rem" }}>No — provider can pull it</td><td style={{ padding: "0.75rem" }}>Licensed while active, transfer-out in 30d for $25</td></tr>
+              <tr><td scope="row" style={{ padding: "0.75rem", borderBottom: "1px solid var(--border)" }}>Looks professional</td><td style={{ padding: "0.75rem", borderBottom: "1px solid var(--border)" }}>No</td><td style={{ padding: "0.75rem", borderBottom: "1px solid var(--border)" }}>Yes</td></tr>
+              <tr><td scope="row" style={{ padding: "0.75rem", borderBottom: "1px solid var(--border)" }}>SEO trust</td><td style={{ padding: "0.75rem", borderBottom: "1px solid var(--border)" }}>Poor, often blocked</td><td style={{ padding: "0.75rem", borderBottom: "1px solid var(--border)" }}>High (.com/.ca + SSL)</td></tr>
+              <tr><td scope="row" style={{ padding: "0.75rem" }}>You own control</td><td style={{ padding: "0.75rem" }}>No — provider can pull it</td><td style={{ padding: "0.75rem" }}>Licensed while active, transfer-out in 30d for $25</td></tr>
             </tbody>
           </table>
 

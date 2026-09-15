@@ -31,8 +31,8 @@ export default function FreeDomainPage() {
   const jsonLd = {
     "@context": "https://schema.org",
     "@graph": [
-      { "@type": "Product", name: "Business Website + Free Domain", brand: { "@type": "Brand", name: "Beeclue Tech" }, offers: { "@type": "Offer", price: "29", priceCurrency: "CAD", availability: "https://schema.org/InStock", url: "https://beeclue.com/free-domain-with-website", description: "Free .com/.ca while subscribed to $29/mo Business plan" } },
-      { "@type": "BreadcrumbList", itemListElement: [{ "@type": "ListItem", position: 1, name: "Home", item: "https://beeclue.com" }, { "@type": "ListItem", position: 2, name: "Free Domain With Website" }] },
+      { "@type": "Product", name: "Business Website + Free Domain", brand: { "@type": "Brand", name: "Beeclue Tech" }, offers: { "@type": "Offer", price: 29, priceCurrency: "CAD", availability: "https://schema.org/InStock", url: "https://beeclue.com/free-domain-with-website", description: "Free .com/.ca while subscribed to $29/mo Business plan" } },
+      { "@type": "BreadcrumbList", itemListElement: [{ "@type": "ListItem", position: 1, name: "Home", item: "https://beeclue.com" }, { "@type": "ListItem", position: 2, name: "Free Domain With Website", item: "https://beeclue.com/free-domain-with-website" }] },
       { "@type": "FAQPage", mainEntity: faqs.map(f => ({ "@type": "Question", name: f.q, acceptedAnswer: { "@type": "Answer", text: f.a } })) },
     ],
   };
