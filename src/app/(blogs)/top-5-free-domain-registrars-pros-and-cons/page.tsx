@@ -9,7 +9,7 @@ export const metadata: Metadata = {
     canonical: "https://beeclue.com/top-5-free-domain-registrars-pros-and-cons",
   },
   title: 'Free Domain With Website: Get .com Free While on $29/mo + Top 5 Registrars',
-  description: 'Searching free domain? 100% free .tk/subdomains hurt SEO. Get a real .com/.ca free while on Beeclue $29/mo Business plan — hosting, SSL + maintenance included. Plus top 5 registrars compared.',
+  description: 'Searching free domain? 100% free options can hurt your business. Get a free domain with your website on any Beeclue plan above $29/mo — design, hosting and care included. Plus top 5 registrars compared.',
 };
 
 export default function FreeDomainRegistrarsBlog() {
@@ -63,12 +63,12 @@ export default function FreeDomainRegistrarsBlog() {
       a: "The only legitimate way to get a free .com domain is by purchasing an annual web hosting plan through providers like Bluehost or Hostinger, who will bundle the domain for free for the first year."
     },
     {
-      q: "How can Beeclue offer a free domain on $29/mo plans?",
-      a: "We buy a standard .com or .ca at cost (~$14) in our Cloudflare Registrar account and cover renewals while your Business $29/mo or Premium $59/mo subscription stays active. You pick from 3 name choices, we handle DNS, SSL and Vercel setup in ~15 minutes."
+      q: "How can Beeclue offer a free domain?",
+      a: "Simple — pick any plan above $29/mo and your domain is included free while you stay with us. You share 3 name ideas and we handle the registration, setup and renewals."
     },
     {
-      q: "What happens to my free domain if I cancel?",
-      a: "You get 30 days to transfer out for a $25 admin fee and pay the next renewal yourself. Otherwise the domain stays with Beeclue and the site deactivates per our subscription terms. Core $19/mo does not include a free domain."
+      q: "What happens to my free domain if I leave?",
+      a: "You have 30 days to take your domain with you, and your site stays live as long as your plan is active. Moving it to your own account is a one-time $100 transfer fee."
     }
   ];
 
@@ -89,7 +89,7 @@ export default function FreeDomainRegistrarsBlog() {
         </header>
 
         <div style={{ background: "rgba(51,133,255,0.08)", border: "1px solid var(--border)", borderRadius: "12px", padding: "1.5rem", margin: "1.5rem 0" }}>
-          <p style={{ margin: 0 }}><strong>Want a real .com free — without the spam risk?</strong> Get a <strong>.com or .ca free while you&apos;re on our $29/mo Business plan</strong> (hosting, SSL + maintenance included). <Link href="/free-domain-with-website?utm_source=beeclue&utm_medium=blog&utm_campaign=top-5-free-domain-registrars-pros-and-cons" className={blogStyles.internalLink}>See how it works</Link> or <Link href="/contact?plan=business&promo=freedomain" className={blogStyles.internalLink}>claim your name</Link>.</p>
+          <p style={{ margin: 0 }}><strong>Want a free domain — without the spam risk?</strong> Get a <strong>free domain with any plan above $29/mo</strong> — design, hosting and ongoing care included. <Link href="/free-domain-with-website?utm_source=beeclue&utm_medium=blog&utm_campaign=top-5-free-domain-registrars-pros-and-cons" className={blogStyles.internalLink}>See how it works</Link> or <Link href="/contact?plan=business&promo=freedomain" className={blogStyles.internalLink}>claim your name</Link>.</p>
         </div>
 
         <div className={blogStyles.heroImageContainer}>
@@ -175,13 +175,13 @@ export default function FreeDomainRegistrarsBlog() {
             style={{ width: "100%", height: "auto", borderRadius: "12px", margin: "2rem 0" }}
           />
 
-          <h3>100% Free vs Beeclue Free-While-Subscribed</h3>
+          <h3>100% Free vs Beeclue Free Domain</h3>
           <table style={{ width: "100%", borderCollapse: "collapse", margin: "1rem 0", background: "var(--background)", color: "var(--foreground)", borderRadius: "12px", overflow: "hidden" }}>
-            <thead><tr><th scope="col" style={{ textAlign: "left", padding: "0.75rem", borderBottom: "2px solid var(--border)" }}></th><th scope="col" style={{ textAlign: "left", padding: "0.75rem", borderBottom: "2px solid var(--border)" }}>100% free (.tk/subdomain)</th><th scope="col" style={{ textAlign: "left", padding: "0.75rem", borderBottom: "2px solid var(--border)" }}>Beeclue $29/mo (free .com/.ca)</th></tr></thead>
+            <thead><tr><th scope="col" style={{ textAlign: "left", padding: "0.75rem", borderBottom: "2px solid var(--border)" }}></th><th scope="col" style={{ textAlign: "left", padding: "0.75rem", borderBottom: "2px solid var(--border)" }}>100% free (.tk/subdomain)</th><th scope="col" style={{ textAlign: "left", padding: "0.75rem", borderBottom: "2px solid var(--border)" }}>Beeclue (free domain, plans above $29/mo)</th></tr></thead>
             <tbody>
               <tr><td scope="row" style={{ padding: "0.75rem", borderBottom: "1px solid var(--border)" }}>Looks professional</td><td style={{ padding: "0.75rem", borderBottom: "1px solid var(--border)" }}>No</td><td style={{ padding: "0.75rem", borderBottom: "1px solid var(--border)" }}>Yes</td></tr>
-              <tr><td scope="row" style={{ padding: "0.75rem", borderBottom: "1px solid var(--border)" }}>SEO trust</td><td style={{ padding: "0.75rem", borderBottom: "1px solid var(--border)" }}>Poor, often blocked</td><td style={{ padding: "0.75rem", borderBottom: "1px solid var(--border)" }}>High (.com/.ca + SSL)</td></tr>
-              <tr><td scope="row" style={{ padding: "0.75rem" }}>You own control</td><td style={{ padding: "0.75rem" }}>No — provider can pull it</td><td style={{ padding: "0.75rem" }}>Licensed while active, transfer-out in 30d for $25</td></tr>
+              <tr><td scope="row" style={{ padding: "0.75rem", borderBottom: "1px solid var(--border)" }}>SEO trust</td><td style={{ padding: "0.75rem", borderBottom: "1px solid var(--border)" }}>Poor, often blocked</td><td style={{ padding: "0.75rem", borderBottom: "1px solid var(--border)" }}>High (professional domain)</td></tr>
+              <tr><td scope="row" style={{ padding: "0.75rem" }}>You own control</td><td style={{ padding: "0.75rem" }}>No — provider can pull it</td><td style={{ padding: "0.75rem" }}>Yours to use while you&apos;re with us</td></tr>
             </tbody>
           </table>
 
@@ -225,8 +225,8 @@ export default function FreeDomainRegistrarsBlog() {
           </section>
 
           <div className={blogStyles.ctaSection}>
-            <h3>Get a Real .com Free While on $29/mo</h3>
-            <p>Don&apos;t let a wixsite subdomain cost you clients. On Business $29/mo and Premium $59/mo you get a <strong>.com or .ca free while subscribed</strong> — we register in Cloudflare, point DNS to Vercel, add SSL. Core $19/mo excluded. <Link href="/free-domain-with-website?utm_source=beeclue&utm_medium=blog&utm_campaign=top-5-free-domain-registrars-pros-and-cons" className={blogStyles.internalLink}>How free-domain-while-subscribed works</Link> or <Link href="/contact?plan=business&promo=freedomain" className={blogStyles.internalLink}>Contact us today</Link> with 3 name ideas.</p>
+            <h3>Get a Free Domain With Your Website</h3>
+            <p>Don&apos;t let a wixsite subdomain cost you clients. On any plan above $29/mo your domain is free while you&apos;re with us — we handle everything. <Link href="/free-domain-with-website?utm_source=beeclue&utm_medium=blog&utm_campaign=top-5-free-domain-registrars-pros-and-cons" className={blogStyles.internalLink}>See how it works</Link> or <Link href="/contact?plan=business&promo=freedomain" className={blogStyles.internalLink}>Contact us today</Link> with 3 name ideas.</p>
           </div>
         </div>
       
