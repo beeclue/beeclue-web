@@ -106,9 +106,6 @@ export default function ServicesPage() {
               Every website we build is mobile-friendly, optimized for search engines, and designed to convert visitors into customers.
             </p>
             <Link href="/web-design-toronto/" className={styles.learnMoreLink} aria-label="Learn more about Web Design in Toronto">Learn More <ArrowRight size={16} /></Link>
-            <p style={{ marginTop: "1rem", padding: "0.75rem 1rem", border: "1px solid var(--border)", borderRadius: "12px", background: "rgba(51,133,255,0.08)" }}>
-              <strong>FREE domain with your website:</strong> your professional domain is included free — we handle the setup. <Link href="/free-domain-with-website" className={styles.learnMoreLink}>How free domain works <ArrowRight size={16} /></Link>
-            </p>
           </div>
           <div style={{ display: "flex", alignItems: "center", justifyContent: "center" }}>
             <LayoutTemplate size={120} color="#3385ff" strokeWidth={1} />

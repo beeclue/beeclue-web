@@ -216,6 +216,3 @@ Description: A comprehensive 2,000+ word guide on how behavioral health practice
 ### The Ultimate Guide to Choosing a Web Design Agency in Toronto
 URL: https://beeclue.com/ultimate-guide-choosing-web-design-agency-toronto
 Description: An extensive 2,800+ word pillar post intended for businesses looking for a web design agency in Toronto. Covers what to look for, red flags to avoid, how to structure pricing and contracts, and why mobile-first design is critical. Optimized for core terms like "web design toronto" and "mobile web design toronto".
-
-## Free Domain Offer
-- Any plan above $29/mo includes a free professional domain (.com or .ca) while subscribed — registration, setup and yearly renewals handled by Beeclue. If the client leaves, they have 30 days to take the domain with them; moving it to their own account is a one-time $100 transfer fee. Details: https://beeclue.com/free-domain-with-website
