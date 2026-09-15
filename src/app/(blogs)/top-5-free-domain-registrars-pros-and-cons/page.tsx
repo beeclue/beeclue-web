@@ -8,8 +8,8 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://beeclue.com/top-5-free-domain-registrars-pros-and-cons",
   },
-  title: 'Free Domain With Website: Get .com Free While on $29/mo + Top 5 Registrars',
-  description: 'Searching free domain? 100% free options can hurt your business. Get a free domain with your website on any Beeclue plan above $29/mo — design, hosting and care included. Plus top 5 registrars compared.',
+  title: 'Free Domain With Your Website + Top 5 Registrars',
+  description: 'Searching free domain? 100% free options can hurt your business. Get a free domain with your Beeclue website — design, hosting and care included. Plus top 5 registrars compared.',
 };
 
 export default function FreeDomainRegistrarsBlog() {
@@ -64,7 +64,7 @@ export default function FreeDomainRegistrarsBlog() {
     },
     {
       q: "How can Beeclue offer a free domain?",
-      a: "Simple — pick any plan above $29/mo and your domain is included free while you stay with us. You share 3 name ideas and we handle the registration, setup and renewals."
+      a: "Simple — your domain is included free with your Beeclue website. You share 3 name ideas and we handle the registration, setup and renewals."
     },
     {
       q: "What happens to my free domain if I leave?",
@@ -89,7 +89,7 @@ export default function FreeDomainRegistrarsBlog() {
         </header>
 
         <div style={{ background: "rgba(51,133,255,0.08)", border: "1px solid var(--border)", borderRadius: "12px", padding: "1.5rem", margin: "1.5rem 0" }}>
-          <p style={{ margin: 0 }}><strong>Want a free domain — without the spam risk?</strong> Get a <strong>free domain with any plan above $29/mo</strong> — design, hosting and ongoing care included. <Link href="/free-domain-with-website?utm_source=beeclue&utm_medium=blog&utm_campaign=top-5-free-domain-registrars-pros-and-cons" className={blogStyles.internalLink}>See how it works</Link> or <Link href="/contact?plan=business&promo=freedomain" className={blogStyles.internalLink}>claim your name</Link>.</p>
+          <p style={{ margin: 0 }}><strong>Want a free domain — without the spam risk?</strong> Get a <strong>free domain with your website</strong> — design, hosting and ongoing care included. <Link href="/free-domain-with-website?utm_source=beeclue&utm_medium=blog&utm_campaign=top-5-free-domain-registrars-pros-and-cons" className={blogStyles.internalLink}>See how it works</Link> or <Link href="/contact?plan=business&promo=freedomain" className={blogStyles.internalLink}>claim your name</Link>.</p>
         </div>
 
         <div className={blogStyles.heroImageContainer}>
@@ -177,7 +177,7 @@ export default function FreeDomainRegistrarsBlog() {
 
           <h3>100% Free vs Beeclue Free Domain</h3>
           <table style={{ width: "100%", borderCollapse: "collapse", margin: "1rem 0", background: "var(--background)", color: "var(--foreground)", borderRadius: "12px", overflow: "hidden" }}>
-            <thead><tr><th scope="col" style={{ textAlign: "left", padding: "0.75rem", borderBottom: "2px solid var(--border)" }}></th><th scope="col" style={{ textAlign: "left", padding: "0.75rem", borderBottom: "2px solid var(--border)" }}>100% free (.tk/subdomain)</th><th scope="col" style={{ textAlign: "left", padding: "0.75rem", borderBottom: "2px solid var(--border)" }}>Beeclue (free domain, plans above $29/mo)</th></tr></thead>
+            <thead><tr><th scope="col" style={{ textAlign: "left", padding: "0.75rem", borderBottom: "2px solid var(--border)" }}></th><th scope="col" style={{ textAlign: "left", padding: "0.75rem", borderBottom: "2px solid var(--border)" }}>100% free (.tk/subdomain)</th><th scope="col" style={{ textAlign: "left", padding: "0.75rem", borderBottom: "2px solid var(--border)" }}>Beeclue (free domain included)</th></tr></thead>
             <tbody>
               <tr><td scope="row" style={{ padding: "0.75rem", borderBottom: "1px solid var(--border)" }}>Looks professional</td><td style={{ padding: "0.75rem", borderBottom: "1px solid var(--border)" }}>No</td><td style={{ padding: "0.75rem", borderBottom: "1px solid var(--border)" }}>Yes</td></tr>
               <tr><td scope="row" style={{ padding: "0.75rem", borderBottom: "1px solid var(--border)" }}>SEO trust</td><td style={{ padding: "0.75rem", borderBottom: "1px solid var(--border)" }}>Poor, often blocked</td><td style={{ padding: "0.75rem", borderBottom: "1px solid var(--border)" }}>High (professional domain)</td></tr>
@@ -226,7 +226,7 @@ export default function FreeDomainRegistrarsBlog() {
 
           <div className={blogStyles.ctaSection}>
             <h3>Get a Free Domain With Your Website</h3>
-            <p>Don&apos;t let a wixsite subdomain cost you clients. On any plan above $29/mo your domain is free while you&apos;re with us — we handle everything. <Link href="/free-domain-with-website?utm_source=beeclue&utm_medium=blog&utm_campaign=top-5-free-domain-registrars-pros-and-cons" className={blogStyles.internalLink}>See how it works</Link> or <Link href="/contact?plan=business&promo=freedomain" className={blogStyles.internalLink}>Contact us today</Link> with 3 name ideas.</p>
+            <p>Don&apos;t let a wixsite subdomain cost you clients. Your domain is free with your Beeclue website — we handle everything. <Link href="/free-domain-with-website?utm_source=beeclue&utm_medium=blog&utm_campaign=top-5-free-domain-registrars-pros-and-cons" className={blogStyles.internalLink}>See how it works</Link> or <Link href="/contact?plan=business&promo=freedomain" className={blogStyles.internalLink}>Contact us today</Link> with 3 name ideas.</p>
           </div>
         </div>
       
