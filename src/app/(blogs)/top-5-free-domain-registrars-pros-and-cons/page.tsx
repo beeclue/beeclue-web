@@ -8,8 +8,8 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://beeclue.com/top-5-free-domain-registrars-pros-and-cons",
   },
-  title: 'Top 5 Free Domain Registrars: Pros, Cons & Vetting Guide',
-  description: 'Compare the best free domain registrars of 2026. Discover how to get a free domain name, which extensions are safe, and the pros/cons for small websites.',
+  title: 'Free Domain With Website: Get .com Free While on $29/mo + Top 5 Registrars',
+  description: 'Searching free domain? 100% free .tk/subdomains hurt SEO. Get a real .com/.ca free while on Beeclue $29/mo Business plan — hosting, SSL + maintenance included. Plus top 5 registrars compared.',
 };
 
 export default function FreeDomainRegistrarsBlog() {
@@ -61,6 +61,14 @@ export default function FreeDomainRegistrarsBlog() {
     {
       q: "How do I get a free .com domain?",
       a: "The only legitimate way to get a free .com domain is by purchasing an annual web hosting plan through providers like Bluehost or Hostinger, who will bundle the domain for free for the first year."
+    },
+    {
+      q: "How can Beeclue offer a free domain on $29/mo plans?",
+      a: "We buy a standard .com or .ca at cost (~$14) in our Cloudflare Registrar account and cover renewals while your Business $29/mo or Premium $59/mo subscription stays active. You pick from 3 name choices, we handle DNS, SSL and Vercel setup in ~15 minutes."
+    },
+    {
+      q: "What happens to my free domain if I cancel?",
+      a: "You get 30 days to transfer out for a $25 admin fee and pay the next renewal yourself. Otherwise the domain stays with Beeclue and the site deactivates per our subscription terms. Core $19/mo does not include a free domain."
     }
   ];
 
@@ -79,6 +87,10 @@ export default function FreeDomainRegistrarsBlog() {
             <span>Web Development & Hosting</span>
           </div>
         </header>
+
+        <div style={{ background: "rgba(51,133,255,0.08)", border: "1px solid var(--border)", borderRadius: "12px", padding: "1.5rem", margin: "1.5rem 0" }}>
+          <p style={{ margin: 0 }}><strong>Want a real .com free — without the spam risk?</strong> Get a <strong>.com or .ca free while you&apos;re on our $29/mo Business plan</strong> (hosting, SSL + maintenance included). <Link href="/free-domain-with-website?utm_source=beeclue&utm_medium=blog&utm_campaign=top-5-free-domain-registrars-pros-and-cons" className={blogStyles.internalLink}>See how it works</Link> or <Link href="/contact?plan=business&promo=freedomain" className={blogStyles.internalLink}>claim your name</Link>.</p>
+        </div>
 
         <div className={blogStyles.heroImageContainer}>
           <Image 
@@ -163,6 +175,16 @@ export default function FreeDomainRegistrarsBlog() {
             style={{ width: "100%", height: "auto", borderRadius: "12px", margin: "2rem 0" }}
           />
 
+          <h3>100% Free vs Beeclue Free-While-Subscribed</h3>
+          <table style={{ width: "100%", borderCollapse: "collapse", margin: "1rem 0", background: "white", color: "#111", borderRadius: "12px", overflow: "hidden" }}>
+            <thead><tr><th style={{ textAlign: "left", padding: "0.75rem", borderBottom: "2px solid #eee" }}></th><th style={{ textAlign: "left", padding: "0.75rem", borderBottom: "2px solid #eee" }}>100% free (.tk/subdomain)</th><th style={{ textAlign: "left", padding: "0.75rem", borderBottom: "2px solid #eee" }}>Beeclue $29/mo (free .com/.ca)</th></tr></thead>
+            <tbody>
+              <tr><td style={{ padding: "0.75rem", borderBottom: "1px solid #eee" }}>Looks professional</td><td style={{ padding: "0.75rem", borderBottom: "1px solid #eee" }}>No</td><td style={{ padding: "0.75rem", borderBottom: "1px solid #eee" }}>Yes</td></tr>
+              <tr><td style={{ padding: "0.75rem", borderBottom: "1px solid #eee" }}>SEO trust</td><td style={{ padding: "0.75rem", borderBottom: "1px solid #eee" }}>Poor, often blocked</td><td style={{ padding: "0.75rem", borderBottom: "1px solid #eee" }}>High (.com/.ca + SSL)</td></tr>
+              <tr><td style={{ padding: "0.75rem" }}>You own control</td><td style={{ padding: "0.75rem" }}>No — provider can pull it</td><td style={{ padding: "0.75rem" }}>Licensed while active, transfer-out in 30d for $25</td></tr>
+            </tbody>
+          </table>
+
           <h2>Pros and Cons of Using a Free Domain</h2>
           <p>Before you register a free domain for your next project, you must weigh the pros and cons. Context is everything: what works for a personal hobby might be disastrous for a professional agency.</p>
 
@@ -203,8 +225,8 @@ export default function FreeDomainRegistrarsBlog() {
           </section>
 
           <div className={blogStyles.ctaSection}>
-            <h3>Ready to Build a Professional Website?</h3>
-            <p>Don't let a free domain limit your business potential. Whether you need a simple corporate site or complex <Link href="/ecommerce-development-toronto" className={blogStyles.internalLink}>e-commerce development</Link>, our team at Beeclue Tech is here to help. We even offer an affordable <Link href="/19-month-website-development-offer" className={blogStyles.internalLink}>$19/Month Website Development Package</Link> to get your startup online professionally. <Link href="/contact" className={blogStyles.internalLink}>Contact us today</Link> to get started!</p>
+            <h3>Get a Real .com Free While on $29/mo</h3>
+            <p>Don&apos;t let a wixsite subdomain cost you clients. On Business $29/mo and Premium $59/mo you get a <strong>.com or .ca free while subscribed</strong> — we register in Cloudflare, point DNS to Vercel, add SSL. Core $19/mo excluded. <Link href="/free-domain-with-website?utm_source=beeclue&utm_medium=blog&utm_campaign=top-5-free-domain-registrars-pros-and-cons" className={blogStyles.internalLink}>How free-domain-while-subscribed works</Link> or <Link href="/contact?plan=business&promo=freedomain" className={blogStyles.internalLink}>Contact us today</Link> with 3 name ideas.</p>
           </div>
         </div>
       
