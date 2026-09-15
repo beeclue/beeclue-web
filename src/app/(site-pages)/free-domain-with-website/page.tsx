@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import FadeIn from "@/components/FadeIn";
 import FaqAccordion from "@/components/FaqAccordion";
-import ReviewsMeta from "@/components/ReviewsMeta";
 import { ArrowRight, Globe, ShieldCheck, Zap } from "lucide-react";
 import styles from "@/app/page.module.css";
 
@@ -68,9 +67,6 @@ export default function FreeDomainPage() {
       <FadeIn className={styles.baseSection}>
         <div className={styles.servicesHeader}><h2>Free domain questions</h2></div>
         <FaqAccordion faqs={faqs} />
-      </FadeIn>
-      <FadeIn className={styles.baseSection}>
-        <ReviewsMeta campaign="free_domain" />
       </FadeIn>
     </main>
   );
