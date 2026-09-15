@@ -1,7 +1,7 @@
 [
   {
     "route": "/19-month-website-development-offer",
-    "title": "Affordable Website Design – Only $19/Month",
+    "title": "Affordable Website Design \u2013 Only $19/Month",
     "description": "Get a professional website design, hosting, and maintenance for just $19/month. Perfect for small businesses.",
     "lastChecked": "2026-08-25"
   },
@@ -164,7 +164,7 @@
   {
     "route": "/shopify-vs-custom-ecommerce-canada",
     "title": "Shopify vs Custom E-Commerce Canada",
-    "description": "Compare the best e-commerce platforms in Canada for 2026. Shopify vs WooCommerce vs BigCommerce vs Custom development — find the right ecommerce website builder for your Canadian business.",
+    "description": "Compare the best e-commerce platforms in Canada for 2026. Shopify vs WooCommerce vs BigCommerce vs Custom development \u2014 find the right ecommerce website builder for your Canadian business.",
     "lastChecked": "2026-08-25"
   },
   {
@@ -508,5 +508,13 @@
     "title": "Beeclue Page",
     "description": "B2B Software and Web Services",
     "lastChecked": "2026-08-25"
+  },
+  {
+    "route": "/free-domain-with-website",
+    "url": "https://beeclue.com/free-domain-with-website",
+    "title": "Free .com/.ca While on $29/mo",
+    "description": "Business $29/mo and Premium $59/mo include a free .com or .ca domain while subscribed. Cloudflare + SSL setup included.",
+    "campaign": "free_domain",
+    "lastChecked": "2026-09-15"
   }
 ]
