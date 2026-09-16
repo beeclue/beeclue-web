@@ -123,6 +123,7 @@ In addition to our agency services, Beeclue Tech builds and maintains proprietar
 
 ## Featured Case Studies
 Beeclue Tech has delivered exceptional digital overhauls across multiple industries. Notable work includes:
+- **Tuxedo Frame Gallery**: Luxury bespoke digital platform, local SEO dominance, and ongoing social media management for Atlanta's premier 35-year custom picture framing atelier and Buckhead fine art gallery. Features museum-grade conservation framing showcases, fine art restoration portfolios, local artist spotlights, and multi-channel consultation booking workflows (In-Store, Virtual, and On-Site/In-Home). [https://beeclue.com/case-studies/tuxedo-frame-gallery]
 - **IV Uniforms**: WooCommerce e-commerce store with weight-based Canada Post API shipping calculations and custom local Jamatkhana pickup selectors to streamline distribution. [https://beeclue.com/case-studies/iv-uniforms]
 - **MacMates**: Comprehensive digital platform, custom branding, and local SEO for Oakville's premier device repair experts. [https://beeclue.com/case-studies/mac-mates]
 - **Tara Lattanzio Family Law**: High-converting, empathetic Next.js digital platform built for a leading Waterloo Region family lawyer. Features compassionate legal UX, reassurance architecture, mobile-first consultation intake, and an embedded 48-hour free legal website mockup generator for visiting attorneys. [https://beeclue.com/case-studies/tara-lattanzio]

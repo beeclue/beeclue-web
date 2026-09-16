@@ -747,6 +747,51 @@ leads.forEach((lead, idx) => {
   }
 });
 
+function cleanCity(cityStr) {
+  return cityStr.split('(')[0].split(',')[0].trim();
+}
+
+function getCallerScript(lead) {
+  const name = lead.contactName.trim();
+  let salutation = '';
+  
+  const knownNames = ['Raza', 'Andy', 'Emillio', 'Arsen', 'Frank', 'Johnson', 'Robbie', 'Derrick', 'Sam', 'Mehdi'];
+  const matchedName = knownNames.find(n => name.includes(n));
+  
+  if (matchedName) {
+    salutation = `Hey ${matchedName}, it's Kay from Beeclue Tech in the GTA.`;
+  } else {
+    salutation = `Hi there, is the owner or lead for ${lead.businessName} around? ... Hey, it's Kay from Beeclue Tech in the GTA.`;
+  }
+
+  const city = cleanCity(lead.city);
+  const cat = lead.category.toLowerCase();
+  const plan = lead.recommendedPlan.includes('19') ? '$19 a month' : '$29 a month';
+  
+  let featureHook = 'shows your packages and an online quote form';
+  if (cat.includes('detail') || cat.includes('tint') || cat.includes('wash') || cat.includes('spa')) {
+    featureHook = 'lets clients view your detailing packages and request bookings right off Google';
+  } else if (cat.includes('plumb')) {
+    featureHook = 'gives homeowners an instant tap-to-call button and 24/7 emergency service quote form';
+  } else if (cat.includes('roof')) {
+    featureHook = 'showcases your roofing projects and captures emergency leak and replacement quotes';
+  } else if (cat.includes('landscap') || cat.includes('lawn') || cat.includes('interlock') || cat.includes('garden')) {
+    featureHook = 'features a before-and-after photo gallery and seasonal lawn care quote requests';
+  } else if (cat.includes('appliance')) {
+    featureHook = 'lets homeowners select their appliance type and request same-day repair visits';
+  } else if (cat.includes('drywall') || cat.includes('paint') || cat.includes('handyman') || cat.includes('renovat') || cat.includes('carpentr')) {
+    featureHook = 'lets homeowners upload repair photos and request fast local estimates';
+  } else if (cat.includes('tow')) {
+    featureHook = 'has a prominent 24/7 emergency dispatch tap-to-call button for drivers on Google';
+  } else if (cat.includes('mov')) {
+    featureHook = 'includes an instant moving quote calculator with bedroom and distance selectors';
+  } else if (cat.includes('window') || cat.includes('pressure') || cat.includes('gutter')) {
+    featureHook = 'lets homeowners calculate exterior cleaning estimates and book service dates';
+  }
+
+  return `${salutation} Quick question—I was looking at your ${cat} work in ${city} and saw your great reviews. I noticed you don't have an official website linked on Google so clients have to call or message back and forth for pricing. We actually built a free mobile website preview for ${lead.businessName} that ${featureHook}. There's zero upfront build fee, and if you love it, it's just ${plan} with no contract. What's the best cell number or email to send you the link so you can take a 30-second look?`;
+}
+
 function escapeCsv(val) {
   if (val === null || val === undefined) return '';
   let str = String(val).trim();
@@ -767,12 +812,14 @@ const headers = [
   "Key Services Offered",
   "Diagnosed Pain Point / Hook",
   "Recommended Plan",
-  "Personalized Pitch Opener (Copy & Paste)"
+  "Cold Caller Starting Script (Phone Opener)",
+  "Personalized Pitch Opener (Copy & Paste / SMS)"
 ];
 
 const rows = [headers.map(escapeCsv).join(',')];
 
 leads.forEach(lead => {
+  const callerScript = lead.callerScript || getCallerScript(lead);
   rows.push([
     escapeCsv(lead.businessName),
     escapeCsv(lead.contactName),
@@ -784,6 +831,7 @@ leads.forEach(lead => {
     escapeCsv(lead.keyServices),
     escapeCsv(lead.painPoint),
     escapeCsv(lead.recommendedPlan),
+    escapeCsv(callerScript),
     escapeCsv(lead.pitchOpener)
   ].join(','));
 });

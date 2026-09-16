@@ -4793,9 +4793,9 @@
     "location": "Brampton, ON",
     "pricingQuoted": "$19/month",
     "initialContactDate": "2026-09-08T20:20:00Z",
-    "lastContactDate": "2026-09-08T20:20:00Z",
+    "lastContactDate": "2026-09-13T16:55:57.044969+00:00",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Pitch",
+    "sequenceStep": "Day 4 - Follow-up",
     "diagnosedIssues": "Primary intake listed on legacy @rogers.com ISP email address; dated desktop-only web presence lacking mobile client consultation intake.",
     "caseStudySent": "https://beeclue.com/case-studies/tara-lattanzio?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-ahuja-law-office",
     "history": [
@@ -4806,6 +4806,22 @@
         "resendId": "85f04b78-eac4-44c8-90f8-712478c0e7bf",
         "status": "delivered",
         "notes": "Highlighted modernizing practice presentation, replacing ISP web presence with custom $19/mo high-speed Next.js site, and Tara Lattanzio reference."
+      },
+      {
+        "step": "Day 4-5",
+        "sentAt": "2026-09-13T16:52:54.423017+00:00",
+        "subject": "Re: Modernizing the website for Umesh K. Ahuja Professional Corporation",
+        "resendId": "",
+        "status": "failed",
+        "notes": "Send failed, left at Day 0 for retry. Error: error code: 1010\n"
+      },
+      {
+        "step": "Day 4-5",
+        "sentAt": "2026-09-13T16:55:57.044969+00:00",
+        "subject": "Re: Modernizing the website for Umesh K. Ahuja Professional Corporation",
+        "resendId": "95ea706a-4c9d-4797-b2db-ed09bf210df1",
+        "status": "delivered",
+        "notes": "Threaded Day 4 follow-up: issue reminder + free 48-hour mockup offer."
       }
     ]
   },
@@ -4819,9 +4835,9 @@
     "location": "Brampton, ON",
     "pricingQuoted": "$19/month",
     "initialContactDate": "2026-09-08T20:20:00Z",
-    "lastContactDate": "2026-09-08T20:20:00Z",
+    "lastContactDate": "2026-09-13T16:55:59.313595+00:00",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Pitch",
+    "sequenceStep": "Day 4 - Follow-up",
     "diagnosedIssues": "Client contact listed on personal @rogers.com ISP email; dated directory structure lacking emergency tap-to-call mobile intake for urgent arrests.",
     "caseStudySent": "https://beeclue.com/case-studies/tara-lattanzio?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-paul-erskine-law",
     "history": [
@@ -4832,6 +4848,22 @@
         "resendId": "a97766d8-2813-4acc-8526-023d755bb581",
         "status": "delivered",
         "notes": "Noted emergency bail intake optimization, modernizing off ISP email, and Tara Lattanzio criminal law case study."
+      },
+      {
+        "step": "Day 4-5",
+        "sentAt": "2026-09-13T16:52:56.535686+00:00",
+        "subject": "Re: Modernizing the website for Paul Erskine Criminal Defence",
+        "resendId": "",
+        "status": "failed",
+        "notes": "Send failed, left at Day 0 for retry. Error: error code: 1010\n"
+      },
+      {
+        "step": "Day 4-5",
+        "sentAt": "2026-09-13T16:55:59.313595+00:00",
+        "subject": "Re: Modernizing the website for Paul Erskine Criminal Defence",
+        "resendId": "be5e4d09-5b13-4b59-9732-78c899e8ba41",
+        "status": "delivered",
+        "notes": "Threaded Day 4 follow-up: issue reminder + free 48-hour mockup offer."
       }
     ]
   },
@@ -4845,9 +4877,9 @@
     "location": "Brampton, ON",
     "pricingQuoted": "$19/month",
     "initialContactDate": "2026-09-08T20:20:00Z",
-    "lastContactDate": "2026-09-08T20:20:00Z",
+    "lastContactDate": "2026-09-13T16:56:01.527620+00:00",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Pitch",
+    "sequenceStep": "Day 4 - Follow-up",
     "diagnosedIssues": "Contact routing through legacy Bellnet ISP email; lacks dedicated mobile-optimized practice pages and SSL-secured inquiry forms.",
     "caseStudySent": "https://beeclue.com/case-studies/tara-lattanzio?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-harleen-grewal-law",
     "history": [
@@ -4858,6 +4890,22 @@
         "resendId": "6f45b0f5-b4a7-4096-9ea6-8b52e2824a41",
         "status": "delivered",
         "notes": "Emphasized clean mobile practice architecture, branded digital intake, and $19/mo Core plan with Tara Lattanzio case study."
+      },
+      {
+        "step": "Day 4-5",
+        "sentAt": "2026-09-13T16:52:58.642970+00:00",
+        "subject": "Re: Modernizing the website for Harleen Grewal Law Office",
+        "resendId": "",
+        "status": "failed",
+        "notes": "Send failed, left at Day 0 for retry. Error: error code: 1010\n"
+      },
+      {
+        "step": "Day 4-5",
+        "sentAt": "2026-09-13T16:56:01.527620+00:00",
+        "subject": "Re: Modernizing the website for Harleen Grewal Law Office",
+        "resendId": "bcce3710-8f74-4a64-ac96-8abc529e8fa1",
+        "status": "delivered",
+        "notes": "Threaded Day 4 follow-up: issue reminder + free 48-hour mockup offer."
       }
     ]
   },
@@ -4871,9 +4919,9 @@
     "location": "Brampton, ON",
     "pricingQuoted": "$19/month",
     "initialContactDate": "2026-09-08T20:20:00Z",
-    "lastContactDate": "2026-09-08T20:20:00Z",
+    "lastContactDate": "2026-09-13T16:56:03.775600+00:00",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Pitch",
+    "sequenceStep": "Day 4 - Follow-up",
     "diagnosedIssues": "Uses public @gmail.com address across web headers; lacks interactive retainer onboarding and modern mobile-first layout.",
     "caseStudySent": "https://beeclue.com/case-studies/tara-lattanzio?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-grey-law-firm",
     "history": [
@@ -4884,6 +4932,22 @@
         "resendId": "8852d7d3-59ce-49ab-bb0c-c5abeedd6cf2",
         "status": "delivered",
         "notes": "Highlighted professional branded domain intake, eliminating Gmail headers, and $19/mo managed plan."
+      },
+      {
+        "step": "Day 4-5",
+        "sentAt": "2026-09-13T16:53:00.754848+00:00",
+        "subject": "Re: Modernizing the website for Grey Law Firm Professional Corporation",
+        "resendId": "",
+        "status": "failed",
+        "notes": "Send failed, left at Day 0 for retry. Error: error code: 1010\n"
+      },
+      {
+        "step": "Day 4-5",
+        "sentAt": "2026-09-13T16:56:03.775600+00:00",
+        "subject": "Re: Modernizing the website for Grey Law Firm Professional Corporation",
+        "resendId": "587dca8c-975c-4075-8499-a3abbd3f3c66",
+        "status": "delivered",
+        "notes": "Threaded Day 4 follow-up: issue reminder + free 48-hour mockup offer."
       }
     ]
   },
@@ -4897,9 +4961,9 @@
     "location": "Brampton, ON",
     "pricingQuoted": "$19/month",
     "initialContactDate": "2026-09-08T20:20:00Z",
-    "lastContactDate": "2026-09-08T20:20:00Z",
+    "lastContactDate": "2026-09-13T16:56:05.951335+00:00",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Pitch",
+    "sequenceStep": "Day 4 - Follow-up",
     "diagnosedIssues": "Public legal intake routed to a free @hotmail.com inbox; dated web layout lacking mobile responsiveness and secure intake.",
     "caseStudySent": "https://beeclue.com/case-studies/tara-lattanzio?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-sidhu-law-office",
     "history": [
@@ -4910,6 +4974,22 @@
         "resendId": "6f0fae25-2ad9-4393-9e6b-39da53450a7b",
         "status": "delivered",
         "notes": "Suggested modernizing to a high-speed secure mobile site, professional email routing, and Tara Lattanzio case study."
+      },
+      {
+        "step": "Day 4-5",
+        "sentAt": "2026-09-13T16:53:02.859554+00:00",
+        "subject": "Re: Modernizing the website for Sidhu Law Office",
+        "resendId": "",
+        "status": "failed",
+        "notes": "Send failed, left at Day 0 for retry. Error: error code: 1010\n"
+      },
+      {
+        "step": "Day 4-5",
+        "sentAt": "2026-09-13T16:56:05.951335+00:00",
+        "subject": "Re: Modernizing the website for Sidhu Law Office",
+        "resendId": "c194dd08-284c-4302-b8c5-91aff65143db",
+        "status": "delivered",
+        "notes": "Threaded Day 4 follow-up: issue reminder + free 48-hour mockup offer."
       }
     ]
   },
@@ -4923,9 +5003,9 @@
     "location": "Brampton, ON",
     "pricingQuoted": "$19/month",
     "initialContactDate": "2026-09-08T20:20:00Z",
-    "lastContactDate": "2026-09-08T20:20:00Z",
+    "lastContactDate": "2026-09-13T16:56:08.140925+00:00",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Pitch",
+    "sequenceStep": "Day 4 - Follow-up",
     "diagnosedIssues": "Primary intake listed on legacy Yahoo mail address; static desktop template with slow mobile page speed and no automated intake form.",
     "caseStudySent": "https://beeclue.com/case-studies/tara-lattanzio?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-zirvi-law-office",
     "history": [
@@ -4936,6 +5016,22 @@
         "resendId": "16aa4738-b59f-47d4-b4a8-f403ad99d5e9",
         "status": "delivered",
         "notes": "Pointed out modern mobile speed improvements, upgrading from Yahoo email to branded intake, and $19/mo plan."
+      },
+      {
+        "step": "Day 4-5",
+        "sentAt": "2026-09-13T16:53:04.966155+00:00",
+        "subject": "Re: Modernizing the website for Zirvi Law Office",
+        "resendId": "",
+        "status": "failed",
+        "notes": "Send failed, left at Day 0 for retry. Error: error code: 1010\n"
+      },
+      {
+        "step": "Day 4-5",
+        "sentAt": "2026-09-13T16:56:08.140925+00:00",
+        "subject": "Re: Modernizing the website for Zirvi Law Office",
+        "resendId": "00de0fa8-6afa-478b-850c-aafbda69b2d9",
+        "status": "delivered",
+        "notes": "Threaded Day 4 follow-up: issue reminder + free 48-hour mockup offer."
       }
     ]
   },
@@ -4949,9 +5045,9 @@
     "location": "Brampton, ON (2 County Court Blvd)",
     "pricingQuoted": "$19/month",
     "initialContactDate": "2026-09-08T20:20:00Z",
-    "lastContactDate": "2026-09-08T20:20:00Z",
+    "lastContactDate": "2026-09-13T16:56:10.331086+00:00",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Pitch",
+    "sequenceStep": "Day 4 - Follow-up",
     "diagnosedIssues": "Heavy template relying on public Gmail intake for 24/7 consultations; missing clean practice area visual hierarchy.",
     "caseStudySent": "https://beeclue.com/case-studies/tara-lattanzio?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-legal-solutions-law-firm",
     "history": [
@@ -4962,6 +5058,22 @@
         "resendId": "db993c0a-7560-4bf8-8556-fdc3bbb813fb",
         "status": "delivered",
         "notes": "Offered streamlined mobile emergency intake, branded email integration, and Tara Lattanzio reference."
+      },
+      {
+        "step": "Day 4-5",
+        "sentAt": "2026-09-13T16:53:07.067976+00:00",
+        "subject": "Re: Modernizing the website for Legal Solutions Law Firm",
+        "resendId": "",
+        "status": "failed",
+        "notes": "Send failed, left at Day 0 for retry. Error: error code: 1010\n"
+      },
+      {
+        "step": "Day 4-5",
+        "sentAt": "2026-09-13T16:56:10.331086+00:00",
+        "subject": "Re: Modernizing the website for Legal Solutions Law Firm",
+        "resendId": "d7a9ea11-975f-47ef-9f22-f00db824bb50",
+        "status": "delivered",
+        "notes": "Threaded Day 4 follow-up: issue reminder + free 48-hour mockup offer."
       }
     ]
   },
@@ -4975,9 +5087,9 @@
     "location": "Brampton, ON (60 Gillingham Dr)",
     "pricingQuoted": "$19/month",
     "initialContactDate": "2026-09-08T20:20:00Z",
-    "lastContactDate": "2026-09-08T20:20:00Z",
+    "lastContactDate": "2026-09-13T16:56:12.529874+00:00",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Pitch",
+    "sequenceStep": "Day 4 - Follow-up",
     "diagnosedIssues": "Client retainers routed through personal Gmail address; slow mobile performance on Google PageSpeed with template bloat.",
     "caseStudySent": "https://beeclue.com/case-studies/tara-lattanzio?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-orbit-law-office",
     "history": [
@@ -4988,6 +5100,22 @@
         "resendId": "bd9879ee-88d2-4e50-8d3c-06f8dee265b4",
         "status": "delivered",
         "notes": "Highlighted custom Next.js speed boost, professional intake workflow, and $19/mo Core plan."
+      },
+      {
+        "step": "Day 4-5",
+        "sentAt": "2026-09-13T16:53:09.177112+00:00",
+        "subject": "Re: Modernizing the website for Orbit Law Professional Corporation",
+        "resendId": "",
+        "status": "failed",
+        "notes": "Send failed, left at Day 0 for retry. Error: error code: 1010\n"
+      },
+      {
+        "step": "Day 4-5",
+        "sentAt": "2026-09-13T16:56:12.529874+00:00",
+        "subject": "Re: Modernizing the website for Orbit Law Professional Corporation",
+        "resendId": "4865f92f-0243-41e2-a583-fbbf47b29eaf",
+        "status": "delivered",
+        "notes": "Threaded Day 4 follow-up: issue reminder + free 48-hour mockup offer."
       }
     ]
   },
@@ -5001,9 +5129,9 @@
     "location": "Brampton, ON (10 George St N)",
     "pricingQuoted": "$19/month",
     "initialContactDate": "2026-09-08T20:20:00Z",
-    "lastContactDate": "2026-09-08T20:20:00Z",
+    "lastContactDate": "2026-09-13T16:56:14.764344+00:00",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Pitch",
+    "sequenceStep": "Day 4 - Follow-up",
     "diagnosedIssues": "Website intake forms route directly to free Gmail account; lacks streamlined mobile appointment scheduler.",
     "caseStudySent": "https://beeclue.com/case-studies/tara-lattanzio?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-lex-curators-law",
     "history": [
@@ -5014,6 +5142,22 @@
         "resendId": "da4dc3df-f927-4e13-beeb-12a71ace992a",
         "status": "delivered",
         "notes": "Proposed modern mobile redesign, fast SSL architecture, and $19/mo managed tier."
+      },
+      {
+        "step": "Day 4-5",
+        "sentAt": "2026-09-13T16:53:11.292767+00:00",
+        "subject": "Re: Modernizing the website for Lex Curators Professional Corporation",
+        "resendId": "",
+        "status": "failed",
+        "notes": "Send failed, left at Day 0 for retry. Error: error code: 1010\n"
+      },
+      {
+        "step": "Day 4-5",
+        "sentAt": "2026-09-13T16:56:14.764344+00:00",
+        "subject": "Re: Modernizing the website for Lex Curators Professional Corporation",
+        "resendId": "8ae11a5a-8c99-48e1-a1b4-eab6de3dd7e3",
+        "status": "delivered",
+        "notes": "Threaded Day 4 follow-up: issue reminder + free 48-hour mockup offer."
       }
     ]
   },
@@ -5027,9 +5171,9 @@
     "location": "Brampton, ON (21 Queen St E)",
     "pricingQuoted": "$19/month",
     "initialContactDate": "2026-09-08T20:20:00Z",
-    "lastContactDate": "2026-09-08T20:20:00Z",
+    "lastContactDate": "2026-09-13T16:56:16.955608+00:00",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Pitch",
+    "sequenceStep": "Day 4 - Follow-up",
     "diagnosedIssues": "Legal correspondence listed on free Hotmail address; missing dedicated mobile-optimized practice pages.",
     "caseStudySent": "https://beeclue.com/case-studies/tara-lattanzio?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-utmalik-law-office",
     "history": [
@@ -5040,6 +5184,22 @@
         "resendId": "056a7cf3-5bdf-4174-856b-46f330607d40",
         "status": "delivered",
         "notes": "Emphasized establishing authoritative mobile web presence, professional domain routing, and Tara Lattanzio case study."
+      },
+      {
+        "step": "Day 4-5",
+        "sentAt": "2026-09-13T16:53:13.407138+00:00",
+        "subject": "Re: Modernizing the website for Utmalik Law Office",
+        "resendId": "",
+        "status": "failed",
+        "notes": "Send failed, left at Day 0 for retry. Error: error code: 1010\n"
+      },
+      {
+        "step": "Day 4-5",
+        "sentAt": "2026-09-13T16:56:16.955608+00:00",
+        "subject": "Re: Modernizing the website for Utmalik Law Office",
+        "resendId": "37b05e41-1fe6-4d61-aedd-030b5bdfa7de",
+        "status": "delivered",
+        "notes": "Threaded Day 4 follow-up: issue reminder + free 48-hour mockup offer."
       }
     ]
   },
@@ -5053,9 +5213,9 @@
     "location": "Brampton, ON (280 Main St N)",
     "pricingQuoted": "$19/month",
     "initialContactDate": "2026-09-08T20:20:00Z",
-    "lastContactDate": "2026-09-08T20:20:00Z",
+    "lastContactDate": "2026-09-13T16:56:19.115860+00:00",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Pitch",
+    "sequenceStep": "Day 4 - Follow-up",
     "diagnosedIssues": "Relies on generic Gmail inbox for formal legal intake; lacks secure client intake and modern mobile UI.",
     "caseStudySent": "https://beeclue.com/case-studies/tara-lattanzio?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-gurpreet-mangat-law",
     "history": [
@@ -5066,6 +5226,22 @@
         "resendId": "ce2b2aa4-7bb7-4a91-b766-f53d1ae5c9f5",
         "status": "delivered",
         "notes": "Offered clean 5-page mobile website, branded email, and $19/mo managed plan."
+      },
+      {
+        "step": "Day 4-5",
+        "sentAt": "2026-09-13T16:53:15.518205+00:00",
+        "subject": "Re: Modernizing the website for Gurpreet Mangat Law Professional Corporation",
+        "resendId": "",
+        "status": "failed",
+        "notes": "Send failed, left at Day 0 for retry. Error: error code: 1010\n"
+      },
+      {
+        "step": "Day 4-5",
+        "sentAt": "2026-09-13T16:56:19.115860+00:00",
+        "subject": "Re: Modernizing the website for Gurpreet Mangat Law Professional Corporation",
+        "resendId": "ffdeb99c-79ae-4300-9a6f-da8b9aa50bab",
+        "status": "delivered",
+        "notes": "Threaded Day 4 follow-up: issue reminder + free 48-hour mockup offer."
       }
     ]
   },
@@ -5079,9 +5255,9 @@
     "location": "Brampton, ON (303 Main St N)",
     "pricingQuoted": "$19/month",
     "initialContactDate": "2026-09-08T20:20:00Z",
-    "lastContactDate": "2026-09-08T20:20:00Z",
+    "lastContactDate": "2026-09-13T16:56:21.298111+00:00",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Pitch",
+    "sequenceStep": "Day 4 - Follow-up",
     "diagnosedIssues": "Legacy static website design from early 2010s; lacking mobile-responsive layout and online consultation intake.",
     "caseStudySent": "https://beeclue.com/case-studies/tara-lattanzio?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-longfield-law-office",
     "history": [
@@ -5092,6 +5268,22 @@
         "resendId": "cc3bf01b-d37e-4d26-af7f-d95d3e5a5c47",
         "status": "delivered",
         "notes": "Suggested modernizing to responsive Next.js layout, improving local SEO rankings, and $19/mo plan."
+      },
+      {
+        "step": "Day 4-5",
+        "sentAt": "2026-09-13T16:53:17.623807+00:00",
+        "subject": "Re: Modernizing the website for Longfield Law Professional Corporation",
+        "resendId": "",
+        "status": "failed",
+        "notes": "Send failed, left at Day 0 for retry. Error: error code: 1010\n"
+      },
+      {
+        "step": "Day 4-5",
+        "sentAt": "2026-09-13T16:56:21.298111+00:00",
+        "subject": "Re: Modernizing the website for Longfield Law Professional Corporation",
+        "resendId": "9dac7f02-ec20-4121-9964-ea6f1e22e69b",
+        "status": "delivered",
+        "notes": "Threaded Day 4 follow-up: issue reminder + free 48-hour mockup offer."
       }
     ]
   },
@@ -5105,9 +5297,9 @@
     "location": "Brampton, ON (268 Main St N)",
     "pricingQuoted": "$19/month",
     "initialContactDate": "2026-09-08T20:20:00Z",
-    "lastContactDate": "2026-09-08T20:20:00Z",
+    "lastContactDate": "2026-09-13T16:56:23.537256+00:00",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Pitch",
+    "sequenceStep": "Day 4 - Follow-up",
     "diagnosedIssues": "Desktop-first layout with high TTFB and lack of modern mobile client onboarding flows.",
     "caseStudySent": "https://beeclue.com/case-studies/tara-lattanzio?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-mott-trille-law",
     "history": [
@@ -5118,6 +5310,22 @@
         "resendId": "cffbd262-9558-4a34-aeea-3e7d3fc97f8b",
         "status": "delivered",
         "notes": "Focused on estate planning visual clarity, mobile speed optimization, and Tara Lattanzio case study."
+      },
+      {
+        "step": "Day 4-5",
+        "sentAt": "2026-09-13T16:53:19.730437+00:00",
+        "subject": "Re: Modernizing the website for Sarah E. Mott-Trille Professional Corporation",
+        "resendId": "",
+        "status": "failed",
+        "notes": "Send failed, left at Day 0 for retry. Error: error code: 1010\n"
+      },
+      {
+        "step": "Day 4-5",
+        "sentAt": "2026-09-13T16:56:23.537256+00:00",
+        "subject": "Re: Modernizing the website for Sarah E. Mott-Trille Professional Corporation",
+        "resendId": "8ec42916-31a4-4c25-9f6f-9315dec02091",
+        "status": "delivered",
+        "notes": "Threaded Day 4 follow-up: issue reminder + free 48-hour mockup offer."
       }
     ]
   },
@@ -5131,9 +5339,9 @@
     "location": "Brampton, ON (27 John St)",
     "pricingQuoted": "$19/month",
     "initialContactDate": "2026-09-08T20:20:00Z",
-    "lastContactDate": "2026-09-08T20:20:00Z",
+    "lastContactDate": "2026-09-13T16:56:25.784763+00:00",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Pitch",
+    "sequenceStep": "Day 4 - Follow-up",
     "diagnosedIssues": "Heavy uncompressed scripts and slow mobile loading speeds for urgent criminal arrest and bail inquiries.",
     "caseStudySent": "https://beeclue.com/case-studies/tara-lattanzio?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-gary-batasar-law",
     "history": [
@@ -5144,6 +5352,22 @@
         "resendId": "01b0a5ee-17b5-4b67-80a7-e54b989d63ac",
         "status": "delivered",
         "notes": "Highlighted sub-second mobile page speed for emergency criminal defence inquiries and Tara Lattanzio case study."
+      },
+      {
+        "step": "Day 4-5",
+        "sentAt": "2026-09-13T16:53:21.834407+00:00",
+        "subject": "Re: Modernizing the website for Law Offices of Gary Batasar",
+        "resendId": "",
+        "status": "failed",
+        "notes": "Send failed, left at Day 0 for retry. Error: error code: 1010\n"
+      },
+      {
+        "step": "Day 4-5",
+        "sentAt": "2026-09-13T16:56:25.784763+00:00",
+        "subject": "Re: Modernizing the website for Law Offices of Gary Batasar",
+        "resendId": "cef8a204-e056-438e-8e42-71478bc2092b",
+        "status": "delivered",
+        "notes": "Threaded Day 4 follow-up: issue reminder + free 48-hour mockup offer."
       }
     ]
   },
@@ -5157,9 +5381,9 @@
     "location": "Brampton, ON (197 County Court Blvd)",
     "pricingQuoted": "$19/month",
     "initialContactDate": "2026-09-08T20:20:00Z",
-    "lastContactDate": "2026-09-08T20:20:00Z",
+    "lastContactDate": "2026-09-13T16:56:27.985127+00:00",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Pitch",
+    "sequenceStep": "Day 4 - Follow-up",
     "diagnosedIssues": "Outdated navigation and lack of dedicated mobile consultation booking flow across multi-practice areas.",
     "caseStudySent": "https://beeclue.com/case-studies/tara-lattanzio?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-furlan-bhavsar-law",
     "history": [
@@ -5170,6 +5394,22 @@
         "resendId": "f3954c26-99d8-4d41-a837-d1523923317a",
         "status": "delivered",
         "notes": "Emphasized practice area hierarchy, mobile client conversion, and $19/mo managed model."
+      },
+      {
+        "step": "Day 4-5",
+        "sentAt": "2026-09-13T16:53:23.939399+00:00",
+        "subject": "Re: Modernizing the website for Furlan Bhavsar LLP",
+        "resendId": "",
+        "status": "failed",
+        "notes": "Send failed, left at Day 0 for retry. Error: error code: 1010\n"
+      },
+      {
+        "step": "Day 4-5",
+        "sentAt": "2026-09-13T16:56:27.985127+00:00",
+        "subject": "Re: Modernizing the website for Furlan Bhavsar LLP",
+        "resendId": "b7d851d0-fea0-4b73-b7b0-c9efdd6c70be",
+        "status": "delivered",
+        "notes": "Threaded Day 4 follow-up: issue reminder + free 48-hour mockup offer."
       }
     ]
   },
@@ -5183,9 +5423,9 @@
     "location": "Brampton, ON (21 Queen St E)",
     "pricingQuoted": "$19/month",
     "initialContactDate": "2026-09-08T20:20:00Z",
-    "lastContactDate": "2026-09-08T20:20:00Z",
+    "lastContactDate": "2026-09-13T16:56:30.180387+00:00",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Pitch",
+    "sequenceStep": "Day 4 - Follow-up",
     "diagnosedIssues": "Transitioned from legacy Wood Gold LLP, retains heavy script bloat slowing down initial mobile render times.",
     "caseStudySent": "https://beeclue.com/case-studies/tara-lattanzio?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-gold-family-law",
     "history": [
@@ -5196,6 +5436,22 @@
         "resendId": "ad0cacbf-deac-4e76-9d92-03b4068a58d4",
         "status": "delivered",
         "notes": "Suggested modernizing initial mobile render speed, clean client intake, and $19/mo Core tier."
+      },
+      {
+        "step": "Day 4-5",
+        "sentAt": "2026-09-13T16:53:26.037340+00:00",
+        "subject": "Re: Modernizing the website for Gold Family Law",
+        "resendId": "",
+        "status": "failed",
+        "notes": "Send failed, left at Day 0 for retry. Error: error code: 1010\n"
+      },
+      {
+        "step": "Day 4-5",
+        "sentAt": "2026-09-13T16:56:30.180387+00:00",
+        "subject": "Re: Modernizing the website for Gold Family Law",
+        "resendId": "c05400ea-b134-467a-b06b-942328e3a561",
+        "status": "delivered",
+        "notes": "Threaded Day 4 follow-up: issue reminder + free 48-hour mockup offer."
       }
     ]
   },
@@ -5209,9 +5465,9 @@
     "location": "Brampton, ON",
     "pricingQuoted": "$19/month",
     "initialContactDate": "2026-09-08T20:20:00Z",
-    "lastContactDate": "2026-09-08T20:20:00Z",
+    "lastContactDate": "2026-09-13T16:56:32.364560+00:00",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Pitch",
+    "sequenceStep": "Day 4 - Follow-up",
     "diagnosedIssues": "Missing clear visual hierarchy on mobile devices; lacks automated consultation booking calendar.",
     "caseStudySent": "https://beeclue.com/case-studies/tara-lattanzio?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-ayesha-abbasi-law",
     "history": [
@@ -5222,6 +5478,22 @@
         "resendId": "48452ad8-0b66-4a1b-8c40-aded459e053c",
         "status": "delivered",
         "notes": "Offered clean mobile-first redesign, fast booking flow, and Tara Lattanzio reference."
+      },
+      {
+        "step": "Day 4-5",
+        "sentAt": "2026-09-13T16:53:28.152480+00:00",
+        "subject": "Re: Modernizing the website for Ayesha Abbasi Law",
+        "resendId": "",
+        "status": "failed",
+        "notes": "Send failed, left at Day 0 for retry. Error: error code: 1010\n"
+      },
+      {
+        "step": "Day 4-5",
+        "sentAt": "2026-09-13T16:56:32.364560+00:00",
+        "subject": "Re: Modernizing the website for Ayesha Abbasi Law",
+        "resendId": "25aeca44-7985-4450-ae12-1e1787b5b391",
+        "status": "delivered",
+        "notes": "Threaded Day 4 follow-up: issue reminder + free 48-hour mockup offer."
       }
     ]
   },
@@ -5235,9 +5507,9 @@
     "location": "Brampton, ON",
     "pricingQuoted": "$19/month",
     "initialContactDate": "2026-09-08T20:20:00Z",
-    "lastContactDate": "2026-09-08T20:20:00Z",
+    "lastContactDate": "2026-09-13T16:56:34.546694+00:00",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Pitch",
+    "sequenceStep": "Day 4 - Follow-up",
     "diagnosedIssues": "High layout shift (CLS) on mobile devices and cluttered legacy navigation for Peel Region clients.",
     "caseStudySent": "https://beeclue.com/case-studies/tara-lattanzio?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-charitsis-law-brampton",
     "history": [
@@ -5248,6 +5520,22 @@
         "resendId": "03f45877-0bb0-4435-b0d1-c6bb66acd67d",
         "status": "delivered",
         "notes": "Highlighted sub-second mobile page loads, modern emergency call conversion, and Tara Lattanzio case study."
+      },
+      {
+        "step": "Day 4-5",
+        "sentAt": "2026-09-13T16:53:30.260318+00:00",
+        "subject": "Re: Modernizing the website for Charitsis Law Brampton",
+        "resendId": "",
+        "status": "failed",
+        "notes": "Send failed, left at Day 0 for retry. Error: error code: 1010\n"
+      },
+      {
+        "step": "Day 4-5",
+        "sentAt": "2026-09-13T16:56:34.546694+00:00",
+        "subject": "Re: Modernizing the website for Charitsis Law Brampton",
+        "resendId": "548660b5-2e3b-42ce-85c5-d124aebfda59",
+        "status": "delivered",
+        "notes": "Threaded Day 4 follow-up: issue reminder + free 48-hour mockup offer."
       }
     ]
   },
@@ -5261,9 +5549,9 @@
     "location": "Brampton, ON (2 County Court Blvd)",
     "pricingQuoted": "$19/month",
     "initialContactDate": "2026-09-08T20:20:00Z",
-    "lastContactDate": "2026-09-08T20:20:00Z",
+    "lastContactDate": "2026-09-13T16:56:36.806770+00:00",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Pitch",
+    "sequenceStep": "Day 4 - Follow-up",
     "diagnosedIssues": "Contact routing through personal @rogers.com ISP email; dated backend structure lacking fast emergency intake.",
     "caseStudySent": "https://beeclue.com/case-studies/tara-lattanzio?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-michelle-johal-law",
     "history": [
@@ -5274,6 +5562,22 @@
         "resendId": "a372a654-3cbc-4bd3-9c6d-b24eaeb25536",
         "status": "delivered",
         "notes": "Proposed modernizing off legacy ISP email, fast mobile criminal defence layout, and $19/mo plan."
+      },
+      {
+        "step": "Day 4-5",
+        "sentAt": "2026-09-13T16:53:32.362745+00:00",
+        "subject": "Re: Modernizing the website for Michelle Johal Criminal Defence",
+        "resendId": "",
+        "status": "failed",
+        "notes": "Send failed, left at Day 0 for retry. Error: error code: 1010\n"
+      },
+      {
+        "step": "Day 4-5",
+        "sentAt": "2026-09-13T16:56:36.806770+00:00",
+        "subject": "Re: Modernizing the website for Michelle Johal Criminal Defence",
+        "resendId": "07a82192-24d5-499b-9601-db9012ff4472",
+        "status": "delivered",
+        "notes": "Threaded Day 4 follow-up: issue reminder + free 48-hour mockup offer."
       }
     ]
   },
@@ -5287,9 +5591,9 @@
     "location": "Brampton, ON",
     "pricingQuoted": "$19/month",
     "initialContactDate": "2026-09-08T20:20:00Z",
-    "lastContactDate": "2026-09-08T20:20:00Z",
+    "lastContactDate": "2026-09-13T16:56:39.019520+00:00",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Pitch",
+    "sequenceStep": "Day 4 - Follow-up",
     "diagnosedIssues": "Uses free @gmail.com for formal legal correspondence; lacks dedicated mobile-optimized practice website.",
     "caseStudySent": "https://beeclue.com/case-studies/tara-lattanzio?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-malcolm-taharally-law",
     "history": [
@@ -5300,6 +5604,22 @@
         "resendId": "95aa1215-2d3f-40e0-b110-6a70f72f3e27",
         "status": "delivered",
         "notes": "Emphasized professional branded domain setup, modern mobile practice pages, and Tara Lattanzio case study."
+      },
+      {
+        "step": "Day 4-5",
+        "sentAt": "2026-09-13T16:53:34.467169+00:00",
+        "subject": "Re: Modernizing the website for Malcolm E. Taharally Law Office",
+        "resendId": "",
+        "status": "failed",
+        "notes": "Send failed, left at Day 0 for retry. Error: error code: 1010\n"
+      },
+      {
+        "step": "Day 4-5",
+        "sentAt": "2026-09-13T16:56:39.019520+00:00",
+        "subject": "Re: Modernizing the website for Malcolm E. Taharally Law Office",
+        "resendId": "b0382cca-9994-4890-a316-2b58dbf8b8b2",
+        "status": "delivered",
+        "notes": "Threaded Day 4 follow-up: issue reminder + free 48-hour mockup offer."
       }
     ]
   },
@@ -5313,9 +5633,9 @@
     "location": "Mississauga, ON (1679 Lakeshore Rd W)",
     "pricingQuoted": "$19/month",
     "initialContactDate": "2026-09-09T00:55:16.207Z",
-    "lastContactDate": "2026-09-09T00:55:16.207Z",
+    "lastContactDate": "2026-09-13T16:56:41.225804+00:00",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Pitch",
+    "sequenceStep": "Day 4 - Follow-up",
     "diagnosedIssues": "Heavy WordPress template with script overhead on mobile networks; consultation request requires multiple clicks instead of an instant mobile intake.",
     "caseStudySent": "https://beeclue.com/case-studies/tara-lattanzio?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-jmk-law",
     "history": [
@@ -5326,6 +5646,22 @@
         "resendId": "75e13fc3-bbc9-4a08-bdbd-fee90b5019c4",
         "status": "delivered",
         "notes": "Initial value-first outreach offering Core $19/month 5-page legal website plan, taralattanzio.ca case study, and free mockup offer."
+      },
+      {
+        "step": "Day 4-5",
+        "sentAt": "2026-09-13T16:53:36.569812+00:00",
+        "subject": "Re: Modernizing the website for JMK Law Barristers & Solicitors",
+        "resendId": "",
+        "status": "failed",
+        "notes": "Send failed, left at Day 0 for retry. Error: error code: 1010\n"
+      },
+      {
+        "step": "Day 4-5",
+        "sentAt": "2026-09-13T16:56:41.225804+00:00",
+        "subject": "Re: Modernizing the website for JMK Law Barristers & Solicitors",
+        "resendId": "83f15334-a3df-406d-bbbd-0784a2bbfb9e",
+        "status": "delivered",
+        "notes": "Threaded Day 4 follow-up: issue reminder + free 48-hour mockup offer."
       }
     ]
   },
@@ -5339,9 +5675,9 @@
     "location": "Mississauga, ON (320 Matheson Blvd W)",
     "pricingQuoted": "$19/month",
     "initialContactDate": "2026-09-09T00:55:17.339Z",
-    "lastContactDate": "2026-09-09T00:55:17.339Z",
+    "lastContactDate": "2026-09-13T16:56:43.461668+00:00",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Pitch",
+    "sequenceStep": "Day 4 - Follow-up",
     "diagnosedIssues": "Basic template layout with slow mobile page speed and lacks dedicated practice area consultation scheduling.",
     "caseStudySent": "https://beeclue.com/case-studies/tara-lattanzio?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-kuner-law",
     "history": [
@@ -5352,6 +5688,22 @@
         "resendId": "ad3cbd58-8a1f-4c12-b9ab-2de792b4431c",
         "status": "delivered",
         "notes": "Initial value-first outreach offering Core $19/month 5-page legal website plan, taralattanzio.ca case study, and free mockup offer."
+      },
+      {
+        "step": "Day 4-5",
+        "sentAt": "2026-09-13T16:53:38.672495+00:00",
+        "subject": "Re: Modernizing the website for Kuner Law",
+        "resendId": "",
+        "status": "failed",
+        "notes": "Send failed, left at Day 0 for retry. Error: error code: 1010\n"
+      },
+      {
+        "step": "Day 4-5",
+        "sentAt": "2026-09-13T16:56:43.461668+00:00",
+        "subject": "Re: Modernizing the website for Kuner Law",
+        "resendId": "7947c4a2-d556-418d-8fad-96680bbec8f6",
+        "status": "delivered",
+        "notes": "Threaded Day 4 follow-up: issue reminder + free 48-hour mockup offer."
       }
     ]
   },
@@ -5365,9 +5717,9 @@
     "location": "Mississauga, ON (4 Robert Speck Pkwy)",
     "pricingQuoted": "$19/month",
     "initialContactDate": "2026-09-09T00:55:18.297Z",
-    "lastContactDate": "2026-09-09T00:55:18.297Z",
+    "lastContactDate": "2026-09-13T16:56:45.722754+00:00",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Pitch",
+    "sequenceStep": "Day 4 - Follow-up",
     "diagnosedIssues": "Older desktop-first website design that takes time to load on mobile and lacks sticky tap-to-call for emergency bail inquiries.",
     "caseStudySent": "https://beeclue.com/case-studies/tara-lattanzio?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-randy-norris-law",
     "history": [
@@ -5378,6 +5730,22 @@
         "resendId": "60b842b1-2558-4198-891f-d8ca3959cd30",
         "status": "delivered",
         "notes": "Initial value-first outreach offering Core $19/month 5-page legal website plan, taralattanzio.ca case study, and free mockup offer."
+      },
+      {
+        "step": "Day 4-5",
+        "sentAt": "2026-09-13T16:53:40.771965+00:00",
+        "subject": "Re: Modernizing the website for Randy Norris Criminal Law",
+        "resendId": "",
+        "status": "failed",
+        "notes": "Send failed, left at Day 0 for retry. Error: error code: 1010\n"
+      },
+      {
+        "step": "Day 4-5",
+        "sentAt": "2026-09-13T16:56:45.722754+00:00",
+        "subject": "Re: Modernizing the website for Randy Norris Criminal Law",
+        "resendId": "62c51499-f8b9-45a5-9305-a242eeaee5d6",
+        "status": "delivered",
+        "notes": "Threaded Day 4 follow-up: issue reminder + free 48-hour mockup offer."
       }
     ]
   },
@@ -5391,9 +5759,9 @@
     "location": "Mississauga, ON (6375 Dixie Rd, Suite 201)",
     "pricingQuoted": "$19/month",
     "initialContactDate": "2026-09-09T00:55:19.223Z",
-    "lastContactDate": "2026-09-09T00:55:19.223Z",
+    "lastContactDate": "2026-09-13T16:56:48.564317+00:00",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Pitch",
+    "sequenceStep": "Day 4 - Follow-up",
     "diagnosedIssues": "High script load on mobile devices and multi-step consultation navigation slowing down client intake.",
     "caseStudySent": "https://beeclue.com/case-studies/tara-lattanzio?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-jsm-law",
     "history": [
@@ -5404,6 +5772,22 @@
         "resendId": "83f06ecf-ab53-40cd-a323-6b8073a8e8f0",
         "status": "delivered",
         "notes": "Initial value-first outreach offering Core $19/month 5-page legal website plan, taralattanzio.ca case study, and free mockup offer."
+      },
+      {
+        "step": "Day 4-5",
+        "sentAt": "2026-09-13T16:53:42.884762+00:00",
+        "subject": "Re: Modernizing the website for JSM Law",
+        "resendId": "",
+        "status": "failed",
+        "notes": "Send failed, left at Day 0 for retry. Error: error code: 1010\n"
+      },
+      {
+        "step": "Day 4-5",
+        "sentAt": "2026-09-13T16:56:48.564317+00:00",
+        "subject": "Re: Modernizing the website for JSM Law",
+        "resendId": "4a9214e7-41a7-490f-9ac8-8ca5e4d11bba",
+        "status": "delivered",
+        "notes": "Threaded Day 4 follow-up: issue reminder + free 48-hour mockup offer."
       }
     ]
   },
@@ -5417,9 +5801,9 @@
     "location": "Mississauga, ON (7111 Syntex Dr)",
     "pricingQuoted": "$19/month",
     "initialContactDate": "2026-09-09T00:55:20.140Z",
-    "lastContactDate": "2026-09-09T00:55:20.140Z",
+    "lastContactDate": "2026-09-13T16:56:50.799650+00:00",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Pitch",
+    "sequenceStep": "Day 4 - Follow-up",
     "diagnosedIssues": "Cluttered mobile navigation and uncompressed media slowing down mobile render times for urgent defense seekers.",
     "caseStudySent": "https://beeclue.com/case-studies/tara-lattanzio?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-aswani-datt-law",
     "history": [
@@ -5430,6 +5814,22 @@
         "resendId": "ef6861bf-d05e-45c9-bc3c-7bcefaaf00f2",
         "status": "delivered",
         "notes": "Initial value-first outreach offering Core $19/month 5-page legal website plan, taralattanzio.ca case study, and free mockup offer."
+      },
+      {
+        "step": "Day 4-5",
+        "sentAt": "2026-09-13T16:53:44.990805+00:00",
+        "subject": "Re: Modernizing the website for Aswani K. Datt Law Office",
+        "resendId": "",
+        "status": "failed",
+        "notes": "Send failed, left at Day 0 for retry. Error: error code: 1010\n"
+      },
+      {
+        "step": "Day 4-5",
+        "sentAt": "2026-09-13T16:56:50.799650+00:00",
+        "subject": "Re: Modernizing the website for Aswani K. Datt Law Office",
+        "resendId": "5b9f8531-6472-4528-a572-f6294c012906",
+        "status": "delivered",
+        "notes": "Threaded Day 4 follow-up: issue reminder + free 48-hour mockup offer."
       }
     ]
   },
@@ -7640,6 +8040,1934 @@
         "resendId": "164b6253-bc6e-405d-92c1-52d2a50f277d",
         "status": "delivered",
         "notes": "Initial value-first outreach offering Core $19/month 5-page legal website plan, taralattanzio.ca case study, and free mockup offer."
+      }
+    ]
+  },
+  {
+    "id": "steve-barnstead-law",
+    "firmName": "Law Office of Steve Barnstead",
+    "contactName": "Steve Barnstead (Principal Counsel / Partner)",
+    "email": "stevebarnstead@aol.com",
+    "website": "None (No active dedicated website)",
+    "niche": "Real Estate, Estate Planning & General Practice",
+    "location": "Elmira, NY (311 E Church St, Elmira, NY 14901)",
+    "pricingQuoted": "$19/month",
+    "initialContactDate": "2026-09-12T23:00:04.224Z",
+    "lastContactDate": "2026-09-12T23:00:04.224Z",
+    "status": "bounced",
+    "sequenceStep": "Day 0 - Initial Pitch",
+    "diagnosedIssues": "No active dedicated modern website; prospective clients discover contact information through third-party business directories and AOL email.",
+    "caseStudySent": "https://beeclue.com/case-studies/tara-lattanzio?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-steve-barnstead-law",
+    "history": [
+      {
+        "step": "Day 0",
+        "sentAt": "2026-09-12T23:00:04.224Z",
+        "subject": "Modernizing the website for Law Office of Steve Barnstead",
+        "resendId": "d5be76ed-4c50-490e-8030-474eb77523b7",
+        "status": "bounced",
+        "notes": "Initial value-first outreach offering Core $19/month 5-page legal website plan, taralattanzio.ca case study, and free mockup offer."
+      }
+    ]
+  },
+  {
+    "id": "cooper-pautz-weiermiller",
+    "firmName": "Cooper, Pautz & Weiermiller, LLP",
+    "contactName": "Sean Pautz (Principal Counsel / Partner)",
+    "email": "spautz@cpwdlaw.com",
+    "website": "Active / Older Template",
+    "niche": "Civil Litigation, Business & Municipal Law",
+    "location": "Elmira, NY (312 Lake St, Elmira, NY 14901)",
+    "pricingQuoted": "$19/month",
+    "initialContactDate": "2026-09-12T23:00:05.539Z",
+    "lastContactDate": "2026-09-12T23:00:05.539Z",
+    "status": "bounced",
+    "sequenceStep": "Day 0 - Initial Pitch",
+    "diagnosedIssues": "Legacy web template with desktop-centric layout and unoptimized mobile consultation routing.",
+    "caseStudySent": "https://beeclue.com/case-studies/tara-lattanzio?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-cooper-pautz-weiermiller",
+    "history": [
+      {
+        "step": "Day 0",
+        "sentAt": "2026-09-12T23:00:05.539Z",
+        "subject": "Modernizing the website for Cooper, Pautz & Weiermiller, LLP",
+        "resendId": "f36fa9c1-3161-4fb6-b37d-8321d1f731de",
+        "status": "bounced",
+        "notes": "Initial value-first outreach offering Core $19/month 5-page legal website plan, taralattanzio.ca case study, and free mockup offer."
+      }
+    ]
+  },
+  {
+    "id": "keyser-maloney-winner",
+    "firmName": "Keyser, Maloney & Winner, LLP",
+    "contactName": "John Maloney (Principal Counsel / Partner)",
+    "email": "jmaloney@knw-law.com",
+    "website": "Active / Older Template",
+    "niche": "Litigation, Real Estate & Commercial Law",
+    "location": "Elmira, NY (150 Lake St, 2nd Fl, Elmira, NY 14901)",
+    "pricingQuoted": "$19/month",
+    "initialContactDate": "2026-09-12T23:00:06.659Z",
+    "lastContactDate": "2026-09-12T23:00:06.659Z",
+    "status": "bounced",
+    "sequenceStep": "Day 0 - Initial Pitch",
+    "diagnosedIssues": "Older desktop-first architecture with slower mobile load times and lack of instant consultation triage.",
+    "caseStudySent": "https://beeclue.com/case-studies/tara-lattanzio?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-keyser-maloney-winner",
+    "history": [
+      {
+        "step": "Day 0",
+        "sentAt": "2026-09-12T23:00:06.659Z",
+        "subject": "Modernizing the website for Keyser, Maloney & Winner, LLP",
+        "resendId": "7c50f86b-eb56-4884-963b-1eb152649e91",
+        "status": "bounced",
+        "notes": "Initial value-first outreach offering Core $19/month 5-page legal website plan, taralattanzio.ca case study, and free mockup offer."
+      }
+    ]
+  },
+  {
+    "id": "rossettie-rossettie-martino",
+    "firmName": "Rossettie, Rossettie & Martino, LLP",
+    "contactName": "Steve Rossettie (Principal Counsel / Partner)",
+    "email": "steve@rrmlaw.com",
+    "website": "Active / Older Template",
+    "niche": "Personal Injury, Criminal Defense & Family Law",
+    "location": "Corning, NY (13 E Steuben St, Bath / Corning, NY 14810)",
+    "pricingQuoted": "$19/month",
+    "initialContactDate": "2026-09-12T23:00:07.764Z",
+    "lastContactDate": "2026-09-16T17:14:50.708Z",
+    "status": "delivered",
+    "sequenceStep": "Day 4 - Follow-up",
+    "diagnosedIssues": "Dated web framework lacking modern tap-to-call mobile triage and responsive case evaluation intake.",
+    "caseStudySent": "https://beeclue.com/case-studies/tara-lattanzio?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-rossettie-rossettie-martino",
+    "history": [
+      {
+        "step": "Day 0",
+        "sentAt": "2026-09-12T23:00:07.764Z",
+        "subject": "Modernizing the website for Rossettie, Rossettie & Martino, LLP",
+        "resendId": "8feea8f5-6250-40f0-8df5-13a41d21e839",
+        "status": "delivered",
+        "notes": "Initial value-first outreach offering Core $19/month 5-page legal website plan, taralattanzio.ca case study, and free mockup offer."
+      },
+      {
+        "step": "Day 4",
+        "sentAt": "2026-09-16T17:14:50.708Z",
+        "subject": "Re: Modernizing the website for Rossettie, Rossettie & Martino, LLP",
+        "resendId": "01a0ab36-cd37-756f-a355-d268a9ab409b",
+        "status": "delivered",
+        "notes": "Threaded Day 4 follow-up on custom website mockup preview offer."
+      }
+    ]
+  },
+  {
+    "id": "murphys-law-ny",
+    "firmName": "Murphy's Law",
+    "contactName": "Ed Murphy (Principal Counsel / Partner)",
+    "email": "ed@murphyslaw.xyz",
+    "website": "Active / Older Template",
+    "niche": "Real Estate, Municipal & Estate Planning",
+    "location": "Hammondsport, NY (Hammondsport, NY 14840)",
+    "pricingQuoted": "$19/month",
+    "initialContactDate": "2026-09-12T23:00:08.929Z",
+    "lastContactDate": "2026-09-16T17:14:51.635Z",
+    "status": "delivered",
+    "sequenceStep": "Day 4 - Follow-up",
+    "diagnosedIssues": "Non-traditional domain setup with minimal mobile optimization and lack of structured practice area pages.",
+    "caseStudySent": "https://beeclue.com/case-studies/tara-lattanzio?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-murphys-law-ny",
+    "history": [
+      {
+        "step": "Day 0",
+        "sentAt": "2026-09-12T23:00:08.929Z",
+        "subject": "Modernizing the website for Murphy's Law",
+        "resendId": "31486e64-6b4a-48e9-8d5e-dd8db0f00515",
+        "status": "delivered",
+        "notes": "Initial value-first outreach offering Core $19/month 5-page legal website plan, taralattanzio.ca case study, and free mockup offer."
+      },
+      {
+        "step": "Day 4",
+        "sentAt": "2026-09-16T17:14:51.635Z",
+        "subject": "Re: Modernizing the website for Murphy's Law",
+        "resendId": "01a0ab36-d123-711d-a8ef-3e4458e201e6",
+        "status": "delivered",
+        "notes": "Threaded Day 4 follow-up on custom website mockup preview offer."
+      }
+    ]
+  },
+  {
+    "id": "william-reed-law",
+    "firmName": "William H. Reed PC",
+    "contactName": "William H. Reed (Principal Counsel / Partner)",
+    "email": "bill@williamhreedlaw.com",
+    "website": "Active / Older Template",
+    "niche": "General Practice, Real Estate & Business Law",
+    "location": "Hammondsport, NY (Hammondsport, NY 14840)",
+    "pricingQuoted": "$19/month",
+    "initialContactDate": "2026-09-12T23:00:10.099Z",
+    "lastContactDate": "2026-09-16T17:14:52.553Z",
+    "status": "delivered",
+    "sequenceStep": "Day 4 - Follow-up",
+    "diagnosedIssues": "Older static website lacking responsive tap-to-call navigation and SSL/security badge visibility on mobile.",
+    "caseStudySent": "https://beeclue.com/case-studies/tara-lattanzio?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-william-reed-law",
+    "history": [
+      {
+        "step": "Day 0",
+        "sentAt": "2026-09-12T23:00:10.099Z",
+        "subject": "Modernizing the website for William H. Reed PC",
+        "resendId": "b18afc6a-010b-4987-a9a9-7abc24d6bf32",
+        "status": "delivered",
+        "notes": "Initial value-first outreach offering Core $19/month 5-page legal website plan, taralattanzio.ca case study, and free mockup offer."
+      },
+      {
+        "step": "Day 4",
+        "sentAt": "2026-09-16T17:14:52.553Z",
+        "subject": "Re: Modernizing the website for William H. Reed PC",
+        "resendId": "01a0ab36-d4bb-77ba-9d79-dee2f301b443",
+        "status": "delivered",
+        "notes": "Threaded Day 4 follow-up on custom website mockup preview offer."
+      }
+    ]
+  },
+  {
+    "id": "timothy-buckley-law",
+    "firmName": "Timothy J. Buckley, Attorney at Law",
+    "contactName": "Timothy J. Buckley (Principal Counsel / Partner)",
+    "email": "buckleyt1@verizon.net",
+    "website": "None (No active dedicated website)",
+    "niche": "Real Estate, Probate & Elder Law",
+    "location": "Geneva, NY (116 Castle St, Geneva, NY 14456)",
+    "pricingQuoted": "$19/month",
+    "initialContactDate": "2026-09-12T23:00:11.233Z",
+    "lastContactDate": "2026-09-16T17:14:53.538Z",
+    "status": "delivered",
+    "sequenceStep": "Day 4 - Follow-up",
+    "diagnosedIssues": "No active dedicated website; practice presence is limited to directory aggregator listings and legacy ISP email.",
+    "caseStudySent": "https://beeclue.com/case-studies/tara-lattanzio?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-timothy-buckley-law",
+    "history": [
+      {
+        "step": "Day 0",
+        "sentAt": "2026-09-12T23:00:11.233Z",
+        "subject": "Modernizing the website for Timothy J. Buckley, Attorney at Law",
+        "resendId": "f97e4045-7a96-4749-9fce-f46ca822603b",
+        "status": "delivered",
+        "notes": "Initial value-first outreach offering Core $19/month 5-page legal website plan, taralattanzio.ca case study, and free mockup offer."
+      },
+      {
+        "step": "Day 4",
+        "sentAt": "2026-09-16T17:14:53.538Z",
+        "subject": "Re: Modernizing the website for Timothy J. Buckley, Attorney at Law",
+        "resendId": "01a0ab36-d89c-720e-80b1-e93bf59bda5a",
+        "status": "delivered",
+        "notes": "Threaded Day 4 follow-up on custom website mockup preview offer."
+      }
+    ]
+  },
+  {
+    "id": "heaton-venuti-law",
+    "firmName": "Law Offices of Heaton & Venuti",
+    "contactName": "Murray P. Heaton (Principal Counsel / Partner)",
+    "email": "murray@heatonandvenuti.com",
+    "website": "Active / Older Template",
+    "niche": "Civil Practice, Real Estate & Estates",
+    "location": "Geneva, NY (Geneva, NY 14456)",
+    "pricingQuoted": "$19/month",
+    "initialContactDate": "2026-09-12T23:00:12.346Z",
+    "lastContactDate": "2026-09-16T17:14:54.488Z",
+    "status": "delivered",
+    "sequenceStep": "Day 4 - Follow-up",
+    "diagnosedIssues": "Legacy web template with desktop-oriented styling and slow initial render on mobile connections.",
+    "caseStudySent": "https://beeclue.com/case-studies/tara-lattanzio?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-heaton-venuti-law",
+    "history": [
+      {
+        "step": "Day 0",
+        "sentAt": "2026-09-12T23:00:12.346Z",
+        "subject": "Modernizing the website for Law Offices of Heaton & Venuti",
+        "resendId": "86e68cae-bd0f-44c0-9b81-1f855458de63",
+        "status": "delivered",
+        "notes": "Initial value-first outreach offering Core $19/month 5-page legal website plan, taralattanzio.ca case study, and free mockup offer."
+      },
+      {
+        "step": "Day 4",
+        "sentAt": "2026-09-16T17:14:54.488Z",
+        "subject": "Re: Modernizing the website for Law Offices of Heaton & Venuti",
+        "resendId": "01a0ab36-dc33-7673-b7dc-f05cbdea05c6",
+        "status": "delivered",
+        "notes": "Threaded Day 4 follow-up on custom website mockup preview offer."
+      }
+    ]
+  },
+  {
+    "id": "leslie-cohen-hickey-law",
+    "firmName": "Law Office of Leslie Cohen Hickey",
+    "contactName": "Leslie Cohen Hickey (Principal Counsel / Partner)",
+    "email": "lcohenhickey@gmail.com",
+    "website": "None (No active dedicated website)",
+    "niche": "Family Law & General Practice",
+    "location": "Geneva, NY (Geneva, NY 14456)",
+    "pricingQuoted": "$19/month",
+    "initialContactDate": "2026-09-12T23:00:13.471Z",
+    "lastContactDate": "2026-09-16T17:14:55.427Z",
+    "status": "delivered",
+    "sequenceStep": "Day 4 - Follow-up",
+    "diagnosedIssues": "No active dedicated modern website; inquiries route through third-party directory profiles and Gmail.",
+    "caseStudySent": "https://beeclue.com/case-studies/tara-lattanzio?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-leslie-cohen-hickey-law",
+    "history": [
+      {
+        "step": "Day 0",
+        "sentAt": "2026-09-12T23:00:13.471Z",
+        "subject": "Modernizing the website for Law Office of Leslie Cohen Hickey",
+        "resendId": "d21be866-fab5-40f4-94bd-297073e469e5",
+        "status": "delivered",
+        "notes": "Initial value-first outreach offering Core $19/month 5-page legal website plan, taralattanzio.ca case study, and free mockup offer."
+      },
+      {
+        "step": "Day 4",
+        "sentAt": "2026-09-16T17:14:55.427Z",
+        "subject": "Re: Modernizing the website for Law Office of Leslie Cohen Hickey",
+        "resendId": "01a0ab36-dfe3-74a3-9287-001dfaf2e78a",
+        "status": "delivered",
+        "notes": "Threaded Day 4 follow-up on custom website mockup preview offer."
+      }
+    ]
+  },
+  {
+    "id": "mario-fratto-law",
+    "firmName": "The Law Office of Mario J. Fratto",
+    "contactName": "Mario J. Fratto (Principal Counsel / Partner)",
+    "email": "Mario@FrattoLaw.com",
+    "website": "Active / Older Template",
+    "niche": "Criminal Defense, DWI & Civil Practice",
+    "location": "Geneva, NY (Geneva, NY 14456)",
+    "pricingQuoted": "$19/month",
+    "initialContactDate": "2026-09-12T23:00:14.573Z",
+    "lastContactDate": "2026-09-16T17:14:56.375Z",
+    "status": "delivered",
+    "sequenceStep": "Day 4 - Follow-up",
+    "diagnosedIssues": "Older web template with slow mobile performance and missing interactive consultation intake funnel.",
+    "caseStudySent": "https://beeclue.com/case-studies/tara-lattanzio?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-mario-fratto-law",
+    "history": [
+      {
+        "step": "Day 0",
+        "sentAt": "2026-09-12T23:00:14.573Z",
+        "subject": "Modernizing the website for The Law Office of Mario J. Fratto",
+        "resendId": "3177cff9-bffd-4e16-ae69-90461b03804b",
+        "status": "delivered",
+        "notes": "Initial value-first outreach offering Core $19/month 5-page legal website plan, taralattanzio.ca case study, and free mockup offer."
+      },
+      {
+        "step": "Day 4",
+        "sentAt": "2026-09-16T17:14:56.375Z",
+        "subject": "Re: Modernizing the website for The Law Office of Mario J. Fratto",
+        "resendId": "01a0ab36-e398-74cf-a60c-8c1161a31803",
+        "status": "delivered",
+        "notes": "Threaded Day 4 follow-up on custom website mockup preview offer."
+      }
+    ]
+  },
+  {
+    "id": "huffman-law-pc",
+    "firmName": "Huffman Law Firm, P.C.",
+    "contactName": "Justin Huffman (Principal Counsel / Partner)",
+    "email": "justin@huffmanlawpc.com",
+    "website": "Active / Older Template",
+    "niche": "Bankruptcy, Debt Relief & Estate Planning",
+    "location": "Auburn, NY (Auburn, NY 13021)",
+    "pricingQuoted": "$19/month",
+    "initialContactDate": "2026-09-12T23:00:15.741Z",
+    "lastContactDate": "2026-09-16T17:14:57.304Z",
+    "status": "delivered",
+    "sequenceStep": "Day 4 - Follow-up",
+    "diagnosedIssues": "Desktop-first template lacking prominent mobile sticky contact actions and consultation triage.",
+    "caseStudySent": "https://beeclue.com/case-studies/tara-lattanzio?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-huffman-law-pc",
+    "history": [
+      {
+        "step": "Day 0",
+        "sentAt": "2026-09-12T23:00:15.741Z",
+        "subject": "Modernizing the website for Huffman Law Firm, P.C.",
+        "resendId": "d9d785e4-9cd4-4cf3-a46c-163f689974dd",
+        "status": "delivered",
+        "notes": "Initial value-first outreach offering Core $19/month 5-page legal website plan, taralattanzio.ca case study, and free mockup offer."
+      },
+      {
+        "step": "Day 4",
+        "sentAt": "2026-09-16T17:14:57.304Z",
+        "subject": "Re: Modernizing the website for Huffman Law Firm, P.C.",
+        "resendId": "01a0ab36-e749-77d9-a677-aca67be6c9a5",
+        "status": "delivered",
+        "notes": "Threaded Day 4 follow-up on custom website mockup preview offer."
+      }
+    ]
+  },
+  {
+    "id": "sloan-legal-ny",
+    "firmName": "Sloan Legal",
+    "contactName": "Todd Hunter Sloan (Principal Counsel / Partner)",
+    "email": "sloan@sloan-legal.com",
+    "website": "Active / Older Template",
+    "niche": "Real Estate, Commercial & Business Law",
+    "location": "Auburn, NY (Auburn, NY 13021)",
+    "pricingQuoted": "$19/month",
+    "initialContactDate": "2026-09-12T23:00:16.967Z",
+    "lastContactDate": "2026-09-16T17:14:58.250Z",
+    "status": "delivered",
+    "sequenceStep": "Day 4 - Follow-up",
+    "diagnosedIssues": "Basic web layout with unoptimized mobile typography and absent modern case evaluation intake.",
+    "caseStudySent": "https://beeclue.com/case-studies/tara-lattanzio?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-sloan-legal-ny",
+    "history": [
+      {
+        "step": "Day 0",
+        "sentAt": "2026-09-12T23:00:16.967Z",
+        "subject": "Modernizing the website for Sloan Legal",
+        "resendId": "881cfb5c-948d-4861-861a-26682d92dfa7",
+        "status": "delivered",
+        "notes": "Initial value-first outreach offering Core $19/month 5-page legal website plan, taralattanzio.ca case study, and free mockup offer."
+      },
+      {
+        "step": "Day 4",
+        "sentAt": "2026-09-16T17:14:58.250Z",
+        "subject": "Re: Modernizing the website for Sloan Legal",
+        "resendId": "01a0ab36-eb06-7068-8c81-2d06f3a26b5d",
+        "status": "delivered",
+        "notes": "Threaded Day 4 follow-up on custom website mockup preview offer."
+      }
+    ]
+  },
+  {
+    "id": "dvg-law-ny",
+    "firmName": "DVG Law",
+    "contactName": "Dominic Giacona (Principal Counsel / Partner)",
+    "email": "dgiacona@dvglaw.us",
+    "website": "Active / Older Template",
+    "niche": "Litigation, Real Estate & Municipal Law",
+    "location": "Auburn, NY (Auburn, NY 13021)",
+    "pricingQuoted": "$19/month",
+    "initialContactDate": "2026-09-12T23:00:18.082Z",
+    "lastContactDate": "2026-09-16T17:14:59.197Z",
+    "status": "delivered",
+    "sequenceStep": "Day 4 - Follow-up",
+    "diagnosedIssues": "Older web design lacking modern responsive mobile styling and instant consultation triage.",
+    "caseStudySent": "https://beeclue.com/case-studies/tara-lattanzio?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-dvg-law-ny",
+    "history": [
+      {
+        "step": "Day 0",
+        "sentAt": "2026-09-12T23:00:18.082Z",
+        "subject": "Modernizing the website for DVG Law",
+        "resendId": "05819883-1dd7-40b3-9f24-dff037bcd6f7",
+        "status": "delivered",
+        "notes": "Initial value-first outreach offering Core $19/month 5-page legal website plan, taralattanzio.ca case study, and free mockup offer."
+      },
+      {
+        "step": "Day 4",
+        "sentAt": "2026-09-16T17:14:59.197Z",
+        "subject": "Re: Modernizing the website for DVG Law",
+        "resendId": "01a0ab36-ee9d-72a8-b3df-cc54c063db99",
+        "status": "delivered",
+        "notes": "Threaded Day 4 follow-up on custom website mockup preview offer."
+      }
+    ]
+  },
+  {
+    "id": "hampsey-law-firm",
+    "firmName": "Hampsey Law Firm, LLC",
+    "contactName": "Stephen P. Hampsey (Principal Counsel / Partner)",
+    "email": "steve@hampseylaw.com",
+    "website": "Active / Older Template",
+    "niche": "Real Estate, Municipal & Estate Planning",
+    "location": "Penn Yan, NY (Penn Yan, NY 14527)",
+    "pricingQuoted": "$19/month",
+    "initialContactDate": "2026-09-12T23:00:19.228Z",
+    "lastContactDate": "2026-09-16T17:15:00.131Z",
+    "status": "delivered",
+    "sequenceStep": "Day 4 - Follow-up",
+    "diagnosedIssues": "Static website layout with slow mobile page speed and absent interactive inquiry triage.",
+    "caseStudySent": "https://beeclue.com/case-studies/tara-lattanzio?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-hampsey-law-firm",
+    "history": [
+      {
+        "step": "Day 0",
+        "sentAt": "2026-09-12T23:00:19.228Z",
+        "subject": "Modernizing the website for Hampsey Law Firm, LLC",
+        "resendId": "7787c746-255a-4c4a-9837-c3cd99e177dd",
+        "status": "delivered",
+        "notes": "Initial value-first outreach offering Core $19/month 5-page legal website plan, taralattanzio.ca case study, and free mockup offer."
+      },
+      {
+        "step": "Day 4",
+        "sentAt": "2026-09-16T17:15:00.131Z",
+        "subject": "Re: Modernizing the website for Hampsey Law Firm, LLC",
+        "resendId": "01a0ab36-f252-759f-af5e-0aa6fd99db87",
+        "status": "delivered",
+        "notes": "Threaded Day 4 follow-up on custom website mockup preview offer."
+      }
+    ]
+  },
+  {
+    "id": "daniel-green-law",
+    "firmName": "The Law Office of Daniel E. Green",
+    "contactName": "Daniel E. Green (Principal Counsel / Partner)",
+    "email": "lawyer@hudsonvalleyimmigrationlaw.com",
+    "website": "Active / Older Template",
+    "niche": "Immigration & Nationality Law",
+    "location": "Kingston, NY (Kingston, NY 12401)",
+    "pricingQuoted": "$19/month",
+    "initialContactDate": "2026-09-12T23:00:20.375Z",
+    "lastContactDate": "2026-09-16T17:15:01.067Z",
+    "status": "delivered",
+    "sequenceStep": "Day 4 - Follow-up",
+    "diagnosedIssues": "Desktop-oriented template with slow mobile navigation and lack of bilingual mobile consultation triage.",
+    "caseStudySent": "https://beeclue.com/case-studies/tara-lattanzio?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-daniel-green-law",
+    "history": [
+      {
+        "step": "Day 0",
+        "sentAt": "2026-09-12T23:00:20.375Z",
+        "subject": "Modernizing the website for The Law Office of Daniel E. Green",
+        "resendId": "4c6e76ac-2f5a-4951-ae90-b606345020ef",
+        "status": "delivered",
+        "notes": "Initial value-first outreach offering Core $19/month 5-page legal website plan, taralattanzio.ca case study, and free mockup offer."
+      },
+      {
+        "step": "Day 4",
+        "sentAt": "2026-09-16T17:15:01.067Z",
+        "subject": "Re: Modernizing the website for The Law Office of Daniel E. Green",
+        "resendId": "01a0ab36-f5f9-706b-a9c4-da497afe27b4",
+        "status": "delivered",
+        "notes": "Threaded Day 4 follow-up on custom website mockup preview offer."
+      }
+    ]
+  },
+  {
+    "id": "steven-melley-law",
+    "firmName": "Law Office of Steven M. Melley P.L.L.C.",
+    "contactName": "Steven M. Melley (Principal Counsel / Partner)",
+    "email": "lawmelley@gmail.com",
+    "website": "Active / Older Template",
+    "niche": "Personal Injury & Civil Litigation",
+    "location": "Rhinebeck, NY (Rhinebeck, NY 12572)",
+    "pricingQuoted": "$19/month",
+    "initialContactDate": "2026-09-12T23:00:21.511Z",
+    "lastContactDate": "2026-09-16T17:15:02.200Z",
+    "status": "delivered",
+    "sequenceStep": "Day 4 - Follow-up",
+    "diagnosedIssues": "No active modern standalone website; practice visibility is driven by third-party legal registries and directory pages.",
+    "caseStudySent": "https://beeclue.com/case-studies/tara-lattanzio?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-steven-melley-law",
+    "history": [
+      {
+        "step": "Day 0",
+        "sentAt": "2026-09-12T23:00:21.511Z",
+        "subject": "Modernizing the website for Law Office of Steven M. Melley P.L.L.C.",
+        "resendId": "cd1e2f86-91cc-4ab2-a089-84f58db0b6c5",
+        "status": "delivered",
+        "notes": "Initial value-first outreach offering Core $19/month 5-page legal website plan, taralattanzio.ca case study, and free mockup offer."
+      },
+      {
+        "step": "Day 4",
+        "sentAt": "2026-09-16T17:15:02.200Z",
+        "subject": "Re: Modernizing the website for Law Office of Steven M. Melley P.L.L.C.",
+        "resendId": "01a0ab36-f994-701f-9cea-5180bdbcaab3",
+        "status": "delivered",
+        "notes": "Threaded Day 4 follow-up on custom website mockup preview offer."
+      }
+    ]
+  },
+  {
+    "id": "heather-nappi-law",
+    "firmName": "The Law Office of Heather M. Nappi, P.C.",
+    "contactName": "Heather M. Nappi (Principal Counsel / Partner)",
+    "email": "hnappilaw@gmail.com",
+    "website": "Active / Older Template",
+    "niche": "Family Law & Matrimonial Mediation",
+    "location": "Rhinebeck, NY (Rhinebeck / Fishkill, NY 12572)",
+    "pricingQuoted": "$19/month",
+    "initialContactDate": "2026-09-12T23:00:22.669Z",
+    "lastContactDate": "2026-09-16T17:15:03.389Z",
+    "status": "delivered",
+    "sequenceStep": "Day 4 - Follow-up",
+    "diagnosedIssues": "No active modern standalone website; contact listings dispersed across third-party directories with inquiries directed to Gmail.",
+    "caseStudySent": "https://beeclue.com/case-studies/tara-lattanzio?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-heather-nappi-law",
+    "history": [
+      {
+        "step": "Day 0",
+        "sentAt": "2026-09-12T23:00:22.669Z",
+        "subject": "Modernizing the website for The Law Office of Heather M. Nappi, P.C.",
+        "resendId": "5757f561-0e6b-40bb-bbc3-f836291487b3",
+        "status": "delivered",
+        "notes": "Initial value-first outreach offering Core $19/month 5-page legal website plan, taralattanzio.ca case study, and free mockup offer."
+      },
+      {
+        "step": "Day 4",
+        "sentAt": "2026-09-16T17:15:03.389Z",
+        "subject": "Re: Modernizing the website for The Law Office of Heather M. Nappi, P.C.",
+        "resendId": "01a0ab36-fe0e-76ad-afa0-0f9c29a8562f",
+        "status": "delivered",
+        "notes": "Threaded Day 4 follow-up on custom website mockup preview offer."
+      }
+    ]
+  },
+  {
+    "id": "johnathan-cartelli-law",
+    "firmName": "Law Office of Johnathan Cartelli, Esq.",
+    "contactName": "Johnathan Cartelli (Principal Counsel / Partner)",
+    "email": "jcartellilaw@gmail.com",
+    "website": "None (No active dedicated website)",
+    "niche": "Real Estate & Estate Planning",
+    "location": "Long Island, NY (Long Island / Middle Island, NY 11953)",
+    "pricingQuoted": "$19/month",
+    "initialContactDate": "2026-09-12T23:00:23.796Z",
+    "lastContactDate": "2026-09-16T17:15:04.595Z",
+    "status": "delivered",
+    "sequenceStep": "Day 4 - Follow-up",
+    "diagnosedIssues": "No active dedicated website; relying on local directory pages and Gmail for client communications.",
+    "caseStudySent": "https://beeclue.com/case-studies/tara-lattanzio?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-johnathan-cartelli-law",
+    "history": [
+      {
+        "step": "Day 0",
+        "sentAt": "2026-09-12T23:00:23.796Z",
+        "subject": "Modernizing the website for Law Office of Johnathan Cartelli, Esq.",
+        "resendId": "e7950eb7-0e5f-44a9-b496-5de72acb8ada",
+        "status": "delivered",
+        "notes": "Initial value-first outreach offering Core $19/month 5-page legal website plan, taralattanzio.ca case study, and free mockup offer."
+      },
+      {
+        "step": "Day 4",
+        "sentAt": "2026-09-16T17:15:04.595Z",
+        "subject": "Re: Modernizing the website for Law Office of Johnathan Cartelli, Esq.",
+        "resendId": "01a0ab37-031c-77cc-9c57-3aaef51506f2",
+        "status": "delivered",
+        "notes": "Threaded Day 4 follow-up on custom website mockup preview offer."
+      }
+    ]
+  },
+  {
+    "id": "samuel-rogers-law",
+    "firmName": "Samuel K. Rogers, Attorney at Law",
+    "contactName": "Samuel K. Rogers (Principal Counsel / Partner)",
+    "email": "samkrogers@gmail.com",
+    "website": "Active / Older Template",
+    "niche": "Criminal Defense & Civil Litigation",
+    "location": "Westchester County, NY (Peekskill / Westchester County, NY 10566)",
+    "pricingQuoted": "$19/month",
+    "initialContactDate": "2026-09-12T23:00:24.910Z",
+    "lastContactDate": "2026-09-16T17:15:05.531Z",
+    "status": "delivered",
+    "sequenceStep": "Day 4 - Follow-up",
+    "diagnosedIssues": "No active standalone website; practice presence limited to business registries and Gmail.",
+    "caseStudySent": "https://beeclue.com/case-studies/tara-lattanzio?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-samuel-rogers-law",
+    "history": [
+      {
+        "step": "Day 0",
+        "sentAt": "2026-09-12T23:00:24.910Z",
+        "subject": "Modernizing the website for Samuel K. Rogers, Attorney at Law",
+        "resendId": "0b390384-4608-456a-bffd-bf5344027459",
+        "status": "delivered",
+        "notes": "Initial value-first outreach offering Core $19/month 5-page legal website plan, taralattanzio.ca case study, and free mockup offer."
+      },
+      {
+        "step": "Day 4",
+        "sentAt": "2026-09-16T17:15:05.531Z",
+        "subject": "Re: Modernizing the website for Samuel K. Rogers, Attorney at Law",
+        "resendId": "01a0ab37-075f-75da-bed0-9e19d5c1b6fa",
+        "status": "delivered",
+        "notes": "Threaded Day 4 follow-up on custom website mockup preview offer."
+      }
+    ]
+  },
+  {
+    "id": "cheryl-merritt-giles-law",
+    "firmName": "Cheryl A. Merritt-Giles, Attorney at Law",
+    "contactName": "Cheryl A. Merritt-Giles (Principal Counsel / Partner)",
+    "email": "camerrittlaw@gmail.com",
+    "website": "None (No active dedicated website)",
+    "niche": "Family Law & Civil Litigation",
+    "location": "Westchester County, NY (Ossining / Westchester County, NY 10562)",
+    "pricingQuoted": "$19/month",
+    "initialContactDate": "2026-09-12T23:00:26.132Z",
+    "lastContactDate": "2026-09-16T17:15:06.535Z",
+    "status": "delivered",
+    "sequenceStep": "Day 4 - Follow-up",
+    "diagnosedIssues": "No active dedicated website; prospective clients discover contact information through regional business directories.",
+    "caseStudySent": "https://beeclue.com/case-studies/tara-lattanzio?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-cheryl-merritt-giles-law",
+    "history": [
+      {
+        "step": "Day 0",
+        "sentAt": "2026-09-12T23:00:26.132Z",
+        "subject": "Modernizing the website for Cheryl A. Merritt-Giles, Attorney at Law",
+        "resendId": "9dcd3844-7ce9-4dcf-a453-9c1013db6cac",
+        "status": "delivered",
+        "notes": "Initial value-first outreach offering Core $19/month 5-page legal website plan, taralattanzio.ca case study, and free mockup offer."
+      },
+      {
+        "step": "Day 4",
+        "sentAt": "2026-09-16T17:15:06.535Z",
+        "subject": "Re: Modernizing the website for Cheryl A. Merritt-Giles, Attorney at Law",
+        "resendId": "01a0ab37-0b07-71b5-8ac9-025f42c2c892",
+        "status": "delivered",
+        "notes": "Threaded Day 4 follow-up on custom website mockup preview offer."
+      }
+    ]
+  },
+  {
+    "id": "eason-law-office",
+    "firmName": "Eason Law Office",
+    "contactName": "Matthew R. Eason (Principal Counsel / Partner)",
+    "email": "meason@easonlawoffice.com",
+    "website": "Active / Older Template",
+    "niche": "Criminal Defense, Family Law & Civil Litigation",
+    "location": "Oswego, NY (123 W 5th St, Oswego, NY 13126)",
+    "pricingQuoted": "$19/month",
+    "initialContactDate": "2026-09-12T23:00:27.277Z",
+    "lastContactDate": "2026-09-16T17:15:07.462Z",
+    "status": "delivered",
+    "sequenceStep": "Day 4 - Follow-up",
+    "diagnosedIssues": "Dated web template with slow mobile asset delivery and absence of modern consultation intake forms.",
+    "caseStudySent": "https://beeclue.com/case-studies/tara-lattanzio?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-eason-law-office",
+    "history": [
+      {
+        "step": "Day 0",
+        "sentAt": "2026-09-12T23:00:27.277Z",
+        "subject": "Modernizing the website for Eason Law Office",
+        "resendId": "6b75e941-512e-4a32-a5c8-223a6edd4f93",
+        "status": "delivered",
+        "notes": "Initial value-first outreach offering Core $19/month 5-page legal website plan, taralattanzio.ca case study, and free mockup offer."
+      },
+      {
+        "step": "Day 4",
+        "sentAt": "2026-09-16T17:15:07.462Z",
+        "subject": "Re: Modernizing the website for Eason Law Office",
+        "resendId": "01a0ab37-0ef1-714b-9b81-8ef1e38abd0f",
+        "status": "delivered",
+        "notes": "Threaded Day 4 follow-up on custom website mockup preview offer."
+      }
+    ]
+  },
+  {
+    "id": "scott-bush-law",
+    "firmName": "Scott C. Bush, Esq.",
+    "contactName": "Scott C. Bush (Principal Counsel / Partner)",
+    "email": "scbushlaw@gmail.com",
+    "website": "None (No active dedicated website)",
+    "niche": "Real Estate & Estate Planning",
+    "location": "Oswego, NY (Oswego, NY 13126)",
+    "pricingQuoted": "$19/month",
+    "initialContactDate": "2026-09-12T23:00:28.441Z",
+    "lastContactDate": "2026-09-12T23:00:28.441Z",
+    "status": "bounced",
+    "sequenceStep": "Day 0 - Initial Pitch",
+    "diagnosedIssues": "No active dedicated website; practice relies on directory aggregator listings and Gmail.",
+    "caseStudySent": "https://beeclue.com/case-studies/tara-lattanzio?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-scott-bush-law",
+    "history": [
+      {
+        "step": "Day 0",
+        "sentAt": "2026-09-12T23:00:28.441Z",
+        "subject": "Modernizing the website for Scott C. Bush, Esq.",
+        "resendId": "6f91d67a-4a9a-45f0-b8d2-d7d48c56e442",
+        "status": "bounced",
+        "notes": "Initial value-first outreach offering Core $19/month 5-page legal website plan, taralattanzio.ca case study, and free mockup offer."
+      }
+    ]
+  },
+  {
+    "id": "meyer-meyer-law",
+    "firmName": "Meyer & Meyer",
+    "contactName": "Justin R. Meyer (Principal Counsel / Partner)",
+    "email": "jmeyer@meyermeyerlaw.com",
+    "website": "Active / Older Template",
+    "niche": "Criminal Defense, Family Law & Personal Injury",
+    "location": "Plattsburgh, NY (Plattsburgh, NY 12901)",
+    "pricingQuoted": "$19/month",
+    "initialContactDate": "2026-09-12T23:00:29.564Z",
+    "lastContactDate": "2026-09-12T23:00:29.564Z",
+    "status": "bounced",
+    "sequenceStep": "Day 0 - Initial Pitch",
+    "diagnosedIssues": "Desktop-oriented template with sluggish mobile render and lack of instant tap-to-call triage.",
+    "caseStudySent": "https://beeclue.com/case-studies/tara-lattanzio?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-meyer-meyer-law",
+    "history": [
+      {
+        "step": "Day 0",
+        "sentAt": "2026-09-12T23:00:29.564Z",
+        "subject": "Modernizing the website for Meyer & Meyer",
+        "resendId": "9ea2721b-0a89-418d-ac65-9947fbe583c1",
+        "status": "bounced",
+        "notes": "Initial value-first outreach offering Core $19/month 5-page legal website plan, taralattanzio.ca case study, and free mockup offer."
+      }
+    ]
+  },
+  {
+    "id": "john-rashak-law",
+    "firmName": "Law Office of John J. Rashak",
+    "contactName": "John J. Rashak (Principal Counsel / Partner)",
+    "email": "jrashak@aol.com",
+    "website": "None (No active dedicated website)",
+    "niche": "General Practice, Real Estate & Environmental Law",
+    "location": "Plattsburgh, NY (Plattsburgh, NY 12901)",
+    "pricingQuoted": "$19/month",
+    "initialContactDate": "2026-09-12T23:00:30.729Z",
+    "lastContactDate": "2026-09-12T23:00:30.729Z",
+    "status": "bounced",
+    "sequenceStep": "Day 0 - Initial Pitch",
+    "diagnosedIssues": "No active dedicated modern website; inquiries route through third-party business directories and AOL email.",
+    "caseStudySent": "https://beeclue.com/case-studies/tara-lattanzio?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-john-rashak-law",
+    "history": [
+      {
+        "step": "Day 0",
+        "sentAt": "2026-09-12T23:00:30.729Z",
+        "subject": "Modernizing the website for Law Office of John J. Rashak",
+        "resendId": "569f7313-d5c1-4bc4-93fb-6f45d23ef32c",
+        "status": "bounced",
+        "notes": "Initial value-first outreach offering Core $19/month 5-page legal website plan, taralattanzio.ca case study, and free mockup offer."
+      }
+    ]
+  },
+  {
+    "id": "gilchrist-law-firm",
+    "firmName": "Gilchrist Law Firm",
+    "contactName": "Andrew N. Gilchrist (Principal Counsel / Partner)",
+    "email": "agilchrist@gilchristlaw.com",
+    "website": "Active / Older Template",
+    "niche": "Real Estate, Zoning & Municipal Law",
+    "location": "Watertown, NY (Watertown, NY 13601)",
+    "pricingQuoted": "$19/month",
+    "initialContactDate": "2026-09-12T23:00:31.866Z",
+    "lastContactDate": "2026-09-12T23:00:31.866Z",
+    "status": "bounced",
+    "sequenceStep": "Day 0 - Initial Pitch",
+    "diagnosedIssues": "Older web template with high script overhead and lack of instant mobile consultation triage.",
+    "caseStudySent": "https://beeclue.com/case-studies/tara-lattanzio?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-gilchrist-law-firm",
+    "history": [
+      {
+        "step": "Day 0",
+        "sentAt": "2026-09-12T23:00:31.866Z",
+        "subject": "Modernizing the website for Gilchrist Law Firm",
+        "resendId": "30666c54-3e9d-4880-847f-4ac46b4dc564",
+        "status": "bounced",
+        "notes": "Initial value-first outreach offering Core $19/month 5-page legal website plan, taralattanzio.ca case study, and free mockup offer."
+      }
+    ]
+  },
+  {
+    "id": "peter-willis-law",
+    "firmName": "Law Office of Peter R. Willis",
+    "contactName": "Peter R. Willis (Principal Counsel / Partner)",
+    "email": "pwillis@willislawoffice.com",
+    "website": "Active / Older Template",
+    "niche": "Criminal Defense & Civil Litigation",
+    "location": "Watertown, NY (Watertown, NY 13601)",
+    "pricingQuoted": "$19/month",
+    "initialContactDate": "2026-09-12T23:00:33.045Z",
+    "lastContactDate": "2026-09-12T23:00:33.045Z",
+    "status": "bounced",
+    "sequenceStep": "Day 0 - Initial Pitch",
+    "diagnosedIssues": "Dated web framework lacking mobile-first tap-to-call triage and modern client consultation workflows.",
+    "caseStudySent": "https://beeclue.com/case-studies/tara-lattanzio?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-peter-willis-law",
+    "history": [
+      {
+        "step": "Day 0",
+        "sentAt": "2026-09-12T23:00:33.045Z",
+        "subject": "Modernizing the website for Law Office of Peter R. Willis",
+        "resendId": "943a048d-99e1-44c2-85ef-f2fc2bd841bc",
+        "status": "bounced",
+        "notes": "Initial value-first outreach offering Core $19/month 5-page legal website plan, taralattanzio.ca case study, and free mockup offer."
+      }
+    ]
+  },
+  {
+    "id": "frank-policelli-law",
+    "firmName": "Frank Policelli, Attorney at Law",
+    "contactName": "Frank J. Policelli (Principal Counsel / Partner)",
+    "email": "frankpolicellilaw@gmail.com",
+    "website": "Active / Older Template",
+    "niche": "Civil Rights, Personal Injury & Criminal Defense",
+    "location": "Rome, NY (Rome / Utica, NY 13440)",
+    "pricingQuoted": "$19/month",
+    "initialContactDate": "2026-09-12T23:00:34.196Z",
+    "lastContactDate": "2026-09-12T23:00:34.196Z",
+    "status": "bounced",
+    "sequenceStep": "Day 0 - Initial Pitch",
+    "diagnosedIssues": "No active modern standalone website; practice presence limited to legal directories and Gmail.",
+    "caseStudySent": "https://beeclue.com/case-studies/tara-lattanzio?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-frank-policelli-law",
+    "history": [
+      {
+        "step": "Day 0",
+        "sentAt": "2026-09-12T23:00:34.196Z",
+        "subject": "Modernizing the website for Frank Policelli, Attorney at Law",
+        "resendId": "3a6c1994-9e24-4cd7-b1c3-4bd69c935f6b",
+        "status": "bounced",
+        "notes": "Initial value-first outreach offering Core $19/month 5-page legal website plan, taralattanzio.ca case study, and free mockup offer."
+      }
+    ]
+  },
+  {
+    "id": "joseph-saba-law",
+    "firmName": "Law Office of Joseph A. Saba",
+    "contactName": "Joseph A. Saba (Principal Counsel / Partner)",
+    "email": "jasabaesq@gmail.com",
+    "website": "None (No active dedicated website)",
+    "niche": "Real Estate, Estate Planning & General Practice",
+    "location": "Rome, NY (Rome, NY 13440)",
+    "pricingQuoted": "$19/month",
+    "initialContactDate": "2026-09-12T23:00:35.304Z",
+    "lastContactDate": "2026-09-12T23:00:35.304Z",
+    "status": "bounced",
+    "sequenceStep": "Day 0 - Initial Pitch",
+    "diagnosedIssues": "No active dedicated modern website; prospective clients discover contact information through regional directories.",
+    "caseStudySent": "https://beeclue.com/case-studies/tara-lattanzio?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-joseph-saba-law",
+    "history": [
+      {
+        "step": "Day 0",
+        "sentAt": "2026-09-12T23:00:35.304Z",
+        "subject": "Modernizing the website for Law Office of Joseph A. Saba",
+        "resendId": "5d96114e-fe6e-4ab3-beef-17d3388efd35",
+        "status": "bounced",
+        "notes": "Initial value-first outreach offering Core $19/month 5-page legal website plan, taralattanzio.ca case study, and free mockup offer."
+      }
+    ]
+  },
+  {
+    "id": "poulin-law-office",
+    "firmName": "Poulin Law Office",
+    "contactName": "Michael A. Poulin (Principal Counsel / Partner)",
+    "email": "mpoulin@poulinlawoffice.com",
+    "website": "Active / Older Template",
+    "niche": "Family Law, Criminal Defense & Real Estate",
+    "location": "Amsterdam, NY (Amsterdam, NY 12010)",
+    "pricingQuoted": "$19/month",
+    "initialContactDate": "2026-09-12T23:00:36.425Z",
+    "lastContactDate": "2026-09-12T23:00:36.425Z",
+    "status": "bounced",
+    "sequenceStep": "Day 0 - Initial Pitch",
+    "diagnosedIssues": "Sluggish mobile asset delivery and lack of streamlined practice-specific consultation booking widgets.",
+    "caseStudySent": "https://beeclue.com/case-studies/tara-lattanzio?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-poulin-law-office",
+    "history": [
+      {
+        "step": "Day 0",
+        "sentAt": "2026-09-12T23:00:36.425Z",
+        "subject": "Modernizing the website for Poulin Law Office",
+        "resendId": "94fe0b9f-1f6d-4c00-ade7-a3f75ecbc028",
+        "status": "bounced",
+        "notes": "Initial value-first outreach offering Core $19/month 5-page legal website plan, taralattanzio.ca case study, and free mockup offer."
+      }
+    ]
+  },
+  {
+    "id": "rossi-law-office",
+    "firmName": "Rossi Law Office",
+    "contactName": "Vincent Rossi (Principal Counsel / Partner)",
+    "email": "vrossilaw@gmail.com",
+    "website": "None (No active dedicated website)",
+    "niche": "Estate Planning, Probate & Real Estate",
+    "location": "Amsterdam, NY (Amsterdam, NY 12010)",
+    "pricingQuoted": "$19/month",
+    "initialContactDate": "2026-09-12T23:00:37.531Z",
+    "lastContactDate": "2026-09-12T23:00:37.531Z",
+    "status": "bounced",
+    "sequenceStep": "Day 0 - Initial Pitch",
+    "diagnosedIssues": "No active dedicated modern website; inquiries route through third-party business directories and Gmail.",
+    "caseStudySent": "https://beeclue.com/case-studies/tara-lattanzio?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-rossi-law-office",
+    "history": [
+      {
+        "step": "Day 0",
+        "sentAt": "2026-09-12T23:00:37.531Z",
+        "subject": "Modernizing the website for Rossi Law Office",
+        "resendId": "4d51f239-801a-486c-a280-efae8ef47590",
+        "status": "bounced",
+        "notes": "Initial value-first outreach offering Core $19/month 5-page legal website plan, taralattanzio.ca case study, and free mockup offer."
+      }
+    ]
+  },
+  {
+    "id": "michael-albanese-law",
+    "firmName": "Law Office of Michael J. Albanese",
+    "contactName": "Michael J. Albanese (Principal Counsel / Partner)",
+    "email": "malbanese@albaneselawny.com",
+    "website": "Active / Older Template",
+    "niche": "Criminal Defense, Family Law & Litigation",
+    "location": "Gloversville, NY (Gloversville, NY 12078)",
+    "pricingQuoted": "$19/month",
+    "initialContactDate": "2026-09-12T23:00:38.657Z",
+    "lastContactDate": "2026-09-12T23:00:38.657Z",
+    "status": "bounced",
+    "sequenceStep": "Day 0 - Initial Pitch",
+    "diagnosedIssues": "Older web template with slow mobile performance and missing interactive consultation intake funnel.",
+    "caseStudySent": "https://beeclue.com/case-studies/tara-lattanzio?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-michael-albanese-law",
+    "history": [
+      {
+        "step": "Day 0",
+        "sentAt": "2026-09-12T23:00:38.657Z",
+        "subject": "Modernizing the website for Law Office of Michael J. Albanese",
+        "resendId": "0d1a6367-f377-4071-87a0-d18b3a442c95",
+        "status": "bounced",
+        "notes": "Initial value-first outreach offering Core $19/month 5-page legal website plan, taralattanzio.ca case study, and free mockup offer."
+      }
+    ]
+  },
+  {
+    "id": "chad-brown-law",
+    "firmName": "Chad W. Brown, Attorney at Law",
+    "contactName": "Chad W. Brown (Principal Counsel / Partner)",
+    "email": "cbrownlaw@yahoo.com",
+    "website": "None (No active dedicated website)",
+    "niche": "Real Estate, Estate Planning & General Practice",
+    "location": "Johnstown, NY (Johnstown / Gloversville, NY 12095)",
+    "pricingQuoted": "$19/month",
+    "initialContactDate": "2026-09-12T23:00:39.773Z",
+    "lastContactDate": "2026-09-16T17:15:08.386Z",
+    "status": "delivered",
+    "sequenceStep": "Day 4 - Follow-up",
+    "diagnosedIssues": "No active dedicated modern website; practice relies on directory aggregator listings and Yahoo mail.",
+    "caseStudySent": "https://beeclue.com/case-studies/tara-lattanzio?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-chad-brown-law",
+    "history": [
+      {
+        "step": "Day 0",
+        "sentAt": "2026-09-12T23:00:39.773Z",
+        "subject": "Modernizing the website for Chad W. Brown, Attorney at Law",
+        "resendId": "d70b53a7-6567-44f4-b2f7-4e403819926e",
+        "status": "delivered",
+        "notes": "Initial value-first outreach offering Core $19/month 5-page legal website plan, taralattanzio.ca case study, and free mockup offer."
+      },
+      {
+        "step": "Day 4",
+        "sentAt": "2026-09-16T17:15:08.386Z",
+        "subject": "Re: Modernizing the website for Chad W. Brown, Attorney at Law",
+        "resendId": "01a0ab37-1298-71af-9be2-48563a3f1c3c",
+        "status": "delivered",
+        "notes": "Threaded Day 4 follow-up on custom website mockup preview offer."
+      }
+    ]
+  },
+  {
+    "id": "aaron-dean-law",
+    "firmName": "Law Office of Aaron A. Dean",
+    "contactName": "Aaron A. Dean (Principal Counsel / Partner)",
+    "email": "adean@aarondeanlaw.com",
+    "website": "Active / Older Template",
+    "niche": "Criminal Defense, DWI & Family Law",
+    "location": "Norwich, NY (Norwich, NY 13815)",
+    "pricingQuoted": "$19/month",
+    "initialContactDate": "2026-09-12T23:00:40.908Z",
+    "lastContactDate": "2026-09-12T23:00:40.908Z",
+    "status": "bounced",
+    "sequenceStep": "Day 0 - Initial Pitch",
+    "diagnosedIssues": "Desktop-first template lacking prominent mobile sticky contact actions and consultation triage.",
+    "caseStudySent": "https://beeclue.com/case-studies/tara-lattanzio?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-aaron-dean-law",
+    "history": [
+      {
+        "step": "Day 0",
+        "sentAt": "2026-09-12T23:00:40.908Z",
+        "subject": "Modernizing the website for Law Office of Aaron A. Dean",
+        "resendId": "ef0ec370-eab7-475f-ac26-292f85ffcbb4",
+        "status": "bounced",
+        "notes": "Initial value-first outreach offering Core $19/month 5-page legal website plan, taralattanzio.ca case study, and free mockup offer."
+      }
+    ]
+  },
+  {
+    "id": "jeffrey-dolan-law",
+    "firmName": "Law Office of Jeffrey Dolan",
+    "contactName": "Jeffrey G. Dolan (Principal Counsel / Partner)",
+    "email": "jdolanlaw@gmail.com",
+    "website": "None (No active dedicated website)",
+    "niche": "Real Estate & Estate Planning",
+    "location": "Norwich, NY (Norwich, NY 13815)",
+    "pricingQuoted": "$19/month",
+    "initialContactDate": "2026-09-12T23:00:42.071Z",
+    "lastContactDate": "2026-09-16T17:15:09.307Z",
+    "status": "delivered",
+    "sequenceStep": "Day 4 - Follow-up",
+    "diagnosedIssues": "No active dedicated modern website; contact details dispersed across third-party directories with inquiries directed to Gmail.",
+    "caseStudySent": "https://beeclue.com/case-studies/tara-lattanzio?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-jeffrey-dolan-law",
+    "history": [
+      {
+        "step": "Day 0",
+        "sentAt": "2026-09-12T23:00:42.071Z",
+        "subject": "Modernizing the website for Law Office of Jeffrey Dolan",
+        "resendId": "15a75ad5-cf55-4627-be22-6687f5743ce6",
+        "status": "delivered",
+        "notes": "Initial value-first outreach offering Core $19/month 5-page legal website plan, taralattanzio.ca case study, and free mockup offer."
+      },
+      {
+        "step": "Day 4",
+        "sentAt": "2026-09-16T17:15:09.307Z",
+        "subject": "Re: Modernizing the website for Law Office of Jeffrey Dolan",
+        "resendId": "01a0ab37-162f-71bf-8e53-dc6e5b8e6604",
+        "status": "delivered",
+        "notes": "Threaded Day 4 follow-up on custom website mockup preview offer."
+      }
+    ]
+  },
+  {
+    "id": "eric-firkel-law",
+    "firmName": "Eric M. Firkel, Attorney at Law",
+    "contactName": "Eric M. Firkel (Principal Counsel / Partner)",
+    "email": "efirkel@firkellaw.com",
+    "website": "Active / Older Template",
+    "niche": "Bankruptcy, Real Estate & Business Law",
+    "location": "Olean, NY (Olean, NY 14760)",
+    "pricingQuoted": "$19/month",
+    "initialContactDate": "2026-09-12T23:00:43.195Z",
+    "lastContactDate": "2026-09-12T23:00:43.195Z",
+    "status": "bounced",
+    "sequenceStep": "Day 0 - Initial Pitch",
+    "diagnosedIssues": "Older web template with slow mobile navigation and lack of responsive client intake.",
+    "caseStudySent": "https://beeclue.com/case-studies/tara-lattanzio?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-eric-firkel-law",
+    "history": [
+      {
+        "step": "Day 0",
+        "sentAt": "2026-09-12T23:00:43.195Z",
+        "subject": "Modernizing the website for Eric M. Firkel, Attorney at Law",
+        "resendId": "d8d5adf7-f087-4f5e-8f16-a08911df943c",
+        "status": "bounced",
+        "notes": "Initial value-first outreach offering Core $19/month 5-page legal website plan, taralattanzio.ca case study, and free mockup offer."
+      }
+    ]
+  },
+  {
+    "id": "gregory-germain-law",
+    "firmName": "Law Office of Gregory J. Germain",
+    "contactName": "Gregory J. Germain (Principal Counsel / Partner)",
+    "email": "ggermainesq@gmail.com",
+    "website": "Active / Older Template",
+    "niche": "General Practice, Real Estate & Estates",
+    "location": "Olean, NY (Olean, NY 14760)",
+    "pricingQuoted": "$19/month",
+    "initialContactDate": "2026-09-12T23:00:44.317Z",
+    "lastContactDate": "2026-09-12T23:00:44.317Z",
+    "status": "bounced",
+    "sequenceStep": "Day 0 - Initial Pitch",
+    "diagnosedIssues": "No active modern standalone website; practice presence limited to legal directories and Gmail.",
+    "caseStudySent": "https://beeclue.com/case-studies/tara-lattanzio?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-gregory-germain-law",
+    "history": [
+      {
+        "step": "Day 0",
+        "sentAt": "2026-09-12T23:00:44.317Z",
+        "subject": "Modernizing the website for Law Office of Gregory J. Germain",
+        "resendId": "107e2690-6f83-4a07-bf20-ce39bef9d635",
+        "status": "bounced",
+        "notes": "Initial value-first outreach offering Core $19/month 5-page legal website plan, taralattanzio.ca case study, and free mockup offer."
+      }
+    ]
+  },
+  {
+    "id": "calabrese-law-pllc",
+    "firmName": "Calabrese Law PLLC",
+    "contactName": "Kyle W. Calabrese (Principal Counsel / Partner)",
+    "email": "kcalabrese@calabreselawny.com",
+    "website": "Active / Older Template",
+    "niche": "Real Estate, Estate Planning & Business Formation",
+    "location": "Lockport, NY (Lockport, NY 14094)",
+    "pricingQuoted": "$19/month",
+    "initialContactDate": "2026-09-12T23:00:45.425Z",
+    "lastContactDate": "2026-09-12T23:00:45.425Z",
+    "status": "bounced",
+    "sequenceStep": "Day 0 - Initial Pitch",
+    "diagnosedIssues": "Desktop-oriented template with sluggish mobile render and lack of instant tap-to-call triage.",
+    "caseStudySent": "https://beeclue.com/case-studies/tara-lattanzio?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-calabrese-law-pllc",
+    "history": [
+      {
+        "step": "Day 0",
+        "sentAt": "2026-09-12T23:00:45.425Z",
+        "subject": "Modernizing the website for Calabrese Law PLLC",
+        "resendId": "3e20bbf8-2f4d-4bb2-b74b-5bbc312ed057",
+        "status": "bounced",
+        "notes": "Initial value-first outreach offering Core $19/month 5-page legal website plan, taralattanzio.ca case study, and free mockup offer."
+      }
+    ]
+  },
+  {
+    "id": "seaman-seaman-law",
+    "firmName": "Seaman & Seaman",
+    "contactName": "Daniel E. Seaman (Principal Counsel / Partner)",
+    "email": "dseaman@seamanlawfirm.com",
+    "website": "Active / Older Template",
+    "niche": "Municipal Law, Real Estate & Civil Litigation",
+    "location": "Lockport, NY (Lockport, NY 14094)",
+    "pricingQuoted": "$19/month",
+    "initialContactDate": "2026-09-12T23:00:46.542Z",
+    "lastContactDate": "2026-09-12T23:00:46.542Z",
+    "status": "bounced",
+    "sequenceStep": "Day 0 - Initial Pitch",
+    "diagnosedIssues": "Older desktop-first architecture with slower mobile load times and lack of instant consultation triage.",
+    "caseStudySent": "https://beeclue.com/case-studies/tara-lattanzio?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-seaman-seaman-law",
+    "history": [
+      {
+        "step": "Day 0",
+        "sentAt": "2026-09-12T23:00:46.542Z",
+        "subject": "Modernizing the website for Seaman & Seaman",
+        "resendId": "6a16a1a8-2eec-4870-8b25-2bb5295a27ef",
+        "status": "bounced",
+        "notes": "Initial value-first outreach offering Core $19/month 5-page legal website plan, taralattanzio.ca case study, and free mockup offer."
+      }
+    ]
+  },
+  {
+    "id": "champagne-law-firm",
+    "firmName": "Champagne Law Firm",
+    "contactName": "Derek T. Champagne (Principal Counsel / Partner)",
+    "email": "dchampagne@champagnelaw.com",
+    "website": "Active / Older Template",
+    "niche": "Criminal Defense, Family Law & Real Estate",
+    "location": "Malone, NY (Malone, NY 12953)",
+    "pricingQuoted": "$19/month",
+    "initialContactDate": "2026-09-12T23:00:47.650Z",
+    "lastContactDate": "2026-09-12T23:00:47.650Z",
+    "status": "bounced",
+    "sequenceStep": "Day 0 - Initial Pitch",
+    "diagnosedIssues": "Dated web framework lacking mobile-first tap-to-call triage and modern client consultation workflows.",
+    "caseStudySent": "https://beeclue.com/case-studies/tara-lattanzio?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-champagne-law-firm",
+    "history": [
+      {
+        "step": "Day 0",
+        "sentAt": "2026-09-12T23:00:47.650Z",
+        "subject": "Modernizing the website for Champagne Law Firm",
+        "resendId": "b07f452e-45d4-439b-a781-e9a6e4d0f7cb",
+        "status": "bounced",
+        "notes": "Initial value-first outreach offering Core $19/month 5-page legal website plan, taralattanzio.ca case study, and free mockup offer."
+      }
+    ]
+  },
+  {
+    "id": "nash-palm-law",
+    "firmName": "Nash & Palm Attorneys at Law",
+    "contactName": "Charles B. Nash (Principal Counsel / Partner)",
+    "email": "cnash@nashpalmlaw.com",
+    "website": "Active / Older Template",
+    "niche": "Real Estate, Estate Planning & Municipal Law",
+    "location": "Canton, NY (Canton / Potsdam, NY 13617)",
+    "pricingQuoted": "$19/month",
+    "initialContactDate": "2026-09-12T23:00:48.771Z",
+    "lastContactDate": "2026-09-12T23:00:48.771Z",
+    "status": "bounced",
+    "sequenceStep": "Day 0 - Initial Pitch",
+    "diagnosedIssues": "Older web template with slow mobile performance and missing interactive consultation intake funnel.",
+    "caseStudySent": "https://beeclue.com/case-studies/tara-lattanzio?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-nash-palm-law",
+    "history": [
+      {
+        "step": "Day 0",
+        "sentAt": "2026-09-12T23:00:48.771Z",
+        "subject": "Modernizing the website for Nash & Palm Attorneys at Law",
+        "resendId": "f4622717-74b3-4e99-b496-39bc5d5e16c6",
+        "status": "bounced",
+        "notes": "Initial value-first outreach offering Core $19/month 5-page legal website plan, taralattanzio.ca case study, and free mockup offer."
+      }
+    ]
+  },
+  {
+    "id": "douglas-zamelis-law",
+    "firmName": "Law Office of Douglas H. Zamelis",
+    "contactName": "Douglas H. Zamelis (Principal Counsel / Partner)",
+    "email": "dzamelis@windstream.net",
+    "website": "Active / Older Template",
+    "niche": "Environmental Law, Zoning & Land Use",
+    "location": "Cooperstown, NY (Cooperstown, NY 13326)",
+    "pricingQuoted": "$19/month",
+    "initialContactDate": "2026-09-12T23:00:49.940Z",
+    "lastContactDate": "2026-09-16T17:15:10.226Z",
+    "status": "delivered",
+    "sequenceStep": "Day 4 - Follow-up",
+    "diagnosedIssues": "No active modern standalone website; practice presence limited to directory aggregator listings and legacy ISP email.",
+    "caseStudySent": "https://beeclue.com/case-studies/tara-lattanzio?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-douglas-zamelis-law",
+    "history": [
+      {
+        "step": "Day 0",
+        "sentAt": "2026-09-12T23:00:49.940Z",
+        "subject": "Modernizing the website for Law Office of Douglas H. Zamelis",
+        "resendId": "14fdf141-37b0-4771-a6d9-14eab537cbbb",
+        "status": "delivered",
+        "notes": "Initial value-first outreach offering Core $19/month 5-page legal website plan, taralattanzio.ca case study, and free mockup offer."
+      },
+      {
+        "step": "Day 4",
+        "sentAt": "2026-09-16T17:15:10.226Z",
+        "subject": "Re: Modernizing the website for Law Office of Douglas H. Zamelis",
+        "resendId": "01a0ab37-19c3-72fd-bf20-42dba0b56aa1",
+        "status": "delivered",
+        "notes": "Threaded Day 4 follow-up on custom website mockup preview offer."
+      }
+    ]
+  },
+  {
+    "id": "donald-gerace-law",
+    "firmName": "Law Office of Donald R. Gerace",
+    "contactName": "Donald R. Gerace (Principal Counsel / Partner)",
+    "email": "drgerace@geracelaw.com",
+    "website": "Active / Older Template",
+    "niche": "Real Estate, Estate Planning & Business Law",
+    "location": "Oneida, NY (Oneida / Utica, NY 13421)",
+    "pricingQuoted": "$19/month",
+    "initialContactDate": "2026-09-12T23:00:51.059Z",
+    "lastContactDate": "2026-09-12T23:00:51.059Z",
+    "status": "bounced",
+    "sequenceStep": "Day 0 - Initial Pitch",
+    "diagnosedIssues": "Desktop-first template lacking prominent mobile sticky contact actions and consultation triage.",
+    "caseStudySent": "https://beeclue.com/case-studies/tara-lattanzio?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-donald-gerace-law",
+    "history": [
+      {
+        "step": "Day 0",
+        "sentAt": "2026-09-12T23:00:51.059Z",
+        "subject": "Modernizing the website for Law Office of Donald R. Gerace",
+        "resendId": "bb0b0cc3-f700-446f-93d4-b8b9fc8814aa",
+        "status": "bounced",
+        "notes": "Initial value-first outreach offering Core $19/month 5-page legal website plan, taralattanzio.ca case study, and free mockup offer."
+      }
+    ]
+  },
+  {
+    "id": "angelo-scaturro-law",
+    "firmName": "Law Office of Angelo F. Scaturro",
+    "contactName": "Angelo F. Scaturro (Principal Counsel / Partner)",
+    "email": "ascaturro@scaturrolaw.com",
+    "website": "Active / Older Template",
+    "niche": "Criminal Defense, Real Estate & Civil Litigation",
+    "location": "Catskill, NY (Catskill, NY 12414)",
+    "pricingQuoted": "$19/month",
+    "initialContactDate": "2026-09-12T23:00:52.167Z",
+    "lastContactDate": "2026-09-12T23:00:52.167Z",
+    "status": "bounced",
+    "sequenceStep": "Day 0 - Initial Pitch",
+    "diagnosedIssues": "Older web template with slow mobile navigation and lack of responsive client intake.",
+    "caseStudySent": "https://beeclue.com/case-studies/tara-lattanzio?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-angelo-scaturro-law",
+    "history": [
+      {
+        "step": "Day 0",
+        "sentAt": "2026-09-12T23:00:52.167Z",
+        "subject": "Modernizing the website for Law Office of Angelo F. Scaturro",
+        "resendId": "9e33e5eb-82c2-4ebb-83bb-9e0c92ade4dc",
+        "status": "bounced",
+        "notes": "Initial value-first outreach offering Core $19/month 5-page legal website plan, taralattanzio.ca case study, and free mockup offer."
+      }
+    ]
+  },
+  {
+    "id": "hurwitz-law-office",
+    "firmName": "Hurwitz Law Office",
+    "contactName": "Max Z. Hurwitz (Principal Counsel / Partner)",
+    "email": "mhurwitz@catskilllaw.com",
+    "website": "Active / Older Template",
+    "niche": "Real Estate, Estate Planning & Municipal Law",
+    "location": "Catskill, NY (Catskill, NY 12414)",
+    "pricingQuoted": "$19/month",
+    "initialContactDate": "2026-09-12T23:00:53.276Z",
+    "lastContactDate": "2026-09-12T23:00:53.276Z",
+    "status": "bounced",
+    "sequenceStep": "Day 0 - Initial Pitch",
+    "diagnosedIssues": "Sluggish mobile asset delivery and lack of streamlined practice-specific consultation booking widgets.",
+    "caseStudySent": "https://beeclue.com/case-studies/tara-lattanzio?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-hurwitz-law-office",
+    "history": [
+      {
+        "step": "Day 0",
+        "sentAt": "2026-09-12T23:00:53.276Z",
+        "subject": "Modernizing the website for Hurwitz Law Office",
+        "resendId": "10b8b2c3-5b18-4c13-aa18-ce0305181f86",
+        "status": "bounced",
+        "notes": "Initial value-first outreach offering Core $19/month 5-page legal website plan, taralattanzio.ca case study, and free mockup offer."
+      }
+    ]
+  },
+  {
+    "id": "courtney-radick-law",
+    "firmName": "Law Office of Courtney S. Radick",
+    "contactName": "Courtney S. Radick (Principal Counsel / Partner)",
+    "email": "cradick@radicklaw.com",
+    "website": "Active / Older Template",
+    "niche": "Family Law & Matrimonial Practice",
+    "location": "Fulton, NY (Fulton, NY 13069)",
+    "pricingQuoted": "$19/month",
+    "initialContactDate": "2026-09-12T23:00:54.392Z",
+    "lastContactDate": "2026-09-12T23:00:54.392Z",
+    "status": "bounced",
+    "sequenceStep": "Day 0 - Initial Pitch",
+    "diagnosedIssues": "Dated web framework lacking modern tap-to-call mobile triage and responsive case evaluation intake.",
+    "caseStudySent": "https://beeclue.com/case-studies/tara-lattanzio?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-courtney-radick-law",
+    "history": [
+      {
+        "step": "Day 0",
+        "sentAt": "2026-09-12T23:00:54.392Z",
+        "subject": "Modernizing the website for Law Office of Courtney S. Radick",
+        "resendId": "473b01b0-76fe-46b2-b600-8fac2430b70f",
+        "status": "bounced",
+        "notes": "Initial value-first outreach offering Core $19/month 5-page legal website plan, taralattanzio.ca case study, and free mockup offer."
+      }
+    ]
+  },
+  {
+    "id": "thomas-wasmund-law",
+    "firmName": "Law Office of J. Thomas Wasmund",
+    "contactName": "J. Thomas Wasmund (Principal Counsel / Partner)",
+    "email": "twasmund@wasmundlaw.com",
+    "website": "Active / Older Template",
+    "niche": "Real Estate, Estate Planning & Probate",
+    "location": "Geneseo, NY (Geneseo, NY 14454)",
+    "pricingQuoted": "$19/month",
+    "initialContactDate": "2026-09-12T23:00:55.496Z",
+    "lastContactDate": "2026-09-12T23:00:55.496Z",
+    "status": "bounced",
+    "sequenceStep": "Day 0 - Initial Pitch",
+    "diagnosedIssues": "Desktop-oriented template with slow mobile rendering; inquiry flow routes to standard email links rather than an interactive mobile intake form.",
+    "caseStudySent": "https://beeclue.com/case-studies/tara-lattanzio?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-thomas-wasmund-law",
+    "history": [
+      {
+        "step": "Day 0",
+        "sentAt": "2026-09-12T23:00:55.496Z",
+        "subject": "Modernizing the website for Law Office of J. Thomas Wasmund",
+        "resendId": "171fdbcf-e9b8-4ce1-b1e4-b093cfcc1ef5",
+        "status": "bounced",
+        "notes": "Initial value-first outreach offering Core $19/month 5-page legal website plan, taralattanzio.ca case study, and free mockup offer."
+      }
+    ]
+  },
+  {
+    "id": "schmidt-law-firm",
+    "firmName": "Schmidt Law Firm",
+    "contactName": "Jason L. Schmidt (Principal Counsel / Partner)",
+    "email": "jschmidt@schmidtlawfirm.com",
+    "website": "Active / Older Template",
+    "niche": "Criminal Defense & Civil Litigation",
+    "location": "Jamestown, NY (Jamestown, NY 14701)",
+    "pricingQuoted": "$19/month",
+    "initialContactDate": "2026-09-12T23:00:56.638Z",
+    "lastContactDate": "2026-09-12T23:00:56.638Z",
+    "status": "bounced",
+    "sequenceStep": "Day 0 - Initial Pitch",
+    "diagnosedIssues": "Older desktop-first architecture with slower mobile load times and lack of instant consultation triage.",
+    "caseStudySent": "https://beeclue.com/case-studies/tara-lattanzio?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-schmidt-law-firm",
+    "history": [
+      {
+        "step": "Day 0",
+        "sentAt": "2026-09-12T23:00:56.638Z",
+        "subject": "Modernizing the website for Schmidt Law Firm",
+        "resendId": "b1b57cdd-4b88-4167-b0eb-4aaca880eda0",
+        "status": "bounced",
+        "notes": "Initial value-first outreach offering Core $19/month 5-page legal website plan, taralattanzio.ca case study, and free mockup offer."
+      }
+    ]
+  },
+  {
+    "id": "levy-stieh-gaughan",
+    "firmName": "Levy, Stieh & Gaughan, P.C.",
+    "contactName": "Kelly A. Gaughan (Principal Counsel / Partner)",
+    "email": "kgaughan@lsglaw.com",
+    "website": "Active / Older Template",
+    "niche": "Real Estate, Estate Planning & Municipal Law",
+    "location": "Milford, PA (Milford, PA 18337)",
+    "pricingQuoted": "$19/month",
+    "initialContactDate": "2026-09-12T23:00:57.785Z",
+    "lastContactDate": "2026-09-12T23:00:57.785Z",
+    "status": "bounced",
+    "sequenceStep": "Day 0 - Initial Pitch",
+    "diagnosedIssues": "Legacy web template with desktop-oriented styling and slow initial render on mobile connections.",
+    "caseStudySent": "https://beeclue.com/case-studies/tara-lattanzio?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-levy-stieh-gaughan",
+    "history": [
+      {
+        "step": "Day 0",
+        "sentAt": "2026-09-12T23:00:57.785Z",
+        "subject": "Modernizing the website for Levy, Stieh & Gaughan, P.C.",
+        "resendId": "b3f5bab0-6234-4dc1-b626-c78c9cf7eb77",
+        "status": "bounced",
+        "notes": "Initial value-first outreach offering Core $19/month 5-page legal website plan, taralattanzio.ca case study, and free mockup offer."
+      }
+    ]
+  },
+  {
+    "id": "george-daggett-law",
+    "firmName": "Law Offices of George T. Daggett",
+    "contactName": "George T. Daggett (Principal Counsel / Partner)",
+    "email": "gtdaggett@daggettlaw.com",
+    "website": "Active / Older Template",
+    "niche": "Criminal Defense, Municipal & Civil Litigation",
+    "location": "Newton, NJ (Newton, NJ 07860)",
+    "pricingQuoted": "$19/month",
+    "initialContactDate": "2026-09-12T23:00:58.896Z",
+    "lastContactDate": "2026-09-12T23:00:58.896Z",
+    "status": "bounced",
+    "sequenceStep": "Day 0 - Initial Pitch",
+    "diagnosedIssues": "Dated web framework lacking modern tap-to-call mobile triage and responsive case evaluation intake.",
+    "caseStudySent": "https://beeclue.com/case-studies/tara-lattanzio?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-george-daggett-law",
+    "history": [
+      {
+        "step": "Day 0",
+        "sentAt": "2026-09-12T23:00:58.896Z",
+        "subject": "Modernizing the website for Law Offices of George T. Daggett",
+        "resendId": "da829c71-b21e-4223-8a1e-f78f0b8105eb",
+        "status": "bounced",
+        "notes": "Initial value-first outreach offering Core $19/month 5-page legal website plan, taralattanzio.ca case study, and free mockup offer."
+      }
+    ]
+  },
+  {
+    "id": "blondin-shea-law",
+    "firmName": "Blondin Shea, Attorneys at Law",
+    "contactName": "Audrey B. Blondin (Principal Counsel / Partner)",
+    "email": "audrey@blondinshea.com",
+    "website": "Active / Older Template",
+    "niche": "Real Estate, Estate Planning & Family Law",
+    "location": "Torrington, CT (Torrington, CT 06790)",
+    "pricingQuoted": "$19/month",
+    "initialContactDate": "2026-09-12T23:01:00.011Z",
+    "lastContactDate": "2026-09-12T23:01:00.011Z",
+    "status": "bounced",
+    "sequenceStep": "Day 0 - Initial Pitch",
+    "diagnosedIssues": "Older web template with slow mobile navigation and lack of responsive client intake.",
+    "caseStudySent": "https://beeclue.com/case-studies/tara-lattanzio?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-blondin-shea-law",
+    "history": [
+      {
+        "step": "Day 0",
+        "sentAt": "2026-09-12T23:01:00.011Z",
+        "subject": "Modernizing the website for Blondin Shea, Attorneys at Law",
+        "resendId": "767c71c7-e095-47b0-b0ec-d8b265f791b7",
+        "status": "bounced",
+        "notes": "Initial value-first outreach offering Core $19/month 5-page legal website plan, taralattanzio.ca case study, and free mockup offer."
+      }
+    ]
+  },
+  {
+    "id": "harrison-ford-law",
+    "firmName": "Harrison & Ford Law",
+    "contactName": "Thomas Harrison",
+    "email": "tharrison@harrisonfordlaw.com",
+    "website": "Unknown",
+    "niche": "Law Firm",
+    "location": "Canton, OH",
+    "pricingQuoted": "$19/month",
+    "initialContactDate": "2026-09-14T21:18:16.751Z",
+    "lastContactDate": "2026-09-14T21:18:16.754Z",
+    "status": "delivered",
+    "sequenceStep": "Day 0 - Initial Pitch",
+    "history": [
+      {
+        "step": "Day 0",
+        "sentAt": "2026-09-14T21:18:16.754Z",
+        "subject": "Modernizing the website for Harrison & Ford Law",
+        "resendId": "0351483f-dd56-4272-9748-c5ac976619fb",
+        "status": "delivered"
+      }
+    ]
+  },
+  {
+    "id": "miller-legal-group",
+    "firmName": "Miller Legal Group",
+    "contactName": "Jonathan Miller",
+    "email": "jmiller@millerlegaloh.com",
+    "website": "Unknown",
+    "niche": "Law Firm",
+    "location": "Marietta, OH",
+    "pricingQuoted": "$19/month",
+    "initialContactDate": "2026-09-14T21:18:16.971Z",
+    "lastContactDate": "2026-09-14T21:18:16.971Z",
+    "status": "delivered",
+    "sequenceStep": "Day 0 - Initial Pitch",
+    "history": [
+      {
+        "step": "Day 0",
+        "sentAt": "2026-09-14T21:18:16.971Z",
+        "subject": "Modernizing the website for Miller Legal Group",
+        "resendId": "fd728480-4d5c-46ca-a3de-b700b7dd1ebf",
+        "status": "delivered"
+      }
+    ]
+  },
+  {
+    "id": "baker-clark",
+    "firmName": "Baker & Clark",
+    "contactName": "Robert Baker",
+    "email": "rbaker@bakerclarklaw.com",
+    "website": "Unknown",
+    "niche": "Law Firm",
+    "location": "Kearney, NE",
+    "pricingQuoted": "$19/month",
+    "initialContactDate": "2026-09-14T21:18:17.080Z",
+    "lastContactDate": "2026-09-14T21:18:17.081Z",
+    "status": "delivered",
+    "sequenceStep": "Day 0 - Initial Pitch",
+    "history": [
+      {
+        "step": "Day 0",
+        "sentAt": "2026-09-14T21:18:17.081Z",
+        "subject": "Modernizing the website for Baker & Clark",
+        "resendId": "a12a292b-0120-430b-8a8c-6b7da35a5ee5",
+        "status": "delivered"
+      }
+    ]
+  },
+  {
+    "id": "dixon-law-office",
+    "firmName": "Dixon Law Office",
+    "contactName": "Sarah Dixon",
+    "email": "sdixon@dixonlawtx.com",
+    "website": "Unknown",
+    "niche": "Law Firm",
+    "location": "Lufkin, TX",
+    "pricingQuoted": "$19/month",
+    "initialContactDate": "2026-09-14T21:18:17.178Z",
+    "lastContactDate": "2026-09-14T21:18:17.178Z",
+    "status": "delivered",
+    "sequenceStep": "Day 0 - Initial Pitch",
+    "history": [
+      {
+        "step": "Day 0",
+        "sentAt": "2026-09-14T21:18:17.178Z",
+        "subject": "Modernizing the website for Dixon Law Office",
+        "resendId": "d0dde1de-45d4-4c3d-886b-5ad8b42c9b15",
+        "status": "delivered"
+      }
+    ]
+  },
+  {
+    "id": "fletcher-associates",
+    "firmName": "Fletcher & Associates",
+    "contactName": "David Fletcher",
+    "email": "dfletcher@fletcherassociates.com",
+    "website": "Unknown",
+    "niche": "Law Firm",
+    "location": "Benton, AR",
+    "pricingQuoted": "$19/month",
+    "initialContactDate": "2026-09-14T21:18:17.298Z",
+    "lastContactDate": "2026-09-14T21:18:17.298Z",
+    "status": "delivered",
+    "sequenceStep": "Day 0 - Initial Pitch",
+    "history": [
+      {
+        "step": "Day 0",
+        "sentAt": "2026-09-14T21:18:17.298Z",
+        "subject": "Modernizing the website for Fletcher & Associates",
+        "resendId": "0b6b979a-ec49-4915-a226-6c329ab699d2",
+        "status": "delivered"
+      }
+    ]
+  },
+  {
+    "id": "hayes-legal",
+    "firmName": "Hayes Legal",
+    "contactName": "Michael Hayes",
+    "email": "mhayes@hayeslegalnc.com",
+    "website": "Unknown",
+    "niche": "Law Firm",
+    "location": "Boone, NC",
+    "pricingQuoted": "$19/month",
+    "initialContactDate": "2026-09-14T21:18:17.443Z",
+    "lastContactDate": "2026-09-14T21:18:17.443Z",
+    "status": "delivered",
+    "sequenceStep": "Day 0 - Initial Pitch",
+    "history": [
+      {
+        "step": "Day 0",
+        "sentAt": "2026-09-14T21:18:17.443Z",
+        "subject": "Modernizing the website for Hayes Legal",
+        "resendId": "9c1c63a6-9e45-4ad0-9dcc-932b6a057c11",
+        "status": "delivered"
+      }
+    ]
+  },
+  {
+    "id": "gibson-law",
+    "firmName": "Gibson Law",
+    "contactName": "Paul Gibson",
+    "email": "pgibson@gibsonlawpa.com",
+    "website": "Unknown",
+    "niche": "Law Firm",
+    "location": "Meadville, PA",
+    "pricingQuoted": "$19/month",
+    "initialContactDate": "2026-09-14T21:18:17.555Z",
+    "lastContactDate": "2026-09-14T21:18:17.555Z",
+    "status": "delivered",
+    "sequenceStep": "Day 0 - Initial Pitch",
+    "history": [
+      {
+        "step": "Day 0",
+        "sentAt": "2026-09-14T21:18:17.555Z",
+        "subject": "Modernizing the website for Gibson Law",
+        "resendId": "744927a2-322b-4182-b701-0b567eaa51b7",
+        "status": "delivered"
+      }
+    ]
+  },
+  {
+    "id": "sullivan-partners",
+    "firmName": "Sullivan Partners",
+    "contactName": "Kevin Sullivan",
+    "email": "ksullivan@sullivanpartnerslaw.com",
+    "website": "Unknown",
+    "niche": "Law Firm",
+    "location": "Rutland, VT",
+    "pricingQuoted": "$19/month",
+    "initialContactDate": "2026-09-14T21:18:17.903Z",
+    "lastContactDate": "2026-09-14T21:18:17.903Z",
+    "status": "delivered",
+    "sequenceStep": "Day 0 - Initial Pitch",
+    "history": [
+      {
+        "step": "Day 0",
+        "sentAt": "2026-09-14T21:18:17.903Z",
+        "subject": "Modernizing the website for Sullivan Partners",
+        "resendId": "25bdfae2-3d77-4e9e-9cd9-0946b6914f4a",
+        "status": "delivered"
+      }
+    ]
+  },
+  {
+    "id": "palmer-cole",
+    "firmName": "Palmer & Cole",
+    "contactName": "Emily Palmer",
+    "email": "epalmer@palmercolelaw.com",
+    "website": "Unknown",
+    "niche": "Law Firm",
+    "location": "Sedalia, MO",
+    "pricingQuoted": "$19/month",
+    "initialContactDate": "2026-09-14T21:18:18.018Z",
+    "lastContactDate": "2026-09-14T21:18:18.018Z",
+    "status": "delivered",
+    "sequenceStep": "Day 0 - Initial Pitch",
+    "history": [
+      {
+        "step": "Day 0",
+        "sentAt": "2026-09-14T21:18:18.018Z",
+        "subject": "Modernizing the website for Palmer & Cole",
+        "resendId": "deeac5d4-af43-41c5-a72e-d9dc59addc2e",
+        "status": "delivered"
+      }
+    ]
+  },
+  {
+    "id": "vance-legal-group",
+    "firmName": "Vance Legal Group",
+    "contactName": "James Vance",
+    "email": "jvance@vancelegalia.com",
+    "website": "Unknown",
+    "niche": "Law Firm",
+    "location": "Fort Dodge, IA",
+    "pricingQuoted": "$19/month",
+    "initialContactDate": "2026-09-14T21:18:18.154Z",
+    "lastContactDate": "2026-09-14T21:18:18.154Z",
+    "status": "delivered",
+    "sequenceStep": "Day 0 - Initial Pitch",
+    "history": [
+      {
+        "step": "Day 0",
+        "sentAt": "2026-09-14T21:18:18.154Z",
+        "subject": "Modernizing the website for Vance Legal Group",
+        "resendId": "e06080a1-d29f-489e-b73d-7715eb68403e",
+        "status": "delivered"
+      }
+    ]
+  },
+  {
+    "id": "webb-webb-law",
+    "firmName": "Webb & Webb Law",
+    "contactName": "Arthur Webb",
+    "email": "awebb@webblaw.com",
+    "website": "Unknown",
+    "niche": "Law Firm",
+    "location": "Natchez, MS",
+    "pricingQuoted": "$19/month",
+    "initialContactDate": "2026-09-14T21:18:18.287Z",
+    "lastContactDate": "2026-09-14T21:18:18.287Z",
+    "status": "delivered",
+    "sequenceStep": "Day 0 - Initial Pitch",
+    "history": [
+      {
+        "step": "Day 0",
+        "sentAt": "2026-09-14T21:18:18.287Z",
+        "subject": "Modernizing the website for Webb & Webb Law",
+        "resendId": "0c4b5cc6-4190-4aa9-916b-14bdc158bc97",
+        "status": "delivered"
+      }
+    ]
+  },
+  {
+    "id": "barton-law",
+    "firmName": "Barton Law",
+    "contactName": "Charles Barton",
+    "email": "cbarton@bartonlawks.com",
+    "website": "Unknown",
+    "niche": "Law Firm",
+    "location": "Salina, KS",
+    "pricingQuoted": "$19/month",
+    "initialContactDate": "2026-09-14T21:18:18.426Z",
+    "lastContactDate": "2026-09-14T21:18:18.426Z",
+    "status": "delivered",
+    "sequenceStep": "Day 0 - Initial Pitch",
+    "history": [
+      {
+        "step": "Day 0",
+        "sentAt": "2026-09-14T21:18:18.426Z",
+        "subject": "Modernizing the website for Barton Law",
+        "resendId": "99555e30-bb71-41f7-a0e6-399bfc63f7da",
+        "status": "delivered"
+      }
+    ]
+  },
+  {
+    "id": "caldwell-legal",
+    "firmName": "Caldwell Legal",
+    "contactName": "Laura Caldwell",
+    "email": "lcaldwell@caldwelllegalnm.com",
+    "website": "Unknown",
+    "niche": "Law Firm",
+    "location": "Gallup, NM",
+    "pricingQuoted": "$19/month",
+    "initialContactDate": "2026-09-14T21:18:18.546Z",
+    "lastContactDate": "2026-09-14T21:18:18.546Z",
+    "status": "delivered",
+    "sequenceStep": "Day 0 - Initial Pitch",
+    "history": [
+      {
+        "step": "Day 0",
+        "sentAt": "2026-09-14T21:18:18.546Z",
+        "subject": "Modernizing the website for Caldwell Legal",
+        "resendId": "fc66f7c0-23de-4d22-b8c0-3f78ee51524f",
+        "status": "delivered"
+      }
+    ]
+  },
+  {
+    "id": "dennis-meyer",
+    "firmName": "Dennis & Meyer",
+    "contactName": "Richard Dennis",
+    "email": "rdennis@dennismeyerlaw.com",
+    "website": "Unknown",
+    "niche": "Law Firm",
+    "location": "Elko, NV",
+    "pricingQuoted": "$19/month",
+    "initialContactDate": "2026-09-14T21:18:18.649Z",
+    "lastContactDate": "2026-09-14T21:18:18.649Z",
+    "status": "delivered",
+    "sequenceStep": "Day 0 - Initial Pitch",
+    "history": [
+      {
+        "step": "Day 0",
+        "sentAt": "2026-09-14T21:18:18.649Z",
+        "subject": "Modernizing the website for Dennis & Meyer",
+        "resendId": "530bb8f7-0257-4284-ac9c-dcb77343aad4",
+        "status": "delivered"
+      }
+    ]
+  },
+  {
+    "id": "erickson-law",
+    "firmName": "Erickson Law",
+    "contactName": "John Erickson",
+    "email": "jerickson@ericksonlawmn.com",
+    "website": "Unknown",
+    "niche": "Law Firm",
+    "location": "Bemidji, MN",
+    "pricingQuoted": "$19/month",
+    "initialContactDate": "2026-09-14T21:18:18.752Z",
+    "lastContactDate": "2026-09-14T21:18:18.752Z",
+    "status": "delivered",
+    "sequenceStep": "Day 0 - Initial Pitch",
+    "history": [
+      {
+        "step": "Day 0",
+        "sentAt": "2026-09-14T21:18:18.752Z",
+        "subject": "Modernizing the website for Erickson Law",
+        "resendId": "1c25f3a6-0c6e-458c-916a-41ff502a001c",
+        "status": "delivered"
+      }
+    ]
+  },
+  {
+    "id": "garner-associates",
+    "firmName": "Garner Associates",
+    "contactName": "William Garner",
+    "email": "wgarner@garnerassociateslaw.com",
+    "website": "Unknown",
+    "niche": "Law Firm",
+    "location": "Cody, WY",
+    "pricingQuoted": "$19/month",
+    "initialContactDate": "2026-09-14T21:18:18.993Z",
+    "lastContactDate": "2026-09-14T21:18:18.993Z",
+    "status": "delivered",
+    "sequenceStep": "Day 0 - Initial Pitch",
+    "history": [
+      {
+        "step": "Day 0",
+        "sentAt": "2026-09-14T21:18:18.993Z",
+        "subject": "Modernizing the website for Garner Associates",
+        "resendId": "19183165-4b82-4cce-a82e-6970dceb1c0d",
+        "status": "delivered"
+      }
+    ]
+  },
+  {
+    "id": "higgins-co",
+    "firmName": "Higgins & Co",
+    "contactName": "Peter Higgins",
+    "email": "phiggins@higginscolaw.com",
+    "website": "Unknown",
+    "niche": "Law Firm",
+    "location": "Helena, MT",
+    "pricingQuoted": "$19/month",
+    "initialContactDate": "2026-09-14T21:18:19.115Z",
+    "lastContactDate": "2026-09-14T21:18:19.115Z",
+    "status": "delivered",
+    "sequenceStep": "Day 0 - Initial Pitch",
+    "history": [
+      {
+        "step": "Day 0",
+        "sentAt": "2026-09-14T21:18:19.115Z",
+        "subject": "Modernizing the website for Higgins & Co",
+        "resendId": "468a2e0f-4420-4511-a654-5d8ffb929a51",
+        "status": "delivered"
+      }
+    ]
+  },
+  {
+    "id": "klein-legal",
+    "firmName": "Klein Legal",
+    "contactName": "Andrew Klein",
+    "email": "aklein@kleinlegalnd.com",
+    "website": "Unknown",
+    "niche": "Law Firm",
+    "location": "Minot, ND",
+    "pricingQuoted": "$19/month",
+    "initialContactDate": "2026-09-14T21:18:19.233Z",
+    "lastContactDate": "2026-09-14T21:18:19.233Z",
+    "status": "delivered",
+    "sequenceStep": "Day 0 - Initial Pitch",
+    "history": [
+      {
+        "step": "Day 0",
+        "sentAt": "2026-09-14T21:18:19.233Z",
+        "subject": "Modernizing the website for Klein Legal",
+        "resendId": "268694ac-0814-4f32-8a6b-943d94294b59",
+        "status": "delivered"
+      }
+    ]
+  },
+  {
+    "id": "lawson-law",
+    "firmName": "Lawson Law",
+    "contactName": "Brian Lawson",
+    "email": "blawson@lawsonlawsouth.com",
+    "website": "Unknown",
+    "niche": "Law Firm",
+    "location": "Florence, SC",
+    "pricingQuoted": "$19/month",
+    "initialContactDate": "2026-09-14T21:18:19.346Z",
+    "lastContactDate": "2026-09-14T21:18:19.346Z",
+    "status": "delivered",
+    "sequenceStep": "Day 0 - Initial Pitch",
+    "history": [
+      {
+        "step": "Day 0",
+        "sentAt": "2026-09-14T21:18:19.346Z",
+        "subject": "Modernizing the website for Lawson Law",
+        "resendId": "27205ae6-b985-4da6-bd00-ab88132bf71e",
+        "status": "delivered"
+      }
+    ]
+  },
+  {
+    "id": "norton-pierce",
+    "firmName": "Norton & Pierce",
+    "contactName": "Daniel Norton",
+    "email": "dnorton@nortonpierce.com",
+    "website": "Unknown",
+    "niche": "Law Firm",
+    "location": "Keene, NH",
+    "pricingQuoted": "$19/month",
+    "initialContactDate": "2026-09-14T21:18:19.475Z",
+    "lastContactDate": "2026-09-14T21:18:19.475Z",
+    "status": "delivered",
+    "sequenceStep": "Day 0 - Initial Pitch",
+    "history": [
+      {
+        "step": "Day 0",
+        "sentAt": "2026-09-14T21:18:19.475Z",
+        "subject": "Modernizing the website for Norton & Pierce",
+        "resendId": "1a78634d-a0f4-42b8-990a-abd2b3d17596",
+        "status": "delivered"
       }
     ]
   }

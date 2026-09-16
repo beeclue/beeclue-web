@@ -208,6 +208,24 @@ export default function Home() {
           <p>A look at how we transform business challenges into scalable technical solutions.</p>
         </div>
         <div className={styles.featuredGrid}>
+          <Link href="/case-studies/tuxedo-frame-gallery" className={styles.featuredCard}>
+            <div className={styles.featuredImagePlaceholder} style={{ padding: 0, position: 'relative' }}>
+              <Image 
+                src="https://cdn.jsdelivr.net/gh/beeclue/clients@main/self/tuxedoframegallery.webp"
+                alt="Tuxedo Frame Gallery Website"
+                fill
+                sizes="(max-width: 768px) 100vw, 50vw"
+                style={{ objectFit: 'contain', padding: '2rem 0' }}
+              />
+            </div>
+            <div className={styles.featuredContent}>
+              <h3>Tuxedo Frame Gallery — Luxury Atelier</h3>
+              <p>We built a bespoke digital platform with local SEO dominance and dynamic social media management for Atlanta&apos;s premier custom framing gallery.</p>
+              <div className={styles.techTags}>
+                <span>Custom Web</span><span>Local SEO</span><span>Social Media</span>
+              </div>
+            </div>
+          </Link>
           <Link href="/case-studies/iv-uniforms" className={styles.featuredCard}>
             <div className={styles.featuredImagePlaceholder} style={{ padding: 0, position: 'relative' }}>
               <Image 
@@ -241,24 +259,6 @@ export default function Home() {
               <p>We partnered with Oakville's device repair experts to build a high-performance Next.js platform with robust local SEO and custom brand identity.</p>
               <div className={styles.techTags}>
                 <span>Next.js</span><span>Local SEO</span><span>Analytics</span>
-              </div>
-            </div>
-          </Link>
-          <Link href="/case-studies/tara-lattanzio" className={styles.featuredCard}>
-            <div className={styles.featuredImagePlaceholder} style={{ padding: 0, position: 'relative' }}>
-              <Image 
-                src="https://cdn.jsdelivr.net/gh/beeclue/clients@main/self/tara-lattanzio.webp"
-                alt="Tara Lattanzio Family Law Website"
-                fill
-                sizes="(max-width: 768px) 100vw, 50vw"
-                style={{ objectFit: 'contain', padding: '2rem 0' }}
-              />
-            </div>
-            <div className={styles.featuredContent}>
-              <h3>Tara Lattanzio — Legal Platform</h3>
-              <p>We partnered with Waterloo Region attorney Tara Lattanzio to build a high-converting, empathetic web architecture designed for client trust and consultations.</p>
-              <div className={styles.techTags}>
-                <span>Next.js</span><span>Legal UX</span><span>SEO</span>
               </div>
             </div>
           </Link>

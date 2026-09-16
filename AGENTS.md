@@ -11,6 +11,7 @@ This version has breaking changes — APIs, conventions, and file structure may 
 
 # New Case Studies
 - Any new case study added, the home page should get the latest case studies. 
+- On the home page, there should be **strictly 3 case studies max** (displaying the top 3 most recent in chronological order).
 - When adding case studies on the case studies list page and home page, make sure the design is consistent with the overall design of the website. 
 - It should be in chronological order based on the created date.
 

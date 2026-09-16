@@ -54,6 +54,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     // Legacy Landing Pages
     '/19',
     // Case Studies
+    '/case-studies/tuxedo-frame-gallery',
     '/case-studies/iv-uniforms',
     '/case-studies/mac-mates',
     '/case-studies/tara-lattanzio',

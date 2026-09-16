@@ -48,6 +48,29 @@ export default function CaseStudiesPage() {
           <div className={styles.caseStudyListItem}>
             <div className={styles.caseStudyListImage}>
               <Image 
+                src="https://cdn.jsdelivr.net/gh/beeclue/clients@main/self/tuxedoframegallery.webp" 
+                alt="Tuxedo Frame Gallery Website" 
+                fill
+                sizes="(max-width: 768px) 100vw, 50vw"
+                style={{ objectFit: "contain", padding: "2rem" }}
+              />
+            </div>
+            <div className={styles.caseStudyListContent}>
+              <h2>Tuxedo Frame Gallery — Luxury Web Experience, Local SEO &amp; Social Media</h2>
+              <p>
+                We partnered with Atlanta&apos;s premier custom picture framing atelier and fine art gallery in Buckhead. We designed a luxury digital platform, established local SEO dominance across Metro Atlanta, and executed an engaging social media strategy showcasing 35+ years of master craftsmanship, museum-quality restoration, and local art collections.
+              </p>
+              <div>
+                <Link href="/case-studies/tuxedo-frame-gallery" className={styles.ctaButtonLight}>
+                  Read More <ArrowRight className={styles.arrow} size={20} />
+                </Link>
+              </div>
+            </div>
+          </div>
+
+          <div className={styles.caseStudyListItem}>
+            <div className={styles.caseStudyListImage}>
+              <Image 
                 src="https://cdn.jsdelivr.net/gh/beeclue/clients@main/self/iv-uniforms.webp" 
                 alt="IV Uniforms Website" 
                 fill
