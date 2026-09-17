@@ -30,14 +30,14 @@ export default function FreeDomainWebDesignTorontoPage() {
 
           <h1 className={styles.title}>
             <span className={styles.titleLinePrimary}>Get a 100% Free Domain</span>
-            <span className={styles.titleLine}>&amp; Custom Web Design</span>
+            <span className={styles.titleLine}>With Any Web Design Plan</span>
           </h1>
           <p className={styles.subtitle}>
-            Stop settling for generic email addresses and slow, free website builders. Get a Premium Custom Website built by Toronto&apos;s leading agency, and we&apos;ll cover your Domain, Premium Hosting, and SSL Certificate <strong>100% FREE for the first year.</strong>
+            Sign up for any of our custom web design packages, and we&apos;ll cover your Domain, Premium Hosting, and SSL Certificate <strong>100% FREE for the first year.</strong> Get a premium digital storefront built by Toronto&apos;s leading agency, without the headache of managing tech.
           </p>
           <div className={styles.heroTrustBar}>
             <Link href="/contact" className={styles.ctaButton}>
-              Claim Your Free Domain <ArrowRight className={styles.arrow} />
+              Claim Your Offer <ArrowRight className={styles.arrow} />
             </Link>
             <div className={styles.trustItem}>
               <div className={styles.trustStars}>★★★★★</div>
@@ -130,12 +130,12 @@ export default function FreeDomainWebDesignTorontoPage() {
         <div className={styles.servicesHeader}>
           <h2>Get Started Today</h2>
           <p>
-            No hidden fees. No massive upfront build costs. Just a simple, transparent subscription that covers your custom website, free domain for the first year, high-speed hosting, and ongoing maintenance.
+            Choose any of our custom web design plans, and we'll handle the rest. Your subscription covers your custom website, high-speed hosting, ongoing maintenance, and your domain completely free for the first year.
           </p>
         </div>
         <div style={{ marginTop: "2rem" }}>
           <Link href="/contact" className={styles.ctaButton}>
-            Claim Your Free Domain <ArrowRight size={20} />
+            Claim Your Offer <ArrowRight size={20} />
           </Link>
           <div className={styles.heroMicrocopy} style={{ marginTop: "1.5rem", maxWidth: "800px", lineHeight: "1.6" }}>
             *Free domain offer applies to standard .com or .ca registrations for the first 12 months. Domain renewal rates apply in year two. Subject to availability. The domain will be registered under Beeclue's account. A $100 administration fee will be applied if the client wishes to transfer the domain to their own account or requires it to be registered directly on their account. By proceeding, the client gives us the right to register the domain on their behalf. Beeclue Tech is not liable for any copyright or trademark claims related to the chosen domain name.
