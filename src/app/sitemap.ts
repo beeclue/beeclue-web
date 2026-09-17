@@ -43,6 +43,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/website-development-cost-toronto',
     '/best-ecommerce-platform-canada',
     '/not-secure-website-fix',
+    '/free-domain-web-design-toronto',
     // Regional Landing Pages
     '/web-design/huntsville',
     '/web-design/cobourg',
