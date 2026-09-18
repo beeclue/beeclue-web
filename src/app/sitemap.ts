@@ -113,6 +113,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/family-law-firm-website-design-strategy',
     '/law-firm-website-audit-checklist',
     '/best-payment-gateways-canada',
+    '/wcag-website-accessibility-compliance-canada',
   ];
 
   return routes.map((route) => ({

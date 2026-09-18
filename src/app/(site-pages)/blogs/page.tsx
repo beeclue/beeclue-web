@@ -33,6 +33,30 @@ export default function BlogsPage() {
       {/* BLOGS LIST */}
       <FadeIn className={styles.baseSection} style={{ paddingTop: "5vh" }}>
         <div className={styles.caseStudyList}>
+          {/* BLOG: WCAG ACCESSIBILITY COMPLIANCE CANADA */}
+          <div className={styles.caseStudyListItem}>
+            <div className={styles.caseStudyListImage} style={{ position: "relative" }}>
+              <Image
+                src="https://images.unsplash.com/photo-1573164713988-8665fc963095?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=75"
+                alt="Diverse digital professionals collaborating on accessible website technology"
+                fill
+                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                style={{ objectFit: "cover" }}
+              />
+            </div>
+            <div className={styles.caseStudyListContent}>
+              <h2>WCAG Website Accessibility Compliance in Canada: Complete Guide &amp; Industry Impact</h2>
+              <p>
+                Comprehensive guide to WCAG 2.1 &amp; 2.2 website accessibility compliance in Canada. Learn AODA, ACA federal standards, legal risks, industry-specific mandates, and technical implementation steps.
+              </p>
+              <div>
+                <Link href="/wcag-website-accessibility-compliance-canada" className={styles.ctaButtonLight}>
+                  Read Article <ArrowRight className={styles.arrow} size={20} />
+                </Link>
+              </div>
+            </div>
+          </div>
+
           {/* BLOG: BEST PAYMENT GATEWAYS CANADA */}
           <div className={styles.caseStudyListItem}>
             <div className={styles.caseStudyListImage} style={{ position: "relative" }}>
