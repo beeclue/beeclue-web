@@ -6,21 +6,21 @@ import FadeIn from "@/components/FadeIn";
 import blogStyles from "../shared-blog.module.css";
 
 export const metadata: Metadata = {
-  title: "Best School Web Design Canada 2026",
-  description: "Searching for the best school website design companies in Canada? Learn what makes a top-tier educational website and why custom development outshines templates.",
+  title: "Top 7 School Website Design Companies in Canada (2026 Rankings)",
+  description: "Looking for Canada's best educational website design agencies? Compare top school web designers, AODA/WCAG accessibility features, student portals, and pricing.",
   alternates: {
     canonical: "https://beeclue.com/best-school-website-design-companies-canada",
   },
   openGraph: {
-    title: "Best School Web Design Canada 2026",
-    description: "Searching for the best school website design companies in Canada? Learn what makes a top-tier educational website and why custom development outshines templates.",
+    title: "Top 7 School Website Design Companies in Canada (2026 Rankings)",
+    description: "Looking for Canada's best educational website design agencies? Compare top school web designers, AODA/WCAG accessibility features, student portals, and pricing.",
     url: "https://beeclue.com/best-school-website-design-companies-canada",
     images: [
       {
         url: "https://images.unsplash.com/photo-1509062522246-3755977927d7?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=75",
         width: 1200,
         height: 630,
-        alt: "University campus building representing school website design",
+        alt: "Best School Website Design Companies in Canada 2026",
       },
     ],
   },

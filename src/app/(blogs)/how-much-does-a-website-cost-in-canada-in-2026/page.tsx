@@ -8,8 +8,8 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://beeclue.com/how-much-does-a-website-cost-in-canada-in-2026",
   },
-  title: 'Website Cost in Canada 2026 Guide',
-  description: 'A complete guide to website costs in Toronto for 2026. Compare pricing for brochure, e-commerce, and custom websites with ROI breakdowns and expert tips for Toronto businesses.',
+  title: "How Much Does a Website Cost in Canada in 2026? [Full Pricing Breakdown]",
+  description: "Complete 2026 pricing breakdown for Canadian businesses. Compare costs for small business, custom web apps, and eCommerce websites with realistic budgets & ROI.",
 };
 
 export default function WebsiteCostToronto2026Guide() {

@@ -6,21 +6,21 @@ import FadeIn from "@/components/FadeIn";
 import blogStyles from "../shared-blog.module.css";
 
 export const metadata: Metadata = {
-  title: "Why SSL is Mandatory for SEO Rankings in 2026",
-  description: "Google penalizes websites without SSL. Learn the differences between HTTP and HTTPS, and why encryption is mandatory for SEO rankings.",
+  title: "HTTP vs HTTPS: Why SSL is Mandatory for SEO & Rankings in 2026",
+  description: "Does HTTPS actually improve your Google ranking? Learn how SSL impacts SEO, eliminates browser 'Not Secure' warnings, and protects conversions.",
   alternates: {
     canonical: "https://beeclue.com/http-vs-https-why-ssl-is-mandatory-for-seo",
   },
   openGraph: {
-    title: "Why SSL is Mandatory for SEO Rankings in 2026",
-    description: "Google penalizes websites without SSL. Learn the differences between HTTP and HTTPS, and why encryption is mandatory for SEO rankings.",
+    title: "HTTP vs HTTPS: Why SSL is Mandatory for SEO & Rankings in 2026",
+    description: "Does HTTPS actually improve your Google ranking? Learn how SSL impacts SEO, eliminates browser 'Not Secure' warnings, and protects conversions.",
     url: "https://beeclue.com/http-vs-https-why-ssl-is-mandatory-for-seo",
     images: [
       {
         url: "https://images.unsplash.com/photo-1555949963-aa79dcee981c?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=75",
         width: 1200,
         height: 630,
-        alt: "Why SSL is Mandatory for SEO Rankings in 2026",
+        alt: "HTTP vs HTTPS SSL SEO Guide 2026",
       },
     ],
   },

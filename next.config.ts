@@ -35,6 +35,31 @@ const nextConfig: NextConfig = {
         destination: '/web-design-for-dental-clinics',
         permanent: true,
       },
+      {
+        source: '/website-development-for-dental-clinics',
+        destination: '/web-design-for-dental-clinics',
+        permanent: true,
+      },
+      {
+        source: '/how-to-fix-not-secure-website-warning',
+        destination: '/how-to-fix-not-secure-warning-2026',
+        permanent: true,
+      },
+      {
+        source: '/not-secure-website-fix',
+        destination: '/how-to-fix-not-secure-warning-2026',
+        permanent: true,
+      },
+      {
+        source: '/custom-website-vs-wix',
+        destination: '/custom-website-development-beats-wix-shopify',
+        permanent: true,
+      },
+      {
+        source: '/cost-to-build-ecommerce-website-canada',
+        destination: '/ecommerce-website-cost-canada',
+        permanent: true,
+      },
     ];
   },
   pageExtensions: ["js", "jsx", "md", "mdx", "ts", "tsx"],

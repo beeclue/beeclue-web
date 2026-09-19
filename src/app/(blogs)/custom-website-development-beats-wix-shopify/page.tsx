@@ -6,21 +6,21 @@ import FadeIn from "@/components/FadeIn";
 import blogStyles from "../shared-blog.module.css";
 
 export const metadata: Metadata = {
-  title: "Custom Web Development vs Wix & Shopify",
-  description: "Why custom website development outperforms Wix and Shopify for growing businesses. Compare performance, SEO, scalability, and long-term ROI.",
+  title: "Custom Website vs Wix vs Shopify: Which Wins in 2026? [Full Comparison]",
+  description: "Comparing custom web development vs Wix vs Shopify in 2026. Discover real speed benchmarks, SEO limitations, scalability, hidden app costs, and 5-year ROI.",
   alternates: {
     canonical: "https://beeclue.com/custom-website-development-beats-wix-shopify",
   },
   openGraph: {
-    title: "Custom Web Development vs Wix & Shopify",
-    description: "Why custom website development outperforms Wix and Shopify for growing businesses. Compare performance, SEO, scalability, and long-term ROI.",
+    title: "Custom Website vs Wix vs Shopify: Which Wins in 2026? [Full Comparison]",
+    description: "Comparing custom web development vs Wix vs Shopify in 2026. Discover real speed benchmarks, SEO limitations, scalability, hidden app costs, and 5-year ROI.",
     url: "https://beeclue.com/custom-website-development-beats-wix-shopify",
     images: [
       {
         url: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=75",
         width: 1200,
         height: 630,
-        alt: "Custom Web Development vs Wix & Shopify",
+        alt: "Custom Web Development vs Wix & Shopify Comparison 2026",
       },
     ],
   },
