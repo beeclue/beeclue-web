@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import Link from "next/link";
 import styles from "@/app/page.module.css";
 import {
@@ -130,6 +131,16 @@ export default function ShopifyEcommerceWebsiteDesignPage() {
       {/* HERO SECTION */}
       <FadeIn className={styles.baseSection} style={{ paddingTop: "20vh", minHeight: "50vh", display: "flex", alignItems: "center" }}>
         <div className={styles.heroContent}>
+          <div style={{ marginBottom: "1.75rem" }}>
+            <Image
+              src="/images/shopify-partner-white.png"
+              alt="Shopify Partners"
+              width={240}
+              height={60}
+              priority
+              style={{ height: "42px", width: "auto", objectFit: "contain" }}
+            />
+          </div>
           <h1 className={styles.title} style={{ fontSize: "clamp(2.5rem, 6vw, 5rem)" }}>
             <span className={styles.titleLinePrimary}>Shopify E-Commerce</span>
             <span className={styles.titleLine}>Website Design</span>
