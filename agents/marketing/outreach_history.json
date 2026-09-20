@@ -12537,5 +12537,31 @@
         "notes": "Targeted Day 0 outreach (HTML site diagnosis). Pitching Core $19/mo 5-page plan with free mockup."
       }
     ]
+  },
+  {
+    "id": "captain-printworks",
+    "firmName": "Captain Printworks (Captain Copy Inc.)",
+    "contactName": "Ahmed Imam (Founder & CEO) / Leadership Team",
+    "email": "info@captainprint.com",
+    "website": "https://captainprint.com",
+    "niche": "Commercial Printing, Business Cards & Signage",
+    "location": "Vaughan / Toronto, ON (220 Viceroy Rd, Unit 6, Vaughan, ON L4K 3C2)",
+    "pricingQuoted": "Flat 30% commission on every web design project",
+    "initialContactDate": "2026-09-20T15:10:46.177Z",
+    "lastContactDate": "2026-09-20T15:10:46.177Z",
+    "status": "delivered",
+    "sequenceStep": "B2B Partnership Proposal",
+    "diagnosedIssues": "Commercial print shop with massive SMB client base needing websites alongside print products. Proposed 30% commission white-label/referral model.",
+    "caseStudySent": "https://calendar.app.google/8sS8ok1efAgE5zuB9",
+    "history": [
+      {
+        "step": "B2B Partnership Intro",
+        "sentAt": "2026-09-20T15:10:46.177Z",
+        "subject": "Partnership proposal: Adding custom web design services to Captain Printworks (30% commission)",
+        "resendId": "01a0bf5e-a557-74ef-8f11-811ca9b9968f",
+        "status": "delivered",
+        "notes": "Partnership proposal offering 30% commission, turnkey fulfillment, print+web bundled packages, and calendar link: https://calendar.app.google/8sS8ok1efAgE5zuB9"
+      }
+    ]
   }
 ]
