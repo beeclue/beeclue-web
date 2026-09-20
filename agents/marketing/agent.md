@@ -102,6 +102,7 @@ When instructed to dispatch or send emails directly:
   - Direct verified decision-maker emails ONLY (no generic `info@`, `contact@`, `admin@`).
   - Strict limit of ONE contact per firm.
   - NEVER include BCC headers on law firm sales emails.
+  - **Exact Business Name Verification**: NEVER infer, truncate, or abbreviate a business or firm name from its domain name (e.g., domain `donovanlaughlin.com` must NEVER be guessed as `Donovan & Laughlin`). Always verify the exact registered entity name from the site footer, header, contact page, or official state directory (e.g., `Donovan Laughlin and Laughlin, LLC`). For law firms, incorrect partner names or missed suffixes are an immediate red flag that ruins credibility.
   - Subject line MUST reference the firm/company name (e.g., "Modernizing the website for [Firm Name]"), never the individual's name.
   - Include UTM tracking on links: `?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-<firm-slug>`.
 - **B2B Partnership Outreach Constraints**:
