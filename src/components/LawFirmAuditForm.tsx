@@ -126,9 +126,6 @@ export default function LawFirmAuditForm({ initialFirmName = "", className }: La
       <section id="free-mockup" className={`${styles.auditSection} ${className || ""}`}>
         <div className={styles.auditFormContainer}>
           <div className={styles.header}>
-            <div className={styles.badge}>
-              <Sparkles size={16} /> 48-Hour Legal Mockup Offer
-            </div>
             <h2>
               Want to See a Modernized Website for <span className={styles.highlight}>Your Law Practice</span>?
             </h2>
