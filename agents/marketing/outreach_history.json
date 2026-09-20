@@ -13265,5 +13265,31 @@
         "notes": "Collaborative partner response highlighting strategic co-creation, transparency, long-term mindset, and rapid execution."
       }
     ]
+  },
+  {
+    "id": "craigslist-halloween-printful-square-store",
+    "firmName": "Halloween Ecommerce Store (Printful + Square)",
+    "contactName": "Store Owner",
+    "email": "c0c08d57ef6137258e5cd5a615d33618@job.craigslist.org",
+    "website": "Direct Craigslist Posting",
+    "niche": "Halloween Apparel & Gifts (Printful POD + Square)",
+    "location": "United States (Craigslist)",
+    "pricingQuoted": "$300 flat",
+    "initialContactDate": "2026-09-20T23:40:56.484Z",
+    "lastContactDate": "2026-09-20T23:40:56.484Z",
+    "status": "delivered",
+    "sequenceStep": "Job Lead Proposal",
+    "diagnosedIssues": "Hacked Halloween ecommerce store offline for months. Needs rapid completion with Printful POD and Square payment gateway for $300 flat budget.",
+    "caseStudySent": "https://beeclue.com/case-studies?utm_source=beeclue&utm_medium=partner-outreach&utm_campaign=halloween-store-craigslist",
+    "history": [
+      {
+        "step": "Job Lead Pitch",
+        "sentAt": "2026-09-20T23:40:56.484Z",
+        "subject": "Halloween Store Completion - Ready to get your site live ASAP ($300 Flat)",
+        "resendId": "01a0c131-b8bf-712d-86c8-12c6ba9b0a43",
+        "status": "delivered",
+        "notes": "Rapid recovery pitch offering 48-72h completion for $300 flat, Printful sync, Square gateway, and security cleanup."
+      }
+    ]
   }
 ]
