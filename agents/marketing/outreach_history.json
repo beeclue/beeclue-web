@@ -12563,5 +12563,31 @@
         "notes": "Partnership proposal offering 30% commission, turnkey fulfillment, print+web bundled packages, and calendar link: https://calendar.app.google/8sS8ok1efAgE5zuB9"
       }
     ]
+  },
+  {
+    "id": "mr-printer-and-mr-signs",
+    "firmName": "Mr. Printer and Mr. Signs",
+    "contactName": "Ownership & Management Team",
+    "email": "info@mrprinter.ca",
+    "website": "https://www.mrprinter.ca",
+    "niche": "Printing, Signage & Commercial Marketing",
+    "location": "Etobicoke / Toronto, ON (518 Evans Avenue, Etobicoke, ON M8W 2V4)",
+    "pricingQuoted": "Flat 30% commission on every web design project",
+    "initialContactDate": "2026-09-20T15:11:31.592Z",
+    "lastContactDate": "2026-09-20T15:11:31.592Z",
+    "status": "delivered",
+    "sequenceStep": "B2B Partnership Proposal",
+    "diagnosedIssues": "Established Toronto printing & signage provider with large local business clientele. Proposed 30% commission turnkey web design partnership with print+web bundles.",
+    "caseStudySent": "https://calendar.app.google/8sS8ok1efAgE5zuB9",
+    "history": [
+      {
+        "step": "B2B Partnership Intro",
+        "sentAt": "2026-09-20T15:11:31.592Z",
+        "subject": "Partnership proposal: Adding custom web design services to Mr. Printer (30% commission)",
+        "resendId": "01a0bf5f-5688-7688-8dfe-66d649ef119d",
+        "status": "delivered",
+        "notes": "Partnership proposal offering 30% commission, turnkey fulfillment, print+web bundles, and calendar link: https://calendar.app.google/8sS8ok1efAgE5zuB9"
+      }
+    ]
   }
 ]
