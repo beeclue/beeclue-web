@@ -26,5 +26,12 @@
     "email": "peter@pslawtoronto.com",
     "reason": "Responded not interested - do not contact",
     "blacklistedAt": "2026-09-11T20:53:50.072Z"
+  },
+  {
+    "name": "Dennis B. Laughlin",
+    "firmName": "Donovan Laughlin and Laughlin, LLC",
+    "email": "dennis@donovanlaughlin.com",
+    "reason": "Responded not interested - firm has capacity, noted incorrect firm name",
+    "blacklistedAt": "2026-09-20T13:34:25.000Z"
   }
 ]

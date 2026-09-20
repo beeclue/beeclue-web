@@ -8453,17 +8453,17 @@
   },
   {
     "id": "donovan-and-laughlin",
-    "firmName": "Donovan & Laughlin",
-    "contactName": "Dennis Laughlin (Principal Counsel / Partner)",
+    "firmName": "Donovan Laughlin and Laughlin, LLC",
+    "contactName": "Dennis B. Laughlin, Esquire",
     "email": "dennis@donovanlaughlin.com",
     "website": "Active / Older Template",
     "niche": "Real Estate, Estate Planning & Business Law",
-    "location": "Oneonta, NY (15 South Main St, Suite 103, Oneonta, NY 13820)",
+    "location": "Oneonta & Cherry Valley, NY (15 South Main St, Suite 103, Oneonta, NY 13820)",
     "pricingQuoted": "$19/month",
     "initialContactDate": "2026-09-11T13:42:34.287Z",
-    "lastContactDate": "2026-09-19T21:37:29.721Z",
-    "status": "delivered",
-    "sequenceStep": "Day 4 - Follow-up",
+    "lastContactDate": "2026-09-20T13:34:25.000Z",
+    "status": "not_interested",
+    "sequenceStep": "Closed - Not Interested (Blacklisted)",
     "diagnosedIssues": "Dated template layout with unoptimized mobile navigation and slow asset response.",
     "caseStudySent": "https://beeclue.com/case-studies/tara-lattanzio?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-donovan-and-laughlin",
     "history": [
@@ -8482,6 +8482,13 @@
         "resendId": "01a0bb9a-582f-7538-8bfa-b11f66f80063",
         "status": "delivered",
         "notes": "Threaded Day 4 follow-up on custom website mockup preview offer."
+      },
+      {
+        "step": "Response Received - Opt-Out",
+        "sentAt": "2026-09-20T13:34:25.000Z",
+        "subject": "Prospect Response",
+        "status": "not_interested",
+        "notes": "Dennis Laughlin replied noting that the correct legal firm name is 'Donovan Laughlin and Laughlin, LLC' (not 'Donovan & Laughlin'), stated firm has full capacity and is not looking to change website. Added to blacklist."
       }
     ]
   },
