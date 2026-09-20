@@ -250,6 +250,10 @@ export default function WebsiteDevelopmentCostTorontoPage() {
               out in one of North America&apos;s most competitive business
               markets. A developer who understands these requirements will build
               a website that&apos;s optimized for the Toronto market from day one.
+              For a broader national perspective comparing GTA rates with other provinces, view our comprehensive{" "}
+              <Link href="/how-much-does-a-website-cost-in-canada-in-2026" style={{ color: "var(--accent)", textDecoration: "underline" }}>
+                Canada Website Cost Breakdown
+              </Link>.
             </p>
           </div>
 

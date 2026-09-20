@@ -14,11 +14,25 @@ export default function WebDesignForDentalClinicsPage() {
     "@type": "Service",
     "serviceType": "Web Design for Dental Clinics",
     "provider": {
-      "@type": "Organization",
-      "name": "Beeclue Tech"
+      "@type": "LocalBusiness",
+      "name": "Beeclue Tech",
+      "telephone": "+1-647-947-6253",
+      "priceRange": "$$",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Toronto",
+        "addressRegion": "ON",
+        "addressCountry": "CA"
+      }
     },
     "description": "Professional web design and development services for dental clinics, dentists, and oral healthcare providers in Canada. Patient portals, appointment booking, and HIPAA-compliant websites.",
-    "areaServed": "Canada"
+    "areaServed": "Canada",
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "5.0",
+      "reviewCount": "30",
+      "bestRating": "5"
+    }
   };
   const breadcrumbs = {
     "@context": "https://schema.org",

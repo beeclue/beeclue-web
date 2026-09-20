@@ -24,10 +24,24 @@ export default function WebDesignTorontoPage() {
         "@type": "Service",
         "serviceType": "Web Design Services",
         "provider": {
-          "@type": "Organization",
-          "name": "Beeclue Tech"
+          "@type": "LocalBusiness",
+          "name": "Beeclue Tech",
+          "telephone": "+1-647-947-6253",
+          "priceRange": "$$",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Toronto",
+            "addressRegion": "ON",
+            "addressCountry": "CA"
+          }
         },
-        "areaServed": "Toronto"
+        "areaServed": "Toronto",
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "5.0",
+          "reviewCount": "30",
+          "bestRating": "5"
+        }
       },
       {
         "@type": "FAQPage",
