@@ -12615,5 +12615,31 @@
         "notes": "Partnership proposal offering 30% commission, turnkey fulfillment, luxury business cards + website bundles, and calendar link: https://calendar.app.google/8sS8ok1efAgE5zuB9"
       }
     ]
+  },
+  {
+    "id": "printkia-print-gift",
+    "firmName": "Printkia (Print & Gift)",
+    "contactName": "Ownership & Sales Team",
+    "email": "sales@printkia.com",
+    "website": "https://printkia.ca",
+    "niche": "Commercial Printing, Corporate Stationery & Marketing Collateral",
+    "location": "Downtown Toronto, ON (641 Bay Street, Unit 1, Toronto, ON M5G 1M7)",
+    "pricingQuoted": "Flat 30% commission on every web design project",
+    "initialContactDate": "2026-09-20T15:18:26.461Z",
+    "lastContactDate": "2026-09-20T15:18:26.461Z",
+    "status": "delivered",
+    "sequenceStep": "B2B Partnership Proposal",
+    "diagnosedIssues": "Downtown Toronto commercial print shop on Bay Street serving startups, retail, and corporate clients. Proposed 30% commission turnkey web design partnership and business cards + website bundles.",
+    "caseStudySent": "https://calendar.app.google/8sS8ok1efAgE5zuB9",
+    "history": [
+      {
+        "step": "B2B Partnership Intro",
+        "sentAt": "2026-09-20T15:18:26.461Z",
+        "subject": "Partnership proposal: Adding custom web design services to Printkia (30% commission)",
+        "resendId": "01a0bf65-ab41-7644-9365-f62972e95e90",
+        "status": "delivered",
+        "notes": "Partnership proposal offering 30% commission, turnkey fulfillment, business cards + website bundles, and calendar link: https://calendar.app.google/8sS8ok1efAgE5zuB9"
+      }
+    ]
   }
 ]
