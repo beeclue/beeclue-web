@@ -12589,5 +12589,31 @@
         "notes": "Partnership proposal offering 30% commission, turnkey fulfillment, print+web bundles, and calendar link: https://calendar.app.google/8sS8ok1efAgE5zuB9"
       }
     ]
+  },
+  {
+    "id": "blitz-print-house",
+    "firmName": "Blitz Print House",
+    "contactName": "Ownership & Creative Production Team",
+    "email": "info@blitzprinthouse.com",
+    "website": "https://blitzprinthouse.com",
+    "niche": "Fine Art Printing, Luxury Business Cards & Boutique Print Collateral",
+    "location": "Toronto, ON",
+    "pricingQuoted": "Flat 30% commission on every web design project",
+    "initialContactDate": "2026-09-20T15:14:24.258Z",
+    "lastContactDate": "2026-09-20T15:14:24.258Z",
+    "status": "delivered",
+    "sequenceStep": "B2B Partnership Proposal",
+    "diagnosedIssues": "Boutique Toronto print studio specializing in premium business cards and fine art printing. Proposed 30% commission turnkey web design partnership and luxury business cards + website bundles.",
+    "caseStudySent": "https://calendar.app.google/8sS8ok1efAgE5zuB9",
+    "history": [
+      {
+        "step": "B2B Partnership Intro",
+        "sentAt": "2026-09-20T15:14:24.258Z",
+        "subject": "Partnership proposal: Adding custom web design services to Blitz Print House (30% commission)",
+        "resendId": "01a0bf61-f934-712c-84ec-56089c5f3347",
+        "status": "delivered",
+        "notes": "Partnership proposal offering 30% commission, turnkey fulfillment, luxury business cards + website bundles, and calendar link: https://calendar.app.google/8sS8ok1efAgE5zuB9"
+      }
+    ]
   }
 ]
