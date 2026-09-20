@@ -13213,5 +13213,31 @@
         "notes": "Craigslist ad response offering Next.js/React full-stack build, portfolio link (https://beeclue.com/case-studies?utm_source=beeclue&utm_medium=partner-outreach&utm_campaign=craigslist-queens-village), and calendar link."
       }
     ]
+  },
+  {
+    "id": "vibe-coder-ai-websites-juan",
+    "firmName": "AI Vibe Coder Project (Juan)",
+    "contactName": "Juan",
+    "email": "juan.god.1015@outlook.com",
+    "website": "Direct Lead",
+    "niche": "AI Vibe Coding / Rapid Prototyping / Modern Frontend",
+    "location": "United States / Remote",
+    "pricingQuoted": "Flexible hourly / project-based rate",
+    "initialContactDate": "2026-09-20T23:32:28.033Z",
+    "lastContactDate": "2026-09-20T23:32:28.033Z",
+    "status": "delivered",
+    "sequenceStep": "Job Lead Proposal",
+    "diagnosedIssues": "Seeking vibe coder skilled in Cursor, Claude, and modern frontend frameworks to turn ideas into working websites. Pitched AI-accelerated Next.js/React engineering expertise.",
+    "caseStudySent": "https://beeclue.com/case-studies?utm_source=beeclue&utm_medium=partner-outreach&utm_campaign=vibe-coder-juan",
+    "history": [
+      {
+        "step": "Job Lead Pitch",
+        "sentAt": "2026-09-20T23:32:28.033Z",
+        "subject": "Vibe Coder / AI Web Developer - Re: Turning ideas into working websites",
+        "resendId": "01a0c129-f6b7-75cf-af2b-814e286e7e47",
+        "status": "delivered",
+        "notes": "Vibe coder response highlighting Cursor, Claude, Next.js, and rapid prototyping capabilities with calendar link."
+      }
+    ]
   }
 ]
