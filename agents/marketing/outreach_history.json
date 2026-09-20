@@ -13187,5 +13187,31 @@
         "notes": "Day 0 legal outreach pitching Core $19/mo 5-page plan with free custom mockup preview."
       }
     ]
+  },
+  {
+    "id": "craigslist-queens-village-web-dev",
+    "firmName": "Client Website Project (Queens Village, NY Craigslist Ad)",
+    "contactName": "Hiring Team / Project Lead",
+    "email": "celebrate809@outlook.com",
+    "website": "https://www.craigslist.org/view/d/queens-village-web-developer-needed/oUKKdEyqZTTcE1HMwLSycH",
+    "niche": "Web Development / Client Build",
+    "location": "Queens Village, NY",
+    "pricingQuoted": "Competitive milestone-based / monthly plan",
+    "initialContactDate": "2026-09-20T23:30:54.920Z",
+    "lastContactDate": "2026-09-20T23:30:54.920Z",
+    "status": "delivered",
+    "sequenceStep": "Job Lead Proposal",
+    "diagnosedIssues": "Craigslist post seeking web developer to turn client requirements into clean, responsive, reliable website. Pitched turnkey build / white-label agency services.",
+    "caseStudySent": "https://beeclue.com/case-studies?utm_source=beeclue&utm_medium=partner-outreach&utm_campaign=craigslist-queens-village",
+    "history": [
+      {
+        "step": "Job Lead Pitch",
+        "sentAt": "2026-09-20T23:30:54.920Z",
+        "subject": "Web Developer Needed - Re: Client Website Build",
+        "resendId": "01a0c128-8a65-76ec-b29c-51cfda150136",
+        "status": "delivered",
+        "notes": "Craigslist ad response offering Next.js/React full-stack build, portfolio link (https://beeclue.com/case-studies?utm_source=beeclue&utm_medium=partner-outreach&utm_campaign=craigslist-queens-village), and calendar link."
+      }
+    ]
   }
 ]
