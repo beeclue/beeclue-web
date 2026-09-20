@@ -12641,5 +12641,31 @@
         "notes": "Partnership proposal offering 30% commission, turnkey fulfillment, business cards + website bundles, and calendar link: https://calendar.app.google/8sS8ok1efAgE5zuB9"
       }
     ]
+  },
+  {
+    "id": "arcapack",
+    "firmName": "Arcapack",
+    "contactName": "Ownership & Production Team",
+    "email": "info@arcapack.com",
+    "website": "https://arcapack.com",
+    "niche": "Custom Packaging, Labels, Print & Business Cards",
+    "location": "Concord / Vaughan, ON (101 Doney Crescent, Concord, ON L4K 1P6)",
+    "pricingQuoted": "Flat 30% commission on every web design project",
+    "initialContactDate": "2026-09-20T15:19:10.573Z",
+    "lastContactDate": "2026-09-20T15:19:10.573Z",
+    "status": "delivered",
+    "sequenceStep": "B2B Partnership Proposal",
+    "diagnosedIssues": "GTA custom packaging and print provider for product brands and startups. Proposed 30% commission turnkey web design partnership and packaging/cards + website launch bundles.",
+    "caseStudySent": "https://calendar.app.google/8sS8ok1efAgE5zuB9",
+    "history": [
+      {
+        "step": "B2B Partnership Intro",
+        "sentAt": "2026-09-20T15:19:10.573Z",
+        "subject": "Partnership proposal: Adding custom web design services to Arcapack (30% commission)",
+        "resendId": "01a0bf66-57a7-72b6-97a7-b04ae5619b2c",
+        "status": "delivered",
+        "notes": "Partnership proposal offering 30% commission, turnkey fulfillment, packaging/cards + website bundles, and calendar link: https://calendar.app.google/8sS8ok1efAgE5zuB9"
+      }
+    ]
   }
 ]
