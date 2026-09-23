@@ -1,0 +1,63 @@
+[
+  {
+    "company": "CJ's Express Plumbing & Electrical Ltd.",
+    "location": "Cambridge, ON",
+    "contact": "Ricardo Camara (Service Manager) / Nelson Oliveira",
+    "phone": "519-621-3111",
+    "cellPhone": "226-341-0190",
+    "email": "service@cjsexpress.ca",
+    "website": "https://cjsexpress.ca",
+    "niche": "24/7 Emergency Plumbing & Electrical",
+    "activeMarketing": "Actively advertising 24hr emergency plumbing with Google Tag Manager tracking (G-P1EYTH897T)",
+    "auditFindings": "Site is built on an ancient 1000px fixed-width HTML table (<table width=\"1000\">) and jQuery 1.8.3 from 2012. On mobile screens (iPhones/Androids), the layout completely breaks and overflows horizontally, forcing users to pinch-zoom. In emergency plumbing where 85%+ searches are on mobile phones during leaks/burst pipes, this causes massive drop-off to competitors with clean 1-tap call buttons.",
+    "pitchAngle": "Fix the broken mobile table layout and add a sticky tap-to-call emergency dispatch bar to capture 2x more calls from mobile search traffic."
+  },
+  {
+    "company": "Regional Air Heating & Cooling Inc.",
+    "location": "Waterloo & Kitchener, ON",
+    "contact": "Management & Dispatch",
+    "phone": "519-885-4328",
+    "email": "info@regionalair.ca",
+    "website": "https://regionalair.ca",
+    "niche": "24/7 Emergency Furnace Repair & HVAC",
+    "activeMarketing": "Actively advertising emergency furnace and AC repair across Kitchener-Waterloo-Cambridge",
+    "auditFindings": "Built on GoDaddy Website Builder (Starfield Technologies v8.0). Heavy JavaScript bundle overhead, slow Time-to-Interactive, and generic responsive structure. During Ontario freezing weather when furnace emergency search volume peaks, every mobile click costs $25-$40. GoDaddy's slow load speeds and lack of live dispatch availability widget leak high-intent clicks.",
+    "pitchAngle": "Replace GoDaddy builder with a sub-second Next.js emergency landing page with live 24/7 dispatch status and 1-tap emergency booking."
+  },
+  {
+    "company": "Advance Heating & Cooling",
+    "location": "Kitchener, ON (44 Otonabee Dr)",
+    "contact": "Ownership & Service Team",
+    "phone": "519-500-9941",
+    "email": "info@advanceair.ca",
+    "website": "https://advanceair.ca",
+    "niche": "24/7 Emergency HVAC & Heating Installation",
+    "activeMarketing": "Actively running localized campaigns and Google ratings integrations",
+    "auditFindings": "Built on WordPress Divi theme with 10+ render-blocking external CSS stylesheets (dnxte-global, divi-dynamic, breadcrumbs-divi, hvac-ratings, etc.). Creates severe DOM bloat and delayed Largest Contentful Paint (LCP) on mobile LTE connections, causing users to bounce before the hero contact buttons render.",
+    "pitchAngle": "Eliminate Divi render-blocking bloat, achieving sub-second mobile load speeds and an instant quote triage layout."
+  },
+  {
+    "company": "Adam Streicher Roofing Inc.",
+    "location": "Kitchener-Waterloo Region & Wingham, ON",
+    "contact": "Adam Streicher (Founder & Owner)",
+    "phone": "519-301-1329",
+    "email": "sales@adams-roofing.ca",
+    "website": "https://adams-roofing.ca",
+    "niche": "High-Ticket Metal Roofing ($15,000 - $35,000 projects)",
+    "activeMarketing": "Actively tracking paid campaign UTM parameters (utm_source, utm_campaign, utm_term) via Conversion Bridge & GA4 (G-H8600CWMQ1)",
+    "auditFindings": "Actively investing in paid campaigns to drive traffic for high-ticket metal roofing, but the homepage contains over 115KB of uncompressed raw HTML, inline CSS blocks, and LiteSpeed scripts before the content. Lacks an instant visual roof quote cost estimator to capture and qualify commercial and farm leads on mobile.",
+    "pitchAngle": "Since they are actively tracking paid UTM ad traffic, provide an instant interactive Metal Roof Cost Estimator & Quote Funnel that doubles lead capture on their existing ad spend."
+  },
+  {
+    "company": "Tiger Plumbing",
+    "location": "Kitchener, ON (262 Breithaupt St)",
+    "contact": "Ed Van Dam / Dispatch Team",
+    "phone": "519-585-1840",
+    "email": "tigerplumbingont@gmail.com",
+    "website": "https://tigerplumbing.ca",
+    "niche": "24/7 Emergency Plumbing & Bathroom Renovations",
+    "activeMarketing": "Long-standing local presence with 24/7 emergency positioning across KWC",
+    "auditFindings": "Desktop layout is dated and mobile view is congested with 10 duplicate service headers and dense text blocks before reaching any direct contact button. No sticky emergency dispatch header on mobile viewports.",
+    "pitchAngle": "Streamline mobile conversion flow with sticky tap-to-call emergency bar and simple 3-step quote form."
+  }
+]

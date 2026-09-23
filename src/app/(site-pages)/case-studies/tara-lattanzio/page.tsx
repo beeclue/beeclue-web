@@ -2,7 +2,7 @@ import { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
 import styles from "@/app/page.module.css";
-import { ArrowRight, CheckCircle2, Globe, Scale, ShieldCheck, Search, Users, HeartHandshake } from "lucide-react";
+import { ArrowRight, CheckCircle2, Globe, Scale, ShieldCheck, Search, Users, HeartHandshake, Star } from "lucide-react";
 import FadeIn from "@/components/FadeIn";
 import LawFirmAuditForm from "@/components/LawFirmAuditForm";
 
@@ -144,6 +144,31 @@ export default function TaraLattanzioCaseStudy() {
             <Users className={styles.serviceIcon} />
             <h3>Frictionless Consultation Pathways</h3>
             <p>Recognizing that legal emergencies happen anytime, we engineered mobile-first consultation banners and streamlined contact workflows that allow prospective clients to request appointments securely and discreetly.</p>
+          </div>
+        </div>
+      </FadeIn>
+
+      {/* CLIENT TESTIMONIAL (Inspired by 21st.dev) */}
+      <FadeIn className={styles.baseSection} style={{ backgroundColor: "var(--background-alt)" }}>
+        <div style={{ maxWidth: "900px", margin: "0 auto", padding: "4rem 2rem", borderLeft: "4px solid var(--primary)", backgroundColor: "var(--background)", borderRadius: "0 16px 16px 0", boxShadow: "0 4px 20px rgba(0,0,0,0.05)" }}>
+          <div style={{ display: "flex", gap: "0.5rem", marginBottom: "1.5rem" }}>
+            <Star style={{ fill: "var(--primary)", stroke: "var(--primary)" }} size={24} />
+            <Star style={{ fill: "var(--primary)", stroke: "var(--primary)" }} size={24} />
+            <Star style={{ fill: "var(--primary)", stroke: "var(--primary)" }} size={24} />
+            <Star style={{ fill: "var(--primary)", stroke: "var(--primary)" }} size={24} />
+            <Star style={{ fill: "var(--primary)", stroke: "var(--primary)" }} size={24} />
+          </div>
+          <p style={{ fontSize: "clamp(1.5rem, 3vw, 2rem)", fontWeight: 500, lineHeight: 1.4, color: "var(--foreground)", marginBottom: "2rem", fontStyle: "italic" }}>
+            "Expedient and professional service with competitive pricing! It was incredibly easy to work with them, and their professionalism truly stood out. I’m very impressed and would highly recommend them!"
+          </p>
+          <div style={{ display: "flex", alignItems: "center", gap: "1rem" }}>
+            <div style={{ width: "56px", height: "56px", borderRadius: "50%", backgroundColor: "var(--primary-light)", display: "flex", alignItems: "center", justifyContent: "center", color: "white", fontWeight: "bold", fontSize: "1.25rem" }}>
+              TL
+            </div>
+            <div>
+              <h4 style={{ margin: 0, fontSize: "1.25rem", fontWeight: 700, color: "var(--foreground)" }}>Tara Lattanzio</h4>
+              <p style={{ margin: 0, color: "var(--muted)", fontSize: "0.9rem", textTransform: "uppercase", letterSpacing: "0.05em" }}>Family Law Lawyer</p>
+            </div>
           </div>
         </div>
       </FadeIn>

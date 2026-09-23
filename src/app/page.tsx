@@ -361,6 +361,11 @@ export default function Home() {
         <div className={styles.testimonialScroller}>
           <div className={styles.testimonialCard}>
             <div className={styles.stars}>★★★★★</div>
+            <p>"Expedient and professional service with competitive pricing! It was incredibly easy to work with them, and their professionalism truly stood out. I’m very impressed and would highly recommend them!"</p>
+            <div className={styles.clientName}>— Tara Lattanzio</div>
+          </div>
+          <div className={styles.testimonialCard}>
+            <div className={styles.stars}>★★★★★</div>
             <p>"Very professional and great communicators. The programmer did an amazing job keeping his patience. Always available to answer questions. Zero ego, friendly and respectful."</p>
             <div className={styles.clientName}>— Chirag Murabia</div>
           </div>
