@@ -148,26 +148,30 @@ export default function TaraLattanzioCaseStudy() {
         </div>
       </FadeIn>
 
-      {/* CLIENT TESTIMONIAL (Inspired by 21st.dev) */}
-      <FadeIn className={styles.baseSection} style={{ backgroundColor: "var(--background-alt)" }}>
-        <div style={{ maxWidth: "900px", margin: "0 auto", padding: "4rem 2rem", borderLeft: "4px solid var(--primary)", backgroundColor: "var(--background)", borderRadius: "0 16px 16px 0", boxShadow: "0 4px 20px rgba(0,0,0,0.05)" }}>
-          <div style={{ display: "flex", gap: "0.5rem", marginBottom: "1.5rem" }}>
-            <Star style={{ fill: "var(--primary)", stroke: "var(--primary)" }} size={24} />
-            <Star style={{ fill: "var(--primary)", stroke: "var(--primary)" }} size={24} />
-            <Star style={{ fill: "var(--primary)", stroke: "var(--primary)" }} size={24} />
-            <Star style={{ fill: "var(--primary)", stroke: "var(--primary)" }} size={24} />
-            <Star style={{ fill: "var(--primary)", stroke: "var(--primary)" }} size={24} />
-          </div>
-          <p style={{ fontSize: "clamp(1.5rem, 3vw, 2rem)", fontWeight: 500, lineHeight: 1.4, color: "var(--foreground)", marginBottom: "2rem", fontStyle: "italic" }}>
-            "Expedient and professional service with competitive pricing! It was incredibly easy to work with them, and their professionalism truly stood out. I’m very impressed and would highly recommend them!"
-          </p>
-          <div style={{ display: "flex", alignItems: "center", gap: "1rem" }}>
-            <div style={{ width: "56px", height: "56px", borderRadius: "50%", backgroundColor: "var(--primary-light)", display: "flex", alignItems: "center", justifyContent: "center", color: "white", fontWeight: "bold", fontSize: "1.25rem" }}>
-              TL
+      {/* LUXURY CLIENT TESTIMONIAL */}
+      <FadeIn className={styles.luxuryIntro} style={{ padding: "8rem 5vw", borderTop: "1px solid rgba(255, 255, 255, 0.05)" }}>
+        <div className={styles.luxuryBlobs}>
+          <div className={styles.blob1} style={{ opacity: 0.5 }}></div>
+          <div className={styles.blob2} style={{ opacity: 0.5 }}></div>
+        </div>
+        <div style={{ position: "relative", zIndex: 1, maxWidth: "1000px", margin: "0 auto" }}>
+          <div className={styles.luxuryCard} style={{ textAlign: "center", padding: "4rem" }}>
+            <div style={{ display: "flex", justifyContent: "center", gap: "0.5rem", marginBottom: "2rem" }}>
+              {[...Array(5)].map((_, i) => (
+                <Star key={i} style={{ fill: "var(--primary-light)", stroke: "var(--primary-light)" }} size={28} />
+              ))}
             </div>
-            <div>
-              <h4 style={{ margin: 0, fontSize: "1.25rem", fontWeight: 700, color: "var(--foreground)" }}>Tara Lattanzio</h4>
-              <p style={{ margin: 0, color: "var(--muted)", fontSize: "0.9rem", textTransform: "uppercase", letterSpacing: "0.05em" }}>Family Law Lawyer</p>
+            <p style={{ fontSize: "clamp(1.5rem, 3vw, 2.25rem)", fontWeight: 300, lineHeight: 1.5, color: "var(--foreground)", marginBottom: "3rem", fontStyle: "italic", letterSpacing: "0.02em" }}>
+              "Expedient and professional service with competitive pricing! It was incredibly easy to work with them, and their professionalism truly stood out. I’m very impressed and would highly recommend them!"
+            </p>
+            <div style={{ display: "flex", alignItems: "center", justifyContent: "center", gap: "1.25rem" }}>
+              <div style={{ width: "64px", height: "64px", borderRadius: "50%", background: "linear-gradient(135deg, var(--primary), var(--primary-light))", display: "flex", alignItems: "center", justifyContent: "center", color: "white", fontWeight: "bold", fontSize: "1.5rem", boxShadow: "0 4px 15px rgba(0, 77, 153, 0.4)" }}>
+                TL
+              </div>
+              <div style={{ textAlign: "left" }}>
+                <h4 style={{ margin: 0, fontSize: "1.25rem", fontWeight: 600, color: "var(--foreground)", letterSpacing: "0.05em" }}>Tara Lattanzio</h4>
+                <p style={{ margin: 0, color: "var(--primary-light)", fontSize: "0.9rem", textTransform: "uppercase", letterSpacing: "0.1em", marginTop: "4px" }}>Family Law Lawyer</p>
+              </div>
             </div>
           </div>
         </div>
