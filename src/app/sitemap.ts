@@ -52,6 +52,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/web-design/orillia',
     '/web-design/owen-sound',
     // Case Studies
+    '/case-studies/work-n-wear',
     '/case-studies/tuxedo-frame-gallery',
     '/case-studies/iv-uniforms',
     '/case-studies/mac-mates',
@@ -64,6 +65,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     // Products
     '/products/monexa',
     // Blogs
+    '/ai-conversational-ecommerce-guide',
     '/custom-software-development-toronto-cost-guide',
     '/healthcare-website-design-canada-pipeda',
     '/ultimate-guide-choosing-web-design-agency-toronto',

@@ -48,6 +48,29 @@ export default function CaseStudiesPage() {
           <div className={styles.caseStudyListItem}>
             <div className={styles.caseStudyListImage}>
               <Image 
+                src="https://cdn.jsdelivr.net/gh/beeclue/clients@main/self/wnw-home.webp" 
+                alt="Work N Wear Shopify E-commerce Website" 
+                fill
+                sizes="(max-width: 768px) 100vw, 50vw"
+                style={{ objectFit: "contain", padding: "2rem" }}
+              />
+            </div>
+            <div className={styles.caseStudyListContent}>
+              <h2>Work N Wear — Shopify Web Design &amp; AI Shopping Agent</h2>
+              <p>
+                We partnered with Work N Wear to refine their Canadian brand identity, engineer a modern, high-converting Shopify e-commerce platform, and deploy an intelligent AI shopping agent. The conversational assistant helps trade professionals select the right safety gear, discover active deals, and significantly increases online sales.
+              </p>
+              <div>
+                <Link href="/case-studies/work-n-wear" className={styles.ctaButtonLight}>
+                  Read More <ArrowRight className={styles.arrow} size={20} />
+                </Link>
+              </div>
+            </div>
+          </div>
+
+          <div className={styles.caseStudyListItem}>
+            <div className={styles.caseStudyListImage}>
+              <Image 
                 src="https://cdn.jsdelivr.net/gh/beeclue/clients@main/self/tuxedoframegallery.webp" 
                 alt="Tuxedo Frame Gallery Website" 
                 fill

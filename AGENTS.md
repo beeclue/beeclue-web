@@ -61,3 +61,8 @@ This version has breaking changes — APIs, conventions, and file structure may 
 - **Outreach History JSON Database**: All contacted prospects and outreach dispatches must be logged and tracked in the persistent JSON database at [`agents/marketing/outreach_history.json`](agents/marketing/outreach_history.json) inside the `agents/marketing/` folder, including Resend message IDs, quoted pricing, sequence step, timestamps, and status.
 - **Suppression List (Blacklist)**: Strictly check and enforce opt-outs from [`agents/marketing/blacklist.json`](agents/marketing/blacklist.json) on every campaign.
 - **Exact Business Name Verification**: Never infer, guess, or truncate a firm/business name from a domain name or URL (e.g. domain `donovanlaughlin.com` must never be guessed as `Donovan & Laughlin`). Always extract and verify the exact registered entity name from the website footer, header, contact page, or bar directory (e.g. `Donovan Laughlin and Laughlin, LLC`). For professional practices, an inaccurate firm name damages credibility and will alienate prospects.
+# Aura Backend API Standards (FastAPI)
+- **Standardized Response Envelope**: EVERY endpoint must return data wrapped in `StandardResponse` (from `app.models.response`).
+  - Success Example: `{"status": "success", "message": "...", "data": {...}}`
+  - Error Example: `{"status": "error", "message": "...", "error": "..."}`
+- **No Null Values**: Never return `null` values in the JSON. When creating new FastAPI endpoints, ALWAYS include `response_model_exclude_none=True` in the route decorator (e.g., `@router.post("/", response_model=StandardResponse[MyModel], response_model_exclude_none=True)`).

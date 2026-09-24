@@ -208,6 +208,24 @@ export default function Home() {
           <p>A look at how we transform business challenges into scalable technical solutions.</p>
         </div>
         <div className={styles.featuredGrid}>
+          <Link href="/case-studies/work-n-wear" className={styles.featuredCard}>
+            <div className={styles.featuredImagePlaceholder} style={{ padding: 0, position: 'relative' }}>
+              <Image 
+                src="https://cdn.jsdelivr.net/gh/beeclue/clients@main/self/wnw-home.webp"
+                alt="Work N Wear Shopify E-commerce Website"
+                fill
+                sizes="(max-width: 768px) 100vw, 50vw"
+                style={{ objectFit: 'contain', padding: '2rem 0' }}
+              />
+            </div>
+            <div className={styles.featuredContent}>
+              <h3>Work N Wear — Shopify &amp; AI E-commerce</h3>
+              <p>We refined their Canadian brand identity, built a high-converting Shopify store, and integrated an AI shopping agent to increase online sales and engagement.</p>
+              <div className={styles.techTags}>
+                <span>Shopify</span><span>AI Shopping Agent</span><span>Logo Refining</span>
+              </div>
+            </div>
+          </Link>
           <Link href="/case-studies/tuxedo-frame-gallery" className={styles.featuredCard}>
             <div className={styles.featuredImagePlaceholder} style={{ padding: 0, position: 'relative' }}>
               <Image 
@@ -241,24 +259,6 @@ export default function Home() {
               <p>We built a custom WooCommerce platform with Canada Post shipping calculations and localized Jamatkhana pickup selectors to streamline distribution.</p>
               <div className={styles.techTags}>
                 <span>WooCommerce</span><span>Canada Post API</span><span>Checkout Logistics</span>
-              </div>
-            </div>
-          </Link>
-          <Link href="/case-studies/mac-mates" className={styles.featuredCard}>
-            <div className={styles.featuredImagePlaceholder} style={{ padding: 0, position: 'relative' }}>
-              <Image 
-                src="https://cdn.jsdelivr.net/gh/beeclue/clients@main/self/mac-mates.webp"
-                alt="MacMates Device Repair Website"
-                fill
-                sizes="(max-width: 768px) 100vw, 50vw"
-                style={{ objectFit: 'contain', padding: '2rem 0' }}
-              />
-            </div>
-            <div className={styles.featuredContent}>
-              <h3>MacMates — Digital Platform</h3>
-              <p>We partnered with Oakville's device repair experts to build a high-performance Next.js platform with robust local SEO and custom brand identity.</p>
-              <div className={styles.techTags}>
-                <span>Next.js</span><span>Local SEO</span><span>Analytics</span>
               </div>
             </div>
           </Link>

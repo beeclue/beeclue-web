@@ -33,6 +33,30 @@ export default function BlogsPage() {
       {/* BLOGS LIST */}
       <FadeIn className={styles.baseSection} style={{ paddingTop: "5vh" }}>
         <div className={styles.caseStudyList}>
+          {/* BLOG: AI IN E-COMMERCE & CONVERSATIONAL COMMERCE */}
+          <div className={styles.caseStudyListItem}>
+            <div className={styles.caseStudyListImage} style={{ position: "relative" }}>
+              <Image
+                src="https://images.unsplash.com/photo-1556740758-90de374c12ad?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=75"
+                alt="Customer engaging with an intelligent conversational AI shopping agent on an e-commerce platform"
+                fill
+                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                style={{ objectFit: "cover" }}
+              />
+            </div>
+            <div className={styles.caseStudyListContent}>
+              <h2>AI in E-Commerce &amp; Conversational Commerce: How AI Shopping Agents Increase Online Sales (2026 Guide)</h2>
+              <p>
+                Discover how conversational AI shopping agents and autonomous product advisors are revolutionizing online retail. Learn how AI assistants guide buyers through complex catalog choices, match technical product specifications, surface active deals, and drive measurable revenue growth—featuring real-world insights from our Work N Wear Shopify case study.
+              </p>
+              <div>
+                <Link href="/ai-conversational-ecommerce-guide" className={styles.ctaButtonLight}>
+                  Read Article <ArrowRight className={styles.arrow} size={20} />
+                </Link>
+              </div>
+            </div>
+          </div>
+
           {/* BLOG: WCAG ACCESSIBILITY COMPLIANCE CANADA */}
           <div className={styles.caseStudyListItem}>
             <div className={styles.caseStudyListImage} style={{ position: "relative" }}>
