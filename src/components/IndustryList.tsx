@@ -11,6 +11,7 @@ import {
   Heart,
   Scale,
   HardHat,
+  Palette,
   ArrowRight,
 } from "lucide-react";
 import styles from "@/app/page.module.css";
@@ -71,6 +72,13 @@ const industries: IndustryItem[] = [
     description:
       "Professional law firm websites with case evaluation forms, attorney profiles, and practice area pages.",
     icon: Scale,
+  },
+  {
+    href: "/web-design-for-art-galleries",
+    title: "Web Design for Art Galleries",
+    description:
+      "Luxury websites for art galleries and custom framing ateliers with digital viewing rooms and consultation booking.",
+    icon: Palette,
   },
 ];
 

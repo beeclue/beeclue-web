@@ -20,6 +20,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/web-design-for-real-estate',
     '/web-design-for-healthcare',
     '/web-design-for-law-firms',
+    '/web-design-for-art-galleries',
     '/custom-software-development-toronto',
     '/ecommerce-development-toronto',
     '/mobile-app-development-toronto',

@@ -70,43 +70,47 @@ We build patient-centric, trust-building websites for medical clinics, physiothe
 We build authoritative, client-converting websites for law firms, attorneys, barristers, and legal practices in Toronto, Peel Region (Brampton, Mississauga), and across North America. All websites strictly adhere to Law Society of Ontario (LSO) Rule 4.2 advertising standards (truthful, verifiable, no deceptive claims or outcome guarantees) and Rule 3.3 confidentiality with 256-bit encrypted PIPEDA-compliant intake forms and clear retainer disclaimers. We offer predictable monthly service packages with zero upfront build fee ($0 down) as well as bespoke builds for boutique practices. We also provide a free 48-hour custom mobile website mockup and digital audit for prospective practices, allowing attorneys to experience their new interactive design before any commitment.
 [Read More](https://beeclue.com/web-design-for-law-firms)
 
-### 16. Shopify Development Toronto
+### 16. Web Design for Art Galleries & Custom Framing Shops
+We engineer luxury digital platforms, digital viewing rooms, and local SEO systems for fine art galleries, master custom picture framing ateliers, and art restoration studios across Canada and the United States. Features include full-screen zoomable artwork archives, digital exhibition vernissages, custom framing intake workflows (artwork dimensions, mouldings by Roma/Larson-Juhl, Tru-Vue museum glass), multi-channel consultation booking (in-gallery, virtual, in-home art advisory), and hyper-local SEO capturing high-intent searches like "custom framing near me", "shadowbox framing", and "art gallery". Live case study: Tuxedo Frame Gallery in Buckhead, Atlanta ([tuxedoframegallery.com](https://tuxedoframegallery.com)).
+[Read More](https://beeclue.com/web-design-for-art-galleries)
+
+### 17. Shopify Development Toronto
 As an official Shopify Partner, Beeclue Tech builds high-performance Shopify stores optimized for conversion. Our Shopify development services include custom theme development, Storefront API headless commerce, app integration, payment gateway setup, inventory management, platform migrations, and Shopify Plus enterprise solutions for Toronto businesses.
 [Read More](https://beeclue.com/shopify-development-toronto)
 
-### 17. Shopify E-Commerce Website Design
+### 18. Shopify E-Commerce Website Design
 As an official Shopify Partner, we create stunning, conversion-focused Shopify e-commerce website designs across Canada. From custom theme development to checkout optimization, we build Shopify stores that drive sales and deliver exceptional shopping experiences.
 [Read More](https://beeclue.com/shopify-ecommerce-website-design)
 
-### 18. Web Development Services Canada
+### 19. Web Development Services Canada
 Professional web development services across Canada. We build custom websites, e-commerce platforms, and software solutions for businesses nationwide using Next.js, React, TypeScript, and modern web technologies.
 [Read More](https://beeclue.com/web-development-services-canada)
 
-### 19. Website Development Cost Toronto
+### 20. Website Development Cost Toronto
 Transparent pricing guide for website development in Toronto. We break down costs for brochure sites, e-commerce stores, and custom web applications, helping Toronto businesses budget their digital projects with confidence.
 [Read More](https://beeclue.com/website-development-cost-toronto)
 
-### 20. Website Redesign Toronto
+### 21. Website Redesign Toronto
 Professional website redesign services in Toronto. We modernize outdated websites with modern design, faster performance, improved UX, and higher conversion rates. Transform your digital presence with a complete website overhaul.
 [Read More](https://beeclue.com/website-redesign-toronto)
 
-### 21. Website Maintenance Toronto
+### 22. Website Maintenance Toronto
 Ongoing website maintenance services in Toronto. Security patches, backups, performance monitoring, uptime monitoring, content updates, and technical support to keep your website running smoothly 24/7.
 [Read More](https://beeclue.com/website-maintenance-toronto)
 
-### 22. Digital Marketing Toronto
+### 23. Digital Marketing Toronto
 Comprehensive digital marketing services in Toronto. SEO, PPC, social media marketing, content strategy, email marketing, and analytics to help Toronto businesses grow their online presence and generate qualified leads.
 [Read More](https://beeclue.com/digital-marketing-toronto)
 
-### 23. Healthcare Website Development Canada
+### 24. Healthcare Website Development Canada
 Specialized healthcare website development for medical clinics, physiotherapy centers, wellness providers, and healthcare organizations across Canada. Features include telehealth integration, patient portals, provider profiles, appointment booking, and HIPAA-conscious design.
 [Read More](https://beeclue.com/healthcare-website-development-canada)
 
-### 24. Restaurant Website Design Canada
+### 25. Restaurant Website Design Canada
 Mouth-watering, reservation-ready website design for restaurants, cafes, and food businesses across Canada. Features include direct online ordering (no platform commissions), digital menu displays, reservation systems, and local SEO to dominate "restaurant near me" searches.
 [Read More](https://beeclue.com/restaurant-website-design-canada)
 
-### 25. Real Estate Website Development Toronto
+### 26. Real Estate Website Development Toronto
 Property-selling, lead-capturing website development for realtors, real estate agencies, and property management companies in Toronto. Features include MLS-integrated property search, virtual tours, lead capture systems, neighborhood guides, and local SEO.
 [Read More](https://beeclue.com/real-estate-website-development-toronto)
 
