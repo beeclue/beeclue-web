@@ -14748,5 +14748,525 @@
         "notes": "Threaded follow-up check-in offering free draft concept preview."
       }
     ]
+  },
+  {
+    "id": "hang-ups-custom-framing",
+    "firmName": "Hang-Ups Custom Framing and Art Gallery",
+    "contactName": "Jessica Howard (Owner)",
+    "email": "hangupsaugusta@gmail.com",
+    "website": "None (GBP only)",
+    "niche": "Fine Art Gallery & Custom Picture Framing",
+    "location": "Augusta, GA (1380 Reynolds St)",
+    "pricingQuoted": "Custom proposal / Free Mockup",
+    "initialContactDate": "2026-09-26T04:02:49.784Z",
+    "lastContactDate": "2026-09-26T04:02:49.784Z",
+    "status": "delivered",
+    "sequenceStep": "Day 0 - Initial Outreach",
+    "diagnosedIssues": "your shop currently operates without an active website, relying solely on an unoptimized Google Business Profile and Facebook page with no online consultation booking or digital portfolio",
+    "caseStudySent": "https://beeclue.com/case-studies/tuxedo-frame-gallery?utm_source=beeclue&utm_medium=email&utm_campaign=outreach-art-galleries-hang-ups-custom-framing",
+    "history": [
+      {
+        "step": "Day 0",
+        "sentAt": "2026-09-26T04:02:49.784Z",
+        "subject": "Modernizing the website for Hang-Ups Custom Framing and Art Gallery",
+        "resendId": "01a0dbe1-48eb-76fc-8a1c-cb2d428e8673",
+        "status": "delivered",
+        "notes": "Initial value-first outreach sent featuring Tuxedo Frame Gallery case study, specific website diagnosis, and free 48-hour mockup offer with UTM tracking."
+      }
+    ]
+  },
+  {
+    "id": "two-sisters-gallery",
+    "firmName": "Two Sisters Gallery",
+    "contactName": "Richard Edwards (Director)",
+    "email": "twosisgallery@knology.net",
+    "website": "http://www.twosisgallery.com",
+    "niche": "Fine Art Gallery & Custom Picture Framing",
+    "location": "Columbus, GA (1330 13th St)",
+    "pricingQuoted": "Custom proposal / Free Mockup",
+    "initialContactDate": "2026-09-26T04:02:51.988Z",
+    "lastContactDate": "2026-09-26T04:02:51.988Z",
+    "status": "delivered",
+    "sequenceStep": "Day 0 - Initial Outreach",
+    "diagnosedIssues": "your website is currently running on a legacy desktop layout with no mobile viewport scaling or online consultation booking, and routing inquiries through an older regional ISP email",
+    "caseStudySent": "https://beeclue.com/case-studies/tuxedo-frame-gallery?utm_source=beeclue&utm_medium=email&utm_campaign=outreach-art-galleries-two-sisters-gallery",
+    "history": [
+      {
+        "step": "Day 0",
+        "sentAt": "2026-09-26T04:02:51.988Z",
+        "subject": "Modernizing the website for Two Sisters Gallery",
+        "resendId": "01a0dbe1-517c-74d3-bf75-ee1a8a57804e",
+        "status": "delivered",
+        "notes": "Initial value-first outreach sent featuring Tuxedo Frame Gallery case study, specific website diagnosis, and free 48-hour mockup offer with UTM tracking."
+      }
+    ]
+  },
+  {
+    "id": "savannah-framing-company",
+    "firmName": "Savannah Framing Company",
+    "contactName": "Greg McGinty (Master Framer)",
+    "email": "savframing@gmail.com",
+    "website": "https://www.savannahframing.com",
+    "niche": "Fine Art Gallery & Custom Picture Framing",
+    "location": "Savannah, GA (5401 Waters Avenue)",
+    "pricingQuoted": "Custom proposal / Free Mockup",
+    "initialContactDate": "2026-09-26T04:02:54.212Z",
+    "lastContactDate": "2026-09-26T04:02:54.212Z",
+    "status": "delivered",
+    "sequenceStep": "Day 0 - Initial Outreach",
+    "diagnosedIssues": "your website is running on a basic static layout routing quotes to a personal mailbox, lacking an interactive moulding showcase or online consultation scheduler",
+    "caseStudySent": "https://beeclue.com/case-studies/tuxedo-frame-gallery?utm_source=beeclue&utm_medium=email&utm_campaign=outreach-art-galleries-savannah-framing-company",
+    "history": [
+      {
+        "step": "Day 0",
+        "sentAt": "2026-09-26T04:02:54.212Z",
+        "subject": "Modernizing the website for Savannah Framing Company",
+        "resendId": "01a0dbe1-5a12-76f6-a5a0-029205c0132b",
+        "status": "delivered",
+        "notes": "Initial value-first outreach sent featuring Tuxedo Frame Gallery case study, specific website diagnosis, and free 48-hour mockup offer with UTM tracking."
+      }
+    ]
+  },
+  {
+    "id": "main-street-frame-shop",
+    "firmName": "Main Street Frame Shop",
+    "contactName": "Beverly Drawdy (Master Framer)",
+    "email": "framergirl.bd@gmail.com",
+    "website": "https://www.mainstreetframe.com",
+    "niche": "Fine Art Gallery & Custom Picture Framing",
+    "location": "Brunswick, GA (1403 Newcastle Street)",
+    "pricingQuoted": "Custom proposal / Free Mockup",
+    "initialContactDate": "2026-09-26T04:02:56.447Z",
+    "lastContactDate": "2026-09-26T04:02:56.447Z",
+    "status": "delivered",
+    "sequenceStep": "Day 0 - Initial Outreach",
+    "diagnosedIssues": "your website uses a basic template with personal Gmail for quotes, missing a digital moulding catalog and online appointment scheduler",
+    "caseStudySent": "https://beeclue.com/case-studies/tuxedo-frame-gallery?utm_source=beeclue&utm_medium=email&utm_campaign=outreach-art-galleries-main-street-frame-shop",
+    "history": [
+      {
+        "step": "Day 0",
+        "sentAt": "2026-09-26T04:02:56.447Z",
+        "subject": "Modernizing the website for Main Street Frame Shop",
+        "resendId": "01a0dbe1-62ee-7438-a210-c310f178faf5",
+        "status": "delivered",
+        "notes": "Initial value-first outreach sent featuring Tuxedo Frame Gallery case study, specific website diagnosis, and free 48-hour mockup offer with UTM tracking."
+      }
+    ]
+  },
+  {
+    "id": "art-on-broad",
+    "firmName": "Art on Broad",
+    "contactName": "Kristin Varn & Catherine Alexander (Directors)",
+    "email": "artonbroad1@gmail.com",
+    "website": "https://www.artonbroad.com",
+    "niche": "Fine Art Gallery & Custom Picture Framing",
+    "location": "Augusta, GA (1016 Broad Street)",
+    "pricingQuoted": "Custom proposal / Free Mockup",
+    "initialContactDate": "2026-09-26T04:02:58.647Z",
+    "lastContactDate": "2026-09-26T04:02:58.647Z",
+    "status": "delivered",
+    "sequenceStep": "Day 0 - Initial Outreach",
+    "diagnosedIssues": "your website uses a public Gmail for high-end consignment art and custom framing intake, without an interactive artwork gallery filter or consultation scheduler",
+    "caseStudySent": "https://beeclue.com/case-studies/tuxedo-frame-gallery?utm_source=beeclue&utm_medium=email&utm_campaign=outreach-art-galleries-art-on-broad",
+    "history": [
+      {
+        "step": "Day 0",
+        "sentAt": "2026-09-26T04:02:58.647Z",
+        "subject": "Modernizing the website for Art on Broad",
+        "resendId": "01a0dbe1-6b7d-72ef-9dcd-de35ee7d68a3",
+        "status": "delivered",
+        "notes": "Initial value-first outreach sent featuring Tuxedo Frame Gallery case study, specific website diagnosis, and free 48-hour mockup offer with UTM tracking."
+      }
+    ]
+  },
+  {
+    "id": "the-frame-shop-inc",
+    "firmName": "The Frame Shop, Inc.",
+    "contactName": "Katy McShane (President)",
+    "email": "theframeshp@bellsouth.net",
+    "website": "http://www.theframeshopcolumbia.com",
+    "niche": "Fine Art Gallery & Custom Picture Framing",
+    "location": "Columbia, SC (3100 Rosewood Dr)",
+    "pricingQuoted": "Custom proposal / Free Mockup",
+    "initialContactDate": "2026-09-26T04:03:00.854Z",
+    "lastContactDate": "2026-09-26T04:03:00.854Z",
+    "status": "delivered",
+    "sequenceStep": "Day 0 - Initial Outreach",
+    "diagnosedIssues": "your website is running on an older static desktop layout with no mobile responsive scaling, tap-to-call, or digital consultation scheduling",
+    "caseStudySent": "https://beeclue.com/case-studies/tuxedo-frame-gallery?utm_source=beeclue&utm_medium=email&utm_campaign=outreach-art-galleries-the-frame-shop-inc",
+    "history": [
+      {
+        "step": "Day 0",
+        "sentAt": "2026-09-26T04:03:00.854Z",
+        "subject": "Modernizing the website for The Frame Shop, Inc.",
+        "resendId": "01a0dbe1-7427-73dc-9016-1b65fb4f5e80",
+        "status": "delivered",
+        "notes": "Initial value-first outreach sent featuring Tuxedo Frame Gallery case study, specific website diagnosis, and free 48-hour mockup offer with UTM tracking."
+      }
+    ]
+  },
+  {
+    "id": "elite-framing",
+    "firmName": "Elite Framing",
+    "contactName": "Mark Johnson (Master Framer)",
+    "email": "columbiaframeshop@gmail.com",
+    "website": "https://www.columbiaframeshop.com",
+    "niche": "Fine Art Gallery & Custom Picture Framing",
+    "location": "Columbia, SC (2114 College St)",
+    "pricingQuoted": "Custom proposal / Free Mockup",
+    "initialContactDate": "2026-09-26T04:03:03.042Z",
+    "lastContactDate": "2026-09-26T04:03:03.042Z",
+    "status": "delivered",
+    "sequenceStep": "Day 0 - Initial Outreach",
+    "diagnosedIssues": "your website operates on a blog-style layout handling customer quotes via an unbranded mailbox, lacking an online booking calendar for custom shadowbox and archival framing",
+    "caseStudySent": "https://beeclue.com/case-studies/tuxedo-frame-gallery?utm_source=beeclue&utm_medium=email&utm_campaign=outreach-art-galleries-elite-framing",
+    "history": [
+      {
+        "step": "Day 0",
+        "sentAt": "2026-09-26T04:03:03.042Z",
+        "subject": "Modernizing the website for Elite Framing",
+        "resendId": "01a0dbe1-7cb6-763b-a8fa-1e7f26261a10",
+        "status": "delivered",
+        "notes": "Initial value-first outreach sent featuring Tuxedo Frame Gallery case study, specific website diagnosis, and free 48-hour mockup offer with UTM tracking."
+      }
+    ]
+  },
+  {
+    "id": "green-herring-art-and-framing-studio",
+    "firmName": "Green Herring Art and Framing Studio",
+    "contactName": "Hank D. Herring (Master Craftsman)",
+    "email": "greenherringart@gmail.com",
+    "website": "None (GBP only)",
+    "niche": "Fine Art Gallery & Custom Picture Framing",
+    "location": "Beaufort, SC (917 Bay Street, Suite G)",
+    "pricingQuoted": "Custom proposal / Free Mockup",
+    "initialContactDate": "2026-09-26T04:03:05.232Z",
+    "lastContactDate": "2026-09-26T04:03:05.232Z",
+    "status": "delivered",
+    "sequenceStep": "Day 0 - Initial Outreach",
+    "diagnosedIssues": "your domain currently forwards exclusively to Etsy, leaving your downtown Beaufort brick-and-mortar atelier with no dedicated website or local framing appointment scheduler",
+    "caseStudySent": "https://beeclue.com/case-studies/tuxedo-frame-gallery?utm_source=beeclue&utm_medium=email&utm_campaign=outreach-art-galleries-green-herring-art-and-framing-studio",
+    "history": [
+      {
+        "step": "Day 0",
+        "sentAt": "2026-09-26T04:03:05.232Z",
+        "subject": "Modernizing the website for Green Herring Art and Framing Studio",
+        "resendId": "01a0dbe1-8542-713c-ad46-cf386f45a2ae",
+        "status": "delivered",
+        "notes": "Initial value-first outreach sent featuring Tuxedo Frame Gallery case study, specific website diagnosis, and free 48-hour mockup offer with UTM tracking."
+      }
+    ]
+  },
+  {
+    "id": "four-corners-fine-art-and-framing",
+    "firmName": "Four Corners Fine Art & Framing",
+    "contactName": "Charlene Gardner (Director)",
+    "email": "fourcornersbluffton@gmail.com",
+    "website": "https://fourcornersgallerybluffton.com",
+    "niche": "Fine Art Gallery & Custom Picture Framing",
+    "location": "Bluffton, SC (1263-B May River Road)",
+    "pricingQuoted": "Custom proposal / Free Mockup",
+    "initialContactDate": "2026-09-26T04:03:07.473Z",
+    "lastContactDate": "2026-09-26T04:03:07.473Z",
+    "status": "delivered",
+    "sequenceStep": "Day 0 - Initial Outreach",
+    "diagnosedIssues": "your layout routes project estimates to a public Gmail, lacking mobile-optimized consultation booking and interactive moulding displays",
+    "caseStudySent": "https://beeclue.com/case-studies/tuxedo-frame-gallery?utm_source=beeclue&utm_medium=email&utm_campaign=outreach-art-galleries-four-corners-fine-art-and-framing",
+    "history": [
+      {
+        "step": "Day 0",
+        "sentAt": "2026-09-26T04:03:07.473Z",
+        "subject": "Modernizing the website for Four Corners Fine Art & Framing",
+        "resendId": "01a0dbe1-8e0c-73db-a200-19866ab6ee01",
+        "status": "delivered",
+        "notes": "Initial value-first outreach sent featuring Tuxedo Frame Gallery case study, specific website diagnosis, and free 48-hour mockup offer with UTM tracking."
+      }
+    ]
+  },
+  {
+    "id": "aiken-art-and-custom-framing",
+    "firmName": "Aiken Art & Custom Framing",
+    "contactName": "Tara & Tim Conway (Owners)",
+    "email": "aikenartandframe@gmail.com",
+    "website": "https://www.aikenartandframe.com",
+    "niche": "Fine Art Gallery & Custom Picture Framing",
+    "location": "Aiken, SC (226 Park Avenue SE)",
+    "pricingQuoted": "Custom proposal / Free Mockup",
+    "initialContactDate": "2026-09-26T04:03:09.654Z",
+    "lastContactDate": "2026-09-26T04:03:09.654Z",
+    "status": "delivered",
+    "sequenceStep": "Day 0 - Initial Outreach",
+    "diagnosedIssues": "your site relies on a basic template with Gmail intake, missing an interactive moulding and mat selector and online consultation booking funnel",
+    "caseStudySent": "https://beeclue.com/case-studies/tuxedo-frame-gallery?utm_source=beeclue&utm_medium=email&utm_campaign=outreach-art-galleries-aiken-art-and-custom-framing",
+    "history": [
+      {
+        "step": "Day 0",
+        "sentAt": "2026-09-26T04:03:09.654Z",
+        "subject": "Modernizing the website for Aiken Art & Custom Framing",
+        "resendId": "01a0dbe1-9691-71a8-8725-324c47fe9f7a",
+        "status": "delivered",
+        "notes": "Initial value-first outreach sent featuring Tuxedo Frame Gallery case study, specific website diagnosis, and free 48-hour mockup offer with UTM tracking."
+      }
+    ]
+  },
+  {
+    "id": "tanglewood-art-and-frame-gallery",
+    "firmName": "Tanglewood Art and Frame Gallery",
+    "contactName": "Caren Carter-Lowrie & Al Lowrie (Owners)",
+    "email": "tanglewoodart@bellsouth.net",
+    "website": "http://www.tanglewoodartandframe.com",
+    "niche": "Fine Art Gallery & Custom Picture Framing",
+    "location": "Clemmons, NC (4152 Clemmons Road)",
+    "pricingQuoted": "Custom proposal / Free Mockup",
+    "initialContactDate": "2026-09-26T04:03:11.835Z",
+    "lastContactDate": "2026-09-26T04:03:11.835Z",
+    "status": "delivered",
+    "sequenceStep": "Day 0 - Initial Outreach",
+    "diagnosedIssues": "your website is currently running on a fixed-width legacy layout with no mobile responsive styling or online consultation scheduling",
+    "caseStudySent": "https://beeclue.com/case-studies/tuxedo-frame-gallery?utm_source=beeclue&utm_medium=email&utm_campaign=outreach-art-galleries-tanglewood-art-and-frame-gallery",
+    "history": [
+      {
+        "step": "Day 0",
+        "sentAt": "2026-09-26T04:03:11.835Z",
+        "subject": "Modernizing the website for Tanglewood Art and Frame Gallery",
+        "resendId": "01a0dbe1-9f12-73e9-9ad6-10faf42f453c",
+        "status": "delivered",
+        "notes": "Initial value-first outreach sent featuring Tuxedo Frame Gallery case study, specific website diagnosis, and free 48-hour mockup offer with UTM tracking."
+      }
+    ]
+  },
+  {
+    "id": "fazioart-custom-framing",
+    "firmName": "FazioArt Custom Framing",
+    "contactName": "Linda Fazio (Owner)",
+    "email": "fazioart@bellsouth.net",
+    "website": "http://www.fazioart.com",
+    "niche": "Fine Art Gallery & Custom Picture Framing",
+    "location": "Charlotte, NC (3300 Monroe Rd, Suite C)",
+    "pricingQuoted": "Custom proposal / Free Mockup",
+    "initialContactDate": "2026-09-26T04:03:14.051Z",
+    "lastContactDate": "2026-09-26T04:03:14.051Z",
+    "status": "delivered",
+    "sequenceStep": "Day 0 - Initial Outreach",
+    "diagnosedIssues": "your website is built on a legacy desktop-only architecture with no mobile responsive styling or online appointment booking calendar",
+    "caseStudySent": "https://beeclue.com/case-studies/tuxedo-frame-gallery?utm_source=beeclue&utm_medium=email&utm_campaign=outreach-art-galleries-fazioart-custom-framing",
+    "history": [
+      {
+        "step": "Day 0",
+        "sentAt": "2026-09-26T04:03:14.051Z",
+        "subject": "Modernizing the website for FazioArt Custom Framing",
+        "resendId": "01a0dbe1-a7b7-76b4-bc73-a4a1ad1f6f46",
+        "status": "delivered",
+        "notes": "Initial value-first outreach sent featuring Tuxedo Frame Gallery case study, specific website diagnosis, and free 48-hour mockup offer with UTM tracking."
+      }
+    ]
+  },
+  {
+    "id": "fisher-graphic-arts-inc",
+    "firmName": "Fisher Graphic Arts, Inc.",
+    "contactName": "Mitchel \"Mitch\" Fisher (Owner)",
+    "email": "fishergraphicarts@gmail.com",
+    "website": "https://www.fishergraphicarts.com",
+    "niche": "Fine Art Gallery & Custom Picture Framing",
+    "location": "Durham, NC (2606 Hillsborough Road)",
+    "pricingQuoted": "Custom proposal / Free Mockup",
+    "initialContactDate": "2026-09-26T04:03:16.236Z",
+    "lastContactDate": "2026-09-26T04:03:16.236Z",
+    "status": "delivered",
+    "sequenceStep": "Day 0 - Initial Outreach",
+    "diagnosedIssues": "your website uses a basic static layout conducting archival framing intake via public Gmail, missing an interactive quote estimator or mobile consultation scheduler",
+    "caseStudySent": "https://beeclue.com/case-studies/tuxedo-frame-gallery?utm_source=beeclue&utm_medium=email&utm_campaign=outreach-art-galleries-fisher-graphic-arts-inc",
+    "history": [
+      {
+        "step": "Day 0",
+        "sentAt": "2026-09-26T04:03:16.236Z",
+        "subject": "Modernizing the website for Fisher Graphic Arts, Inc.",
+        "resendId": "01a0dbe1-b03f-720b-945d-39c6f8b9218a",
+        "status": "delivered",
+        "notes": "Initial value-first outreach sent featuring Tuxedo Frame Gallery case study, specific website diagnosis, and free 48-hour mockup offer with UTM tracking."
+      }
+    ]
+  },
+  {
+    "id": "townhouse-art-and-framing",
+    "firmName": "Townhouse Art & Framing",
+    "contactName": "Emily Russell (Proprietor)",
+    "email": "townhouseartandframing@gmail.com",
+    "website": "https://www.townhouseartandframe.com",
+    "niche": "Fine Art Gallery & Custom Picture Framing",
+    "location": "Wilmington, NC (894 5b South Kerr Avenue)",
+    "pricingQuoted": "Custom proposal / Free Mockup",
+    "initialContactDate": "2026-09-26T04:03:18.495Z",
+    "lastContactDate": "2026-09-26T04:03:18.495Z",
+    "status": "delivered",
+    "sequenceStep": "Day 0 - Initial Outreach",
+    "diagnosedIssues": "your shop routes orders and consultations to a personal mailbox, lacking an online booking calendar or digital moulding breakdown",
+    "caseStudySent": "https://beeclue.com/case-studies/tuxedo-frame-gallery?utm_source=beeclue&utm_medium=email&utm_campaign=outreach-art-galleries-townhouse-art-and-framing",
+    "history": [
+      {
+        "step": "Day 0",
+        "sentAt": "2026-09-26T04:03:18.495Z",
+        "subject": "Modernizing the website for Townhouse Art & Framing",
+        "resendId": "01a0dbe1-b912-74dc-831b-3fd754f1e619",
+        "status": "delivered",
+        "notes": "Initial value-first outreach sent featuring Tuxedo Frame Gallery case study, specific website diagnosis, and free 48-hour mockup offer with UTM tracking."
+      }
+    ]
+  },
+  {
+    "id": "the-starving-artist",
+    "firmName": "The Starving Artist",
+    "contactName": "Matthew Smith (Owner)",
+    "email": "wncstarvingartist@gmail.com",
+    "website": "https://www.wncstarvingartist.com",
+    "niche": "Fine Art Gallery & Custom Picture Framing",
+    "location": "Hendersonville, NC (814 Kanuga Rd)",
+    "pricingQuoted": "Custom proposal / Free Mockup",
+    "initialContactDate": "2026-09-26T04:03:20.678Z",
+    "lastContactDate": "2026-09-26T04:03:20.678Z",
+    "status": "delivered",
+    "sequenceStep": "Day 0 - Initial Outreach",
+    "diagnosedIssues": "your website relies on a basic template routing quotes to Gmail, missing a modern consultation calendar and digital frame selector",
+    "caseStudySent": "https://beeclue.com/case-studies/tuxedo-frame-gallery?utm_source=beeclue&utm_medium=email&utm_campaign=outreach-art-galleries-the-starving-artist",
+    "history": [
+      {
+        "step": "Day 0",
+        "sentAt": "2026-09-26T04:03:20.678Z",
+        "subject": "Modernizing the website for The Starving Artist",
+        "resendId": "01a0dbe1-c19f-75ad-85ce-121819585590",
+        "status": "delivered",
+        "notes": "Initial value-first outreach sent featuring Tuxedo Frame Gallery case study, specific website diagnosis, and free 48-hour mockup offer with UTM tracking."
+      }
+    ]
+  },
+  {
+    "id": "s-and-s-custom-framing",
+    "firmName": "S & S Custom Framing",
+    "contactName": "Ryan Sobb (Co-Owner)",
+    "email": "sandscustomframing@gmail.com",
+    "website": "https://www.sandscustomframing.com",
+    "niche": "Fine Art Gallery & Custom Picture Framing",
+    "location": "Nashville, TN (4811 Trousdale Drive, Suite I)",
+    "pricingQuoted": "Custom proposal / Free Mockup",
+    "initialContactDate": "2026-09-26T04:03:22.867Z",
+    "lastContactDate": "2026-09-26T04:03:22.867Z",
+    "status": "delivered",
+    "sequenceStep": "Day 0 - Initial Outreach",
+    "diagnosedIssues": "your site is a single-page placeholder routing framing orders to Gmail, lacking an appointment scheduler and digital portfolio filter for concert posters, fine art, and shadowboxes",
+    "caseStudySent": "https://beeclue.com/case-studies/tuxedo-frame-gallery?utm_source=beeclue&utm_medium=email&utm_campaign=outreach-art-galleries-s-and-s-custom-framing",
+    "history": [
+      {
+        "step": "Day 0",
+        "sentAt": "2026-09-26T04:03:22.867Z",
+        "subject": "Modernizing the website for S & S Custom Framing",
+        "resendId": "01a0dbe1-ca2c-757f-a190-22a8a4e2ed23",
+        "status": "delivered",
+        "notes": "Initial value-first outreach sent featuring Tuxedo Frame Gallery case study, specific website diagnosis, and free 48-hour mockup offer with UTM tracking."
+      }
+    ]
+  },
+  {
+    "id": "gannon-art-center",
+    "firmName": "Gannon Art Center",
+    "contactName": "Lisa Norris & Ed Gannon (Management)",
+    "email": "gannonart1@gmail.com",
+    "website": "https://www.gannonartcenter.com",
+    "niche": "Fine Art Gallery & Custom Picture Framing",
+    "location": "Chattanooga, TN (3250 Brainerd Rd)",
+    "pricingQuoted": "Custom proposal / Free Mockup",
+    "initialContactDate": "2026-09-26T04:03:25.042Z",
+    "lastContactDate": "2026-09-26T04:03:25.042Z",
+    "status": "delivered",
+    "sequenceStep": "Day 0 - Initial Outreach",
+    "diagnosedIssues": "your website handles framing estimates through public Gmail, without a mobile consultation booking tool or interactive moulding visualizer",
+    "caseStudySent": "https://beeclue.com/case-studies/tuxedo-frame-gallery?utm_source=beeclue&utm_medium=email&utm_campaign=outreach-art-galleries-gannon-art-center",
+    "history": [
+      {
+        "step": "Day 0",
+        "sentAt": "2026-09-26T04:03:25.042Z",
+        "subject": "Modernizing the website for Gannon Art Center",
+        "resendId": "01a0dbe1-d2ab-7016-8487-54c740a88d38",
+        "status": "delivered",
+        "notes": "Initial value-first outreach sent featuring Tuxedo Frame Gallery case study, specific website diagnosis, and free 48-hour mockup offer with UTM tracking."
+      }
+    ]
+  },
+  {
+    "id": "edgewood-frame-shop",
+    "firmName": "Edgewood Frame Shop",
+    "contactName": "Grace Eskridge (Master Framer)",
+    "email": "edgewoodframe@bellsouth.net",
+    "website": "http://www.edgewoodframeshop.com",
+    "niche": "Fine Art Gallery & Custom Picture Framing",
+    "location": "Homewood, AL (1003 Oxmoor Road)",
+    "pricingQuoted": "Custom proposal / Free Mockup",
+    "initialContactDate": "2026-09-26T04:03:27.244Z",
+    "lastContactDate": "2026-09-26T04:03:27.244Z",
+    "status": "delivered",
+    "sequenceStep": "Day 0 - Initial Outreach",
+    "diagnosedIssues": "your website is built on a legacy static architecture with poor mobile readability, no online appointment scheduling, and no interactive frame catalogue",
+    "caseStudySent": "https://beeclue.com/case-studies/tuxedo-frame-gallery?utm_source=beeclue&utm_medium=email&utm_campaign=outreach-art-galleries-edgewood-frame-shop",
+    "history": [
+      {
+        "step": "Day 0",
+        "sentAt": "2026-09-26T04:03:27.244Z",
+        "subject": "Modernizing the website for Edgewood Frame Shop",
+        "resendId": "01a0dbe1-db2d-70a8-ba78-ca7b5259e163",
+        "status": "delivered",
+        "notes": "Initial value-first outreach sent featuring Tuxedo Frame Gallery case study, specific website diagnosis, and free 48-hour mockup offer with UTM tracking."
+      }
+    ]
+  },
+  {
+    "id": "alexandria-picture-framing-company",
+    "firmName": "Alexandria Picture Framing Company",
+    "contactName": "Soung S. Lee (Master Framer)",
+    "email": "soung52@verizon.net",
+    "website": "http://www.alexandriapicture.com",
+    "niche": "Fine Art Gallery & Custom Picture Framing",
+    "location": "Alexandria, VA (110 S Fayette St)",
+    "pricingQuoted": "Custom proposal / Free Mockup",
+    "initialContactDate": "2026-09-26T04:03:29.491Z",
+    "lastContactDate": "2026-09-26T04:03:29.491Z",
+    "status": "delivered",
+    "sequenceStep": "Day 0 - Initial Outreach",
+    "diagnosedIssues": "your website is currently running on a fixed-width early 2000s layout with broken mobile viewports, unformatted text, and no online booking",
+    "caseStudySent": "https://beeclue.com/case-studies/tuxedo-frame-gallery?utm_source=beeclue&utm_medium=email&utm_campaign=outreach-art-galleries-alexandria-picture-framing-company",
+    "history": [
+      {
+        "step": "Day 0",
+        "sentAt": "2026-09-26T04:03:29.491Z",
+        "subject": "Modernizing the website for Alexandria Picture Framing Company",
+        "resendId": "01a0dbe1-e40b-73d5-89d5-cdb134c61e24",
+        "status": "delivered",
+        "notes": "Initial value-first outreach sent featuring Tuxedo Frame Gallery case study, specific website diagnosis, and free 48-hour mockup offer with UTM tracking."
+      }
+    ]
+  },
+  {
+    "id": "fralin-art-and-frame",
+    "firmName": "Fralin Art & Frame",
+    "contactName": "John Fralin (Master Woodworker)",
+    "email": "Fralinartandframe@gmail.com",
+    "website": "https://www.fralinartandframe.com",
+    "niche": "Fine Art Gallery & Custom Picture Framing",
+    "location": "Richmond, VA (3412 Semmes Ave)",
+    "pricingQuoted": "Custom proposal / Free Mockup",
+    "initialContactDate": "2026-09-26T04:03:31.666Z",
+    "lastContactDate": "2026-09-26T04:03:31.666Z",
+    "status": "delivered",
+    "sequenceStep": "Day 0 - Initial Outreach",
+    "diagnosedIssues": "your site routes custom woodworking and conservation framing to Gmail, lacking an interactive hardwood showcase and online consultation scheduler",
+    "caseStudySent": "https://beeclue.com/case-studies/tuxedo-frame-gallery?utm_source=beeclue&utm_medium=email&utm_campaign=outreach-art-galleries-fralin-art-and-frame",
+    "history": [
+      {
+        "step": "Day 0",
+        "sentAt": "2026-09-26T04:03:31.666Z",
+        "subject": "Modernizing the website for Fralin Art & Frame",
+        "resendId": "01a0dbe1-ec8b-7228-89b1-e3eaae924d8d",
+        "status": "delivered",
+        "notes": "Initial value-first outreach sent featuring Tuxedo Frame Gallery case study, specific website diagnosis, and free 48-hour mockup offer with UTM tracking."
+      }
+    ]
   }
 ]
