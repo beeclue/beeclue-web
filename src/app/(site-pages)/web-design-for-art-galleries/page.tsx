@@ -182,65 +182,7 @@ export default function WebDesignForArtGalleriesPage() {
         </div>
       </FadeIn>
 
-      {/* FEATURED CASE STUDY SPOTLIGHT: TUXEDO FRAME GALLERY */}
-      <FadeIn className={styles.baseSection} style={{ borderTop: "1px solid var(--border)", borderBottom: "1px solid var(--border)", background: "rgba(255, 255, 255, 0.02)" }}>
-        <div className={styles.servicesHeader}>
-          <h2>Featured Case Study: Tuxedo Frame Gallery</h2>
-          <p>How we brought 35+ years of Buckhead, Atlanta artistry to life online with luxury web design and local SEO.</p>
-        </div>
 
-        <div className={styles.caseStudyListItem} style={{ maxWidth: "1100px", margin: "0 auto" }}>
-          <div className={styles.caseStudyListImage} style={{ flex: "0 0 35%", minHeight: "400px", position: "relative" }}>
-            <Image
-              src="https://cdn.jsdelivr.net/gh/beeclue/clients@main/self/tuxedoframegallery.webp"
-              alt="Tuxedo Frame Gallery Custom Platform Showcase"
-              fill
-              sizes="(max-width: 768px) 100vw, 35vw"
-              style={{ objectFit: "contain", padding: "1.5rem" }}
-            />
-          </div>
-
-          <div className={styles.caseStudyListContent} style={{ flex: "1", padding: "2.5rem 3rem" }}>
-            <div style={{ display: "inline-flex", alignItems: "center", gap: "0.5rem", color: "var(--primary-light)", fontWeight: 600, fontSize: "0.95rem", marginBottom: "0.75rem" }}>
-              <Award size={18} /> Buckhead, Atlanta, GA
-            </div>
-            <h3 style={{ fontSize: "2rem", marginBottom: "1rem", color: "var(--foreground)" }}>
-              Atlanta&apos;s Premier Custom Framing Atelier &amp; Fine Art Gallery
-            </h3>
-            <p style={{ color: "var(--muted)", lineHeight: "1.7", marginBottom: "1.25rem", fontSize: "1rem" }}>
-              Located on Piedmont Road in Buckhead, Tuxedo Frame Gallery boasts over 75 combined years of master framing and fine art restoration expertise. They needed a digital presence that matched their partnerships with world-renowned moulding houses like Roma, Larson-Juhl, and Fotiou.
-            </p>
-            <div style={{ display: "flex", flexDirection: "column", gap: "0.75rem", marginBottom: "2rem" }}>
-              <div style={{ display: "flex", alignItems: "center", gap: "0.75rem", color: "var(--foreground)" }}>
-                <CheckCircle2 size={18} color="var(--primary-light)" />
-                <span><strong>Editorial Atelier Design:</strong> Fluid typography, bespoke moulding showcase, and fine art gallery.</span>
-              </div>
-              <div style={{ display: "flex", alignItems: "center", gap: "0.75rem", color: "var(--foreground)" }}>
-                <CheckCircle2 size={18} color="var(--primary-light)" />
-                <span><strong>Multi-Channel Booking:</strong> Streamlined in-store visits, virtual framing design, and in-home art advisory.</span>
-              </div>
-              <div style={{ display: "flex", alignItems: "center", gap: "0.75rem", color: "var(--foreground)" }}>
-                <CheckCircle2 size={18} color="var(--primary-light)" />
-                <span><strong>Buckhead Local SEO:</strong> Dominant visibility for custom picture framing and fine art restoration searches.</span>
-              </div>
-            </div>
-
-            <div style={{ display: "flex", gap: "1rem", flexWrap: "wrap" }}>
-              <Link href="/case-studies/tuxedo-frame-gallery" className={styles.ctaButton}>
-                Read Case Study <ArrowRight className={styles.arrow} />
-              </Link>
-              <a
-                href="https://tuxedoframegallery.com?utm_source=beeclue&utm_medium=industry_page&utm_campaign=web_design_art_galleries"
-                target="_blank"
-                rel="noopener noreferrer"
-                className={styles.ctaButtonLight}
-              >
-                Visit Live Site <Globe size={18} style={{ marginLeft: "0.5rem" }} />
-              </a>
-            </div>
-          </div>
-        </div>
-      </FadeIn>
 
       {/* CORE FEATURES FOR ART GALLERIES & FRAMERS */}
       <FadeIn className={`${styles.baseSection} ${styles.servicesSection}`}>
@@ -296,6 +238,48 @@ export default function WebDesignForArtGalleriesPage() {
             <p>
               Attract lucrative trade accounts. Provide dedicated inquiry workflows for interior designers, architects, and corporate art buyers with transparent trade consultation terms.
             </p>
+          </div>
+        </div>
+      </FadeIn>
+
+      {/* CASE STUDY FEATURE */}
+      <FadeIn className={styles.luxuryIntro}>
+        <div className={styles.luxuryBlobs}>
+          <div className={styles.blob1}></div>
+          <div className={styles.blob2}></div>
+        </div>
+        <div className={styles.luxuryIntroContent}>
+          <div className={styles.luxuryText}>
+            <h2>Real Results: Tuxedo Frame Gallery</h2>
+            <p>
+              We partnered with Atlanta&apos;s premier custom picture framing atelier and fine art gallery in Buckhead to build a luxury digital platform that matches their 35+ years of master craftsmanship.
+            </p>
+            <p>
+              The result: an editorial Next.js web platform showcasing museum-grade conservation framing, world-class mouldings, and fine art restorations — backed by hyper-local Atlanta SEO and streamlined multi-channel consultation booking.
+            </p>
+            <div style={{ display: "flex", gap: "1.5rem", flexWrap: "wrap", marginTop: "1.5rem", alignItems: "center" }}>
+              <Link href="/case-studies/tuxedo-frame-gallery" className={styles.learnMoreLink}>
+                Read the Full Case Study <ArrowRight size={16} />
+              </Link>
+              <a 
+                href="https://tuxedoframegallery.com?utm_source=beeclue&utm_medium=industry_page&utm_campaign=web_design_art_galleries" 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                className={styles.learnMoreLink}
+                style={{ color: "var(--foreground)" }}
+              >
+                Visit Live Website <ArrowRight size={16} />
+              </a>
+            </div>
+          </div>
+          <div className={styles.luxuryCard}>
+            <h3>What We Delivered for Tuxedo Frame Gallery</h3>
+            <div className={styles.luxuryChecklist}>
+              <div className={styles.luxuryCheckItem}><CheckCircle2 size={24} color="var(--primary-light)" /><span>Custom Editorial Atelier Architecture</span></div>
+              <div className={styles.luxuryCheckItem}><CheckCircle2 size={24} color="var(--primary-light)" /><span>Bespoke Moulding &amp; Conservation Showcases</span></div>
+              <div className={styles.luxuryCheckItem}><CheckCircle2 size={24} color="var(--primary-light)" /><span>Buckhead &amp; Atlanta Local SEO Dominance</span></div>
+              <div className={styles.luxuryCheckItem}><CheckCircle2 size={24} color="var(--primary-light)" /><span>In-Gallery, Virtual &amp; In-Home Booking Funnels</span></div>
+            </div>
           </div>
         </div>
       </FadeIn>
