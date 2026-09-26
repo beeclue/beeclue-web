@@ -189,26 +189,25 @@ export default function WebDesignForArtGalleriesPage() {
           <p>How we brought 35+ years of Buckhead, Atlanta artistry to life online with luxury web design and local SEO.</p>
         </div>
 
-        <div className={styles.aboutGrid} style={{ alignItems: "center" }}>
-          <div>
-            <div style={{ position: "relative", width: "100%", height: "420px", borderRadius: "16px", overflow: "hidden", border: "1px solid var(--border)" }}>
-              <Image
-                src="https://cdn.jsdelivr.net/gh/beeclue/clients@main/self/tuxedoframegallery.webp"
-                alt="Tuxedo Frame Gallery Custom Platform Showcase"
-                fill
-                style={{ objectFit: "contain", padding: "1.5rem" }}
-              />
-            </div>
+        <div className={styles.caseStudyListItem} style={{ maxWidth: "1100px", margin: "0 auto" }}>
+          <div className={styles.caseStudyListImage} style={{ flex: "0 0 35%", minHeight: "400px", position: "relative" }}>
+            <Image
+              src="https://cdn.jsdelivr.net/gh/beeclue/clients@main/self/tuxedoframegallery.webp"
+              alt="Tuxedo Frame Gallery Custom Platform Showcase"
+              fill
+              sizes="(max-width: 768px) 100vw, 35vw"
+              style={{ objectFit: "contain", padding: "1.5rem" }}
+            />
           </div>
 
-          <div className={styles.aboutText}>
+          <div className={styles.caseStudyListContent} style={{ flex: "1", padding: "2.5rem 3rem" }}>
             <div style={{ display: "inline-flex", alignItems: "center", gap: "0.5rem", color: "var(--primary-light)", fontWeight: 600, fontSize: "0.95rem", marginBottom: "0.75rem" }}>
               <Award size={18} /> Buckhead, Atlanta, GA
             </div>
             <h3 style={{ fontSize: "2rem", marginBottom: "1rem", color: "var(--foreground)" }}>
               Atlanta&apos;s Premier Custom Framing Atelier &amp; Fine Art Gallery
             </h3>
-            <p style={{ color: "var(--muted)", lineHeight: "1.7", marginBottom: "1.25rem" }}>
+            <p style={{ color: "var(--muted)", lineHeight: "1.7", marginBottom: "1.25rem", fontSize: "1rem" }}>
               Located on Piedmont Road in Buckhead, Tuxedo Frame Gallery boasts over 75 combined years of master framing and fine art restoration expertise. They needed a digital presence that matched their partnerships with world-renowned moulding houses like Roma, Larson-Juhl, and Fotiou.
             </p>
             <div style={{ display: "flex", flexDirection: "column", gap: "0.75rem", marginBottom: "2rem" }}>
