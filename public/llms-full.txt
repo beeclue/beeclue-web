@@ -67,7 +67,7 @@ We build patient-centric, trust-building websites for medical clinics, physiothe
 [Read More](https://beeclue.com/web-design-for-healthcare)
 
 ### 15. Web Design for Law Firms
-We build authoritative, client-converting websites for law firms, attorneys, barristers, and legal practices in Toronto, Peel Region (Brampton, Mississauga), and across North America. We disrupt traditional $5,000 agency retainers with our transparent subscription model: Core at $19/month ($0 down build fee) for a complete 5-page legal website including high-speed hosting, SSL security, confidential consultation intake forms, Google Maps embed, and ongoing maintenance. We also provide a free 48-hour custom mobile website mockup and digital audit for prospective practices, allowing attorneys to experience their new interactive design before any commitment.
+We build authoritative, client-converting websites for law firms, attorneys, barristers, and legal practices in Toronto, Peel Region (Brampton, Mississauga), and across North America. All websites strictly adhere to Law Society of Ontario (LSO) Rule 4.2 advertising standards (truthful, verifiable, no deceptive claims or outcome guarantees) and Rule 3.3 confidentiality with 256-bit encrypted PIPEDA-compliant intake forms and clear retainer disclaimers. We offer predictable monthly service packages with zero upfront build fee ($0 down) as well as bespoke builds for boutique practices. We also provide a free 48-hour custom mobile website mockup and digital audit for prospective practices, allowing attorneys to experience their new interactive design before any commitment.
 [Read More](https://beeclue.com/web-design-for-law-firms)
 
 ### 16. Shopify Development Toronto

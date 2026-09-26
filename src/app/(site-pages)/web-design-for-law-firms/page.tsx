@@ -9,6 +9,7 @@ import ServiceTracker from "@/components/ServiceTracker";
 import IndustryList from "@/components/IndustryList";
 import LawFirmCalculator from "@/components/LawFirmCalculator";
 import LawFirmAuditForm from "@/components/LawFirmAuditForm";
+import FaqAccordion from "@/components/FaqAccordion";
 
 export default function WebDesignForLawFirmsPage() {
   const jsonLd = {
@@ -23,7 +24,7 @@ export default function WebDesignForLawFirmsPage() {
     },
     "description": "Professional web design and legal SEO services for law firms, attorneys, and legal practices in Toronto, Canada, and North America. Custom sites with case results, attorney profiles, and client intake forms.",
     "areaServed": ["Canada", "United States"],
-    "priceRange": "$19/month"
+    "priceRange": "$$"
   };
   const breadcrumbs = {
     "@context": "https://schema.org",
@@ -34,35 +35,40 @@ export default function WebDesignForLawFirmsPage() {
       { "@type": "ListItem", "position": 3, "name": "Web Design for Law Firms", "item": "https://beeclue.com/web-design-for-law-firms" }
     ]
   };
+  const faqs = [
+    {
+      q: "Are your law firm websites compliant with Law Society of Ontario (LSO) advertising guidelines?",
+      a: "Yes. Every website we build for Ontario lawyers adheres strictly to the Law Society of Ontario (LSO) Rules of Professional Conduct (specifically Rule 4.2 regarding Marketing of Legal Services). We ensure all marketing statements are demonstrably true, verifiable, and accurate, with no misleading claims, aggressive comparative statements, or guaranteed outcome promises. We also implement compliant legal disclaimers confirming that website contact or consultation booking does not establish a solicitor-client relationship until a formal retainer agreement is executed."
+    },
+    {
+      q: "How do you protect client confidentiality and PIPEDA compliance on legal intake forms?",
+      a: "Confidentiality is critical under LSO Rule 3.3. Our intake forms feature 256-bit SSL/TLS encryption, secure serverless transmission, and zero third-party tracking, fully complying with Canadian privacy legislation (PIPEDA). Forms also include clear confidentiality notices advising prospective clients not to disclose privileged case details prior to completing a formal conflict check."
+    },
+    {
+      q: "How much does law firm website design cost?",
+      a: "The cost of law firm website design depends on your firm's practice area depth, number of attorneys, and required integrations (such as practice intake forms, consultation schedulers, and CRM/case management connections). We offer predictable monthly service packages with zero upfront build fee ($0 down) including ongoing maintenance, high-speed hosting, and SSL security, as well as turnkey bespoke platform builds for boutique partnerships. Contact us for a transparent, customized proposal tailored to your practice."
+    },
+    {
+      q: "Why is specialized web design essential for lawyers and law firms?",
+      a: "Legal clients evaluate trust, authority, and verified credentials before reaching out. A specialized legal website pairs empathetic user experience with clear practice area hierarchies, attorney biographies, client testimonials/case outcome summaries, and local legal SEO engineered to rank for competitive practice searches."
+    },
+    {
+      q: "How long does it take to design and launch a law firm website?",
+      a: "Most custom law firm websites are designed, developed, and launched within 2 to 4 weeks. This includes mobile responsiveness, AODA/WCAG accessibility compliance, custom legal copywriting, and full technical SEO setup."
+    }
+  ];
+
   const faqSchema = {
     "@context": "https://schema.org",
     "@type": "FAQPage",
-    "mainEntity": [
-      {
-        "@type": "Question",
-        "name": "How much does law firm website design cost?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Law firm websites at Beeclue Tech start at just $19/month on our Core subscription with zero upfront build fee ($0 down). This includes custom 5-page legal website design, high-speed hosting, SSL security, confidential client intake, and ongoing maintenance."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "Why is specialized web design important for lawyers and attorneys?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Legal clients evaluate trust, authority, and track record before booking a consultation. A specialized legal website includes case outcome highlights, confidential client intake forms, and local SEO optimizations engineered to rank for legal search terms."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "How long does it take to design and launch a law firm website?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Most custom law firm websites are designed, developed, and launched within 2 to 4 weeks, including mobile optimization, legal content writing, and technical SEO setup."
-        }
+    "mainEntity": faqs.map(faq => ({
+      "@type": "Question",
+      "name": faq.q,
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": faq.a
       }
-    ]
+    }))
   };
 
   return (
@@ -316,6 +322,15 @@ export default function WebDesignForLawFirmsPage() {
           <p>We build specialized websites across multiple industries. See how we can help your sector.</p>
         </div>
         <IndustryList exclude="/web-design-for-law-firms" />
+      </FadeIn>
+
+      {/* FAQ SECTION */}
+      <FadeIn className={styles.baseSection}>
+        <div className={styles.servicesHeader}>
+          <h2>Law Firm Website Design FAQs</h2>
+          <p>Common questions about legal website development, Law Society of Ontario (LSO) compliance, and client intake security.</p>
+        </div>
+        <FaqAccordion faqs={faqs} />
       </FadeIn>
 
       {/* CTA SECTION */}
