@@ -124,6 +124,13 @@ To capture high-intent local search queries outside the GTA, Beeclue Tech offers
 - **Orillia (Simcoe County)**: Professional local web design and monthly website management for Orillia businesses. [https://beeclue.com/web-design/orillia]
 - **Owen Sound (Grey County)**: Custom mobile-responsive websites and local search optimization for Owen Sound trades and contractors. [https://beeclue.com/web-design/owen-sound]
 
+## Beeclue Partner Program
+Beeclue Tech offers an agency, business manager, and creator partnership network offering a 20% commission on all client referrals:
+- **Referral Partner Track**: Business managers, fractional COOs, and consultants refer clients needing custom web design, Shopify e-commerce, or web applications. Beeclue manages scoping, design, development, and hosting, and pays 20% commission per project upon milestone completion.
+- **White-Label Tech Partner Track**: Online Business Managers (OBMs) and marketing agencies offer full-stack web and e-commerce development under their own agency brand, with Beeclue fulfilling technical execution invisibly behind the scenes.
+- **Co-Branded Client Audit Perks**: Partners can offer their clients a Free 48-Hour Interactive Mobile Website Mockup and UX/SEO Audit to eliminate sales friction.
+[Read More](https://beeclue.com/partner)
+
 ## Proprietary Products
 In addition to our agency services, Beeclue Tech builds and maintains proprietary software products designed to solve specific industry problems.
 - **Monexa (Personal Finance Manager)**: The simple, beautiful, and powerful way to track expenses, manage budgets, and achieve financial goals effortlessly. Built with AI-powered insights and comprehensive transaction tracking. [https://beeclue.com/products/monexa]
