@@ -1,17 +1,19 @@
 "use client";
 
-import FadeIn from "@/components/FadeIn";
-
 import { useState, useEffect, useRef } from "react";
+import { useRouter } from "next/navigation";
 import styles from "./page.module.css";
-import { Mail, MapPin, ArrowRight, Phone, MessageCircle, Check, X } from "lucide-react";
+import { Mail, MapPin, ArrowRight, ArrowLeft, Phone, MessageCircle, X } from "lucide-react";
 import PhoneInput, { isValidPhoneNumber } from "react-phone-number-input";
 import "react-phone-number-input/style.css";
-import { trackFormSubmit, trackFormStart, trackPageView } from "@/lib/analytics";
+import { trackEvent, trackFormSubmit, trackFormStart, trackPageView } from "@/lib/analytics";
+
+const BOOKING_URL = "https://calendar.app.google/jbSujvkqFgn4336Y6";
 
 type FormErrors = {
   name?: string;
   email?: string;
+  website?: string;
   phone?: string;
   service?: string;
   comments?: string;
@@ -19,7 +21,9 @@ type FormErrors = {
 };
 
 export default function ContactPage() {
-  const [formStatus, setFormStatus] = useState<"idle" | "submitting" | "success" | "error">("idle");
+  const router = useRouter();
+  const [formStatus, setFormStatus] = useState<"idle" | "submitting" | "error">("idle");
+  const [step, setStep] = useState<1 | 2>(1);
   const [phone, setPhone] = useState<string | undefined>();
   const hasStartedRef = useRef(false);
 
@@ -38,6 +42,7 @@ export default function ContactPage() {
   const [formData, setFormData] = useState({
     name: "",
     email: "",
+    website: "",
     service: "",
     comments: "",
     consent: false,
@@ -46,7 +51,7 @@ export default function ContactPage() {
   // Validation State
   const [errors, setErrors] = useState<FormErrors>({});
 
-  const validate = (): boolean => {
+  const validateStep1 = (): boolean => {
     const newErrors: FormErrors = {};
 
     if (!formData.name.trim()) {
@@ -59,14 +64,24 @@ export default function ContactPage() {
       newErrors.email = "Please enter a valid email address";
     }
 
-    if (!phone) {
-      newErrors.phone = "Phone number is required";
-    } else if (!isValidPhoneNumber(phone)) {
-      newErrors.phone = "Please enter a valid phone number";
+    if (formData.website.trim() && !/^(https?:\/\/)?([\w-]+\.)+[\w-]+(\/.*)?$/i.test(formData.website.trim())) {
+      newErrors.website = "Please enter a valid website (e.g. yoursite.com)";
     }
 
     if (!formData.service) {
       newErrors.service = "Please select a service";
+    }
+
+    setErrors(newErrors);
+    return Object.keys(newErrors).length === 0;
+  };
+
+  const validateStep2 = (): boolean => {
+    const newErrors: FormErrors = {};
+
+    // Phone is optional — only validate when provided
+    if (phone && !isValidPhoneNumber(phone)) {
+      newErrors.phone = "Please enter a valid phone number";
     }
 
     if (!formData.consent) {
@@ -75,6 +90,19 @@ export default function ContactPage() {
 
     setErrors(newErrors);
     return Object.keys(newErrors).length === 0;
+  };
+
+  const handleNext = () => {
+    if (!validateStep1()) {
+      return;
+    }
+    setStep(2);
+    trackEvent("form_step2", { form_type: "contact_form" });
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  };
+
+  const handleBack = () => {
+    setStep(1);
   };
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement | HTMLTextAreaElement>) => {
@@ -103,13 +131,13 @@ export default function ContactPage() {
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    
-    if (!validate()) {
+
+    if (!validateStep2()) {
       return;
     }
 
     setFormStatus("submitting");
-    
+
     try {
       const response = await fetch("https://api.web3forms.com/submit", {
         method: "POST",
@@ -121,18 +149,17 @@ export default function ContactPage() {
           access_key: "2394a933-0d56-4b63-8d32-2269f36e5679",
           name: formData.name,
           email: formData.email,
-          phone: phone,
+          website: formData.website,
+          phone: phone || "not provided",
           service: formData.service,
           message: formData.comments,
+          from_url: typeof window !== "undefined" ? window.location.href : "",
         }),
       });
-      
-      const result = await response.json();
-      
+
       if (response.status === 200) {
-        setFormStatus("success");
         trackFormSubmit("contact_form", formData.service);
-        
+
         // Add the user to EmailOctopus list in the background
         try {
           await fetch("/api/newsletter", {
@@ -145,10 +172,12 @@ export default function ContactPage() {
         } catch (err) {
           console.error("Failed to add email to Octopus:", err);
         }
+
+        router.push(`/thank-you?service=${encodeURIComponent(formData.service)}`);
       } else {
         setFormStatus("error");
       }
-    } catch (error) {
+    } catch {
       setFormStatus("error");
     }
   };
@@ -179,12 +208,12 @@ export default function ContactPage() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
       <div className={styles.container}>
-        
+
         {/* Left Column - Contact Info */}
         <div className={styles.infoColumn}>
-          <h1 className={styles.title}>Let's talk about your project</h1>
+          <h1 className={styles.title}>Let&apos;s talk about your project</h1>
           <p className={styles.subtitle}>
-            Ready to build a scalable digital foundation? Reach out to our team of experts in Toronto to discuss your business goals, technical requirements, and how we can accelerate your growth.
+            Two quick steps — no call required. Tell us where to send your free teardown, then pick a call time if you want one.
           </p>
 
           <div className={styles.contactDetails}>
@@ -195,7 +224,7 @@ export default function ContactPage() {
                 <a href="mailto:hello@beeclue.com">hello@beeclue.com</a>
               </div>
             </div>
-            
+
             <div className={styles.detailItem}>
               <MapPin className={styles.icon} />
               <div>
@@ -210,7 +239,7 @@ export default function ContactPage() {
                 <a href="tel:+16479476253">+1 (647) 947-6253</a>
               </div>
             </div>
-            
+
             <div className={styles.detailItem}>
               <MessageCircle className={styles.icon} />
               <div>
@@ -223,17 +252,25 @@ export default function ContactPage() {
 
         {/* Right Column - Form */}
         <div className={styles.formColumn}>
-            <form className={styles.form} onSubmit={handleSubmit} onFocus={handleFormStart} onChange={handleFormStart} noValidate>
+            {/* Step indicator */}
+            <div style={{ display: "flex", alignItems: "center", gap: "0.5rem", marginBottom: "1.5rem", fontSize: "0.85rem", color: "var(--muted)" }} aria-live="polite">
+              <span style={{ fontWeight: step === 1 ? 700 : 400, color: step === 1 ? "var(--foreground)" : undefined }}>1. Your details</span>
+              <span aria-hidden="true">→</span>
+              <span style={{ fontWeight: step === 2 ? 700 : 400, color: step === 2 ? "var(--foreground)" : undefined }}>2. Project + booking</span>
+            </div>
+
+            {step === 1 ? (
+            <form className={styles.form} onFocus={handleFormStart} onChange={handleFormStart} noValidate onSubmit={(e) => { e.preventDefault(); handleNext(); }}>
               <div className={styles.inputGroup}>
                 <label htmlFor="name">Name</label>
-                <input 
-                  type="text" 
-                  id="name" 
-                  name="name" 
+                <input
+                  type="text"
+                  id="name"
+                  name="name"
                   value={formData.name}
                   onChange={handleChange}
-                  placeholder="John Doe" 
-                  disabled={formStatus === "submitting"}
+                  placeholder="John Doe"
+                  autoComplete="name"
                   className={errors.name ? styles.inputError : ""}
                 />
                 {errors.name && <span className={styles.errorText}>{errors.name}</span>}
@@ -241,45 +278,42 @@ export default function ContactPage() {
 
               <div className={styles.inputGroup}>
                 <label htmlFor="email">Email</label>
-                <input 
-                  type="email" 
-                  id="email" 
-                  name="email" 
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
                   value={formData.email}
                   onChange={handleChange}
-                  placeholder="john@company.com" 
+                  placeholder="john@company.com"
                   autoComplete="email"
-                  disabled={formStatus === "submitting"}
                   className={errors.email ? styles.inputError : ""}
                 />
                 {errors.email && <span className={styles.errorText}>{errors.email}</span>}
               </div>
 
               <div className={styles.inputGroup}>
-                <label htmlFor="phone">Phone</label>
-                <div className={`${styles.phoneInputWrapper} ${errors.phone ? styles.inputError : ""}`}>
-                  <PhoneInput
-                    id="phone"
-                    international
-                    defaultCountry="CA"
-                    value={phone}
-                    onChange={handlePhoneChange}
-                    placeholder="Enter phone number"
-                    autoComplete="tel"
-                    disabled={formStatus === "submitting"}
-                  />
-                </div>
-                {errors.phone && <span className={styles.errorText}>{errors.phone}</span>}
+                <label htmlFor="website">Website <span style={{ fontWeight: 400, textTransform: "none" }}>(optional)</span></label>
+                <input
+                  type="text"
+                  id="website"
+                  name="website"
+                  value={formData.website}
+                  onChange={handleChange}
+                  placeholder="yoursite.com"
+                  autoComplete="url"
+                  inputMode="url"
+                  className={errors.website ? styles.inputError : ""}
+                />
+                {errors.website && <span className={styles.errorText}>{errors.website}</span>}
               </div>
 
               <div className={styles.inputGroup}>
                 <label htmlFor="service">Service</label>
-                <select 
-                  id="service" 
-                  name="service" 
+                <select
+                  id="service"
+                  name="service"
                   value={formData.service}
                   onChange={handleChange}
-                  disabled={formStatus === "submitting"}
                   className={errors.service ? styles.inputError : ""}
                 >
                   <option value="">Select a service</option>
@@ -288,19 +322,46 @@ export default function ContactPage() {
                   <option value="mobile-app">Mobile Application</option>
                   <option value="ecommerce">E-Commerce Solution</option>
                   <option value="seo">SEO & Digital Marketing</option>
-                  <option value="other">Other</option>
+                  <option value="other">Not sure — advise me</option>
                 </select>
                 {errors.service && <span className={styles.errorText}>{errors.service}</span>}
               </div>
 
+              <button type="submit" className={styles.submitButton}>
+                Continue <ArrowRight className={styles.arrow} />
+              </button>
+              <p style={{ fontSize: "0.85rem", color: "var(--muted)", marginTop: "1rem" }}>Takes about a minute. No call required — we reply by email.</p>
+            </form>
+            ) : (
+            <form className={styles.form} onSubmit={handleSubmit} noValidate>
+              <button type="button" onClick={handleBack} aria-label="Back to your details" style={{ display: "inline-flex", alignItems: "center", gap: "0.35rem", background: "transparent", border: "none", padding: 0, marginBottom: "1rem", fontSize: "0.9rem", color: "var(--muted)", cursor: "pointer" }}>
+                <ArrowLeft size={18} /> Back
+              </button>
               <div className={styles.inputGroup}>
-                <label htmlFor="comments">Comments</label>
-                <textarea 
-                  id="comments" 
-                  name="comments" 
+                <label htmlFor="phone">Phone <span style={{ fontWeight: 400, textTransform: "none" }}>(optional)</span></label>
+                <div className={`${styles.phoneInputWrapper} ${errors.phone ? styles.inputError : ""}`}>
+                  <PhoneInput
+                    id="phone"
+                    international
+                    defaultCountry="CA"
+                    value={phone}
+                    onChange={handlePhoneChange}
+                    placeholder="Only if you want a call back"
+                    autoComplete="tel"
+                    disabled={formStatus === "submitting"}
+                  />
+                </div>
+                {errors.phone && <span className={styles.errorText}>{errors.phone}</span>}
+              </div>
+
+              <div className={styles.inputGroup}>
+                <label htmlFor="comments">Project details</label>
+                <textarea
+                  id="comments"
+                  name="comments"
                   value={formData.comments}
                   onChange={handleChange}
-                  rows={4} 
+                  rows={4}
                   placeholder="Tell us about your goals, timeline, and budget..."
                   disabled={formStatus === "submitting"}
                   className={errors.comments ? styles.inputError : ""}
@@ -328,32 +389,11 @@ export default function ContactPage() {
               <button type="submit" className={styles.submitButton} disabled={formStatus === "submitting"}>
                 {formStatus === "submitting" ? "Sending..." : "Get My Free Consultation"} <ArrowRight className={styles.arrow} />
               </button>
+              <p style={{ fontSize: "0.85rem", color: "var(--muted)", marginTop: "1rem" }}>Next: pick a call time on the confirmation page — or just wait for our email reply. Prefer to book now? <a href={BOOKING_URL} target="_blank" rel="noopener noreferrer">Open the calendar directly</a>.</p>
             </form>
+            )}
         </div>
       </div>
-
-      {formStatus === "success" && (
-        <div className={styles.modalOverlay}>
-          <div className={styles.modalContent}>
-            <div className={`${styles.modalIcon} ${styles.modalIconSuccess}`}>
-               <Check size={32} />
-            </div>
-            <h3 className={styles.modalTitle}>Message Received</h3>
-            <p className={styles.modalText}>Thanks! We&apos;ll respond within 2 business hours. Check your inbox for a confirmation.</p>
-            <button 
-              className={styles.modalButton}
-              onClick={() => {
-                setFormStatus("idle");
-                setFormData({ name: "", email: "", service: "", comments: "", consent: false });
-                setPhone(undefined);
-                hasStartedRef.current = false;
-              }}
-            >
-              Close
-            </button>
-          </div>
-        </div>
-      )}
 
       {formStatus === "error" && (
         <div className={styles.modalOverlay}>
@@ -363,7 +403,7 @@ export default function ContactPage() {
             </div>
             <h3 className={styles.modalTitle}>Submission Failed</h3>
             <p className={styles.modalText}>Something went wrong. Please try again or email us directly at hello@beeclue.com.</p>
-            <button 
+            <button
               className={styles.modalButton}
               onClick={() => {
                 setFormStatus("idle");

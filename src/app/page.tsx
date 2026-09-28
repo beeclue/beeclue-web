@@ -1,5 +1,3 @@
-"use client";
-
 import Link from "next/link";
 import Image from "next/image";
 import styles from "./page.module.css";
@@ -7,7 +5,7 @@ import { ArrowRight, Code, LayoutTemplate, Smartphone, ShoppingCart, Search, Che
 import FadeIn from "@/components/FadeIn";
 import IndustryList from "@/components/IndustryList";
 import ReviewsMeta from "@/components/ReviewsMeta";
-import { trackCTAClick } from "@/lib/analytics";
+import TrackableCTA from "@/components/TrackableCTA";
 
 // Dynamically import the 3D scene to avoid SSR issues
 export default function Home() {
@@ -75,20 +73,17 @@ export default function Home() {
       {/* HERO SECTION */}
       <FadeIn className={styles.hero}>
         <div className={styles.heroContent}>
-          {/* Visually Hidden SEO H1 */}
-          <h1 className={styles.srOnly}>Toronto's Premier Web Design & Software Development Agency</h1>
-
-          <div className={styles.title} aria-hidden="true">
-            <span className={styles.titleLine}>Websites</span>
-            <span className={styles.titleLine}>That Bring You</span>
+          <h1 className={styles.title}>
+            <span className={styles.titleLine}>Toronto Web Design</span>
+            <span className={styles.titleLine}>That Brings You</span>
             <span className={styles.titleLinePrimary}>Customers</span>
-          </div>
+          </h1>
           <p className={styles.subtitle}>
             We design and build custom websites for Toronto small businesses that turn visitors into paying customers. No templates. No fluff. Just results.
           </p>
-          <Link href="/contact" className={styles.ctaButton} onClick={() => trackCTAClick("hero_audit", "homepage_hero")}>
+          <TrackableCTA href="/contact" ctaName="hero_audit" location="homepage_hero" className={styles.ctaButton}>
             Get Your Free Website Audit <ArrowRight className={styles.arrow} />
-          </Link>
+          </TrackableCTA>
           <p className={styles.heroMicrocopy}>Free &bull; No obligation &bull; Takes 2 minutes</p>
           <div className={styles.heroTrustBar}>
             <div className={styles.trustItem}>

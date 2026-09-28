@@ -25,10 +25,10 @@ const outfit = Outfit({
 export const metadata: Metadata = {
   metadataBase: new URL('https://beeclue.com'),
   title: {
-    default: "Toronto Web Design & Software Development Agency | Beeclue Tech",
+    default: "Web Design Toronto: Custom Sites That Book Jobs | Beeclue Tech",
     template: "%s | Beeclue Tech",
   },
-  description: "Get your Free Website Audit in 2 minutes. We design and build custom websites, mobile apps, and custom software for Toronto businesses that turn visitors into customers. Get a free mockup today!",
+  description: "Toronto web design that turns visitors into customers. Fast custom websites with SEO & booking built-in. 5.0 rated. Free homepage mockup in 48h.",
   icons: {
     icon: [
       { url: '/favicon-96x96.png', sizes: '96x96', type: 'image/png' },
