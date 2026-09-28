@@ -33,6 +33,30 @@ export default function BlogsPage() {
       {/* BLOGS LIST */}
       <FadeIn className={styles.baseSection} style={{ paddingTop: "5vh" }}>
         <div className={styles.caseStudyList}>
+          {/* BLOG: SHOPIFY VS WOOCOMMERCE IN CANADA */}
+          <div className={styles.caseStudyListItem}>
+            <div className={styles.caseStudyListImage} style={{ position: "relative" }}>
+              <Image
+                src="https://images.unsplash.com/photo-1556742049-0a67c5574f73?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=75"
+                alt="Canadian e-commerce entrepreneur analyzing financial spreadsheets, comparing Shopify and WooCommerce platform costs and payment gateway fees"
+                fill
+                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                style={{ objectFit: "cover" }}
+              />
+            </div>
+            <div className={styles.caseStudyListContent}>
+              <h2>Shopify vs WooCommerce in Canada: Exact Costs, Stripe Fees, and Which Scales Better (2026 Guide)</h2>
+              <p>
+                An exhaustive, data-backed 2026 comparison between Shopify and WooCommerce for Canadian online businesses. We analyze exact CAD subscription overhead, Stripe and Shopify Payments transaction fees, Canada Post integrations, provincial sales tax compliance, and long-term scaling limits.
+              </p>
+              <div>
+                <Link href="/shopify-vs-woocommerce-canada" className={styles.ctaButtonLight}>
+                  Read Article <ArrowRight className={styles.arrow} size={20} />
+                </Link>
+              </div>
+            </div>
+          </div>
+
           {/* BLOG: AI IN E-COMMERCE & CONVERSATIONAL COMMERCE */}
           <div className={styles.caseStudyListItem}>
             <div className={styles.caseStudyListImage} style={{ position: "relative" }}>

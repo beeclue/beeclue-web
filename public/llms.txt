@@ -70,6 +70,7 @@ Beeclue Tech is an elite digital development agency located in Toronto, Canada, 
 - [Monexa (Finance App)](https://beeclue.com/products/monexa)
 
 ### Blog Articles
+- [Shopify vs WooCommerce in Canada: Exact Costs, Stripe Fees, and Which Scales Better (2026 Guide)](https://beeclue.com/shopify-vs-woocommerce-canada)
 - [AI in E-Commerce & Conversational Commerce: How AI Shopping Agents Increase Online Sales (2026 Guide)](https://beeclue.com/ai-conversational-ecommerce-guide)
 - [How Much Storage Do I Need for My Website? [2026 Complete Guide & Size Calculator]](https://beeclue.com/how-much-storage-do-i-need-for-my-website)
 - [5 Best Appointment Booking Tools for Dental Clinics (2026)](https://beeclue.com/best-dental-appointment-booking-tools)

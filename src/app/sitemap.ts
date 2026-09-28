@@ -67,6 +67,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     // Products
     '/products/monexa',
     // Blogs
+    '/shopify-vs-woocommerce-canada',
     '/ai-conversational-ecommerce-guide',
     '/custom-software-development-toronto-cost-guide',
     '/healthcare-website-design-canada-pipeda',
