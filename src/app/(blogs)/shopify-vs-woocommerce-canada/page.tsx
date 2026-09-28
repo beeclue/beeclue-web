@@ -31,7 +31,7 @@ export const metadata: Metadata = {
     url: "https://beeclue.com/shopify-vs-woocommerce-canada",
     images: [
       {
-        url: "https://images.unsplash.com/photo-1556742049-0a67c5574f73?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=75",
+        url: "https://images.unsplash.com/photo-1556740738-b6a63e27c4df?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=75",
         width: 1200,
         height: 630,
         alt: "Shopify vs WooCommerce in Canada Comparison 2026",
@@ -50,7 +50,7 @@ export default function ShopifyVsWooCommerceCanadaBlog() {
     },
     "headline": "Shopify vs WooCommerce in Canada: Exact Costs, Stripe Fees, and Which Scales Better (2026 Guide)",
     "description": "An exhaustive, data-backed 2026 comparison between Shopify and WooCommerce for Canadian online businesses. We analyze exact CAD subscription overhead, Stripe and Shopify Payments transaction fees, Canada Post integrations, provincial sales tax compliance, and long-term scaling limits.",
-    "image": "https://images.unsplash.com/photo-1556742049-0a67c5574f73?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=75",
+    "image": "https://images.unsplash.com/photo-1556740738-b6a63e27c4df?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=75",
     "author": {
       "@type": "Organization",
       "name": "Beeclue Editorial Team",
@@ -183,7 +183,7 @@ export default function ShopifyVsWooCommerceCanadaBlog() {
 
         <FadeIn className={blogStyles.heroImageContainer}>
           <Image
-            src="https://images.unsplash.com/photo-1556742049-0a67c5574f73?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=75"
+            src="https://images.unsplash.com/photo-1556740738-b6a63e27c4df?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=75"
             alt="Canadian e-commerce entrepreneur analyzing financial spreadsheets, comparing Shopify and WooCommerce platform costs and payment gateway fees"
             fill
             sizes="(max-width: 1000px) 100vw, 1000px"
@@ -520,8 +520,8 @@ export default function ShopifyVsWooCommerceCanadaBlog() {
 
             <div className={blogStyles.secondaryImageContainer}>
               <Image
-                src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=75"
-                alt="Canadian e-commerce logistics, warehouse fulfillment, and analytics tracking comparing shipping rates"
+                src="https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=75"
+                alt="Canadian e-commerce logistics, warehouse fulfillment, and Canada Post parcel shipping operations"
                 fill
                 sizes="(max-width: 1000px) 100vw, 1000px"
                 className={blogStyles.secondaryImage}
