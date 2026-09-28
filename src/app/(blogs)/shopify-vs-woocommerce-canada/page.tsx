@@ -233,12 +233,146 @@ export default function ShopifyVsWooCommerceCanadaBlog() {
               </p>
             </div>
 
+            {/* PLATFORM HEAD-TO-HEAD COMPARISON HERO CARD */}
+            <div style={{
+              display: "grid",
+              gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))",
+              gap: "1.5rem",
+              margin: "3rem 0",
+              alignItems: "stretch"
+            }}>
+              {/* SHOPIFY BOX */}
+              <div style={{
+                background: "linear-gradient(145deg, rgba(149, 191, 71, 0.08) 0%, rgba(10, 15, 30, 0.9) 100%)",
+                border: "1px solid rgba(149, 191, 71, 0.35)",
+                borderRadius: "20px",
+                padding: "2rem",
+                display: "flex",
+                flexDirection: "column",
+                position: "relative",
+                boxShadow: "0 10px 30px rgba(0,0,0,0.3)"
+              }}>
+                <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", marginBottom: "1.5rem", flexWrap: "wrap", gap: "0.75rem" }}>
+                  <div style={{ height: "42px", display: "flex", alignItems: "center" }}>
+                    <Image
+                      src="/images/shopify-logo.svg"
+                      alt="Shopify Logo"
+                      width={160}
+                      height={42}
+                      style={{ height: "36px", width: "auto", objectFit: "contain" }}
+                    />
+                  </div>
+                  <span style={{
+                    fontSize: "0.75rem",
+                    fontWeight: "700",
+                    textTransform: "uppercase",
+                    letterSpacing: "0.08em",
+                    background: "rgba(149, 191, 71, 0.2)",
+                    color: "#95BF47",
+                    padding: "0.3rem 0.75rem",
+                    borderRadius: "999px",
+                    border: "1px solid rgba(149, 191, 71, 0.4)"
+                  }}>
+                    Hosted SaaS
+                  </span>
+                </div>
+                <h4 style={{ fontSize: "1.2rem", fontWeight: "700", color: "#fff", marginBottom: "0.75rem" }}>
+                  The Managed Cloud Leader
+                </h4>
+                <p style={{ fontSize: "0.95rem", color: "#cbd5e1", lineHeight: "1.6", marginBottom: "1.25rem" }}>
+                  Best for DTC brands and retail stores needing out-of-the-box speed, zero server maintenance, and automated scaling for peak sales.
+                </p>
+                <div style={{ marginTop: "auto", paddingTop: "1rem", borderTop: "1px solid rgba(255,255,255,0.08)", fontSize: "0.875rem", color: "#94a3b8" }}>
+                  <div style={{ display: "flex", justifyContent: "space-between", marginBottom: "0.4rem" }}>
+                    <span>Origin:</span>
+                    <strong style={{ color: "#fff" }}>Ottawa, Ontario</strong>
+                  </div>
+                  <div style={{ display: "flex", justifyContent: "space-between", marginBottom: "0.4rem" }}>
+                    <span>Entry Plan:</span>
+                    <strong style={{ color: "#fff" }}>$39 USD (~$55 CAD)/mo</strong>
+                  </div>
+                  <div style={{ display: "flex", justifyContent: "space-between" }}>
+                    <span>Primary Rail:</span>
+                    <strong style={{ color: "#95BF47" }}>Shopify Payments (2.4%–2.9%)</strong>
+                  </div>
+                </div>
+              </div>
+
+              {/* WOOCOMMERCE BOX */}
+              <div style={{
+                background: "linear-gradient(145deg, rgba(127, 84, 179, 0.1) 0%, rgba(10, 15, 30, 0.9) 100%)",
+                border: "1px solid rgba(127, 84, 179, 0.4)",
+                borderRadius: "20px",
+                padding: "2rem",
+                display: "flex",
+                flexDirection: "column",
+                position: "relative",
+                boxShadow: "0 10px 30px rgba(0,0,0,0.3)"
+              }}>
+                <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", marginBottom: "1.5rem", flexWrap: "wrap", gap: "0.75rem" }}>
+                  <div style={{ height: "42px", display: "flex", alignItems: "center" }}>
+                    <Image
+                      src="/images/woocommerce-logo.svg"
+                      alt="WooCommerce Logo"
+                      width={180}
+                      height={42}
+                      style={{ height: "36px", width: "auto", objectFit: "contain" }}
+                    />
+                  </div>
+                  <span style={{
+                    fontSize: "0.75rem",
+                    fontWeight: "700",
+                    textTransform: "uppercase",
+                    letterSpacing: "0.08em",
+                    background: "rgba(127, 84, 179, 0.25)",
+                    color: "#C4B5FD",
+                    padding: "0.3rem 0.75rem",
+                    borderRadius: "999px",
+                    border: "1px solid rgba(127, 84, 179, 0.5)"
+                  }}>
+                    Open Source
+                  </span>
+                </div>
+                <h4 style={{ fontSize: "1.2rem", fontWeight: "700", color: "#fff", marginBottom: "0.75rem" }}>
+                  The Customizable Powerhouse
+                </h4>
+                <p style={{ fontSize: "0.95rem", color: "#cbd5e1", lineHeight: "1.6", marginBottom: "1.25rem" }}>
+                  Best for businesses with complex catalogs, wholesale B2B pricing, custom product configurators, and stores wanting 0% platform cuts.
+                </p>
+                <div style={{ marginTop: "auto", paddingTop: "1rem", borderTop: "1px solid rgba(255,255,255,0.08)", fontSize: "0.875rem", color: "#94a3b8" }}>
+                  <div style={{ display: "flex", justifyContent: "space-between", marginBottom: "0.4rem" }}>
+                    <span>Ecosystem:</span>
+                    <strong style={{ color: "#fff" }}>WordPress CMS</strong>
+                  </div>
+                  <div style={{ display: "flex", justifyContent: "space-between", marginBottom: "0.4rem" }}>
+                    <span>Platform Fee:</span>
+                    <strong style={{ color: "#4ade80" }}>$0 (Free Software)</strong>
+                  </div>
+                  <div style={{ display: "flex", justifyContent: "space-between" }}>
+                    <span>Primary Rail:</span>
+                    <strong style={{ color: "#C4B5FD" }}>Stripe / Moneris (0% fee)</strong>
+                  </div>
+                </div>
+              </div>
+            </div>
+
             <h2>1. Architecture &amp; Philosophy: Closed SaaS vs. Open-Source Sovereignty</h2>
             <p>
               Before analyzing dollars and cents, you must understand the architectural trade-off that governs how both systems function.
             </p>
 
-            <h3>Shopify: The Managed Cloud Ecosystem</h3>
+            <div style={{ display: "flex", alignItems: "center", gap: "1rem", marginTop: "2.5rem", marginBottom: "1rem" }}>
+              <div style={{ height: "32px", display: "flex", alignItems: "center" }}>
+                <Image
+                  src="/images/shopify-logo.svg"
+                  alt="Shopify Logo"
+                  width={130}
+                  height={34}
+                  style={{ height: "28px", width: "auto", objectFit: "contain" }}
+                />
+              </div>
+              <h3 style={{ margin: 0 }}>Shopify: The Managed Cloud Ecosystem</h3>
+            </div>
             <p>
               Shopify is a proprietary Software-as-a-Service (SaaS) platform founded in Ottawa, Ontario. When you subscribe to Shopify, you rent access to a unified ecosystem where hosting, database clustering, security patches, PCI DSS Level 1 compliance, and global Content Delivery Networks (CDNs) are fully managed by Shopify&apos;s infrastructure engineering team.
             </p>
@@ -249,7 +383,18 @@ export default function ShopifyVsWooCommerceCanadaBlog() {
               The compromise is <em>containment</em>. You do not own the underlying infrastructure or database. You are bound by Shopify&apos;s Terms of Service, constrained by API rate limits, restricted to Shopify&apos;s checkout framework (unless paying $2,300+ USD/month for Shopify Plus), and penalised if you choose not to process payments through Shopify&apos;s proprietary rail.
             </p>
 
-            <h3>WooCommerce: Self-Hosted Freedom on WordPress</h3>
+            <div style={{ display: "flex", alignItems: "center", gap: "1rem", marginTop: "2.5rem", marginBottom: "1rem" }}>
+              <div style={{ height: "32px", display: "flex", alignItems: "center" }}>
+                <Image
+                  src="/images/woocommerce-logo.svg"
+                  alt="WooCommerce Logo"
+                  width={140}
+                  height={34}
+                  style={{ height: "28px", width: "auto", objectFit: "contain" }}
+                />
+              </div>
+              <h3 style={{ margin: 0 }}>WooCommerce: Self-Hosted Freedom on WordPress</h3>
+            </div>
             <p>
               WooCommerce is an open-source e-commerce plugin built for WordPress, which powers over 43% of the entire web. Unlike Shopify, WooCommerce is not a company that hosts your website; it is an open-source software stack that you install on your own cloud hosting environment.
             </p>
@@ -347,8 +492,18 @@ export default function ShopifyVsWooCommerceCanadaBlog() {
                 <thead>
                   <tr style={{ background: "rgba(0, 204, 255, 0.15)", borderBottom: "2px solid var(--primary-light)", textAlign: "left" }}>
                     <th style={{ padding: "1rem", fontWeight: "700", color: "#fff" }}>Expense Category</th>
-                    <th style={{ padding: "1rem", fontWeight: "700", color: "#fff" }}>Shopify (Growing Store)</th>
-                    <th style={{ padding: "1rem", fontWeight: "700", color: "#fff" }}>WooCommerce (Managed)</th>
+                    <th style={{ padding: "1rem", fontWeight: "700", color: "#95BF47" }}>
+                      <div style={{ display: "flex", alignItems: "center", gap: "0.6rem" }}>
+                        <Image src="/images/shopify-logo.svg" alt="Shopify Logo" width={85} height={22} style={{ height: "20px", width: "auto", objectFit: "contain" }} />
+                        <span style={{ fontSize: "0.85rem", color: "#cbd5e1" }}>(Growing Store)</span>
+                      </div>
+                    </th>
+                    <th style={{ padding: "1rem", fontWeight: "700", color: "#C4B5FD" }}>
+                      <div style={{ display: "flex", alignItems: "center", gap: "0.6rem" }}>
+                        <Image src="/images/woocommerce-logo.svg" alt="WooCommerce Logo" width={95} height={22} style={{ height: "20px", width: "auto", objectFit: "contain" }} />
+                        <span style={{ fontSize: "0.85rem", color: "#cbd5e1" }}>(Managed Cloud)</span>
+                      </div>
+                    </th>
                   </tr>
                 </thead>
                 <tbody>
@@ -436,9 +591,19 @@ export default function ShopifyVsWooCommerceCanadaBlog() {
                 <thead>
                   <tr style={{ background: "rgba(0, 204, 255, 0.15)", borderBottom: "2px solid var(--primary-light)", textAlign: "left" }}>
                     <th style={{ padding: "0.9rem", fontWeight: "700", color: "#fff" }}>Annual GMV (CAD)</th>
-                    <th style={{ padding: "0.9rem", fontWeight: "700", color: "#fff" }}>Shopify (Base + Apps + Gateway)</th>
-                    <th style={{ padding: "0.9rem", fontWeight: "700", color: "#fff" }}>WooCommerce (Host + Apps + Stripe)</th>
-                    <th style={{ padding: "0.9rem", fontWeight: "700", color: "#fff" }}>Annual Savings</th>
+                    <th style={{ padding: "0.9rem", fontWeight: "700", color: "#95BF47" }}>
+                      <div style={{ display: "flex", alignItems: "center", gap: "0.5rem" }}>
+                        <Image src="/images/shopify-logo.svg" alt="Shopify Logo" width={80} height={20} style={{ height: "18px", width: "auto", objectFit: "contain" }} />
+                        <span style={{ fontSize: "0.8rem", color: "#cbd5e1" }}>(Base + Apps + Gateway)</span>
+                      </div>
+                    </th>
+                    <th style={{ padding: "0.9rem", fontWeight: "700", color: "#C4B5FD" }}>
+                      <div style={{ display: "flex", alignItems: "center", gap: "0.5rem" }}>
+                        <Image src="/images/woocommerce-logo.svg" alt="WooCommerce Logo" width={90} height={20} style={{ height: "18px", width: "auto", objectFit: "contain" }} />
+                        <span style={{ fontSize: "0.8rem", color: "#cbd5e1" }}>(Host + Apps + Stripe)</span>
+                      </div>
+                    </th>
+                    <th style={{ padding: "0.9rem", fontWeight: "700", color: "#4ade80" }}>Annual Savings</th>
                   </tr>
                 </thead>
                 <tbody>
