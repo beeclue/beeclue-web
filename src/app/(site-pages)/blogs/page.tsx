@@ -33,6 +33,30 @@ export default function BlogsPage() {
       {/* BLOGS LIST */}
       <FadeIn className={styles.baseSection} style={{ paddingTop: "5vh" }}>
         <div className={styles.caseStudyList}>
+          {/* BLOG: THE 2026 ONTARIO LAW FIRM WEBSITE PLAYBOOK */}
+          <div className={styles.caseStudyListItem}>
+            <div className={styles.caseStudyListImage} style={{ position: "relative" }}>
+              <Image
+                src="https://images.unsplash.com/photo-1589829545856-d10d557cf95f?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=75"
+                alt="Law firm boardroom in Ontario with legal statues, leatherbound statutes, and modern digital tablet showcasing legal client intake portal"
+                fill
+                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                style={{ objectFit: "cover" }}
+              />
+            </div>
+            <div className={styles.caseStudyListContent}>
+              <h2>The 2026 Ontario Law Firm Website Playbook: LSO Compliance, Lead Intake Funnels, and Speed Optimization</h2>
+              <p>
+                The definitive 2026 digital guide for Ontario solo attorneys and boutique law firms. Master Law Society of Ontario (LSO) Rule 4.2 marketing compliance, contingency fee advertising rules (O. Reg. 175/21), confidential PIPEDA-compliant client intake funnels, and sub-second Core Web Vitals speed optimization.
+              </p>
+              <div>
+                <Link href="/ontario-law-firm-website-playbook" className={styles.ctaButtonLight}>
+                  Read Article <ArrowRight className={styles.arrow} size={20} />
+                </Link>
+              </div>
+            </div>
+          </div>
+
           {/* BLOG: SHOPIFY VS WOOCOMMERCE IN CANADA */}
           <div className={styles.caseStudyListItem}>
             <div className={styles.caseStudyListImage} style={{ position: "relative" }}>
