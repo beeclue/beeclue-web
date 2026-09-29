@@ -15875,9 +15875,9 @@
     "location": "San Diego, CA, USA",
     "pricingQuoted": "20% Partner Commission ($300 - $1,500+)",
     "initialContactDate": "2026-09-27T00:17:42.699Z",
-    "lastContactDate": "2026-09-27T00:17:42.699Z",
-    "status": "delivered",
-    "sequenceStep": "Day 0 - Partner Program Intro",
+    "lastContactDate": "2026-09-28T20:32:19.000Z",
+    "status": "not_interested",
+    "sequenceStep": "Closed - Not Interested (Blacklisted)",
     "diagnosedIssues": "Accounting and professional practices frequently have antiquated websites that lack secure client intake workflows, modern consultation scheduling, and mobile responsive design.",
     "caseStudySent": "https://beeclue.com/partner?utm_source=beeclue&utm_medium=partner-outreach&utm_campaign=partner-hamilton-coos",
     "history": [
@@ -15888,6 +15888,14 @@
         "resendId": "01a0e039-8ade-721a-a833-7ccabb73bf2e",
         "status": "delivered",
         "notes": "Initial B2B partner outreach sent offering 20% commission, white-label/referral tracks, free 48-hour mockup offer, and Beeclue partner page with UTM tracking."
+      },
+      {
+        "step": "Reply",
+        "sentAt": "2026-09-28T20:32:19.000Z",
+        "subject": "Re: Partnership idea for Hamilton COOs — Web design for your clients",
+        "resendId": "",
+        "status": "not_interested",
+        "notes": "Prospect responded not interested. Blacklisted and removed from all future sequences."
       }
     ]
   },

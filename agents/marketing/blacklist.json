@@ -33,5 +33,12 @@
     "email": "dennis@donovanlaughlin.com",
     "reason": "Responded not interested - firm has capacity, noted incorrect firm name",
     "blacklistedAt": "2026-09-20T13:34:25.000Z"
+  },
+  {
+    "name": "Jen Hamilton",
+    "firmName": "Hamilton COOs",
+    "email": "jen@hamiltoncoos.com",
+    "reason": "Responded not interested - do not contact",
+    "blacklistedAt": "2026-09-28T20:32:19.000Z"
   }
 ]
