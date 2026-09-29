@@ -14991,9 +14991,9 @@
     "location": "Augusta, GA (1380 Reynolds St)",
     "pricingQuoted": "Custom proposal / Free Mockup",
     "initialContactDate": "2026-09-26T04:02:49.784Z",
-    "lastContactDate": "2026-09-26T04:02:49.784Z",
+    "lastContactDate": "2026-09-29T00:40:43.320Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Outreach",
+    "sequenceStep": "Day 4 - Follow-up",
     "diagnosedIssues": "your shop currently operates without an active website, relying solely on an unoptimized Google Business Profile and Facebook page with no online consultation booking or digital portfolio",
     "caseStudySent": "https://beeclue.com/case-studies/tuxedo-frame-gallery?utm_source=beeclue&utm_medium=email&utm_campaign=outreach-art-galleries-hang-ups-custom-framing",
     "history": [
@@ -15004,6 +15004,14 @@
         "resendId": "01a0dbe1-48eb-76fc-8a1c-cb2d428e8673",
         "status": "delivered",
         "notes": "Initial value-first outreach sent featuring Tuxedo Frame Gallery case study, specific website diagnosis, and free 48-hour mockup offer with UTM tracking."
+      },
+      {
+        "step": "Day 4",
+        "sentAt": "2026-09-29T00:40:43.320Z",
+        "subject": "Re: Modernizing the website for Hang-Ups Custom Framing and Art Gallery",
+        "resendId": "01a0ea9b-53ee-70bd-b450-ed640b40ae1f",
+        "status": "delivered",
+        "notes": "Threaded Day 4 follow-up on Tuxedo Frame Gallery case study and free 48-hr custom mockup offer."
       }
     ]
   },
@@ -15017,9 +15025,9 @@
     "location": "Columbus, GA (1330 13th St)",
     "pricingQuoted": "Custom proposal / Free Mockup",
     "initialContactDate": "2026-09-26T04:02:51.988Z",
-    "lastContactDate": "2026-09-26T04:02:51.988Z",
+    "lastContactDate": "2026-09-29T00:40:45.522Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Outreach",
+    "sequenceStep": "Day 4 - Follow-up",
     "diagnosedIssues": "your website is currently running on a legacy desktop layout with no mobile viewport scaling or online consultation booking, and routing inquiries through an older regional ISP email",
     "caseStudySent": "https://beeclue.com/case-studies/tuxedo-frame-gallery?utm_source=beeclue&utm_medium=email&utm_campaign=outreach-art-galleries-two-sisters-gallery",
     "history": [
@@ -15030,6 +15038,14 @@
         "resendId": "01a0dbe1-517c-74d3-bf75-ee1a8a57804e",
         "status": "delivered",
         "notes": "Initial value-first outreach sent featuring Tuxedo Frame Gallery case study, specific website diagnosis, and free 48-hour mockup offer with UTM tracking."
+      },
+      {
+        "step": "Day 4",
+        "sentAt": "2026-09-29T00:40:45.522Z",
+        "subject": "Re: Modernizing the website for Two Sisters Gallery",
+        "resendId": "01a0ea9b-5c84-79dc-825c-d40ab4fa9afb",
+        "status": "delivered",
+        "notes": "Threaded Day 4 follow-up on Tuxedo Frame Gallery case study and free 48-hr custom mockup offer."
       }
     ]
   },
@@ -15043,9 +15059,9 @@
     "location": "Savannah, GA (5401 Waters Avenue)",
     "pricingQuoted": "Custom proposal / Free Mockup",
     "initialContactDate": "2026-09-26T04:02:54.212Z",
-    "lastContactDate": "2026-09-26T04:02:54.212Z",
+    "lastContactDate": "2026-09-29T00:40:47.721Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Outreach",
+    "sequenceStep": "Day 4 - Follow-up",
     "diagnosedIssues": "your website is running on a basic static layout routing quotes to a personal mailbox, lacking an interactive moulding showcase or online consultation scheduler",
     "caseStudySent": "https://beeclue.com/case-studies/tuxedo-frame-gallery?utm_source=beeclue&utm_medium=email&utm_campaign=outreach-art-galleries-savannah-framing-company",
     "history": [
@@ -15056,6 +15072,14 @@
         "resendId": "01a0dbe1-5a12-76f6-a5a0-029205c0132b",
         "status": "delivered",
         "notes": "Initial value-first outreach sent featuring Tuxedo Frame Gallery case study, specific website diagnosis, and free 48-hour mockup offer with UTM tracking."
+      },
+      {
+        "step": "Day 4",
+        "sentAt": "2026-09-29T00:40:47.721Z",
+        "subject": "Re: Modernizing the website for Savannah Framing Company",
+        "resendId": "01a0ea9b-651e-716e-83b3-5a904b22f7ac",
+        "status": "delivered",
+        "notes": "Threaded Day 4 follow-up on Tuxedo Frame Gallery case study and free 48-hr custom mockup offer."
       }
     ]
   },
@@ -15069,9 +15093,9 @@
     "location": "Brunswick, GA (1403 Newcastle Street)",
     "pricingQuoted": "Custom proposal / Free Mockup",
     "initialContactDate": "2026-09-26T04:02:56.447Z",
-    "lastContactDate": "2026-09-26T04:02:56.447Z",
+    "lastContactDate": "2026-09-29T00:40:49.927Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Outreach",
+    "sequenceStep": "Day 4 - Follow-up",
     "diagnosedIssues": "your website uses a basic template with personal Gmail for quotes, missing a digital moulding catalog and online appointment scheduler",
     "caseStudySent": "https://beeclue.com/case-studies/tuxedo-frame-gallery?utm_source=beeclue&utm_medium=email&utm_campaign=outreach-art-galleries-main-street-frame-shop",
     "history": [
@@ -15082,6 +15106,14 @@
         "resendId": "01a0dbe1-62ee-7438-a210-c310f178faf5",
         "status": "delivered",
         "notes": "Initial value-first outreach sent featuring Tuxedo Frame Gallery case study, specific website diagnosis, and free 48-hour mockup offer with UTM tracking."
+      },
+      {
+        "step": "Day 4",
+        "sentAt": "2026-09-29T00:40:49.927Z",
+        "subject": "Re: Modernizing the website for Main Street Frame Shop",
+        "resendId": "01a0ea9b-6db1-76b9-a9de-da620166d0f8",
+        "status": "delivered",
+        "notes": "Threaded Day 4 follow-up on Tuxedo Frame Gallery case study and free 48-hr custom mockup offer."
       }
     ]
   },
@@ -15095,9 +15127,9 @@
     "location": "Augusta, GA (1016 Broad Street)",
     "pricingQuoted": "Custom proposal / Free Mockup",
     "initialContactDate": "2026-09-26T04:02:58.647Z",
-    "lastContactDate": "2026-09-26T04:02:58.647Z",
+    "lastContactDate": "2026-09-29T00:40:52.137Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Outreach",
+    "sequenceStep": "Day 4 - Follow-up",
     "diagnosedIssues": "your website uses a public Gmail for high-end consignment art and custom framing intake, without an interactive artwork gallery filter or consultation scheduler",
     "caseStudySent": "https://beeclue.com/case-studies/tuxedo-frame-gallery?utm_source=beeclue&utm_medium=email&utm_campaign=outreach-art-galleries-art-on-broad",
     "history": [
@@ -15108,6 +15140,14 @@
         "resendId": "01a0dbe1-6b7d-72ef-9dcd-de35ee7d68a3",
         "status": "delivered",
         "notes": "Initial value-first outreach sent featuring Tuxedo Frame Gallery case study, specific website diagnosis, and free 48-hour mockup offer with UTM tracking."
+      },
+      {
+        "step": "Day 4",
+        "sentAt": "2026-09-29T00:40:52.137Z",
+        "subject": "Re: Modernizing the website for Art on Broad",
+        "resendId": "01a0ea9b-765f-75ea-89a2-c29eba3c6150",
+        "status": "delivered",
+        "notes": "Threaded Day 4 follow-up on Tuxedo Frame Gallery case study and free 48-hr custom mockup offer."
       }
     ]
   },
@@ -15121,9 +15161,9 @@
     "location": "Columbia, SC (3100 Rosewood Dr)",
     "pricingQuoted": "Custom proposal / Free Mockup",
     "initialContactDate": "2026-09-26T04:03:00.854Z",
-    "lastContactDate": "2026-09-26T04:03:00.854Z",
+    "lastContactDate": "2026-09-29T00:40:54.339Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Outreach",
+    "sequenceStep": "Day 4 - Follow-up",
     "diagnosedIssues": "your website is running on an older static desktop layout with no mobile responsive scaling, tap-to-call, or digital consultation scheduling",
     "caseStudySent": "https://beeclue.com/case-studies/tuxedo-frame-gallery?utm_source=beeclue&utm_medium=email&utm_campaign=outreach-art-galleries-the-frame-shop-inc",
     "history": [
@@ -15134,6 +15174,14 @@
         "resendId": "01a0dbe1-7427-73dc-9016-1b65fb4f5e80",
         "status": "delivered",
         "notes": "Initial value-first outreach sent featuring Tuxedo Frame Gallery case study, specific website diagnosis, and free 48-hour mockup offer with UTM tracking."
+      },
+      {
+        "step": "Day 4",
+        "sentAt": "2026-09-29T00:40:54.339Z",
+        "subject": "Re: Modernizing the website for The Frame Shop, Inc.",
+        "resendId": "01a0ea9b-7ef4-77ad-9924-dd6210556f06",
+        "status": "delivered",
+        "notes": "Threaded Day 4 follow-up on Tuxedo Frame Gallery case study and free 48-hr custom mockup offer."
       }
     ]
   },
@@ -15147,9 +15195,9 @@
     "location": "Columbia, SC (2114 College St)",
     "pricingQuoted": "Custom proposal / Free Mockup",
     "initialContactDate": "2026-09-26T04:03:03.042Z",
-    "lastContactDate": "2026-09-26T04:03:03.042Z",
+    "lastContactDate": "2026-09-29T00:40:56.552Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Outreach",
+    "sequenceStep": "Day 4 - Follow-up",
     "diagnosedIssues": "your website operates on a blog-style layout handling customer quotes via an unbranded mailbox, lacking an online booking calendar for custom shadowbox and archival framing",
     "caseStudySent": "https://beeclue.com/case-studies/tuxedo-frame-gallery?utm_source=beeclue&utm_medium=email&utm_campaign=outreach-art-galleries-elite-framing",
     "history": [
@@ -15160,6 +15208,14 @@
         "resendId": "01a0dbe1-7cb6-763b-a8fa-1e7f26261a10",
         "status": "delivered",
         "notes": "Initial value-first outreach sent featuring Tuxedo Frame Gallery case study, specific website diagnosis, and free 48-hour mockup offer with UTM tracking."
+      },
+      {
+        "step": "Day 4",
+        "sentAt": "2026-09-29T00:40:56.552Z",
+        "subject": "Re: Modernizing the website for Elite Framing",
+        "resendId": "01a0ea9b-8797-7428-8aa0-198099e0c584",
+        "status": "delivered",
+        "notes": "Threaded Day 4 follow-up on Tuxedo Frame Gallery case study and free 48-hr custom mockup offer."
       }
     ]
   },
@@ -15173,9 +15229,9 @@
     "location": "Beaufort, SC (917 Bay Street, Suite G)",
     "pricingQuoted": "Custom proposal / Free Mockup",
     "initialContactDate": "2026-09-26T04:03:05.232Z",
-    "lastContactDate": "2026-09-26T04:03:05.232Z",
+    "lastContactDate": "2026-09-29T00:40:58.730Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Outreach",
+    "sequenceStep": "Day 4 - Follow-up",
     "diagnosedIssues": "your domain currently forwards exclusively to Etsy, leaving your downtown Beaufort brick-and-mortar atelier with no dedicated website or local framing appointment scheduler",
     "caseStudySent": "https://beeclue.com/case-studies/tuxedo-frame-gallery?utm_source=beeclue&utm_medium=email&utm_campaign=outreach-art-galleries-green-herring-art-and-framing-studio",
     "history": [
@@ -15186,6 +15242,14 @@
         "resendId": "01a0dbe1-8542-713c-ad46-cf386f45a2ae",
         "status": "delivered",
         "notes": "Initial value-first outreach sent featuring Tuxedo Frame Gallery case study, specific website diagnosis, and free 48-hour mockup offer with UTM tracking."
+      },
+      {
+        "step": "Day 4",
+        "sentAt": "2026-09-29T00:40:58.730Z",
+        "subject": "Re: Modernizing the website for Green Herring Art and Framing Studio",
+        "resendId": "01a0ea9b-901b-7735-a237-f868361badf8",
+        "status": "delivered",
+        "notes": "Threaded Day 4 follow-up on Tuxedo Frame Gallery case study and free 48-hr custom mockup offer."
       }
     ]
   },
@@ -15199,9 +15263,9 @@
     "location": "Bluffton, SC (1263-B May River Road)",
     "pricingQuoted": "Custom proposal / Free Mockup",
     "initialContactDate": "2026-09-26T04:03:07.473Z",
-    "lastContactDate": "2026-09-26T04:03:07.473Z",
+    "lastContactDate": "2026-09-29T00:41:00.943Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Outreach",
+    "sequenceStep": "Day 4 - Follow-up",
     "diagnosedIssues": "your layout routes project estimates to a public Gmail, lacking mobile-optimized consultation booking and interactive moulding displays",
     "caseStudySent": "https://beeclue.com/case-studies/tuxedo-frame-gallery?utm_source=beeclue&utm_medium=email&utm_campaign=outreach-art-galleries-four-corners-fine-art-and-framing",
     "history": [
@@ -15212,6 +15276,14 @@
         "resendId": "01a0dbe1-8e0c-73db-a200-19866ab6ee01",
         "status": "delivered",
         "notes": "Initial value-first outreach sent featuring Tuxedo Frame Gallery case study, specific website diagnosis, and free 48-hour mockup offer with UTM tracking."
+      },
+      {
+        "step": "Day 4",
+        "sentAt": "2026-09-29T00:41:00.943Z",
+        "subject": "Re: Modernizing the website for Four Corners Fine Art & Framing",
+        "resendId": "01a0ea9b-98a6-7c59-8139-98877adc4157",
+        "status": "delivered",
+        "notes": "Threaded Day 4 follow-up on Tuxedo Frame Gallery case study and free 48-hr custom mockup offer."
       }
     ]
   },
@@ -15225,9 +15297,9 @@
     "location": "Aiken, SC (226 Park Avenue SE)",
     "pricingQuoted": "Custom proposal / Free Mockup",
     "initialContactDate": "2026-09-26T04:03:09.654Z",
-    "lastContactDate": "2026-09-26T04:03:09.654Z",
+    "lastContactDate": "2026-09-29T00:41:03.148Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Outreach",
+    "sequenceStep": "Day 4 - Follow-up",
     "diagnosedIssues": "your site relies on a basic template with Gmail intake, missing an interactive moulding and mat selector and online consultation booking funnel",
     "caseStudySent": "https://beeclue.com/case-studies/tuxedo-frame-gallery?utm_source=beeclue&utm_medium=email&utm_campaign=outreach-art-galleries-aiken-art-and-custom-framing",
     "history": [
@@ -15238,6 +15310,14 @@
         "resendId": "01a0dbe1-9691-71a8-8725-324c47fe9f7a",
         "status": "delivered",
         "notes": "Initial value-first outreach sent featuring Tuxedo Frame Gallery case study, specific website diagnosis, and free 48-hour mockup offer with UTM tracking."
+      },
+      {
+        "step": "Day 4",
+        "sentAt": "2026-09-29T00:41:03.148Z",
+        "subject": "Re: Modernizing the website for Aiken Art & Custom Framing",
+        "resendId": "01a0ea9b-a161-71ce-ba7c-993cb4007834",
+        "status": "delivered",
+        "notes": "Threaded Day 4 follow-up on Tuxedo Frame Gallery case study and free 48-hr custom mockup offer."
       }
     ]
   },
@@ -15251,9 +15331,9 @@
     "location": "Clemmons, NC (4152 Clemmons Road)",
     "pricingQuoted": "Custom proposal / Free Mockup",
     "initialContactDate": "2026-09-26T04:03:11.835Z",
-    "lastContactDate": "2026-09-26T04:03:11.835Z",
+    "lastContactDate": "2026-09-29T00:41:05.335Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Outreach",
+    "sequenceStep": "Day 4 - Follow-up",
     "diagnosedIssues": "your website is currently running on a fixed-width legacy layout with no mobile responsive styling or online consultation scheduling",
     "caseStudySent": "https://beeclue.com/case-studies/tuxedo-frame-gallery?utm_source=beeclue&utm_medium=email&utm_campaign=outreach-art-galleries-tanglewood-art-and-frame-gallery",
     "history": [
@@ -15264,6 +15344,14 @@
         "resendId": "01a0dbe1-9f12-73e9-9ad6-10faf42f453c",
         "status": "delivered",
         "notes": "Initial value-first outreach sent featuring Tuxedo Frame Gallery case study, specific website diagnosis, and free 48-hour mockup offer with UTM tracking."
+      },
+      {
+        "step": "Day 4",
+        "sentAt": "2026-09-29T00:41:05.335Z",
+        "subject": "Re: Modernizing the website for Tanglewood Art and Frame Gallery",
+        "resendId": "01a0ea9b-a9df-723a-95ab-47c8dc4a6dbc",
+        "status": "delivered",
+        "notes": "Threaded Day 4 follow-up on Tuxedo Frame Gallery case study and free 48-hr custom mockup offer."
       }
     ]
   },
@@ -15277,9 +15365,9 @@
     "location": "Charlotte, NC (3300 Monroe Rd, Suite C)",
     "pricingQuoted": "Custom proposal / Free Mockup",
     "initialContactDate": "2026-09-26T04:03:14.051Z",
-    "lastContactDate": "2026-09-26T04:03:14.051Z",
+    "lastContactDate": "2026-09-29T00:41:07.515Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Outreach",
+    "sequenceStep": "Day 4 - Follow-up",
     "diagnosedIssues": "your website is built on a legacy desktop-only architecture with no mobile responsive styling or online appointment booking calendar",
     "caseStudySent": "https://beeclue.com/case-studies/tuxedo-frame-gallery?utm_source=beeclue&utm_medium=email&utm_campaign=outreach-art-galleries-fazioart-custom-framing",
     "history": [
@@ -15290,6 +15378,14 @@
         "resendId": "01a0dbe1-a7b7-76b4-bc73-a4a1ad1f6f46",
         "status": "delivered",
         "notes": "Initial value-first outreach sent featuring Tuxedo Frame Gallery case study, specific website diagnosis, and free 48-hour mockup offer with UTM tracking."
+      },
+      {
+        "step": "Day 4",
+        "sentAt": "2026-09-29T00:41:07.515Z",
+        "subject": "Re: Modernizing the website for FazioArt Custom Framing",
+        "resendId": "01a0ea9b-b274-742f-8f26-5bc74f07c716",
+        "status": "delivered",
+        "notes": "Threaded Day 4 follow-up on Tuxedo Frame Gallery case study and free 48-hr custom mockup offer."
       }
     ]
   },
@@ -15303,9 +15399,9 @@
     "location": "Durham, NC (2606 Hillsborough Road)",
     "pricingQuoted": "Custom proposal / Free Mockup",
     "initialContactDate": "2026-09-26T04:03:16.236Z",
-    "lastContactDate": "2026-09-26T04:03:16.236Z",
+    "lastContactDate": "2026-09-29T00:41:09.697Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Outreach",
+    "sequenceStep": "Day 4 - Follow-up",
     "diagnosedIssues": "your website uses a basic static layout conducting archival framing intake via public Gmail, missing an interactive quote estimator or mobile consultation scheduler",
     "caseStudySent": "https://beeclue.com/case-studies/tuxedo-frame-gallery?utm_source=beeclue&utm_medium=email&utm_campaign=outreach-art-galleries-fisher-graphic-arts-inc",
     "history": [
@@ -15316,6 +15412,14 @@
         "resendId": "01a0dbe1-b03f-720b-945d-39c6f8b9218a",
         "status": "delivered",
         "notes": "Initial value-first outreach sent featuring Tuxedo Frame Gallery case study, specific website diagnosis, and free 48-hour mockup offer with UTM tracking."
+      },
+      {
+        "step": "Day 4",
+        "sentAt": "2026-09-29T00:41:09.697Z",
+        "subject": "Re: Modernizing the website for Fisher Graphic Arts, Inc.",
+        "resendId": "01a0ea9b-baf7-797e-9e96-cb2ee42ec940",
+        "status": "delivered",
+        "notes": "Threaded Day 4 follow-up on Tuxedo Frame Gallery case study and free 48-hr custom mockup offer."
       }
     ]
   },
@@ -15329,9 +15433,9 @@
     "location": "Wilmington, NC (894 5b South Kerr Avenue)",
     "pricingQuoted": "Custom proposal / Free Mockup",
     "initialContactDate": "2026-09-26T04:03:18.495Z",
-    "lastContactDate": "2026-09-26T04:03:18.495Z",
+    "lastContactDate": "2026-09-29T00:41:11.911Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Outreach",
+    "sequenceStep": "Day 4 - Follow-up",
     "diagnosedIssues": "your shop routes orders and consultations to a personal mailbox, lacking an online booking calendar or digital moulding breakdown",
     "caseStudySent": "https://beeclue.com/case-studies/tuxedo-frame-gallery?utm_source=beeclue&utm_medium=email&utm_campaign=outreach-art-galleries-townhouse-art-and-framing",
     "history": [
@@ -15342,6 +15446,14 @@
         "resendId": "01a0dbe1-b912-74dc-831b-3fd754f1e619",
         "status": "delivered",
         "notes": "Initial value-first outreach sent featuring Tuxedo Frame Gallery case study, specific website diagnosis, and free 48-hour mockup offer with UTM tracking."
+      },
+      {
+        "step": "Day 4",
+        "sentAt": "2026-09-29T00:41:11.911Z",
+        "subject": "Re: Modernizing the website for Townhouse Art & Framing",
+        "resendId": "01a0ea9b-c381-7f16-8d85-07ff98bbe7f9",
+        "status": "delivered",
+        "notes": "Threaded Day 4 follow-up on Tuxedo Frame Gallery case study and free 48-hr custom mockup offer."
       }
     ]
   },
@@ -15355,9 +15467,9 @@
     "location": "Hendersonville, NC (814 Kanuga Rd)",
     "pricingQuoted": "Custom proposal / Free Mockup",
     "initialContactDate": "2026-09-26T04:03:20.678Z",
-    "lastContactDate": "2026-09-26T04:03:20.678Z",
+    "lastContactDate": "2026-09-29T00:41:14.178Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Outreach",
+    "sequenceStep": "Day 4 - Follow-up",
     "diagnosedIssues": "your website relies on a basic template routing quotes to Gmail, missing a modern consultation calendar and digital frame selector",
     "caseStudySent": "https://beeclue.com/case-studies/tuxedo-frame-gallery?utm_source=beeclue&utm_medium=email&utm_campaign=outreach-art-galleries-the-starving-artist",
     "history": [
@@ -15368,6 +15480,14 @@
         "resendId": "01a0dbe1-c19f-75ad-85ce-121819585590",
         "status": "delivered",
         "notes": "Initial value-first outreach sent featuring Tuxedo Frame Gallery case study, specific website diagnosis, and free 48-hour mockup offer with UTM tracking."
+      },
+      {
+        "step": "Day 4",
+        "sentAt": "2026-09-29T00:41:14.178Z",
+        "subject": "Re: Modernizing the website for The Starving Artist",
+        "resendId": "01a0ea9b-cc65-7628-bd28-a97c77fdbb5d",
+        "status": "delivered",
+        "notes": "Threaded Day 4 follow-up on Tuxedo Frame Gallery case study and free 48-hr custom mockup offer."
       }
     ]
   },
@@ -15381,9 +15501,9 @@
     "location": "Nashville, TN (4811 Trousdale Drive, Suite I)",
     "pricingQuoted": "Custom proposal / Free Mockup",
     "initialContactDate": "2026-09-26T04:03:22.867Z",
-    "lastContactDate": "2026-09-26T04:03:22.867Z",
+    "lastContactDate": "2026-09-29T00:41:16.382Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Outreach",
+    "sequenceStep": "Day 4 - Follow-up",
     "diagnosedIssues": "your site is a single-page placeholder routing framing orders to Gmail, lacking an appointment scheduler and digital portfolio filter for concert posters, fine art, and shadowboxes",
     "caseStudySent": "https://beeclue.com/case-studies/tuxedo-frame-gallery?utm_source=beeclue&utm_medium=email&utm_campaign=outreach-art-galleries-s-and-s-custom-framing",
     "history": [
@@ -15394,6 +15514,14 @@
         "resendId": "01a0dbe1-ca2c-757f-a190-22a8a4e2ed23",
         "status": "delivered",
         "notes": "Initial value-first outreach sent featuring Tuxedo Frame Gallery case study, specific website diagnosis, and free 48-hour mockup offer with UTM tracking."
+      },
+      {
+        "step": "Day 4",
+        "sentAt": "2026-09-29T00:41:16.382Z",
+        "subject": "Re: Modernizing the website for S & S Custom Framing",
+        "resendId": "01a0ea9b-d50d-74d1-b311-9e040bb532eb",
+        "status": "delivered",
+        "notes": "Threaded Day 4 follow-up on Tuxedo Frame Gallery case study and free 48-hr custom mockup offer."
       }
     ]
   },
@@ -15407,9 +15535,9 @@
     "location": "Chattanooga, TN (3250 Brainerd Rd)",
     "pricingQuoted": "Custom proposal / Free Mockup",
     "initialContactDate": "2026-09-26T04:03:25.042Z",
-    "lastContactDate": "2026-09-26T04:03:25.042Z",
+    "lastContactDate": "2026-09-29T00:41:18.614Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Outreach",
+    "sequenceStep": "Day 4 - Follow-up",
     "diagnosedIssues": "your website handles framing estimates through public Gmail, without a mobile consultation booking tool or interactive moulding visualizer",
     "caseStudySent": "https://beeclue.com/case-studies/tuxedo-frame-gallery?utm_source=beeclue&utm_medium=email&utm_campaign=outreach-art-galleries-gannon-art-center",
     "history": [
@@ -15420,6 +15548,14 @@
         "resendId": "01a0dbe1-d2ab-7016-8487-54c740a88d38",
         "status": "delivered",
         "notes": "Initial value-first outreach sent featuring Tuxedo Frame Gallery case study, specific website diagnosis, and free 48-hour mockup offer with UTM tracking."
+      },
+      {
+        "step": "Day 4",
+        "sentAt": "2026-09-29T00:41:18.614Z",
+        "subject": "Re: Modernizing the website for Gannon Art Center",
+        "resendId": "01a0ea9b-ddc1-77ac-94a5-80cb70fed0ee",
+        "status": "delivered",
+        "notes": "Threaded Day 4 follow-up on Tuxedo Frame Gallery case study and free 48-hr custom mockup offer."
       }
     ]
   },
@@ -15433,9 +15569,9 @@
     "location": "Homewood, AL (1003 Oxmoor Road)",
     "pricingQuoted": "Custom proposal / Free Mockup",
     "initialContactDate": "2026-09-26T04:03:27.244Z",
-    "lastContactDate": "2026-09-26T04:03:27.244Z",
+    "lastContactDate": "2026-09-29T00:41:20.825Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Outreach",
+    "sequenceStep": "Day 4 - Follow-up",
     "diagnosedIssues": "your website is built on a legacy static architecture with poor mobile readability, no online appointment scheduling, and no interactive frame catalogue",
     "caseStudySent": "https://beeclue.com/case-studies/tuxedo-frame-gallery?utm_source=beeclue&utm_medium=email&utm_campaign=outreach-art-galleries-edgewood-frame-shop",
     "history": [
@@ -15446,6 +15582,14 @@
         "resendId": "01a0dbe1-db2d-70a8-ba78-ca7b5259e163",
         "status": "delivered",
         "notes": "Initial value-first outreach sent featuring Tuxedo Frame Gallery case study, specific website diagnosis, and free 48-hour mockup offer with UTM tracking."
+      },
+      {
+        "step": "Day 4",
+        "sentAt": "2026-09-29T00:41:20.825Z",
+        "subject": "Re: Modernizing the website for Edgewood Frame Shop",
+        "resendId": "01a0ea9b-e658-7ac1-b848-dd6e7a59edaa",
+        "status": "delivered",
+        "notes": "Threaded Day 4 follow-up on Tuxedo Frame Gallery case study and free 48-hr custom mockup offer."
       }
     ]
   },
@@ -15459,9 +15603,9 @@
     "location": "Alexandria, VA (110 S Fayette St)",
     "pricingQuoted": "Custom proposal / Free Mockup",
     "initialContactDate": "2026-09-26T04:03:29.491Z",
-    "lastContactDate": "2026-09-26T04:03:29.491Z",
+    "lastContactDate": "2026-09-29T00:41:23.090Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Outreach",
+    "sequenceStep": "Day 4 - Follow-up",
     "diagnosedIssues": "your website is currently running on a fixed-width early 2000s layout with broken mobile viewports, unformatted text, and no online booking",
     "caseStudySent": "https://beeclue.com/case-studies/tuxedo-frame-gallery?utm_source=beeclue&utm_medium=email&utm_campaign=outreach-art-galleries-alexandria-picture-framing-company",
     "history": [
@@ -15472,6 +15616,14 @@
         "resendId": "01a0dbe1-e40b-73d5-89d5-cdb134c61e24",
         "status": "delivered",
         "notes": "Initial value-first outreach sent featuring Tuxedo Frame Gallery case study, specific website diagnosis, and free 48-hour mockup offer with UTM tracking."
+      },
+      {
+        "step": "Day 4",
+        "sentAt": "2026-09-29T00:41:23.090Z",
+        "subject": "Re: Modernizing the website for Alexandria Picture Framing Company",
+        "resendId": "01a0ea9b-ef40-70aa-9c16-02de4f547638",
+        "status": "delivered",
+        "notes": "Threaded Day 4 follow-up on Tuxedo Frame Gallery case study and free 48-hr custom mockup offer."
       }
     ]
   },
@@ -15485,9 +15637,9 @@
     "location": "Richmond, VA (3412 Semmes Ave)",
     "pricingQuoted": "Custom proposal / Free Mockup",
     "initialContactDate": "2026-09-26T04:03:31.666Z",
-    "lastContactDate": "2026-09-26T04:03:31.666Z",
+    "lastContactDate": "2026-09-29T00:41:25.298Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Outreach",
+    "sequenceStep": "Day 4 - Follow-up",
     "diagnosedIssues": "your site routes custom woodworking and conservation framing to Gmail, lacking an interactive hardwood showcase and online consultation scheduler",
     "caseStudySent": "https://beeclue.com/case-studies/tuxedo-frame-gallery?utm_source=beeclue&utm_medium=email&utm_campaign=outreach-art-galleries-fralin-art-and-frame",
     "history": [
@@ -15498,6 +15650,14 @@
         "resendId": "01a0dbe1-ec8b-7228-89b1-e3eaae924d8d",
         "status": "delivered",
         "notes": "Initial value-first outreach sent featuring Tuxedo Frame Gallery case study, specific website diagnosis, and free 48-hour mockup offer with UTM tracking."
+      },
+      {
+        "step": "Day 4",
+        "sentAt": "2026-09-29T00:41:25.298Z",
+        "subject": "Re: Modernizing the website for Fralin Art & Frame",
+        "resendId": "01a0ea9b-f7de-7669-9600-0d6f2647cf4e",
+        "status": "delivered",
+        "notes": "Threaded Day 4 follow-up on Tuxedo Frame Gallery case study and free 48-hr custom mockup offer."
       }
     ]
   },
@@ -15511,9 +15671,9 @@
     "location": "Edgerton, AB, Canada",
     "pricingQuoted": "20% Partner Commission ($300 - $1,500+)",
     "initialContactDate": "2026-09-27T00:17:11.625Z",
-    "lastContactDate": "2026-09-27T00:17:11.625Z",
+    "lastContactDate": "2026-09-29T00:40:00.610Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Partner Program Intro",
+    "sequenceStep": "Day 4 - Follow-up",
     "diagnosedIssues": "When your coaching and course creator clients scale, their websites and sales funnels often lag behind. We partner with OBMs to deliver bespoke Next.js and high-converting landing pages so you don’t have to wrestle with clunky templates.",
     "caseStudySent": "https://beeclue.com/partner?utm_source=beeclue&utm_medium=partner-outreach&utm_campaign=partner-the-systems-witch",
     "history": [
@@ -15524,6 +15684,14 @@
         "resendId": "01a0e039-117c-726f-a163-8e06ec69190a",
         "status": "delivered",
         "notes": "Initial B2B partner outreach sent offering 20% commission, white-label/referral tracks, free 48-hour mockup offer, and Beeclue partner page with UTM tracking."
+      },
+      {
+        "step": "Day 4",
+        "sentAt": "2026-09-29T00:40:00.610Z",
+        "subject": "Re: Partnership idea for The Systems Witch — Web design for your clients",
+        "resendId": "01a0ea9a-ace3-7a65-94f3-b90947c0b08a",
+        "status": "delivered",
+        "notes": "Threaded Day 4 follow-up on 20% commission partner program and client mockup offer."
       }
     ]
   },
@@ -15537,9 +15705,9 @@
     "location": "Gatineau, QC, Canada",
     "pricingQuoted": "20% Partner Commission ($300 - $1,500+)",
     "initialContactDate": "2026-09-27T00:17:13.845Z",
-    "lastContactDate": "2026-09-27T00:17:13.845Z",
+    "lastContactDate": "2026-09-29T00:40:03.397Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Partner Program Intro",
+    "sequenceStep": "Day 4 - Follow-up",
     "diagnosedIssues": "As your consulting clients scale their high-ticket offerings, their front-end websites often need a modern revamp with seamless appointment booking and client intake portals.",
     "caseStudySent": "https://beeclue.com/partner?utm_source=beeclue&utm_medium=partner-outreach&utm_campaign=partner-keizer-virtual-solutions",
     "history": [
@@ -15550,6 +15718,14 @@
         "resendId": "01a0e039-1a35-727c-9fe4-9924ddeac8b1",
         "status": "delivered",
         "notes": "Initial B2B partner outreach sent offering 20% commission, white-label/referral tracks, free 48-hour mockup offer, and Beeclue partner page with UTM tracking."
+      },
+      {
+        "step": "Day 4",
+        "sentAt": "2026-09-29T00:40:03.397Z",
+        "subject": "Re: Partnership idea for Keizer Virtual Solutions — Web design for your clients",
+        "resendId": "01a0ea9a-b5e6-733e-ad53-5a924956dc1d",
+        "status": "delivered",
+        "notes": "Threaded Day 4 follow-up on 20% commission partner program and client mockup offer."
       }
     ]
   },
@@ -15563,9 +15739,9 @@
     "location": "Annapolis Valley, NS, Canada",
     "pricingQuoted": "20% Partner Commission ($300 - $1,500+)",
     "initialContactDate": "2026-09-27T00:17:16.018Z",
-    "lastContactDate": "2026-09-27T00:17:16.018Z",
+    "lastContactDate": "2026-09-29T00:40:05.642Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Partner Program Intro",
+    "sequenceStep": "Day 4 - Follow-up",
     "diagnosedIssues": "You handle high-level operations and strategic systems, while we act as your on-demand web and tech development team to build custom, high-speed websites that integrate seamlessly with your clients’ back-office workflows.",
     "caseStudySent": "https://beeclue.com/partner?utm_source=beeclue&utm_medium=partner-outreach&utm_campaign=partner-the-virtual-solution",
     "history": [
@@ -15576,6 +15752,14 @@
         "resendId": "01a0e039-22b3-74c7-a453-4894888d40b5",
         "status": "delivered",
         "notes": "Initial B2B partner outreach sent offering 20% commission, white-label/referral tracks, free 48-hour mockup offer, and Beeclue partner page with UTM tracking."
+      },
+      {
+        "step": "Day 4",
+        "sentAt": "2026-09-29T00:40:05.642Z",
+        "subject": "Re: Partnership idea for The Virtual Solution — Web design for your clients",
+        "resendId": "01a0ea9a-c07e-76e1-8934-a1d884a9f757",
+        "status": "delivered",
+        "notes": "Threaded Day 4 follow-up on 20% commission partner program and client mockup offer."
       }
     ]
   },
@@ -15589,9 +15773,9 @@
     "location": "Logan, UT, USA",
     "pricingQuoted": "20% Partner Commission ($300 - $1,500+)",
     "initialContactDate": "2026-09-27T00:17:18.236Z",
-    "lastContactDate": "2026-09-27T00:17:18.236Z",
+    "lastContactDate": "2026-09-29T00:40:07.832Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Partner Program Intro",
+    "sequenceStep": "Day 4 - Follow-up",
     "diagnosedIssues": "When your service and consulting clients struggle with outdated websites and disconnected intake forms, we build them custom, mobile-first web platforms with zero fulfillment burden on your team.",
     "caseStudySent": "https://beeclue.com/partner?utm_source=beeclue&utm_medium=partner-outreach&utm_campaign=partner-teresa-passey-virtual-solutions",
     "history": [
@@ -15602,6 +15786,14 @@
         "resendId": "01a0e039-2b32-7628-8e8c-f4ea4ab61cee",
         "status": "delivered",
         "notes": "Initial B2B partner outreach sent offering 20% commission, white-label/referral tracks, free 48-hour mockup offer, and Beeclue partner page with UTM tracking."
+      },
+      {
+        "step": "Day 4",
+        "sentAt": "2026-09-29T00:40:07.832Z",
+        "subject": "Re: Partnership idea for Teresa Passey Virtual Solutions — Web design for your clients",
+        "resendId": "01a0ea9a-c94a-7ee2-856e-40d59a81bb41",
+        "status": "delivered",
+        "notes": "Threaded Day 4 follow-up on 20% commission partner program and client mockup offer."
       }
     ]
   },
@@ -15615,9 +15807,9 @@
     "location": "Toronto, ON, Canada",
     "pricingQuoted": "20% Partner Commission ($300 - $1,500+)",
     "initialContactDate": "2026-09-27T00:17:20.417Z",
-    "lastContactDate": "2026-09-27T00:17:20.417Z",
+    "lastContactDate": "2026-09-29T00:40:10.047Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Partner Program Intro",
+    "sequenceStep": "Day 4 - Follow-up",
     "diagnosedIssues": "As you eliminate operational bottlenecks for growing SMBs and technical founders, their websites often need a serious architectural upgrade to automate lead capture and streamline sales delivery.",
     "caseStudySent": "https://beeclue.com/partner?utm_source=beeclue&utm_medium=partner-outreach&utm_campaign=partner-northland-fractional",
     "history": [
@@ -15628,6 +15820,14 @@
         "resendId": "01a0e039-33e2-7675-9fe7-aa1debd22d70",
         "status": "delivered",
         "notes": "Initial B2B partner outreach sent offering 20% commission, white-label/referral tracks, free 48-hour mockup offer, and Beeclue partner page with UTM tracking."
+      },
+      {
+        "step": "Day 4",
+        "sentAt": "2026-09-29T00:40:10.047Z",
+        "subject": "Re: Partnership idea for Northland Fractional — Web design for your clients",
+        "resendId": "01a0ea9a-d1d4-746a-b4bd-4794934883ca",
+        "status": "delivered",
+        "notes": "Threaded Day 4 follow-up on 20% commission partner program and client mockup offer."
       }
     ]
   },
@@ -15641,9 +15841,9 @@
     "location": "Toronto, ON, Canada",
     "pricingQuoted": "20% Partner Commission ($300 - $1,500+)",
     "initialContactDate": "2026-09-27T00:17:22.612Z",
-    "lastContactDate": "2026-09-27T00:17:22.612Z",
+    "lastContactDate": "2026-09-29T00:40:12.290Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Partner Program Intro",
+    "sequenceStep": "Day 4 - Follow-up",
     "diagnosedIssues": "Founder-led companies scaling toward enterprise accounts frequently outgrow amateur web presences. We partner with operating leaders to build production-grade web applications that convert enterprise buyers.",
     "caseStudySent": "https://beeclue.com/partner?utm_source=beeclue&utm_medium=partner-outreach&utm_campaign=partner-john-gauch-operating-partner",
     "history": [
@@ -15654,6 +15854,14 @@
         "resendId": "01a0e039-3c69-728d-a4b0-fa5c0c8d50a3",
         "status": "delivered",
         "notes": "Initial B2B partner outreach sent offering 20% commission, white-label/referral tracks, free 48-hour mockup offer, and Beeclue partner page with UTM tracking."
+      },
+      {
+        "step": "Day 4",
+        "sentAt": "2026-09-29T00:40:12.290Z",
+        "subject": "Re: Partnership idea for John Gauch Operating Partner — Web design for your clients",
+        "resendId": "01a0ea9a-dab7-75d6-adee-6d261c1ce8b4",
+        "status": "delivered",
+        "notes": "Threaded Day 4 follow-up on 20% commission partner program and client mockup offer."
       }
     ]
   },
@@ -15667,9 +15875,9 @@
     "location": "Chicago, IL, USA",
     "pricingQuoted": "20% Partner Commission ($300 - $1,500+)",
     "initialContactDate": "2026-09-27T00:17:24.874Z",
-    "lastContactDate": "2026-09-27T00:17:24.874Z",
+    "lastContactDate": "2026-09-29T00:40:14.506Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Partner Program Intro",
+    "sequenceStep": "Day 4 - Follow-up",
     "diagnosedIssues": "Your D2C and CPG clients need high-performance Shopify stores, sub-second checkout speeds, and conversion-optimized product landing pages to maximize their ad spend ROI.",
     "caseStudySent": "https://beeclue.com/partner?utm_source=beeclue&utm_medium=partner-outreach&utm_campaign=partner-ae-operations-consulting",
     "history": [
@@ -15680,6 +15888,14 @@
         "resendId": "01a0e039-453b-761e-afe9-97a1620e2b4d",
         "status": "delivered",
         "notes": "Initial B2B partner outreach sent offering 20% commission, white-label/referral tracks, free 48-hour mockup offer, and Beeclue partner page with UTM tracking."
+      },
+      {
+        "step": "Day 4",
+        "sentAt": "2026-09-29T00:40:14.506Z",
+        "subject": "Re: Partnership idea for AE Operations Consulting — Web design for your clients",
+        "resendId": "01a0ea9a-e352-7171-8a5b-491854739ea4",
+        "status": "delivered",
+        "notes": "Threaded Day 4 follow-up on 20% commission partner program and client mockup offer."
       }
     ]
   },
@@ -15693,9 +15909,9 @@
     "location": "Pasadena, CA, USA",
     "pricingQuoted": "20% Partner Commission ($300 - $1,500+)",
     "initialContactDate": "2026-09-27T00:17:27.094Z",
-    "lastContactDate": "2026-09-27T00:17:27.094Z",
+    "lastContactDate": "2026-09-29T00:40:16.725Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Partner Program Intro",
+    "sequenceStep": "Day 4 - Follow-up",
     "diagnosedIssues": "As you design automated backend workflows and CRM systems, your clients frequently require modern front-end web funnels and automated client intake portals to complete the loop.",
     "caseStudySent": "https://beeclue.com/partner?utm_source=beeclue&utm_medium=partner-outreach&utm_campaign=partner-xny-agency",
     "history": [
@@ -15706,6 +15922,14 @@
         "resendId": "01a0e039-4dd7-7567-8878-1b82ed90037c",
         "status": "delivered",
         "notes": "Initial B2B partner outreach sent offering 20% commission, white-label/referral tracks, free 48-hour mockup offer, and Beeclue partner page with UTM tracking."
+      },
+      {
+        "step": "Day 4",
+        "sentAt": "2026-09-29T00:40:16.725Z",
+        "subject": "Re: Partnership idea for XnY Agency — Web design for your clients",
+        "resendId": "01a0ea9a-ebf6-79c0-8abb-6a6a9db6d5d0",
+        "status": "delivered",
+        "notes": "Threaded Day 4 follow-up on 20% commission partner program and client mockup offer."
       }
     ]
   },
@@ -15719,9 +15943,9 @@
     "location": "Bloomington, IL, USA",
     "pricingQuoted": "20% Partner Commission ($300 - $1,500+)",
     "initialContactDate": "2026-09-27T00:17:29.314Z",
-    "lastContactDate": "2026-09-27T00:17:29.314Z",
+    "lastContactDate": "2026-09-29T00:40:18.957Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Partner Program Intro",
+    "sequenceStep": "Day 4 - Follow-up",
     "diagnosedIssues": "When your clients undergo operational restructuring, their outward-facing websites often need custom modernization to reflect their upgraded service capabilities and capture qualified leads.",
     "caseStudySent": "https://beeclue.com/partner?utm_source=beeclue&utm_medium=partner-outreach&utm_campaign=partner-straza-consulting",
     "history": [
@@ -15732,6 +15956,14 @@
         "resendId": "01a0e039-569d-7378-8582-c2de683b848a",
         "status": "delivered",
         "notes": "Initial B2B partner outreach sent offering 20% commission, white-label/referral tracks, free 48-hour mockup offer, and Beeclue partner page with UTM tracking."
+      },
+      {
+        "step": "Day 4",
+        "sentAt": "2026-09-29T00:40:18.957Z",
+        "subject": "Re: Partnership idea for Straza Consulting — Web design for your clients",
+        "resendId": "01a0ea9a-f49c-7e3f-8a05-4767e53b0305",
+        "status": "delivered",
+        "notes": "Threaded Day 4 follow-up on 20% commission partner program and client mockup offer."
       }
     ]
   },
@@ -15745,9 +15977,9 @@
     "location": "Brooklyn, NY, USA",
     "pricingQuoted": "20% Partner Commission ($300 - $1,500+)",
     "initialContactDate": "2026-09-27T00:17:31.525Z",
-    "lastContactDate": "2026-09-27T00:17:31.525Z",
+    "lastContactDate": "2026-09-29T00:40:21.214Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Partner Program Intro",
+    "sequenceStep": "Day 4 - Follow-up",
     "diagnosedIssues": "High-growth tech and consumer startups need rapid marketing websites, polished UI revamps, and conversion funnels built to venture-scale standards without hiring full-time internal dev teams.",
     "caseStudySent": "https://beeclue.com/partner?utm_source=beeclue&utm_medium=partner-outreach&utm_campaign=partner-swim-operations",
     "history": [
@@ -15758,6 +15990,14 @@
         "resendId": "01a0e039-5f25-721d-932a-2946f0a4035e",
         "status": "delivered",
         "notes": "Initial B2B partner outreach sent offering 20% commission, white-label/referral tracks, free 48-hour mockup offer, and Beeclue partner page with UTM tracking."
+      },
+      {
+        "step": "Day 4",
+        "sentAt": "2026-09-29T00:40:21.214Z",
+        "subject": "Re: Partnership idea for SWIM — Web design for your clients",
+        "resendId": "01a0ea9a-fd8f-75c8-b313-dc15b7f2461c",
+        "status": "delivered",
+        "notes": "Threaded Day 4 follow-up on 20% commission partner program and client mockup offer."
       }
     ]
   },
@@ -15771,9 +16011,9 @@
     "location": "Lake Oswego, OR, USA",
     "pricingQuoted": "20% Partner Commission ($300 - $1,500+)",
     "initialContactDate": "2026-09-27T00:17:33.819Z",
-    "lastContactDate": "2026-09-27T00:17:33.819Z",
+    "lastContactDate": "2026-09-29T00:40:23.411Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Partner Program Intro",
+    "sequenceStep": "Day 4 - Follow-up",
     "diagnosedIssues": "Clients systematizing their internal operations frequently need client-facing digital forms, modern booking portals, and refreshed websites so the customer journey matches their streamlined back office.",
     "caseStudySent": "https://beeclue.com/partner?utm_source=beeclue&utm_medium=partner-outreach&utm_campaign=partner-business-success-consulting-group",
     "history": [
@@ -15784,6 +16024,14 @@
         "resendId": "01a0e039-681a-710d-bc0c-dd1c12e28140",
         "status": "delivered",
         "notes": "Initial B2B partner outreach sent offering 20% commission, white-label/referral tracks, free 48-hour mockup offer, and Beeclue partner page with UTM tracking."
+      },
+      {
+        "step": "Day 4",
+        "sentAt": "2026-09-29T00:40:23.411Z",
+        "subject": "Re: Partnership idea for Business Success Consulting Group — Web design for your clients",
+        "resendId": "01a0ea9b-0628-7652-b017-75d5b5103797",
+        "status": "delivered",
+        "notes": "Threaded Day 4 follow-up on 20% commission partner program and client mockup offer."
       }
     ]
   },
@@ -15797,9 +16045,9 @@
     "location": "London, ON, Canada",
     "pricingQuoted": "20% Partner Commission ($300 - $1,500+)",
     "initialContactDate": "2026-09-27T00:17:36.040Z",
-    "lastContactDate": "2026-09-27T00:17:36.040Z",
+    "lastContactDate": "2026-09-29T00:40:25.596Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Partner Program Intro",
+    "sequenceStep": "Day 4 - Follow-up",
     "diagnosedIssues": "Family-owned and private businesses frequently operate with outdated websites that lack modern mobile-friendly booking tools, clear service hierarchies, and local search visibility.",
     "caseStudySent": "https://beeclue.com/partner?utm_source=beeclue&utm_medium=partner-outreach&utm_campaign=partner-camilla-bignell-consulting",
     "history": [
@@ -15810,6 +16058,14 @@
         "resendId": "01a0e039-70c2-71f1-b74e-214d15ff5295",
         "status": "delivered",
         "notes": "Initial B2B partner outreach sent offering 20% commission, white-label/referral tracks, free 48-hour mockup offer, and Beeclue partner page with UTM tracking."
+      },
+      {
+        "step": "Day 4",
+        "sentAt": "2026-09-29T00:40:25.596Z",
+        "subject": "Re: Partnership idea for Camilla Bignell Consulting — Web design for your clients",
+        "resendId": "01a0ea9b-0ea4-713c-81d8-776a8ca1761d",
+        "status": "delivered",
+        "notes": "Threaded Day 4 follow-up on 20% commission partner program and client mockup offer."
       }
     ]
   },
@@ -15823,9 +16079,9 @@
     "location": "Atlanta, GA, USA",
     "pricingQuoted": "20% Partner Commission ($300 - $1,500+)",
     "initialContactDate": "2026-09-27T00:17:38.249Z",
-    "lastContactDate": "2026-09-27T00:17:38.249Z",
+    "lastContactDate": "2026-09-29T00:40:27.778Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Partner Program Intro",
+    "sequenceStep": "Day 4 - Follow-up",
     "diagnosedIssues": "When your entrepreneurial clients struggle with disconnected tech stacks and websites that fail to convert traffic, we build them custom, mobile-first web platforms with zero fulfillment stress for you.",
     "caseStudySent": "https://beeclue.com/partner?utm_source=beeclue&utm_medium=partner-outreach&utm_campaign=partner-anchor-and-joy-consulting",
     "history": [
@@ -15836,6 +16092,14 @@
         "resendId": "01a0e039-7978-7075-b7f6-2d0f53a10b8b",
         "status": "delivered",
         "notes": "Initial B2B partner outreach sent offering 20% commission, white-label/referral tracks, free 48-hour mockup offer, and Beeclue partner page with UTM tracking."
+      },
+      {
+        "step": "Day 4",
+        "sentAt": "2026-09-29T00:40:27.778Z",
+        "subject": "Re: Partnership idea for Anchor & Joy Consulting — Web design for your clients",
+        "resendId": "01a0ea9b-1736-7ea7-a4f2-4cb591ccad05",
+        "status": "delivered",
+        "notes": "Threaded Day 4 follow-up on 20% commission partner program and client mockup offer."
       }
     ]
   },
@@ -15849,9 +16113,9 @@
     "location": "Cincinnati, OH, USA",
     "pricingQuoted": "20% Partner Commission ($300 - $1,500+)",
     "initialContactDate": "2026-09-27T00:17:40.440Z",
-    "lastContactDate": "2026-09-27T00:17:40.440Z",
+    "lastContactDate": "2026-09-29T00:40:30.028Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Partner Program Intro",
+    "sequenceStep": "Day 4 - Follow-up",
     "diagnosedIssues": "Your online entrepreneur clients need high-converting sales landing pages, automated client booking workflows, and modern web presence overhauls as they launch new services and digital products.",
     "caseStudySent": "https://beeclue.com/partner?utm_source=beeclue&utm_medium=partner-outreach&utm_campaign=partner-healthy-business-manager",
     "history": [
@@ -15862,6 +16126,14 @@
         "resendId": "01a0e039-8209-714e-ad4c-bdff4b28b0ad",
         "status": "delivered",
         "notes": "Initial B2B partner outreach sent offering 20% commission, white-label/referral tracks, free 48-hour mockup offer, and Beeclue partner page with UTM tracking."
+      },
+      {
+        "step": "Day 4",
+        "sentAt": "2026-09-29T00:40:30.028Z",
+        "subject": "Re: Partnership idea for Healthy Business Manager — Web design for your clients",
+        "resendId": "01a0ea9b-1fce-7b59-b6b7-8ae250313a3f",
+        "status": "delivered",
+        "notes": "Threaded Day 4 follow-up on 20% commission partner program and client mockup offer."
       }
     ]
   },
@@ -15909,9 +16181,9 @@
     "location": "Calgary, AB, Canada",
     "pricingQuoted": "20% Partner Commission ($300 - $1,500+)",
     "initialContactDate": "2026-09-27T00:17:44.899Z",
-    "lastContactDate": "2026-09-27T00:17:44.899Z",
+    "lastContactDate": "2026-09-29T00:40:32.222Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Partner Program Intro",
+    "sequenceStep": "Day 4 - Follow-up",
     "diagnosedIssues": "When scaling organizations outgrow their initial website architecture, we act as a trusted technical partner to build robust digital platforms that support enterprise-level sales intake.",
     "caseStudySent": "https://beeclue.com/partner?utm_source=beeclue&utm_medium=partner-outreach&utm_campaign=partner-blue-monarch-management",
     "history": [
@@ -15922,6 +16194,14 @@
         "resendId": "01a0e039-937a-72c8-bafe-246ea6824cd1",
         "status": "delivered",
         "notes": "Initial B2B partner outreach sent offering 20% commission, white-label/referral tracks, free 48-hour mockup offer, and Beeclue partner page with UTM tracking."
+      },
+      {
+        "step": "Day 4",
+        "sentAt": "2026-09-29T00:40:32.222Z",
+        "subject": "Re: Partnership idea for Blue Monarch Management — Web design for your clients",
+        "resendId": "01a0ea9b-288e-7834-b706-62ed87636d53",
+        "status": "delivered",
+        "notes": "Threaded Day 4 follow-up on 20% commission partner program and client mockup offer."
       }
     ]
   },
@@ -15935,9 +16215,9 @@
     "location": "Montreal, QC, Canada",
     "pricingQuoted": "20% Partner Commission ($300 - $1,500+)",
     "initialContactDate": "2026-09-27T00:17:47.088Z",
-    "lastContactDate": "2026-09-27T00:17:47.088Z",
+    "lastContactDate": "2026-09-29T00:40:34.465Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Partner Program Intro",
+    "sequenceStep": "Day 4 - Follow-up",
     "diagnosedIssues": "Companies scaling post-investment routinely require professional digital rebuilds to replace legacy founder-made websites with high-converting, authoritative digital assets.",
     "caseStudySent": "https://beeclue.com/partner?utm_source=beeclue&utm_medium=partner-outreach&utm_campaign=partner-garfinkle-growth-partners",
     "history": [
@@ -15948,6 +16228,14 @@
         "resendId": "01a0e039-9c04-712c-82d7-f6b8eb152dce",
         "status": "delivered",
         "notes": "Initial B2B partner outreach sent offering 20% commission, white-label/referral tracks, free 48-hour mockup offer, and Beeclue partner page with UTM tracking."
+      },
+      {
+        "step": "Day 4",
+        "sentAt": "2026-09-29T00:40:34.465Z",
+        "subject": "Re: Partnership idea for Garfinkle Growth Partners Inc. — Web design for your clients",
+        "resendId": "01a0ea9b-314d-71b3-a975-6f4fb75d40be",
+        "status": "delivered",
+        "notes": "Threaded Day 4 follow-up on 20% commission partner program and client mockup offer."
       }
     ]
   },
@@ -15961,9 +16249,9 @@
     "location": "Austin, TX, USA",
     "pricingQuoted": "20% Partner Commission ($300 - $1,500+)",
     "initialContactDate": "2026-09-27T00:17:49.260Z",
-    "lastContactDate": "2026-09-27T00:17:49.260Z",
+    "lastContactDate": "2026-09-29T00:40:36.648Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Partner Program Intro",
+    "sequenceStep": "Day 4 - Follow-up",
     "diagnosedIssues": "Your e-commerce and B2B SaaS clients regularly require high-converting landing pages, custom marketing site development, and speed-optimized funnels to support scaling customer acquisition.",
     "caseStudySent": "https://beeclue.com/partner?utm_source=beeclue&utm_medium=partner-outreach&utm_campaign=partner-robert-gilbreath-consulting",
     "history": [
@@ -15974,6 +16262,14 @@
         "resendId": "01a0e039-a48c-7141-be24-45f014582689",
         "status": "delivered",
         "notes": "Initial B2B partner outreach sent offering 20% commission, white-label/referral tracks, free 48-hour mockup offer, and Beeclue partner page with UTM tracking."
+      },
+      {
+        "step": "Day 4",
+        "sentAt": "2026-09-29T00:40:36.648Z",
+        "subject": "Re: Partnership idea for Robert Gilbreath Executive Consulting — Web design for your clients",
+        "resendId": "01a0ea9b-39e1-73fc-92c9-f3600f5edd91",
+        "status": "delivered",
+        "notes": "Threaded Day 4 follow-up on 20% commission partner program and client mockup offer."
       }
     ]
   },
@@ -15987,9 +16283,9 @@
     "location": "Denver, CO, USA",
     "pricingQuoted": "20% Partner Commission ($300 - $1,500+)",
     "initialContactDate": "2026-09-27T00:17:51.455Z",
-    "lastContactDate": "2026-09-27T00:17:51.455Z",
+    "lastContactDate": "2026-09-29T00:40:38.882Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Partner Program Intro",
+    "sequenceStep": "Day 4 - Follow-up",
     "diagnosedIssues": "Professional service firms and legal practices you consult for often have outdated, static websites with poor mobile intake; modernizing their web design and consultation intake funnels directly boosts client conversion.",
     "caseStudySent": "https://beeclue.com/partner?utm_source=beeclue&utm_medium=partner-outreach&utm_campaign=partner-denver-fractional-coo",
     "history": [
@@ -16000,6 +16296,14 @@
         "resendId": "01a0e039-ad14-73cc-9fa1-b550cf367e08",
         "status": "delivered",
         "notes": "Initial B2B partner outreach sent offering 20% commission, white-label/referral tracks, free 48-hour mockup offer, and Beeclue partner page with UTM tracking."
+      },
+      {
+        "step": "Day 4",
+        "sentAt": "2026-09-29T00:40:38.882Z",
+        "subject": "Re: Partnership idea for Denver Fractional COO (DFC) — Web design for your clients",
+        "resendId": "01a0ea9b-4277-761f-8a11-d27010f3ae83",
+        "status": "delivered",
+        "notes": "Threaded Day 4 follow-up on 20% commission partner program and client mockup offer."
       }
     ]
   },
@@ -16013,9 +16317,9 @@
     "location": "Vancouver, BC, Canada",
     "pricingQuoted": "20% Partner Commission ($300 - $1,500+)",
     "initialContactDate": "2026-09-27T00:17:53.692Z",
-    "lastContactDate": "2026-09-27T00:17:53.692Z",
+    "lastContactDate": "2026-09-29T00:40:41.133Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Partner Program Intro",
+    "sequenceStep": "Day 4 - Follow-up",
     "diagnosedIssues": "Your creative and e-commerce clients regularly outgrow DIY Shopify and WordPress themes, needing custom e-commerce redesigns, conversion rate optimization, and streamlined booking funnels.",
     "caseStudySent": "https://beeclue.com/partner?utm_source=beeclue&utm_medium=partner-outreach&utm_campaign=partner-the-champagne-collective",
     "history": [
@@ -16026,6 +16330,14 @@
         "resendId": "01a0e039-b5d7-7272-8012-59d5917e6b2a",
         "status": "delivered",
         "notes": "Initial B2B partner outreach sent offering 20% commission, white-label/referral tracks, free 48-hour mockup offer, and Beeclue partner page with UTM tracking."
+      },
+      {
+        "step": "Day 4",
+        "sentAt": "2026-09-29T00:40:41.133Z",
+        "subject": "Re: Partnership idea for The Champagne Collective — Web design for your clients",
+        "resendId": "01a0ea9b-4b5d-7535-a0b2-9a254ae0e8bf",
+        "status": "delivered",
+        "notes": "Threaded Day 4 follow-up on 20% commission partner program and client mockup offer."
       }
     ]
   }
