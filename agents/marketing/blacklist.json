@@ -40,5 +40,12 @@
     "email": "jen@hamiltoncoos.com",
     "reason": "Responded not interested - do not contact",
     "blacklistedAt": "2026-09-28T20:32:19.000Z"
+  },
+  {
+    "name": "Amy Robern",
+    "firmName": "Amy Robern, Barrister & Solicitor",
+    "email": "amy.robern@gmail.com",
+    "reason": "Responded not interested - exclusively practices Criminal Law in Stratford since 2000, turns away clients, never advertises, requested removal from mailing list",
+    "blacklistedAt": "2026-09-29T14:24:34.000Z"
   }
 ]

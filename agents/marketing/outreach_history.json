@@ -18419,9 +18419,9 @@
     "location": "Stratford, ON (135 Wellington Street, Stratford, ON N5A 2L4)",
     "pricingQuoted": "$19/month",
     "initialContactDate": "2026-09-29T13:33:02.773Z",
-    "lastContactDate": "2026-09-29T13:33:02.773Z",
-    "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Outreach",
+    "lastContactDate": "2026-09-29T14:24:34.000Z",
+    "status": "not_interested",
+    "sequenceStep": "Closed - Not Interested (Blacklisted)",
     "diagnosedIssues": "No website (Perth Law Association & Legal Aid Ontario listing only, Gmail)",
     "caseStudySent": "https://beeclue.com/case-studies/tara-lattanzio?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-amy-robern-barrister-solicitor",
     "history": [
@@ -18432,6 +18432,13 @@
         "resendId": "01a0ed5e-695e-75a3-8677-31318950eb73",
         "status": "delivered",
         "notes": "Initial Day 0 outreach sent to Ontario law practice with no website, quoting $19/mo Core plan, Tara Lattanzio proof, and free mockup offer."
+      },
+      {
+        "step": "Reply Received",
+        "sentAt": "2026-09-29T14:24:34.000Z",
+        "subject": "Reply: Please take me off your mailing list (Stratford Criminal Law)",
+        "status": "not_interested",
+        "notes": "Practices Criminal Law exclusively in Stratford since 2000. Turns away more clients than taken, never advertises. Requested removal from mailing list. Blacklisted permanently."
       }
     ]
   },
