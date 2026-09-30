@@ -32,6 +32,11 @@ This version has breaking changes — APIs, conventions, and file structure may 
 - Add a Unique SEO Friendly Title and Meta Description for It. 
 - Every blog created MUST include the reusable `<BlogAuthorBox />` component at the bottom of the article. 
 
+# Blog Suggestions & SEO Reporting
+- Before sending ANY blog suggestions, content directions, or marketing proposals (including daily SEO report emails), YOU MUST inspect `src/app/(blogs)` and `src/app/(site-pages)/blogs/page.tsx` first to see what blogs are already published.
+- NEVER suggest blog titles, topics, or angles that have already been published on the site (e.g. `shopify-vs-woocommerce-canada`, `ontario-law-firm-website-playbook`, `how-to-fix-not-secure-warning-2026`, `personal-injury-law-firm-website-design`, etc.).
+- Always propose net-new, unaddressed topic angles backed by fresh search queries and content gaps from Google Search Console.
+
 # Links
 - For all the external links or the links opening in a new tab please make sure you add UTM tags for all of them. Use the format: ?utm_source=beeclue&utm_medium=blog&utm_campaign=<blog-name>
 
