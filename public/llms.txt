@@ -65,6 +65,7 @@ Beeclue Tech is an elite digital development agency located in Toronto, Canada, 
 - [G.I.R Security](https://beeclue.com/case-studies/gir-security)
 - [LBF Skin Clinic](https://beeclue.com/case-studies/lbf-skin-clinic)
 - [Sure Shot Photobooth](https://beeclue.com/case-studies/sure-shot-photobooth)
+- [Consumer Seva (Empower Legal LLP)](https://beeclue.com/case-studies/consumerseva)
 
 ### Proprietary Products
 - [Monexa (Finance App)](https://beeclue.com/products/monexa)

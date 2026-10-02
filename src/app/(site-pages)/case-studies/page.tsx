@@ -275,6 +275,29 @@ export default function CaseStudiesPage() {
             </div>
           </div>
 
+          <div className={styles.caseStudyListItem}>
+            <div className={styles.caseStudyListImage}>
+              <Image 
+                src="https://cdn.jsdelivr.net/gh/beeclue/clients@main/self/consumer-seva.webp" 
+                alt="Consumer Seva Empower Legal LLP Website" 
+                fill
+                sizes="(max-width: 768px) 100vw, 50vw"
+                style={{ objectFit: "contain", padding: "2rem" }}
+              />
+            </div>
+            <div className={styles.caseStudyListContent}>
+              <h2>Consumer Seva — Law Firm WordPress Platform &amp; Content Engine</h2>
+              <p>
+                We partnered with Empower Legal LLP to build a nationwide legal consultancy platform for Consumer Seva on WordPress. We delivered custom website design, new brand and logo identity, an SEO-optimized legal blogging engine, and fully managed cloud hosting to drive high-intent inquiries for consumer grievances, legal notices, and trademark services.
+              </p>
+              <div>
+                <Link href="/case-studies/consumerseva" className={styles.ctaButtonLight}>
+                  Read More <ArrowRight className={styles.arrow} size={20} />
+                </Link>
+              </div>
+            </div>
+          </div>
+
         </div>
       </FadeIn>
     </main>

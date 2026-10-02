@@ -64,6 +64,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/case-studies/gir-security',
     '/case-studies/lbf-skin-clinic',
     '/case-studies/sure-shot-photobooth',
+    '/case-studies/consumerseva',
     // Products
     '/products/monexa',
     // Blogs

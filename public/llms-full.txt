@@ -147,6 +147,8 @@ Beeclue Tech has delivered exceptional digital overhauls across multiple industr
 - **Blues Contracting Services**: Next.js digital transformation for the construction sector. [https://beeclue.com/case-studies/blues-contracting-services]
 - **G.I.R Security**: Comprehensive digital overhaul and custom job portal implementation. [https://beeclue.com/case-studies/gir-security]
 - **LBF Skin Clinic**: Premium aesthetic web design and WordPress development. [https://beeclue.com/case-studies/lbf-skin-clinic]
+- **Consumer Seva (Empower Legal LLP)**: Comprehensive WordPress legal web platform, custom logo & brand identity, ongoing nationwide legal SEO blog content engine, and managed cloud hosting. Engineered to capture national search demand and drive qualified client inquiries for consumer grievances, legal notices, trademark filings, and corporate documentation. [https://beeclue.com/case-studies/consumerseva]
+
 
 ## Our Blogs and Insights
 We actively publish industry insights and technical articles to help businesses navigate the digital landscape:
