@@ -21,19 +21,17 @@ export default function WebDesignTorontoPage() {
     "@context": "https://schema.org",
     "@graph": [
       {
-        "@type": "Service",
-        "serviceType": "Web Design Services",
-        "provider": {
-          "@type": "LocalBusiness",
-          "name": "Beeclue Tech",
-          "telephone": "+1-647-947-6253",
-          "priceRange": "$$",
-          "address": {
-            "@type": "PostalAddress",
-            "addressLocality": "Toronto",
-            "addressRegion": "ON",
-            "addressCountry": "CA"
-          }
+        "@type": "ProfessionalService",
+        "name": "Beeclue Tech - Web Design Toronto",
+        "url": "https://beeclue.com/web-design-toronto",
+        "image": "https://beeclue.com/logo.png",
+        "telephone": "+1-647-947-6253",
+        "priceRange": "$$",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Toronto",
+          "addressRegion": "ON",
+          "addressCountry": "CA"
         },
         "areaServed": "Toronto",
         "aggregateRating": {

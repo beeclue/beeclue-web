@@ -11,19 +11,17 @@ import IndustryList from "@/components/IndustryList";
 export default function WebDesignForDentalClinicsPage() {
   const jsonLd = {
     "@context": "https://schema.org",
-    "@type": "Service",
-    "serviceType": "Web Design for Dental Clinics",
-    "provider": {
-      "@type": "LocalBusiness",
-      "name": "Beeclue Tech",
-      "telephone": "+1-647-947-6253",
-      "priceRange": "$$",
-      "address": {
-        "@type": "PostalAddress",
-        "addressLocality": "Toronto",
-        "addressRegion": "ON",
-        "addressCountry": "CA"
-      }
+    "@type": "ProfessionalService",
+    "name": "Beeclue Tech - Dental Clinic Web Design",
+    "url": "https://beeclue.com/web-design-for-dental-clinics",
+    "image": "https://beeclue.com/logo.png",
+    "telephone": "+1-647-947-6253",
+    "priceRange": "$$",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Toronto",
+      "addressRegion": "ON",
+      "addressCountry": "CA"
     },
     "description": "Professional web design and development services for dental clinics, dentists, and oral healthcare providers in Canada. Patient portals, appointment booking, and HIPAA-compliant websites.",
     "areaServed": "Canada",
