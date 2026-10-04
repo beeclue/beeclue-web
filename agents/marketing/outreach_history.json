@@ -19447,9 +19447,9 @@
     "location": "Cambridge, ON (Unit B, 553 King St. E., Cambridge, ON N3H 3N4)",
     "pricingQuoted": "$19/month",
     "initialContactDate": "2026-09-29T13:32:22.541Z",
-    "lastContactDate": "2026-09-29T13:32:22.541Z",
+    "lastContactDate": "2026-10-04T00:18:30.239Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Outreach",
+    "sequenceStep": "Day 4 - Follow-up",
     "diagnosedIssues": "No website (Canadian Law List & YellowPages listing only, Bellnet ISP email)",
     "caseStudySent": "https://beeclue.com/case-studies/tara-lattanzio?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-patrick-a-brohman-barrister-solicitor",
     "history": [
@@ -19460,6 +19460,14 @@
         "resendId": "01a0ed5d-cc3d-7338-8f88-34592ab9a4af",
         "status": "delivered",
         "notes": "Initial Day 0 outreach sent to Ontario law practice with no website, quoting $19/mo Core plan, Tara Lattanzio proof, and free mockup offer."
+      },
+      {
+        "step": "Day 4",
+        "sentAt": "2026-10-04T00:18:30.239Z",
+        "subject": "Re: A modern web presence for Patrick A. Brohman, Barrister & Solicitor",
+        "resendId": "01a10446-c88d-7b46-ae83-bf2775affad1",
+        "status": "delivered",
+        "notes": "Day 4-5 follow-up sent quoting $19/mo Core plan, Tara Lattanzio proof, and free 48-hr mockup offer."
       }
     ]
   },
@@ -19473,9 +19481,9 @@
     "location": "Elmira, ON (9 Church Street West, Elmira, ON N3B 1M2)",
     "pricingQuoted": "$19/month",
     "initialContactDate": "2026-09-29T13:32:24.988Z",
-    "lastContactDate": "2026-09-29T13:32:24.988Z",
+    "lastContactDate": "2026-10-04T00:18:32.251Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Outreach",
+    "sequenceStep": "Day 4 - Follow-up",
     "diagnosedIssues": "No website (Downtown Elmira BIA directory listing only, Sentex ISP email)",
     "caseStudySent": "https://beeclue.com/case-studies/tara-lattanzio?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-rudavsky-law-office",
     "history": [
@@ -19486,6 +19494,14 @@
         "resendId": "01a0ed5d-d504-736a-95ea-7e6db3bd7133",
         "status": "delivered",
         "notes": "Initial Day 0 outreach sent to Ontario law practice with no website, quoting $19/mo Core plan, Tara Lattanzio proof, and free mockup offer."
+      },
+      {
+        "step": "Day 4",
+        "sentAt": "2026-10-04T00:18:32.251Z",
+        "subject": "Re: A modern web presence for Rudavsky Law Office",
+        "resendId": "01a10446-d077-7864-90ba-81b65eac7f9b",
+        "status": "delivered",
+        "notes": "Day 4-5 follow-up sent quoting $19/mo Core plan, Tara Lattanzio proof, and free 48-hr mockup offer."
       }
     ]
   },
@@ -19499,9 +19515,9 @@
     "location": "New Hamburg, ON (92 Nithview Dr., New Hamburg, ON N3A 2H3)",
     "pricingQuoted": "$19/month",
     "initialContactDate": "2026-09-29T13:32:27.310Z",
-    "lastContactDate": "2026-09-29T13:32:27.310Z",
+    "lastContactDate": "2026-10-04T00:18:34.324Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Outreach",
+    "sequenceStep": "Day 4 - Follow-up",
     "diagnosedIssues": "No website (Canadian Law List listing only, Golden.net ISP email)",
     "caseStudySent": "https://beeclue.com/case-studies/tara-lattanzio?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-randell-k-thomson-barrister-solicitor",
     "history": [
@@ -19512,6 +19528,14 @@
         "resendId": "01a0ed5d-de73-71ab-a681-1b70a1683bbf",
         "status": "delivered",
         "notes": "Initial Day 0 outreach sent to Ontario law practice with no website, quoting $19/mo Core plan, Tara Lattanzio proof, and free mockup offer."
+      },
+      {
+        "step": "Day 4",
+        "sentAt": "2026-10-04T00:18:34.324Z",
+        "subject": "Re: A modern web presence for Randell K. Thomson, Barrister & Solicitor",
+        "resendId": "01a10446-d885-7348-b576-071267d1ca86",
+        "status": "delivered",
+        "notes": "Day 4-5 follow-up sent quoting $19/mo Core plan, Tara Lattanzio proof, and free 48-hr mockup offer."
       }
     ]
   },
@@ -19525,9 +19549,9 @@
     "location": "Kitchener, ON (293 Frederick St., Kitchener, ON N2H 2N6)",
     "pricingQuoted": "$19/month",
     "initialContactDate": "2026-09-29T13:32:29.517Z",
-    "lastContactDate": "2026-09-29T13:32:29.517Z",
+    "lastContactDate": "2026-10-04T00:18:36.337Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Outreach",
+    "sequenceStep": "Day 4 - Follow-up",
     "diagnosedIssues": "No website (Canadian Law List & Legal Aid listing only, Bellnet ISP email)",
     "caseStudySent": "https://beeclue.com/case-studies/tara-lattanzio?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-jean-ledrew-metcalfe-barrister-solicitor",
     "history": [
@@ -19538,6 +19562,14 @@
         "resendId": "01a0ed5d-e77e-7299-b8af-457aa23c4240",
         "status": "delivered",
         "notes": "Initial Day 0 outreach sent to Ontario law practice with no website, quoting $19/mo Core plan, Tara Lattanzio proof, and free mockup offer."
+      },
+      {
+        "step": "Day 4",
+        "sentAt": "2026-10-04T00:18:36.337Z",
+        "subject": "Re: A modern web presence for Jean LeDrew Metcalfe, Barrister & Solicitor",
+        "resendId": "01a10446-e059-730d-9ea2-ad7321757c7a",
+        "status": "delivered",
+        "notes": "Day 4-5 follow-up sent quoting $19/mo Core plan, Tara Lattanzio proof, and free 48-hr mockup offer."
       }
     ]
   },
@@ -19551,9 +19583,9 @@
     "location": "Kitchener, ON (604 Charles St. E., Kitchener, ON N2G 2R5)",
     "pricingQuoted": "$19/month",
     "initialContactDate": "2026-09-29T13:32:31.719Z",
-    "lastContactDate": "2026-09-29T13:32:31.719Z",
+    "lastContactDate": "2026-10-04T00:18:38.396Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Outreach",
+    "sequenceStep": "Day 4 - Follow-up",
     "diagnosedIssues": "No website (Canadian Law List listing only, Rogers ISP email)",
     "caseStudySent": "https://beeclue.com/case-studies/tara-lattanzio?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-colleen-jane-winn-barrister-solicitor",
     "history": [
@@ -19564,6 +19596,14 @@
         "resendId": "01a0ed5d-f013-7564-80c8-24fefd67f713",
         "status": "delivered",
         "notes": "Initial Day 0 outreach sent to Ontario law practice with no website, quoting $19/mo Core plan, Tara Lattanzio proof, and free mockup offer."
+      },
+      {
+        "step": "Day 4",
+        "sentAt": "2026-10-04T00:18:38.396Z",
+        "subject": "Re: A modern web presence for Colleen Jane Winn, Barrister & Solicitor",
+        "resendId": "01a10446-e835-75a6-9cb2-85de4cd41439",
+        "status": "delivered",
+        "notes": "Day 4-5 follow-up sent quoting $19/mo Core plan, Tara Lattanzio proof, and free 48-hr mockup offer."
       }
     ]
   },
@@ -19577,9 +19617,9 @@
     "location": "Kitchener, ON (104 Scott Street, Kitchener, ON N2H 2R5)",
     "pricingQuoted": "$19/month",
     "initialContactDate": "2026-09-29T13:32:33.952Z",
-    "lastContactDate": "2026-09-29T13:32:33.952Z",
+    "lastContactDate": "2026-10-04T00:18:40.387Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Outreach",
+    "sequenceStep": "Day 4 - Follow-up",
     "diagnosedIssues": "No website (Canadian Law List & Legal Aid listing only, Gmail/Rogers)",
     "caseStudySent": "https://beeclue.com/case-studies/tara-lattanzio?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-raymond-j-wrubel-barrister-solicitor",
     "history": [
@@ -19590,6 +19630,14 @@
         "resendId": "01a0ed5d-f8d2-78b2-bc02-a13c85c4f72b",
         "status": "delivered",
         "notes": "Initial Day 0 outreach sent to Ontario law practice with no website, quoting $19/mo Core plan, Tara Lattanzio proof, and free mockup offer."
+      },
+      {
+        "step": "Day 4",
+        "sentAt": "2026-10-04T00:18:40.387Z",
+        "subject": "Re: A modern web presence for Raymond J. Wrubel, Barrister & Solicitor",
+        "resendId": "01a10446-f035-7304-9870-edf8e6b1bf33",
+        "status": "delivered",
+        "notes": "Day 4-5 follow-up sent quoting $19/mo Core plan, Tara Lattanzio proof, and free 48-hr mockup offer."
       }
     ]
   },
@@ -19603,9 +19651,9 @@
     "location": "Kitchener, ON (130 Lancaster Street East, Kitchener, ON N2H 1N1)",
     "pricingQuoted": "$19/month",
     "initialContactDate": "2026-09-29T13:32:36.147Z",
-    "lastContactDate": "2026-09-29T13:32:36.147Z",
+    "lastContactDate": "2026-10-04T00:18:42.397Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Outreach",
+    "sequenceStep": "Day 4 - Follow-up",
     "diagnosedIssues": "No website (Canadian Law List & CLA listing only, Rogers ISP email)",
     "caseStudySent": "https://beeclue.com/case-studies/tara-lattanzio?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-j-brennan-smart-barrister-solicitor",
     "history": [
@@ -19616,6 +19664,14 @@
         "resendId": "01a0ed5e-0168-7986-878b-908252d646c7",
         "status": "delivered",
         "notes": "Initial Day 0 outreach sent to Ontario law practice with no website, quoting $19/mo Core plan, Tara Lattanzio proof, and free mockup offer."
+      },
+      {
+        "step": "Day 4",
+        "sentAt": "2026-10-04T00:18:42.397Z",
+        "subject": "Re: A modern web presence for J. Brennan Smart, Barrister & Solicitor",
+        "resendId": "01a10446-f81a-7021-93f1-cd1208170e8a",
+        "status": "delivered",
+        "notes": "Day 4-5 follow-up sent quoting $19/mo Core plan, Tara Lattanzio proof, and free 48-hr mockup offer."
       }
     ]
   },
@@ -19629,9 +19685,9 @@
     "location": "Kitchener, ON (127 Duke St. E., Kitchener, ON N2H 1A6)",
     "pricingQuoted": "$19/month",
     "initialContactDate": "2026-09-29T13:32:38.422Z",
-    "lastContactDate": "2026-09-29T13:32:38.422Z",
+    "lastContactDate": "2026-10-04T00:18:44.414Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Outreach",
+    "sequenceStep": "Day 4 - Follow-up",
     "diagnosedIssues": "No website (former domain expired/deleted, Bellnet ISP email, Canadian Law List)",
     "caseStudySent": "https://beeclue.com/case-studies/tara-lattanzio?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-bryan-j-tham-law-office",
     "history": [
@@ -19642,6 +19698,14 @@
         "resendId": "01a0ed5e-0a3f-7329-a135-035d97142488",
         "status": "delivered",
         "notes": "Initial Day 0 outreach sent to Ontario law practice with no website, quoting $19/mo Core plan, Tara Lattanzio proof, and free mockup offer."
+      },
+      {
+        "step": "Day 4",
+        "sentAt": "2026-10-04T00:18:44.414Z",
+        "subject": "Re: A modern web presence for Bryan J. Tham Law Office",
+        "resendId": "01a10446-ffdd-79fe-b0d7-b6aa813bdf3f",
+        "status": "delivered",
+        "notes": "Day 4-5 follow-up sent quoting $19/mo Core plan, Tara Lattanzio proof, and free 48-hr mockup offer."
       }
     ]
   },
@@ -19655,9 +19719,9 @@
     "location": "Kitchener, ON (234 Frederick St., Kitchener, ON N2H 2M8)",
     "pricingQuoted": "$19/month",
     "initialContactDate": "2026-09-29T13:32:40.604Z",
-    "lastContactDate": "2026-09-29T13:32:40.604Z",
+    "lastContactDate": "2026-10-04T00:18:46.407Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Outreach",
+    "sequenceStep": "Day 4 - Follow-up",
     "diagnosedIssues": "No website (Canadian Law List listing only, Rogers ISP email)",
     "caseStudySent": "https://beeclue.com/case-studies/tara-lattanzio?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-richard-marshall-van-buskirk-barrister-solicitor",
     "history": [
@@ -19668,6 +19732,14 @@
         "resendId": "01a0ed5e-12d9-7de0-8324-23d0f53a3e26",
         "status": "delivered",
         "notes": "Initial Day 0 outreach sent to Ontario law practice with no website, quoting $19/mo Core plan, Tara Lattanzio proof, and free mockup offer."
+      },
+      {
+        "step": "Day 4",
+        "sentAt": "2026-10-04T00:18:46.407Z",
+        "subject": "Re: A modern web presence for Richard Marshall Van Buskirk, Barrister & Solicitor",
+        "resendId": "01a10447-07c8-713b-8f18-16ca6c15cf37",
+        "status": "delivered",
+        "notes": "Day 4-5 follow-up sent quoting $19/mo Core plan, Tara Lattanzio proof, and free 48-hr mockup offer."
       }
     ]
   },
@@ -19681,9 +19753,9 @@
     "location": "Fergus, ON (710 Tower Street South, Fergus, ON N1M 2R3)",
     "pricingQuoted": "$19/month",
     "initialContactDate": "2026-09-29T13:32:42.805Z",
-    "lastContactDate": "2026-09-29T13:32:42.805Z",
+    "lastContactDate": "2026-10-04T00:18:48.465Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Outreach",
+    "sequenceStep": "Day 4 - Follow-up",
     "diagnosedIssues": "No website (Wellington County Directory listing only, Gmail)",
     "caseStudySent": "https://beeclue.com/case-studies/tara-lattanzio?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-shields-law-office",
     "history": [
@@ -19694,6 +19766,14 @@
         "resendId": "01a0ed5e-1b71-76ad-a8c8-d050b5d54fde",
         "status": "delivered",
         "notes": "Initial Day 0 outreach sent to Ontario law practice with no website, quoting $19/mo Core plan, Tara Lattanzio proof, and free mockup offer."
+      },
+      {
+        "step": "Day 4",
+        "sentAt": "2026-10-04T00:18:48.465Z",
+        "subject": "Re: A modern web presence for Shields Law Office",
+        "resendId": "01a10447-0fc7-7593-9016-ca8bc4007678",
+        "status": "delivered",
+        "notes": "Day 4-5 follow-up sent quoting $19/mo Core plan, Tara Lattanzio proof, and free 48-hr mockup offer."
       }
     ]
   },
@@ -19707,9 +19787,9 @@
     "location": "Fergus, ON (169 St. Andrew Street West, Fergus, ON N1M 1N6)",
     "pricingQuoted": "$19/month",
     "initialContactDate": "2026-09-29T13:32:44.989Z",
-    "lastContactDate": "2026-09-29T13:32:44.989Z",
+    "lastContactDate": "2026-10-04T00:18:50.456Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Outreach",
+    "sequenceStep": "Day 4 - Follow-up",
     "diagnosedIssues": "No website (dead domain leighfishleighlaw.com, Bellnet ISP email)",
     "caseStudySent": "https://beeclue.com/case-studies/tara-lattanzio?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-leigh-g-fishleigh-law-office",
     "history": [
@@ -19720,6 +19800,14 @@
         "resendId": "01a0ed5e-23f4-7bc3-badf-31cee0793d95",
         "status": "delivered",
         "notes": "Initial Day 0 outreach sent to Ontario law practice with no website, quoting $19/mo Core plan, Tara Lattanzio proof, and free mockup offer."
+      },
+      {
+        "step": "Day 4",
+        "sentAt": "2026-10-04T00:18:50.456Z",
+        "subject": "Re: A modern web presence for Leigh G. Fishleigh Law Office",
+        "resendId": "01a10447-1793-7a74-a900-0529c78a1c77",
+        "status": "delivered",
+        "notes": "Day 4-5 follow-up sent quoting $19/mo Core plan, Tara Lattanzio proof, and free 48-hr mockup offer."
       }
     ]
   },
@@ -19733,9 +19821,9 @@
     "location": "Erin, ON (194 Main Street, P.O. Box 328, Erin, ON N0B 1T0)",
     "pricingQuoted": "$19/month",
     "initialContactDate": "2026-09-29T13:32:47.188Z",
-    "lastContactDate": "2026-09-29T13:32:47.188Z",
+    "lastContactDate": "2026-10-04T00:18:52.482Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Outreach",
+    "sequenceStep": "Day 4 - Follow-up",
     "diagnosedIssues": "No website (Wellington County Directory listing only, Bell on.aibn.com email)",
     "caseStudySent": "https://beeclue.com/case-studies/tara-lattanzio?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-ken-j-torrens-law-office",
     "history": [
@@ -19746,6 +19834,14 @@
         "resendId": "01a0ed5e-2c84-7438-abcd-36a47c0e142e",
         "status": "delivered",
         "notes": "Initial Day 0 outreach sent to Ontario law practice with no website, quoting $19/mo Core plan, Tara Lattanzio proof, and free mockup offer."
+      },
+      {
+        "step": "Day 4",
+        "sentAt": "2026-10-04T00:18:52.482Z",
+        "subject": "Re: A modern web presence for Ken J. Torrens Law Office",
+        "resendId": "01a10447-1f58-76a9-8f2f-569a66938139",
+        "status": "delivered",
+        "notes": "Day 4-5 follow-up sent quoting $19/mo Core plan, Tara Lattanzio proof, and free 48-hr mockup offer."
       }
     ]
   },
@@ -19759,9 +19855,9 @@
     "location": "Guelph, ON (45 Marilyn Dr., Guelph, ON N1H 1G9)",
     "pricingQuoted": "$19/month",
     "initialContactDate": "2026-09-29T13:32:49.412Z",
-    "lastContactDate": "2026-09-29T13:32:49.412Z",
+    "lastContactDate": "2026-10-04T00:18:54.489Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Outreach",
+    "sequenceStep": "Day 4 - Follow-up",
     "diagnosedIssues": "No website (Canadian Law List listing only, Gmail)",
     "caseStudySent": "https://beeclue.com/case-studies/tara-lattanzio?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-cr-bond-law-office",
     "history": [
@@ -19772,6 +19868,14 @@
         "resendId": "01a0ed5e-353a-70b4-b853-b232e57625ac",
         "status": "delivered",
         "notes": "Initial Day 0 outreach sent to Ontario law practice with no website, quoting $19/mo Core plan, Tara Lattanzio proof, and free mockup offer."
+      },
+      {
+        "step": "Day 4",
+        "sentAt": "2026-10-04T00:18:54.489Z",
+        "subject": "Re: A modern web presence for C.R. Bond Law Office",
+        "resendId": "01a10447-275b-7e02-824d-4e7333413391",
+        "status": "delivered",
+        "notes": "Day 4-5 follow-up sent quoting $19/mo Core plan, Tara Lattanzio proof, and free 48-hr mockup offer."
       }
     ]
   },
@@ -19785,9 +19889,9 @@
     "location": "Guelph, ON (150 Norfolk St., Guelph, ON N1H 4J9)",
     "pricingQuoted": "$19/month",
     "initialContactDate": "2026-09-29T13:32:51.608Z",
-    "lastContactDate": "2026-09-29T13:32:51.608Z",
+    "lastContactDate": "2026-10-04T00:18:56.482Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Outreach",
+    "sequenceStep": "Day 4 - Follow-up",
     "diagnosedIssues": "No website (Canadian Law List & YellowPages listing only, Bellnet ISP email)",
     "caseStudySent": "https://beeclue.com/case-studies/tara-lattanzio?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-w-gerald-punnett-barrister-solicitor",
     "history": [
@@ -19798,6 +19902,14 @@
         "resendId": "01a0ed5e-3dcf-700d-8d70-993c06ae4d28",
         "status": "delivered",
         "notes": "Initial Day 0 outreach sent to Ontario law practice with no website, quoting $19/mo Core plan, Tara Lattanzio proof, and free mockup offer."
+      },
+      {
+        "step": "Day 4",
+        "sentAt": "2026-10-04T00:18:56.482Z",
+        "subject": "Re: A modern web presence for W. Gerald Punnett, Barrister & Solicitor",
+        "resendId": "01a10447-2f16-74e8-95c2-62a9288658c5",
+        "status": "delivered",
+        "notes": "Day 4-5 follow-up sent quoting $19/mo Core plan, Tara Lattanzio proof, and free 48-hr mockup offer."
       }
     ]
   },
@@ -19811,9 +19923,9 @@
     "location": "Guelph, ON (21 Oxford Street, Guelph, ON N1H 2M4)",
     "pricingQuoted": "$19/month",
     "initialContactDate": "2026-09-29T13:32:53.791Z",
-    "lastContactDate": "2026-09-29T13:32:53.791Z",
+    "lastContactDate": "2026-10-04T00:18:58.490Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Outreach",
+    "sequenceStep": "Day 4 - Follow-up",
     "diagnosedIssues": "No website (Canadian Law List & CLA listing only, Sympatico ISP email)",
     "caseStudySent": "https://beeclue.com/case-studies/tara-lattanzio?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-krys-rutkowski-barrister-solicitor",
     "history": [
@@ -19824,6 +19936,14 @@
         "resendId": "01a0ed5e-4660-7ddc-9cba-e4f109a60aa9",
         "status": "delivered",
         "notes": "Initial Day 0 outreach sent to Ontario law practice with no website, quoting $19/mo Core plan, Tara Lattanzio proof, and free mockup offer."
+      },
+      {
+        "step": "Day 4",
+        "sentAt": "2026-10-04T00:18:58.490Z",
+        "subject": "Re: A modern web presence for Krys Rutkowski, Barrister & Solicitor",
+        "resendId": "01a10447-36f0-7c74-9e50-42afef3559cd",
+        "status": "delivered",
+        "notes": "Day 4-5 follow-up sent quoting $19/mo Core plan, Tara Lattanzio proof, and free 48-hr mockup offer."
       }
     ]
   },
@@ -19837,9 +19957,9 @@
     "location": "Guelph, ON (22 Paisley Street, Guelph, ON N1H 2N6)",
     "pricingQuoted": "$19/month",
     "initialContactDate": "2026-09-29T13:32:56.068Z",
-    "lastContactDate": "2026-09-29T13:32:56.068Z",
+    "lastContactDate": "2026-10-04T00:19:00.539Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Outreach",
+    "sequenceStep": "Day 4 - Follow-up",
     "diagnosedIssues": "No website (inactive/dead domain farblaw.com, Execulink ISP email, Canadian Law List)",
     "caseStudySent": "https://beeclue.com/case-studies/tara-lattanzio?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-guy-d-e-farb-barrister-solicitor",
     "history": [
@@ -19850,6 +19970,14 @@
         "resendId": "01a0ed5e-4f0b-730b-8e72-4860ff45d671",
         "status": "delivered",
         "notes": "Initial Day 0 outreach sent to Ontario law practice with no website, quoting $19/mo Core plan, Tara Lattanzio proof, and free mockup offer."
+      },
+      {
+        "step": "Day 4",
+        "sentAt": "2026-10-04T00:19:00.539Z",
+        "subject": "Re: A modern web presence for Guy D. E. Farb, Barrister & Solicitor",
+        "resendId": "01a10447-3efd-7678-957d-b01755caf960",
+        "status": "delivered",
+        "notes": "Day 4-5 follow-up sent quoting $19/mo Core plan, Tara Lattanzio proof, and free 48-hr mockup offer."
       }
     ]
   },
@@ -19863,9 +19991,9 @@
     "location": "Listowel, ON (280 Inkerman Street West, Listowel, ON N4W 3H2)",
     "pricingQuoted": "$19/month",
     "initialContactDate": "2026-09-29T13:32:58.329Z",
-    "lastContactDate": "2026-09-29T13:32:58.329Z",
+    "lastContactDate": "2026-10-04T00:19:02.548Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Outreach",
+    "sequenceStep": "Day 4 - Follow-up",
     "diagnosedIssues": "No website (domain prattlawoffice.ca used exclusively for email without web host)",
     "caseStudySent": "https://beeclue.com/case-studies/tara-lattanzio?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-pratt-pratt",
     "history": [
@@ -19876,6 +20004,14 @@
         "resendId": "01a0ed5e-5810-715b-9a03-686ab895e780",
         "status": "delivered",
         "notes": "Initial Day 0 outreach sent to Ontario law practice with no website, quoting $19/mo Core plan, Tara Lattanzio proof, and free mockup offer."
+      },
+      {
+        "step": "Day 4",
+        "sentAt": "2026-10-04T00:19:02.548Z",
+        "subject": "Re: A modern web presence for Pratt & Pratt",
+        "resendId": "01a10447-46b6-7244-b0e4-e822170a5f00",
+        "status": "delivered",
+        "notes": "Day 4-5 follow-up sent quoting $19/mo Core plan, Tara Lattanzio proof, and free 48-hr mockup offer."
       }
     ]
   },
@@ -19889,9 +20025,9 @@
     "location": "St. Marys, ON (174 Queen Street East, P.O. Box 486, St. Marys, ON N4X 1B3)",
     "pricingQuoted": "$19/month",
     "initialContactDate": "2026-09-29T13:33:00.548Z",
-    "lastContactDate": "2026-09-29T13:33:00.548Z",
+    "lastContactDate": "2026-10-04T00:19:04.533Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Outreach",
+    "sequenceStep": "Day 4 - Follow-up",
     "diagnosedIssues": "No website (Perth Law Association & Canadian Law List listing only, Rogers ISP email)",
     "caseStudySent": "https://beeclue.com/case-studies/tara-lattanzio?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-rj-white-law-office",
     "history": [
@@ -19902,6 +20038,14 @@
         "resendId": "01a0ed5e-60b2-70f2-b5ac-7fef00f1426c",
         "status": "delivered",
         "notes": "Initial Day 0 outreach sent to Ontario law practice with no website, quoting $19/mo Core plan, Tara Lattanzio proof, and free mockup offer."
+      },
+      {
+        "step": "Day 4",
+        "sentAt": "2026-10-04T00:19:04.533Z",
+        "subject": "Re: A modern web presence for R.J. White Law Office",
+        "resendId": "01a10447-4e93-72d6-8171-abde355ff8ca",
+        "status": "delivered",
+        "notes": "Day 4-5 follow-up sent quoting $19/mo Core plan, Tara Lattanzio proof, and free 48-hr mockup offer."
       }
     ]
   },
@@ -19948,9 +20092,9 @@
     "location": "Woodstock, ON (45 Light St., Woodstock, ON N4S 6G7)",
     "pricingQuoted": "$19/month",
     "initialContactDate": "2026-09-29T13:33:04.982Z",
-    "lastContactDate": "2026-09-29T13:33:04.982Z",
+    "lastContactDate": "2026-10-04T00:19:06.525Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Outreach",
+    "sequenceStep": "Day 4 - Follow-up",
     "diagnosedIssues": "No website (inactive domain johnparklaw.ca with no web host, Rogers ISP email)",
     "caseStudySent": "https://beeclue.com/case-studies/tara-lattanzio?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-john-r-park-law-office",
     "history": [
@@ -19961,6 +20105,14 @@
         "resendId": "01a0ed5e-71fe-7580-9e01-caa8882652ab",
         "status": "delivered",
         "notes": "Initial Day 0 outreach sent to Ontario law practice with no website, quoting $19/mo Core plan, Tara Lattanzio proof, and free mockup offer."
+      },
+      {
+        "step": "Day 4",
+        "sentAt": "2026-10-04T00:19:06.525Z",
+        "subject": "Re: A modern web presence for John R. Park Law Office",
+        "resendId": "01a10447-5652-7768-a183-05578846db7a",
+        "status": "delivered",
+        "notes": "Day 4-5 follow-up sent quoting $19/mo Core plan, Tara Lattanzio proof, and free 48-hr mockup offer."
       }
     ]
   },
@@ -19974,9 +20126,9 @@
     "location": "Woodstock, ON (45 Light St., Woodstock, ON N4S 6G7)",
     "pricingQuoted": "$19/month",
     "initialContactDate": "2026-09-29T13:33:07.243Z",
-    "lastContactDate": "2026-09-29T13:33:07.243Z",
+    "lastContactDate": "2026-10-04T00:19:08.518Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Outreach",
+    "sequenceStep": "Day 4 - Follow-up",
     "diagnosedIssues": "No website (shares office at 45 Light St., inactive domain, Canadian Law List)",
     "caseStudySent": "https://beeclue.com/case-studies/tara-lattanzio?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-michellene-a-beauchamp-law-office",
     "history": [
@@ -19987,6 +20139,14 @@
         "resendId": "01a0ed5e-7ae1-756b-a8e7-a9ebaf237fd5",
         "status": "delivered",
         "notes": "Initial Day 0 outreach sent to Ontario law practice with no website, quoting $19/mo Core plan, Tara Lattanzio proof, and free mockup offer."
+      },
+      {
+        "step": "Day 4",
+        "sentAt": "2026-10-04T00:19:08.518Z",
+        "subject": "Re: A modern web presence for Michellene A. Beauchamp Law Office",
+        "resendId": "01a10447-5e20-7c11-9f81-656de7165dbe",
+        "status": "delivered",
+        "notes": "Day 4-5 follow-up sent quoting $19/mo Core plan, Tara Lattanzio proof, and free 48-hr mockup offer."
       }
     ]
   },
@@ -20000,9 +20160,9 @@
     "location": "Woodstock, ON (9-113 Winniett St., Woodstock, ON N4S 5Z8)",
     "pricingQuoted": "$19/month",
     "initialContactDate": "2026-09-29T13:33:09.459Z",
-    "lastContactDate": "2026-09-29T13:33:09.459Z",
+    "lastContactDate": "2026-10-04T00:19:10.572Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Outreach",
+    "sequenceStep": "Day 4 - Follow-up",
     "diagnosedIssues": "No website (Canadian Law List listing only, Rogers ISP email)",
     "caseStudySent": "https://beeclue.com/case-studies/tara-lattanzio?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-mark-b-innes-barrister",
     "history": [
@@ -20013,6 +20173,14 @@
         "resendId": "01a0ed5e-8385-7058-95be-8d88b8076a5e",
         "status": "delivered",
         "notes": "Initial Day 0 outreach sent to Ontario law practice with no website, quoting $19/mo Core plan, Tara Lattanzio proof, and free mockup offer."
+      },
+      {
+        "step": "Day 4",
+        "sentAt": "2026-10-04T00:19:10.572Z",
+        "subject": "Re: A modern web presence for Mark B. Innes, Barrister",
+        "resendId": "01a10447-6600-7011-ad68-09a0a5f4704a",
+        "status": "delivered",
+        "notes": "Day 4-5 follow-up sent quoting $19/mo Core plan, Tara Lattanzio proof, and free 48-hr mockup offer."
       }
     ]
   },
@@ -20026,9 +20194,9 @@
     "location": "Tillsonburg, ON (37 Harvey St., P.O. Box 397, Stn. Main, Tillsonburg, ON N4G 4H8)",
     "pricingQuoted": "$19/month",
     "initialContactDate": "2026-09-29T13:33:11.714Z",
-    "lastContactDate": "2026-09-29T13:33:11.714Z",
+    "lastContactDate": "2026-10-04T00:19:12.631Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Outreach",
+    "sequenceStep": "Day 4 - Follow-up",
     "diagnosedIssues": "No website (Canadian Law List listing only, Execulink ISP email)",
     "caseStudySent": "https://beeclue.com/case-studies/tara-lattanzio?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-dennis-odorjan-law-firm",
     "history": [
@@ -20039,6 +20207,14 @@
         "resendId": "01a0ed5e-8c5a-76db-82cc-8014571ae4bd",
         "status": "delivered",
         "notes": "Initial Day 0 outreach sent to Ontario law practice with no website, quoting $19/mo Core plan, Tara Lattanzio proof, and free mockup offer."
+      },
+      {
+        "step": "Day 4",
+        "sentAt": "2026-10-04T00:19:12.631Z",
+        "subject": "Re: A modern web presence for Dennis Odorjan Law Firm",
+        "resendId": "01a10447-6e32-7e76-ade3-183e147213f9",
+        "status": "delivered",
+        "notes": "Day 4-5 follow-up sent quoting $19/mo Core plan, Tara Lattanzio proof, and free 48-hr mockup offer."
       }
     ]
   },
@@ -20052,9 +20228,9 @@
     "location": "Brantford, ON (119 Brant Avenue, P.O. Box 691, Brantford, ON N3T 3H5)",
     "pricingQuoted": "$19/month",
     "initialContactDate": "2026-09-29T13:33:13.918Z",
-    "lastContactDate": "2026-09-29T13:33:13.918Z",
+    "lastContactDate": "2026-10-04T00:19:14.677Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Outreach",
+    "sequenceStep": "Day 4 - Follow-up",
     "diagnosedIssues": "No website (inactive domain stanzliklaw.ca with no web host, Bellnet ISP email)",
     "caseStudySent": "https://beeclue.com/case-studies/tara-lattanzio?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-shelley-m-stanzlik-barrister-solicitor",
     "history": [
@@ -20065,6 +20241,14 @@
         "resendId": "01a0ed5e-94f0-72d4-8eb0-497f7b4065ae",
         "status": "delivered",
         "notes": "Initial Day 0 outreach sent to Ontario law practice with no website, quoting $19/mo Core plan, Tara Lattanzio proof, and free mockup offer."
+      },
+      {
+        "step": "Day 4",
+        "sentAt": "2026-10-04T00:19:14.677Z",
+        "subject": "Re: A modern web presence for Shelley M. Stanzlik, Barrister & Solicitor",
+        "resendId": "01a10447-7633-711d-ada6-eefa450facbb",
+        "status": "delivered",
+        "notes": "Day 4-5 follow-up sent quoting $19/mo Core plan, Tara Lattanzio proof, and free 48-hr mockup offer."
       }
     ]
   },
@@ -20078,9 +20262,9 @@
     "location": "Ohsweken / Six Nations, ON (1569 Chiefswood Rd., Ohsweken, ON N0A 1M0)",
     "pricingQuoted": "$19/month",
     "initialContactDate": "2026-09-29T13:33:16.163Z",
-    "lastContactDate": "2026-09-29T13:33:16.163Z",
+    "lastContactDate": "2026-10-04T00:19:16.670Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Outreach",
+    "sequenceStep": "Day 4 - Follow-up",
     "diagnosedIssues": "No website (Advocates Society directory listing only, Bellnet ISP email)",
     "caseStudySent": "https://beeclue.com/case-studies/tara-lattanzio?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-kathleen-lickers-barrister-solicitor",
     "history": [
@@ -20091,6 +20275,14 @@
         "resendId": "01a0ed5e-9db4-723f-9e4d-a8a768146848",
         "status": "delivered",
         "notes": "Initial Day 0 outreach sent to Ontario law practice with no website, quoting $19/mo Core plan, Tara Lattanzio proof, and free mockup offer."
+      },
+      {
+        "step": "Day 4",
+        "sentAt": "2026-10-04T00:19:16.670Z",
+        "subject": "Re: A modern web presence for Kathleen Lickers, Barrister & Solicitor",
+        "resendId": "01a10447-7df8-7922-92b3-6063b81ee784",
+        "status": "delivered",
+        "notes": "Day 4-5 follow-up sent quoting $19/mo Core plan, Tara Lattanzio proof, and free 48-hr mockup offer."
       }
     ]
   },
@@ -20104,9 +20296,9 @@
     "location": "Brantford, ON (397 Colborne St., Brantford, ON N3S 3N4)",
     "pricingQuoted": "$19/month",
     "initialContactDate": "2026-09-29T13:33:18.367Z",
-    "lastContactDate": "2026-09-29T13:33:18.367Z",
+    "lastContactDate": "2026-10-04T00:19:18.662Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Outreach",
+    "sequenceStep": "Day 4 - Follow-up",
     "diagnosedIssues": "No website (domain mcd-law.ca used for email only, Canadian Law List)",
     "caseStudySent": "https://beeclue.com/case-studies/tara-lattanzio?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-m-cristina-difelice-barrister-solicitor",
     "history": [
@@ -20117,6 +20309,14 @@
         "resendId": "01a0ed5e-a64b-7669-85bc-0790f3b27fa8",
         "status": "delivered",
         "notes": "Initial Day 0 outreach sent to Ontario law practice with no website, quoting $19/mo Core plan, Tara Lattanzio proof, and free mockup offer."
+      },
+      {
+        "step": "Day 4",
+        "sentAt": "2026-10-04T00:19:18.662Z",
+        "subject": "Re: A modern web presence for M. Cristina DiFelice, Barrister & Solicitor",
+        "resendId": "01a10447-85c4-7ed1-bc2d-f1f613cdddf1",
+        "status": "delivered",
+        "notes": "Day 4-5 follow-up sent quoting $19/mo Core plan, Tara Lattanzio proof, and free 48-hr mockup offer."
       }
     ]
   },
@@ -20130,9 +20330,9 @@
     "location": "Brantford, ON (126 Mount Pleasant St, Brantford, ON N3T 1T3)",
     "pricingQuoted": "$19/month",
     "initialContactDate": "2026-09-29T13:33:20.708Z",
-    "lastContactDate": "2026-09-29T13:33:20.708Z",
+    "lastContactDate": "2026-10-04T00:19:20.658Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Outreach",
+    "sequenceStep": "Day 4 - Follow-up",
     "diagnosedIssues": "No website (Canadian Law List & YellowPages listing only, Rogers ISP email)",
     "caseStudySent": "https://beeclue.com/case-studies/tara-lattanzio?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-jean-diab-barrister-solicitor",
     "history": [
@@ -20143,6 +20343,14 @@
         "resendId": "01a0ed5e-af3c-7aec-b542-f51fffa5842f",
         "status": "delivered",
         "notes": "Initial Day 0 outreach sent to Ontario law practice with no website, quoting $19/mo Core plan, Tara Lattanzio proof, and free mockup offer."
+      },
+      {
+        "step": "Day 4",
+        "sentAt": "2026-10-04T00:19:20.658Z",
+        "subject": "Re: A modern web presence for Jean Diab, Barrister & Solicitor",
+        "resendId": "01a10447-8d87-721d-9208-ff971dc2700d",
+        "status": "delivered",
+        "notes": "Day 4-5 follow-up sent quoting $19/mo Core plan, Tara Lattanzio proof, and free 48-hr mockup offer."
       }
     ]
   },
@@ -20156,9 +20364,9 @@
     "location": "Port Dover, ON (725 Main St., P.O. Box 610, Port Dover, ON N0A 1N0)",
     "pricingQuoted": "$19/month",
     "initialContactDate": "2026-09-29T13:33:22.979Z",
-    "lastContactDate": "2026-09-29T13:33:22.979Z",
+    "lastContactDate": "2026-10-04T00:19:22.653Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Outreach",
+    "sequenceStep": "Day 4 - Follow-up",
     "diagnosedIssues": "No website (Norfolk Law Association & Canadian Law List listing only, Gmail)",
     "caseStudySent": "https://beeclue.com/case-studies/tara-lattanzio?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-stahl-bowyer",
     "history": [
@@ -20169,6 +20377,14 @@
         "resendId": "01a0ed5e-b858-77ae-8f04-270d97d40d57",
         "status": "delivered",
         "notes": "Initial Day 0 outreach sent to Ontario law practice with no website, quoting $19/mo Core plan, Tara Lattanzio proof, and free mockup offer."
+      },
+      {
+        "step": "Day 4",
+        "sentAt": "2026-10-04T00:19:22.653Z",
+        "subject": "Re: A modern web presence for Stahl & Bowyer",
+        "resendId": "01a10447-955a-79ea-923e-b23df75b7cd8",
+        "status": "delivered",
+        "notes": "Day 4-5 follow-up sent quoting $19/mo Core plan, Tara Lattanzio proof, and free 48-hr mockup offer."
       }
     ]
   },
@@ -20182,9 +20398,9 @@
     "location": "Dunnville, ON (117 Queen Street, Dunnville, ON N1A 1H6)",
     "pricingQuoted": "$19/month",
     "initialContactDate": "2026-09-29T13:33:25.187Z",
-    "lastContactDate": "2026-09-29T13:33:25.187Z",
+    "lastContactDate": "2026-10-04T00:19:24.690Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Outreach",
+    "sequenceStep": "Day 4 - Follow-up",
     "diagnosedIssues": "No website (inactive domain yhlaw.ca with no web host, Canadian Law List)",
     "caseStudySent": "https://beeclue.com/case-studies/tara-lattanzio?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-yanch-hilliard-llp",
     "history": [
@@ -20195,6 +20411,14 @@
         "resendId": "01a0ed5e-c0dd-77f5-9367-b427b4b4c67d",
         "status": "delivered",
         "notes": "Initial Day 0 outreach sent to Ontario law practice with no website, quoting $19/mo Core plan, Tara Lattanzio proof, and free mockup offer."
+      },
+      {
+        "step": "Day 4",
+        "sentAt": "2026-10-04T00:19:24.690Z",
+        "subject": "Re: A modern web presence for Yanch & Hilliard LLP",
+        "resendId": "01a10447-9d4a-7699-a83d-9c109cb50a3b",
+        "status": "delivered",
+        "notes": "Day 4-5 follow-up sent quoting $19/mo Core plan, Tara Lattanzio proof, and free 48-hr mockup offer."
       }
     ]
   },
@@ -20208,9 +20432,9 @@
     "location": "Dunnville, ON (30 Pine Meadow Crt., Dunnville, ON N1A 3G3)",
     "pricingQuoted": "$19/month",
     "initialContactDate": "2026-09-29T13:33:27.376Z",
-    "lastContactDate": "2026-09-29T13:33:27.376Z",
+    "lastContactDate": "2026-10-04T00:19:26.739Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Outreach",
+    "sequenceStep": "Day 4 - Follow-up",
     "diagnosedIssues": "No website (Canadian Law List listing only, Sympatico ISP email)",
     "caseStudySent": "https://beeclue.com/case-studies/tara-lattanzio?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-h-e-walker-mcquatty-barrister-solicitor",
     "history": [
@@ -20221,6 +20445,14 @@
         "resendId": "01a0ed5e-c98c-739b-b327-1244e884e3c4",
         "status": "delivered",
         "notes": "Initial Day 0 outreach sent to Ontario law practice with no website, quoting $19/mo Core plan, Tara Lattanzio proof, and free mockup offer."
+      },
+      {
+        "step": "Day 4",
+        "sentAt": "2026-10-04T00:19:26.739Z",
+        "subject": "Re: A modern web presence for H. E. Walker McQuatty, Barrister & Solicitor",
+        "resendId": "01a10447-a552-7459-ac57-e34699b1e0d0",
+        "status": "delivered",
+        "notes": "Day 4-5 follow-up sent quoting $19/mo Core plan, Tara Lattanzio proof, and free 48-hr mockup offer."
       }
     ]
   },
@@ -20234,9 +20466,9 @@
     "location": "Orangeville, ON (28 First Ave., Orangeville, ON L9W 1H8)",
     "pricingQuoted": "$19/month",
     "initialContactDate": "2026-09-29T13:33:29.549Z",
-    "lastContactDate": "2026-09-29T13:33:29.549Z",
+    "lastContactDate": "2026-10-04T00:19:28.729Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Outreach",
+    "sequenceStep": "Day 4 - Follow-up",
     "diagnosedIssues": "No website (Dufferin County Law Association listing only, Rogers ISP email)",
     "caseStudySent": "https://beeclue.com/case-studies/tara-lattanzio?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-church-fitzpatrick",
     "history": [
@@ -20247,6 +20479,14 @@
         "resendId": "01a0ed5e-d20a-7868-b032-f559def40acf",
         "status": "delivered",
         "notes": "Initial Day 0 outreach sent to Ontario law practice with no website, quoting $19/mo Core plan, Tara Lattanzio proof, and free mockup offer."
+      },
+      {
+        "step": "Day 4",
+        "sentAt": "2026-10-04T00:19:28.729Z",
+        "subject": "Re: A modern web presence for Church & Fitzpatrick",
+        "resendId": "01a10447-ad18-703f-b99e-ef810ff3bb80",
+        "status": "delivered",
+        "notes": "Day 4-5 follow-up sent quoting $19/mo Core plan, Tara Lattanzio proof, and free 48-hr mockup offer."
       }
     ]
   },
@@ -20260,9 +20500,9 @@
     "location": "Orangeville, ON (200 Zina Street, Orangeville, ON L9W 1G1)",
     "pricingQuoted": "$19/month",
     "initialContactDate": "2026-09-29T13:33:31.762Z",
-    "lastContactDate": "2026-09-29T13:33:31.762Z",
+    "lastContactDate": "2026-10-04T00:19:30.717Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Outreach",
+    "sequenceStep": "Day 4 - Follow-up",
     "diagnosedIssues": "No website (Dufferin County Law Association listing only, Sympatico ISP email)",
     "caseStudySent": "https://beeclue.com/case-studies/tara-lattanzio?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-lynda-c-lamb-law-offices",
     "history": [
@@ -20273,6 +20513,14 @@
         "resendId": "01a0ed5e-daa4-738a-9f0b-2786c078de12",
         "status": "delivered",
         "notes": "Initial Day 0 outreach sent to Ontario law practice with no website, quoting $19/mo Core plan, Tara Lattanzio proof, and free mockup offer."
+      },
+      {
+        "step": "Day 4",
+        "sentAt": "2026-10-04T00:19:30.717Z",
+        "subject": "Re: A modern web presence for Lynda C. Lamb, Law Offices",
+        "resendId": "01a10447-b4dd-7ea6-a2f7-df94a16df6fa",
+        "status": "delivered",
+        "notes": "Day 4-5 follow-up sent quoting $19/mo Core plan, Tara Lattanzio proof, and free 48-hr mockup offer."
       }
     ]
   },
@@ -20286,9 +20534,9 @@
     "location": "Orangeville, ON (34 First Avenue, Orangeville, ON L9W 1H8)",
     "pricingQuoted": "$19/month",
     "initialContactDate": "2026-09-29T13:33:34.020Z",
-    "lastContactDate": "2026-09-29T13:33:34.020Z",
+    "lastContactDate": "2026-10-04T00:19:32.708Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Outreach",
+    "sequenceStep": "Day 4 - Follow-up",
     "diagnosedIssues": "No website (Dufferin County Law Association listing only, Bellnet ISP email)",
     "caseStudySent": "https://beeclue.com/case-studies/tara-lattanzio?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-huber-and-heersche",
     "history": [
@@ -20299,6 +20547,14 @@
         "resendId": "01a0ed5e-e34b-72d8-b4dc-cd59aca674b0",
         "status": "delivered",
         "notes": "Initial Day 0 outreach sent to Ontario law practice with no website, quoting $19/mo Core plan, Tara Lattanzio proof, and free mockup offer."
+      },
+      {
+        "step": "Day 4",
+        "sentAt": "2026-10-04T00:19:32.708Z",
+        "subject": "Re: A modern web presence for Huber and Heersche",
+        "resendId": "01a10447-bc9b-7c97-a04b-71df69a3b247",
+        "status": "delivered",
+        "notes": "Day 4-5 follow-up sent quoting $19/mo Core plan, Tara Lattanzio proof, and free 48-hr mockup offer."
       }
     ]
   },
@@ -20312,9 +20568,9 @@
     "location": "Orangeville, ON (12 First Avenue, Orangeville, ON L9W 1H8)",
     "pricingQuoted": "$19/month",
     "initialContactDate": "2026-09-29T13:33:36.239Z",
-    "lastContactDate": "2026-09-29T13:33:36.239Z",
+    "lastContactDate": "2026-10-04T00:19:34.709Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Outreach",
+    "sequenceStep": "Day 4 - Follow-up",
     "diagnosedIssues": "No website (inactive domain hornsethlaw.ca, Bellnet ISP email, DCLA)",
     "caseStudySent": "https://beeclue.com/case-studies/tara-lattanzio?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-margot-l-hornseth-barrister-solicitor",
     "history": [
@@ -20325,6 +20581,14 @@
         "resendId": "01a0ed5e-ec0e-779e-b353-04ffae85f1b9",
         "status": "delivered",
         "notes": "Initial Day 0 outreach sent to Ontario law practice with no website, quoting $19/mo Core plan, Tara Lattanzio proof, and free mockup offer."
+      },
+      {
+        "step": "Day 4",
+        "sentAt": "2026-10-04T00:19:34.709Z",
+        "subject": "Re: A modern web presence for Margot L. Hornseth, Barrister & Solicitor",
+        "resendId": "01a10447-c45f-796a-8e26-e0d6461e657e",
+        "status": "delivered",
+        "notes": "Day 4-5 follow-up sent quoting $19/mo Core plan, Tara Lattanzio proof, and free 48-hr mockup offer."
       }
     ]
   },
@@ -20338,9 +20602,9 @@
     "location": "Shelburne, ON (305 Owen Sound Street, P.O. Box 700, Shelburne, ON L9V 2W9)",
     "pricingQuoted": "$19/month",
     "initialContactDate": "2026-09-29T13:33:38.454Z",
-    "lastContactDate": "2026-09-29T13:33:38.454Z",
+    "lastContactDate": "2026-10-04T00:19:36.734Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Outreach",
+    "sequenceStep": "Day 4 - Follow-up",
     "diagnosedIssues": "No active website (domain shelburnelaw.ca placeholder, Canadian Law List)",
     "caseStudySent": "https://beeclue.com/case-studies/tara-lattanzio?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-timmerman-haskell-mills-llp",
     "history": [
@@ -20351,6 +20615,14 @@
         "resendId": "01a0ed5e-f4b8-749c-a4db-8d11a8d99f21",
         "status": "delivered",
         "notes": "Initial Day 0 outreach sent to Ontario law practice with no website, quoting $19/mo Core plan, Tara Lattanzio proof, and free mockup offer."
+      },
+      {
+        "step": "Day 4",
+        "sentAt": "2026-10-04T00:19:36.734Z",
+        "subject": "Re: A modern web presence for Timmerman, Haskell & Mills LLP",
+        "resendId": "01a10447-cc60-7969-ac08-5063b569dc76",
+        "status": "delivered",
+        "notes": "Day 4-5 follow-up sent quoting $19/mo Core plan, Tara Lattanzio proof, and free 48-hr mockup offer."
       }
     ]
   },
@@ -20364,9 +20636,9 @@
     "location": "Acton, ON (67 Mill St. E., Acton, ON L7J 1H4)",
     "pricingQuoted": "$19/month",
     "initialContactDate": "2026-09-29T13:33:40.747Z",
-    "lastContactDate": "2026-09-29T13:33:40.747Z",
+    "lastContactDate": "2026-10-04T00:19:38.797Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Outreach",
+    "sequenceStep": "Day 4 - Follow-up",
     "diagnosedIssues": "No website (Downtown Acton BIA & Halton Hills Chamber listing only, Gmail)",
     "caseStudySent": "https://beeclue.com/case-studies/tara-lattanzio?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-ronald-k-henry-law-firm",
     "history": [
@@ -20377,6 +20649,14 @@
         "resendId": "01a0ed5e-fdb8-733d-8a72-11066c36ad16",
         "status": "delivered",
         "notes": "Initial Day 0 outreach sent to Ontario law practice with no website, quoting $19/mo Core plan, Tara Lattanzio proof, and free mockup offer."
+      },
+      {
+        "step": "Day 4",
+        "sentAt": "2026-10-04T00:19:38.797Z",
+        "subject": "Re: A modern web presence for Ronald K. Henry Law Firm",
+        "resendId": "01a10447-d468-7d58-9afd-c5604b00a82f",
+        "status": "delivered",
+        "notes": "Day 4-5 follow-up sent quoting $19/mo Core plan, Tara Lattanzio proof, and free 48-hr mockup offer."
       }
     ]
   },
