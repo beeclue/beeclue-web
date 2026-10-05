@@ -1,0 +1,154 @@
+[
+  {
+    "slug": "the-systems-witch",
+    "firmName": "The Systems Witch",
+    "email": "crystal@thesystemswitch.com",
+    "status": "delivered",
+    "resendId": "01a10cdf-ef86-71c0-a4d1-7c8412e36d06",
+    "sentAt": "2026-10-05T16:22:44.763Z"
+  },
+  {
+    "slug": "keizer-virtual-solutions",
+    "firmName": "Keizer Virtual Solutions",
+    "email": "victoria@victoriadekeizer.com",
+    "status": "delivered",
+    "resendId": "01a10cdf-f8db-757d-8ff1-b7e435c98509",
+    "sentAt": "2026-10-05T16:22:44.763Z"
+  },
+  {
+    "slug": "the-virtual-solution",
+    "firmName": "The Virtual Solution",
+    "email": "lisa@thevirtualsolution.com",
+    "status": "delivered",
+    "resendId": "01a10ce0-01eb-702b-9081-63eca4ba4d11",
+    "sentAt": "2026-10-05T16:22:44.763Z"
+  },
+  {
+    "slug": "teresa-passey-virtual-solutions",
+    "firmName": "Teresa Passey Virtual Solutions",
+    "email": "teresa@teresapassey.com",
+    "status": "delivered",
+    "resendId": "01a10ce0-0aef-7659-9c72-3a73f81354de",
+    "sentAt": "2026-10-05T16:22:44.763Z"
+  },
+  {
+    "slug": "northland-fractional",
+    "firmName": "Northland Fractional",
+    "email": "patrick@northlandfractional.com",
+    "status": "delivered",
+    "resendId": "01a10ce0-1406-7576-acb4-2a8cabbbe9c6",
+    "sentAt": "2026-10-05T16:22:44.763Z"
+  },
+  {
+    "slug": "john-gauch-operating-partner",
+    "firmName": "John Gauch Operating Partner",
+    "email": "john@johngauch.com",
+    "status": "delivered",
+    "resendId": "01a10ce0-1d18-7260-97d5-abce11627648",
+    "sentAt": "2026-10-05T16:22:44.763Z"
+  },
+  {
+    "slug": "ae-operations-consulting",
+    "firmName": "AE Operations Consulting",
+    "email": "adrienne@aeoperationsconsulting.com",
+    "status": "delivered",
+    "resendId": "01a10ce0-272a-79c9-bb13-67de2071a773",
+    "sentAt": "2026-10-05T16:22:44.763Z"
+  },
+  {
+    "slug": "xny-agency",
+    "firmName": "XnY Agency",
+    "email": "tim@xny.agency",
+    "status": "delivered",
+    "resendId": "01a10ce0-3164-7557-a196-57f05702afef",
+    "sentAt": "2026-10-05T16:22:44.763Z"
+  },
+  {
+    "slug": "straza-consulting",
+    "firmName": "Straza Consulting",
+    "email": "michael@consultstraza.com",
+    "status": "delivered",
+    "resendId": "01a10ce0-3ac8-763a-9318-630678acc23b",
+    "sentAt": "2026-10-05T16:22:44.763Z"
+  },
+  {
+    "slug": "swim-operations",
+    "firmName": "SWIM",
+    "email": "lindsay@swimorswim.com",
+    "status": "delivered",
+    "resendId": "01a10ce0-43eb-7e15-b5cf-56c63c882c08",
+    "sentAt": "2026-10-05T16:22:44.763Z"
+  },
+  {
+    "slug": "business-success-consulting-group",
+    "firmName": "Business Success Consulting Group",
+    "email": "adi@BizSuccessCG.com",
+    "status": "delivered",
+    "resendId": "01a10ce0-4d44-757c-9026-fe9e025476e1",
+    "sentAt": "2026-10-05T16:22:44.763Z"
+  },
+  {
+    "slug": "camilla-bignell-consulting",
+    "firmName": "Camilla Bignell Consulting",
+    "email": "Camilla@CamillaBignell.com",
+    "status": "delivered",
+    "resendId": "01a10ce0-566f-7366-92cc-e02f777fe062",
+    "sentAt": "2026-10-05T16:22:44.763Z"
+  },
+  {
+    "slug": "anchor-and-joy-consulting",
+    "firmName": "Anchor & Joy Consulting",
+    "email": "danielle@anchorandjoy.com",
+    "status": "delivered",
+    "resendId": "01a10ce0-5fe4-730a-88bc-da1b5c5ff267",
+    "sentAt": "2026-10-05T16:22:44.763Z"
+  },
+  {
+    "slug": "healthy-business-manager",
+    "firmName": "Healthy Business Manager",
+    "email": "Carol@healthybusinessmanager.com",
+    "status": "delivered",
+    "resendId": "01a10ce0-68ed-7eba-9fbc-130819f4f6f8",
+    "sentAt": "2026-10-05T16:22:44.763Z"
+  },
+  {
+    "slug": "blue-monarch-management",
+    "firmName": "Blue Monarch Management",
+    "email": "zakeana.reid@bluemonarch.ca",
+    "status": "delivered",
+    "resendId": "01a10ce0-726b-7e83-8cc6-e83fa0b1f5c1",
+    "sentAt": "2026-10-05T16:22:44.763Z"
+  },
+  {
+    "slug": "garfinkle-growth-partners",
+    "firmName": "Garfinkle Growth Partners Inc.",
+    "email": "lisa@garfinklegrowthpartners.com",
+    "status": "delivered",
+    "resendId": "01a10ce0-7bf3-78b6-9bfd-0aff7f72f90d",
+    "sentAt": "2026-10-05T16:22:44.763Z"
+  },
+  {
+    "slug": "robert-gilbreath-consulting",
+    "firmName": "Robert Gilbreath Executive Consulting",
+    "email": "rg@robertgilbreath.com",
+    "status": "delivered",
+    "resendId": "01a10ce0-851e-7753-b7e1-d7a4288f8465",
+    "sentAt": "2026-10-05T16:22:44.763Z"
+  },
+  {
+    "slug": "denver-fractional-coo",
+    "firmName": "Denver Fractional COO (DFC)",
+    "email": "erin@denverfractionalcoo.com",
+    "status": "delivered",
+    "resendId": "01a10ce0-8f30-7afc-a9b7-a46540a2afcb",
+    "sentAt": "2026-10-05T16:22:44.763Z"
+  },
+  {
+    "slug": "the-champagne-collective",
+    "firmName": "The Champagne Collective",
+    "email": "ashley@champagnecollective.co",
+    "status": "delivered",
+    "resendId": "01a10ce0-98cb-7b23-b23a-ed2d8f2d69d3",
+    "sentAt": "2026-10-05T16:22:44.763Z"
+  }
+]
