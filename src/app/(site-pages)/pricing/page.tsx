@@ -9,7 +9,7 @@ import { ArrowRight, Check, ShieldCheck, Zap, Headphones, Sparkles, Layers, Glob
 
 export const metadata: Metadata = {
   title: "Website Pricing & Managed Packages | Beeclue Tech",
-  description: "Transparent website pricing for Canadian and global businesses. Explore our $79/mo Managed Hosting & Support plan and 3 bespoke premium website packages.",
+  description: "Transparent website pricing for Canadian and global businesses. All premium packages include 1 year of free domain and hosting. Explore our $79/mo ongoing maintenance plan.",
   alternates: {
     canonical: "https://beeclue.com/pricing",
   },
@@ -17,6 +17,7 @@ export const metadata: Metadata = {
     "website pricing canada",
     "web development packages toronto",
     "managed website hosting 79 mo",
+    "free domain and hosting website package",
     "premium website design packages",
     "custom software pricing",
     "ecommerce website cost canada",
@@ -25,7 +26,7 @@ export const metadata: Metadata = {
   ],
   openGraph: {
     title: "Website Pricing & Managed Packages | Beeclue Tech",
-    description: "Explore transparent pricing for modern high-performance websites. Choose managed hosting and support for $79/mo, or full-service Premium Growth, E-Commerce, and Bespoke Architecture packages.",
+    description: "Explore transparent pricing for modern high-performance websites. All packages bundle 1 year of free domain and cloud hosting. Ongoing care at $79/mo.",
     url: "https://beeclue.com/pricing",
   },
 };
@@ -35,7 +36,7 @@ export default function PricingPage() {
     "@context": "https://schema.org",
     "@type": "Product",
     "name": "Beeclue Managed Web Services & Premium Website Packages",
-    "description": "High-performance Next.js and headless website packages with managed cloud hosting, ongoing support, and complete SEO/GEO optimization.",
+    "description": "High-performance Next.js and headless website packages with 1 year of free domain registration and 1 year of free high-speed cloud hosting, followed by our $79/mo ongoing maintenance plan.",
     "brand": {
       "@type": "Brand",
       "name": "Beeclue Tech"
@@ -43,7 +44,28 @@ export default function PricingPage() {
     "offers": [
       {
         "@type": "Offer",
-        "name": "Managed Hosting & Support",
+        "name": "Premium Core Site",
+        "price": "2499.00",
+        "priceCurrency": "USD",
+        "description": "Custom Next.js website for boutique service firms and solo practitioners. Includes 1 Year Free Domain + 1 Year Free Cloud Hosting, sub-second page loads, and local SEO foundation."
+      },
+      {
+        "@type": "Offer",
+        "name": "Premium Growth & Scale",
+        "price": "4499.00",
+        "priceCurrency": "USD",
+        "description": "Full-funnel digital architecture with automated client intake, multi-location CMS, Schema.org AI/GEO optimization. Includes 1 Year Free Domain + 1 Year Free Cloud Hosting."
+      },
+      {
+        "@type": "Offer",
+        "name": "Enterprise & Custom E-Commerce",
+        "price": "7999.00",
+        "priceCurrency": "USD",
+        "description": "Bespoke headless Shopify or WooCommerce architecture, multi-currency catalogs, and conversational AI shopping agent. Includes 1 Year Free Domain + 1 Year Free Cloud Hosting."
+      },
+      {
+        "@type": "Offer",
+        "name": "Managed Hosting & Support (Year 2 Renewal)",
         "price": "79.00",
         "priceCurrency": "USD",
         "priceSpecification": {
@@ -52,28 +74,7 @@ export default function PricingPage() {
           "priceCurrency": "USD",
           "unitText": "MONTH"
         },
-        "description": "Enterprise cloud hosting, continuous security patches, daily backups, 2 hours of monthly content updates, and priority developer support."
-      },
-      {
-        "@type": "Offer",
-        "name": "Premium Core Site",
-        "price": "2499.00",
-        "priceCurrency": "USD",
-        "description": "Custom Next.js high-speed website for boutique service firms, attorneys, and healthcare practices with sub-second page loads."
-      },
-      {
-        "@type": "Offer",
-        "name": "Premium Growth & Scale",
-        "price": "4499.00",
-        "priceCurrency": "USD",
-        "description": "Full-funnel digital architecture with automated client intake, multi-location CMS, Schema.org AI/GEO optimization, and custom CRM integrations."
-      },
-      {
-        "@type": "Offer",
-        "name": "Enterprise & Custom E-Commerce",
-        "price": "7999.00",
-        "priceCurrency": "USD",
-        "description": "Bespoke headless Shopify or WooCommerce architecture, complex multi-currency catalogs, custom API pipelines, and dedicated software architecture."
+        "description": "Enterprise cloud hosting, continuous security patches, daily backups, 2 hours of monthly content updates, and priority developer support starting after Year 1."
       }
     ]
   };
@@ -89,16 +90,20 @@ export default function PricingPage() {
 
   const faqs = [
     {
-      q: "What is included in the $79/mo Managed Hosting & Support plan?",
-      a: "Our $79/month plan provides turnkey peace of mind for businesses with an existing website or looking for continuous engineering care. It includes enterprise-grade global edge hosting on high-speed CDN nodes, automated daily backups with 30-day retention, continuous SSL certificate renewals, DDoS mitigation, uptime monitoring, and 2 hours of dedicated developer content/design adjustments every month."
+      q: "What does 'Free Domain & Free Hosting for 1 Year' include?",
+      a: "Every premium website package (Core, Growth, and Enterprise) includes 1 full year of custom domain registration (.com, .ca, or .org) and 1 full year of enterprise-grade managed cloud hosting on global edge CDN nodes at zero extra cost. We handle DNS setup, SSL certification, and deployment so your website is 100% turnkey."
     },
     {
-      q: "How do your 3 Premium Site Packages work?",
-      a: "Our Premium Site Packages are comprehensive, end-to-end builds designed for businesses that require high-converting visual storytelling and custom engineering. We handle brand discovery, bespoke UI/UX Figma design, full Next.js/headless development, Schema.org structured data, and rigorous speed audits before launch. Once built, clients can pair their site with our $79/mo managed hosting or host on their own infrastructure."
+      q: "What happens after the first year of free hosting and domain?",
+      a: "After your complimentary 12 months, you can seamlessly transition to our $79/month Managed Hosting & Support plan. This covers your ongoing high-speed cloud hosting, daily backups, SSL security, and 2 hours of developer updates every month. Alternatively, because you own 100% of your source code and domain, you are free to export and host independently on your own infrastructure with zero lock-in."
+    },
+    {
+      q: "Can I buy the $79/mo Managed Hosting & Support plan for an existing website?",
+      a: "Yes! If you already have a website built on WordPress, Shopify, Next.js, or another stack and want proactive engineering maintenance, security patches, daily backups, and 2 hours of dedicated developer updates every month, our $79/mo plan is available immediately."
     },
     {
       q: "Are there any hidden fees or contract lock-ins?",
-      a: "No. All our upfront package scopes are fixed-fee deliverables with clearly outlined milestones. The $79/month hosting and maintenance service is billed month-to-month with no long-term lock-in—you own 100% of your codebase, intellectual property, and design assets."
+      a: "No. All our upfront package scopes are fixed-fee deliverables with clearly outlined milestones. The optional $79/month hosting and maintenance service is billed month-to-month with no long-term contracts—you maintain complete ownership of your intellectual property, code, and design assets."
     },
     {
       q: "Can you migrate our existing WordPress, Wix, or Squarespace site?",
@@ -161,6 +166,14 @@ export default function PricingPage() {
             <ul className={pricingStyles.featuresList}>
               <li className={pricingStyles.featureItem}>
                 <Check size={18} className={pricingStyles.featureIcon} />
+                <span><strong>Free Custom Domain for 1 Year</strong> (.com, .ca, or .org included)</span>
+              </li>
+              <li className={pricingStyles.featureItem}>
+                <Check size={18} className={pricingStyles.featureIcon} />
+                <span><strong>Free Managed Edge Hosting for 1 Year</strong> (Zero hosting fees in Year 1)</span>
+              </li>
+              <li className={pricingStyles.featureItem}>
+                <Check size={18} className={pricingStyles.featureIcon} />
                 <span><strong>Bespoke Next.js Architecture</strong> (Up to 6 custom designed pages)</span>
               </li>
               <li className={pricingStyles.featureItem}>
@@ -181,7 +194,7 @@ export default function PricingPage() {
               </li>
               <li className={pricingStyles.featureItem}>
                 <Check size={18} className={pricingStyles.featureIcon} />
-                <span><strong>Includes 30 Days of Post-Launch Warranty</strong> &amp; developer onboarding</span>
+                <span><strong>Includes 30 Days Post-Launch Warranty</strong> &amp; developer onboarding</span>
               </li>
             </ul>
 
@@ -213,6 +226,14 @@ export default function PricingPage() {
             </div>
 
             <ul className={pricingStyles.featuresList}>
+              <li className={pricingStyles.featureItem}>
+                <Check size={18} className={pricingStyles.featureIcon} />
+                <span><strong>Free Custom Domain for 1 Year</strong> (.com, .ca, or .org included)</span>
+              </li>
+              <li className={pricingStyles.featureItem}>
+                <Check size={18} className={pricingStyles.featureIcon} />
+                <span><strong>Free Managed Edge Hosting for 1 Year</strong> (Zero hosting fees in Year 1)</span>
+              </li>
               <li className={pricingStyles.featureItem}>
                 <Check size={18} className={pricingStyles.featureIcon} />
                 <span><strong>Full Custom Architecture</strong> (Up to 15 responsive pages &amp; service silos)</span>
@@ -267,6 +288,14 @@ export default function PricingPage() {
             <ul className={pricingStyles.featuresList}>
               <li className={pricingStyles.featureItem}>
                 <Check size={18} className={pricingStyles.featureIcon} />
+                <span><strong>Free Custom Domain for 1 Year</strong> + DNS routing configuration</span>
+              </li>
+              <li className={pricingStyles.featureItem}>
+                <Check size={18} className={pricingStyles.featureIcon} />
+                <span><strong>Free Managed Edge Hosting for 1 Year</strong> (Enterprise CDN tier)</span>
+              </li>
+              <li className={pricingStyles.featureItem}>
+                <Check size={18} className={pricingStyles.featureIcon} />
                 <span><strong>Headless Shopify or Custom WooCommerce</strong> development</span>
               </li>
               <li className={pricingStyles.featureItem}>
@@ -303,9 +332,9 @@ export default function PricingPage() {
         {/* ONE-LINER FOR MANAGED HOSTING & SUPPORT */}
         <div className={pricingStyles.hostingBar}>
           <div className={pricingStyles.hostingBarLeft}>
-            <span className={pricingStyles.hostingBarBadge}>Ongoing Care</span>
+            <span className={pricingStyles.hostingBarBadge}>1 Year Included</span>
             <div className={pricingStyles.hostingBarText}>
-              Need managed cloud hosting &amp; developer maintenance for an existing site? <strong>Managed Hosting &amp; Support is just $79/mo</strong> — includes global edge CDN hosting, automated daily backups, continuous SSL security, and 2 hours of monthly developer content updates.
+              All plans include <strong>Free Custom Domain (1 Year)</strong> and <strong>Free Cloud Hosting (1 Year)</strong>. After Year 1 (or for existing websites needing ongoing support), renew on our <strong>$79/mo Managed Hosting &amp; Maintenance</strong> plan — or host independently with zero lock-in.
             </div>
           </div>
           <div className={pricingStyles.hostingBarRight}>
