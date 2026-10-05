@@ -253,3 +253,65 @@
     padding: 2rem 1.5rem;
   }
 }
+
+/* Why Businesses Upgrade 2x2 Feature Grid */
+.upgradeGrid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+  margin-top: 3.5rem;
+}
+
+@media (min-width: 768px) {
+  .upgradeGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.upgradeCard {
+  background: rgba(255, 255, 255, 0.02);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  padding: 2.25rem 2rem;
+  display: flex;
+  flex-direction: column;
+  transition: all 0.25s ease;
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+}
+
+.upgradeCard:hover {
+  border-color: rgba(51, 133, 255, 0.4);
+  transform: translateY(-3px);
+  box-shadow: 0 10px 25px rgba(0, 77, 153, 0.12);
+  background: rgba(255, 255, 255, 0.03);
+}
+
+.upgradeIconWrapper {
+  width: 48px;
+  height: 48px;
+  border-radius: 12px;
+  background: rgba(51, 133, 255, 0.1);
+  border: 1px solid rgba(51, 133, 255, 0.25);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1.25rem;
+  color: var(--primary-light);
+  flex-shrink: 0;
+}
+
+.upgradeTitle {
+  font-size: 1.35rem;
+  font-weight: 600;
+  color: var(--foreground);
+  margin-bottom: 0.75rem;
+}
+
+.upgradeDesc {
+  color: var(--muted);
+  font-size: 0.975rem;
+  line-height: 1.6;
+  margin: 0;
+}
+

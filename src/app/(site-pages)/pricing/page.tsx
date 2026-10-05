@@ -354,43 +354,43 @@ export default function PricingPage() {
           </p>
         </div>
 
-        <div className={styles.valueGrid}>
-          <div className={styles.valueItem}>
-            <div style={{ display: "flex", alignItems: "center", gap: "1rem", marginBottom: "1rem" }}>
-              <Zap size={28} color="var(--primary-light)" />
-              <h3 style={{ fontSize: "1.4rem", margin: 0 }}>Sub-Second Mobile Speeds</h3>
+        <div className={pricingStyles.upgradeGrid}>
+          <div className={pricingStyles.upgradeCard}>
+            <div className={pricingStyles.upgradeIconWrapper}>
+              <Zap size={24} />
             </div>
-            <p>
-              By decoupling code from bulky database queries and compiling pure static HTML via Next.js, our sites load in under 1 second on mobile devices, dramatically lowering ad acquisition costs and bounce rates.
+            <h3 className={pricingStyles.upgradeTitle}>Sub-Second Mobile Speeds</h3>
+            <p className={pricingStyles.upgradeDesc}>
+              By compiling pure static HTML and caching at edge CDN nodes, our websites load in under 1 second on mobile devices, dramatically lowering ad bounce rates and boosting conversions.
             </p>
           </div>
 
-          <div className={styles.valueItem}>
-            <div style={{ display: "flex", alignItems: "center", gap: "1rem", marginBottom: "1rem" }}>
-              <ShieldCheck size={28} color="var(--primary-light)" />
-              <h3 style={{ fontSize: "1.4rem", margin: 0 }}>Impenetrable Security</h3>
+          <div className={pricingStyles.upgradeCard}>
+            <div className={pricingStyles.upgradeIconWrapper}>
+              <ShieldCheck size={24} />
             </div>
-            <p>
-              Traditional CMS platforms suffer from weekly plugin vulnerabilities and database injection risks. Our static and headless web deployments have zero publicly exposed SQL databases, eliminating 99% of web security vulnerabilities.
+            <h3 className={pricingStyles.upgradeTitle}>Impenetrable Security</h3>
+            <p className={pricingStyles.upgradeDesc}>
+              Traditional CMS platforms suffer from weekly plugin vulnerabilities and database injection risks. Our static and decoupled deployments have zero publicly exposed SQL databases, eliminating web security vulnerabilities.
             </p>
           </div>
 
-          <div className={styles.valueItem}>
-            <div style={{ display: "flex", alignItems: "center", gap: "1rem", marginBottom: "1rem" }}>
-              <Globe size={28} color="var(--primary-light)" />
-              <h3 style={{ fontSize: "1.4rem", margin: 0 }}>Built for AI &amp; Voice Search</h3>
+          <div className={pricingStyles.upgradeCard}>
+            <div className={pricingStyles.upgradeIconWrapper}>
+              <Globe size={24} />
             </div>
-            <p>
+            <h3 className={pricingStyles.upgradeTitle}>Built for AI &amp; Voice Search</h3>
+            <p className={pricingStyles.upgradeDesc}>
               We embed complete Schema.org JSON-LD microdata on every page, ensuring your firm is structured for immediate citation by ChatGPT Search, Perplexity AI, Claude, and Google AI Overviews.
             </p>
           </div>
 
-          <div className={styles.valueItem}>
-            <div style={{ display: "flex", alignItems: "center", gap: "1rem", marginBottom: "1rem" }}>
-              <Headphones size={28} color="var(--primary-light)" />
-              <h3 style={{ fontSize: "1.4rem", margin: 0 }}>Direct Senior Engineers</h3>
+          <div className={pricingStyles.upgradeCard}>
+            <div className={pricingStyles.upgradeIconWrapper}>
+              <Headphones size={24} />
             </div>
-            <p>
+            <h3 className={pricingStyles.upgradeTitle}>Direct Senior Engineers</h3>
+            <p className={pricingStyles.upgradeDesc}>
               Zero junior account managers or offshore communication black holes. You collaborate directly with senior full-stack software architects and UI/UX designers who understand commercial conversion rates.
             </p>
           </div>
