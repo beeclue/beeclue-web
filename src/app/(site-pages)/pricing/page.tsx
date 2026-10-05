@@ -174,7 +174,7 @@ export default function PricingPage() {
               </li>
               <li className={pricingStyles.featureItem}>
                 <Check size={18} className={pricingStyles.featureIcon} />
-                <span><strong>Bespoke Custom Web Design</strong> (Up to 6 custom designed pages)</span>
+                <span><strong>Bespoke Custom Web Design</strong> &amp; modern responsive layout</span>
               </li>
               <li className={pricingStyles.featureItem}>
                 <Check size={18} className={pricingStyles.featureIcon} />
@@ -236,7 +236,7 @@ export default function PricingPage() {
               </li>
               <li className={pricingStyles.featureItem}>
                 <Check size={18} className={pricingStyles.featureIcon} />
-                <span><strong>Full Custom Architecture</strong> (Up to 15 responsive pages &amp; service silos)</span>
+                <span><strong>Full Custom Design &amp; Architecture</strong> with dedicated service silos</span>
               </li>
               <li className={pricingStyles.featureItem}>
                 <Check size={18} className={pricingStyles.featureIcon} />
