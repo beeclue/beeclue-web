@@ -3,6 +3,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import blogStyles from '../shared-blog.module.css';
 import BlogAuthorBox from '@/components/BlogAuthorBox';
+import { CheckCircle2 } from 'lucide-react';
 
 export const metadata: Metadata = {
   title: 'Generative Engine Optimization (GEO) for Local Service Businesses: How to Get Recommended by ChatGPT & Perplexity in 2026 | Beeclue',
@@ -466,15 +467,39 @@ export default function GenerativeEngineOptimizationLocalBusinessGuide() {
 
           <div style={{ backgroundColor: 'rgba(255,255,255,0.03)', border: '1px solid rgba(255,255,255,0.1)', borderRadius: '12px', padding: '2rem', margin: '2rem 0' }}>
             <h3 style={{ marginTop: 0 }}>The 8-Point Local GEO Readiness Checklist</h3>
-            <ul style={{ listStyleType: 'none', paddingLeft: 0, lineHeight: '1.8' }}>
-              <li>&check; <strong>1. Instant Raw HTML Delivery:</strong> Can you view page source and read your entire practice description, address, and FAQs without running JavaScript?</li>
-              <li>&check; <strong>2. Granular Schema.org JSON-LD:</strong> Does your site feature valid <code>LegalService</code>, <code>Dentist</code>, or specialized <code>LocalBusiness</code> schema with geo-coordinates and <code>sameAs</code> links?</li>
-              <li>&check; <strong>3. Unambiguous Entity Consistency:</strong> Is your business name, address, and phone number (NAP) 100% identical between your site footer, Google Maps listing, and professional license registry?</li>
-              <li>&check; <strong>4. Structured Conversational FAQs:</strong> Does every core service page answer 4–6 real-world client questions with matching <code>FAQPage</code> schema?</li>
-              <li>&check; <strong>5. Verified Practitioner Bios:</strong> Do your team pages explicitly list alumni credentials, bar/board licensing numbers, and active practice specializations?</li>
-              <li>&check; <strong>6. Zero Template Artifacts:</strong> Has all boilerplate text (e.g., <em>&ldquo;&copy; 2023 by Name of Site&rdquo;</em>, <em>&ldquo;Proudly created with Wix&rdquo;</em>, <code>/blank-page</code> slugs) been permanently eradicated?</li>
-              <li>&check; <strong>7. Factual Transparency:</strong> Do you publish clear guidance on initial consultation procedures, pricing ranges, or intake steps rather than generic marketing claims?</li>
-              <li>&check; <strong>8. Sub-Second TTFB:</strong> Does your website server respond in under 400 milliseconds globally without bloated CMS plugin lag?</li>
+            <ul style={{ listStyleType: 'none', paddingLeft: 0, lineHeight: '1.8', display: 'flex', flexDirection: 'column', gap: '0.85rem' }}>
+              <li style={{ display: 'flex', alignItems: 'flex-start', gap: '0.75rem' }}>
+                <CheckCircle2 size={18} color="var(--primary-light)" style={{ flexShrink: 0, marginTop: '4px' }} />
+                <span><strong>1. Instant Raw HTML Delivery:</strong> Can you view page source and read your entire practice description, address, and FAQs without running JavaScript?</span>
+              </li>
+              <li style={{ display: 'flex', alignItems: 'flex-start', gap: '0.75rem' }}>
+                <CheckCircle2 size={18} color="var(--primary-light)" style={{ flexShrink: 0, marginTop: '4px' }} />
+                <span><strong>2. Granular Schema.org JSON-LD:</strong> Does your site feature valid <code>LegalService</code>, <code>Dentist</code>, or specialized <code>LocalBusiness</code> schema with geo-coordinates and <code>sameAs</code> links?</span>
+              </li>
+              <li style={{ display: 'flex', alignItems: 'flex-start', gap: '0.75rem' }}>
+                <CheckCircle2 size={18} color="var(--primary-light)" style={{ flexShrink: 0, marginTop: '4px' }} />
+                <span><strong>3. Unambiguous Entity Consistency:</strong> Is your business name, address, and phone number (NAP) 100% identical between your site footer, Google Maps listing, and professional license registry?</span>
+              </li>
+              <li style={{ display: 'flex', alignItems: 'flex-start', gap: '0.75rem' }}>
+                <CheckCircle2 size={18} color="var(--primary-light)" style={{ flexShrink: 0, marginTop: '4px' }} />
+                <span><strong>4. Structured Conversational FAQs:</strong> Does every core service page answer 4–6 real-world client questions with matching <code>FAQPage</code> schema?</span>
+              </li>
+              <li style={{ display: 'flex', alignItems: 'flex-start', gap: '0.75rem' }}>
+                <CheckCircle2 size={18} color="var(--primary-light)" style={{ flexShrink: 0, marginTop: '4px' }} />
+                <span><strong>5. Verified Practitioner Bios:</strong> Do your team pages explicitly list alumni credentials, bar/board licensing numbers, and active practice specializations?</span>
+              </li>
+              <li style={{ display: 'flex', alignItems: 'flex-start', gap: '0.75rem' }}>
+                <CheckCircle2 size={18} color="var(--primary-light)" style={{ flexShrink: 0, marginTop: '4px' }} />
+                <span><strong>6. Zero Template Artifacts:</strong> Has all boilerplate text (e.g., <em>&ldquo;&copy; 2023 by Name of Site&rdquo;</em>, <em>&ldquo;Proudly created with Wix&rdquo;</em>, <code>/blank-page</code> slugs) been permanently eradicated?</span>
+              </li>
+              <li style={{ display: 'flex', alignItems: 'flex-start', gap: '0.75rem' }}>
+                <CheckCircle2 size={18} color="var(--primary-light)" style={{ flexShrink: 0, marginTop: '4px' }} />
+                <span><strong>7. Factual Transparency:</strong> Do you publish clear guidance on initial consultation procedures, pricing ranges, or intake steps rather than generic marketing claims?</span>
+              </li>
+              <li style={{ display: 'flex', alignItems: 'flex-start', gap: '0.75rem' }}>
+                <CheckCircle2 size={18} color="var(--primary-light)" style={{ flexShrink: 0, marginTop: '4px' }} />
+                <span><strong>8. Sub-Second TTFB:</strong> Does your website server respond in under 400 milliseconds globally without bloated CMS plugin lag?</span>
+              </li>
             </ul>
           </div>
 

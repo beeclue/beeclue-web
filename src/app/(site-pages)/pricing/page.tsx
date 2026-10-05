@@ -140,62 +140,10 @@ export default function PricingPage() {
       <FadeIn className={styles.baseSection} style={{ paddingTop: "2vh", paddingBottom: "10vh" }}>
         <div className={pricingStyles.pricingGrid}>
 
-          {/* PACKAGE 1: HOSTING & SUPPORT */}
+          {/* PACKAGE 1: PREMIUM CORE */}
           <div className={pricingStyles.pricingCard}>
             <div className={pricingStyles.cardHeader}>
-              <div className={pricingStyles.cardTag}>Managed Operations</div>
-              <h2 className={pricingStyles.cardTitle}>Hosting &amp; Support</h2>
-              <p className={pricingStyles.cardDesc}>
-                Complete engineering oversight, high-speed edge hosting, and monthly site updates for established businesses.
-              </p>
-            </div>
-
-            <div className={pricingStyles.priceWrapper}>
-              <div className={pricingStyles.priceAmount}>
-                <span className={pricingStyles.priceCurrency}>$</span>79
-                <span className={pricingStyles.priceCycle}>/month</span>
-              </div>
-              <div className={pricingStyles.priceMeta}>Month-to-month · Zero contract lock-in</div>
-            </div>
-
-            <ul className={pricingStyles.featuresList}>
-              <li className={pricingStyles.featureItem}>
-                <Check size={18} className={pricingStyles.featureIcon} />
-                <span><strong>High-Speed Edge Cloud Hosting</strong> (Global CDN &amp; sub-second TTFB)</span>
-              </li>
-              <li className={pricingStyles.featureItem}>
-                <Check size={18} className={pricingStyles.featureIcon} />
-                <span><strong>2 Hours Monthly Developer Updates</strong> (Content, layout, and asset changes)</span>
-              </li>
-              <li className={pricingStyles.featureItem}>
-                <Check size={18} className={pricingStyles.featureIcon} />
-                <span><strong>Continuous Security &amp; SSL</strong> (Managed certificates, firewall, DDoS shield)</span>
-              </li>
-              <li className={pricingStyles.featureItem}>
-                <Check size={18} className={pricingStyles.featureIcon} />
-                <span><strong>Daily Automated Cloud Backups</strong> with 30-day restore guarantee</span>
-              </li>
-              <li className={pricingStyles.featureItem}>
-                <Check size={18} className={pricingStyles.featureIcon} />
-                <span><strong>24/7 Uptime &amp; Speed Monitoring</strong> with rapid incident response</span>
-              </li>
-              <li className={pricingStyles.featureItem}>
-                <Check size={18} className={pricingStyles.featureIcon} />
-                <span><strong>Core Web Vitals &amp; Performance Tuning</strong> to prevent speed decay</span>
-              </li>
-            </ul>
-
-            <div className={pricingStyles.cardFooter}>
-              <Link href="/contact?package=hosting-support-79" className={`${pricingStyles.planButton} ${pricingStyles.planButtonSecondary}`}>
-                Get Managed Support <ArrowRight size={16} />
-              </Link>
-            </div>
-          </div>
-
-          {/* PACKAGE 2: PREMIUM CORE */}
-          <div className={pricingStyles.pricingCard}>
-            <div className={pricingStyles.cardHeader}>
-              <div className={pricingStyles.cardTag}>Premium Package 1</div>
+              <div className={pricingStyles.cardTag}>Package 1</div>
               <h2 className={pricingStyles.cardTitle}>Premium Core</h2>
               <p className={pricingStyles.cardDesc}>
                 A high-speed, bespoke web presence built from scratch for solo practitioners and boutique service firms.
@@ -350,6 +298,21 @@ export default function PricingPage() {
             </div>
           </div>
 
+        </div>
+
+        {/* ONE-LINER FOR MANAGED HOSTING & SUPPORT */}
+        <div className={pricingStyles.hostingBar}>
+          <div className={pricingStyles.hostingBarLeft}>
+            <span className={pricingStyles.hostingBarBadge}>Ongoing Care</span>
+            <div className={pricingStyles.hostingBarText}>
+              Need managed cloud hosting &amp; developer maintenance for an existing site? <strong>Managed Hosting &amp; Support is just $79/mo</strong> — includes global edge CDN hosting, automated daily backups, continuous SSL security, and 2 hours of monthly developer content updates.
+            </div>
+          </div>
+          <div className={pricingStyles.hostingBarRight}>
+            <Link href="/contact?package=hosting-support-79" className={`${pricingStyles.planButton} ${pricingStyles.planButtonSecondary}`} style={{ padding: "0.65rem 1.5rem", whiteSpace: "nowrap" }}>
+              Get Hosting &amp; Support <ArrowRight size={15} />
+            </Link>
+          </div>
         </div>
       </FadeIn>
 
