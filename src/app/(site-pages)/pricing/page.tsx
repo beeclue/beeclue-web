@@ -107,7 +107,7 @@ export default function PricingPage() {
     },
     {
       q: "Can you migrate our existing WordPress, Wix, or Squarespace site?",
-      a: "Yes. In fact, a significant portion of our clients come to us specifically to migrate away from slow, bloated visual builders to modern Next.js architecture. We handle content transfer, 301 redirect mapping to protect your existing search rankings, and clean database setup."
+      a: "Yes. In fact, a significant portion of our clients come to us specifically to migrate away from slow, bloated visual builders to modern high-performance web platforms. We handle content transfer, 301 redirect mapping to protect your existing search rankings, and clean database setup."
     },
     {
       q: "How fast can you build and launch a Premium site?",
@@ -174,7 +174,7 @@ export default function PricingPage() {
               </li>
               <li className={pricingStyles.featureItem}>
                 <Check size={18} className={pricingStyles.featureIcon} />
-                <span><strong>Bespoke Next.js Architecture</strong> (Up to 6 custom designed pages)</span>
+                <span><strong>Bespoke Custom Web Design</strong> (Up to 6 custom designed pages)</span>
               </li>
               <li className={pricingStyles.featureItem}>
                 <Check size={18} className={pricingStyles.featureIcon} />
@@ -414,7 +414,7 @@ export default function PricingPage() {
             Need a Custom Quote or Free Interactive Mockup?
           </h2>
           <p style={{ color: "var(--muted)", fontSize: "1.15rem", marginBottom: "2rem", lineHeight: "1.6" }}>
-            Before you commit to any development package, our team will review your current website and create a free 48-hour interactive mobile website preview showing you how your brand looks on modern Next.js architecture.
+            Before you commit to any development package, our team will review your current website and create a free 48-hour interactive mobile website preview showing you how your brand looks with modern custom design and performance.
           </p>
           <div style={{ display: "flex", gap: "1rem", justifyContent: "center", flexWrap: "wrap" }}>
             <Link href="/contact" className={styles.ctaButtonLight} style={{ padding: "0.85rem 2.25rem", fontWeight: 600 }}>
