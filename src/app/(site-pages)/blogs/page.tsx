@@ -33,6 +33,30 @@ export default function BlogsPage() {
       {/* BLOGS LIST */}
       <FadeIn className={styles.baseSection} style={{ paddingTop: "5vh" }}>
         <div className={styles.caseStudyList}>
+          {/* BLOG: GENERATIVE ENGINE OPTIMIZATION (GEO) FOR LOCAL SERVICE BUSINESSES */}
+          <div className={styles.caseStudyListItem}>
+            <div className={styles.caseStudyListImage} style={{ position: "relative" }}>
+              <Image
+                src="https://images.unsplash.com/photo-1677442136019-21780ecad995?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=75"
+                alt="Futuristic digital neural network and knowledge graph representing Generative Engine Optimization for local service businesses"
+                fill
+                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                style={{ objectFit: "cover" }}
+              />
+            </div>
+            <div className={styles.caseStudyListContent}>
+              <h2>Generative Engine Optimization (GEO) for Local Service Businesses: How to Get Recommended by ChatGPT &amp; Perplexity in 2026</h2>
+              <p>
+                The comprehensive 2026 blueprint on how local service businesses—law firms, dental practices, healthcare clinics, and contractors—can optimize their web architecture, Schema.org JSON-LD microdata, and entity authority to be directly cited and recommended by conversational AI engines like ChatGPT Search, Perplexity AI, Claude, and Google AI Overviews.
+              </p>
+              <div>
+                <Link href="/generative-engine-optimization-geo-local-business-guide" className={styles.ctaButtonLight}>
+                  Read Article <ArrowRight className={styles.arrow} size={20} />
+                </Link>
+              </div>
+            </div>
+          </div>
+
           {/* BLOG: THE 2026 ONTARIO LAW FIRM WEBSITE PLAYBOOK */}
           <div className={styles.caseStudyListItem}>
             <div className={styles.caseStudyListImage} style={{ position: "relative" }}>

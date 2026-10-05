@@ -114,6 +114,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/law-firm-website-audit-checklist',
     '/best-payment-gateways-canada',
     '/wcag-website-accessibility-compliance-canada',
+    '/generative-engine-optimization-geo-local-business-guide',
   ];
 
   return routes.map((route) => ({
