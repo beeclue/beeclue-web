@@ -212,7 +212,16 @@ Step-by-step guide to fixing the "Not Secure" website warning. Learn what causes
 Detailed comparison of custom website development vs Wix. Covers performance, SEO, scalability, design freedom, ongoing costs, and recommendations by business type to help you make the right choice.
 [Read More](https://beeclue.com/custom-website-vs-wix)
 
+## Pricing & Managed Packages
+URL: https://beeclue.com/pricing
+Beeclue Tech provides transparent, value-driven web development, hosting, and engineering packages designed for businesses demanding sub-second page performance, Schema.org AI/GEO optimization, and zero technical debt:
+- **Managed Hosting & Support ($79/month)**: Turnkey engineering peace of mind for established sites. Includes high-speed global edge cloud hosting, automated daily cloud backups (30-day restore guarantee), SSL maintenance & DDoS mitigation, 24/7 uptime monitoring, Core Web Vitals performance tuning, and 2 hours of dedicated monthly developer updates (content, layout, or design changes) on a month-to-month basis with zero lock-in.
+- **Premium Core Package ($2,499 one-time)**: Bespoke Next.js architecture (up to 6 custom designed pages) for solo practitioners, boutique law practices, and clinics. Features sub-second mobile page loads, high-converting consultation intake funnels, full local SEO foundation, and Schema.org LocalBusiness structured data with a 30-day post-launch warranty.
+- **Premium Growth Package ($4,499 one-time - Most Popular)**: Full-funnel digital authority for growing multi-location practices and commercial contractors. Features custom architecture for up to 15 pages and service silos, Generative Engine Optimization (GEO/AEO) for ChatGPT & Perplexity citations, interactive cost/ROI calculators, CRM integrations (HubSpot, Clio, Dentrix), and 60 days of free managed support included.
+- **Enterprise & E-Commerce Package (Starting at $7,999)**: Custom headless Shopify or WooCommerce architecture, multi-currency catalogs, autonomous conversational AI shopping agent integrations, custom database models, user role authentication, and a dedicated software architect with 90-day SLA warranty.
+
 ## Additional Pages
+- **Pricing & Packages**: Transparent hosting and premium web packages. [https://beeclue.com/pricing]
 - **$19/Month Website Offer**: Special package for startups and small businesses. [https://beeclue.com/19]
 - **Privacy Policy**: [https://beeclue.com/privacy-policy]
 - **Terms and Conditions**: [https://beeclue.com/terms-and-conditions]

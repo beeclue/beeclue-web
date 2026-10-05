@@ -9,6 +9,7 @@ Beeclue Tech is an elite digital development agency located in Toronto, Canada, 
 - [About Us](https://beeclue.com/about-us)
 - [Services](https://beeclue.com/services)
 - [Case Studies](https://beeclue.com/case-studies)
+- [Pricing](https://beeclue.com/pricing)
 - [Blogs](https://beeclue.com/blogs)
 - [Partner Program](https://beeclue.com/partner)
 - [Contact](https://beeclue.com/contact)

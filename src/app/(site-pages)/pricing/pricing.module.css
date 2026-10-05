@@ -1,0 +1,202 @@
+.pricingGrid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+  margin-top: 3rem;
+}
+
+@media (min-width: 768px) {
+  .pricingGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1200px) {
+  .pricingGrid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+.pricingCard {
+  background: rgba(255, 255, 255, 0.02);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  padding: 2.5rem 2rem;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  transition: all 0.3s ease;
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+}
+
+.pricingCard:hover {
+  border-color: rgba(51, 133, 255, 0.4);
+  transform: translateY(-4px);
+  box-shadow: 0 12px 30px rgba(0, 77, 153, 0.15);
+}
+
+.pricingCardPopular {
+  background: linear-gradient(180deg, rgba(51, 133, 255, 0.08) 0%, rgba(5, 5, 5, 0.9) 100%);
+  border: 1px solid rgba(51, 133, 255, 0.5);
+  box-shadow: 0 8px 32px rgba(51, 133, 255, 0.2);
+}
+
+.popularBadge {
+  position: absolute;
+  top: -14px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: var(--primary-light);
+  color: #fff;
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  padding: 0.35rem 1rem;
+  border-radius: 50px;
+  white-space: nowrap;
+}
+
+.cardHeader {
+  margin-bottom: 1.5rem;
+}
+
+.cardTag {
+  color: var(--primary-light);
+  font-size: 0.85rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  margin-bottom: 0.5rem;
+}
+
+.cardTitle {
+  font-size: 1.75rem;
+  font-weight: 600;
+  color: var(--foreground);
+  margin-bottom: 0.75rem;
+}
+
+.cardDesc {
+  color: var(--muted);
+  font-size: 0.95rem;
+  line-height: 1.5;
+  min-height: 2.8rem;
+}
+
+.priceWrapper {
+  margin: 1.5rem 0;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.priceAmount {
+  font-size: clamp(2.5rem, 4vw, 3.25rem);
+  font-weight: 700;
+  font-family: var(--font-outfit);
+  color: var(--foreground);
+  line-height: 1;
+}
+
+.priceCurrency {
+  font-size: 1.25rem;
+  vertical-align: super;
+  margin-right: 0.25rem;
+  color: var(--muted);
+}
+
+.priceCycle {
+  color: var(--muted);
+  font-size: 0.95rem;
+  margin-left: 0.35rem;
+}
+
+.priceMeta {
+  color: var(--primary-light);
+  font-size: 0.85rem;
+  margin-top: 0.5rem;
+  font-weight: 500;
+}
+
+.featuresList {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 2rem 0;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 0.85rem;
+}
+
+.featureItem {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.75rem;
+  color: #e4e4e7;
+  font-size: 0.925rem;
+  line-height: 1.4;
+}
+
+.featureIcon {
+  color: var(--primary-light);
+  flex-shrink: 0;
+  margin-top: 0.15rem;
+}
+
+.cardFooter {
+  margin-top: auto;
+}
+
+.planButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  width: 100%;
+  padding: 0.875rem 1.25rem;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.2s ease;
+  text-align: center;
+}
+
+.planButtonPrimary {
+  background: var(--primary);
+  color: #fff;
+  border: 1px solid var(--primary-light);
+}
+
+.planButtonPrimary:hover {
+  background: var(--primary-light);
+  color: #fff;
+  transform: translateY(-2px);
+}
+
+.planButtonSecondary {
+  background: rgba(255, 255, 255, 0.05);
+  color: var(--foreground);
+  border: 1px solid var(--border);
+}
+
+.planButtonSecondary:hover {
+  background: rgba(255, 255, 255, 0.1);
+  border-color: rgba(255, 255, 255, 0.3);
+  color: #fff;
+}
+
+.hostingComparisonBox {
+  margin-top: 5rem;
+  background: rgba(255, 255, 255, 0.02);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  padding: 3rem 2.5rem;
+}
+
+@media (max-width: 768px) {
+  .hostingComparisonBox {
+    padding: 2rem 1.5rem;
+  }
+}

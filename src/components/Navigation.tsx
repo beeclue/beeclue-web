@@ -25,6 +25,7 @@ const menuLinks = [
     ]
   },
   { name: "Case Studies", href: "/case-studies/" },
+  { name: "Pricing", href: "/pricing" },
   { name: "Blog", href: "/blogs" },
   { name: "About", href: "/about-us/" },
   { name: "Contact", href: "/contact/" },
