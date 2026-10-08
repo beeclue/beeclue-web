@@ -1,0 +1,477 @@
+[
+  {
+    "id": "tamela-heming-heming-law-office",
+    "fullName": "Tamela M. Heming",
+    "firstName": "Tamela",
+    "firm": "Heming Law Office",
+    "town": "Warfordsburg",
+    "state": "PA",
+    "address": "125 Schultz Road, Warfordsburg, PA 17267",
+    "phone": "(717) 294-3014",
+    "email": "tamelaheming@heminglawoffice.com",
+    "website": "https://tmh17267.wixsite.com/heminglawoffice",
+    "practiceAreas": "Estate Planning, Probate, Real Estate Law, Business Law",
+    "diagnosis": {
+      "wixOverhead": "Loads heavy client-side React/Wix parastorage JavaScript bundles on a free Wix subdomain (wixsite.com) without custom domain branding, penalizing mobile Core Web Vitals.",
+      "mobilePerformance": "Significant delay in Largest Contentful Paint (LCP) on mobile networks across Fulton County due to uncompressed script initialization and render-blocking resources.",
+      "localSeoGaps": "Missing structured LegalService JSON-LD schema, missing localized geo-coordinates, and non-canonical wixsite URL hurts Google Local Pack rankings in Warfordsburg and McConnellsburg.",
+      "aiSearchReadiness": "AI engines (Perplexity, ChatGPT Search) cannot extract clear semantic entity relationships for probate and estate administration in south-central Pennsylvania due to client-side rendered DOM."
+    }
+  },
+  {
+    "id": "michael-philip-law-offices-of-philip-and-wimmer",
+    "fullName": "Michael Philip",
+    "firstName": "Michael",
+    "firm": "Law Offices of Philip & Wimmer",
+    "town": "Palmerton",
+    "state": "PA",
+    "address": "419 Delaware Avenue, P.O. Box 157, Palmerton, PA 18071",
+    "phone": "(610) 826-2500",
+    "email": "philwim@ptd.net",
+    "website": "https://michael11050.wixsite.com/philip-and-wimmer",
+    "practiceAreas": "General Practice, Civil Litigation, Real Estate, Family Law, Estate Planning",
+    "diagnosis": {
+      "wixOverhead": "Legacy Wix template structure hosted on wixsite.com with outdated polyfills and parastorage scripts delaying first paint by over 2.4s.",
+      "mobilePerformance": "Mobile layout uses rigid fixed-width Wix containers that cause awkward horizontal scrolling and slow tap-target responsiveness on smartphones.",
+      "localSeoGaps": "Zero structured schema markup; lacks localized metadata for Carbon County / Lehigh Valley legal searches; relies on generic PTD ISP email mailbox.",
+      "aiSearchReadiness": "Search engine crawlers and conversational AI agents see minimal crawlable semantic HTML, failing to associate Michael Philip with Palmerton civil litigation."
+    }
+  },
+  {
+    "id": "brock-a-meanor-attorney-at-law-llc",
+    "fullName": "Brock A. Meanor",
+    "firstName": "Brock",
+    "firm": "Brock A. Meanor, Attorney at Law, LLC",
+    "town": "Sewickley",
+    "state": "PA",
+    "address": "234 Beaver Street, Suite 2, Sewickley, PA 15143",
+    "phone": "(412) 741-2600",
+    "email": "Brock@BrockMeanor.com",
+    "website": "https://www.brockmeanor.com",
+    "practiceAreas": "Estate Planning, Estate Administration, Wills, Trusts, Elder Law",
+    "diagnosis": {
+      "wixOverhead": "Custom domain running on Wix Editor with monolithic JS bundles, resulting in excessive Total Blocking Time (TBT) exceeding 650ms.",
+      "mobilePerformance": "Hero imagery and custom fonts trigger layout shifts (CLS > 0.15) on mobile devices when loading on Beaver Street and Sewickley commercial corridor.",
+      "localSeoGaps": "Lacks comprehensive LegalService and Attorney schema markup with openingHours and areaServed tags for Allegheny County; title tag is generic.",
+      "aiSearchReadiness": "Conversational LLMs struggle to cite the firm for high-net-worth estate planning inquiries in Sewickley due to Wix script encapsulation."
+    }
+  },
+  {
+    "id": "matthew-loftus-esquire",
+    "fullName": "Matthew Loftus",
+    "firstName": "Matthew",
+    "firm": "Matthew Loftus, Esquire",
+    "town": "Forty Fort",
+    "state": "PA",
+    "address": "951 Wyoming Avenue, Forty Fort, PA 18704",
+    "phone": "(570) 283-2775",
+    "email": "attorneyloftus@gmail.com",
+    "website": "https://www.attorneyloftus.com",
+    "practiceAreas": "Family Law, Custody Trials, Relocation, Adoption, Personal Injury",
+    "diagnosis": {
+      "wixOverhead": "Runs on Wix with heavy client-side rendering; JavaScript execution blocks initial thread parsing, hurting PageSpeed Mobile scores (sub-50).",
+      "mobilePerformance": "Consultation contact form is rendered inside an iframe-like Wix component, causing friction and mobile input lag for urgent custody clients.",
+      "localSeoGaps": "Lacks localized H1 hierarchy and geo-tagged schema for Forty Fort, Kingston, and Wilkes-Barre family law queries; missing FAQ schema.",
+      "aiSearchReadiness": "AI models asking for family law trial attorneys in Luzerne County miss Matthew Loftus because core credentials are buried in Wix dynamic text spans."
+    }
+  },
+  {
+    "id": "ronald-boeckman-attorney-at-law",
+    "fullName": "Ronald P. Boeckman",
+    "firstName": "Ronald",
+    "firm": "Ronald Boeckman, Attorney at Law",
+    "town": "Pataskala",
+    "state": "OH",
+    "address": "160 East Broad St, Pataskala, OH 43062",
+    "phone": "(740) 927-4221",
+    "email": "rpboeckman@aol.com",
+    "website": "https://katherinesboeckman.wixsite.com/ronaldboeckman",
+    "practiceAreas": "Family Law, Bankruptcy, Criminal Defense, Wills & Estates, Personal Injury",
+    "diagnosis": {
+      "wixOverhead": "Free-tier Wix site (katherinesboeckman.wixsite.com) loading unminified Wix tracking scripts, static assets, and cookie banners on an unsecured third-party URL.",
+      "mobilePerformance": "Severe mobile latency on rural 4G connections in Licking County; text sizes fail Google mobile tap target standards.",
+      "localSeoGaps": "No custom domain; zero Google Local entity validation; missing NAP consistency between Pataskala and Newark branch listings.",
+      "aiSearchReadiness": "ChatGPT, Perplexity, and Apple Intelligence cannot confirm firm entity legitimacy due to free wixsite domain masking and lack of LegalService schema."
+    }
+  },
+  {
+    "id": "james-m-sponseller-attorney-at-law",
+    "fullName": "James M. Sponseller",
+    "firstName": "James",
+    "firm": "James M. Sponseller, Attorney at Law",
+    "town": "Paulding",
+    "state": "OH",
+    "address": "200 North Williams Street, Paulding, OH 45879",
+    "phone": "(419) 399-2217",
+    "email": "jmsattorney@metalink.net",
+    "website": "https://www.sponsellerlawoffice.com",
+    "practiceAreas": "Real Estate, Wills & Estate Planning, Probate, Municipal Law, Business Law",
+    "diagnosis": {
+      "wixOverhead": "Over 2.8 MB of client-side JavaScript shipped by Wix to display a basic informational multi-page layout, dragging down TTFB and First Contentful Paint.",
+      "mobilePerformance": "Navigation drawer and tap-to-call links require double-tap on mobile iOS browsers due to Wix touch event handlers.",
+      "localSeoGaps": "Meta description tags missing on key service subpages; no LegalService schema defining Paulding, Defiance, and Van Wert county coverage.",
+      "aiSearchReadiness": "Zero structured data for estate planning and agricultural real estate transactions in Northwest Ohio, causing AI summaries to skip the firm."
+    }
+  },
+  {
+    "id": "curtis-c-coleman-iii-pa",
+    "fullName": "Curtis C. Coleman, III",
+    "firstName": "Curtis",
+    "firm": "Curtis C. Coleman, III, P.A.",
+    "town": "Greenville",
+    "state": "NC",
+    "address": "219-D Commerce Street, Greenville, NC 27858",
+    "phone": "(252) 758-0055",
+    "email": "curtis@curtiscolemanpa.com",
+    "website": "https://dmttth.wixsite.com/curtis-coleman-pa",
+    "practiceAreas": "Workers' Compensation, Social Security Disability, Personal Injury",
+    "diagnosis": {
+      "wixOverhead": "Free Wix subdomain (dmttth.wixsite.com) suffering from heavy asset overhead, unbundled stylesheet injections, and slow DNS resolution.",
+      "mobilePerformance": "Poor mobile viewport responsiveness; injured workers attempting to contact attorney face clunky form submission delays on mobile devices.",
+      "localSeoGaps": "Severe trust deficit from lack of custom domain (curtiscolemanpa.com); missing Google Business Profile schema and zero localized keyword tags in Pitt County.",
+      "aiSearchReadiness": "AI answer bots unable to parse attorney's 38+ years of Marine Corps background and Board Certified Workers' Comp authority from dynamic Wix elements."
+    }
+  },
+  {
+    "id": "mary-okoh-okoh-law-firm",
+    "fullName": "Mary Okoh",
+    "firstName": "Mary",
+    "firm": "Okoh Law Firm",
+    "town": "Wilson",
+    "state": "NC",
+    "address": "405 Nash St W, Ste 201A, Wilson, NC 27893",
+    "phone": "(252) 360-3070",
+    "email": "mokoh@okohlawfirm.com",
+    "website": "https://okohlaw.wixsite.com/okohlawfirm",
+    "practiceAreas": "Social Security Disability, Special Education Law, Disability Discrimination",
+    "diagnosis": {
+      "wixOverhead": "Hosted on Wix subdomain with bloated runtime JavaScript that delays First Input Delay (FID) and Interaction to Next Paint (INP).",
+      "mobilePerformance": "Accessibility barriers for disabled clients on mobile due to lack of WCAG ARIA attributes in standard Wix dropdown components.",
+      "localSeoGaps": "Lacks canonical custom domain integration; missing structured Medical/LegalService markup for Wilson, Rocky Mount, and Nash County disability claims.",
+      "aiSearchReadiness": "AI engines fail to index niche expertise in IEP meetings and SSD appeals because text is wrapped in non-semantic Wix div wrappers."
+    }
+  },
+  {
+    "id": "aaron-m-burgin-attorney-at-law-pllc",
+    "fullName": "Aaron M. Burgin",
+    "firstName": "Aaron",
+    "firm": "Aaron M. Burgin, Attorney at Law, PLLC",
+    "town": "Woodstock",
+    "state": "VA",
+    "address": "146 W. Court Street, P.O. Box 89, Woodstock, VA 22664",
+    "phone": "(540) 459-3220",
+    "email": "aburgin@burginlawoffice.com",
+    "website": "https://www.aburginlaw.com",
+    "practiceAreas": "Criminal Defense, DUI / Traffic Defense, Reckless Driving, Family Law",
+    "diagnosis": {
+      "wixOverhead": "JavaScript script payload exceeds 3.2 MB on Wix, resulting in slow execution times on mobile devices along the I-81 corridor.",
+      "mobilePerformance": "Mobile Core Web Vitals show sluggish Speed Index (> 4.1s); emergency criminal and traffic consultation buttons take multiple seconds to become interactive.",
+      "localSeoGaps": "Shenandoah County traffic court keywords lack dedicated landing page architecture; missing Attorney schema linking Court Street location.",
+      "aiSearchReadiness": "When drivers query ChatGPT or Siri for 'Reckless driving defense near Woodstock VA', the firm is omitted due to unindexed dynamic text blocks."
+    }
+  },
+  {
+    "id": "stephanie-a-pease-pllc",
+    "fullName": "Stephanie A. Pease",
+    "firstName": "Stephanie",
+    "firm": "Stephanie A. Pease, PLLC",
+    "town": "Abingdon",
+    "state": "VA",
+    "address": "330 Cummings Street, Suite E, Abingdon, VA 24210",
+    "phone": "(276) 258-0624",
+    "email": "stephaniepeaselaw@gmail.com",
+    "website": "https://www.attorneystephaniepease.com",
+    "practiceAreas": "Family Law, Criminal Defense, Estate Planning, Personal Injury",
+    "diagnosis": {
+      "wixOverhead": "High client-side JS overhead from Wix Editor elements slowing down page hydration and degrading mobile user experience.",
+      "mobilePerformance": "Hero section shifts during font loading (Cumulative Layout Shift); phone number link is plain text rather than native tel: anchor.",
+      "localSeoGaps": "Missing structured local business schema for Washington and Smyth Counties; lacks localized subpages for Abingdon and Marion courts.",
+      "aiSearchReadiness": "AI conversational engines fail to identify attorney's Lincoln Memorial University credentials and practice focus due to raw script containers."
+    }
+  },
+  {
+    "id": "belinda-a-barbier-barbier-law-offices-plc",
+    "fullName": "Belinda A. Barbier",
+    "firstName": "Belinda",
+    "firm": "Barbier Law Offices, PLC",
+    "town": "Spring Lake",
+    "state": "MI",
+    "address": "14998 Cleveland Street, Ste G, Spring Lake, MI 49456",
+    "phone": "(231) 722-9474",
+    "email": "belinda@attorneybarbier.com",
+    "website": "https://www.attorneybarbier.com",
+    "practiceAreas": "Estate Planning, Probate, Trust Administration, Business Law",
+    "diagnosis": {
+      "wixOverhead": "Legacy Wix site architecture injecting obsolete Sentry error trackers and multiple parastorage asset bundles, adding 1.8s of script parse time.",
+      "mobilePerformance": "Mobile page speed fails Core Web Vitals threshold (LCP > 3.8s); navigation menu lags on mobile touches in Spring Lake and Grand Haven.",
+      "localSeoGaps": "Lacks schema markup for Ottawa and Muskegon County probate services; title tag lacks geographic localization ('Legal Services | Barbier Law Offices PLC').",
+      "aiSearchReadiness": "Perplexity and ChatGPT cannot extract structured trust administration checklists because content is locked inside Wix canvas divs."
+    }
+  },
+  {
+    "id": "robert-hall-hall-real-estate-law-pllc",
+    "fullName": "Robert Hall",
+    "firstName": "Robert",
+    "firm": "Hall Real Estate Law, PLLC",
+    "town": "Traverse City",
+    "state": "MI",
+    "address": "2610 Twin Eagles Drive, Traverse City, MI 49686",
+    "phone": "(248) 321-2824",
+    "email": "rh@hallrelaw.com",
+    "website": "https://www.hallrelaw.com",
+    "practiceAreas": "Residential & Commercial Real Estate, Property Disputes, Title Examination, Zoning",
+    "diagnosis": {
+      "wixOverhead": "Wix site loads extensive polyfill bundles and animation scripts for static real estate content, resulting in high Total Blocking Time.",
+      "mobilePerformance": "High mobile bounce rate risk from delayed form responsiveness and non-optimized image assets depicting Northern Michigan properties.",
+      "localSeoGaps": "Lacks structured LegalService schema with priceRange, address, and geo coordinates for Grand Traverse and Leelanau Counties.",
+      "aiSearchReadiness": "AI queries regarding Traverse City short-term rental regulations and real estate closing counsel fail to cite firm due to lack of semantic H2/H3 tags."
+    }
+  },
+  {
+    "id": "sara-e-davis-attorney-at-law-pc",
+    "fullName": "Sara E. Davis",
+    "firstName": "Sara",
+    "firm": "Sara E. Davis, Attorney at Law, PC",
+    "town": "Oswego",
+    "state": "NY",
+    "address": "106 West Utica Street, Suite 2A, Oswego, NY 13126",
+    "phone": "(315) 342-4949",
+    "email": "sedavislaw@gmail.com",
+    "website": "https://www.sedavislaw.com",
+    "practiceAreas": "Elder Law, Medicaid Planning, Estate Planning, Wills, Trusts, Probate",
+    "diagnosis": {
+      "wixOverhead": "Wix template injects heavy render-blocking CSS and JavaScript bundles, delaying mobile First Contentful Paint beyond 2.9 seconds.",
+      "mobilePerformance": "Mobile elderly clients and adult children experience difficulty reading small unscalable font sizes embedded in Wix text frames.",
+      "localSeoGaps": "Title tag ('Attorney Lawyer Estate | Sara E. Davis Attorney at Law, PC') is keyword-stuffed without clean local branding; missing schema.org/ElderLaw.",
+      "aiSearchReadiness": "Conversational AI engines searching for 'Medicaid spend-down lawyers in Oswego County' bypass site due to absence of clean semantic text blocks."
+    }
+  },
+  {
+    "id": "greg-s-catarella-law-office-of-greg-s-catarella",
+    "fullName": "Greg S. Catarella",
+    "firstName": "Greg",
+    "firm": "Law Office of Greg S. Catarella",
+    "town": "Binghamton",
+    "state": "NY",
+    "address": "31 Lewis Street, Suite 403, Binghamton, NY 13901",
+    "phone": "(607) 321-3627",
+    "email": "gcatarella@catarellalaw.com",
+    "website": "https://www.gregcatarellalaw.com",
+    "practiceAreas": "Elder Law, Medicaid Planning, Wills & Trusts, Probate, Guardianships",
+    "diagnosis": {
+      "wixOverhead": "Wix Editor framework consumes over 75% of main-thread execution time on mobile devices during initial pageload.",
+      "mobilePerformance": "Intake contact form suffers from interaction latency; slow loading on mobile carriers across Broome County and the Southern Tier.",
+      "localSeoGaps": "Lacks LegalService JSON-LD schema linking Binghamton, Vestal, and Johnson City; title tag defaults to generic 'United States' location.",
+      "aiSearchReadiness": "AI tools like ChatGPT cannot summarize attorney's 25+ years of elder law experience because text is fragmented across nested Wix div layers."
+    }
+  },
+  {
+    "id": "donovan-smith-smith-law-office",
+    "fullName": "Donovan Smith",
+    "firstName": "Donovan",
+    "firm": "Smith Law Office",
+    "town": "Bedford",
+    "state": "IN",
+    "address": "1516 I Street, Bedford, IN 47421",
+    "phone": "(812) 275-5858",
+    "email": "dsmith@smithlawbedford.com",
+    "website": "https://www.smithlawbedford.com",
+    "practiceAreas": "Estate Planning, Real Estate Law, Business Law, Criminal Law",
+    "diagnosis": {
+      "wixOverhead": "Heavy Wix script bundle deployment results in excessive JavaScript execution (> 3.5s) on mid-tier mobile hardware.",
+      "mobilePerformance": "Mobile hero banner pushes key call-to-action buttons below the fold; Cumulative Layout Shift occurs when Wix custom fonts load.",
+      "localSeoGaps": "Missing local structured data for Lawrence County; subpages lack localized metadata for Mitchell, Bloomington, and Bedford jurisdictions.",
+      "aiSearchReadiness": "AI knowledge graphs fail to distinguish between founding partner credentials and firm practice entities due to unstructured Wix text spans."
+    }
+  },
+  {
+    "id": "kurtis-fouts-christopher-and-fouts-llc",
+    "fullName": "Kurtis Fouts",
+    "firstName": "Kurtis",
+    "firm": "Christopher & Fouts, LLC",
+    "town": "Delphi",
+    "state": "IN",
+    "address": "1001 South Washington Street, Delphi, IN 46923",
+    "phone": "(765) 564-4066",
+    "email": "kurtis@christopherfouts.com",
+    "website": "https://www.foutslaw.com",
+    "practiceAreas": "Criminal Defense, Family Law, Estate Planning, Municipal & Civil Litigation",
+    "diagnosis": {
+      "wixOverhead": "Wix platform overhead causes heavy mobile CPU utilization, resulting in Poor Core Web Vitals rating for Interaction to Next Paint (INP).",
+      "mobilePerformance": "Multi-county office addresses (Monticello, Lafayette, Delphi) are formatted in clunky accordion widgets that lag on mobile devices.",
+      "localSeoGaps": "Lacks distinct landing pages for Carroll, White, and Tippecanoe Counties; title tag is non-descriptive ('Home | FOUTS LAW OFFICE').",
+      "aiSearchReadiness": "LLMs searching for rural Indiana trial counsel miss Kurtis Fouts' judicial experience because resume data is buried in non-semantic DOM trees."
+    }
+  },
+  {
+    "id": "matthew-kloeker-kloeker-law-pllc",
+    "fullName": "Matthew Kloeker",
+    "firstName": "Matthew",
+    "firm": "Kloeker Law, PLLC",
+    "town": "Newport",
+    "state": "KY",
+    "address": "510 Washington Avenue, Newport, KY 41071",
+    "phone": "(859) 462-1110",
+    "email": "kloekerlaw@gmail.com",
+    "website": "https://www.kloekerlaw.com",
+    "practiceAreas": "Personal Injury, Business Law, Civil & Criminal Litigation, Trusts & Estates",
+    "diagnosis": {
+      "wixOverhead": "Loads over 3 MB of JavaScript from static.parastorage.com, causing slow mobile thread release and delayed touch events.",
+      "mobilePerformance": "Emergency personal injury consultation form triggers mobile keyboard overlap and sluggish response times on iOS and Android.",
+      "localSeoGaps": "Title tag is generic ('KLOEKER LAW, PLLC | personal injury attorney'); lacks microdata schema for Northern Kentucky / Campbell County.",
+      "aiSearchReadiness": "Conversational search assistants cannot parse case results or practice breakdowns due to unindexed dynamic text blocks."
+    }
+  },
+  {
+    "id": "g-j-van-hook-vanhook-law-office",
+    "fullName": "G. J. Van Hook",
+    "firstName": "G. J.",
+    "firm": "VanHook Law Office",
+    "town": "Stanford",
+    "state": "KY",
+    "address": "904 Lancaster St., Stanford, KY 40484",
+    "phone": "(606) 879-0037",
+    "email": "gjvanhooklaw@gmail.com",
+    "website": "https://www.vanhooklawky.com",
+    "practiceAreas": "Estate Law, Wills, Trusts & Probate, Family Law, Real Estate Transactions",
+    "diagnosis": {
+      "wixOverhead": "Wix site includes unnecessary animation modules and third-party tracking scripts that slow mobile loading in rural Central Kentucky.",
+      "mobilePerformance": "Largest Contentful Paint exceeds 4.0s on cellular connections; mandatory Kentucky legal advertisement disclaimer dominates initial mobile screen.",
+      "localSeoGaps": "Lacks localized H1/H2 tagging for Lincoln, Garrard, and Pulaski Counties; missing structured LegalService schema.",
+      "aiSearchReadiness": "AI query answering for Stanford and Somerset estate attorneys fails to cite VanHook Law Office due to lack of crawlable markdown-like semantic text."
+    }
+  },
+  {
+    "id": "jimmy-brannon-brannon-law-office",
+    "fullName": "James Paul Brannon",
+    "firstName": "Jimmy",
+    "firm": "Brannon Law Office",
+    "town": "Paris",
+    "state": "KY",
+    "address": "2255 Fords Mill Road, Paris, KY 40361",
+    "phone": "(859) 987-5266",
+    "email": "jimbrannon@bellsouth.net",
+    "website": "https://www.jimbrannonlawoffice.com",
+    "practiceAreas": "Bankruptcy Law, Criminal Defense, Family Court, Domestic Relations, Civil Practice",
+    "diagnosis": {
+      "wixOverhead": "Massive JavaScript overhead from Wix Editor; bloated DOM tree containing hundreds of empty container nodes.",
+      "mobilePerformance": "Mobile navigation menu requires multiple taps; touch targets are closely packed, causing misclicks on mobile smartphones.",
+      "localSeoGaps": "No schema markup for Bourbon County and Central Kentucky courts; lacks SSL enforcement on some asset paths.",
+      "aiSearchReadiness": "Generative AI engines looking for experienced Central Kentucky bankruptcy lawyers miss Jimmy Brannon because core data is trapped in Wix scripts."
+    }
+  },
+  {
+    "id": "william-buster-sanders-william-buster-sanders-attorney-at-law",
+    "fullName": "William Sanders",
+    "firstName": "William",
+    "firm": "William \"Buster\" Sanders, Attorney at Law",
+    "town": "Alcoa",
+    "state": "TN",
+    "address": "1021 N Sanctuary Rd, Chattanooga / Alcoa, TN 37421",
+    "phone": "(423) 645-3465",
+    "email": "william@wsanderslaw.com",
+    "website": "https://www.wsanderslaw.com",
+    "practiceAreas": "Business Law, Estate Planning, Personal Injury, Real Estate, Construction Law",
+    "diagnosis": {
+      "wixOverhead": "Wix script execution blocks main browser thread for over 500ms, causing sluggish scrolling and delayed form interactivity.",
+      "mobilePerformance": "Mobile consultation form lacks input autofill tags, increasing drop-off rates on mobile smartphones across East Tennessee.",
+      "localSeoGaps": "Title tag ('William \"Buster\" Sanders, Attorney at Law | lawyer in Tennessee') lacks targeted county keywords; no schema.org/Attorney entity.",
+      "aiSearchReadiness": "AI conversational bots cannot extract construction and real estate dispute experience due to Wix client-side rendering limitations."
+    }
+  },
+  {
+    "id": "andrew-s-garnett-law-office-of-andrew-s-garnett-llc",
+    "fullName": "Andrew S. Garnett",
+    "firstName": "Andrew",
+    "firm": "Law Office of Andrew S. Garnett, LLC",
+    "town": "Mexico",
+    "state": "MO",
+    "address": "222 S. Jefferson Street, Suite 106, Mexico, MO 65265",
+    "phone": "(573) 582-7968",
+    "email": "Andrew@hamlettgarnettlaw.com",
+    "website": "https://www.garnettlawfirm.com",
+    "practiceAreas": "Criminal Defense, Civil Litigation, Personal Injury, Family Law, Probate",
+    "diagnosis": {
+      "wixOverhead": "High client-side JS overhead from Wix Editor; pages load slowly on rural mid-Missouri cellular data networks.",
+      "mobilePerformance": "Largest Contentful Paint delayed by unoptimized stock photography; consultation call button requires scrolling past hero spacer divs.",
+      "localSeoGaps": "Missing structured LegalService schema for Audrain, Boone, and Callaway Counties; title tag is just 'HOME | garnettlawfirm'.",
+      "aiSearchReadiness": "Perplexity and ChatGPT queries for trial lawyers in rural Missouri fail to index Andrew Garnett because practice descriptions reside in Wix spans."
+    }
+  },
+  {
+    "id": "leslie-l-whicher-barrister-and-solicitor",
+    "fullName": "Leslie L. Whicher",
+    "firstName": "Leslie",
+    "firm": "Leslie L. Whicher, Barrister and Solicitor",
+    "town": "King City",
+    "state": "ON",
+    "address": "15 Kingsworth Road, King City, ON L7B 1J9",
+    "phone": "(905) 833-1744",
+    "email": "lwhicher@rogers.com",
+    "website": "https://lwhicher.wixsite.com/lesliewhicherlawyer",
+    "practiceAreas": "Wills & Estate Planning, Corporate & Contract Law, Notary Public Services",
+    "diagnosis": {
+      "wixOverhead": "Hosted on free Wix subdomain (wixsite.com) with top banner ads and large client-side script bundles slowing down page load.",
+      "mobilePerformance": "Mobile visitors in York Region encounter slow image rendering and unresponsiveness in the 'press to zoom' Wix gallery component.",
+      "localSeoGaps": "Lack of custom domain damages authority; missing Canadian LegalService schema and York Region / King Township local keywords.",
+      "aiSearchReadiness": "AI search assistants overlook practice credentials for estate planning in King City due to free subdomain structure and lack of semantic HTML."
+    }
+  },
+  {
+    "id": "michael-j-houle-professional-corporation",
+    "fullName": "Michael J. Houle",
+    "firstName": "Michael",
+    "firm": "Michael J. Houle Professional Corporation",
+    "town": "Rockland",
+    "state": "ON",
+    "address": "1-2784 Laurier St., P.O. Box 880, Rockland, ON K4K 1L5",
+    "phone": "(613) 794-0024",
+    "email": "mjhoule@mjhoulepro-co.ca",
+    "website": "https://mjhoule7.wixsite.com/mjhpro-co",
+    "practiceAreas": "Criminal Law, Civil Litigation, Estates, Wills & Powers of Attorney",
+    "diagnosis": {
+      "wixOverhead": "Free Wix site running on mjhoule7.wixsite.com with full Wix runtime bundle overhead, penalizing mobile Core Web Vitals.",
+      "mobilePerformance": "Mobile view displays raw Wix template text placeholders ('info@mysite.com') alongside genuine contact info, confusing potential clients.",
+      "localSeoGaps": "Lacks custom domain; missing bilingual schema markup for Prescott-Russell and Eastern Ontario bilingual legal searches.",
+      "aiSearchReadiness": "AI engines unable to verify attorney's 50+ years of legal practice in Prescott-Russell due to non-canonical Wix subdomain hosting."
+    }
+  },
+  {
+    "id": "david-carrier-meunier-carrier-lawyers",
+    "fullName": "David Carrier",
+    "firstName": "David",
+    "firm": "Meunier Carrier Lawyers",
+    "town": "Timmins",
+    "state": "ON",
+    "address": "151 Second Ave, Timmins, ON P4N 1E8",
+    "phone": "(705) 531-5500",
+    "email": "dcarrier@mclawyers.ca",
+    "website": "https://www.mclawyers.ca/lawyers/david-carrier",
+    "practiceAreas": "Personal Injury, Motor Vehicle Accidents, Disability Benefits, Civil Litigation",
+    "diagnosis": {
+      "wixOverhead": "Custom domain running on Wix with massive client-side JavaScript payload (> 3.4 MB) causing delayed First Input Delay.",
+      "mobilePerformance": "Attorney bio pages load extensive background script assets for Wix chat and booking apps that are unused, slowing down Northern Ontario cellular users.",
+      "localSeoGaps": "Lacks granular Attorney schema linking David Carrier directly to Timmins and Cochrane District court jurisdictions.",
+      "aiSearchReadiness": "Bilingual legal expertise and personal injury case distinctions are buried in Wix dynamic data bindings, hindering AI conversational citations."
+    }
+  },
+  {
+    "id": "franco-giovanniello-giovanniello-bellefeuille",
+    "fullName": "Franco Giovanniello",
+    "firstName": "Franco",
+    "firm": "Giovanniello Bellefeuille",
+    "town": "Cornwall",
+    "state": "ON",
+    "address": "132 Second Street East, Cornwall, ON K6H 1Y9",
+    "phone": "(613) 938-1616",
+    "email": "francogi@bellnet.ca",
+    "website": "https://kimwalsh27.wixsite.com/gandb/lawyers",
+    "practiceAreas": "Real Estate Law, Wills & Estates, Corporate Commercial Law, Powers of Attorney",
+    "diagnosis": {
+      "wixOverhead": "Hosted on free Wix subdomain (kimwalsh27.wixsite.com) with Wix branding headers, slow asset loading, and bloated CSS rules.",
+      "mobilePerformance": "Page layout on mobile requires extensive vertical scrolling past outdated legal resource lists; consultation phone links lack tap-to-call optimization.",
+      "localSeoGaps": "No custom domain (gandb); zero structured LegalService schema for Cornwall and Stormont, Dundas and Glengarry counties.",
+      "aiSearchReadiness": "AI models asking for bilingual real estate and estate solicitors in Cornwall fail to recognize the firm because content is rendered client-side on a personal Wix site."
+    }
+  }
+]
