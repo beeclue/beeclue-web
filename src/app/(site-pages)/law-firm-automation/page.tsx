@@ -1,28 +1,25 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import styles from "@/app/page.module.css";
-import localStyles from "./automation.module.css";
 import {
   ArrowRight,
   CheckCircle2,
-  Clock,
-  ShieldCheck,
   Scale,
   Calendar,
   FileText,
   MessageSquare,
   Star,
-  Workflow,
   Zap,
-  Lock,
-  PhoneCall,
-  UserCheck,
-  SlidersHorizontal,
-  FolderSync
+  ShieldCheck,
+  TrendingUp,
+  Clock,
+  Workflow
 } from "lucide-react";
 import FadeIn from "@/components/FadeIn";
 import ServiceTracker from "@/components/ServiceTracker";
+import IndustryList from "@/components/IndustryList";
 import LawFirmCalculator from "@/components/LawFirmCalculator";
 import LawFirmAuditForm from "@/components/LawFirmAuditForm";
 import FaqAccordion from "@/components/FaqAccordion";
@@ -38,7 +35,7 @@ export default function LawFirmAutomationPage() {
       "name": "Beeclue Tech",
       "url": "https://beeclue.com"
     },
-    "description": "Turnkey practice workflow automation for solo practitioners and boutique law firms. 24/7 client intake, automated conflict screening, self-serve consultation booking, retainer e-signatures, document collection, and Google review generation.",
+    "description": "Turnkey legal practice workflow automations for law firms and attorneys across Canada and the United States. 24/7 intelligent client intake, conflict screening, calendar booking, automated retainer e-signatures, document collection, and Google review generation.",
     "areaServed": ["Canada", "United States"],
     "priceRange": "$$"
   };
@@ -55,12 +52,12 @@ export default function LawFirmAutomationPage() {
 
   const faqs = [
     {
-      q: "Does your practice automation replace our practice management software like Clio or PracticePanther?",
-      a: "No, it enhances it. Rather than forcing you to adopt bloated enterprise systems or learn new software, our automations live directly on your law firm's website and connect seamlessly into your existing tools (Clio, LawPay, PracticePanther, MyCase, Smokeball, Google Workspace, and Microsoft Outlook). Inquiries, consultation appointments, and intake notes automatically push directly into your firm's calendar and CRM."
+      q: "Does your practice automation replace practice management software like Clio or PracticePanther?",
+      a: "No, it enhances it. Rather than forcing your firm to learn another complicated platform, our automations live directly on your website and plug seamlessly into the tools you already use (Clio, LawPay, PracticePanther, MyCase, Smokeball, Google Workspace, and Microsoft Outlook). Every intake inquiry, scheduled consultation, and client document syncs straight into your existing workflow."
     },
     {
-      q: "Are these automated legal intake workflows compliant with Law Society and Bar Association rules?",
-      a: "Yes. Every intake workflow we architect complies strictly with Law Society of Ontario (LSO) Rule 4.2 / Rule 3.3 and American Bar Association (ABA) Model Rules 1.6, 7.1, and 7.2. We enforce automated legal disclaimers confirming that online intake or booking does not establish a solicitor-client relationship until a formal retainer is executed. Furthermore, opposing party fields are captured before booking to ensure conflict checking integrity."
+      q: "Are these automated intake workflows compliant with Law Society and Bar Association rules?",
+      a: "Yes. Every intake workflow we architect complies strictly with Law Society of Ontario (LSO) Rule 4.2 / Rule 3.3 and American Bar Association (ABA) Model Rules 1.6, 7.1, and 7.2. We enforce automated legal disclaimers confirming that online intake or booking does not establish a solicitor-client relationship until a formal retainer agreement is executed. Furthermore, opposing party fields are captured before booking to protect conflict screening integrity."
     },
     {
       q: "Can we collect consultation fees automatically prior to booking?",
@@ -90,7 +87,7 @@ export default function LawFirmAutomationPage() {
   };
 
   return (
-    <main className={localStyles.automationMain}>
+    <main className={styles.main}>
       <ServiceTracker />
       <LawFirmAuditForm />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
@@ -98,409 +95,293 @@ export default function LawFirmAutomationPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
 
       {/* HERO SECTION */}
-      <section className={`${styles.baseSection} ${localStyles.heroSection}`}>
-        <FadeIn className={localStyles.heroContainer}>
-          <div className={localStyles.badge}>
-            <Workflow size={15} />
-            <span>Legal Practice Workflow Automation</span>
-          </div>
-
-          <h1 className={localStyles.heroTitle}>
-            Turn Your Law Firm Website into Your
-            <span className={localStyles.heroTitleHighlight}>Hardest-Working Paralegal</span>
+      <FadeIn className={styles.baseSection} style={{ paddingTop: "20vh", minHeight: "50vh", display: "flex", alignItems: "center" }}>
+        <div className={styles.heroContent}>
+          <h1 className={styles.title} style={{ fontSize: "clamp(2.5rem, 6vw, 5rem)" }}>
+            <span className={styles.titleLinePrimary}>Practice Workflow Automation</span>
+            <span className={styles.titleLine}>for Law Firms &amp; Attorneys</span>
           </h1>
-
-          <p className={localStyles.heroSubtitle}>
+          <p className={styles.subtitle} style={{ fontSize: "1.25rem", maxWidth: "800px" }}>
             Solo practitioners and boutique law firms lose 15+ non-billable hours each week playing phone tag, screening unqualified tire-kickers, and chasing client documents. We engineer intelligent website workflows that triage leads 24/7, sync consultations to your calendar, and automate client onboarding—so you can focus on practicing law.
           </p>
-
-          <div className={localStyles.ctaGroup}>
-            <Link href="/contact" className={localStyles.primaryCta}>
-              Book an Automation Discovery Demo <ArrowRight size={18} />
+          <div className={styles.heroRatingContainer}>
+            <Link href="/contact" className={styles.ctaButton}>
+              Book an Automation Demo <ArrowRight className={styles.arrow} />
             </Link>
-            <a
-              href="https://taralattanzio.ca?utm_source=beeclue&utm_medium=blog&utm_campaign=law-firm-automation"
-              target="_blank"
-              rel="noopener noreferrer"
-              className={localStyles.secondaryCta}
-            >
-              View Reference Law Practice <ArrowRight size={16} />
-            </a>
+            <div className={styles.heroRatingBadge}>
+              <div style={{ color: "#fbbf24", fontSize: "1.25rem", letterSpacing: "2px" }}>★★★★★</div>
+              <span style={{ color: "var(--muted)", fontSize: "0.875rem" }}>5.0 from 30+ reviews</span>
+            </div>
           </div>
+        </div>
+      </FadeIn>
 
-          <div className={localStyles.trustBar}>
-            <span className={localStyles.trustItem}>
-              <ShieldCheck size={16} color="var(--primary)" />
-              LSO &amp; ABA Advertising Compliant
-            </span>
-            <span className={localStyles.trustItem}>
-              <Lock size={16} color="var(--primary)" />
-              256-Bit Encrypted PIPEDA / HIPAA Intake
-            </span>
-            <span className={localStyles.trustItem}>
-              <FolderSync size={16} color="var(--primary)" />
-              Syncs with Clio, LawPay, Outlook &amp; Gmail
-            </span>
-          </div>
-        </FadeIn>
-      </section>
+      {/* HERO IMAGE */}
+      <FadeIn className={styles.baseSection} style={{ paddingTop: 0, paddingBottom: 0 }}>
+        <div style={{ position: "relative", width: "100%", height: "500px", borderRadius: "24px", overflow: "hidden" }}>
+          <Image
+            src="https://images.unsplash.com/photo-1450133064473-71024230f91b?ixlib=rb-4.0.3&auto=format&fit=crop&w=2400&q=80"
+            alt="Law firm workspace with digital documents and workflow automation setup"
+            fill
+            style={{ objectFit: "cover" }}
+            priority
+          />
+        </div>
+      </FadeIn>
 
-      {/* THE ADMINISTRATIVE LEAKS CHAPTER */}
-      <section className={localStyles.statsSection}>
-        <FadeIn>
-          <div className={localStyles.sectionHeader} style={{ marginBottom: "2.5rem" }}>
-            <span className={localStyles.sectionEyebrow}>The Administrative Dilemma</span>
-            <h2 className={localStyles.sectionTitle}>Why Boutique Law Firms Leak Billable Hours</h2>
-            <p className={localStyles.sectionSubtitle}>
-              When an attorney is in court, in depositions, or drafting briefs, administrative friction costs money and loses cases.
+      {/* WHY YOUR LAW FIRM NEEDS PRACTICE AUTOMATION */}
+      <FadeIn className={styles.luxuryIntro}>
+        <div className={styles.luxuryBlobs}>
+          <div className={styles.blob1}></div>
+          <div className={styles.blob2}></div>
+        </div>
+        <div className={styles.luxuryIntroContent}>
+          <div className={styles.luxuryText}>
+            <h2>Why Boutique Law Firms Need Practice Workflow Automation</h2>
+            <p>
+              When someone needs legal counsel, speed is everything. Over 67% of legal consumers hire the very first law firm that responds. When a solo attorney is in court, in depositions, or preparing a motion, inquiries go unanswered and clients hire the next attorney on Google.
+            </p>
+            <p>
+              Most law firm websites function as static digital brochures. Attorneys spend their evenings responding to voicemails, screening out-of-jurisdiction inquiries, and playing calendar phone tag. Read our guide on <Link href="/law-firm-website-design-seo-guide" style={{ color: "var(--primary-light)", textDecoration: "underline" }}>Law Firm Website Design &amp; SEO Strategies</Link>.
+            </p>
+            <p>
+              At Beeclue Tech, we turn your website into an active practice engine. We connect smart client intake, automated conflict screening, self-serve booking, and document collection directly into your existing calendar and CRM—saving 10 to 15 hours of administrative drag every week.
             </p>
           </div>
-
-          <div className={localStyles.statsGrid}>
-            <div className={localStyles.statCard}>
-              <span className={localStyles.statNumber}>67%</span>
-              <h3 className={localStyles.statLabel}>Lost to Competitors</h3>
-              <p className={localStyles.statDesc}>
-                67% of legal consumers hire the very first law firm that responds. If a prospect calls while you are in court, they move to the next lawyer on Google.
-              </p>
-            </div>
-
-            <div className={localStyles.statCard}>
-              <span className={localStyles.statNumber}>15+ hrs</span>
-              <h3 className={localStyles.statLabel}>Wasted Weekly</h3>
-              <p className={localStyles.statDesc}>
-                Average non-billable time spent per attorney each week on intake phone tag, vetting unqualified inquiries, and manually collecting basic documents.
-              </p>
-            </div>
-
-            <div className={localStyles.statCard}>
-              <span className={localStyles.statNumber}>40%</span>
-              <h3 className={localStyles.statLabel}>Status Call Interruption</h3>
-              <p className={localStyles.statDesc}>
-                40% of inbound calls to small firms are existing clients asking &quot;What is happening with my case?&quot;—shattering deep legal concentration.
-              </p>
-            </div>
-
-            <div className={localStyles.statCard}>
-              <span className={localStyles.statNumber}>-70%</span>
-              <h3 className={localStyles.statLabel}>No-Show Reduction</h3>
-              <p className={localStyles.statDesc}>
-                Automated SMS reminders and one-click calendar invites cut missed consultations and last-minute cancellations by over 70%.
-              </p>
+          <div className={styles.luxuryCard}>
+            <h3>What Practice Automation Delivers</h3>
+            <p>A high-performing automated legal practice provides:</p>
+            <div className={styles.luxuryChecklist}>
+              <div className={styles.luxuryCheckItem}><CheckCircle2 size={24} color="var(--primary-light)" /><span>Sub-30-second speed-to-lead response locking in clients</span></div>
+              <div className={styles.luxuryCheckItem}><CheckCircle2 size={24} color="var(--primary-light)" /><span>Conditional intake filtering out-of-jurisdiction inquiries</span></div>
+              <div className={styles.luxuryCheckItem}><CheckCircle2 size={24} color="var(--primary-light)" /><span>Direct calendar sync eliminating 5-round consultation phone tag</span></div>
+              <div className={styles.luxuryCheckItem}><CheckCircle2 size={24} color="var(--primary-light)" /><span>Digital retainer e-signatures and secure document checklists</span></div>
+              <div className={styles.luxuryCheckItem}><CheckCircle2 size={24} color="var(--primary-light)" /><span>Automated 5-star Google review requests upon case resolution</span></div>
             </div>
           </div>
-        </FadeIn>
-      </section>
+        </div>
+      </FadeIn>
 
-      {/* 5 CORE PRACTICE AUTOMATIONS */}
-      <section className={styles.baseSection}>
-        <FadeIn>
-          <div className={localStyles.sectionHeader}>
-            <span className={localStyles.sectionEyebrow}>Turnkey Practice Workflows</span>
-            <h2 className={localStyles.sectionTitle}>Five Automations That Run Your Firm on Autopilot</h2>
-            <p className={localStyles.sectionSubtitle}>
-              Engineered specifically for solo attorneys and small partnerships who need enterprise efficiency without enterprise complexity.
+      {/* ESSENTIAL FEATURES */}
+      <FadeIn className={`${styles.baseSection} ${styles.servicesSection}`}>
+        <div className={styles.servicesHeader}>
+          <h2>Essential Automations for Modern Law Firms</h2>
+          <p>We build every law firm website with intelligent workflows designed specifically for attorneys and legal staff.</p>
+        </div>
+
+        <div className={styles.aboutGrid} style={{ marginBottom: "5rem" }}>
+          <div className={styles.aboutText}>
+            <h3 style={{ fontSize: "2rem", marginBottom: "1rem", color: "var(--foreground)" }}>24/7 Intelligent Intake &amp; Conflict Screening</h3>
+            <p>
+              Capture qualified cases while you sleep or represent clients in court. Interactive conditional forms screen practice area, matter urgency, and opposing party names upfront. The attorney receives instant SMS alerts while the client gets an immediate, professional confirmation.
             </p>
           </div>
-
-          <div className={localStyles.featuresGrid}>
-            {/* Automation 1 */}
-            <div className={localStyles.featureCard}>
-              <div className={localStyles.featureIconWrapper}>
-                <Zap size={26} />
-              </div>
-              <h3 className={localStyles.featureTitle}>1. Instant Speed-to-Lead &amp; Conflict Screening</h3>
-              <p className={localStyles.featureDesc}>
-                Interactive intake forms that qualify practice area, court county, and opposing party names upfront. The attorney receives instant SMS alerts while the client gets an immediate, professional confirmation.
-              </p>
-              <ul className={localStyles.featureChecklist}>
-                <li className={localStyles.featureCheckItem}>
-                  <CheckCircle2 size={16} />
-                  <span>Conditional branching filters out-of-jurisdiction inquiries</span>
-                </li>
-                <li className={localStyles.featureCheckItem}>
-                  <CheckCircle2 size={16} />
-                  <span>Opposing party data captured upfront to safeguard conflict checks</span>
-                </li>
-                <li className={localStyles.featureCheckItem}>
-                  <CheckCircle2 size={16} />
-                  <span>Sub-30-second automated response locks in prospective clients</span>
-                </li>
-              </ul>
-            </div>
-
-            {/* Automation 2 */}
-            <div className={localStyles.featureCard}>
-              <div className={localStyles.featureIconWrapper}>
-                <Calendar size={26} />
-              </div>
-              <h3 className={localStyles.featureTitle}>2. Self-Serve Consultation Booking</h3>
-              <p className={localStyles.featureDesc}>
-                Eliminate 5 rounds of email and voicemail tag. Qualified prospects select open consultation times directly on your site, synced in real time with your court appearance schedule and calendar buffers.
-              </p>
-              <ul className={localStyles.featureChecklist}>
-                <li className={localStyles.featureCheckItem}>
-                  <CheckCircle2 size={16} />
-                  <span>Direct sync with Clio, Outlook, and Google Calendar</span>
-                </li>
-                <li className={localStyles.featureCheckItem}>
-                  <CheckCircle2 size={16} />
-                  <span>Automated 24-hour and 2-hour SMS &amp; email consultation reminders</span>
-                </li>
-                <li className={localStyles.featureCheckItem}>
-                  <CheckCircle2 size={16} />
-                  <span>Optional upfront consultation fee processing (LawPay / Stripe)</span>
-                </li>
-              </ul>
-            </div>
-
-            {/* Automation 3 */}
-            <div className={localStyles.featureCard}>
-              <div className={localStyles.featureIconWrapper}>
-                <FileText size={26} />
-              </div>
-              <h3 className={localStyles.featureTitle}>3. Retainer E-Signatures &amp; Document Chasing</h3>
-              <p className={localStyles.featureDesc}>
-                Stop spending weeks chasing blurry photos of driver&apos;s licenses, police reports, and tax returns. Clients receive a secure, mobile-friendly upload portal with automated reminder nudges.
-              </p>
-              <ul className={localStyles.featureChecklist}>
-                <li className={localStyles.featureCheckItem}>
-                  <CheckCircle2 size={16} />
-                  <span>One-click digital engagement letter / retainer agreement dispatch</span>
-                </li>
-                <li className={localStyles.featureCheckItem}>
-                  <CheckCircle2 size={16} />
-                  <span>Automated practice-specific document checklist upload portal</span>
-                </li>
-                <li className={localStyles.featureCheckItem}>
-                  <CheckCircle2 size={16} />
-                  <span>Automated friendly SMS reminders at 48h and 96h for missing items</span>
-                </li>
-              </ul>
-            </div>
-
-            {/* Automation 4 */}
-            <div className={localStyles.featureCard}>
-              <div className={localStyles.featureIconWrapper}>
-                <MessageSquare size={26} />
-              </div>
-              <h3 className={localStyles.featureTitle}>4. Automated Milestone Status Updates</h3>
-              <p className={localStyles.featureDesc}>
-                Reassure clients without picking up the phone. Trigger plain-English automated updates when court filings are completed, court dates are set, or discovery materials are reviewed.
-              </p>
-              <ul className={localStyles.featureChecklist}>
-                <li className={localStyles.featureCheckItem}>
-                  <CheckCircle2 size={16} />
-                  <span>Pre-configured milestone triggers: Pleadings Filed, Hearing Set, etc.</span>
-                </li>
-                <li className={localStyles.featureCheckItem}>
-                  <CheckCircle2 size={16} />
-                  <span>Cuts routine administrative check-in calls by up to 60%</span>
-                </li>
-                <li className={localStyles.featureCheckItem}>
-                  <CheckCircle2 size={16} />
-                  <span>Reinforces client trust, responsiveness, and premium perceived value</span>
-                </li>
-              </ul>
-            </div>
-
-            {/* Automation 5 */}
-            <div className={localStyles.featureCard}>
-              <div className={localStyles.featureIconWrapper}>
-                <Star size={26} />
-              </div>
-              <h3 className={localStyles.featureTitle}>5. 5-Star Google Review Generation Engine</h3>
-              <p className={localStyles.featureDesc}>
-                Never forget to request a review after winning a case or finalizing an estate plan. Automatically send a polite, 1-click review link to satisfied clients right when their satisfaction is at its peak.
-              </p>
-              <ul className={localStyles.featureChecklist}>
-                <li className={localStyles.featureCheckItem}>
-                  <CheckCircle2 size={16} />
-                  <span>Triggered automatically 3–5 days after matter resolution</span>
-                </li>
-                <li className={localStyles.featureCheckItem}>
-                  <CheckCircle2 size={16} />
-                  <span>Direct deep-link straight to your firm&apos;s Google Business Profile modal</span>
-                </li>
-                <li className={localStyles.featureCheckItem}>
-                  <CheckCircle2 size={16} />
-                  <span>Builds sustainable local SEO dominance in your county or city</span>
-                </li>
-              </ul>
-            </div>
+          <div style={{ display: "flex", alignItems: "center", justifyContent: "center" }}>
+            <Zap size={120} color="#3385ff" strokeWidth={1} />
           </div>
-        </FadeIn>
-      </section>
+        </div>
 
-      {/* HOW IT WORKS / 4-STEP WORKFLOW TIMELINE */}
-      <section className={`${styles.baseSection} ${localStyles.integrationSection}`}>
-        <FadeIn>
-          <div className={localStyles.sectionHeader}>
-            <span className={localStyles.sectionEyebrow}>Seamless Practice Flow</span>
-            <h2 className={localStyles.sectionTitle}>How the Complete Workflow Operates</h2>
-            <p className={localStyles.sectionSubtitle}>
-              From first click on Google to five-star review, here is how automated client acquisition looks for your law practice.
+        <div className={styles.aboutGrid} style={{ marginBottom: "5rem" }}>
+          <div className={styles.aboutText}>
+            <h3 style={{ fontSize: "2rem", marginBottom: "1rem", color: "var(--foreground)" }}>Self-Serve Calendar Booking &amp; No-Show Reduction</h3>
+            <p>
+              Eliminate phone tag entirely. Qualified prospects select open consultation times directly on your website, synced in real time with your court schedule and calendar buffers. Automated 24-hour and 2-hour SMS &amp; email reminders cut missed consultations by over 70%.
             </p>
           </div>
-
-          <div className={localStyles.processContainer}>
-            <div className={localStyles.stepCard}>
-              <div className={localStyles.stepNumber}>1</div>
-              <h3 className={localStyles.stepTitle}>Intelligent Intake</h3>
-              <p className={localStyles.stepDesc}>
-                Prospect completes conditional intake on your website. Case type, jurisdiction, and urgency are vetted instantly.
-              </p>
-            </div>
-
-            <div className={localStyles.stepCard}>
-              <div className={localStyles.stepNumber}>2</div>
-              <h3 className={localStyles.stepTitle}>Calendar Booking</h3>
-              <p className={localStyles.stepDesc}>
-                Qualified lead books directly into your open calendar slots. SMS confirmations and automated prep guides are dispatched.
-              </p>
-            </div>
-
-            <div className={localStyles.stepCard}>
-              <div className={localStyles.stepNumber}>3</div>
-              <h3 className={localStyles.stepTitle}>Onboarding &amp; Docs</h3>
-              <p className={localStyles.stepDesc}>
-                Retainer agreement is signed digitally. Client uploads needed documents into an encrypted portal with auto-followups.
-              </p>
-            </div>
-
-            <div className={localStyles.stepCard}>
-              <div className={localStyles.stepNumber}>4</div>
-              <h3 className={localStyles.stepTitle}>Milestones &amp; Reviews</h3>
-              <p className={localStyles.stepDesc}>
-                Automated status notifications keep clients calm during the case; automated 5-star Google review request triggers upon close.
-              </p>
-            </div>
+          <div style={{ display: "flex", alignItems: "center", justifyContent: "center" }}>
+            <Calendar size={120} color="#3385ff" strokeWidth={1} />
           </div>
+        </div>
 
-          {/* INTEGRATIONS SUBSECTION */}
-          <div style={{ marginTop: "5rem" }}>
-            <span className={localStyles.sectionEyebrow}>Zero Software Bloat</span>
-            <h3 className={localStyles.sectionTitle} style={{ fontSize: "1.875rem" }}>
-              We Connect Directly to the Tools You Already Use
-            </h3>
-            <p className={localStyles.sectionSubtitle} style={{ maxWidth: "650px", margin: "0 auto" }}>
-              No need to switch software or pay for expensive third-party enterprise platforms. We plug directly into your current practice ecosystem.
-            </p>
-
-            <div className={localStyles.integrationGrid}>
-              <div className={localStyles.integrationCard}>
-                <FolderSync size={24} color="var(--primary)" />
-                <span>Clio Manage &amp; Grow</span>
-                <span className={localStyles.integrationCategory}>Practice Management</span>
-              </div>
-              <div className={localStyles.integrationCard}>
-                <Scale size={24} color="var(--primary)" />
-                <span>LawPay</span>
-                <span className={localStyles.integrationCategory}>Legal Billing &amp; Trust</span>
-              </div>
-              <div className={localStyles.integrationCard}>
-                <Calendar size={24} color="var(--primary)" />
-                <span>Google Workspace</span>
-                <span className={localStyles.integrationCategory}>Calendar &amp; Email</span>
-              </div>
-              <div className={localStyles.integrationCard}>
-                <Calendar size={24} color="var(--primary)" />
-                <span>Microsoft 365 / Outlook</span>
-                <span className={localStyles.integrationCategory}>Calendar &amp; Email</span>
-              </div>
-              <div className={localStyles.integrationCard}>
-                <SlidersHorizontal size={24} color="var(--primary)" />
-                <span>PracticePanther</span>
-                <span className={localStyles.integrationCategory}>Practice Management</span>
-              </div>
-              <div className={localStyles.integrationCard}>
-                <FolderSync size={24} color="var(--primary)" />
-                <span>MyCase &amp; Smokeball</span>
-                <span className={localStyles.integrationCategory}>Practice Management</span>
-              </div>
-            </div>
-          </div>
-        </FadeIn>
-      </section>
-
-      {/* ROI & TIME-SAVINGS CALCULATOR */}
-      <section className={styles.baseSection}>
-        <FadeIn>
-          <div className={localStyles.sectionHeader}>
-            <span className={localStyles.sectionEyebrow}>Practice ROI Economics</span>
-            <h2 className={localStyles.sectionTitle}>Calculate Recovered Billable Hours &amp; Retainer Revenue</h2>
-            <p className={localStyles.sectionSubtitle}>
-              Estimate how much non-billable administrative time you can reclaim and the case revenue potential of sub-30-second speed-to-lead.
+        <div className={styles.aboutGrid} style={{ marginBottom: "5rem" }}>
+          <div className={styles.aboutText}>
+            <h3 style={{ fontSize: "2rem", marginBottom: "1rem", color: "var(--foreground)" }}>Retainer E-Signatures &amp; Document Chasing</h3>
+            <p>
+              Stop spending weeks chasing blurry photos of driver&apos;s licenses, police reports, and financial affidavits. Clients receive a secure, mobile-friendly upload portal with automated polite reminder nudges sent at 48 hours and 96 hours until required documentation is submitted.
             </p>
           </div>
+          <div style={{ display: "flex", alignItems: "center", justifyContent: "center" }}>
+            <FileText size={120} color="#3385ff" strokeWidth={1} />
+          </div>
+        </div>
 
-          <LawFirmCalculator />
-        </FadeIn>
-      </section>
+        <div className={styles.aboutGrid} style={{ marginBottom: "5rem" }}>
+          <div className={styles.aboutText}>
+            <h3 style={{ fontSize: "2rem", marginBottom: "1rem", color: "var(--foreground)" }}>Automated Case Milestone Updates</h3>
+            <p>
+              Over 40% of inbound calls to small law firms are existing clients asking &quot;What is happening with my case?&quot; Our milestone triggers send automated plain-English updates when court filings are completed or court dates are set, keeping clients calm and attorneys focused.
+            </p>
+          </div>
+          <div style={{ display: "flex", alignItems: "center", justifyContent: "center" }}>
+            <MessageSquare size={120} color="#3385ff" strokeWidth={1} />
+          </div>
+        </div>
 
-      {/* BAR ETHICS & DATA PRIVACY COMPLIANCE */}
-      <section className={styles.baseSection} style={{ paddingTop: 0 }}>
-        <FadeIn>
-          <div className={localStyles.complianceBanner}>
+        <div className={styles.aboutGrid} style={{ marginBottom: "5rem" }}>
+          <div className={styles.aboutText}>
+            <h3 style={{ fontSize: "2rem", marginBottom: "1rem", color: "var(--foreground)" }}>Automated 5-Star Google Review Engine</h3>
+            <p>
+              Never forget to ask for a review after winning a case or finalizing an estate plan. Automatically send a polite, 1-click review link to satisfied clients 3 to 5 days after matter resolution, building lasting local SEO dominance in your county on autopilot.
+            </p>
+          </div>
+          <div style={{ display: "flex", alignItems: "center", justifyContent: "center" }}>
+            <Star size={120} color="#3385ff" strokeWidth={1} />
+          </div>
+        </div>
+
+        <div className={styles.aboutGrid}>
+          <div className={styles.aboutText}>
+            <h3 style={{ fontSize: "2rem", marginBottom: "1rem", color: "var(--foreground)" }}>Clio, LawPay, Outlook &amp; Gmail Integration</h3>
+            <p>
+              We believe in zero software bloat. Instead of forcing you to pay for expensive legal enterprise suites, our workflows plug directly into the tools you already use—including Clio Manage &amp; Grow, LawPay, PracticePanther, MyCase, Smokeball, and Microsoft 365.
+            </p>
+          </div>
+          <div style={{ display: "flex", alignItems: "center", justifyContent: "center" }}>
+            <Workflow size={120} color="#3385ff" strokeWidth={1} />
+          </div>
+        </div>
+      </FadeIn>
+
+      {/* CASE STUDY FEATURE */}
+      <FadeIn className={styles.luxuryIntro}>
+        <div className={styles.luxuryBlobs}>
+          <div className={styles.blob1}></div>
+          <div className={styles.blob2}></div>
+        </div>
+        <div className={styles.luxuryIntroContent}>
+          <div className={styles.luxuryText}>
+            <h2>Real Results: Tara Lattanzio Family Law</h2>
+            <p>
+              We partnered with Cambridge &amp; Waterloo Region attorney Tara Lattanzio to build a modern, high-converting digital presence paired with empathetic, confidential client intake workflows.
+            </p>
+            <p>
+              The result: sub-second mobile speeds, transparent legal process roadmaps, and automated consultation intake that qualifies clients before the initial consultation call.
+            </p>
+            <div style={{ display: "flex", gap: "1.5rem", flexWrap: "wrap", marginTop: "1.5rem", alignItems: "center" }}>
+              <Link href="/case-studies/tara-lattanzio" className={styles.learnMoreLink}>
+                Read the Full Case Study <ArrowRight size={16} />
+              </Link>
+              <a 
+                href="https://taralattanzio.ca?utm_source=beeclue&utm_medium=blog&utm_campaign=law-firm-automation" 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                className={styles.learnMoreLink}
+                style={{ color: "var(--foreground)" }}
+              >
+                Visit Live Website <ArrowRight size={16} />
+              </a>
+            </div>
+          </div>
+          <div className={styles.luxuryCard}>
+            <h3>What We Delivered for Tara Lattanzio</h3>
+            <div className={styles.luxuryChecklist}>
+              <div className={styles.luxuryCheckItem}><CheckCircle2 size={24} color="var(--primary-light)" /><span>Custom Next.js Legal Architecture</span></div>
+              <div className={styles.luxuryCheckItem}><CheckCircle2 size={24} color="var(--primary-light)" /><span>Empathetic UX &amp; Reassurance Modules</span></div>
+              <div className={styles.luxuryCheckItem}><CheckCircle2 size={24} color="var(--primary-light)" /><span>Waterloo Region Local SEO Dominance</span></div>
+              <div className={styles.luxuryCheckItem}><CheckCircle2 size={24} color="var(--primary-light)" /><span>Confidential Consultation Intake Workflows</span></div>
+            </div>
+          </div>
+        </div>
+      </FadeIn>
+
+      {/* WHY CHOOSE BEECLUE */}
+      <FadeIn className={`${styles.baseSection} ${styles.valueSection}`}>
+        <div className={styles.valueHeader}>
+          <h2>Why Law Firms Choose Beeclue Tech</h2>
+        </div>
+        <div className={styles.valueGrid}>
+          <div className={styles.valueItem}>
+            <CheckCircle2 className={styles.valueIcon} />
             <div>
-              <div style={{ display: "flex", alignItems: "center", gap: "0.5rem", marginBottom: "0.5rem" }}>
-                <Scale size={20} color="var(--primary)" />
-                <span className={localStyles.sectionEyebrow} style={{ margin: 0 }}>Regulatory Compliance</span>
-              </div>
-              <h3 className={localStyles.complianceTitle}>Law Society (LSO) &amp; ABA Advertising Standards</h3>
-              <p className={localStyles.complianceText}>
-                Every intake form and marketing asset is built in strict adherence with Law Society of Ontario (LSO) Rule 4.2 and ABA Model Rules 7.1/7.2. Clear, compliant disclaimers confirm that initial inquiries do not create a solicitor-client relationship until conflict screening and formal retainer execution are complete.
-              </p>
+              <h3>Legal Industry Understanding</h3>
+              <p>We build in strict compliance with Law Society of Ontario (LSO) Rule 4.2 / 3.3 and ABA Model Rules regarding legal marketing and confidentiality.</p>
             </div>
+          </div>
+          <div className={styles.valueItem}>
+            <CheckCircle2 className={styles.valueIcon} />
             <div>
-              <div style={{ display: "flex", alignItems: "center", gap: "0.5rem", marginBottom: "0.5rem" }}>
-                <Lock size={20} color="var(--primary)" />
-                <span className={localStyles.sectionEyebrow} style={{ margin: 0 }}>Client Data Security</span>
-              </div>
-              <h3 className={localStyles.complianceTitle}>PIPEDA, HIPAA &amp; 256-Bit SSL Form Security</h3>
-              <p className={localStyles.complianceText}>
-                Confidentiality is sacred under LSO Rule 3.3 and attorney-client privilege guidelines. All client intake data, case summaries, and uploaded documents are encrypted in transit via TLS 1.3 and stored with strict role-based access control. Zero unvetted third-party tracking or ad trackers touch client legal submissions.
-              </p>
+              <h3>Zero Software Bloat</h3>
+              <p>We don&apos;t make you buy expensive monthly enterprise suites. We connect directly into Clio, LawPay, Google Workspace, and Outlook.</p>
             </div>
           </div>
-        </FadeIn>
-      </section>
-
-      {/* FAQ ACCORDION */}
-      <section className={styles.baseSection}>
-        <FadeIn>
-          <div className={localStyles.sectionHeader}>
-            <span className={localStyles.sectionEyebrow}>Frequently Asked Questions</span>
-            <h2 className={localStyles.sectionTitle}>Everything You Need to Know About Legal Automation</h2>
-            <p className={localStyles.sectionSubtitle}>
-              Have questions about how automated intake and scheduling integrate with your firm? Here are direct answers.
-            </p>
+          <div className={styles.valueItem}>
+            <CheckCircle2 className={styles.valueIcon} />
+            <div>
+              <h3>Sub-30-Second Speed to Lead</h3>
+              <p>Automated SMS and email responders engage prospective clients within 30 seconds of an inquiry, locking in clients before they call competitors.</p>
+            </div>
           </div>
+          <div className={styles.valueItem}>
+            <CheckCircle2 className={styles.valueIcon} />
+            <div>
+              <h3>256-Bit PIPEDA &amp; HIPAA Security</h3>
+              <p>Confidential client data and document uploads are protected with end-to-end TLS 1.3 encryption, ensuring strict attorney-client privilege protection.</p>
+            </div>
+          </div>
+          <div className={styles.valueItem}>
+            <CheckCircle2 className={styles.valueIcon} />
+            <div>
+              <h3>70% Drop in No-Shows</h3>
+              <p>Automated appointment confirmations, 24h &amp; 2h reminders, and calendar invites ensure prospective clients actually show up prepared.</p>
+            </div>
+          </div>
+          <div className={styles.valueItem}>
+            <CheckCircle2 className={styles.valueIcon} />
+            <div>
+              <h3>Fully Managed Ongoing Support</h3>
+              <p>Launch is just the beginning. We handle system maintenance, trigger updates, and security monitoring so you can focus entirely on casework.</p>
+            </div>
+          </div>
+        </div>
+      </FadeIn>
 
-          <FaqAccordion faqs={faqs} />
-        </FadeIn>
-      </section>
+      {/* INTERACTIVE LAW FIRM CALCULATOR */}
+      <FadeIn className={styles.baseSection}>
+        <LawFirmCalculator />
+      </FadeIn>
 
-      {/* FINAL CALL TO ACTION */}
-      <section className={localStyles.ctaSection}>
-        <FadeIn className={localStyles.ctaContainer}>
-          <span className={localStyles.sectionEyebrow}>Ready to Modernize Your Firm?</span>
-          <h2 className={localStyles.ctaTitle}>
-            Stop Chasing Leads. Start Practicing Law.
-          </h2>
-          <p className={localStyles.ctaSubtitle}>
-            We will review your current intake process and build a complimentary 48-hour prototype showing how your firm&apos;s intake, scheduling, and document workflows can run on autopilot.
+      {/* INTERACTIVE LAW FIRM MOCKUP FORM */}
+      <LawFirmAuditForm />
+
+      {/* MORE RESOURCES */}
+      <FadeIn className={styles.baseSection}>
+        <div className={styles.servicesHeader}>
+          <h2>Explore Our Industry Solutions</h2>
+          <p>We build specialized websites and workflow systems across multiple industries. See how we can help your sector.</p>
+        </div>
+        <IndustryList exclude="/web-design-for-law-firms" />
+      </FadeIn>
+
+      {/* FAQ SECTION */}
+      <FadeIn className={styles.baseSection}>
+        <div className={styles.servicesHeader}>
+          <h2>Law Firm Practice Automation FAQs</h2>
+          <p>Common questions about legal intake automation, calendar synchronization, and regulatory compliance.</p>
+        </div>
+        <FaqAccordion faqs={faqs} />
+      </FadeIn>
+
+      {/* CTA SECTION */}
+      <FadeIn className={styles.baseSection} style={{ textAlign: "center", borderTop: "1px solid var(--border)", paddingBottom: "10rem" }}>
+        <div style={{ maxWidth: "800px", margin: "0 auto" }}>
+          <TrendingUp size={48} color="var(--primary-light)" style={{ marginBottom: "2rem" }} />
+          <h2 style={{ fontSize: "clamp(2rem, 4vw, 3rem)", marginBottom: "1.5rem" }}>Ready to Automate Your Practice?</h2>
+          <p style={{ color: "var(--muted)", fontSize: "1.125rem", marginBottom: "2.5rem", lineHeight: "1.7" }}>
+            Let&apos;s build an automated workflow that triages your inquiries, eliminates phone tag, and lets you focus on high-value billable casework. Book a free consultation today.
           </p>
-          <div className={localStyles.ctaGroup}>
-            <Link href="/contact" className={localStyles.primaryCta}>
-              Claim Your Free Practice Automation Audit <ArrowRight size={18} />
+          <div style={{ display: "flex", gap: "1.5rem", justifyContent: "center", flexWrap: "wrap" }}>
+            <Link href="/contact" className={styles.ctaButton}>
+              Schedule a Free Strategy Call <ArrowRight className={styles.arrow} />
             </Link>
-            <Link href="/web-design-for-law-firms" className={localStyles.secondaryCta}>
-              View Law Firm Web Design Services
+            <Link href="/web-design-for-law-firms" className={styles.ctaButton}>
+              View Law Firm Web Design <ArrowRight className={styles.arrow} />
+            </Link>
+            <Link href="/services" className={styles.ctaButton}>
+              View All Services <ArrowRight className={styles.arrow} />
             </Link>
           </div>
-        </FadeIn>
-      </section>
+        </div>
+      </FadeIn>
     </main>
   );
 }
