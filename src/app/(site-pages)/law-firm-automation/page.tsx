@@ -120,8 +120,8 @@ export default function LawFirmAutomationPage() {
       <FadeIn className={styles.baseSection} style={{ paddingTop: 0, paddingBottom: 0 }}>
         <div style={{ position: "relative", width: "100%", height: "500px", borderRadius: "24px", overflow: "hidden" }}>
           <Image
-            src="https://images.unsplash.com/photo-1450133064473-71024230f91b?ixlib=rb-4.0.3&auto=format&fit=crop&w=2400&q=80"
-            alt="Law firm workspace with digital documents and workflow automation setup"
+            src="https://images.unsplash.com/photo-1497366216548-37526070297c?ixlib=rb-4.0.3&auto=format&fit=crop&w=2400&q=80"
+            alt="Modern law firm executive office and practice conference suite"
             fill
             style={{ objectFit: "cover" }}
             priority
