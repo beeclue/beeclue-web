@@ -20,7 +20,6 @@ import {
 import FadeIn from "@/components/FadeIn";
 import ServiceTracker from "@/components/ServiceTracker";
 import IndustryList from "@/components/IndustryList";
-import LawFirmCalculator from "@/components/LawFirmCalculator";
 import LawFirmAuditForm from "@/components/LawFirmAuditForm";
 import FaqAccordion from "@/components/FaqAccordion";
 
@@ -172,51 +171,26 @@ export default function LawFirmAutomationPage() {
         <div className={styles.bentoGrid}>
           {/* Bento Flagship Hero Card */}
           <div className={styles.bentoFeaturedCard}>
-            <div>
-              <div className={styles.bentoIconWrapper}>
-                <Zap size={26} />
-              </div>
-              <span className={styles.bentoBadge}>01 / Flagship Intake Engine</span>
-              <h3>24/7 Intelligent Intake &amp; Conflict Screening</h3>
-              <p>
-                Capture qualified cases while you sleep or represent clients in court. Interactive conditional forms screen practice area, matter urgency, and opposing party names upfront. The attorney receives instant SMS alerts while the client gets an immediate, professional confirmation.
-              </p>
-              <div className={styles.bentoChecklist}>
-                <div className={styles.bentoCheckItem}>
-                  <CheckCircle2 size={18} />
-                  <span>Sub-30-second automated response locks in clients before competitors</span>
-                </div>
-                <div className={styles.bentoCheckItem}>
-                  <CheckCircle2 size={18} />
-                  <span>Opposing party data captured upfront to safeguard ethical conflict checks</span>
-                </div>
-                <div className={styles.bentoCheckItem}>
-                  <CheckCircle2 size={18} />
-                  <span>Conditional branching automatically filters out-of-jurisdiction inquiries</span>
-                </div>
-              </div>
+            <div className={styles.bentoIconWrapper}>
+              <Zap size={26} />
             </div>
-
-            {/* Visual Simulation Box */}
-            <div className={styles.bentoVisualBox}>
-              <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", borderBottom: "1px solid var(--border)", paddingBottom: "0.75rem" }}>
-                <span style={{ fontSize: "0.75rem", fontWeight: 700, textTransform: "uppercase", letterSpacing: "0.06em", color: "var(--muted-light)" }}>
-                  Speed-to-Lead Triage
-                </span>
-                <span style={{ fontSize: "0.75rem", color: "#16a34a", fontWeight: 600, display: "flex", alignItems: "center", gap: "4px" }}>
-                  <span style={{ width: 6, height: 6, borderRadius: "50%", background: "#16a34a" }}></span> Active
-                </span>
+            <span className={styles.bentoBadge}>01 / Flagship Intake Engine</span>
+            <h3>24/7 Intelligent Intake &amp; Conflict Screening</h3>
+            <p>
+              Capture qualified cases while you sleep or represent clients in court. Interactive conditional forms screen practice area, matter urgency, and opposing party names upfront. The attorney receives instant SMS alerts while the client gets an immediate, professional confirmation.
+            </p>
+            <div className={styles.bentoFeaturedChecklist}>
+              <div className={styles.bentoCheckItem}>
+                <CheckCircle2 size={18} />
+                <span>Sub-30-second automated response locks in clients before competitors</span>
               </div>
-              <div style={{ fontSize: "0.875rem", lineHeight: 1.5 }}>
-                <div style={{ color: "var(--muted-light)", fontSize: "0.75rem", marginBottom: "2px" }}>Incoming Practice Inquiry</div>
-                <strong style={{ color: "var(--foreground)" }}>Family Law • Divorce &amp; Custody</strong>
+              <div className={styles.bentoCheckItem}>
+                <CheckCircle2 size={18} />
+                <span>Opposing party data captured upfront to safeguard ethical conflict checks</span>
               </div>
-              <div style={{ fontSize: "0.875rem", lineHeight: 1.5 }}>
-                <div style={{ color: "var(--muted-light)", fontSize: "0.75rem", marginBottom: "2px" }}>Conflict Screening</div>
-                <span style={{ color: "var(--primary)", fontWeight: 600 }}>Opposing Party Logged • No Match</span>
-              </div>
-              <div style={{ background: "var(--surface)", border: "1px solid var(--border)", borderRadius: "8px", padding: "0.75rem", fontSize: "0.8125rem", color: "var(--foreground)", lineHeight: 1.4 }}>
-                ⚡ <strong>Automated Action (12s):</strong> SMS alert dispatched to Attorney mobile. Instant client calendar link delivered.
+              <div className={styles.bentoCheckItem}>
+                <CheckCircle2 size={18} />
+                <span>Conditional branching automatically filters out-of-jurisdiction inquiries</span>
               </div>
             </div>
           </div>
@@ -418,11 +392,6 @@ export default function LawFirmAutomationPage() {
             </div>
           </div>
         </div>
-      </FadeIn>
-
-      {/* INTERACTIVE LAW FIRM CALCULATOR */}
-      <FadeIn className={styles.baseSection}>
-        <LawFirmCalculator />
       </FadeIn>
 
       {/* INTERACTIVE LAW FIRM MOCKUP FORM */}
