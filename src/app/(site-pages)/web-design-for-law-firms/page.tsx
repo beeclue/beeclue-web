@@ -166,7 +166,9 @@ export default function WebDesignForLawFirmsPage() {
         <div className={styles.aboutGrid} style={{ marginBottom: "5rem" }}>
           <div className={styles.aboutText}>
             <h3 style={{ fontSize: "2rem", marginBottom: "1rem", color: "var(--foreground)" }}>Client Intake & Consultation Forms</h3>
-            <p>Every visitor is a potential client. We build intelligent intake forms that capture case details, contact information, and consultation preferences — qualifying leads before they ever walk through your door.</p>
+            <p>
+              Every visitor is a potential client. We build intelligent intake forms that capture case details, contact information, and consultation preferences — qualifying leads before they ever walk through your door. Looking to automate your firm&apos;s daily intake and calendar scheduling? Explore our dedicated <Link href="/law-firm-automation" style={{ color: "var(--primary-light)", textDecoration: "underline" }}>Law Firm Practice Automation</Link> systems.
+            </p>
           </div>
           <div style={{ display: "flex", alignItems: "center", justifyContent: "center" }}>
             <FileCheck size={120} color="#3385ff" strokeWidth={1} />

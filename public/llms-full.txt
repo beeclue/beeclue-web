@@ -114,6 +114,10 @@ Mouth-watering, reservation-ready website design for restaurants, cafes, and foo
 Property-selling, lead-capturing website development for realtors, real estate agencies, and property management companies in Toronto. Features include MLS-integrated property search, virtual tours, lead capture systems, neighborhood guides, and local SEO.
 [Read More](https://beeclue.com/real-estate-website-development-toronto)
 
+### 27. Law Firm Practice Workflow Automation
+Turnkey practice workflow automation for solo practitioners and boutique law firms across Canada and the United States. Addresses the 15+ non-billable hours lost weekly to administrative tasks, phone tag, and document collection. Features include 24/7 intelligent client intake with conditional branch screening (practice area, jurisdiction, urgency), conflict checking party data collection, self-serve consultation booking synced directly with Clio, LawPay, Google Workspace, and Microsoft Outlook (with automated 24h/2h SMS & email reminders), retainer agreement e-signatures, secure client document collection portals with automatic gentle reminder nudges, matter milestone status updates ("What's happening with my case?"), and automated 5-star Google Business Profile review collection 3-5 days after matter resolution. All workflows are built in strict compliance with Law Society of Ontario (LSO) Rule 4.2 / Rule 3.3 and ABA Model Rules, protected by 256-bit TLS 1.3 encryption (PIPEDA & HIPAA compliant).
+[Read More](https://beeclue.com/law-firm-automation)
+
 ## Regional Web Design Services
 To capture high-intent local search queries outside the GTA, Beeclue Tech offers localized, managed web design services targeting small-town Ontario municipalities:
 - **Huntsville (Muskoka Region)**: Localized web design and managed website services for Huntsville businesses, local service trades, and hospitality providers starting at $29/mo. [https://beeclue.com/web-design/huntsville]

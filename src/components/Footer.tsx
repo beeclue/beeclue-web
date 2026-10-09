@@ -83,6 +83,7 @@ export default function Footer() {
               <Link href="/web-design-for-real-estate" style={{ color: 'rgba(255,255,255,0.7)', textDecoration: 'none', fontSize: '0.9rem' }}>Real Estate</Link>
               <Link href="/web-design-for-healthcare" style={{ color: 'rgba(255,255,255,0.7)', textDecoration: 'none', fontSize: '0.9rem' }}>Healthcare</Link>
               <Link href="/web-design-for-law-firms" style={{ color: 'rgba(255,255,255,0.7)', textDecoration: 'none', fontSize: '0.9rem' }}>Law Firms</Link>
+              <Link href="/law-firm-automation" style={{ color: 'rgba(255,255,255,0.7)', textDecoration: 'none', fontSize: '0.9rem' }}>Law Practice Automation</Link>
               <Link href="/web-design-for-construction-companies" style={{ color: 'rgba(255,255,255,0.7)', textDecoration: 'none', fontSize: '0.9rem' }}>Construction</Link>
             </div>
             <div style={{ display: 'flex', flexDirection: 'column', gap: '0.75rem', alignItems: 'center' }}>
