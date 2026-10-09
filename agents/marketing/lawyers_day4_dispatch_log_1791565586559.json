@@ -1,0 +1,362 @@
+[
+  {
+    "id": "michael-a-kaplan-attorney-at-law",
+    "firmName": "Michael A. Kaplan, Attorney at Law",
+    "contactName": "Michael A. Kaplan, Esq.",
+    "email": "mkaplanesq@gmail.com",
+    "resendId": "01a12176-4414-79c8-a549-d86d01d96136",
+    "timestamp": "2026-10-09T16:19:21.342Z",
+    "status": "delivered"
+  },
+  {
+    "id": "jeff-andrews-attorney-at-law",
+    "firmName": "Jeff Andrews, Attorney at Law",
+    "contactName": "Jeffrey H. Andrews, Esq.",
+    "email": "jeffandrewslaw@yahoo.com",
+    "resendId": "01a1217f-5d3f-726b-89a6-60401b8527f1",
+    "timestamp": "2026-10-09T16:29:17.589Z",
+    "status": "delivered"
+  },
+  {
+    "id": "schuman-law-office",
+    "firmName": "Schuman Law Office",
+    "contactName": "Darla J. Schuman, Esq.",
+    "email": "lawfirmmaildjs@aol.com",
+    "resendId": "01a1217f-66e8-7b42-ac30-317f3e3cac34",
+    "timestamp": "2026-10-09T16:29:20.084Z",
+    "status": "delivered"
+  },
+  {
+    "id": "john-j-bowe-attorney-at-law-pc",
+    "firmName": "John J. Bowe, Attorney at Law, P.C.",
+    "contactName": "John J. Bowe, Esq.",
+    "email": "jjbowelaw@gmail.com",
+    "resendId": "01a1217f-70ab-7049-a960-47e6e2d97cbe",
+    "timestamp": "2026-10-09T16:29:22.569Z",
+    "status": "delivered"
+  },
+  {
+    "id": "law-office-of-denise-m-dalaklis",
+    "firmName": "Law Office of Denise M. Dalaklis",
+    "contactName": "Denise M. Dalaklis, Esq.",
+    "email": "Dalaklislaw@gmail.com",
+    "resendId": "01a1218d-d7f8-7986-9b4e-1f4f9b0e922b",
+    "timestamp": "2026-10-09T16:45:06.517Z",
+    "status": "delivered"
+  },
+  {
+    "id": "law-offices-of-wienna-jane-ingraham-pa",
+    "firmName": "Law Offices of Wienna Jane Ingraham, PA",
+    "contactName": "Wienna Jane Ingraham, Esq.",
+    "email": "attorneyingraham@outlook.com",
+    "resendId": "01a1218d-e1ad-70dd-b604-095d034055a7",
+    "timestamp": "2026-10-09T16:45:09.043Z",
+    "status": "delivered"
+  },
+  {
+    "id": "richard-d-wall-ps",
+    "firmName": "Richard D. Wall, P.S.",
+    "contactName": "Richard D. Wall, Esq.",
+    "email": "rdwall2221@comcast.net",
+    "resendId": "01a1219d-5452-769d-aa81-2ebee63a8d2d",
+    "timestamp": "2026-10-09T17:02:01.401Z",
+    "status": "delivered"
+  },
+  {
+    "id": "scott-stalker-law-firm",
+    "firmName": "Scott Stalker Law Firm",
+    "contactName": "Scott Stalker, Esq.",
+    "email": "scott.stalker@yahoo.com",
+    "resendId": "01a1219d-5e00-7de0-b700-e6ad666a1f1e",
+    "timestamp": "2026-10-09T17:02:03.865Z",
+    "status": "delivered"
+  },
+  {
+    "id": "michael-d-renfro-attorney-at-law",
+    "firmName": "Michael D. Renfro Attorney at Law",
+    "contactName": "Michael D. Renfro, Esq.",
+    "email": "attymdr@yahoo.com",
+    "resendId": "01a121a0-21d8-732a-8c48-58de59f756a3",
+    "timestamp": "2026-10-09T17:05:05.073Z",
+    "status": "delivered"
+  },
+  {
+    "id": "annabel-bazante-law-pllc",
+    "firmName": "Annabel Bazante Law, PLLC",
+    "contactName": "Annabel Bazante, Esq.",
+    "email": "abazante@annabelbazante.com",
+    "resendId": "01a121a0-2b85-749d-90e5-5fb6c5ca1775",
+    "timestamp": "2026-10-09T17:05:07.754Z",
+    "status": "delivered"
+  },
+  {
+    "id": "law-office-of-warren-m-yanoff",
+    "firmName": "Law Office of Warren M. Yanoff",
+    "contactName": "Warren M. Yanoff, Esq.",
+    "email": "yanofflaw@gmail.com",
+    "resendId": "01a121a0-3654-74f8-a170-82b6d1cf13c8",
+    "timestamp": "2026-10-09T17:05:10.417Z",
+    "status": "delivered"
+  },
+  {
+    "id": "the-law-offices-of-christopher-l-bishop",
+    "firmName": "The Law Offices of Christopher L. Bishop",
+    "contactName": "Christopher L. Bishop, Esq.",
+    "email": "LawOfficesofCLB@gmail.com",
+    "resendId": "01a121a0-408a-7556-9f65-3e7906497fd2",
+    "timestamp": "2026-10-09T17:05:12.998Z",
+    "status": "delivered"
+  },
+  {
+    "id": "law-offices-of-stephen-shaiken",
+    "firmName": "Law Offices of Stephen Shaiken",
+    "contactName": "Stephen Shaiken, Esq.",
+    "email": "stephenshaikenesq@shaikenlaw.com",
+    "resendId": "01a121a0-4a6e-7695-85b8-e2b2ed31631a",
+    "timestamp": "2026-10-09T17:05:15.469Z",
+    "status": "delivered"
+  },
+  {
+    "id": "knecht-law-plc",
+    "firmName": "Knecht Law, PLC",
+    "contactName": "Todd R. Knecht, Esq.",
+    "email": "trknechtlaw@gmail.com",
+    "resendId": "01a121a0-5424-7958-b248-4455e4ef1402",
+    "timestamp": "2026-10-09T17:05:17.962Z",
+    "status": "delivered"
+  },
+  {
+    "id": "goodman-schwartz-shaw-llc",
+    "firmName": "Goodman Schwartz & Shaw LLC",
+    "contactName": "David B. Schwartz, Esq.",
+    "email": "dbschwartzesq@aol.com",
+    "resendId": "01a121a0-5e08-7379-a6cf-442f6938204a",
+    "timestamp": "2026-10-09T17:05:20.488Z",
+    "status": "delivered"
+  },
+  {
+    "id": "law-office-of-gail-m-lareau",
+    "firmName": "Law Office of Gail M. Lareau",
+    "contactName": "Gail M. Lareau, Esq.",
+    "email": "gail@gaillareaulawoffice.com",
+    "resendId": "01a121a0-67df-7ce9-9b27-5840f92bf8a4",
+    "timestamp": "2026-10-09T17:05:22.999Z",
+    "status": "delivered"
+  },
+  {
+    "id": "law-office-of-henry-tovmassian",
+    "firmName": "Law Office of Henry Tovmassian",
+    "contactName": "Henry Tovmassian, Esq.",
+    "email": "htovmassian@gmail.com",
+    "resendId": "01a121a0-7243-7870-9895-993b892de37b",
+    "timestamp": "2026-10-09T17:05:25.662Z",
+    "status": "delivered"
+  },
+  {
+    "id": "law-office-of-anna-din-pllc",
+    "firmName": "Law Office of Anna Din, PLLC",
+    "contactName": "Anna Din, Esq.",
+    "email": "lawofficeofannadin@gmail.com",
+    "resendId": "01a121a0-7c30-7195-a301-b1e6f3eb6f1d",
+    "timestamp": "2026-10-09T17:05:28.210Z",
+    "status": "delivered"
+  },
+  {
+    "id": "law-office-of-summer-boyd",
+    "firmName": "Law Office of Summer Boyd",
+    "contactName": "Summer Boyd, Esq.",
+    "email": "LawOfficeofSummerBoyd@gmail.com",
+    "resendId": "01a121a0-8629-7c42-aef9-889867df8c4f",
+    "timestamp": "2026-10-09T17:05:30.824Z",
+    "status": "delivered"
+  },
+  {
+    "id": "mark-salerno-family-and-criminal-law",
+    "firmName": "Mark Salerno Family and Criminal Law",
+    "contactName": "Mark Salerno, Esq.",
+    "email": "marksalerno14@gmail.com",
+    "resendId": "01a121a0-9016-7811-8378-2aed3b8184cf",
+    "timestamp": "2026-10-09T17:05:33.305Z",
+    "status": "delivered"
+  },
+  {
+    "id": "the-law-office-of-darrin-e-nye",
+    "firmName": "The Law Office of Darrin E. Nye",
+    "contactName": "Darrin E. Nye, Esq.",
+    "email": "dnye@nyelawllc.com",
+    "resendId": "01a121a0-99de-7451-b56f-a8945ba13782",
+    "timestamp": "2026-10-09T17:05:35.871Z",
+    "status": "delivered"
+  },
+  {
+    "id": "stacy-m-combs-p-c",
+    "firmName": "Stacy M. Combs, P.C.",
+    "contactName": "Stacy M. Combs, Esq.",
+    "email": "stacymcombs@gmail.com",
+    "resendId": "01a121a0-a403-7133-b08e-c02df7f98f66",
+    "timestamp": "2026-10-09T17:05:38.399Z",
+    "status": "delivered"
+  },
+  {
+    "id": "the-law-office-of-troy-d-green-pllc",
+    "firmName": "The Law Office of Troy D. Green PLLC",
+    "contactName": "Troy D. Green, Esq.",
+    "email": "troy@attorneygreen.com",
+    "resendId": "01a121a0-addd-71ea-b1b8-167badf3bdaa",
+    "timestamp": "2026-10-09T17:05:40.960Z",
+    "status": "delivered"
+  },
+  {
+    "id": "the-law-office-of-erin-e-mortenson-pllc",
+    "firmName": "The Law Office of Erin E. Mortenson, PLLC",
+    "contactName": "Erin E. Mortenson, Esq.",
+    "email": "erin@mortensonelderlaw.com",
+    "resendId": "01a121a0-b7df-7e5b-9022-05a1333aefe5",
+    "timestamp": "2026-10-09T17:05:43.492Z",
+    "status": "delivered"
+  },
+  {
+    "id": "law-office-of-christy-foreman-llc",
+    "firmName": "Law Office of Christy Foreman, LLC",
+    "contactName": "Christy Foreman, Esq.",
+    "email": "cforemanlaw@gmail.com",
+    "resendId": "01a121a0-c1fe-7c63-97ae-a151fa7810b1",
+    "timestamp": "2026-10-09T17:05:46.071Z",
+    "status": "delivered"
+  },
+  {
+    "id": "patricia-l-seifert-attorney-at-law",
+    "firmName": "Patricia L Seifert, Attorney at Law",
+    "contactName": "Patricia L. Seifert, Esq.",
+    "email": "plseifert@plseifertllc.com",
+    "resendId": "01a121a0-cbd6-70f5-8c46-7236214046d5",
+    "timestamp": "2026-10-09T17:05:48.650Z",
+    "status": "delivered"
+  },
+  {
+    "id": "buytendyk-law-office-llc",
+    "firmName": "BUYTENDYK LAW OFFICE LLC",
+    "contactName": "Michael G. Buytendyk, Esq.",
+    "email": "mgb@buytendyklaw.com",
+    "resendId": "01a121a0-d5c3-7841-857e-359ea9e9ee65",
+    "timestamp": "2026-10-09T17:05:51.140Z",
+    "status": "delivered"
+  },
+  {
+    "id": "todd-e-cheek-law-office-llc",
+    "firmName": "Todd E. Cheek Law Office, LLC",
+    "contactName": "Todd E. Cheek, Esq.",
+    "email": "todd@toddcheeklaw.com",
+    "resendId": "01a121a0-df81-75cc-b72b-c67ed7144f3f",
+    "timestamp": "2026-10-09T17:05:53.695Z",
+    "status": "delivered"
+  },
+  {
+    "id": "the-law-office-of-caleb-johnson-llc",
+    "firmName": "The Law Office of Caleb Johnson, LLC",
+    "contactName": "Caleb Johnson, Esq.",
+    "email": "CalebJohnsonLaw@gmail.com",
+    "resendId": "01a121a0-e9b6-7f22-afa6-4b4c5f7d6f97",
+    "timestamp": "2026-10-09T17:05:56.315Z",
+    "status": "delivered"
+  },
+  {
+    "id": "stephen-j-o-brien-associates-llc",
+    "firmName": "Stephen J. O'Brien & Associates, LLC",
+    "contactName": "Stephen J. O'Brien, Esq.",
+    "email": "steve-obrien2@hotmail.com",
+    "resendId": "01a121a0-f3e7-71a4-ad6b-dce2e54e238d",
+    "timestamp": "2026-10-09T17:05:58.858Z",
+    "status": "delivered"
+  },
+  {
+    "id": "jonathan-d-rosenau-personal-injury-attorney-at-law",
+    "firmName": "Jonathan D. Rosenau: Personal Injury Attorney At Law",
+    "contactName": "Jonathan D. Rosenau, Esq.",
+    "email": "jonathan.d.rosenau@gmail.com",
+    "resendId": "01a121a0-fdb9-726c-9a36-d86fc73aca80",
+    "timestamp": "2026-10-09T17:06:01.367Z",
+    "status": "delivered"
+  },
+  {
+    "id": "pavina-law-llc",
+    "firmName": "Pavina Law, LLC",
+    "contactName": "Bryan L. Pavina Jr., Esq.",
+    "email": "bpavinajresq@pavinalawllc.com",
+    "resendId": "01a121a1-0798-7519-9ecd-c4592f3e331e",
+    "timestamp": "2026-10-09T17:06:03.899Z",
+    "status": "delivered"
+  },
+  {
+    "id": "alex-de-la-torre-attorney-at-law-pllc",
+    "firmName": "Alex de la Torre Attorney at Law, PLLC",
+    "contactName": "Alex de la Torre, Esq.",
+    "email": "alex@stokescountyattorney.com",
+    "resendId": "01a121a1-1170-7967-a86a-f22456da09e6",
+    "timestamp": "2026-10-09T17:06:06.473Z",
+    "status": "delivered"
+  },
+  {
+    "id": "charles-wright-law-pllc",
+    "firmName": "Charles Wright Law, PLLC",
+    "contactName": "Charles E. Wright, Esq.",
+    "email": "CharlesWrightLaw@gmail.com",
+    "resendId": "01a121a1-1b5b-7ec4-965f-9112a06f5743",
+    "timestamp": "2026-10-09T17:06:08.963Z",
+    "status": "delivered"
+  },
+  {
+    "id": "c-jennifer-coble-attorney-at-law-pllc",
+    "firmName": "C. Jennifer Coble, Attorney at Law, PLLC",
+    "contactName": "C. Jennifer Coble, Esq.",
+    "email": "jcoble@cjcoblelaw.com",
+    "resendId": "01a121a1-250a-758f-bbfb-85fd8a131f74",
+    "timestamp": "2026-10-09T17:06:11.435Z",
+    "status": "delivered"
+  },
+  {
+    "id": "the-law-office-of-j-thomas-hunn",
+    "firmName": "The Law Office of J. Thomas Hunn",
+    "contactName": "J. Thomas Hunn, Esq.",
+    "email": "JThomasHunn@gmail.com",
+    "resendId": "01a121a1-2f1b-71b4-87ce-5a11e57511ca",
+    "timestamp": "2026-10-09T17:06:14.052Z",
+    "status": "delivered"
+  },
+  {
+    "id": "anthony-c-lawrence-p-c",
+    "firmName": "Anthony C. Lawrence, P.C.",
+    "contactName": "Anthony C. Lawrence, Esq.",
+    "email": "anthony@anthonylawrencelaw.com",
+    "resendId": "01a121a1-3926-7bf8-85e4-a89a2a97abb7",
+    "timestamp": "2026-10-09T17:06:16.587Z",
+    "status": "delivered"
+  },
+  {
+    "id": "hildebrand-law-office",
+    "firmName": "Hildebrand Law Office",
+    "contactName": "Michelle L. Hildebrand, Esq.",
+    "email": "michelle@michellehildebrandlaw.com",
+    "resendId": "01a121a1-4304-7bcd-bc5a-991e782c0d5d",
+    "timestamp": "2026-10-09T17:06:19.130Z",
+    "status": "delivered"
+  },
+  {
+    "id": "sandra-hicks-law-office-llc",
+    "firmName": "Sandra Hicks Law Office LLC",
+    "contactName": "Sandra L. Hicks, Esq.",
+    "email": "sandrahickslaw2@gmail.com",
+    "resendId": "01a121a1-4d0c-7b6f-a4ca-b9bad47390a8",
+    "timestamp": "2026-10-09T17:06:21.794Z",
+    "status": "delivered"
+  },
+  {
+    "id": "lisa-hanna-law-llc",
+    "firmName": "Lisa Hanna Law, LLC",
+    "contactName": "Lisa Hanna-Weis, Esq.",
+    "email": "lisahannalaw@gmail.com",
+    "resendId": "01a121a1-5786-7cee-80b9-ea28e4f08c89",
+    "timestamp": "2026-10-09T17:06:24.353Z",
+    "status": "delivered"
+  }
+]

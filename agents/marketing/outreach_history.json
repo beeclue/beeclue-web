@@ -20822,9 +20822,9 @@
     "location": "La Jolla, CA (8950 Villa La Jolla Dr, Suite B212, La Jolla, CA 92037)",
     "pricingQuoted": "$19/month",
     "initialContactDate": "2026-10-03T19:44:19.504Z",
-    "lastContactDate": "2026-10-03T19:44:19.504Z",
+    "lastContactDate": "2026-10-09T16:19:21.342Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Outreach",
+    "sequenceStep": "Day 4 - Follow-up",
     "diagnosedIssues": "Built on Wix; heavy client-side JavaScript hurting Google mobile rankings and missing structured schema for conversational AI search engines (ChatGPT, Perplexity, Claude)",
     "caseStudySent": "https://taralattanzio.ca",
     "history": [
@@ -20835,6 +20835,14 @@
         "resendId": "01a1034b-c3cf-7767-b784-43111bb560ee",
         "status": "delivered",
         "notes": "Wix migration pitch focusing on Google search speed and AI conversation visibility (GEO/AEO), $19/mo Core plan, and free 48-hr mobile mockup."
+      },
+      {
+        "step": "Day 4",
+        "sentAt": "2026-10-09T16:19:21.342Z",
+        "subject": "Re: Google & AI search visibility for Michael A. Kaplan, Attorney at Law",
+        "resendId": "01a12176-4414-79c8-a549-d86d01d96136",
+        "status": "delivered",
+        "notes": "Threaded Day 4 follow-up sent. Re-offered free 48-hr mockup and highlighted $19/mo Core plan with $0 upfront fee."
       }
     ]
   },
@@ -20848,9 +20856,9 @@
     "location": "Hayden, ID (8884 N Government Way, Suite C, Hayden, ID 83835)",
     "pricingQuoted": "$19/month",
     "initialContactDate": "2026-10-03T19:44:21.500Z",
-    "lastContactDate": "2026-10-03T19:44:21.500Z",
+    "lastContactDate": "2026-10-09T16:29:17.589Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Outreach",
+    "sequenceStep": "Day 4 - Follow-up",
     "diagnosedIssues": "Built on Wix; heavy client-side JavaScript hurting Google mobile rankings and missing structured schema for conversational AI search engines (ChatGPT, Perplexity, Claude)",
     "caseStudySent": "https://taralattanzio.ca",
     "history": [
@@ -20861,6 +20869,14 @@
         "resendId": "01a1034b-cbb4-7a57-8fd0-e5aef90e1a0f",
         "status": "delivered",
         "notes": "Wix migration pitch focusing on Google search speed and AI conversation visibility (GEO/AEO), $19/mo Core plan, and free 48-hr mobile mockup."
+      },
+      {
+        "step": "Day 4",
+        "sentAt": "2026-10-09T16:29:17.589Z",
+        "subject": "Re: Google & AI search visibility for Jeff Andrews, Attorney at Law",
+        "resendId": "01a1217f-5d3f-726b-89a6-60401b8527f1",
+        "status": "delivered",
+        "notes": "Threaded Day 4 follow-up sent. Re-offered free 48-hr mockup and highlighted $19/mo Core plan with $0 upfront fee."
       }
     ]
   },
@@ -20874,9 +20890,9 @@
     "location": "Bowling Green, OH (121 S Church St, Bowling Green, OH 43402)",
     "pricingQuoted": "$19/month",
     "initialContactDate": "2026-10-03T19:44:23.485Z",
-    "lastContactDate": "2026-10-03T19:44:23.485Z",
+    "lastContactDate": "2026-10-09T16:29:20.084Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Outreach",
+    "sequenceStep": "Day 4 - Follow-up",
     "diagnosedIssues": "Built on Wix; heavy client-side JavaScript hurting Google mobile rankings and missing structured schema for conversational AI search engines (ChatGPT, Perplexity, Claude)",
     "caseStudySent": "https://taralattanzio.ca",
     "history": [
@@ -20887,6 +20903,14 @@
         "resendId": "01a1034b-d37b-7543-9a94-5eb20c57c62d",
         "status": "delivered",
         "notes": "Wix migration pitch focusing on Google search speed and AI conversation visibility (GEO/AEO), $19/mo Core plan, and free 48-hr mobile mockup."
+      },
+      {
+        "step": "Day 4",
+        "sentAt": "2026-10-09T16:29:20.084Z",
+        "subject": "Re: Google & AI search visibility for Schuman Law Office",
+        "resendId": "01a1217f-66e8-7b42-ac30-317f3e3cac34",
+        "status": "delivered",
+        "notes": "Threaded Day 4 follow-up sent. Re-offered free 48-hr mockup and highlighted $19/mo Core plan with $0 upfront fee."
       }
     ]
   },
@@ -20900,9 +20924,9 @@
     "location": "Norwell, MA (80 Washington St, Suite 23, Norwell, MA 02061)",
     "pricingQuoted": "$19/month",
     "initialContactDate": "2026-10-03T19:44:25.474Z",
-    "lastContactDate": "2026-10-03T19:44:25.474Z",
+    "lastContactDate": "2026-10-09T16:29:22.569Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Outreach",
+    "sequenceStep": "Day 4 - Follow-up",
     "diagnosedIssues": "Built on Wix; heavy client-side JavaScript hurting Google mobile rankings and missing structured schema for conversational AI search engines (ChatGPT, Perplexity, Claude)",
     "caseStudySent": "https://taralattanzio.ca",
     "history": [
@@ -20913,6 +20937,14 @@
         "resendId": "01a1034b-db3a-703b-b85f-106006e23721",
         "status": "delivered",
         "notes": "Wix migration pitch focusing on Google search speed and AI conversation visibility (GEO/AEO), $19/mo Core plan, and free 48-hr mobile mockup."
+      },
+      {
+        "step": "Day 4",
+        "sentAt": "2026-10-09T16:29:22.569Z",
+        "subject": "Re: Google & AI search visibility for John J. Bowe, Attorney at Law, P.C.",
+        "resendId": "01a1217f-70ab-7049-a960-47e6e2d97cbe",
+        "status": "delivered",
+        "notes": "Threaded Day 4 follow-up sent. Re-offered free 48-hr mockup and highlighted $19/mo Core plan with $0 upfront fee."
       }
     ]
   },
@@ -20926,9 +20958,9 @@
     "location": "Winchester, MA (15 Kenwin Road, Winchester, MA 01890)",
     "pricingQuoted": "$19/month",
     "initialContactDate": "2026-10-03T19:44:27.462Z",
-    "lastContactDate": "2026-10-03T19:44:27.462Z",
+    "lastContactDate": "2026-10-09T16:45:06.517Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Outreach",
+    "sequenceStep": "Day 4 - Follow-up",
     "diagnosedIssues": "Built on Wix; heavy client-side JavaScript hurting Google mobile rankings and missing structured schema for conversational AI search engines (ChatGPT, Perplexity, Claude)",
     "caseStudySent": "https://taralattanzio.ca",
     "history": [
@@ -20939,6 +20971,14 @@
         "resendId": "01a1034b-e304-7705-91af-c1573cf4a9aa",
         "status": "delivered",
         "notes": "Wix migration pitch focusing on Google search speed and AI conversation visibility (GEO/AEO), $19/mo Core plan, and free 48-hr mobile mockup."
+      },
+      {
+        "step": "Day 4",
+        "sentAt": "2026-10-09T16:45:06.517Z",
+        "subject": "Re: Google & AI search visibility for Law Office of Denise M. Dalaklis",
+        "resendId": "01a1218d-d7f8-7986-9b4e-1f4f9b0e922b",
+        "status": "delivered",
+        "notes": "Threaded Day 4 follow-up sent. Re-offered free 48-hr mockup and highlighted $19/mo Core plan with $0 upfront fee."
       }
     ]
   },
@@ -20952,9 +20992,9 @@
     "location": "Orlando, FL (14016 Sanctuary View Trail, #303, Orlando, FL 32832)",
     "pricingQuoted": "$19/month",
     "initialContactDate": "2026-10-03T19:44:29.429Z",
-    "lastContactDate": "2026-10-03T19:44:29.429Z",
+    "lastContactDate": "2026-10-09T16:45:09.043Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Outreach",
+    "sequenceStep": "Day 4 - Follow-up",
     "diagnosedIssues": "Built on Wix; heavy client-side JavaScript hurting Google mobile rankings and missing structured schema for conversational AI search engines (ChatGPT, Perplexity, Claude)",
     "caseStudySent": "https://taralattanzio.ca",
     "history": [
@@ -20965,6 +21005,14 @@
         "resendId": "01a1034b-eab5-73e9-9889-1981977cca96",
         "status": "delivered",
         "notes": "Wix migration pitch focusing on Google search speed and AI conversation visibility (GEO/AEO), $19/mo Core plan, and free 48-hr mobile mockup."
+      },
+      {
+        "step": "Day 4",
+        "sentAt": "2026-10-09T16:45:09.043Z",
+        "subject": "Re: Google & AI search visibility for Law Offices of Wienna Jane Ingraham, PA",
+        "resendId": "01a1218d-e1ad-70dd-b604-095d034055a7",
+        "status": "delivered",
+        "notes": "Threaded Day 4 follow-up sent. Re-offered free 48-hr mockup and highlighted $19/mo Core plan with $0 upfront fee."
       }
     ]
   },
@@ -20978,9 +21026,9 @@
     "location": "Spokane, WA (1604 W. Dean Ave, Spokane, WA 99201)",
     "pricingQuoted": "$19/month",
     "initialContactDate": "2026-10-03T19:44:31.408Z",
-    "lastContactDate": "2026-10-03T19:44:31.408Z",
+    "lastContactDate": "2026-10-09T17:02:01.401Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Outreach",
+    "sequenceStep": "Day 4 - Follow-up",
     "diagnosedIssues": "Built on Wix; heavy client-side JavaScript hurting Google mobile rankings and missing structured schema for conversational AI search engines (ChatGPT, Perplexity, Claude)",
     "caseStudySent": "https://taralattanzio.ca",
     "history": [
@@ -20991,6 +21039,14 @@
         "resendId": "01a1034b-f267-7e8d-8db4-86e7742e9deb",
         "status": "delivered",
         "notes": "Wix migration pitch focusing on Google search speed and AI conversation visibility (GEO/AEO), $19/mo Core plan, and free 48-hr mobile mockup."
+      },
+      {
+        "step": "Day 4",
+        "sentAt": "2026-10-09T17:02:01.401Z",
+        "subject": "Re: Google & AI search visibility for Richard D. Wall, P.S.",
+        "resendId": "01a1219d-5452-769d-aa81-2ebee63a8d2d",
+        "status": "delivered",
+        "notes": "Threaded Day 4 follow-up sent. Re-offered free 48-hr mockup and highlighted $19/mo Core plan with $0 upfront fee."
       }
     ]
   },
@@ -21004,9 +21060,9 @@
     "location": "Batesville, AR (500 East Main Street, Suite 308, Batesville, AR 72501)",
     "pricingQuoted": "$19/month",
     "initialContactDate": "2026-10-03T19:44:33.392Z",
-    "lastContactDate": "2026-10-03T19:44:33.392Z",
+    "lastContactDate": "2026-10-09T17:02:03.865Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Outreach",
+    "sequenceStep": "Day 4 - Follow-up",
     "diagnosedIssues": "Built on Wix; heavy client-side JavaScript hurting Google mobile rankings and missing structured schema for conversational AI search engines (ChatGPT, Perplexity, Claude)",
     "caseStudySent": "https://taralattanzio.ca",
     "history": [
@@ -21017,6 +21073,14 @@
         "resendId": "01a1034b-fa2b-71dc-85a7-a6c5dcc694fa",
         "status": "delivered",
         "notes": "Wix migration pitch focusing on Google search speed and AI conversation visibility (GEO/AEO), $19/mo Core plan, and free 48-hr mobile mockup."
+      },
+      {
+        "step": "Day 4",
+        "sentAt": "2026-10-09T17:02:03.865Z",
+        "subject": "Re: Google & AI search visibility for Scott Stalker Law Firm",
+        "resendId": "01a1219d-5e00-7de0-b700-e6ad666a1f1e",
+        "status": "delivered",
+        "notes": "Threaded Day 4 follow-up sent. Re-offered free 48-hr mockup and highlighted $19/mo Core plan with $0 upfront fee."
       }
     ]
   },
@@ -21030,9 +21094,9 @@
     "location": "Houston, TX (2616 South Loop West, Suite 670, Houston, TX 77054)",
     "pricingQuoted": "$19/month",
     "initialContactDate": "2026-10-03T19:44:35.394Z",
-    "lastContactDate": "2026-10-03T19:44:35.394Z",
+    "lastContactDate": "2026-10-09T17:05:05.073Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Outreach",
+    "sequenceStep": "Day 4 - Follow-up",
     "diagnosedIssues": "Built on Wix; heavy client-side JavaScript hurting Google mobile rankings and missing structured schema for conversational AI search engines (ChatGPT, Perplexity, Claude)",
     "caseStudySent": "https://taralattanzio.ca",
     "history": [
@@ -21043,6 +21107,14 @@
         "resendId": "01a1034c-01f8-75d6-9e51-8c7df122f0ae",
         "status": "delivered",
         "notes": "Wix migration pitch focusing on Google search speed and AI conversation visibility (GEO/AEO), $19/mo Core plan, and free 48-hr mobile mockup."
+      },
+      {
+        "step": "Day 4",
+        "sentAt": "2026-10-09T17:05:05.073Z",
+        "subject": "Re: Google & AI search visibility for Michael D. Renfro Attorney at Law",
+        "resendId": "01a121a0-21d8-732a-8c48-58de59f756a3",
+        "status": "delivered",
+        "notes": "Threaded Day 4 follow-up sent. Re-offered free 48-hr mockup and highlighted $19/mo Core plan with $0 upfront fee."
       }
     ]
   },
@@ -21056,9 +21128,9 @@
     "location": "Melville, NY (395 N Service Rd, Suite 302, Melville, NY 11747)",
     "pricingQuoted": "$19/month",
     "initialContactDate": "2026-10-03T19:44:37.397Z",
-    "lastContactDate": "2026-10-03T19:44:37.397Z",
+    "lastContactDate": "2026-10-09T17:05:07.754Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Outreach",
+    "sequenceStep": "Day 4 - Follow-up",
     "diagnosedIssues": "Built on Wix; heavy client-side JavaScript hurting Google mobile rankings and missing structured schema for conversational AI search engines (ChatGPT, Perplexity, Claude)",
     "caseStudySent": "https://taralattanzio.ca",
     "history": [
@@ -21069,6 +21141,14 @@
         "resendId": "01a1034c-09c8-7923-9eda-296cc02a178f",
         "status": "delivered",
         "notes": "Wix migration pitch focusing on Google search speed and AI conversation visibility (GEO/AEO), $19/mo Core plan, and free 48-hr mobile mockup."
+      },
+      {
+        "step": "Day 4",
+        "sentAt": "2026-10-09T17:05:07.754Z",
+        "subject": "Re: Google & AI search visibility for Annabel Bazante Law, PLLC",
+        "resendId": "01a121a0-2b85-749d-90e5-5fb6c5ca1775",
+        "status": "delivered",
+        "notes": "Threaded Day 4 follow-up sent. Re-offered free 48-hr mockup and highlighted $19/mo Core plan with $0 upfront fee."
       }
     ]
   },
@@ -21082,9 +21162,9 @@
     "location": "Worcester, MA (390 Main St, Suite 620, Worcester, MA 01608)",
     "pricingQuoted": "$19/month",
     "initialContactDate": "2026-10-03T19:44:39.420Z",
-    "lastContactDate": "2026-10-03T19:44:39.420Z",
+    "lastContactDate": "2026-10-09T17:05:10.417Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Outreach",
+    "sequenceStep": "Day 4 - Follow-up",
     "diagnosedIssues": "Built on Wix; heavy client-side JavaScript hurting Google mobile rankings and missing structured schema for conversational AI search engines (ChatGPT, Perplexity, Claude)",
     "caseStudySent": "https://taralattanzio.ca",
     "history": [
@@ -21095,6 +21175,14 @@
         "resendId": "01a1034c-118b-7143-9c1b-59adfbce7c9b",
         "status": "delivered",
         "notes": "Wix migration pitch focusing on Google search speed and AI conversation visibility (GEO/AEO), $19/mo Core plan, and free 48-hr mobile mockup."
+      },
+      {
+        "step": "Day 4",
+        "sentAt": "2026-10-09T17:05:10.417Z",
+        "subject": "Re: Google & AI search visibility for Law Office of Warren M. Yanoff",
+        "resendId": "01a121a0-3654-74f8-a170-82b6d1cf13c8",
+        "status": "delivered",
+        "notes": "Threaded Day 4 follow-up sent. Re-offered free 48-hr mockup and highlighted $19/mo Core plan with $0 upfront fee."
       }
     ]
   },
@@ -21108,9 +21196,9 @@
     "location": "San Diego, CA (402 W Broadway, Suite 400, San Diego, CA 92101)",
     "pricingQuoted": "$19/month",
     "initialContactDate": "2026-10-03T19:44:41.403Z",
-    "lastContactDate": "2026-10-03T19:44:41.403Z",
+    "lastContactDate": "2026-10-09T17:05:12.998Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Outreach",
+    "sequenceStep": "Day 4 - Follow-up",
     "diagnosedIssues": "Built on Wix; heavy client-side JavaScript hurting Google mobile rankings and missing structured schema for conversational AI search engines (ChatGPT, Perplexity, Claude)",
     "caseStudySent": "https://taralattanzio.ca",
     "history": [
@@ -21121,6 +21209,14 @@
         "resendId": "01a1034c-1979-72af-9217-9688eb19989c",
         "status": "delivered",
         "notes": "Wix migration pitch focusing on Google search speed and AI conversation visibility (GEO/AEO), $19/mo Core plan, and free 48-hr mobile mockup."
+      },
+      {
+        "step": "Day 4",
+        "sentAt": "2026-10-09T17:05:12.998Z",
+        "subject": "Re: Google & AI search visibility for The Law Offices of Christopher L. Bishop",
+        "resendId": "01a121a0-408a-7556-9f65-3e7906497fd2",
+        "status": "delivered",
+        "notes": "Threaded Day 4 follow-up sent. Re-offered free 48-hr mockup and highlighted $19/mo Core plan with $0 upfront fee."
       }
     ]
   },
@@ -21134,9 +21230,9 @@
     "location": "San Francisco, CA (700 Montgomery St, San Francisco, CA 94111)",
     "pricingQuoted": "$19/month",
     "initialContactDate": "2026-10-03T19:44:43.401Z",
-    "lastContactDate": "2026-10-03T19:44:43.401Z",
+    "lastContactDate": "2026-10-09T17:05:15.469Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Outreach",
+    "sequenceStep": "Day 4 - Follow-up",
     "diagnosedIssues": "Built on Wix; heavy client-side JavaScript hurting Google mobile rankings and missing structured schema for conversational AI search engines (ChatGPT, Perplexity, Claude)",
     "caseStudySent": "https://taralattanzio.ca",
     "history": [
@@ -21147,6 +21243,14 @@
         "resendId": "01a1034c-213e-73f7-be88-3cdbb0b4c0dc",
         "status": "delivered",
         "notes": "Wix migration pitch focusing on Google search speed and AI conversation visibility (GEO/AEO), $19/mo Core plan, and free 48-hr mobile mockup."
+      },
+      {
+        "step": "Day 4",
+        "sentAt": "2026-10-09T17:05:15.469Z",
+        "subject": "Re: Google & AI search visibility for Law Offices of Stephen Shaiken",
+        "resendId": "01a121a0-4a6e-7695-85b8-e2b2ed31631a",
+        "status": "delivered",
+        "notes": "Threaded Day 4 follow-up sent. Re-offered free 48-hr mockup and highlighted $19/mo Core plan with $0 upfront fee."
       }
     ]
   },
@@ -21160,9 +21264,9 @@
     "location": "Grand Rapids, MI (250 Monroe Ave NW, Suite 400, Grand Rapids, MI 49503)",
     "pricingQuoted": "$19/month",
     "initialContactDate": "2026-10-03T19:44:45.402Z",
-    "lastContactDate": "2026-10-03T19:44:45.402Z",
+    "lastContactDate": "2026-10-09T17:05:17.962Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Outreach",
+    "sequenceStep": "Day 4 - Follow-up",
     "diagnosedIssues": "Built on Wix; heavy client-side JavaScript hurting Google mobile rankings and missing structured schema for conversational AI search engines (ChatGPT, Perplexity, Claude)",
     "caseStudySent": "https://taralattanzio.ca",
     "history": [
@@ -21173,6 +21277,14 @@
         "resendId": "01a1034c-2912-7546-bfe8-47dc905fbad3",
         "status": "delivered",
         "notes": "Wix migration pitch focusing on Google search speed and AI conversation visibility (GEO/AEO), $19/mo Core plan, and free 48-hr mobile mockup."
+      },
+      {
+        "step": "Day 4",
+        "sentAt": "2026-10-09T17:05:17.962Z",
+        "subject": "Re: Google & AI search visibility for Knecht Law, PLC",
+        "resendId": "01a121a0-5424-7958-b248-4455e4ef1402",
+        "status": "delivered",
+        "notes": "Threaded Day 4 follow-up sent. Re-offered free 48-hr mockup and highlighted $19/mo Core plan with $0 upfront fee."
       }
     ]
   },
@@ -21186,9 +21298,9 @@
     "location": "Philadelphia, PA (123 S. Broad St, Suite 2170, Philadelphia, PA 19109)",
     "pricingQuoted": "$19/month",
     "initialContactDate": "2026-10-03T19:44:47.391Z",
-    "lastContactDate": "2026-10-03T19:44:47.391Z",
+    "lastContactDate": "2026-10-09T17:05:20.488Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Outreach",
+    "sequenceStep": "Day 4 - Follow-up",
     "diagnosedIssues": "Built on Wix; heavy client-side JavaScript hurting Google mobile rankings and missing structured schema for conversational AI search engines (ChatGPT, Perplexity, Claude)",
     "caseStudySent": "https://taralattanzio.ca",
     "history": [
@@ -21199,6 +21311,14 @@
         "resendId": "01a1034c-30d8-7112-b81c-ecc0baa5f39b",
         "status": "delivered",
         "notes": "Wix migration pitch focusing on Google search speed and AI conversation visibility (GEO/AEO), $19/mo Core plan, and free 48-hr mobile mockup."
+      },
+      {
+        "step": "Day 4",
+        "sentAt": "2026-10-09T17:05:20.488Z",
+        "subject": "Re: Google & AI search visibility for Goodman Schwartz & Shaw LLC",
+        "resendId": "01a121a0-5e08-7379-a6cf-442f6938204a",
+        "status": "delivered",
+        "notes": "Threaded Day 4 follow-up sent. Re-offered free 48-hr mockup and highlighted $19/mo Core plan with $0 upfront fee."
       }
     ]
   },
@@ -21212,9 +21332,9 @@
     "location": "North Attleboro, MA (121 S Washington St, North Attleboro, MA 02760)",
     "pricingQuoted": "$19/month",
     "initialContactDate": "2026-10-03T19:44:49.365Z",
-    "lastContactDate": "2026-10-03T19:44:49.365Z",
+    "lastContactDate": "2026-10-09T17:05:22.999Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Outreach",
+    "sequenceStep": "Day 4 - Follow-up",
     "diagnosedIssues": "Built on Wix; heavy client-side JavaScript hurting Google mobile rankings and missing structured schema for conversational AI search engines (ChatGPT, Perplexity, Claude)",
     "caseStudySent": "https://taralattanzio.ca",
     "history": [
@@ -21225,6 +21345,14 @@
         "resendId": "01a1034c-3890-7cb5-a416-2f1487ae6212",
         "status": "delivered",
         "notes": "Wix migration pitch focusing on Google search speed and AI conversation visibility (GEO/AEO), $19/mo Core plan, and free 48-hr mobile mockup."
+      },
+      {
+        "step": "Day 4",
+        "sentAt": "2026-10-09T17:05:22.999Z",
+        "subject": "Re: Google & AI search visibility for Law Office of Gail M. Lareau",
+        "resendId": "01a121a0-67df-7ce9-9b27-5840f92bf8a4",
+        "status": "delivered",
+        "notes": "Threaded Day 4 follow-up sent. Re-offered free 48-hr mockup and highlighted $19/mo Core plan with $0 upfront fee."
       }
     ]
   },
@@ -21238,9 +21366,9 @@
     "location": "Burbank, CA (3500 W Olive Ave, Suite 300, Burbank, CA 91505)",
     "pricingQuoted": "$19/month",
     "initialContactDate": "2026-10-03T19:44:51.359Z",
-    "lastContactDate": "2026-10-03T19:44:51.359Z",
+    "lastContactDate": "2026-10-09T17:05:25.662Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Outreach",
+    "sequenceStep": "Day 4 - Follow-up",
     "diagnosedIssues": "Built on Wix; heavy client-side JavaScript hurting Google mobile rankings and missing structured schema for conversational AI search engines (ChatGPT, Perplexity, Claude)",
     "caseStudySent": "https://taralattanzio.ca",
     "history": [
@@ -21251,6 +21379,14 @@
         "resendId": "01a1034c-405b-73b0-9d4b-3e344950953a",
         "status": "delivered",
         "notes": "Wix migration pitch focusing on Google search speed and AI conversation visibility (GEO/AEO), $19/mo Core plan, and free 48-hr mobile mockup."
+      },
+      {
+        "step": "Day 4",
+        "sentAt": "2026-10-09T17:05:25.662Z",
+        "subject": "Re: Google & AI search visibility for Law Office of Henry Tovmassian",
+        "resendId": "01a121a0-7243-7870-9895-993b892de37b",
+        "status": "delivered",
+        "notes": "Threaded Day 4 follow-up sent. Re-offered free 48-hr mockup and highlighted $19/mo Core plan with $0 upfront fee."
       }
     ]
   },
@@ -21264,9 +21400,9 @@
     "location": "Spring, TX (25301 Borough Park Dr, Suite 221, Spring, TX 77380)",
     "pricingQuoted": "$19/month",
     "initialContactDate": "2026-10-03T19:44:53.344Z",
-    "lastContactDate": "2026-10-03T19:44:53.344Z",
+    "lastContactDate": "2026-10-09T17:05:28.210Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Outreach",
+    "sequenceStep": "Day 4 - Follow-up",
     "diagnosedIssues": "Built on Wix; heavy client-side JavaScript hurting Google mobile rankings and missing structured schema for conversational AI search engines (ChatGPT, Perplexity, Claude)",
     "caseStudySent": "https://taralattanzio.ca",
     "history": [
@@ -21277,6 +21413,14 @@
         "resendId": "01a1034c-481d-77b4-8e73-8ad0d7bc3a64",
         "status": "delivered",
         "notes": "Wix migration pitch focusing on Google search speed and AI conversation visibility (GEO/AEO), $19/mo Core plan, and free 48-hr mobile mockup."
+      },
+      {
+        "step": "Day 4",
+        "sentAt": "2026-10-09T17:05:28.210Z",
+        "subject": "Re: Google & AI search visibility for Law Office of Anna Din, PLLC",
+        "resendId": "01a121a0-7c30-7195-a301-b1e6f3eb6f1d",
+        "status": "delivered",
+        "notes": "Threaded Day 4 follow-up sent. Re-offered free 48-hr mockup and highlighted $19/mo Core plan with $0 upfront fee."
       }
     ]
   },
@@ -21290,9 +21434,9 @@
     "location": "Jacksonville, FL (423 Ocean St, Jacksonville, FL 32202)",
     "pricingQuoted": "$19/month",
     "initialContactDate": "2026-10-03T19:44:55.321Z",
-    "lastContactDate": "2026-10-03T19:44:55.321Z",
+    "lastContactDate": "2026-10-09T17:05:30.824Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Outreach",
+    "sequenceStep": "Day 4 - Follow-up",
     "diagnosedIssues": "Built on Wix; heavy client-side JavaScript hurting Google mobile rankings and missing structured schema for conversational AI search engines (ChatGPT, Perplexity, Claude)",
     "caseStudySent": "https://taralattanzio.ca",
     "history": [
@@ -21303,6 +21447,14 @@
         "resendId": "01a1034c-4fd7-757c-9857-169e0cdc227e",
         "status": "delivered",
         "notes": "Wix migration pitch focusing on Google search speed and AI conversation visibility (GEO/AEO), $19/mo Core plan, and free 48-hr mobile mockup."
+      },
+      {
+        "step": "Day 4",
+        "sentAt": "2026-10-09T17:05:30.824Z",
+        "subject": "Re: Google & AI search visibility for Law Office of Summer Boyd",
+        "resendId": "01a121a0-8629-7c42-aef9-889867df8c4f",
+        "status": "delivered",
+        "notes": "Threaded Day 4 follow-up sent. Re-offered free 48-hr mockup and highlighted $19/mo Core plan with $0 upfront fee."
       }
     ]
   },
@@ -21316,9 +21468,9 @@
     "location": "Tallmadge, OH (588 West Ave, Tallmadge, OH 44278)",
     "pricingQuoted": "$19/month",
     "initialContactDate": "2026-10-03T19:44:57.311Z",
-    "lastContactDate": "2026-10-03T19:44:57.311Z",
+    "lastContactDate": "2026-10-09T17:05:33.305Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Outreach",
+    "sequenceStep": "Day 4 - Follow-up",
     "diagnosedIssues": "Built on Wix; heavy client-side JavaScript hurting Google mobile rankings and missing structured schema for conversational AI search engines (ChatGPT, Perplexity, Claude)",
     "caseStudySent": "https://taralattanzio.ca",
     "history": [
@@ -21329,6 +21481,14 @@
         "resendId": "01a1034c-5795-79d6-aee7-48f98f0c64e4",
         "status": "delivered",
         "notes": "Wix migration pitch focusing on Google search speed and AI conversation visibility (GEO/AEO), $19/mo Core plan, and free 48-hr mobile mockup."
+      },
+      {
+        "step": "Day 4",
+        "sentAt": "2026-10-09T17:05:33.305Z",
+        "subject": "Re: Google & AI search visibility for Mark Salerno Family and Criminal Law",
+        "resendId": "01a121a0-9016-7811-8378-2aed3b8184cf",
+        "status": "delivered",
+        "notes": "Threaded Day 4 follow-up sent. Re-offered free 48-hr mockup and highlighted $19/mo Core plan with $0 upfront fee."
       }
     ]
   },
@@ -21862,9 +22022,9 @@
     "location": "Cincinnati, OH",
     "pricingQuoted": "$19/month ($0 upfront build fee)",
     "initialContactDate": "2026-10-05T16:43:46.131Z",
-    "lastContactDate": "2026-10-05T16:43:46.131Z",
+    "lastContactDate": "2026-10-09T17:05:35.871Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Pitch",
+    "sequenceStep": "Day 4 - Follow-up",
     "diagnosedIssues": "Slow First Contentful Paint (FCP ~2.8s) and Largest Contentful Paint (LCP > 3.7s) driven by heavy uncompressed client-side Wix scripts. Element sizing causes horizontal overflow on mobile screens. Completely lacks JSON-LD Schema.org LegalService structured markup and conversational AI search optimization (AEO/GEO).",
     "caseStudySent": "https://beeclue.com/case-studies/tara-lattanzio?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-the-law-office-of-darrin-e-nye",
     "history": [
@@ -21875,6 +22035,14 @@
         "resendId": "01a10cf3-2f13-72bd-a1a2-c60b86e90506",
         "status": "delivered",
         "notes": "Initial Day 0 outreach sent highlighting Google Search & AI conversational search (GEO/AEO) optimization, 1-second load speeds, $19/mo Core plan ($0 build fee), and free 48-hr mockup offer."
+      },
+      {
+        "step": "Day 4",
+        "sentAt": "2026-10-09T17:05:35.871Z",
+        "subject": "Re: Improving Google search & AI visibility for The Law Office of Darrin E. Nye",
+        "resendId": "01a121a0-99de-7451-b56f-a8945ba13782",
+        "status": "delivered",
+        "notes": "Threaded Day 4 follow-up sent. Re-offered free 48-hr mockup and highlighted $19/mo Core plan with $0 upfront fee."
       }
     ]
   },
@@ -21888,9 +22056,9 @@
     "location": "Highland, MI",
     "pricingQuoted": "$19/month ($0 upfront build fee)",
     "initialContactDate": "2026-10-05T16:43:46.131Z",
-    "lastContactDate": "2026-10-05T16:43:46.131Z",
+    "lastContactDate": "2026-10-09T17:05:38.399Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Pitch",
+    "sequenceStep": "Day 4 - Follow-up",
     "diagnosedIssues": "Slow Time to Interactive (TTI) due to legacy monolithic Wix framework script execution. Contact details and body headers are wrapped in <h6> tags; mobile navigation has delayed touch responsiveness; still retains unedited default template copyright '© 2023 by Lawyer & Lawyer' and lacks Schema.org microdata for Google Knowledge Graph & AI search engines.",
     "caseStudySent": "https://beeclue.com/case-studies/tara-lattanzio?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-stacy-m-combs-p-c",
     "history": [
@@ -21901,6 +22069,14 @@
         "resendId": "01a10cf3-3862-7eb4-a1dd-6074d924425d",
         "status": "delivered",
         "notes": "Initial Day 0 outreach sent highlighting Google Search & AI conversational search (GEO/AEO) optimization, 1-second load speeds, $19/mo Core plan ($0 build fee), and free 48-hr mockup offer."
+      },
+      {
+        "step": "Day 4",
+        "sentAt": "2026-10-09T17:05:38.399Z",
+        "subject": "Re: Improving Google search & AI visibility for Stacy M. Combs, P.C.",
+        "resendId": "01a121a0-a403-7133-b08e-c02df7f98f66",
+        "status": "delivered",
+        "notes": "Threaded Day 4 follow-up sent. Re-offered free 48-hr mockup and highlighted $19/mo Core plan with $0 upfront fee."
       }
     ]
   },
@@ -21914,9 +22090,9 @@
     "location": "Union Lake, MI",
     "pricingQuoted": "$19/month ($0 upfront build fee)",
     "initialContactDate": "2026-10-05T16:43:46.131Z",
-    "lastContactDate": "2026-10-05T16:43:46.131Z",
+    "lastContactDate": "2026-10-09T17:05:40.960Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Pitch",
+    "sequenceStep": "Day 4 - Follow-up",
     "diagnosedIssues": "Outdated 2015 Wix engine resulting in severe Cumulative Layout Shift (CLS) and elevated Total Blocking Time. Viewport does not scale text columns smoothly on modern smartphones. Extremely sparse copy (< 200 words) without structured legal microdata, rendering the firm invisible to conversational answer engines like Perplexity and Google AI Overviews.",
     "caseStudySent": "https://beeclue.com/case-studies/tara-lattanzio?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-the-law-office-of-troy-d-green-pllc",
     "history": [
@@ -21927,6 +22103,14 @@
         "resendId": "01a10cf3-4168-754b-affa-9e8fcf902ba7",
         "status": "delivered",
         "notes": "Initial Day 0 outreach sent highlighting Google Search & AI conversational search (GEO/AEO) optimization, 1-second load speeds, $19/mo Core plan ($0 build fee), and free 48-hr mockup offer."
+      },
+      {
+        "step": "Day 4",
+        "sentAt": "2026-10-09T17:05:40.960Z",
+        "subject": "Re: Improving Google search & AI visibility for The Law Office of Troy D. Green PLLC",
+        "resendId": "01a121a0-addd-71ea-b1b8-167badf3bdaa",
+        "status": "delivered",
+        "notes": "Threaded Day 4 follow-up sent. Re-offered free 48-hr mockup and highlighted $19/mo Core plan with $0 upfront fee."
       }
     ]
   },
@@ -21940,9 +22124,9 @@
     "location": "Birmingham, MI",
     "pricingQuoted": "$19/month ($0 upfront build fee)",
     "initialContactDate": "2026-10-05T16:43:46.131Z",
-    "lastContactDate": "2026-10-05T16:43:46.131Z",
+    "lastContactDate": "2026-10-09T17:05:43.492Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Pitch",
+    "sequenceStep": "Day 4 - Follow-up",
     "diagnosedIssues": "Large uncompressed hero images trigger Largest Contentful Paint > 3.4s; render-blocking JavaScript slows initial DOM paint. Text and office address are hardcoded inside <h6> heading tags. Lacks JSON-LD schema for LegalService and elder law FAQ markup, leaving it unindexed in conversational AI summaries.",
     "caseStudySent": "https://beeclue.com/case-studies/tara-lattanzio?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-the-law-office-of-erin-e-mortenson-pllc",
     "history": [
@@ -21953,6 +22137,14 @@
         "resendId": "01a10cf3-4a7d-7738-9c6b-ef05b1162e2b",
         "status": "delivered",
         "notes": "Initial Day 0 outreach sent highlighting Google Search & AI conversational search (GEO/AEO) optimization, 1-second load speeds, $19/mo Core plan ($0 build fee), and free 48-hr mockup offer."
+      },
+      {
+        "step": "Day 4",
+        "sentAt": "2026-10-09T17:05:43.492Z",
+        "subject": "Re: Improving Google search & AI visibility for The Law Office of Erin E. Mortenson, PLLC",
+        "resendId": "01a121a0-b7df-7e5b-9022-05a1333aefe5",
+        "status": "delivered",
+        "notes": "Threaded Day 4 follow-up sent. Re-offered free 48-hr mockup and highlighted $19/mo Core plan with $0 upfront fee."
       }
     ]
   },
@@ -21966,9 +22158,9 @@
     "location": "Murrysville, PA",
     "pricingQuoted": "$19/month ($0 upfront build fee)",
     "initialContactDate": "2026-10-05T16:43:46.131Z",
-    "lastContactDate": "2026-10-05T16:43:46.131Z",
+    "lastContactDate": "2026-10-09T17:05:46.071Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Pitch",
+    "sequenceStep": "Day 4 - Follow-up",
     "diagnosedIssues": "Sluggish delivery from unbundled legacy Wix CSS/JS, producing poor First Contentful Paint. Unedited template footer copyright retains placeholder '©2023 by Brandt & Matthewson'. Mobile phone tap targets fail accessibility spacing guidelines, with zero Schema.org CriminalDefenseAttorney markup for local search retrieval.",
     "caseStudySent": "https://beeclue.com/case-studies/tara-lattanzio?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-law-office-of-christy-foreman-llc",
     "history": [
@@ -21979,6 +22171,14 @@
         "resendId": "01a10cf3-537f-72fa-affb-d59eb690f7a0",
         "status": "delivered",
         "notes": "Initial Day 0 outreach sent highlighting Google Search & AI conversational search (GEO/AEO) optimization, 1-second load speeds, $19/mo Core plan ($0 build fee), and free 48-hr mockup offer."
+      },
+      {
+        "step": "Day 4",
+        "sentAt": "2026-10-09T17:05:46.071Z",
+        "subject": "Re: Improving Google search & AI visibility for Law Office of Christy Foreman, LLC",
+        "resendId": "01a121a0-c1fe-7c63-97ae-a151fa7810b1",
+        "status": "delivered",
+        "notes": "Threaded Day 4 follow-up sent. Re-offered free 48-hr mockup and highlighted $19/mo Core plan with $0 upfront fee."
       }
     ]
   },
@@ -21992,9 +22192,9 @@
     "location": "Avon, OH",
     "pricingQuoted": "$19/month ($0 upfront build fee)",
     "initialContactDate": "2026-10-05T16:43:46.131Z",
-    "lastContactDate": "2026-10-05T16:43:46.131Z",
+    "lastContactDate": "2026-10-09T17:05:48.650Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Pitch",
+    "sequenceStep": "Day 4 - Follow-up",
     "diagnosedIssues": "Default untouched page title tag ('CONTACT | Mysite') severely degrades Google search click-through rates. Bloated Wix bundle inflates Total Blocking Time, and the sparse text density (< 150 words) prevents AI models from understanding the firm's commercial arbitration qualifications.",
     "caseStudySent": "https://beeclue.com/case-studies/tara-lattanzio?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-patricia-l-seifert-attorney-at-law",
     "history": [
@@ -22005,6 +22205,14 @@
         "resendId": "01a10cf3-5c8b-7cc4-a010-69cdc11dc31d",
         "status": "delivered",
         "notes": "Initial Day 0 outreach sent highlighting Google Search & AI conversational search (GEO/AEO) optimization, 1-second load speeds, $19/mo Core plan ($0 build fee), and free 48-hr mockup offer."
+      },
+      {
+        "step": "Day 4",
+        "sentAt": "2026-10-09T17:05:48.650Z",
+        "subject": "Re: Improving Google search & AI visibility for Patricia L Seifert, Attorney at Law",
+        "resendId": "01a121a0-cbd6-70f5-8c46-7236214046d5",
+        "status": "delivered",
+        "notes": "Threaded Day 4 follow-up sent. Re-offered free 48-hr mockup and highlighted $19/mo Core plan with $0 upfront fee."
       }
     ]
   },
@@ -22018,9 +22226,9 @@
     "location": "Wooster, OH",
     "pricingQuoted": "$19/month ($0 upfront build fee)",
     "initialContactDate": "2026-10-05T16:43:46.131Z",
-    "lastContactDate": "2026-10-05T16:43:46.131Z",
+    "lastContactDate": "2026-10-09T17:05:51.140Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Pitch",
+    "sequenceStep": "Day 4 - Follow-up",
     "diagnosedIssues": "Legacy 2016 Wix build ('©2016 by BUYTENDYK LAW OFFICE LLC') suffering from unoptimized scripts, poor FCP (> 3.0s), and slow LCP. Practice areas are fragmented across multiple broken span and heading tags (H4, H5, H6) with zero Schema.org structured data for Google Knowledge Panels or AI engine citations.",
     "caseStudySent": "https://beeclue.com/case-studies/tara-lattanzio?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-buytendyk-law-office-llc",
     "history": [
@@ -22031,6 +22239,14 @@
         "resendId": "01a10cf3-658a-7d90-b75c-3c949c38ae1f",
         "status": "delivered",
         "notes": "Initial Day 0 outreach sent highlighting Google Search & AI conversational search (GEO/AEO) optimization, 1-second load speeds, $19/mo Core plan ($0 build fee), and free 48-hr mockup offer."
+      },
+      {
+        "step": "Day 4",
+        "sentAt": "2026-10-09T17:05:51.140Z",
+        "subject": "Re: Improving Google search & AI visibility for BUYTENDYK LAW OFFICE LLC",
+        "resendId": "01a121a0-d5c3-7841-857e-359ea9e9ee65",
+        "status": "delivered",
+        "notes": "Threaded Day 4 follow-up sent. Re-offered free 48-hr mockup and highlighted $19/mo Core plan with $0 upfront fee."
       }
     ]
   },
@@ -22044,9 +22260,9 @@
     "location": "Wooster, OH",
     "pricingQuoted": "$19/month ($0 upfront build fee)",
     "initialContactDate": "2026-10-05T16:43:46.131Z",
-    "lastContactDate": "2026-10-05T16:43:46.131Z",
+    "lastContactDate": "2026-10-09T17:05:53.695Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Pitch",
+    "sequenceStep": "Day 4 - Follow-up",
     "diagnosedIssues": "Page title left unoptimized as 'HOME | toddcheeklaw'. Entire body copy and attorney bio are nested inside <h6> tags, breaking mobile document structure and screen-reader accessibility. Lacks Schema.org LegalService markup and state court jurisdiction citations for AI conversational search.",
     "caseStudySent": "https://beeclue.com/case-studies/tara-lattanzio?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-todd-e-cheek-law-office-llc",
     "history": [
@@ -22057,6 +22273,14 @@
         "resendId": "01a10cf3-6e9b-7d87-8b3b-4fc360b8bd4a",
         "status": "delivered",
         "notes": "Initial Day 0 outreach sent highlighting Google Search & AI conversational search (GEO/AEO) optimization, 1-second load speeds, $19/mo Core plan ($0 build fee), and free 48-hr mockup offer."
+      },
+      {
+        "step": "Day 4",
+        "sentAt": "2026-10-09T17:05:53.695Z",
+        "subject": "Re: Improving Google search & AI visibility for Todd E. Cheek Law Office, LLC",
+        "resendId": "01a121a0-df81-75cc-b72b-c67ed7144f3f",
+        "status": "delivered",
+        "notes": "Threaded Day 4 follow-up sent. Re-offered free 48-hr mockup and highlighted $19/mo Core plan with $0 upfront fee."
       }
     ]
   },
@@ -22070,9 +22294,9 @@
     "location": "Washington Court House, OH",
     "pricingQuoted": "$19/month ($0 upfront build fee)",
     "initialContactDate": "2026-10-05T16:43:46.131Z",
-    "lastContactDate": "2026-10-05T16:43:46.131Z",
+    "lastContactDate": "2026-10-09T17:05:56.315Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Pitch",
+    "sequenceStep": "Day 4 - Follow-up",
     "diagnosedIssues": "High Total Blocking Time from Wix scripts. Template footer retains unmodified placeholder copyright ('© 2023 by ASHTON & PORTER'). Relies on unbranded Gmail address without JSON-LD LegalService schema or criminal defense FAQ structure for generative search summaries.",
     "caseStudySent": "https://beeclue.com/case-studies/tara-lattanzio?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-the-law-office-of-caleb-johnson-llc",
     "history": [
@@ -22083,6 +22307,14 @@
         "resendId": "01a10cf3-77da-781f-9d14-321bd17fcf2a",
         "status": "delivered",
         "notes": "Initial Day 0 outreach sent highlighting Google Search & AI conversational search (GEO/AEO) optimization, 1-second load speeds, $19/mo Core plan ($0 build fee), and free 48-hr mockup offer."
+      },
+      {
+        "step": "Day 4",
+        "sentAt": "2026-10-09T17:05:56.315Z",
+        "subject": "Re: Improving Google search & AI visibility for The Law Office of Caleb Johnson, LLC",
+        "resendId": "01a121a0-e9b6-7f22-afa6-4b4c5f7d6f97",
+        "status": "delivered",
+        "notes": "Threaded Day 4 follow-up sent. Re-offered free 48-hr mockup and highlighted $19/mo Core plan with $0 upfront fee."
       }
     ]
   },
@@ -22096,9 +22328,9 @@
     "location": "Pittsburgh, PA",
     "pricingQuoted": "$19/month ($0 upfront build fee)",
     "initialContactDate": "2026-10-05T16:43:46.131Z",
-    "lastContactDate": "2026-10-05T16:43:46.131Z",
+    "lastContactDate": "2026-10-09T17:05:58.858Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Pitch",
+    "sequenceStep": "Day 4 - Follow-up",
     "diagnosedIssues": "Built on Wix in 2021; unbundled CSS and script chaining delay First Contentful Paint (> 3.1s). Publicly displays personal @hotmail.com email address in website header; tap targets are tightly clustered on mobile, and practice areas lack semantic entity depth for regional injury search in AI engines.",
     "caseStudySent": "https://beeclue.com/case-studies/tara-lattanzio?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-stephen-j-o-brien-associates-llc",
     "history": [
@@ -22109,6 +22341,14 @@
         "resendId": "01a10cf3-80f5-74fd-99c2-14e76edd9b9d",
         "status": "delivered",
         "notes": "Initial Day 0 outreach sent highlighting Google Search & AI conversational search (GEO/AEO) optimization, 1-second load speeds, $19/mo Core plan ($0 build fee), and free 48-hr mockup offer."
+      },
+      {
+        "step": "Day 4",
+        "sentAt": "2026-10-09T17:05:58.858Z",
+        "subject": "Re: Improving Google search & AI visibility for Stephen J. O'Brien & Associates, LLC",
+        "resendId": "01a121a0-f3e7-71a4-ad6b-dce2e54e238d",
+        "status": "delivered",
+        "notes": "Threaded Day 4 follow-up sent. Re-offered free 48-hr mockup and highlighted $19/mo Core plan with $0 upfront fee."
       }
     ]
   },
@@ -22122,9 +22362,9 @@
     "location": "Philadelphia, PA",
     "pricingQuoted": "$19/month ($0 upfront build fee)",
     "initialContactDate": "2026-10-05T16:43:46.131Z",
-    "lastContactDate": "2026-10-05T16:43:46.131Z",
+    "lastContactDate": "2026-10-09T17:06:01.367Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Pitch",
+    "sequenceStep": "Day 4 - Follow-up",
     "diagnosedIssues": "Heavy uncompressed hero photography and badge graphics severely hurt Largest Contentful Paint (LCP > 3.8s). Subpages like FAQ use unconfigured slug `/blank-page`. Relies on unbranded Gmail address with missing Schema.org AggregateRating and LegalService markup.",
     "caseStudySent": "https://beeclue.com/case-studies/tara-lattanzio?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-jonathan-d-rosenau-personal-injury-attorney-at-law",
     "history": [
@@ -22135,6 +22375,14 @@
         "resendId": "01a10cf3-89fe-7612-b741-ae10609712e4",
         "status": "delivered",
         "notes": "Initial Day 0 outreach sent highlighting Google Search & AI conversational search (GEO/AEO) optimization, 1-second load speeds, $19/mo Core plan ($0 build fee), and free 48-hr mockup offer."
+      },
+      {
+        "step": "Day 4",
+        "sentAt": "2026-10-09T17:06:01.367Z",
+        "subject": "Re: Improving Google search & AI visibility for Jonathan D. Rosenau: Personal Injury Attorney At Law",
+        "resendId": "01a121a0-fdb9-726c-9a36-d86fc73aca80",
+        "status": "delivered",
+        "notes": "Threaded Day 4 follow-up sent. Re-offered free 48-hr mockup and highlighted $19/mo Core plan with $0 upfront fee."
       }
     ]
   },
@@ -22148,9 +22396,9 @@
     "location": "Uniontown, PA",
     "pricingQuoted": "$19/month ($0 upfront build fee)",
     "initialContactDate": "2026-10-05T16:43:46.131Z",
-    "lastContactDate": "2026-10-05T16:43:46.131Z",
+    "lastContactDate": "2026-10-09T17:06:03.899Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Pitch",
+    "sequenceStep": "Day 4 - Follow-up",
     "diagnosedIssues": "Slow initial server response and bloated Wix JavaScript bundle inflating Total Blocking Time. Entire biography paragraphs are improperly coded as <h2> tags with zero paragraph structure, destroying DOM hierarchy and mobile screen-reader flow with complete absence of Schema.org microdata.",
     "caseStudySent": "https://beeclue.com/case-studies/tara-lattanzio?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-pavina-law-llc",
     "history": [
@@ -22161,6 +22409,14 @@
         "resendId": "01a10cf3-9328-7d7e-ad82-e21f1e461d02",
         "status": "delivered",
         "notes": "Initial Day 0 outreach sent highlighting Google Search & AI conversational search (GEO/AEO) optimization, 1-second load speeds, $19/mo Core plan ($0 build fee), and free 48-hr mockup offer."
+      },
+      {
+        "step": "Day 4",
+        "sentAt": "2026-10-09T17:06:03.899Z",
+        "subject": "Re: Improving Google search & AI visibility for Pavina Law, LLC",
+        "resendId": "01a121a1-0798-7519-9ecd-c4592f3e331e",
+        "status": "delivered",
+        "notes": "Threaded Day 4 follow-up sent. Re-offered free 48-hr mockup and highlighted $19/mo Core plan with $0 upfront fee."
       }
     ]
   },
@@ -22174,9 +22430,9 @@
     "location": "King, NC",
     "pricingQuoted": "$19/month ($0 upfront build fee)",
     "initialContactDate": "2026-10-05T16:43:46.131Z",
-    "lastContactDate": "2026-10-05T16:43:46.131Z",
+    "lastContactDate": "2026-10-09T17:06:06.473Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Pitch",
+    "sequenceStep": "Day 4 - Follow-up",
     "diagnosedIssues": "Late-loading Wix webfont styles cause layout shifts (CLS > 0.15) and delayed FCP. Payment link routes to generic slug `/blank-page`, and mobile header lacks dedicated click-to-call button formatting. State Bar ID (#53812) is unindexed due to missing JSON-LD LegalService schema.",
     "caseStudySent": "https://beeclue.com/case-studies/tara-lattanzio?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-alex-de-la-torre-attorney-at-law-pllc",
     "history": [
@@ -22187,6 +22443,14 @@
         "resendId": "01a10cf3-9c40-758d-ab44-01fed27011f6",
         "status": "delivered",
         "notes": "Initial Day 0 outreach sent highlighting Google Search & AI conversational search (GEO/AEO) optimization, 1-second load speeds, $19/mo Core plan ($0 build fee), and free 48-hr mockup offer."
+      },
+      {
+        "step": "Day 4",
+        "sentAt": "2026-10-09T17:06:06.473Z",
+        "subject": "Re: Improving Google search & AI visibility for Alex de la Torre Attorney at Law, PLLC",
+        "resendId": "01a121a1-1170-7967-a86a-f22456da09e6",
+        "status": "delivered",
+        "notes": "Threaded Day 4 follow-up sent. Re-offered free 48-hr mockup and highlighted $19/mo Core plan with $0 upfront fee."
       }
     ]
   },
@@ -22200,9 +22464,9 @@
     "location": "West End, NC",
     "pricingQuoted": "$19/month ($0 upfront build fee)",
     "initialContactDate": "2026-10-05T16:43:46.131Z",
-    "lastContactDate": "2026-10-05T16:43:46.131Z",
+    "lastContactDate": "2026-10-09T17:06:08.963Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Pitch",
+    "sequenceStep": "Day 4 - Follow-up",
     "diagnosedIssues": "Built in 2018 on Wix; unoptimized dynamic scripts lead to slow DOM Content Loaded. Physical address, mailing address, and phone numbers are erroneously marked up as <h1> heading tags, completely breaking the HTML5 document outline and mobile accessibility. Relies on personal Gmail address without Schema.org markup.",
     "caseStudySent": "https://beeclue.com/case-studies/tara-lattanzio?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-charles-wright-law-pllc",
     "history": [
@@ -22213,6 +22477,14 @@
         "resendId": "01a10cf3-a558-7024-9de2-425b30b87dab",
         "status": "delivered",
         "notes": "Initial Day 0 outreach sent highlighting Google Search & AI conversational search (GEO/AEO) optimization, 1-second load speeds, $19/mo Core plan ($0 build fee), and free 48-hr mockup offer."
+      },
+      {
+        "step": "Day 4",
+        "sentAt": "2026-10-09T17:06:08.963Z",
+        "subject": "Re: Improving Google search & AI visibility for Charles Wright Law, PLLC",
+        "resendId": "01a121a1-1b5b-7ec4-965f-9112a06f5743",
+        "status": "delivered",
+        "notes": "Threaded Day 4 follow-up sent. Re-offered free 48-hr mockup and highlighted $19/mo Core plan with $0 upfront fee."
       }
     ]
   },
@@ -22226,9 +22498,9 @@
     "location": "Charlotte, NC",
     "pricingQuoted": "$19/month ($0 upfront build fee)",
     "initialContactDate": "2026-10-05T16:43:46.131Z",
-    "lastContactDate": "2026-10-05T16:43:46.131Z",
+    "lastContactDate": "2026-10-09T17:06:11.435Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Pitch",
+    "sequenceStep": "Day 4 - Follow-up",
     "diagnosedIssues": "Legacy 2015 Wix build ('© 2015 by C. Jennifer Coble Proudly created with Wix.com') causing high TBT and delayed LCP. Homepage title tag left as generic default ('HOME | law-firm'), causing poor SERP snippets, with a broken mailto HTML link in the contact block and zero Schema.org LegalService markup.",
     "caseStudySent": "https://beeclue.com/case-studies/tara-lattanzio?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-c-jennifer-coble-attorney-at-law-pllc",
     "history": [
@@ -22239,6 +22511,14 @@
         "resendId": "01a10cf3-ae67-747e-a6ab-61b488646285",
         "status": "delivered",
         "notes": "Initial Day 0 outreach sent highlighting Google Search & AI conversational search (GEO/AEO) optimization, 1-second load speeds, $19/mo Core plan ($0 build fee), and free 48-hr mockup offer."
+      },
+      {
+        "step": "Day 4",
+        "sentAt": "2026-10-09T17:06:11.435Z",
+        "subject": "Re: Improving Google search & AI visibility for C. Jennifer Coble, Attorney at Law, PLLC",
+        "resendId": "01a121a1-250a-758f-bbfb-85fd8a131f74",
+        "status": "delivered",
+        "notes": "Threaded Day 4 follow-up sent. Re-offered free 48-hr mockup and highlighted $19/mo Core plan with $0 upfront fee."
       }
     ]
   },
@@ -22252,9 +22532,9 @@
     "location": "Dallas, NC",
     "pricingQuoted": "$19/month ($0 upfront build fee)",
     "initialContactDate": "2026-10-05T16:43:46.131Z",
-    "lastContactDate": "2026-10-05T16:43:46.131Z",
+    "lastContactDate": "2026-10-09T17:06:14.052Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Pitch",
+    "sequenceStep": "Day 4 - Follow-up",
     "diagnosedIssues": "Slow mobile LCP (> 3.5s) on legacy Wix architecture. Unmodified placeholder title tag ('HOME | jthomashunn') and unedited footer template copyright ('© 2023 by Name of Site. Proudly created with Wix.com') displaying literal placeholder 'Name of Site'. Relies on Gmail mailbox without conversational family law Q&A schema.",
     "caseStudySent": "https://beeclue.com/case-studies/tara-lattanzio?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-the-law-office-of-j-thomas-hunn",
     "history": [
@@ -22265,6 +22545,14 @@
         "resendId": "01a10cf3-b7cb-7c21-9f2f-fd60116b0bf0",
         "status": "delivered",
         "notes": "Initial Day 0 outreach sent highlighting Google Search & AI conversational search (GEO/AEO) optimization, 1-second load speeds, $19/mo Core plan ($0 build fee), and free 48-hr mockup offer."
+      },
+      {
+        "step": "Day 4",
+        "sentAt": "2026-10-09T17:06:14.052Z",
+        "subject": "Re: Improving Google search & AI visibility for The Law Office of J. Thomas Hunn",
+        "resendId": "01a121a1-2f1b-71b4-87ce-5a11e57511ca",
+        "status": "delivered",
+        "notes": "Threaded Day 4 follow-up sent. Re-offered free 48-hr mockup and highlighted $19/mo Core plan with $0 upfront fee."
       }
     ]
   },
@@ -22278,9 +22566,9 @@
     "location": "Anderson, IN",
     "pricingQuoted": "$19/month ($0 upfront build fee)",
     "initialContactDate": "2026-10-05T16:43:46.131Z",
-    "lastContactDate": "2026-10-05T16:43:46.131Z",
+    "lastContactDate": "2026-10-09T17:06:16.587Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Pitch",
+    "sequenceStep": "Day 4 - Follow-up",
     "diagnosedIssues": "High Total Blocking Time from Wix runtime script execution. Uncleaned template URL slugs such as `/copy-of-family-law` for criminal law pages reveal an unmaintained CMS setup that confuses crawlers and mobile users, with complete absence of Schema.org LegalService structured markup.",
     "caseStudySent": "https://beeclue.com/case-studies/tara-lattanzio?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-anthony-c-lawrence-p-c",
     "history": [
@@ -22291,6 +22579,14 @@
         "resendId": "01a10cf3-c0dc-7d2d-8ce5-0922fe84cf2d",
         "status": "delivered",
         "notes": "Initial Day 0 outreach sent highlighting Google Search & AI conversational search (GEO/AEO) optimization, 1-second load speeds, $19/mo Core plan ($0 build fee), and free 48-hr mockup offer."
+      },
+      {
+        "step": "Day 4",
+        "sentAt": "2026-10-09T17:06:16.587Z",
+        "subject": "Re: Improving Google search & AI visibility for Anthony C. Lawrence, P.C.",
+        "resendId": "01a121a1-3926-7bf8-85e4-a89a2a97abb7",
+        "status": "delivered",
+        "notes": "Threaded Day 4 follow-up sent. Re-offered free 48-hr mockup and highlighted $19/mo Core plan with $0 upfront fee."
       }
     ]
   },
@@ -22304,9 +22600,9 @@
     "location": "South Bend, IN",
     "pricingQuoted": "$19/month ($0 upfront build fee)",
     "initialContactDate": "2026-10-05T16:43:46.131Z",
-    "lastContactDate": "2026-10-05T16:43:46.131Z",
+    "lastContactDate": "2026-10-09T17:06:19.130Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Pitch",
+    "sequenceStep": "Day 4 - Follow-up",
     "diagnosedIssues": "Lagging FCP and LCP due to Wix client-side bundle rendering. Leftover template artifact text ('Heading 5') is exposed directly on live pages; subpage URLs use unconfigured slugs like `/general-5`, `/general-9`, lacking Schema.org BankruptcyAttorney structured data.",
     "caseStudySent": "https://beeclue.com/case-studies/tara-lattanzio?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-hildebrand-law-office",
     "history": [
@@ -22317,6 +22613,14 @@
         "resendId": "01a10cf3-ca3b-7495-8a7d-f3f3f9d3c4c6",
         "status": "delivered",
         "notes": "Initial Day 0 outreach sent highlighting Google Search & AI conversational search (GEO/AEO) optimization, 1-second load speeds, $19/mo Core plan ($0 build fee), and free 48-hr mockup offer."
+      },
+      {
+        "step": "Day 4",
+        "sentAt": "2026-10-09T17:06:19.130Z",
+        "subject": "Re: Improving Google search & AI visibility for Hildebrand Law Office",
+        "resendId": "01a121a1-4304-7bcd-bc5a-991e782c0d5d",
+        "status": "delivered",
+        "notes": "Threaded Day 4 follow-up sent. Re-offered free 48-hr mockup and highlighted $19/mo Core plan with $0 upfront fee."
       }
     ]
   },
@@ -22330,9 +22634,9 @@
     "location": "Haubstadt, IN",
     "pricingQuoted": "$19/month ($0 upfront build fee)",
     "initialContactDate": "2026-10-05T16:43:46.131Z",
-    "lastContactDate": "2026-10-05T16:43:46.131Z",
+    "lastContactDate": "2026-10-09T17:06:21.794Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Pitch",
+    "sequenceStep": "Day 4 - Follow-up",
     "diagnosedIssues": "Slow initial paint caused by Wix boilerplate dependencies. Extremely sparse text content (< 180 words) with duplicated navigation items ('Practices' appears twice in navbar); uses unbranded personal Gmail address and lacks topical entity depth for southern Indiana family court search in AI overviews.",
     "caseStudySent": "https://beeclue.com/case-studies/tara-lattanzio?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-sandra-hicks-law-office-llc",
     "history": [
@@ -22343,6 +22647,14 @@
         "resendId": "01a10cf3-d343-7750-accc-e572e637bf0c",
         "status": "delivered",
         "notes": "Initial Day 0 outreach sent highlighting Google Search & AI conversational search (GEO/AEO) optimization, 1-second load speeds, $19/mo Core plan ($0 build fee), and free 48-hr mockup offer."
+      },
+      {
+        "step": "Day 4",
+        "sentAt": "2026-10-09T17:06:21.794Z",
+        "subject": "Re: Improving Google search & AI visibility for Sandra Hicks Law Office LLC",
+        "resendId": "01a121a1-4d0c-7b6f-a4ca-b9bad47390a8",
+        "status": "delivered",
+        "notes": "Threaded Day 4 follow-up sent. Re-offered free 48-hr mockup and highlighted $19/mo Core plan with $0 upfront fee."
       }
     ]
   },
@@ -22356,9 +22668,9 @@
     "location": "Angola, IN",
     "pricingQuoted": "$19/month ($0 upfront build fee)",
     "initialContactDate": "2026-10-05T16:43:46.131Z",
-    "lastContactDate": "2026-10-05T16:43:46.131Z",
+    "lastContactDate": "2026-10-09T17:06:24.353Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Pitch",
+    "sequenceStep": "Day 4 - Follow-up",
     "diagnosedIssues": "Slow mobile page performance with heavy script execution on entry. Exposes unedited placeholder lorem ipsum review copy ('This is your Testimonial quote. Use this space to share reviews about you...'); unconfigured subpage slugs like `/blank-1` and `/blank-2` without Schema.org LegalService markup.",
     "caseStudySent": "https://beeclue.com/case-studies/tara-lattanzio?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-lisa-hanna-law-llc",
     "history": [
@@ -22369,6 +22681,14 @@
         "resendId": "01a10cf3-dc51-7334-94f7-c370016e6f5a",
         "status": "delivered",
         "notes": "Initial Day 0 outreach sent highlighting Google Search & AI conversational search (GEO/AEO) optimization, 1-second load speeds, $19/mo Core plan ($0 build fee), and free 48-hr mockup offer."
+      },
+      {
+        "step": "Day 4",
+        "sentAt": "2026-10-09T17:06:24.353Z",
+        "subject": "Re: Improving Google search & AI visibility for Lisa Hanna Law, LLC",
+        "resendId": "01a121a1-5786-7cee-80b9-ea28e4f08c89",
+        "status": "delivered",
+        "notes": "Threaded Day 4 follow-up sent. Re-offered free 48-hr mockup and highlighted $19/mo Core plan with $0 upfront fee."
       }
     ]
   },
