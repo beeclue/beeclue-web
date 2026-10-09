@@ -162,82 +162,167 @@ export default function LawFirmAutomationPage() {
         </div>
       </FadeIn>
 
-      {/* ESSENTIAL FEATURES */}
+      {/* ESSENTIAL FEATURES (BENTO GRID LAYOUT) */}
       <FadeIn className={`${styles.baseSection} ${styles.servicesSection}`}>
         <div className={styles.servicesHeader}>
           <h2>Essential Automations for Modern Law Firms</h2>
           <p>We build every law firm website with intelligent workflows designed specifically for attorneys and legal staff.</p>
         </div>
 
-        <div className={styles.aboutGrid} style={{ marginBottom: "5rem" }}>
-          <div className={styles.aboutText}>
-            <h3 style={{ fontSize: "2rem", marginBottom: "1rem", color: "var(--foreground)" }}>24/7 Intelligent Intake &amp; Conflict Screening</h3>
-            <p>
-              Capture qualified cases while you sleep or represent clients in court. Interactive conditional forms screen practice area, matter urgency, and opposing party names upfront. The attorney receives instant SMS alerts while the client gets an immediate, professional confirmation.
-            </p>
-          </div>
-          <div style={{ display: "flex", alignItems: "center", justifyContent: "center" }}>
-            <Zap size={120} color="#3385ff" strokeWidth={1} />
-          </div>
-        </div>
+        <div className={styles.bentoGrid}>
+          {/* Bento Flagship Hero Card */}
+          <div className={styles.bentoFeaturedCard}>
+            <div>
+              <div className={styles.bentoIconWrapper}>
+                <Zap size={26} />
+              </div>
+              <span className={styles.bentoBadge}>01 / Flagship Intake Engine</span>
+              <h3>24/7 Intelligent Intake &amp; Conflict Screening</h3>
+              <p>
+                Capture qualified cases while you sleep or represent clients in court. Interactive conditional forms screen practice area, matter urgency, and opposing party names upfront. The attorney receives instant SMS alerts while the client gets an immediate, professional confirmation.
+              </p>
+              <div className={styles.bentoChecklist}>
+                <div className={styles.bentoCheckItem}>
+                  <CheckCircle2 size={18} />
+                  <span>Sub-30-second automated response locks in clients before competitors</span>
+                </div>
+                <div className={styles.bentoCheckItem}>
+                  <CheckCircle2 size={18} />
+                  <span>Opposing party data captured upfront to safeguard ethical conflict checks</span>
+                </div>
+                <div className={styles.bentoCheckItem}>
+                  <CheckCircle2 size={18} />
+                  <span>Conditional branching automatically filters out-of-jurisdiction inquiries</span>
+                </div>
+              </div>
+            </div>
 
-        <div className={styles.aboutGrid} style={{ marginBottom: "5rem" }}>
-          <div className={styles.aboutText}>
-            <h3 style={{ fontSize: "2rem", marginBottom: "1rem", color: "var(--foreground)" }}>Self-Serve Calendar Booking &amp; No-Show Reduction</h3>
-            <p>
-              Eliminate phone tag entirely. Qualified prospects select open consultation times directly on your website, synced in real time with your court schedule and calendar buffers. Automated 24-hour and 2-hour SMS &amp; email reminders cut missed consultations by over 70%.
-            </p>
+            {/* Visual Simulation Box */}
+            <div className={styles.bentoVisualBox}>
+              <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", borderBottom: "1px solid var(--border)", paddingBottom: "0.75rem" }}>
+                <span style={{ fontSize: "0.75rem", fontWeight: 700, textTransform: "uppercase", letterSpacing: "0.06em", color: "var(--muted-light)" }}>
+                  Speed-to-Lead Triage
+                </span>
+                <span style={{ fontSize: "0.75rem", color: "#16a34a", fontWeight: 600, display: "flex", alignItems: "center", gap: "4px" }}>
+                  <span style={{ width: 6, height: 6, borderRadius: "50%", background: "#16a34a" }}></span> Active
+                </span>
+              </div>
+              <div style={{ fontSize: "0.875rem", lineHeight: 1.5 }}>
+                <div style={{ color: "var(--muted-light)", fontSize: "0.75rem", marginBottom: "2px" }}>Incoming Practice Inquiry</div>
+                <strong style={{ color: "var(--foreground)" }}>Family Law • Divorce &amp; Custody</strong>
+              </div>
+              <div style={{ fontSize: "0.875rem", lineHeight: 1.5 }}>
+                <div style={{ color: "var(--muted-light)", fontSize: "0.75rem", marginBottom: "2px" }}>Conflict Screening</div>
+                <span style={{ color: "var(--primary)", fontWeight: 600 }}>Opposing Party Logged • No Match</span>
+              </div>
+              <div style={{ background: "var(--surface)", border: "1px solid var(--border)", borderRadius: "8px", padding: "0.75rem", fontSize: "0.8125rem", color: "var(--foreground)", lineHeight: 1.4 }}>
+                ⚡ <strong>Automated Action (12s):</strong> SMS alert dispatched to Attorney mobile. Instant client calendar link delivered.
+              </div>
+            </div>
           </div>
-          <div style={{ display: "flex", alignItems: "center", justifyContent: "center" }}>
-            <Calendar size={120} color="#3385ff" strokeWidth={1} />
-          </div>
-        </div>
 
-        <div className={styles.aboutGrid} style={{ marginBottom: "5rem" }}>
-          <div className={styles.aboutText}>
-            <h3 style={{ fontSize: "2rem", marginBottom: "1rem", color: "var(--foreground)" }}>Retainer E-Signatures &amp; Document Chasing</h3>
+          {/* Bento Card 2: Self-Serve Calendar Booking */}
+          <div className={styles.bentoCard}>
+            <div className={styles.bentoIconWrapper}>
+              <Calendar size={24} />
+            </div>
+            <span className={styles.bentoBadge}>02 / Calendar Sync</span>
+            <h3>Self-Serve Consultation Booking</h3>
             <p>
-              Stop spending weeks chasing blurry photos of driver&apos;s licenses, police reports, and financial affidavits. Clients receive a secure, mobile-friendly upload portal with automated polite reminder nudges sent at 48 hours and 96 hours until required documentation is submitted.
+              Eliminate phone tag entirely. Qualified prospects select open consultation times directly on your website, synced in real time with your court schedule and calendar buffers.
             </p>
+            <div className={styles.bentoChecklist}>
+              <div className={styles.bentoCheckItem}>
+                <CheckCircle2 size={18} />
+                <span>Direct real-time sync with Clio, Outlook, and Google Calendar</span>
+              </div>
+              <div className={styles.bentoCheckItem}>
+                <CheckCircle2 size={18} />
+                <span>Automated 24h &amp; 2h SMS reminders cut no-shows by 70%</span>
+              </div>
+              <div className={styles.bentoCheckItem}>
+                <CheckCircle2 size={18} />
+                <span>Optional upfront consultation fee processing (LawPay / Stripe)</span>
+              </div>
+            </div>
           </div>
-          <div style={{ display: "flex", alignItems: "center", justifyContent: "center" }}>
-            <FileText size={120} color="#3385ff" strokeWidth={1} />
-          </div>
-        </div>
 
-        <div className={styles.aboutGrid} style={{ marginBottom: "5rem" }}>
-          <div className={styles.aboutText}>
-            <h3 style={{ fontSize: "2rem", marginBottom: "1rem", color: "var(--foreground)" }}>Automated Case Milestone Updates</h3>
+          {/* Bento Card 3: Retainer & Document Collection */}
+          <div className={styles.bentoCard}>
+            <div className={styles.bentoIconWrapper}>
+              <FileText size={24} />
+            </div>
+            <span className={styles.bentoBadge}>03 / Client Onboarding</span>
+            <h3>Retainer E-Signatures &amp; Document Chasing</h3>
             <p>
-              Over 40% of inbound calls to small law firms are existing clients asking &quot;What is happening with my case?&quot; Our milestone triggers send automated plain-English updates when court filings are completed or court dates are set, keeping clients calm and attorneys focused.
+              Stop spending weeks chasing blurry photos of IDs, police reports, and deeds. Clients receive a secure, mobile-friendly upload portal with automated follow-ups.
             </p>
+            <div className={styles.bentoChecklist}>
+              <div className={styles.bentoCheckItem}>
+                <CheckCircle2 size={18} />
+                <span>1-click digital retainer agreement dispatch with e-signature</span>
+              </div>
+              <div className={styles.bentoCheckItem}>
+                <CheckCircle2 size={18} />
+                <span>Secure encrypted document checklist portal (256-bit TLS 1.3)</span>
+              </div>
+              <div className={styles.bentoCheckItem}>
+                <CheckCircle2 size={18} />
+                <span>Automated friendly SMS reminders at 48h and 96h for missing items</span>
+              </div>
+            </div>
           </div>
-          <div style={{ display: "flex", alignItems: "center", justifyContent: "center" }}>
-            <MessageSquare size={120} color="#3385ff" strokeWidth={1} />
-          </div>
-        </div>
 
-        <div className={styles.aboutGrid} style={{ marginBottom: "5rem" }}>
-          <div className={styles.aboutText}>
-            <h3 style={{ fontSize: "2rem", marginBottom: "1rem", color: "var(--foreground)" }}>Automated 5-Star Google Review Engine</h3>
+          {/* Bento Card 4: Milestone Updates */}
+          <div className={styles.bentoCard}>
+            <div className={styles.bentoIconWrapper}>
+              <MessageSquare size={24} />
+            </div>
+            <span className={styles.bentoBadge}>04 / Client Communication</span>
+            <h3>Automated Case Milestone Updates</h3>
             <p>
-              Never forget to ask for a review after winning a case or finalizing an estate plan. Automatically send a polite, 1-click review link to satisfied clients 3 to 5 days after matter resolution, building lasting local SEO dominance in your county on autopilot.
+              Over 40% of inbound calls are clients asking &quot;What is happening with my case?&quot; Plain-English automated milestone alerts keep clients calm and attorneys focused.
             </p>
+            <div className={styles.bentoChecklist}>
+              <div className={styles.bentoCheckItem}>
+                <CheckCircle2 size={18} />
+                <span>Pre-configured milestone triggers: Pleadings Filed, Hearing Set</span>
+              </div>
+              <div className={styles.bentoCheckItem}>
+                <CheckCircle2 size={18} />
+                <span>Cuts routine administrative check-in calls by up to 60%</span>
+              </div>
+              <div className={styles.bentoCheckItem}>
+                <CheckCircle2 size={18} />
+                <span>Reinforces client trust, responsiveness, and premium perceived value</span>
+              </div>
+            </div>
           </div>
-          <div style={{ display: "flex", alignItems: "center", justifyContent: "center" }}>
-            <Star size={120} color="#3385ff" strokeWidth={1} />
-          </div>
-        </div>
 
-        <div className={styles.aboutGrid}>
-          <div className={styles.aboutText}>
-            <h3 style={{ fontSize: "2rem", marginBottom: "1rem", color: "var(--foreground)" }}>Clio, LawPay, Outlook &amp; Gmail Integration</h3>
+          {/* Bento Card 5: Review Engine */}
+          <div className={styles.bentoCard}>
+            <div className={styles.bentoIconWrapper}>
+              <Star size={24} />
+            </div>
+            <span className={styles.bentoBadge}>05 / Local Authority</span>
+            <h3>Automated 5-Star Google Review Engine</h3>
             <p>
-              We believe in zero software bloat. Instead of forcing you to pay for expensive legal enterprise suites, our workflows plug directly into the tools you already use—including Clio Manage &amp; Grow, LawPay, PracticePanther, MyCase, Smokeball, and Microsoft 365.
+              Never forget to ask for a review after winning a case or finalizing an estate plan. Automatically send a polite, 1-click review link 3 to 5 days after matter resolution.
             </p>
-          </div>
-          <div style={{ display: "flex", alignItems: "center", justifyContent: "center" }}>
-            <Workflow size={120} color="#3385ff" strokeWidth={1} />
+            <div className={styles.bentoChecklist}>
+              <div className={styles.bentoCheckItem}>
+                <CheckCircle2 size={18} />
+                <span>Triggered automatically 3–5 days after matter resolution</span>
+              </div>
+              <div className={styles.bentoCheckItem}>
+                <CheckCircle2 size={18} />
+                <span>Direct deep-link straight to your firm&apos;s Google review modal</span>
+              </div>
+              <div className={styles.bentoCheckItem}>
+                <CheckCircle2 size={18} />
+                <span>Builds lasting local SEO dominance in your county on autopilot</span>
+              </div>
+            </div>
           </div>
         </div>
       </FadeIn>
