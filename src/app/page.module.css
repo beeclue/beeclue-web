@@ -29,23 +29,268 @@
 
 .hero {
   position: relative;
-  height: 100vh;
+  min-height: 85vh;
   display: flex;
   align-items: center;
-  padding: 0 5vw;
+  padding: 16vh 5vw 8vh;
   z-index: 10;
   pointer-events: none;
 }
 
 .heroContent {
   pointer-events: auto;
-  max-width: 1100px;
+  width: 100%;
+}
+
+/* Option Label for Comparison */
+.optionLabel {
+  display: inline-block;
+  font-family: var(--font-inter);
+  font-size: 0.8rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  color: var(--primary-light);
+  margin-bottom: 1.5rem;
+  border-bottom: 1px solid rgba(51, 133, 255, 0.3);
+  padding-bottom: 0.35rem;
+}
+
+/* Option A: Split Grid */
+.heroGridA {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 3.5rem;
+  align-items: center;
+  width: 100%;
+}
+
+@media (min-width: 1024px) {
+  .heroGridA {
+    grid-template-columns: 1.15fr 0.85fr;
+    gap: 4rem;
+  }
+}
+
+.titleA {
+  font-size: clamp(2.3rem, 4.4vw, 4.25rem);
+  text-transform: uppercase;
+  line-height: 1.05;
+  letter-spacing: -0.02em;
+  margin-bottom: 1.5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.subtitleA {
+  font-size: clamp(1rem, 1.4vw, 1.15rem);
+  color: var(--muted);
+  max-width: 620px;
+  line-height: 1.6;
+  margin-bottom: 2rem;
+}
+
+.heroCtaGroup {
+  display: flex;
+  gap: 1.25rem;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-bottom: 2.25rem;
+}
+
+/* Option A: Technical Proof Card */
+.proofCardA {
+  background: rgba(255, 255, 255, 0.02);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  padding: 2.25rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.75rem;
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+}
+
+.proofHeaderA {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 1rem;
+}
+
+.proofTagA {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--muted);
+  font-weight: 600;
+}
+
+.proofLiveBadgeA {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-size: 0.75rem;
+  color: #10b981;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-weight: 700;
+}
+
+.proofLiveDot {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: #10b981;
+  box-shadow: 0 0 8px #10b981;
+}
+
+.proofMetricsGridA {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  text-align: left;
+}
+
+.proofMetricItemA {
+  display: flex;
+  flex-direction: column;
+}
+
+.proofMetricValA {
+  font-size: clamp(1.8rem, 2.5vw, 2.4rem);
+  font-family: var(--font-outfit);
+  font-weight: 700;
+  color: var(--foreground);
+  line-height: 1;
+  margin-bottom: 0.4rem;
+}
+
+.proofMetricLabelA {
+  font-size: 0.75rem;
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  line-height: 1.3;
+}
+
+.proofFooterA {
+  background: rgba(0, 0, 0, 0.4);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  border-radius: 10px;
+  padding: 1rem 1.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.proofFooterTextA {
+  font-size: 0.85rem;
+  color: var(--muted);
+}
+
+.proofFooterLinkA {
+  color: var(--primary-light);
+  font-size: 0.85rem;
+  font-weight: 600;
+  text-decoration: none;
+  white-space: nowrap;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  transition: transform 0.2s ease;
+}
+
+.proofFooterLinkA:hover {
+  transform: translateX(3px);
+}
+
+/* Option B: Modern High-Cadence Single Column */
+.heroB {
+  position: relative;
+  min-height: 75vh;
+  display: flex;
+  align-items: center;
+  padding: 12vh 5vw 10vh;
+  z-index: 10;
+  pointer-events: none;
+  border-top: 1px dashed rgba(255, 255, 255, 0.08);
+  margin-top: 4vh;
+}
+
+.heroContentB {
+  pointer-events: auto;
+  max-width: 950px;
+}
+
+.titleB {
+  font-size: clamp(2.4rem, 4.8vw, 4.5rem);
+  text-transform: uppercase;
+  line-height: 1.05;
+  letter-spacing: -0.02em;
+  margin-bottom: 1.5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.subtitleB {
+  font-size: clamp(1.05rem, 1.5vw, 1.25rem);
+  color: var(--muted);
+  max-width: 720px;
+  line-height: 1.6;
+  margin-bottom: 2rem;
+}
+
+.heroMetricsBarB {
+  display: flex;
+  gap: 2.5rem;
+  flex-wrap: wrap;
+  align-items: center;
+  border-top: 1px solid var(--border);
+  padding-top: 2rem;
+  margin-top: 1rem;
+}
+
+.metricBlockB {
+  display: flex;
+  flex-direction: column;
+}
+
+.metricBlockNumberB {
+  font-size: clamp(1.6rem, 2.5vw, 2.2rem);
+  font-family: var(--font-outfit);
+  font-weight: 700;
+  color: var(--foreground);
+  line-height: 1;
+  margin-bottom: 0.35rem;
+}
+
+.metricBlockLabelB {
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--muted);
+}
+
+.metricDividerB {
+  width: 1px;
+  height: 32px;
+  background: var(--border);
+  display: none;
+}
+
+@media (min-width: 640px) {
+  .metricDividerB {
+    display: block;
+  }
 }
 
 .title {
-  font-size: clamp(3rem, 8vw, 7rem);
+  font-size: clamp(2.4rem, 4.8vw, 4.5rem);
   text-transform: uppercase;
-  line-height: 0.9;
+  line-height: 1.05;
   letter-spacing: -0.02em;
   margin-bottom: 2rem;
   display: flex;

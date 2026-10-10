@@ -70,35 +70,130 @@ export default function Home() {
           ])
         }}
       />
-      {/* HERO SECTION */}
+      {/* ======================================================== */}
+      {/* OPTION A: REFINED EDITORIAL SPLIT + TECHNICAL PROOF CARD */}
+      {/* ======================================================== */}
       <FadeIn className={styles.hero}>
         <div className={styles.heroContent}>
-          <h1 className={styles.title}>
+          <span className={styles.optionLabel}>Hero Design Concept: Option A (Split Grid + Technical Proof)</span>
+          
+          <div className={styles.heroGridA}>
+            {/* Left Content */}
+            <div>
+              <h1 className={styles.titleA}>
+                <span className={styles.titleLine}>Toronto Web Design</span>
+                <span className={styles.titleLinePrimary}>That Brings You Customers</span>
+              </h1>
+              <p className={styles.subtitleA}>
+                We build bespoke, sub-second websites and custom software for Canadian businesses that convert visitors into paying clients. No templates. No agency bloat.
+              </p>
+              
+              <div className={styles.heroCtaGroup}>
+                <TrackableCTA href="/contact" ctaName="hero_audit_optA" location="homepage_hero_optA" className={styles.ctaButton}>
+                  Get Your Free Audit <ArrowRight className={styles.arrow} />
+                </TrackableCTA>
+                <Link href="/case-studies" className={styles.ctaButton}>
+                  View Our Work <ArrowRight className={styles.arrow} />
+                </Link>
+              </div>
+
+              <div className={styles.heroTrustBar}>
+                <div className={styles.trustItem}>
+                  <Image src="/google-logo.svg" alt="Google" width="18" height="18" priority />
+                  <span className={styles.trustStars}>★★★★★</span>
+                  <span className={styles.trustLabel}>5.0</span>
+                </div>
+                <div className={styles.trustDivider} />
+                <div className={styles.trustItem}>
+                  <Image src="https://cdn.trustpilot.net/brand-assets/4.1.0/stars/stars-5.svg" alt="Trustpilot 5 Stars" width="75" height="15" priority />
+                  <span className={styles.trustLabel}>Excellent</span>
+                </div>
+                <div className={styles.trustDivider} />
+                <div className={styles.trustItem}>
+                  <span className={styles.trustLabel}>50+ Ontario Businesses Served</span>
+                </div>
+              </div>
+            </div>
+
+            {/* Right: Technical Proof & AI Benchmark Card */}
+            <div className={styles.proofCardA}>
+              <div className={styles.proofHeaderA}>
+                <span className={styles.proofTagA}>Beeclue Engineering Standard</span>
+                <span className={styles.proofLiveBadgeA}>
+                  <span className={styles.proofLiveDot} /> Live Benchmarks
+                </span>
+              </div>
+
+              <div className={styles.proofMetricsGridA}>
+                <div className={styles.proofMetricItemA}>
+                  <span className={styles.proofMetricValA}>0.4s</span>
+                  <span className={styles.proofMetricLabelA}>Mobile Load Time</span>
+                </div>
+                <div className={styles.proofMetricItemA}>
+                  <span className={styles.proofMetricValA}>100%</span>
+                  <span className={styles.proofMetricLabelA}>Core Web Vitals</span>
+                </div>
+                <div className={styles.proofMetricItemA}>
+                  <span className={styles.proofMetricValA}>A+</span>
+                  <span className={styles.proofMetricLabelA}>AI Search Visibility</span>
+                </div>
+              </div>
+
+              <div className={styles.proofFooterA}>
+                <span className={styles.proofFooterTextA}>Curious how your current website scores?</span>
+                <Link href="/ai-readiness-checker" className={styles.proofFooterLinkA}>
+                  Instant Free AI Audit →
+                </Link>
+              </div>
+            </div>
+          </div>
+        </div>
+      </FadeIn>
+
+      {/* ======================================================== */}
+      {/* OPTION B: MODERN HIGH-CADENCE SINGLE COLUMN             */}
+      {/* ======================================================== */}
+      <FadeIn className={styles.heroB}>
+        <div className={styles.heroContentB}>
+          <span className={styles.optionLabel}>Hero Design Concept: Option B (High-Cadence Minimal Column)</span>
+          
+          <h2 className={styles.titleB}>
             <span className={styles.titleLine}>Toronto Web Design</span>
-            <span className={styles.titleLine}>That Brings You</span>
-            <span className={styles.titleLinePrimary}>Customers</span>
-          </h1>
-          <p className={styles.subtitle}>
-            We design and build custom websites for Toronto small businesses that turn visitors into paying customers. No templates. No fluff. Just results.
+            <span className={styles.titleLinePrimary}>Engineered to Convert</span>
+          </h2>
+          
+          <p className={styles.subtitleB}>
+            Sub-second Next.js websites and custom software engineered from scratch for Toronto businesses. We eliminate bloated themes and slow loading times to maximize client inquiries and search authority.
           </p>
-          <TrackableCTA href="/contact" ctaName="hero_audit" location="homepage_hero" className={styles.ctaButton}>
-            Get Your Free Website Audit <ArrowRight className={styles.arrow} />
-          </TrackableCTA>
-          <p className={styles.heroMicrocopy}>Free &bull; No obligation &bull; Takes 2 minutes</p>
-          <div className={styles.heroTrustBar}>
-            <div className={styles.trustItem}>
-              <Image src="/google-logo.svg" alt="Google" width="20" height="20" priority />
-              <span className={styles.trustStars}>★★★★★</span>
-              <span className={styles.trustLabel}>5.0</span>
+
+          <div className={styles.heroCtaGroup}>
+            <TrackableCTA href="/contact" ctaName="hero_audit_optB" location="homepage_hero_optB" className={styles.ctaButton}>
+              Get Your Free Website Audit <ArrowRight className={styles.arrow} />
+            </TrackableCTA>
+            <Link href="/pricing" className={styles.ctaButton}>
+              View Transparent Plans <ArrowRight className={styles.arrow} />
+            </Link>
+          </div>
+
+          <div className={styles.heroMetricsBarB}>
+            <div className={styles.metricBlockB}>
+              <span className={styles.metricBlockNumberB}>9+</span>
+              <span className={styles.metricBlockLabelB}>Years in Toronto</span>
             </div>
-            <div className={styles.trustDivider} />
-            <div className={styles.trustItem}>
-              <Image src="https://cdn.trustpilot.net/brand-assets/4.1.0/stars/stars-5.svg" alt="Trustpilot 5 Stars" width="80" height="16" priority />
-              <span className={styles.trustLabel}>Excellent</span>
+            <div className={styles.metricDividerB} />
+            <div className={styles.metricBlockB}>
+              <span className={styles.metricBlockNumberB}>100%</span>
+              <span className={styles.metricBlockLabelB}>Custom Hand-Coded</span>
             </div>
-            <div className={styles.trustDivider} />
-            <div className={styles.trustItem}>
-              <span className={styles.trustLabel}>Trusted by 50+ Toronto businesses</span>
+            <div className={styles.metricDividerB} />
+            <div className={styles.metricBlockB}>
+              <span className={styles.metricBlockNumberB}>50+</span>
+              <span className={styles.metricBlockLabelB}>Active Businesses</span>
+            </div>
+            <div className={styles.metricDividerB} />
+            <div className={styles.metricBlockB}>
+              <span className={styles.metricBlockNumberB}>5.0 ★</span>
+              <span className={styles.metricBlockLabelB}>Google & Trustpilot</span>
             </div>
           </div>
         </div>
