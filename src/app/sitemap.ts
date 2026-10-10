@@ -10,6 +10,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/case-studies',
     '/pricing',
     '/contact',
+    '/ai-readiness-checker',
     '/partner',
     '/privacy-policy',
     '/terms-and-conditions',

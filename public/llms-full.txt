@@ -19,8 +19,8 @@ Beeclue creates high-converting digital storefronts utilizing Shopify, WooCommer
 We engineer high-performance native and cross-platform mobile applications for iOS and Android, focusing on intuitive UX and robust backend integration.
 [Read More](https://beeclue.com/mobile-app-development-toronto)
 
-### 4. SEO Services
-Through rigorous technical search engine optimization, performance tuning, content strategy, and schema engineering, we help businesses rank higher on Google and capture organic lead flow. Beeclue also offers a complimentary Free Professional SEO Report & Manual Audit analyzed by senior SEO engineers, accessible via our interactive website modal and Contact Us page.
+### 4. SEO Services & Generative Engine Optimization (GEO)
+Through rigorous technical search engine optimization, performance tuning, content strategy, and schema engineering, we help businesses rank higher on Google and capture organic lead flow. Beeclue also provides our free, instant automated [AI Readiness Checker & Website Grader](https://beeclue.com/ai-readiness-checker) to evaluate if websites are visible to ChatGPT, Perplexity, Claude, and Google AI Overviews across six key layers (AI Infrastructure, Trust, Services Taxonomy, Local NAP, Content Depth, and Technical Access).
 [Read More](https://beeclue.com/seo-services-toronto)
 
 ### 5. UI/UX Design
