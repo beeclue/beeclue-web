@@ -46,7 +46,7 @@ const faqs = [
   },
   {
     q: "How can I fix the issues found in this audit?",
-    a: "Most issues can be solved by adding clean Schema.org structured data (Organization, LocalBusiness, FAQPage), updating your robots.txt file, organizing service pages with clear H1/H2 hierarchies, and hosting an /llms.txt file. Beeclue Tech builds and manages AI-ready websites starting at just $19/mo."
+    a: "Most issues can be solved by adding clean Schema.org structured data (Organization, LocalBusiness, FAQPage), updating your robots.txt file, organizing service pages with clear H1/H2 hierarchies, and hosting an /llms.txt file. Beeclue Tech builds and manages AI-ready websites tailored for your business."
   }
 ];
 

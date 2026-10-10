@@ -333,14 +333,14 @@ export default function AiReadinessGrader() {
           <div className={styles.pitchCard}>
             <h2 className={styles.pitchHeading}>Want Beeclue Tech to Build Your AI-Ready Website?</h2>
             <p className={styles.pitchText}>
-              We develop lightning-fast websites engineered specifically for Generative Engine Optimization (GEO), Schema JSON-LD entity validation, and conversational search citations. All managed plans start from just <strong>$19/mo</strong> with zero upfront build fees.
+              We develop lightning-fast websites engineered specifically for Generative Engine Optimization (GEO), Schema JSON-LD entity validation, and conversational search citations. Explore our transparent plans or reach out directly to discuss your project.
             </p>
             <div className={styles.pitchCtas}>
               <Link href="/pricing" className={globalStyles.ctaButton}>
-                View Managed Plans ($19–$29/mo) <ArrowRight className={globalStyles.arrow} />
+                View Our Pricing <ArrowRight className={globalStyles.arrow} />
               </Link>
-              <Link href="/case-studies" className={globalStyles.ctaButton}>
-                Explore Case Studies <ArrowRight className={globalStyles.arrow} />
+              <Link href="/contact" className={globalStyles.ctaButton}>
+                Contact Us <ArrowRight className={globalStyles.arrow} />
               </Link>
             </div>
           </div>
