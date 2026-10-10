@@ -123,13 +123,6 @@ export default function PricingPage() {
       {/* HERO SECTION */}
       <FadeIn className={styles.baseSection} style={{ paddingTop: "18vh", paddingBottom: "6vh" }}>
         <div className={styles.heroContent}>
-          <div style={{ display: "inline-flex", alignItems: "center", gap: "0.5rem", background: "rgba(51, 133, 255, 0.1)", border: "1px solid rgba(51, 133, 255, 0.3)", padding: "0.4rem 1rem", borderRadius: "50px", marginBottom: "1.5rem" }}>
-            <Sparkles size={16} color="var(--primary-light)" />
-            <span style={{ color: "var(--primary-light)", fontSize: "0.85rem", fontWeight: 600, textTransform: "uppercase", letterSpacing: "0.08em" }}>
-              Transparent, Value-Driven Pricing
-            </span>
-          </div>
-
           <h1 className={styles.title} style={{ fontSize: "clamp(2.5rem, 5.5vw, 4.75rem)" }}>
             <span className={styles.titleLinePrimary}>Engineered for Growth.</span>
             <span className={styles.titleLine}>Priced for Clarity.</span>
@@ -332,7 +325,6 @@ export default function PricingPage() {
         {/* ONE-LINER FOR MANAGED HOSTING & SUPPORT */}
         <div className={pricingStyles.hostingBar}>
           <div className={pricingStyles.hostingBarLeft}>
-            <span className={pricingStyles.hostingBarBadge}>1 Year Included</span>
             <div className={pricingStyles.hostingBarText}>
               All plans include <strong>Free Custom Domain (1 Year)</strong> and <strong>Free Cloud Hosting (1 Year)</strong>. After Year 1 (or for existing websites needing ongoing support), renew on our <strong>$79/mo Managed Hosting &amp; Maintenance</strong> plan — or host independently with zero lock-in.
             </div>
