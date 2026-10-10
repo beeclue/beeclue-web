@@ -19,7 +19,7 @@ if (fs.existsSync(blacklistPath)) {
   blacklist = JSON.parse(fs.readFileSync(blacklistPath, 'utf8'));
 }
 const blacklistedEmails = new Set(
-  blacklist.map(b => (typeof b === 'string' ? b.toLowerCase() : (b.email || '').toLowerCase()))
+  blacklist.map(b => (typeof b === 'string' ? b.toLowerCase().trim() : (b.email || '').toLowerCase().trim()))
 );
 
 // 3. Load Outreach History
@@ -29,30 +29,36 @@ if (fs.existsSync(historyPath)) {
   history = JSON.parse(fs.readFileSync(historyPath, 'utf8'));
 }
 
-// Helper to determine first name
+// Helper to determine first name cleanly
 function extractFirstName(contactName, defaultFallback = 'there') {
   if (!contactName) return defaultFallback;
-  const cleanName = contactName.replace(/\(.*?\)/g, '').trim();
+  let cleanName = contactName.replace(/,\s*(Esq\.?|PC|P\.C\.|LLC|PA|PLLC|RDH|DDS|DMD).*$/i, '').trim();
+  cleanName = cleanName.replace(/\(.*?\)/g, '').trim();
   const parts = cleanName.split(/\s+/);
   if (parts.length === 0) return defaultFallback;
-  if (parts[0].length === 2 && parts[0].endsWith('.') && parts.length > 1) {
+  if (parts[0].length <= 2 && parts[0].endsWith('.') && parts.length > 1) {
     return parts[1];
   }
   return parts[0];
 }
 
 // Helper to check Canadian location
-function isCanadian(loc) {
-  if (!loc) return false;
+function isCanadian(record) {
+  const loc = (record.location || '').toLowerCase();
+  const city = (record.city || '').toLowerCase();
+  const state = (record.state || '').toLowerCase();
+  const email = (record.email || '').toLowerCase();
   return (
-    loc.includes('Canada') ||
-    loc.includes(', ON') ||
-    loc.includes(', BC') ||
-    loc.includes(', AB') ||
-    loc.includes(', QC') ||
-    loc.includes(', NS') ||
-    loc.includes(', MB') ||
-    loc.includes(', SK')
+    loc.includes('canada') ||
+    loc.includes(', on') ||
+    loc.includes('ontario') ||
+    state === 'on' ||
+    email.endsWith('.ca') ||
+    email.includes('bellnet.ca') ||
+    email.includes('sympatico.ca') ||
+    email.includes('execulink.com') ||
+    email.includes('cogeco.ca') ||
+    email.includes('rogers.com')
   );
 }
 
@@ -60,9 +66,9 @@ function isCanadian(loc) {
 function buildBreakawayEmail(record) {
   const firmName = record.firmName || record.businessName || 'your business';
   const firstName = extractFirstName(record.contactName || record.recipientName, 'there');
-  const slug = record.id || record.firmSlug || (record.businessName || '').toLowerCase().replace(/[^\w\s-]/g, '').replace(/\s+/g, '-');
+  const slug = record.id || (firmName.toLowerCase().replace(/[^\w\s-]/g, '').replace(/\s+/g, '-'));
 
-  const canadian = isCanadian(record.location);
+  const canadian = isCanadian(record);
   const phone = canadian ? '647-947-6253' : '647-577-0413';
 
   // Find references and previous IDs
@@ -70,16 +76,17 @@ function buildBreakawayEmail(record) {
   const origItem = historyList[0] || {};
   const lastItem = historyList[historyList.length - 1] || {};
 
-  const origSubject = origItem.subject || `Website for ${firmName}`;
+  const origSubject = record.emailSubject || origItem.subject || `Website for ${firmName}`;
   const subject = origSubject.startsWith('Re:') ? origSubject : `Re: ${origSubject}`;
 
-  const lastResendId = lastItem.resendId || origItem.resendId || '';
-  const origResendId = origItem.resendId || '';
+  const lastResendId = lastItem.resendId || origItem.resendId || record.resendMessageId || '';
+  const origResendId = origItem.resendId || record.resendMessageId || '';
 
   const homeUrl = `https://beeclue.com?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-${slug}`;
-  const caseStudyUrl = (record.niche && record.niche.toLowerCase().includes('framing'))
+  const isFraming = (record.niche && record.niche.toLowerCase().includes('framing')) || (record.category && record.category.toLowerCase().includes('gallery'));
+  const caseStudyUrl = isFraming
     ? `https://beeclue.com/case-studies/tuxedo-frame-gallery?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-${slug}`
-    : `https://beeclue.com/case-studies/tara-lattanzio?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-${slug}`;
+    : `https://taralattanzio.ca`;
 
   const text = `Hi ${firstName},
 
@@ -95,8 +102,8 @@ Wishing you and your team continued success.
 Best regards,
 Kay
 Beeclue Tech
-${homeUrl} · ${phone}
-Case Study: ${caseStudyUrl}`;
+hello@beeclue.com · ${phone}
+beeclue.com`;
 
   return {
     subject,
@@ -170,18 +177,17 @@ function sleep(ms) {
 async function main() {
   const isDryRun = process.argv.includes('--dry-run');
 
-  // Optional limit arg: --limit 50
   let limit = Infinity;
   const limitIdx = process.argv.indexOf('--limit');
   if (limitIdx !== -1 && process.argv[limitIdx + 1]) {
     limit = parseInt(process.argv[limitIdx + 1], 10);
   }
 
-  const now = new Date("2026-09-29T09:20:00Z");
+  const now = new Date("2026-10-10T18:27:19-04:00");
 
-  // Filter eligible
+  // Filter eligible contacts
   const eligible = history.filter(h => {
-    const email = (h.email || '').toLowerCase();
+    const email = (h.email || '').toLowerCase().trim();
     if (!email || !email.includes('@')) return false;
     if (blacklistedEmails.has(email) || h.status === 'blacklisted' || h.status === 'not_interested') return false;
     if (h.sequenceStep !== 'Day 4 - Follow-up') return false;
@@ -191,7 +197,7 @@ async function main() {
     if (!lastDateStr) return false;
     const lastDate = new Date(lastDateStr);
     const diffDays = (now - lastDate) / (1000 * 60 * 60 * 24);
-    return diffDays >= 7; // At least 7 days since Day 4 follow-up
+    return diffDays >= 3.5; // At least 3.5 days since Day 4 follow-up
   });
 
   const targets = eligible.slice(0, limit);
@@ -199,6 +205,8 @@ async function main() {
   console.log(`\n======================================================`);
   console.log(`Starting Final Breakaway Dispatch (Mode: ${isDryRun ? 'DRY-RUN' : 'LIVE'})`);
   console.log(`Total Eligible: ${eligible.length} | Target Count: ${targets.length}`);
+  console.log(`Sender: Kay at Beeclue Tech <hello@beeclue.com>`);
+  console.log(`Zero-Surname Rule: Strictly enforced`);
   console.log(`======================================================\n`);
 
   let sentCount = 0;
@@ -208,16 +216,14 @@ async function main() {
 
   for (let i = 0; i < targets.length; i++) {
     const record = targets[i];
-    const emailLower = (record.email || '').toLowerCase();
+    const emailLower = (record.email || '').toLowerCase().trim();
 
-    // Check Blacklist
     if (blacklistedEmails.has(emailLower)) {
       console.log(`[SKIP - BLACKLISTED] ${record.firmName || record.businessName} (${record.email})`);
       skippedCount++;
       continue;
     }
 
-    // Check if already Final
     if (record.sequenceStep === 'Final Breakaway' || (record.history && record.history.some(h => h.step === 'Final'))) {
       console.log(`[SKIP - ALREADY BREAKAWAY] ${record.firmName || record.businessName} (${record.email})`);
       skippedCount++;
@@ -226,12 +232,13 @@ async function main() {
 
     const emailData = buildBreakawayEmail(record);
 
-    console.log(`[${i + 1}/${targets.length}] Sending Final Breakaway to: ${emailData.firmName} <${emailData.to}>`);
-    console.log(`    Subject: ${emailData.subject}`);
-    console.log(`    In-Reply-To: ${emailData.lastResendId || 'none'}`);
-
     if (isDryRun) {
-      console.log(`    [DRY-RUN] Simulating send... OK`);
+      console.log(`--- [DRY-RUN ${i + 1}/${targets.length}] ${emailData.firmName} <${emailData.to}> ---`);
+      console.log(`    Salutation: Hi ${emailData.firstName},`);
+      console.log(`    Subject: ${emailData.subject}`);
+      console.log(`    In-Reply-To: ${emailData.lastResendId || 'none'}`);
+      console.log(`    Phone: ${emailData.phone}`);
+      console.log(`    Snippet:\n${emailData.text.split('\n').slice(0, 4).join('\n')}\n...\n`);
       sentCount++;
       results.push({
         firmName: emailData.firmName,
@@ -244,6 +251,7 @@ async function main() {
     }
 
     // Live send
+    process.stdout.write(`[${i + 1}/${targets.length}] Sending Final Breakaway to: ${emailData.firmName} <${emailData.to}>... `);
     const sendRes = sendViaCurl(
       emailData.to,
       emailData.subject,
@@ -253,7 +261,7 @@ async function main() {
     );
 
     if (sendRes.success) {
-      console.log(`    -> SUCCESS: Resend ID: ${sendRes.id}`);
+      console.log(`SUCCESS! Resend ID: ${sendRes.id}`);
       sentCount++;
 
       const timestamp = new Date().toISOString();
@@ -274,6 +282,7 @@ async function main() {
       saveHistory();
 
       results.push({
+        id: record.id,
         firmName: emailData.firmName,
         email: emailData.to,
         subject: emailData.subject,
@@ -281,9 +290,10 @@ async function main() {
         status: 'delivered'
       });
     } else {
-      console.error(`    -> FAILED: ${sendRes.error}`);
+      console.log(`FAILED! Error: ${sendRes.error}`);
       failedCount++;
       results.push({
+        id: record.id,
         firmName: emailData.firmName,
         email: emailData.to,
         subject: emailData.subject,
@@ -292,8 +302,8 @@ async function main() {
       });
     }
 
-    // 2000ms delay between emails
-    await sleep(2000);
+    // 2200ms delay between emails
+    await sleep(2200);
   }
 
   console.log(`\n======================================================`);
@@ -301,11 +311,9 @@ async function main() {
   console.log(`======================================================\n`);
 
   if (!isDryRun && results.length > 0) {
-    fs.writeFileSync(
-      path.resolve(__dirname, `final_breakaway_dispatch_log_${Date.now()}.json`),
-      JSON.stringify(results, null, 2),
-      'utf8'
-    );
+    const logPath = path.resolve(__dirname, `final_breakaway_dispatch_log_${Date.now()}.json`);
+    fs.writeFileSync(logPath, JSON.stringify(results, null, 2), 'utf8');
+    console.log(`Audit log written to: ${logPath}`);
   }
 }
 

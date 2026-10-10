@@ -10700,9 +10700,9 @@
     "location": "Elmira, NY (311 E Church St, Elmira, NY 14901)",
     "pricingQuoted": "$19/month",
     "initialContactDate": "2026-09-12T23:00:04.224Z",
-    "lastContactDate": "2026-09-27T20:18:30.550Z",
+    "lastContactDate": "2026-10-10T22:46:07.667Z",
     "status": "delivered",
-    "sequenceStep": "Day 4 - Follow-up",
+    "sequenceStep": "Final Breakaway",
     "diagnosedIssues": "No active dedicated modern website; prospective clients discover contact information through third-party business directories and AOL email.",
     "caseStudySent": "https://beeclue.com/case-studies/tara-lattanzio?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-steve-barnstead-law",
     "history": [
@@ -10721,6 +10721,14 @@
         "resendId": "01a0e484-e7be-7973-9a21-56d644e82d3c",
         "status": "delivered",
         "notes": "Threaded Day 4 follow-up on custom website mockup preview offer."
+      },
+      {
+        "step": "Final",
+        "sentAt": "2026-10-10T22:46:07.667Z",
+        "subject": "Re: Modernizing the website for Law Office of Steve Barnstead",
+        "resendId": "01a127fe-b9d8-7336-a440-65b38b8157bc",
+        "status": "delivered",
+        "notes": "Final Breakaway / permission to close file email sent."
       }
     ]
   },
@@ -10734,9 +10742,9 @@
     "location": "Elmira, NY (312 Lake St, Elmira, NY 14901)",
     "pricingQuoted": "$19/month",
     "initialContactDate": "2026-09-12T23:00:05.539Z",
-    "lastContactDate": "2026-09-27T20:18:32.741Z",
+    "lastContactDate": "2026-10-10T22:46:10.181Z",
     "status": "delivered",
-    "sequenceStep": "Day 4 - Follow-up",
+    "sequenceStep": "Final Breakaway",
     "diagnosedIssues": "Legacy web template with desktop-centric layout and unoptimized mobile consultation routing.",
     "caseStudySent": "https://beeclue.com/case-studies/tara-lattanzio?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-cooper-pautz-weiermiller",
     "history": [
@@ -10755,6 +10763,14 @@
         "resendId": "01a0e484-f05d-7b8c-a6ac-ea782fca63f2",
         "status": "delivered",
         "notes": "Threaded Day 4 follow-up on custom website mockup preview offer."
+      },
+      {
+        "step": "Final",
+        "sentAt": "2026-10-10T22:46:10.181Z",
+        "subject": "Re: Modernizing the website for Cooper, Pautz & Weiermiller, LLP",
+        "resendId": "01a127fe-c3a8-7d81-b59c-6b909554929a",
+        "status": "delivered",
+        "notes": "Final Breakaway / permission to close file email sent."
       }
     ]
   },
@@ -10768,9 +10784,9 @@
     "location": "Elmira, NY (150 Lake St, 2nd Fl, Elmira, NY 14901)",
     "pricingQuoted": "$19/month",
     "initialContactDate": "2026-09-12T23:00:06.659Z",
-    "lastContactDate": "2026-09-27T20:18:35.019Z",
+    "lastContactDate": "2026-10-10T22:46:13.615Z",
     "status": "delivered",
-    "sequenceStep": "Day 4 - Follow-up",
+    "sequenceStep": "Final Breakaway",
     "diagnosedIssues": "Older desktop-first architecture with slower mobile load times and lack of instant consultation triage.",
     "caseStudySent": "https://beeclue.com/case-studies/tara-lattanzio?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-keyser-maloney-winner",
     "history": [
@@ -10789,6 +10805,14 @@
         "resendId": "01a0e484-f8f7-72e9-834c-8289f5f1f918",
         "status": "delivered",
         "notes": "Threaded Day 4 follow-up on custom website mockup preview offer."
+      },
+      {
+        "step": "Final",
+        "sentAt": "2026-10-10T22:46:13.615Z",
+        "subject": "Re: Modernizing the website for Keyser, Maloney & Winner, LLP",
+        "resendId": "01a127fe-d117-7560-84e5-fe8f08c4a26f",
+        "status": "delivered",
+        "notes": "Final Breakaway / permission to close file email sent."
       }
     ]
   },
@@ -11558,9 +11582,9 @@
     "location": "Oswego, NY (Oswego, NY 13126)",
     "pricingQuoted": "$19/month",
     "initialContactDate": "2026-09-12T23:00:28.441Z",
-    "lastContactDate": "2026-09-27T20:18:37.260Z",
+    "lastContactDate": "2026-10-10T22:46:16.183Z",
     "status": "delivered",
-    "sequenceStep": "Day 4 - Follow-up",
+    "sequenceStep": "Final Breakaway",
     "diagnosedIssues": "No active dedicated website; practice relies on directory aggregator listings and Gmail.",
     "caseStudySent": "https://beeclue.com/case-studies/tara-lattanzio?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-scott-bush-law",
     "history": [
@@ -11579,6 +11603,14 @@
         "resendId": "01a0e485-0202-750b-8946-71f1af255fdd",
         "status": "delivered",
         "notes": "Threaded Day 4 follow-up on custom website mockup preview offer."
+      },
+      {
+        "step": "Final",
+        "sentAt": "2026-10-10T22:46:16.183Z",
+        "subject": "Re: Modernizing the website for Scott C. Bush, Esq.",
+        "resendId": "01a127fe-db17-719e-82a2-c62b966b04af",
+        "status": "delivered",
+        "notes": "Final Breakaway / permission to close file email sent."
       }
     ]
   },
@@ -11592,9 +11624,9 @@
     "location": "Plattsburgh, NY (Plattsburgh, NY 12901)",
     "pricingQuoted": "$19/month",
     "initialContactDate": "2026-09-12T23:00:29.564Z",
-    "lastContactDate": "2026-09-27T20:18:39.461Z",
+    "lastContactDate": "2026-10-10T22:46:18.680Z",
     "status": "delivered",
-    "sequenceStep": "Day 4 - Follow-up",
+    "sequenceStep": "Final Breakaway",
     "diagnosedIssues": "Desktop-oriented template with sluggish mobile render and lack of instant tap-to-call triage.",
     "caseStudySent": "https://beeclue.com/case-studies/tara-lattanzio?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-meyer-meyer-law",
     "history": [
@@ -11613,6 +11645,14 @@
         "resendId": "01a0e485-0a99-7b73-9c9c-7a317dcdcfb2",
         "status": "delivered",
         "notes": "Threaded Day 4 follow-up on custom website mockup preview offer."
+      },
+      {
+        "step": "Final",
+        "sentAt": "2026-10-10T22:46:18.680Z",
+        "subject": "Re: Modernizing the website for Meyer & Meyer",
+        "resendId": "01a127fe-e4da-7f00-aa51-76513b409ac1",
+        "status": "delivered",
+        "notes": "Final Breakaway / permission to close file email sent."
       }
     ]
   },
@@ -11626,9 +11666,9 @@
     "location": "Plattsburgh, NY (Plattsburgh, NY 12901)",
     "pricingQuoted": "$19/month",
     "initialContactDate": "2026-09-12T23:00:30.729Z",
-    "lastContactDate": "2026-09-27T20:18:41.661Z",
+    "lastContactDate": "2026-10-10T22:46:21.265Z",
     "status": "delivered",
-    "sequenceStep": "Day 4 - Follow-up",
+    "sequenceStep": "Final Breakaway",
     "diagnosedIssues": "No active dedicated modern website; inquiries route through third-party business directories and AOL email.",
     "caseStudySent": "https://beeclue.com/case-studies/tara-lattanzio?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-john-rashak-law",
     "history": [
@@ -11647,6 +11687,14 @@
         "resendId": "01a0e485-133a-76fc-bb14-190afb305d39",
         "status": "delivered",
         "notes": "Threaded Day 4 follow-up on custom website mockup preview offer."
+      },
+      {
+        "step": "Final",
+        "sentAt": "2026-10-10T22:46:21.265Z",
+        "subject": "Re: Modernizing the website for Law Office of John J. Rashak",
+        "resendId": "01a127fe-eeb9-7397-8669-805a45716c3c",
+        "status": "delivered",
+        "notes": "Final Breakaway / permission to close file email sent."
       }
     ]
   },
@@ -11660,9 +11708,9 @@
     "location": "Watertown, NY (Watertown, NY 13601)",
     "pricingQuoted": "$19/month",
     "initialContactDate": "2026-09-12T23:00:31.866Z",
-    "lastContactDate": "2026-09-27T20:18:43.862Z",
+    "lastContactDate": "2026-10-10T22:46:23.768Z",
     "status": "delivered",
-    "sequenceStep": "Day 4 - Follow-up",
+    "sequenceStep": "Final Breakaway",
     "diagnosedIssues": "Older web template with high script overhead and lack of instant mobile consultation triage.",
     "caseStudySent": "https://beeclue.com/case-studies/tara-lattanzio?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-gilchrist-law-firm",
     "history": [
@@ -11681,6 +11729,14 @@
         "resendId": "01a0e485-1bc1-7b37-b6bf-c1751dce4dd1",
         "status": "delivered",
         "notes": "Threaded Day 4 follow-up on custom website mockup preview offer."
+      },
+      {
+        "step": "Final",
+        "sentAt": "2026-10-10T22:46:23.768Z",
+        "subject": "Re: Modernizing the website for Gilchrist Law Firm",
+        "resendId": "01a127fe-f8c8-7a81-899f-2b3996531055",
+        "status": "delivered",
+        "notes": "Final Breakaway / permission to close file email sent."
       }
     ]
   },
@@ -11694,9 +11750,9 @@
     "location": "Watertown, NY (Watertown, NY 13601)",
     "pricingQuoted": "$19/month",
     "initialContactDate": "2026-09-12T23:00:33.045Z",
-    "lastContactDate": "2026-09-27T20:18:46.063Z",
+    "lastContactDate": "2026-10-10T22:46:26.287Z",
     "status": "delivered",
-    "sequenceStep": "Day 4 - Follow-up",
+    "sequenceStep": "Final Breakaway",
     "diagnosedIssues": "Dated web framework lacking mobile-first tap-to-call triage and modern client consultation workflows.",
     "caseStudySent": "https://beeclue.com/case-studies/tara-lattanzio?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-peter-willis-law",
     "history": [
@@ -11715,6 +11771,14 @@
         "resendId": "01a0e485-245d-7196-a123-10cf3bc97ffc",
         "status": "delivered",
         "notes": "Threaded Day 4 follow-up on custom website mockup preview offer."
+      },
+      {
+        "step": "Final",
+        "sentAt": "2026-10-10T22:46:26.287Z",
+        "subject": "Re: Modernizing the website for Law Office of Peter R. Willis",
+        "resendId": "01a127ff-0297-7456-ae90-59d05b9d9007",
+        "status": "delivered",
+        "notes": "Final Breakaway / permission to close file email sent."
       }
     ]
   },
@@ -11728,9 +11792,9 @@
     "location": "Rome, NY (Rome / Utica, NY 13440)",
     "pricingQuoted": "$19/month",
     "initialContactDate": "2026-09-12T23:00:34.196Z",
-    "lastContactDate": "2026-09-27T20:18:48.307Z",
+    "lastContactDate": "2026-10-10T22:46:28.819Z",
     "status": "delivered",
-    "sequenceStep": "Day 4 - Follow-up",
+    "sequenceStep": "Final Breakaway",
     "diagnosedIssues": "No active modern standalone website; practice presence limited to legal directories and Gmail.",
     "caseStudySent": "https://beeclue.com/case-studies/tara-lattanzio?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-frank-policelli-law",
     "history": [
@@ -11749,6 +11813,14 @@
         "resendId": "01a0e485-2d1a-775b-8024-ea996ab8769d",
         "status": "delivered",
         "notes": "Threaded Day 4 follow-up on custom website mockup preview offer."
+      },
+      {
+        "step": "Final",
+        "sentAt": "2026-10-10T22:46:28.819Z",
+        "subject": "Re: Modernizing the website for Frank Policelli, Attorney at Law",
+        "resendId": "01a127ff-0c7a-7a53-8991-c6c410f52ee5",
+        "status": "delivered",
+        "notes": "Final Breakaway / permission to close file email sent."
       }
     ]
   },
@@ -11762,9 +11834,9 @@
     "location": "Rome, NY (Rome, NY 13440)",
     "pricingQuoted": "$19/month",
     "initialContactDate": "2026-09-12T23:00:35.304Z",
-    "lastContactDate": "2026-09-27T20:18:50.857Z",
+    "lastContactDate": "2026-10-10T22:46:31.378Z",
     "status": "delivered",
-    "sequenceStep": "Day 4 - Follow-up",
+    "sequenceStep": "Final Breakaway",
     "diagnosedIssues": "No active dedicated modern website; prospective clients discover contact information through regional directories.",
     "caseStudySent": "https://beeclue.com/case-studies/tara-lattanzio?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-joseph-saba-law",
     "history": [
@@ -11783,6 +11855,14 @@
         "resendId": "01a0e485-3722-7019-b526-518ff29b6efa",
         "status": "delivered",
         "notes": "Threaded Day 4 follow-up on custom website mockup preview offer."
+      },
+      {
+        "step": "Final",
+        "sentAt": "2026-10-10T22:46:31.378Z",
+        "subject": "Re: Modernizing the website for Law Office of Joseph A. Saba",
+        "resendId": "01a127ff-1677-7561-bd31-727ac3235a45",
+        "status": "delivered",
+        "notes": "Final Breakaway / permission to close file email sent."
       }
     ]
   },
@@ -11796,9 +11876,9 @@
     "location": "Amsterdam, NY (Amsterdam, NY 12010)",
     "pricingQuoted": "$19/month",
     "initialContactDate": "2026-09-12T23:00:36.425Z",
-    "lastContactDate": "2026-09-27T20:18:53.092Z",
+    "lastContactDate": "2026-10-10T22:46:33.882Z",
     "status": "delivered",
-    "sequenceStep": "Day 4 - Follow-up",
+    "sequenceStep": "Final Breakaway",
     "diagnosedIssues": "Sluggish mobile asset delivery and lack of streamlined practice-specific consultation booking widgets.",
     "caseStudySent": "https://beeclue.com/case-studies/tara-lattanzio?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-poulin-law-office",
     "history": [
@@ -11817,6 +11897,14 @@
         "resendId": "01a0e485-3fc1-77ba-901a-7dadc447d412",
         "status": "delivered",
         "notes": "Threaded Day 4 follow-up on custom website mockup preview offer."
+      },
+      {
+        "step": "Final",
+        "sentAt": "2026-10-10T22:46:33.882Z",
+        "subject": "Re: Modernizing the website for Poulin Law Office",
+        "resendId": "01a127ff-2044-7abe-bbff-246c24d427e8",
+        "status": "delivered",
+        "notes": "Final Breakaway / permission to close file email sent."
       }
     ]
   },
@@ -11830,9 +11918,9 @@
     "location": "Amsterdam, NY (Amsterdam, NY 12010)",
     "pricingQuoted": "$19/month",
     "initialContactDate": "2026-09-12T23:00:37.531Z",
-    "lastContactDate": "2026-09-27T20:18:55.286Z",
+    "lastContactDate": "2026-10-10T22:46:36.401Z",
     "status": "delivered",
-    "sequenceStep": "Day 4 - Follow-up",
+    "sequenceStep": "Final Breakaway",
     "diagnosedIssues": "No active dedicated modern website; inquiries route through third-party business directories and Gmail.",
     "caseStudySent": "https://beeclue.com/case-studies/tara-lattanzio?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-rossi-law-office",
     "history": [
@@ -11851,6 +11939,14 @@
         "resendId": "01a0e485-4871-75df-aefc-c7afa2bb0efe",
         "status": "delivered",
         "notes": "Threaded Day 4 follow-up on custom website mockup preview offer."
+      },
+      {
+        "step": "Final",
+        "sentAt": "2026-10-10T22:46:36.401Z",
+        "subject": "Re: Modernizing the website for Rossi Law Office",
+        "resendId": "01a127ff-2a14-7b96-8909-7be77e9d2361",
+        "status": "delivered",
+        "notes": "Final Breakaway / permission to close file email sent."
       }
     ]
   },
@@ -11864,9 +11960,9 @@
     "location": "Gloversville, NY (Gloversville, NY 12078)",
     "pricingQuoted": "$19/month",
     "initialContactDate": "2026-09-12T23:00:38.657Z",
-    "lastContactDate": "2026-09-27T20:18:57.483Z",
+    "lastContactDate": "2026-10-10T22:46:38.913Z",
     "status": "delivered",
-    "sequenceStep": "Day 4 - Follow-up",
+    "sequenceStep": "Final Breakaway",
     "diagnosedIssues": "Older web template with slow mobile performance and missing interactive consultation intake funnel.",
     "caseStudySent": "https://beeclue.com/case-studies/tara-lattanzio?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-michael-albanese-law",
     "history": [
@@ -11885,6 +11981,14 @@
         "resendId": "01a0e485-50fd-7b84-96c9-93ecd572e62e",
         "status": "delivered",
         "notes": "Threaded Day 4 follow-up on custom website mockup preview offer."
+      },
+      {
+        "step": "Final",
+        "sentAt": "2026-10-10T22:46:38.913Z",
+        "subject": "Re: Modernizing the website for Law Office of Michael J. Albanese",
+        "resendId": "01a127ff-33e6-70ae-adfc-0dae22acb032",
+        "status": "delivered",
+        "notes": "Final Breakaway / permission to close file email sent."
       }
     ]
   },
@@ -11940,9 +12044,9 @@
     "location": "Norwich, NY (Norwich, NY 13815)",
     "pricingQuoted": "$19/month",
     "initialContactDate": "2026-09-12T23:00:40.908Z",
-    "lastContactDate": "2026-09-27T20:18:59.680Z",
+    "lastContactDate": "2026-10-10T22:46:41.448Z",
     "status": "delivered",
-    "sequenceStep": "Day 4 - Follow-up",
+    "sequenceStep": "Final Breakaway",
     "diagnosedIssues": "Desktop-first template lacking prominent mobile sticky contact actions and consultation triage.",
     "caseStudySent": "https://beeclue.com/case-studies/tara-lattanzio?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-aaron-dean-law",
     "history": [
@@ -11961,6 +12065,14 @@
         "resendId": "01a0e485-599c-7c56-ae0f-6cc5a3c47652",
         "status": "delivered",
         "notes": "Threaded Day 4 follow-up on custom website mockup preview offer."
+      },
+      {
+        "step": "Final",
+        "sentAt": "2026-10-10T22:46:41.448Z",
+        "subject": "Re: Modernizing the website for Law Office of Aaron A. Dean",
+        "resendId": "01a127ff-3dd5-7edf-9363-a79e0464334a",
+        "status": "delivered",
+        "notes": "Final Breakaway / permission to close file email sent."
       }
     ]
   },
@@ -12016,9 +12128,9 @@
     "location": "Olean, NY (Olean, NY 14760)",
     "pricingQuoted": "$19/month",
     "initialContactDate": "2026-09-12T23:00:43.195Z",
-    "lastContactDate": "2026-09-27T20:19:01.925Z",
+    "lastContactDate": "2026-10-10T22:46:44.025Z",
     "status": "delivered",
-    "sequenceStep": "Day 4 - Follow-up",
+    "sequenceStep": "Final Breakaway",
     "diagnosedIssues": "Older web template with slow mobile navigation and lack of responsive client intake.",
     "caseStudySent": "https://beeclue.com/case-studies/tara-lattanzio?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-eric-firkel-law",
     "history": [
@@ -12037,6 +12149,14 @@
         "resendId": "01a0e485-6249-7529-9f86-80dd1bca9ede",
         "status": "delivered",
         "notes": "Threaded Day 4 follow-up on custom website mockup preview offer."
+      },
+      {
+        "step": "Final",
+        "sentAt": "2026-10-10T22:46:44.025Z",
+        "subject": "Re: Modernizing the website for Eric M. Firkel, Attorney at Law",
+        "resendId": "01a127ff-47e5-71c2-ba3b-1fd296faf752",
+        "status": "delivered",
+        "notes": "Final Breakaway / permission to close file email sent."
       }
     ]
   },
@@ -12050,9 +12170,9 @@
     "location": "Olean, NY (Olean, NY 14760)",
     "pricingQuoted": "$19/month",
     "initialContactDate": "2026-09-12T23:00:44.317Z",
-    "lastContactDate": "2026-09-27T20:19:04.159Z",
+    "lastContactDate": "2026-10-10T22:46:46.577Z",
     "status": "delivered",
-    "sequenceStep": "Day 4 - Follow-up",
+    "sequenceStep": "Final Breakaway",
     "diagnosedIssues": "No active modern standalone website; practice presence limited to legal directories and Gmail.",
     "caseStudySent": "https://beeclue.com/case-studies/tara-lattanzio?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-gregory-germain-law",
     "history": [
@@ -12071,6 +12191,14 @@
         "resendId": "01a0e485-6b10-715f-a1dd-a528452ed22f",
         "status": "delivered",
         "notes": "Threaded Day 4 follow-up on custom website mockup preview offer."
+      },
+      {
+        "step": "Final",
+        "sentAt": "2026-10-10T22:46:46.577Z",
+        "subject": "Re: Modernizing the website for Law Office of Gregory J. Germain",
+        "resendId": "01a127ff-51da-7f1b-a324-fd2ae8ecd537",
+        "status": "delivered",
+        "notes": "Final Breakaway / permission to close file email sent."
       }
     ]
   },
@@ -12084,9 +12212,9 @@
     "location": "Lockport, NY (Lockport, NY 14094)",
     "pricingQuoted": "$19/month",
     "initialContactDate": "2026-09-12T23:00:45.425Z",
-    "lastContactDate": "2026-09-27T20:19:06.375Z",
+    "lastContactDate": "2026-10-10T22:46:49.149Z",
     "status": "delivered",
-    "sequenceStep": "Day 4 - Follow-up",
+    "sequenceStep": "Final Breakaway",
     "diagnosedIssues": "Desktop-oriented template with sluggish mobile render and lack of instant tap-to-call triage.",
     "caseStudySent": "https://beeclue.com/case-studies/tara-lattanzio?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-calabrese-law-pllc",
     "history": [
@@ -12105,6 +12233,14 @@
         "resendId": "01a0e485-73b9-74fa-80ca-9628994acc85",
         "status": "delivered",
         "notes": "Threaded Day 4 follow-up on custom website mockup preview offer."
+      },
+      {
+        "step": "Final",
+        "sentAt": "2026-10-10T22:46:49.149Z",
+        "subject": "Re: Modernizing the website for Calabrese Law PLLC",
+        "resendId": "01a127ff-5ba0-744d-b801-a459952f81ac",
+        "status": "delivered",
+        "notes": "Final Breakaway / permission to close file email sent."
       }
     ]
   },
@@ -12118,9 +12254,9 @@
     "location": "Lockport, NY (Lockport, NY 14094)",
     "pricingQuoted": "$19/month",
     "initialContactDate": "2026-09-12T23:00:46.542Z",
-    "lastContactDate": "2026-09-27T20:19:08.574Z",
+    "lastContactDate": "2026-10-10T22:46:51.675Z",
     "status": "delivered",
-    "sequenceStep": "Day 4 - Follow-up",
+    "sequenceStep": "Final Breakaway",
     "diagnosedIssues": "Older desktop-first architecture with slower mobile load times and lack of instant consultation triage.",
     "caseStudySent": "https://beeclue.com/case-studies/tara-lattanzio?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-seaman-seaman-law",
     "history": [
@@ -12139,6 +12275,14 @@
         "resendId": "01a0e485-7c54-7de2-b01e-2d8f581e8c18",
         "status": "delivered",
         "notes": "Threaded Day 4 follow-up on custom website mockup preview offer."
+      },
+      {
+        "step": "Final",
+        "sentAt": "2026-10-10T22:46:51.675Z",
+        "subject": "Re: Modernizing the website for Seaman & Seaman",
+        "resendId": "01a127ff-65b5-72fe-a70a-5a826d0448e4",
+        "status": "delivered",
+        "notes": "Final Breakaway / permission to close file email sent."
       }
     ]
   },
@@ -12152,9 +12296,9 @@
     "location": "Malone, NY (Malone, NY 12953)",
     "pricingQuoted": "$19/month",
     "initialContactDate": "2026-09-12T23:00:47.650Z",
-    "lastContactDate": "2026-09-27T20:19:10.826Z",
+    "lastContactDate": "2026-10-10T22:46:54.189Z",
     "status": "delivered",
-    "sequenceStep": "Day 4 - Follow-up",
+    "sequenceStep": "Final Breakaway",
     "diagnosedIssues": "Dated web framework lacking mobile-first tap-to-call triage and modern client consultation workflows.",
     "caseStudySent": "https://beeclue.com/case-studies/tara-lattanzio?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-champagne-law-firm",
     "history": [
@@ -12173,6 +12317,14 @@
         "resendId": "01a0e485-8520-770b-978c-2df94f81d18f",
         "status": "delivered",
         "notes": "Threaded Day 4 follow-up on custom website mockup preview offer."
+      },
+      {
+        "step": "Final",
+        "sentAt": "2026-10-10T22:46:54.189Z",
+        "subject": "Re: Modernizing the website for Champagne Law Firm",
+        "resendId": "01a127ff-6f8b-7b93-9a10-a3da2ede75f1",
+        "status": "delivered",
+        "notes": "Final Breakaway / permission to close file email sent."
       }
     ]
   },
@@ -12186,9 +12338,9 @@
     "location": "Canton, NY (Canton / Potsdam, NY 13617)",
     "pricingQuoted": "$19/month",
     "initialContactDate": "2026-09-12T23:00:48.771Z",
-    "lastContactDate": "2026-09-27T20:19:13.068Z",
+    "lastContactDate": "2026-10-10T22:46:56.714Z",
     "status": "delivered",
-    "sequenceStep": "Day 4 - Follow-up",
+    "sequenceStep": "Final Breakaway",
     "diagnosedIssues": "Older web template with slow mobile performance and missing interactive consultation intake funnel.",
     "caseStudySent": "https://beeclue.com/case-studies/tara-lattanzio?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-nash-palm-law",
     "history": [
@@ -12207,6 +12359,14 @@
         "resendId": "01a0e485-8dbe-7a56-9ef6-bad6386f792e",
         "status": "delivered",
         "notes": "Threaded Day 4 follow-up on custom website mockup preview offer."
+      },
+      {
+        "step": "Final",
+        "sentAt": "2026-10-10T22:46:56.714Z",
+        "subject": "Re: Modernizing the website for Nash & Palm Attorneys at Law",
+        "resendId": "01a127ff-796b-711c-984c-854cda365917",
+        "status": "delivered",
+        "notes": "Final Breakaway / permission to close file email sent."
       }
     ]
   },
@@ -12262,9 +12422,9 @@
     "location": "Oneida, NY (Oneida / Utica, NY 13421)",
     "pricingQuoted": "$19/month",
     "initialContactDate": "2026-09-12T23:00:51.059Z",
-    "lastContactDate": "2026-09-27T20:19:15.271Z",
+    "lastContactDate": "2026-10-10T22:46:59.284Z",
     "status": "delivered",
-    "sequenceStep": "Day 4 - Follow-up",
+    "sequenceStep": "Final Breakaway",
     "diagnosedIssues": "Desktop-first template lacking prominent mobile sticky contact actions and consultation triage.",
     "caseStudySent": "https://beeclue.com/case-studies/tara-lattanzio?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-donald-gerace-law",
     "history": [
@@ -12283,6 +12443,14 @@
         "resendId": "01a0e485-967a-70f1-bd00-602d523d4e23",
         "status": "delivered",
         "notes": "Threaded Day 4 follow-up on custom website mockup preview offer."
+      },
+      {
+        "step": "Final",
+        "sentAt": "2026-10-10T22:46:59.284Z",
+        "subject": "Re: Modernizing the website for Law Office of Donald R. Gerace",
+        "resendId": "01a127ff-8380-7280-866a-c7c7655eeab9",
+        "status": "delivered",
+        "notes": "Final Breakaway / permission to close file email sent."
       }
     ]
   },
@@ -12296,9 +12464,9 @@
     "location": "Catskill, NY (Catskill, NY 12414)",
     "pricingQuoted": "$19/month",
     "initialContactDate": "2026-09-12T23:00:52.167Z",
-    "lastContactDate": "2026-09-27T20:19:17.489Z",
+    "lastContactDate": "2026-10-10T22:47:01.843Z",
     "status": "delivered",
-    "sequenceStep": "Day 4 - Follow-up",
+    "sequenceStep": "Final Breakaway",
     "diagnosedIssues": "Older web template with slow mobile navigation and lack of responsive client intake.",
     "caseStudySent": "https://beeclue.com/case-studies/tara-lattanzio?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-angelo-scaturro-law",
     "history": [
@@ -12317,6 +12485,14 @@
         "resendId": "01a0e485-9f1a-7770-b94a-1e274903b515",
         "status": "delivered",
         "notes": "Threaded Day 4 follow-up on custom website mockup preview offer."
+      },
+      {
+        "step": "Final",
+        "sentAt": "2026-10-10T22:47:01.843Z",
+        "subject": "Re: Modernizing the website for Law Office of Angelo F. Scaturro",
+        "resendId": "01a127ff-8d7b-7e29-b73c-aea7f80e84a8",
+        "status": "delivered",
+        "notes": "Final Breakaway / permission to close file email sent."
       }
     ]
   },
@@ -12330,9 +12506,9 @@
     "location": "Catskill, NY (Catskill, NY 12414)",
     "pricingQuoted": "$19/month",
     "initialContactDate": "2026-09-12T23:00:53.276Z",
-    "lastContactDate": "2026-09-27T20:19:19.716Z",
+    "lastContactDate": "2026-10-10T22:47:04.517Z",
     "status": "delivered",
-    "sequenceStep": "Day 4 - Follow-up",
+    "sequenceStep": "Final Breakaway",
     "diagnosedIssues": "Sluggish mobile asset delivery and lack of streamlined practice-specific consultation booking widgets.",
     "caseStudySent": "https://beeclue.com/case-studies/tara-lattanzio?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-hurwitz-law-office",
     "history": [
@@ -12351,6 +12527,14 @@
         "resendId": "01a0e485-a7e5-7c59-b7bd-36df00165e72",
         "status": "delivered",
         "notes": "Threaded Day 4 follow-up on custom website mockup preview offer."
+      },
+      {
+        "step": "Final",
+        "sentAt": "2026-10-10T22:47:04.517Z",
+        "subject": "Re: Modernizing the website for Hurwitz Law Office",
+        "resendId": "01a127ff-9778-7c38-bc7a-f0dd5574606d",
+        "status": "delivered",
+        "notes": "Final Breakaway / permission to close file email sent."
       }
     ]
   },
@@ -12364,9 +12548,9 @@
     "location": "Fulton, NY (Fulton, NY 13069)",
     "pricingQuoted": "$19/month",
     "initialContactDate": "2026-09-12T23:00:54.392Z",
-    "lastContactDate": "2026-09-27T20:19:21.915Z",
+    "lastContactDate": "2026-10-10T22:47:07.198Z",
     "status": "delivered",
-    "sequenceStep": "Day 4 - Follow-up",
+    "sequenceStep": "Final Breakaway",
     "diagnosedIssues": "Dated web framework lacking modern tap-to-call mobile triage and responsive case evaluation intake.",
     "caseStudySent": "https://beeclue.com/case-studies/tara-lattanzio?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-courtney-radick-law",
     "history": [
@@ -12385,6 +12569,14 @@
         "resendId": "01a0e485-b071-7101-bcd2-39b2edad328e",
         "status": "delivered",
         "notes": "Threaded Day 4 follow-up on custom website mockup preview offer."
+      },
+      {
+        "step": "Final",
+        "sentAt": "2026-10-10T22:47:07.198Z",
+        "subject": "Re: Modernizing the website for Law Office of Courtney S. Radick",
+        "resendId": "01a127ff-a261-783e-99c4-09d5d563919e",
+        "status": "delivered",
+        "notes": "Final Breakaway / permission to close file email sent."
       }
     ]
   },
@@ -12398,9 +12590,9 @@
     "location": "Geneseo, NY (Geneseo, NY 14454)",
     "pricingQuoted": "$19/month",
     "initialContactDate": "2026-09-12T23:00:55.496Z",
-    "lastContactDate": "2026-09-27T20:19:24.141Z",
+    "lastContactDate": "2026-10-10T22:47:09.714Z",
     "status": "delivered",
-    "sequenceStep": "Day 4 - Follow-up",
+    "sequenceStep": "Final Breakaway",
     "diagnosedIssues": "Desktop-oriented template with slow mobile rendering; inquiry flow routes to standard email links rather than an interactive mobile intake form.",
     "caseStudySent": "https://beeclue.com/case-studies/tara-lattanzio?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-thomas-wasmund-law",
     "history": [
@@ -12419,6 +12611,14 @@
         "resendId": "01a0e485-b91e-751b-b123-10babe6e5839",
         "status": "delivered",
         "notes": "Threaded Day 4 follow-up on custom website mockup preview offer."
+      },
+      {
+        "step": "Final",
+        "sentAt": "2026-10-10T22:47:09.714Z",
+        "subject": "Re: Modernizing the website for Law Office of J. Thomas Wasmund",
+        "resendId": "01a127ff-ac3e-795e-b133-29ce0cfd81fc",
+        "status": "delivered",
+        "notes": "Final Breakaway / permission to close file email sent."
       }
     ]
   },
@@ -12432,9 +12632,9 @@
     "location": "Jamestown, NY (Jamestown, NY 14701)",
     "pricingQuoted": "$19/month",
     "initialContactDate": "2026-09-12T23:00:56.638Z",
-    "lastContactDate": "2026-09-27T20:19:26.399Z",
+    "lastContactDate": "2026-10-10T22:47:12.284Z",
     "status": "delivered",
-    "sequenceStep": "Day 4 - Follow-up",
+    "sequenceStep": "Final Breakaway",
     "diagnosedIssues": "Older desktop-first architecture with slower mobile load times and lack of instant consultation triage.",
     "caseStudySent": "https://beeclue.com/case-studies/tara-lattanzio?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-schmidt-law-firm",
     "history": [
@@ -12453,6 +12653,14 @@
         "resendId": "01a0e485-c1c3-7c14-993c-f3c1f5912922",
         "status": "delivered",
         "notes": "Threaded Day 4 follow-up on custom website mockup preview offer."
+      },
+      {
+        "step": "Final",
+        "sentAt": "2026-10-10T22:47:12.284Z",
+        "subject": "Re: Modernizing the website for Schmidt Law Firm",
+        "resendId": "01a127ff-b649-7449-977b-788ea56e7476",
+        "status": "delivered",
+        "notes": "Final Breakaway / permission to close file email sent."
       }
     ]
   },
@@ -12466,9 +12674,9 @@
     "location": "Milford, PA (Milford, PA 18337)",
     "pricingQuoted": "$19/month",
     "initialContactDate": "2026-09-12T23:00:57.785Z",
-    "lastContactDate": "2026-09-27T20:19:28.658Z",
+    "lastContactDate": "2026-10-10T22:47:14.905Z",
     "status": "delivered",
-    "sequenceStep": "Day 4 - Follow-up",
+    "sequenceStep": "Final Breakaway",
     "diagnosedIssues": "Legacy web template with desktop-oriented styling and slow initial render on mobile connections.",
     "caseStudySent": "https://beeclue.com/case-studies/tara-lattanzio?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-levy-stieh-gaughan",
     "history": [
@@ -12487,6 +12695,14 @@
         "resendId": "01a0e485-cabf-7479-937f-a8bd507202e9",
         "status": "delivered",
         "notes": "Threaded Day 4 follow-up on custom website mockup preview offer."
+      },
+      {
+        "step": "Final",
+        "sentAt": "2026-10-10T22:47:14.905Z",
+        "subject": "Re: Modernizing the website for Levy, Stieh & Gaughan, P.C.",
+        "resendId": "01a127ff-c021-76a5-8ca3-80bfe671d6ff",
+        "status": "delivered",
+        "notes": "Final Breakaway / permission to close file email sent."
       }
     ]
   },
@@ -12500,9 +12716,9 @@
     "location": "Newton, NJ (Newton, NJ 07860)",
     "pricingQuoted": "$19/month",
     "initialContactDate": "2026-09-12T23:00:58.896Z",
-    "lastContactDate": "2026-09-27T20:19:30.874Z",
+    "lastContactDate": "2026-10-10T22:47:17.416Z",
     "status": "delivered",
-    "sequenceStep": "Day 4 - Follow-up",
+    "sequenceStep": "Final Breakaway",
     "diagnosedIssues": "Dated web framework lacking modern tap-to-call mobile triage and responsive case evaluation intake.",
     "caseStudySent": "https://beeclue.com/case-studies/tara-lattanzio?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-george-daggett-law",
     "history": [
@@ -12521,6 +12737,14 @@
         "resendId": "01a0e485-d36b-7f21-aa12-f642e7b36f5d",
         "status": "delivered",
         "notes": "Threaded Day 4 follow-up on custom website mockup preview offer."
+      },
+      {
+        "step": "Final",
+        "sentAt": "2026-10-10T22:47:17.416Z",
+        "subject": "Re: Modernizing the website for Law Offices of George T. Daggett",
+        "resendId": "01a127ff-ca54-7055-af72-183b3a7c1036",
+        "status": "delivered",
+        "notes": "Final Breakaway / permission to close file email sent."
       }
     ]
   },
@@ -12534,9 +12758,9 @@
     "location": "Torrington, CT (Torrington, CT 06790)",
     "pricingQuoted": "$19/month",
     "initialContactDate": "2026-09-12T23:01:00.011Z",
-    "lastContactDate": "2026-09-27T20:19:33.080Z",
+    "lastContactDate": "2026-10-10T22:47:19.902Z",
     "status": "delivered",
-    "sequenceStep": "Day 4 - Follow-up",
+    "sequenceStep": "Final Breakaway",
     "diagnosedIssues": "Older web template with slow mobile navigation and lack of responsive client intake.",
     "caseStudySent": "https://beeclue.com/case-studies/tara-lattanzio?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-blondin-shea-law",
     "history": [
@@ -12555,6 +12779,14 @@
         "resendId": "01a0e485-dc0c-73e2-b1f2-6e6e5c6299c1",
         "status": "delivered",
         "notes": "Threaded Day 4 follow-up on custom website mockup preview offer."
+      },
+      {
+        "step": "Final",
+        "sentAt": "2026-10-10T22:47:19.902Z",
+        "subject": "Re: Modernizing the website for Blondin Shea, Attorneys at Law",
+        "resendId": "01a127ff-d40b-78b4-a752-65819ebe49ec",
+        "status": "delivered",
+        "notes": "Final Breakaway / permission to close file email sent."
       }
     ]
   },
@@ -17722,9 +17954,9 @@
     "quotedPrice": "Turnkey Growth Build ($1,200 - $1,500)",
     "resendId": "01a0c64a-2ad5-7765-9601-bb8c6bd71411",
     "timestamp": "2026-09-21T23:25:44.609Z",
-    "lastContactDate": "2026-09-24T14:51:35.729Z",
+    "lastContactDate": "2026-10-10T22:47:22.407Z",
     "status": "delivered",
-    "sequenceStep": "Day 4 - Follow-up",
+    "sequenceStep": "Final Breakaway",
     "diagnosedIssues": "Fixed 1,000px desktop table layout (<table width=\"1000\">) breaking and overflowing horizontally on mobile screens during urgent 24/7 emergency plumbing searches.",
     "history": [
       {
@@ -17742,6 +17974,14 @@
         "resendId": "01a0d3e6-8760-7058-99c5-31656facd828",
         "status": "delivered",
         "notes": "Threaded follow-up check-in offering free draft concept preview."
+      },
+      {
+        "step": "Final",
+        "sentAt": "2026-10-10T22:47:22.407Z",
+        "subject": "Re: Quick observation on CJ's Express Plumbing mobile layout (Cambridge)",
+        "resendId": "01a127ff-ddd0-7781-90d4-f380ecbf43a2",
+        "status": "delivered",
+        "notes": "Final Breakaway / permission to close file email sent."
       }
     ]
   },
@@ -17755,9 +17995,9 @@
     "quotedPrice": "Turnkey Growth Build ($1,200 - $1,500)",
     "resendId": "01a0c64a-2e00-72e7-bc1d-f5404d868e9d",
     "timestamp": "2026-09-21T23:25:45.414Z",
-    "lastContactDate": "2026-09-24T14:51:36.717Z",
+    "lastContactDate": "2026-10-10T22:47:24.985Z",
     "status": "delivered",
-    "sequenceStep": "Day 4 - Follow-up",
+    "sequenceStep": "Final Breakaway",
     "diagnosedIssues": "Actively tracking paid UTM marketing traffic, but homepage has 115KB inline code bloat and lacks an interactive instant roof cost visualizer.",
     "history": [
       {
@@ -17775,6 +18015,14 @@
         "resendId": "01a0d3e6-8b08-700d-b6e4-7164e99b2b2b",
         "status": "delivered",
         "notes": "Threaded follow-up check-in offering free draft concept preview."
+      },
+      {
+        "step": "Final",
+        "sentAt": "2026-10-10T22:47:24.985Z",
+        "subject": "Re: Metal roof quote conversion idea for Adam Streicher Roofing",
+        "resendId": "01a127ff-e7d5-7173-87f8-94be03330428",
+        "status": "delivered",
+        "notes": "Final Breakaway / permission to close file email sent."
       }
     ]
   },
@@ -17788,9 +18036,9 @@
     "quotedPrice": "Turnkey Growth Build ($1,200 - $1,500)",
     "resendId": "01a0c64a-30f8-7026-a0e7-dbbd60786dc5",
     "timestamp": "2026-09-21T23:25:46.207Z",
-    "lastContactDate": "2026-09-24T14:51:37.685Z",
+    "lastContactDate": "2026-10-10T22:47:27.533Z",
     "status": "delivered",
-    "sequenceStep": "Day 4 - Follow-up",
+    "sequenceStep": "Final Breakaway",
     "diagnosedIssues": "GoDaddy Website Builder script bloat causing mobile loading lag during high-value emergency furnace repair searches.",
     "history": [
       {
@@ -17808,6 +18056,14 @@
         "resendId": "01a0d3e6-8eea-747c-a59f-a61f5700cb11",
         "status": "delivered",
         "notes": "Threaded follow-up check-in offering free draft concept preview."
+      },
+      {
+        "step": "Final",
+        "sentAt": "2026-10-10T22:47:27.533Z",
+        "subject": "Re: 24/7 emergency furnace mobile call rate for Regional Air",
+        "resendId": "01a127ff-f1d9-763b-9f7c-bb417214d21d",
+        "status": "delivered",
+        "notes": "Final Breakaway / permission to close file email sent."
       }
     ]
   },
@@ -17821,9 +18077,9 @@
     "quotedPrice": "Turnkey Growth Build ($1,200 - $1,500)",
     "resendId": "01a0c64a-3423-76b1-aa3b-b755fe3e63e2",
     "timestamp": "2026-09-21T23:25:46.986Z",
-    "lastContactDate": "2026-09-24T14:51:38.734Z",
+    "lastContactDate": "2026-10-10T22:47:30.123Z",
     "status": "delivered",
-    "sequenceStep": "Day 4 - Follow-up",
+    "sequenceStep": "Final Breakaway",
     "diagnosedIssues": "WordPress Divi builder with 10+ render-blocking external stylesheets delaying Largest Contentful Paint (LCP) on mobile.",
     "history": [
       {
@@ -17841,6 +18097,14 @@
         "resendId": "01a0d3e6-92d6-762e-88db-42ad1fd2f2a1",
         "status": "delivered",
         "notes": "Threaded follow-up check-in offering free draft concept preview."
+      },
+      {
+        "step": "Final",
+        "sentAt": "2026-10-10T22:47:30.123Z",
+        "subject": "Re: Mobile load speed observation on advanceair.ca (Kitchener)",
+        "resendId": "01a127ff-fbf0-7790-ae34-8403f756358a",
+        "status": "delivered",
+        "notes": "Final Breakaway / permission to close file email sent."
       }
     ]
   },
@@ -17854,9 +18118,9 @@
     "quotedPrice": "Turnkey Growth Build ($1,200 - $1,500)",
     "resendId": "01a0c64a-371d-7488-a908-541830c9753d",
     "timestamp": "2026-09-21T23:25:47.846Z",
-    "lastContactDate": "2026-09-24T14:51:39.687Z",
+    "lastContactDate": "2026-10-10T22:47:32.720Z",
     "status": "delivered",
-    "sequenceStep": "Day 4 - Follow-up",
+    "sequenceStep": "Final Breakaway",
     "diagnosedIssues": "Congested legacy navigation with duplicate service menus pushing the phone number and emergency booking below the fold on phones.",
     "history": [
       {
@@ -17874,6 +18138,14 @@
         "resendId": "01a0d3e6-96d7-741c-a3ce-8a28acc9c505",
         "status": "delivered",
         "notes": "Threaded follow-up check-in offering free draft concept preview."
+      },
+      {
+        "step": "Final",
+        "sentAt": "2026-10-10T22:47:32.720Z",
+        "subject": "Re: Quick mobile observation for Tiger Plumbing (Kitchener)",
+        "resendId": "01a12800-0616-7e8a-ac0d-8bbb340422c3",
+        "status": "delivered",
+        "notes": "Final Breakaway / permission to close file email sent."
       }
     ]
   },
@@ -17889,9 +18161,9 @@
     "quotedPrice": "Turnkey Growth Build ($1,200 - $1,500)",
     "resendId": "01a0c653-de85-72db-b494-11a56c04bf3b",
     "timestamp": "2026-09-21T23:36:20.439Z",
-    "lastContactDate": "2026-09-24T14:51:40.978Z",
+    "lastContactDate": "2026-10-10T22:47:35.236Z",
     "status": "delivered",
-    "sequenceStep": "Day 4 - Follow-up",
+    "sequenceStep": "Final Breakaway",
     "diagnosedIssues": "Older 2017 Wix template with default Wix favicon and lack of mobile project before-and-after gallery or interactive ballpark estimator.",
     "history": [
       {
@@ -17909,6 +18181,14 @@
         "resendId": "01a0d3e6-9be4-772f-9c69-2fbe99abf78a",
         "status": "delivered",
         "notes": "Threaded follow-up check-in offering free draft concept preview."
+      },
+      {
+        "step": "Final",
+        "sentAt": "2026-10-10T22:47:35.236Z",
+        "subject": "Re: Quick observation on nolivos.ca (Durham Region renovations)",
+        "resendId": "01a12800-0fdc-7aec-9909-8f7ac4195b88",
+        "status": "delivered",
+        "notes": "Final Breakaway / permission to close file email sent."
       }
     ]
   },
@@ -17922,9 +18202,9 @@
     "location": "Toronto, ON",
     "pricingQuoted": "$19/month",
     "initialContactDate": "2026-09-23T16:56:14.220Z",
-    "lastContactDate": "2026-09-24T14:51:41.902Z",
+    "lastContactDate": "2026-10-10T22:47:37.714Z",
     "status": "delivered",
-    "sequenceStep": "Day 4 - Follow-up",
+    "sequenceStep": "Final Breakaway",
     "diagnosedIssues": "Booking through social media/email without a central portfolio website.",
     "history": [
       {
@@ -17942,6 +18222,14 @@
         "resendId": "01a0d3e6-9f82-7d7e-9e7e-541c4522a81d",
         "status": "delivered",
         "notes": "Threaded follow-up check-in offering free draft concept preview."
+      },
+      {
+        "step": "Final",
+        "sentAt": "2026-10-10T22:47:37.714Z",
+        "subject": "Re: Building a portfolio website for DVN Toronto Photographer",
+        "resendId": "01a12800-19a4-759c-8f8a-f98eeaa90bb3",
+        "status": "delivered",
+        "notes": "Final Breakaway / permission to close file email sent."
       }
     ]
   },
@@ -17955,9 +18243,9 @@
     "location": "Toronto, ON",
     "pricingQuoted": "$19/month",
     "initialContactDate": "2026-09-23T16:56:14.382Z",
-    "lastContactDate": "2026-09-24T14:51:42.846Z",
+    "lastContactDate": "2026-10-10T22:47:40.222Z",
     "status": "delivered",
-    "sequenceStep": "Day 4 - Follow-up",
+    "sequenceStep": "Final Breakaway",
     "diagnosedIssues": "Booking through social media/email without a central portfolio website.",
     "history": [
       {
@@ -17975,6 +18263,14 @@
         "resendId": "01a0d3e6-a330-73f2-9f08-89b3d5f2a3e2",
         "status": "delivered",
         "notes": "Threaded follow-up check-in offering free draft concept preview."
+      },
+      {
+        "step": "Final",
+        "sentAt": "2026-10-10T22:47:40.222Z",
+        "subject": "Re: Building a portfolio website for M&M Media Lab",
+        "resendId": "01a12800-2357-7748-9bb3-7641ac553d55",
+        "status": "delivered",
+        "notes": "Final Breakaway / permission to close file email sent."
       }
     ]
   },
@@ -17988,9 +18284,9 @@
     "location": "Toronto, ON",
     "pricingQuoted": "$19/month",
     "initialContactDate": "2026-09-23T16:56:14.491Z",
-    "lastContactDate": "2026-09-24T14:51:43.857Z",
+    "lastContactDate": "2026-10-10T22:47:42.816Z",
     "status": "delivered",
-    "sequenceStep": "Day 4 - Follow-up",
+    "sequenceStep": "Final Breakaway",
     "diagnosedIssues": "Booking through social media/email without a central portfolio website.",
     "history": [
       {
@@ -18008,6 +18304,14 @@
         "resendId": "01a0d3e6-a6cb-73e2-ad26-13ba32195a3c",
         "status": "delivered",
         "notes": "Threaded follow-up check-in offering free draft concept preview."
+      },
+      {
+        "step": "Final",
+        "sentAt": "2026-10-10T22:47:42.816Z",
+        "subject": "Re: Building a portfolio website for Joel Kiggs Photography",
+        "resendId": "01a12800-2d85-7d8b-8cd3-c8f0e56d50ca",
+        "status": "delivered",
+        "notes": "Final Breakaway / permission to close file email sent."
       }
     ]
   },
@@ -18021,9 +18325,9 @@
     "location": "Toronto, ON",
     "pricingQuoted": "$19/month",
     "initialContactDate": "2026-09-23T16:56:14.611Z",
-    "lastContactDate": "2026-09-24T14:51:44.786Z",
+    "lastContactDate": "2026-10-10T22:47:45.377Z",
     "status": "delivered",
-    "sequenceStep": "Day 4 - Follow-up",
+    "sequenceStep": "Final Breakaway",
     "diagnosedIssues": "Booking through social media/email without a central portfolio website.",
     "history": [
       {
@@ -18041,6 +18345,14 @@
         "resendId": "01a0d3e6-aac8-73ba-a4ca-e9a26fc643a5",
         "status": "delivered",
         "notes": "Threaded follow-up check-in offering free draft concept preview."
+      },
+      {
+        "step": "Final",
+        "sentAt": "2026-10-10T22:47:45.377Z",
+        "subject": "Re: Building a portfolio website for Carlos Charris Photography",
+        "resendId": "01a12800-3783-7943-840f-f46607da9d62",
+        "status": "delivered",
+        "notes": "Final Breakaway / permission to close file email sent."
       }
     ]
   },
@@ -18054,9 +18366,9 @@
     "location": "Toronto, ON",
     "pricingQuoted": "$19/month",
     "initialContactDate": "2026-09-23T16:56:14.717Z",
-    "lastContactDate": "2026-09-24T14:51:45.802Z",
+    "lastContactDate": "2026-10-10T22:47:47.922Z",
     "status": "delivered",
-    "sequenceStep": "Day 4 - Follow-up",
+    "sequenceStep": "Final Breakaway",
     "diagnosedIssues": "Booking through social media/email without a central portfolio website.",
     "history": [
       {
@@ -18074,6 +18386,14 @@
         "resendId": "01a0d3e6-ae60-776e-9db0-53a22e0ffb8c",
         "status": "delivered",
         "notes": "Threaded follow-up check-in offering free draft concept preview."
+      },
+      {
+        "step": "Final",
+        "sentAt": "2026-10-10T22:47:47.922Z",
+        "subject": "Re: Building a portfolio website for Lightscameralens Photography",
+        "resendId": "01a12800-4179-7c6c-937a-f053bbb2bc42",
+        "status": "delivered",
+        "notes": "Final Breakaway / permission to close file email sent."
       }
     ]
   },
@@ -18087,9 +18407,9 @@
     "location": "Augusta, GA (1380 Reynolds St)",
     "pricingQuoted": "Custom proposal / Free Mockup",
     "initialContactDate": "2026-09-26T04:02:49.784Z",
-    "lastContactDate": "2026-09-29T00:40:43.320Z",
+    "lastContactDate": "2026-10-10T22:47:50.419Z",
     "status": "delivered",
-    "sequenceStep": "Day 4 - Follow-up",
+    "sequenceStep": "Final Breakaway",
     "diagnosedIssues": "your shop currently operates without an active website, relying solely on an unoptimized Google Business Profile and Facebook page with no online consultation booking or digital portfolio",
     "caseStudySent": "https://beeclue.com/case-studies/tuxedo-frame-gallery?utm_source=beeclue&utm_medium=email&utm_campaign=outreach-art-galleries-hang-ups-custom-framing",
     "history": [
@@ -18108,6 +18428,14 @@
         "resendId": "01a0ea9b-53ee-70bd-b450-ed640b40ae1f",
         "status": "delivered",
         "notes": "Threaded Day 4 follow-up on Tuxedo Frame Gallery case study and free 48-hr custom mockup offer."
+      },
+      {
+        "step": "Final",
+        "sentAt": "2026-10-10T22:47:50.419Z",
+        "subject": "Re: Modernizing the website for Hang-Ups Custom Framing and Art Gallery",
+        "resendId": "01a12800-4b40-7efd-94d2-43daa34352fd",
+        "status": "delivered",
+        "notes": "Final Breakaway / permission to close file email sent."
       }
     ]
   },
@@ -18121,9 +18449,9 @@
     "location": "Columbus, GA (1330 13th St)",
     "pricingQuoted": "Custom proposal / Free Mockup",
     "initialContactDate": "2026-09-26T04:02:51.988Z",
-    "lastContactDate": "2026-09-29T00:40:45.522Z",
+    "lastContactDate": "2026-10-10T22:47:52.918Z",
     "status": "delivered",
-    "sequenceStep": "Day 4 - Follow-up",
+    "sequenceStep": "Final Breakaway",
     "diagnosedIssues": "your website is currently running on a legacy desktop layout with no mobile viewport scaling or online consultation booking, and routing inquiries through an older regional ISP email",
     "caseStudySent": "https://beeclue.com/case-studies/tuxedo-frame-gallery?utm_source=beeclue&utm_medium=email&utm_campaign=outreach-art-galleries-two-sisters-gallery",
     "history": [
@@ -18142,6 +18470,14 @@
         "resendId": "01a0ea9b-5c84-79dc-825c-d40ab4fa9afb",
         "status": "delivered",
         "notes": "Threaded Day 4 follow-up on Tuxedo Frame Gallery case study and free 48-hr custom mockup offer."
+      },
+      {
+        "step": "Final",
+        "sentAt": "2026-10-10T22:47:52.918Z",
+        "subject": "Re: Modernizing the website for Two Sisters Gallery",
+        "resendId": "01a12800-5500-7a7e-93a0-4266015ccde8",
+        "status": "delivered",
+        "notes": "Final Breakaway / permission to close file email sent."
       }
     ]
   },
@@ -18155,9 +18491,9 @@
     "location": "Savannah, GA (5401 Waters Avenue)",
     "pricingQuoted": "Custom proposal / Free Mockup",
     "initialContactDate": "2026-09-26T04:02:54.212Z",
-    "lastContactDate": "2026-09-29T00:40:47.721Z",
+    "lastContactDate": "2026-10-10T22:47:55.428Z",
     "status": "delivered",
-    "sequenceStep": "Day 4 - Follow-up",
+    "sequenceStep": "Final Breakaway",
     "diagnosedIssues": "your website is running on a basic static layout routing quotes to a personal mailbox, lacking an interactive moulding showcase or online consultation scheduler",
     "caseStudySent": "https://beeclue.com/case-studies/tuxedo-frame-gallery?utm_source=beeclue&utm_medium=email&utm_campaign=outreach-art-galleries-savannah-framing-company",
     "history": [
@@ -18176,6 +18512,14 @@
         "resendId": "01a0ea9b-651e-716e-83b3-5a904b22f7ac",
         "status": "delivered",
         "notes": "Threaded Day 4 follow-up on Tuxedo Frame Gallery case study and free 48-hr custom mockup offer."
+      },
+      {
+        "step": "Final",
+        "sentAt": "2026-10-10T22:47:55.428Z",
+        "subject": "Re: Modernizing the website for Savannah Framing Company",
+        "resendId": "01a12800-5eca-72be-b341-fe1278f71693",
+        "status": "delivered",
+        "notes": "Final Breakaway / permission to close file email sent."
       }
     ]
   },
@@ -18189,9 +18533,9 @@
     "location": "Brunswick, GA (1403 Newcastle Street)",
     "pricingQuoted": "Custom proposal / Free Mockup",
     "initialContactDate": "2026-09-26T04:02:56.447Z",
-    "lastContactDate": "2026-09-29T00:40:49.927Z",
+    "lastContactDate": "2026-10-10T22:47:57.972Z",
     "status": "delivered",
-    "sequenceStep": "Day 4 - Follow-up",
+    "sequenceStep": "Final Breakaway",
     "diagnosedIssues": "your website uses a basic template with personal Gmail for quotes, missing a digital moulding catalog and online appointment scheduler",
     "caseStudySent": "https://beeclue.com/case-studies/tuxedo-frame-gallery?utm_source=beeclue&utm_medium=email&utm_campaign=outreach-art-galleries-main-street-frame-shop",
     "history": [
@@ -18210,6 +18554,14 @@
         "resendId": "01a0ea9b-6db1-76b9-a9de-da620166d0f8",
         "status": "delivered",
         "notes": "Threaded Day 4 follow-up on Tuxedo Frame Gallery case study and free 48-hr custom mockup offer."
+      },
+      {
+        "step": "Final",
+        "sentAt": "2026-10-10T22:47:57.972Z",
+        "subject": "Re: Modernizing the website for Main Street Frame Shop",
+        "resendId": "01a12800-68aa-785b-8bea-6ab26af6cde2",
+        "status": "delivered",
+        "notes": "Final Breakaway / permission to close file email sent."
       }
     ]
   },
@@ -18223,9 +18575,9 @@
     "location": "Augusta, GA (1016 Broad Street)",
     "pricingQuoted": "Custom proposal / Free Mockup",
     "initialContactDate": "2026-09-26T04:02:58.647Z",
-    "lastContactDate": "2026-09-29T00:40:52.137Z",
+    "lastContactDate": "2026-10-10T22:48:00.796Z",
     "status": "delivered",
-    "sequenceStep": "Day 4 - Follow-up",
+    "sequenceStep": "Final Breakaway",
     "diagnosedIssues": "your website uses a public Gmail for high-end consignment art and custom framing intake, without an interactive artwork gallery filter or consultation scheduler",
     "caseStudySent": "https://beeclue.com/case-studies/tuxedo-frame-gallery?utm_source=beeclue&utm_medium=email&utm_campaign=outreach-art-galleries-art-on-broad",
     "history": [
@@ -18244,6 +18596,14 @@
         "resendId": "01a0ea9b-765f-75ea-89a2-c29eba3c6150",
         "status": "delivered",
         "notes": "Threaded Day 4 follow-up on Tuxedo Frame Gallery case study and free 48-hr custom mockup offer."
+      },
+      {
+        "step": "Final",
+        "sentAt": "2026-10-10T22:48:00.796Z",
+        "subject": "Re: Modernizing the website for Art on Broad",
+        "resendId": "01a12800-73b7-7e25-9185-7196f42ac07f",
+        "status": "delivered",
+        "notes": "Final Breakaway / permission to close file email sent."
       }
     ]
   },
@@ -18257,9 +18617,9 @@
     "location": "Columbia, SC (3100 Rosewood Dr)",
     "pricingQuoted": "Custom proposal / Free Mockup",
     "initialContactDate": "2026-09-26T04:03:00.854Z",
-    "lastContactDate": "2026-09-29T00:40:54.339Z",
+    "lastContactDate": "2026-10-10T22:48:03.334Z",
     "status": "delivered",
-    "sequenceStep": "Day 4 - Follow-up",
+    "sequenceStep": "Final Breakaway",
     "diagnosedIssues": "your website is running on an older static desktop layout with no mobile responsive scaling, tap-to-call, or digital consultation scheduling",
     "caseStudySent": "https://beeclue.com/case-studies/tuxedo-frame-gallery?utm_source=beeclue&utm_medium=email&utm_campaign=outreach-art-galleries-the-frame-shop-inc",
     "history": [
@@ -18278,6 +18638,14 @@
         "resendId": "01a0ea9b-7ef4-77ad-9924-dd6210556f06",
         "status": "delivered",
         "notes": "Threaded Day 4 follow-up on Tuxedo Frame Gallery case study and free 48-hr custom mockup offer."
+      },
+      {
+        "step": "Final",
+        "sentAt": "2026-10-10T22:48:03.334Z",
+        "subject": "Re: Modernizing the website for The Frame Shop, Inc.",
+        "resendId": "01a12800-7d8d-7629-adbb-2f7d84841964",
+        "status": "delivered",
+        "notes": "Final Breakaway / permission to close file email sent."
       }
     ]
   },
@@ -18291,9 +18659,9 @@
     "location": "Columbia, SC (2114 College St)",
     "pricingQuoted": "Custom proposal / Free Mockup",
     "initialContactDate": "2026-09-26T04:03:03.042Z",
-    "lastContactDate": "2026-09-29T00:40:56.552Z",
+    "lastContactDate": "2026-10-10T22:48:05.865Z",
     "status": "delivered",
-    "sequenceStep": "Day 4 - Follow-up",
+    "sequenceStep": "Final Breakaway",
     "diagnosedIssues": "your website operates on a blog-style layout handling customer quotes via an unbranded mailbox, lacking an online booking calendar for custom shadowbox and archival framing",
     "caseStudySent": "https://beeclue.com/case-studies/tuxedo-frame-gallery?utm_source=beeclue&utm_medium=email&utm_campaign=outreach-art-galleries-elite-framing",
     "history": [
@@ -18312,6 +18680,14 @@
         "resendId": "01a0ea9b-8797-7428-8aa0-198099e0c584",
         "status": "delivered",
         "notes": "Threaded Day 4 follow-up on Tuxedo Frame Gallery case study and free 48-hr custom mockup offer."
+      },
+      {
+        "step": "Final",
+        "sentAt": "2026-10-10T22:48:05.865Z",
+        "subject": "Re: Modernizing the website for Elite Framing",
+        "resendId": "01a12800-8796-7c02-b727-0ad7575ad8e3",
+        "status": "delivered",
+        "notes": "Final Breakaway / permission to close file email sent."
       }
     ]
   },
@@ -18325,9 +18701,9 @@
     "location": "Beaufort, SC (917 Bay Street, Suite G)",
     "pricingQuoted": "Custom proposal / Free Mockup",
     "initialContactDate": "2026-09-26T04:03:05.232Z",
-    "lastContactDate": "2026-09-29T00:40:58.730Z",
+    "lastContactDate": "2026-10-10T22:48:08.436Z",
     "status": "delivered",
-    "sequenceStep": "Day 4 - Follow-up",
+    "sequenceStep": "Final Breakaway",
     "diagnosedIssues": "your domain currently forwards exclusively to Etsy, leaving your downtown Beaufort brick-and-mortar atelier with no dedicated website or local framing appointment scheduler",
     "caseStudySent": "https://beeclue.com/case-studies/tuxedo-frame-gallery?utm_source=beeclue&utm_medium=email&utm_campaign=outreach-art-galleries-green-herring-art-and-framing-studio",
     "history": [
@@ -18346,6 +18722,14 @@
         "resendId": "01a0ea9b-901b-7735-a237-f868361badf8",
         "status": "delivered",
         "notes": "Threaded Day 4 follow-up on Tuxedo Frame Gallery case study and free 48-hr custom mockup offer."
+      },
+      {
+        "step": "Final",
+        "sentAt": "2026-10-10T22:48:08.436Z",
+        "subject": "Re: Modernizing the website for Green Herring Art and Framing Studio",
+        "resendId": "01a12800-919f-7556-9a45-ebccd190eec0",
+        "status": "delivered",
+        "notes": "Final Breakaway / permission to close file email sent."
       }
     ]
   },
@@ -18359,9 +18743,9 @@
     "location": "Bluffton, SC (1263-B May River Road)",
     "pricingQuoted": "Custom proposal / Free Mockup",
     "initialContactDate": "2026-09-26T04:03:07.473Z",
-    "lastContactDate": "2026-09-29T00:41:00.943Z",
+    "lastContactDate": "2026-10-10T22:48:10.993Z",
     "status": "delivered",
-    "sequenceStep": "Day 4 - Follow-up",
+    "sequenceStep": "Final Breakaway",
     "diagnosedIssues": "your layout routes project estimates to a public Gmail, lacking mobile-optimized consultation booking and interactive moulding displays",
     "caseStudySent": "https://beeclue.com/case-studies/tuxedo-frame-gallery?utm_source=beeclue&utm_medium=email&utm_campaign=outreach-art-galleries-four-corners-fine-art-and-framing",
     "history": [
@@ -18380,6 +18764,14 @@
         "resendId": "01a0ea9b-98a6-7c59-8139-98877adc4157",
         "status": "delivered",
         "notes": "Threaded Day 4 follow-up on Tuxedo Frame Gallery case study and free 48-hr custom mockup offer."
+      },
+      {
+        "step": "Final",
+        "sentAt": "2026-10-10T22:48:10.993Z",
+        "subject": "Re: Modernizing the website for Four Corners Fine Art & Framing",
+        "resendId": "01a12800-9b9a-7028-86d0-bd7d398413c0",
+        "status": "delivered",
+        "notes": "Final Breakaway / permission to close file email sent."
       }
     ]
   },
@@ -18393,9 +18785,9 @@
     "location": "Aiken, SC (226 Park Avenue SE)",
     "pricingQuoted": "Custom proposal / Free Mockup",
     "initialContactDate": "2026-09-26T04:03:09.654Z",
-    "lastContactDate": "2026-09-29T00:41:03.148Z",
+    "lastContactDate": "2026-10-10T22:48:13.532Z",
     "status": "delivered",
-    "sequenceStep": "Day 4 - Follow-up",
+    "sequenceStep": "Final Breakaway",
     "diagnosedIssues": "your site relies on a basic template with Gmail intake, missing an interactive moulding and mat selector and online consultation booking funnel",
     "caseStudySent": "https://beeclue.com/case-studies/tuxedo-frame-gallery?utm_source=beeclue&utm_medium=email&utm_campaign=outreach-art-galleries-aiken-art-and-custom-framing",
     "history": [
@@ -18414,6 +18806,14 @@
         "resendId": "01a0ea9b-a161-71ce-ba7c-993cb4007834",
         "status": "delivered",
         "notes": "Threaded Day 4 follow-up on Tuxedo Frame Gallery case study and free 48-hr custom mockup offer."
+      },
+      {
+        "step": "Final",
+        "sentAt": "2026-10-10T22:48:13.532Z",
+        "subject": "Re: Modernizing the website for Aiken Art & Custom Framing",
+        "resendId": "01a12800-a578-77b1-937c-1b3fae389245",
+        "status": "delivered",
+        "notes": "Final Breakaway / permission to close file email sent."
       }
     ]
   },
@@ -18427,9 +18827,9 @@
     "location": "Clemmons, NC (4152 Clemmons Road)",
     "pricingQuoted": "Custom proposal / Free Mockup",
     "initialContactDate": "2026-09-26T04:03:11.835Z",
-    "lastContactDate": "2026-09-29T00:41:05.335Z",
+    "lastContactDate": "2026-10-10T22:48:16.084Z",
     "status": "delivered",
-    "sequenceStep": "Day 4 - Follow-up",
+    "sequenceStep": "Final Breakaway",
     "diagnosedIssues": "your website is currently running on a fixed-width legacy layout with no mobile responsive styling or online consultation scheduling",
     "caseStudySent": "https://beeclue.com/case-studies/tuxedo-frame-gallery?utm_source=beeclue&utm_medium=email&utm_campaign=outreach-art-galleries-tanglewood-art-and-frame-gallery",
     "history": [
@@ -18448,6 +18848,14 @@
         "resendId": "01a0ea9b-a9df-723a-95ab-47c8dc4a6dbc",
         "status": "delivered",
         "notes": "Threaded Day 4 follow-up on Tuxedo Frame Gallery case study and free 48-hr custom mockup offer."
+      },
+      {
+        "step": "Final",
+        "sentAt": "2026-10-10T22:48:16.084Z",
+        "subject": "Re: Modernizing the website for Tanglewood Art and Frame Gallery",
+        "resendId": "01a12800-af53-7641-a2a4-61523f8307e9",
+        "status": "delivered",
+        "notes": "Final Breakaway / permission to close file email sent."
       }
     ]
   },
@@ -18461,9 +18869,9 @@
     "location": "Charlotte, NC (3300 Monroe Rd, Suite C)",
     "pricingQuoted": "Custom proposal / Free Mockup",
     "initialContactDate": "2026-09-26T04:03:14.051Z",
-    "lastContactDate": "2026-09-29T00:41:07.515Z",
+    "lastContactDate": "2026-10-10T22:48:18.590Z",
     "status": "delivered",
-    "sequenceStep": "Day 4 - Follow-up",
+    "sequenceStep": "Final Breakaway",
     "diagnosedIssues": "your website is built on a legacy desktop-only architecture with no mobile responsive styling or online appointment booking calendar",
     "caseStudySent": "https://beeclue.com/case-studies/tuxedo-frame-gallery?utm_source=beeclue&utm_medium=email&utm_campaign=outreach-art-galleries-fazioart-custom-framing",
     "history": [
@@ -18482,6 +18890,14 @@
         "resendId": "01a0ea9b-b274-742f-8f26-5bc74f07c716",
         "status": "delivered",
         "notes": "Threaded Day 4 follow-up on Tuxedo Frame Gallery case study and free 48-hr custom mockup offer."
+      },
+      {
+        "step": "Final",
+        "sentAt": "2026-10-10T22:48:18.590Z",
+        "subject": "Re: Modernizing the website for FazioArt Custom Framing",
+        "resendId": "01a12800-b94a-7133-b038-a950aa57854c",
+        "status": "delivered",
+        "notes": "Final Breakaway / permission to close file email sent."
       }
     ]
   },
@@ -18495,9 +18911,9 @@
     "location": "Durham, NC (2606 Hillsborough Road)",
     "pricingQuoted": "Custom proposal / Free Mockup",
     "initialContactDate": "2026-09-26T04:03:16.236Z",
-    "lastContactDate": "2026-09-29T00:41:09.697Z",
+    "lastContactDate": "2026-10-10T22:48:21.101Z",
     "status": "delivered",
-    "sequenceStep": "Day 4 - Follow-up",
+    "sequenceStep": "Final Breakaway",
     "diagnosedIssues": "your website uses a basic static layout conducting archival framing intake via public Gmail, missing an interactive quote estimator or mobile consultation scheduler",
     "caseStudySent": "https://beeclue.com/case-studies/tuxedo-frame-gallery?utm_source=beeclue&utm_medium=email&utm_campaign=outreach-art-galleries-fisher-graphic-arts-inc",
     "history": [
@@ -18516,6 +18932,14 @@
         "resendId": "01a0ea9b-baf7-797e-9e96-cb2ee42ec940",
         "status": "delivered",
         "notes": "Threaded Day 4 follow-up on Tuxedo Frame Gallery case study and free 48-hr custom mockup offer."
+      },
+      {
+        "step": "Final",
+        "sentAt": "2026-10-10T22:48:21.101Z",
+        "subject": "Re: Modernizing the website for Fisher Graphic Arts, Inc.",
+        "resendId": "01a12800-c314-733a-990a-c47355e2c750",
+        "status": "delivered",
+        "notes": "Final Breakaway / permission to close file email sent."
       }
     ]
   },
@@ -18529,9 +18953,9 @@
     "location": "Wilmington, NC (894 5b South Kerr Avenue)",
     "pricingQuoted": "Custom proposal / Free Mockup",
     "initialContactDate": "2026-09-26T04:03:18.495Z",
-    "lastContactDate": "2026-09-29T00:41:11.911Z",
+    "lastContactDate": "2026-10-10T22:48:23.671Z",
     "status": "delivered",
-    "sequenceStep": "Day 4 - Follow-up",
+    "sequenceStep": "Final Breakaway",
     "diagnosedIssues": "your shop routes orders and consultations to a personal mailbox, lacking an online booking calendar or digital moulding breakdown",
     "caseStudySent": "https://beeclue.com/case-studies/tuxedo-frame-gallery?utm_source=beeclue&utm_medium=email&utm_campaign=outreach-art-galleries-townhouse-art-and-framing",
     "history": [
@@ -18550,6 +18974,14 @@
         "resendId": "01a0ea9b-c381-7f16-8d85-07ff98bbe7f9",
         "status": "delivered",
         "notes": "Threaded Day 4 follow-up on Tuxedo Frame Gallery case study and free 48-hr custom mockup offer."
+      },
+      {
+        "step": "Final",
+        "sentAt": "2026-10-10T22:48:23.671Z",
+        "subject": "Re: Modernizing the website for Townhouse Art & Framing",
+        "resendId": "01a12800-cd1f-7784-974e-e4831bf30ef9",
+        "status": "delivered",
+        "notes": "Final Breakaway / permission to close file email sent."
       }
     ]
   },
@@ -18563,9 +18995,9 @@
     "location": "Hendersonville, NC (814 Kanuga Rd)",
     "pricingQuoted": "Custom proposal / Free Mockup",
     "initialContactDate": "2026-09-26T04:03:20.678Z",
-    "lastContactDate": "2026-09-29T00:41:14.178Z",
+    "lastContactDate": "2026-10-10T22:48:26.227Z",
     "status": "delivered",
-    "sequenceStep": "Day 4 - Follow-up",
+    "sequenceStep": "Final Breakaway",
     "diagnosedIssues": "your website relies on a basic template routing quotes to Gmail, missing a modern consultation calendar and digital frame selector",
     "caseStudySent": "https://beeclue.com/case-studies/tuxedo-frame-gallery?utm_source=beeclue&utm_medium=email&utm_campaign=outreach-art-galleries-the-starving-artist",
     "history": [
@@ -18584,6 +19016,14 @@
         "resendId": "01a0ea9b-cc65-7628-bd28-a97c77fdbb5d",
         "status": "delivered",
         "notes": "Threaded Day 4 follow-up on Tuxedo Frame Gallery case study and free 48-hr custom mockup offer."
+      },
+      {
+        "step": "Final",
+        "sentAt": "2026-10-10T22:48:26.227Z",
+        "subject": "Re: Modernizing the website for The Starving Artist",
+        "resendId": "01a12800-d708-7722-8074-baa4237b195e",
+        "status": "delivered",
+        "notes": "Final Breakaway / permission to close file email sent."
       }
     ]
   },
@@ -18597,9 +19037,9 @@
     "location": "Nashville, TN (4811 Trousdale Drive, Suite I)",
     "pricingQuoted": "Custom proposal / Free Mockup",
     "initialContactDate": "2026-09-26T04:03:22.867Z",
-    "lastContactDate": "2026-09-29T00:41:16.382Z",
+    "lastContactDate": "2026-10-10T22:48:28.735Z",
     "status": "delivered",
-    "sequenceStep": "Day 4 - Follow-up",
+    "sequenceStep": "Final Breakaway",
     "diagnosedIssues": "your site is a single-page placeholder routing framing orders to Gmail, lacking an appointment scheduler and digital portfolio filter for concert posters, fine art, and shadowboxes",
     "caseStudySent": "https://beeclue.com/case-studies/tuxedo-frame-gallery?utm_source=beeclue&utm_medium=email&utm_campaign=outreach-art-galleries-s-and-s-custom-framing",
     "history": [
@@ -18618,6 +19058,14 @@
         "resendId": "01a0ea9b-d50d-74d1-b311-9e040bb532eb",
         "status": "delivered",
         "notes": "Threaded Day 4 follow-up on Tuxedo Frame Gallery case study and free 48-hr custom mockup offer."
+      },
+      {
+        "step": "Final",
+        "sentAt": "2026-10-10T22:48:28.735Z",
+        "subject": "Re: Modernizing the website for S & S Custom Framing",
+        "resendId": "01a12800-e0e2-7941-a34d-f299834fdb8c",
+        "status": "delivered",
+        "notes": "Final Breakaway / permission to close file email sent."
       }
     ]
   },
@@ -18631,9 +19079,9 @@
     "location": "Chattanooga, TN (3250 Brainerd Rd)",
     "pricingQuoted": "Custom proposal / Free Mockup",
     "initialContactDate": "2026-09-26T04:03:25.042Z",
-    "lastContactDate": "2026-09-29T00:41:18.614Z",
+    "lastContactDate": "2026-10-10T22:48:31.291Z",
     "status": "delivered",
-    "sequenceStep": "Day 4 - Follow-up",
+    "sequenceStep": "Final Breakaway",
     "diagnosedIssues": "your website handles framing estimates through public Gmail, without a mobile consultation booking tool or interactive moulding visualizer",
     "caseStudySent": "https://beeclue.com/case-studies/tuxedo-frame-gallery?utm_source=beeclue&utm_medium=email&utm_campaign=outreach-art-galleries-gannon-art-center",
     "history": [
@@ -18652,6 +19100,14 @@
         "resendId": "01a0ea9b-ddc1-77ac-94a5-80cb70fed0ee",
         "status": "delivered",
         "notes": "Threaded Day 4 follow-up on Tuxedo Frame Gallery case study and free 48-hr custom mockup offer."
+      },
+      {
+        "step": "Final",
+        "sentAt": "2026-10-10T22:48:31.291Z",
+        "subject": "Re: Modernizing the website for Gannon Art Center",
+        "resendId": "01a12800-eaba-754d-9c75-d49bff2e4625",
+        "status": "delivered",
+        "notes": "Final Breakaway / permission to close file email sent."
       }
     ]
   },
@@ -18665,9 +19121,9 @@
     "location": "Homewood, AL (1003 Oxmoor Road)",
     "pricingQuoted": "Custom proposal / Free Mockup",
     "initialContactDate": "2026-09-26T04:03:27.244Z",
-    "lastContactDate": "2026-09-29T00:41:20.825Z",
+    "lastContactDate": "2026-10-10T22:48:33.788Z",
     "status": "delivered",
-    "sequenceStep": "Day 4 - Follow-up",
+    "sequenceStep": "Final Breakaway",
     "diagnosedIssues": "your website is built on a legacy static architecture with poor mobile readability, no online appointment scheduling, and no interactive frame catalogue",
     "caseStudySent": "https://beeclue.com/case-studies/tuxedo-frame-gallery?utm_source=beeclue&utm_medium=email&utm_campaign=outreach-art-galleries-edgewood-frame-shop",
     "history": [
@@ -18686,6 +19142,14 @@
         "resendId": "01a0ea9b-e658-7ac1-b848-dd6e7a59edaa",
         "status": "delivered",
         "notes": "Threaded Day 4 follow-up on Tuxedo Frame Gallery case study and free 48-hr custom mockup offer."
+      },
+      {
+        "step": "Final",
+        "sentAt": "2026-10-10T22:48:33.788Z",
+        "subject": "Re: Modernizing the website for Edgewood Frame Shop",
+        "resendId": "01a12800-f4ab-76da-89b5-c78901691a44",
+        "status": "delivered",
+        "notes": "Final Breakaway / permission to close file email sent."
       }
     ]
   },
@@ -18699,9 +19163,9 @@
     "location": "Alexandria, VA (110 S Fayette St)",
     "pricingQuoted": "Custom proposal / Free Mockup",
     "initialContactDate": "2026-09-26T04:03:29.491Z",
-    "lastContactDate": "2026-09-29T00:41:23.090Z",
+    "lastContactDate": "2026-10-10T22:48:36.271Z",
     "status": "delivered",
-    "sequenceStep": "Day 4 - Follow-up",
+    "sequenceStep": "Final Breakaway",
     "diagnosedIssues": "your website is currently running on a fixed-width early 2000s layout with broken mobile viewports, unformatted text, and no online booking",
     "caseStudySent": "https://beeclue.com/case-studies/tuxedo-frame-gallery?utm_source=beeclue&utm_medium=email&utm_campaign=outreach-art-galleries-alexandria-picture-framing-company",
     "history": [
@@ -18720,6 +19184,14 @@
         "resendId": "01a0ea9b-ef40-70aa-9c16-02de4f547638",
         "status": "delivered",
         "notes": "Threaded Day 4 follow-up on Tuxedo Frame Gallery case study and free 48-hr custom mockup offer."
+      },
+      {
+        "step": "Final",
+        "sentAt": "2026-10-10T22:48:36.271Z",
+        "subject": "Re: Modernizing the website for Alexandria Picture Framing Company",
+        "resendId": "01a12800-fe5d-7246-8ca1-72462e490312",
+        "status": "delivered",
+        "notes": "Final Breakaway / permission to close file email sent."
       }
     ]
   },
@@ -18733,9 +19205,9 @@
     "location": "Richmond, VA (3412 Semmes Ave)",
     "pricingQuoted": "Custom proposal / Free Mockup",
     "initialContactDate": "2026-09-26T04:03:31.666Z",
-    "lastContactDate": "2026-09-29T00:41:25.298Z",
+    "lastContactDate": "2026-10-10T22:48:38.859Z",
     "status": "delivered",
-    "sequenceStep": "Day 4 - Follow-up",
+    "sequenceStep": "Final Breakaway",
     "diagnosedIssues": "your site routes custom woodworking and conservation framing to Gmail, lacking an interactive hardwood showcase and online consultation scheduler",
     "caseStudySent": "https://beeclue.com/case-studies/tuxedo-frame-gallery?utm_source=beeclue&utm_medium=email&utm_campaign=outreach-art-galleries-fralin-art-and-frame",
     "history": [
@@ -18754,6 +19226,14 @@
         "resendId": "01a0ea9b-f7de-7669-9600-0d6f2647cf4e",
         "status": "delivered",
         "notes": "Threaded Day 4 follow-up on Tuxedo Frame Gallery case study and free 48-hr custom mockup offer."
+      },
+      {
+        "step": "Final",
+        "sentAt": "2026-10-10T22:48:38.859Z",
+        "subject": "Re: Modernizing the website for Fralin Art & Frame",
+        "resendId": "01a12801-0871-7653-93b7-9f680fbb021b",
+        "status": "delivered",
+        "notes": "Final Breakaway / permission to close file email sent."
       }
     ]
   },
@@ -19599,9 +20079,9 @@
     "location": "Cambridge, ON (Unit B, 553 King St. E., Cambridge, ON N3H 3N4)",
     "pricingQuoted": "$19/month",
     "initialContactDate": "2026-09-29T13:32:22.541Z",
-    "lastContactDate": "2026-10-04T00:18:30.239Z",
+    "lastContactDate": "2026-10-10T22:48:41.404Z",
     "status": "delivered",
-    "sequenceStep": "Day 4 - Follow-up",
+    "sequenceStep": "Final Breakaway",
     "diagnosedIssues": "No website (Canadian Law List & YellowPages listing only, Bellnet ISP email)",
     "caseStudySent": "https://beeclue.com/case-studies/tara-lattanzio?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-patrick-a-brohman-barrister-solicitor",
     "history": [
@@ -19620,6 +20100,14 @@
         "resendId": "01a10446-c88d-7b46-ae83-bf2775affad1",
         "status": "delivered",
         "notes": "Day 4-5 follow-up sent quoting $19/mo Core plan, Tara Lattanzio proof, and free 48-hr mockup offer."
+      },
+      {
+        "step": "Final",
+        "sentAt": "2026-10-10T22:48:41.404Z",
+        "subject": "Re: A modern web presence for Patrick A. Brohman, Barrister & Solicitor",
+        "resendId": "01a12801-1264-7bfa-84a1-82f1af577a79",
+        "status": "delivered",
+        "notes": "Final Breakaway / permission to close file email sent."
       }
     ]
   },
@@ -19633,9 +20121,9 @@
     "location": "Elmira, ON (9 Church Street West, Elmira, ON N3B 1M2)",
     "pricingQuoted": "$19/month",
     "initialContactDate": "2026-09-29T13:32:24.988Z",
-    "lastContactDate": "2026-10-04T00:18:32.251Z",
+    "lastContactDate": "2026-10-10T22:48:43.898Z",
     "status": "delivered",
-    "sequenceStep": "Day 4 - Follow-up",
+    "sequenceStep": "Final Breakaway",
     "diagnosedIssues": "No website (Downtown Elmira BIA directory listing only, Sentex ISP email)",
     "caseStudySent": "https://beeclue.com/case-studies/tara-lattanzio?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-rudavsky-law-office",
     "history": [
@@ -19654,6 +20142,14 @@
         "resendId": "01a10446-d077-7864-90ba-81b65eac7f9b",
         "status": "delivered",
         "notes": "Day 4-5 follow-up sent quoting $19/mo Core plan, Tara Lattanzio proof, and free 48-hr mockup offer."
+      },
+      {
+        "step": "Final",
+        "sentAt": "2026-10-10T22:48:43.898Z",
+        "subject": "Re: A modern web presence for Rudavsky Law Office",
+        "resendId": "01a12801-1c25-7d47-9e02-bffa90f98e1a",
+        "status": "delivered",
+        "notes": "Final Breakaway / permission to close file email sent."
       }
     ]
   },
@@ -19667,9 +20163,9 @@
     "location": "New Hamburg, ON (92 Nithview Dr., New Hamburg, ON N3A 2H3)",
     "pricingQuoted": "$19/month",
     "initialContactDate": "2026-09-29T13:32:27.310Z",
-    "lastContactDate": "2026-10-04T00:18:34.324Z",
+    "lastContactDate": "2026-10-10T22:48:46.401Z",
     "status": "delivered",
-    "sequenceStep": "Day 4 - Follow-up",
+    "sequenceStep": "Final Breakaway",
     "diagnosedIssues": "No website (Canadian Law List listing only, Golden.net ISP email)",
     "caseStudySent": "https://beeclue.com/case-studies/tara-lattanzio?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-randell-k-thomson-barrister-solicitor",
     "history": [
@@ -19688,6 +20184,14 @@
         "resendId": "01a10446-d885-7348-b576-071267d1ca86",
         "status": "delivered",
         "notes": "Day 4-5 follow-up sent quoting $19/mo Core plan, Tara Lattanzio proof, and free 48-hr mockup offer."
+      },
+      {
+        "step": "Final",
+        "sentAt": "2026-10-10T22:48:46.401Z",
+        "subject": "Re: A modern web presence for Randell K. Thomson, Barrister & Solicitor",
+        "resendId": "01a12801-25ec-7746-a873-5d5828281613",
+        "status": "delivered",
+        "notes": "Final Breakaway / permission to close file email sent."
       }
     ]
   },
@@ -19701,9 +20205,9 @@
     "location": "Kitchener, ON (293 Frederick St., Kitchener, ON N2H 2N6)",
     "pricingQuoted": "$19/month",
     "initialContactDate": "2026-09-29T13:32:29.517Z",
-    "lastContactDate": "2026-10-04T00:18:36.337Z",
+    "lastContactDate": "2026-10-10T22:48:48.899Z",
     "status": "delivered",
-    "sequenceStep": "Day 4 - Follow-up",
+    "sequenceStep": "Final Breakaway",
     "diagnosedIssues": "No website (Canadian Law List & Legal Aid listing only, Bellnet ISP email)",
     "caseStudySent": "https://beeclue.com/case-studies/tara-lattanzio?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-jean-ledrew-metcalfe-barrister-solicitor",
     "history": [
@@ -19722,6 +20226,14 @@
         "resendId": "01a10446-e059-730d-9ea2-ad7321757c7a",
         "status": "delivered",
         "notes": "Day 4-5 follow-up sent quoting $19/mo Core plan, Tara Lattanzio proof, and free 48-hr mockup offer."
+      },
+      {
+        "step": "Final",
+        "sentAt": "2026-10-10T22:48:48.899Z",
+        "subject": "Re: A modern web presence for Jean LeDrew Metcalfe, Barrister & Solicitor",
+        "resendId": "01a12801-2faa-7248-9267-7ade2dd3363f",
+        "status": "delivered",
+        "notes": "Final Breakaway / permission to close file email sent."
       }
     ]
   },
@@ -19735,9 +20247,9 @@
     "location": "Kitchener, ON (604 Charles St. E., Kitchener, ON N2G 2R5)",
     "pricingQuoted": "$19/month",
     "initialContactDate": "2026-09-29T13:32:31.719Z",
-    "lastContactDate": "2026-10-04T00:18:38.396Z",
+    "lastContactDate": "2026-10-10T22:48:51.494Z",
     "status": "delivered",
-    "sequenceStep": "Day 4 - Follow-up",
+    "sequenceStep": "Final Breakaway",
     "diagnosedIssues": "No website (Canadian Law List listing only, Rogers ISP email)",
     "caseStudySent": "https://beeclue.com/case-studies/tara-lattanzio?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-colleen-jane-winn-barrister-solicitor",
     "history": [
@@ -19756,6 +20268,14 @@
         "resendId": "01a10446-e835-75a6-9cb2-85de4cd41439",
         "status": "delivered",
         "notes": "Day 4-5 follow-up sent quoting $19/mo Core plan, Tara Lattanzio proof, and free 48-hr mockup offer."
+      },
+      {
+        "step": "Final",
+        "sentAt": "2026-10-10T22:48:51.494Z",
+        "subject": "Re: A modern web presence for Colleen Jane Winn, Barrister & Solicitor",
+        "resendId": "01a12801-39d2-72a6-a019-ab1a962e493e",
+        "status": "delivered",
+        "notes": "Final Breakaway / permission to close file email sent."
       }
     ]
   },
@@ -19769,9 +20289,9 @@
     "location": "Kitchener, ON (104 Scott Street, Kitchener, ON N2H 2R5)",
     "pricingQuoted": "$19/month",
     "initialContactDate": "2026-09-29T13:32:33.952Z",
-    "lastContactDate": "2026-10-04T00:18:40.387Z",
+    "lastContactDate": "2026-10-10T22:48:54.084Z",
     "status": "delivered",
-    "sequenceStep": "Day 4 - Follow-up",
+    "sequenceStep": "Final Breakaway",
     "diagnosedIssues": "No website (Canadian Law List & Legal Aid listing only, Gmail/Rogers)",
     "caseStudySent": "https://beeclue.com/case-studies/tara-lattanzio?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-raymond-j-wrubel-barrister-solicitor",
     "history": [
@@ -19790,6 +20310,14 @@
         "resendId": "01a10446-f035-7304-9870-edf8e6b1bf33",
         "status": "delivered",
         "notes": "Day 4-5 follow-up sent quoting $19/mo Core plan, Tara Lattanzio proof, and free 48-hr mockup offer."
+      },
+      {
+        "step": "Final",
+        "sentAt": "2026-10-10T22:48:54.084Z",
+        "subject": "Re: A modern web presence for Raymond J. Wrubel, Barrister & Solicitor",
+        "resendId": "01a12801-43f0-7dc3-a8f2-912384a8a080",
+        "status": "delivered",
+        "notes": "Final Breakaway / permission to close file email sent."
       }
     ]
   },
@@ -19803,9 +20331,9 @@
     "location": "Kitchener, ON (130 Lancaster Street East, Kitchener, ON N2H 1N1)",
     "pricingQuoted": "$19/month",
     "initialContactDate": "2026-09-29T13:32:36.147Z",
-    "lastContactDate": "2026-10-04T00:18:42.397Z",
+    "lastContactDate": "2026-10-10T22:48:56.683Z",
     "status": "delivered",
-    "sequenceStep": "Day 4 - Follow-up",
+    "sequenceStep": "Final Breakaway",
     "diagnosedIssues": "No website (Canadian Law List & CLA listing only, Rogers ISP email)",
     "caseStudySent": "https://beeclue.com/case-studies/tara-lattanzio?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-j-brennan-smart-barrister-solicitor",
     "history": [
@@ -19824,6 +20352,14 @@
         "resendId": "01a10446-f81a-7021-93f1-cd1208170e8a",
         "status": "delivered",
         "notes": "Day 4-5 follow-up sent quoting $19/mo Core plan, Tara Lattanzio proof, and free 48-hr mockup offer."
+      },
+      {
+        "step": "Final",
+        "sentAt": "2026-10-10T22:48:56.683Z",
+        "subject": "Re: A modern web presence for J. Brennan Smart, Barrister & Solicitor",
+        "resendId": "01a12801-4e19-768f-85c9-844068c0a484",
+        "status": "delivered",
+        "notes": "Final Breakaway / permission to close file email sent."
       }
     ]
   },
@@ -19837,9 +20373,9 @@
     "location": "Kitchener, ON (127 Duke St. E., Kitchener, ON N2H 1A6)",
     "pricingQuoted": "$19/month",
     "initialContactDate": "2026-09-29T13:32:38.422Z",
-    "lastContactDate": "2026-10-04T00:18:44.414Z",
+    "lastContactDate": "2026-10-10T22:48:59.230Z",
     "status": "delivered",
-    "sequenceStep": "Day 4 - Follow-up",
+    "sequenceStep": "Final Breakaway",
     "diagnosedIssues": "No website (former domain expired/deleted, Bellnet ISP email, Canadian Law List)",
     "caseStudySent": "https://beeclue.com/case-studies/tara-lattanzio?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-bryan-j-tham-law-office",
     "history": [
@@ -19858,6 +20394,14 @@
         "resendId": "01a10446-ffdd-79fe-b0d7-b6aa813bdf3f",
         "status": "delivered",
         "notes": "Day 4-5 follow-up sent quoting $19/mo Core plan, Tara Lattanzio proof, and free 48-hr mockup offer."
+      },
+      {
+        "step": "Final",
+        "sentAt": "2026-10-10T22:48:59.230Z",
+        "subject": "Re: A modern web presence for Bryan J. Tham Law Office",
+        "resendId": "01a12801-5801-7292-946e-ddb00d904603",
+        "status": "delivered",
+        "notes": "Final Breakaway / permission to close file email sent."
       }
     ]
   },
@@ -19871,9 +20415,9 @@
     "location": "Kitchener, ON (234 Frederick St., Kitchener, ON N2H 2M8)",
     "pricingQuoted": "$19/month",
     "initialContactDate": "2026-09-29T13:32:40.604Z",
-    "lastContactDate": "2026-10-04T00:18:46.407Z",
+    "lastContactDate": "2026-10-10T22:49:01.717Z",
     "status": "delivered",
-    "sequenceStep": "Day 4 - Follow-up",
+    "sequenceStep": "Final Breakaway",
     "diagnosedIssues": "No website (Canadian Law List listing only, Rogers ISP email)",
     "caseStudySent": "https://beeclue.com/case-studies/tara-lattanzio?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-richard-marshall-van-buskirk-barrister-solicitor",
     "history": [
@@ -19892,6 +20436,14 @@
         "resendId": "01a10447-07c8-713b-8f18-16ca6c15cf37",
         "status": "delivered",
         "notes": "Day 4-5 follow-up sent quoting $19/mo Core plan, Tara Lattanzio proof, and free 48-hr mockup offer."
+      },
+      {
+        "step": "Final",
+        "sentAt": "2026-10-10T22:49:01.717Z",
+        "subject": "Re: A modern web presence for Richard Marshall Van Buskirk, Barrister & Solicitor",
+        "resendId": "01a12801-61c6-7b58-9ab6-e0afc296156d",
+        "status": "delivered",
+        "notes": "Final Breakaway / permission to close file email sent."
       }
     ]
   },
@@ -19905,9 +20457,9 @@
     "location": "Fergus, ON (710 Tower Street South, Fergus, ON N1M 2R3)",
     "pricingQuoted": "$19/month",
     "initialContactDate": "2026-09-29T13:32:42.805Z",
-    "lastContactDate": "2026-10-04T00:18:48.465Z",
+    "lastContactDate": "2026-10-10T22:49:04.222Z",
     "status": "delivered",
-    "sequenceStep": "Day 4 - Follow-up",
+    "sequenceStep": "Final Breakaway",
     "diagnosedIssues": "No website (Wellington County Directory listing only, Gmail)",
     "caseStudySent": "https://beeclue.com/case-studies/tara-lattanzio?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-shields-law-office",
     "history": [
@@ -19926,6 +20478,14 @@
         "resendId": "01a10447-0fc7-7593-9016-ca8bc4007678",
         "status": "delivered",
         "notes": "Day 4-5 follow-up sent quoting $19/mo Core plan, Tara Lattanzio proof, and free 48-hr mockup offer."
+      },
+      {
+        "step": "Final",
+        "sentAt": "2026-10-10T22:49:04.222Z",
+        "subject": "Re: A modern web presence for Shields Law Office",
+        "resendId": "01a12801-6b83-7472-8931-54554153c576",
+        "status": "delivered",
+        "notes": "Final Breakaway / permission to close file email sent."
       }
     ]
   },
@@ -19939,9 +20499,9 @@
     "location": "Fergus, ON (169 St. Andrew Street West, Fergus, ON N1M 1N6)",
     "pricingQuoted": "$19/month",
     "initialContactDate": "2026-09-29T13:32:44.989Z",
-    "lastContactDate": "2026-10-04T00:18:50.456Z",
+    "lastContactDate": "2026-10-10T22:49:06.869Z",
     "status": "delivered",
-    "sequenceStep": "Day 4 - Follow-up",
+    "sequenceStep": "Final Breakaway",
     "diagnosedIssues": "No website (dead domain leighfishleighlaw.com, Bellnet ISP email)",
     "caseStudySent": "https://beeclue.com/case-studies/tara-lattanzio?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-leigh-g-fishleigh-law-office",
     "history": [
@@ -19960,6 +20520,14 @@
         "resendId": "01a10447-1793-7a74-a900-0529c78a1c77",
         "status": "delivered",
         "notes": "Day 4-5 follow-up sent quoting $19/mo Core plan, Tara Lattanzio proof, and free 48-hr mockup offer."
+      },
+      {
+        "step": "Final",
+        "sentAt": "2026-10-10T22:49:06.869Z",
+        "subject": "Re: A modern web presence for Leigh G. Fishleigh Law Office",
+        "resendId": "01a12801-7551-7d05-8348-e7e90807f920",
+        "status": "delivered",
+        "notes": "Final Breakaway / permission to close file email sent."
       }
     ]
   },
@@ -19973,9 +20541,9 @@
     "location": "Erin, ON (194 Main Street, P.O. Box 328, Erin, ON N0B 1T0)",
     "pricingQuoted": "$19/month",
     "initialContactDate": "2026-09-29T13:32:47.188Z",
-    "lastContactDate": "2026-10-04T00:18:52.482Z",
+    "lastContactDate": "2026-10-10T22:49:09.349Z",
     "status": "delivered",
-    "sequenceStep": "Day 4 - Follow-up",
+    "sequenceStep": "Final Breakaway",
     "diagnosedIssues": "No website (Wellington County Directory listing only, Bell on.aibn.com email)",
     "caseStudySent": "https://beeclue.com/case-studies/tara-lattanzio?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-ken-j-torrens-law-office",
     "history": [
@@ -19994,6 +20562,14 @@
         "resendId": "01a10447-1f58-76a9-8f2f-569a66938139",
         "status": "delivered",
         "notes": "Day 4-5 follow-up sent quoting $19/mo Core plan, Tara Lattanzio proof, and free 48-hr mockup offer."
+      },
+      {
+        "step": "Final",
+        "sentAt": "2026-10-10T22:49:09.349Z",
+        "subject": "Re: A modern web presence for Ken J. Torrens Law Office",
+        "resendId": "01a12801-7f97-740e-b817-19e8f2212f6d",
+        "status": "delivered",
+        "notes": "Final Breakaway / permission to close file email sent."
       }
     ]
   },
@@ -20007,9 +20583,9 @@
     "location": "Guelph, ON (45 Marilyn Dr., Guelph, ON N1H 1G9)",
     "pricingQuoted": "$19/month",
     "initialContactDate": "2026-09-29T13:32:49.412Z",
-    "lastContactDate": "2026-10-04T00:18:54.489Z",
+    "lastContactDate": "2026-10-10T22:49:11.863Z",
     "status": "delivered",
-    "sequenceStep": "Day 4 - Follow-up",
+    "sequenceStep": "Final Breakaway",
     "diagnosedIssues": "No website (Canadian Law List listing only, Gmail)",
     "caseStudySent": "https://beeclue.com/case-studies/tara-lattanzio?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-cr-bond-law-office",
     "history": [
@@ -20028,6 +20604,14 @@
         "resendId": "01a10447-275b-7e02-824d-4e7333413391",
         "status": "delivered",
         "notes": "Day 4-5 follow-up sent quoting $19/mo Core plan, Tara Lattanzio proof, and free 48-hr mockup offer."
+      },
+      {
+        "step": "Final",
+        "sentAt": "2026-10-10T22:49:11.863Z",
+        "subject": "Re: A modern web presence for C.R. Bond Law Office",
+        "resendId": "01a12801-8965-7bd0-85e2-20d554039483",
+        "status": "delivered",
+        "notes": "Final Breakaway / permission to close file email sent."
       }
     ]
   },
@@ -20041,9 +20625,9 @@
     "location": "Guelph, ON (150 Norfolk St., Guelph, ON N1H 4J9)",
     "pricingQuoted": "$19/month",
     "initialContactDate": "2026-09-29T13:32:51.608Z",
-    "lastContactDate": "2026-10-04T00:18:56.482Z",
+    "lastContactDate": "2026-10-10T22:49:14.440Z",
     "status": "delivered",
-    "sequenceStep": "Day 4 - Follow-up",
+    "sequenceStep": "Final Breakaway",
     "diagnosedIssues": "No website (Canadian Law List & YellowPages listing only, Bellnet ISP email)",
     "caseStudySent": "https://beeclue.com/case-studies/tara-lattanzio?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-w-gerald-punnett-barrister-solicitor",
     "history": [
@@ -20062,6 +20646,14 @@
         "resendId": "01a10447-2f16-74e8-95c2-62a9288658c5",
         "status": "delivered",
         "notes": "Day 4-5 follow-up sent quoting $19/mo Core plan, Tara Lattanzio proof, and free 48-hr mockup offer."
+      },
+      {
+        "step": "Final",
+        "sentAt": "2026-10-10T22:49:14.440Z",
+        "subject": "Re: A modern web presence for W. Gerald Punnett, Barrister & Solicitor",
+        "resendId": "01a12801-936f-7df6-ac54-70d3fe72ce89",
+        "status": "delivered",
+        "notes": "Final Breakaway / permission to close file email sent."
       }
     ]
   },
@@ -20075,9 +20667,9 @@
     "location": "Guelph, ON (21 Oxford Street, Guelph, ON N1H 2M4)",
     "pricingQuoted": "$19/month",
     "initialContactDate": "2026-09-29T13:32:53.791Z",
-    "lastContactDate": "2026-10-04T00:18:58.490Z",
+    "lastContactDate": "2026-10-10T22:49:16.947Z",
     "status": "delivered",
-    "sequenceStep": "Day 4 - Follow-up",
+    "sequenceStep": "Final Breakaway",
     "diagnosedIssues": "No website (Canadian Law List & CLA listing only, Sympatico ISP email)",
     "caseStudySent": "https://beeclue.com/case-studies/tara-lattanzio?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-krys-rutkowski-barrister-solicitor",
     "history": [
@@ -20096,6 +20688,14 @@
         "resendId": "01a10447-36f0-7c74-9e50-42afef3559cd",
         "status": "delivered",
         "notes": "Day 4-5 follow-up sent quoting $19/mo Core plan, Tara Lattanzio proof, and free 48-hr mockup offer."
+      },
+      {
+        "step": "Final",
+        "sentAt": "2026-10-10T22:49:16.947Z",
+        "subject": "Re: A modern web presence for Krys Rutkowski, Barrister & Solicitor",
+        "resendId": "01a12801-9d3c-716f-b503-2ba5cbcfd843",
+        "status": "delivered",
+        "notes": "Final Breakaway / permission to close file email sent."
       }
     ]
   },
@@ -20109,9 +20709,9 @@
     "location": "Guelph, ON (22 Paisley Street, Guelph, ON N1H 2N6)",
     "pricingQuoted": "$19/month",
     "initialContactDate": "2026-09-29T13:32:56.068Z",
-    "lastContactDate": "2026-10-04T00:19:00.539Z",
+    "lastContactDate": "2026-10-10T22:49:19.444Z",
     "status": "delivered",
-    "sequenceStep": "Day 4 - Follow-up",
+    "sequenceStep": "Final Breakaway",
     "diagnosedIssues": "No website (inactive/dead domain farblaw.com, Execulink ISP email, Canadian Law List)",
     "caseStudySent": "https://beeclue.com/case-studies/tara-lattanzio?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-guy-d-e-farb-barrister-solicitor",
     "history": [
@@ -20130,6 +20730,14 @@
         "resendId": "01a10447-3efd-7678-957d-b01755caf960",
         "status": "delivered",
         "notes": "Day 4-5 follow-up sent quoting $19/mo Core plan, Tara Lattanzio proof, and free 48-hr mockup offer."
+      },
+      {
+        "step": "Final",
+        "sentAt": "2026-10-10T22:49:19.444Z",
+        "subject": "Re: A modern web presence for Guy D. E. Farb, Barrister & Solicitor",
+        "resendId": "01a12801-a6ff-728c-932e-2fb636f0cc0f",
+        "status": "delivered",
+        "notes": "Final Breakaway / permission to close file email sent."
       }
     ]
   },
@@ -20143,9 +20751,9 @@
     "location": "Listowel, ON (280 Inkerman Street West, Listowel, ON N4W 3H2)",
     "pricingQuoted": "$19/month",
     "initialContactDate": "2026-09-29T13:32:58.329Z",
-    "lastContactDate": "2026-10-04T00:19:02.548Z",
+    "lastContactDate": "2026-10-10T22:49:22.146Z",
     "status": "delivered",
-    "sequenceStep": "Day 4 - Follow-up",
+    "sequenceStep": "Final Breakaway",
     "diagnosedIssues": "No website (domain prattlawoffice.ca used exclusively for email without web host)",
     "caseStudySent": "https://beeclue.com/case-studies/tara-lattanzio?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-pratt-pratt",
     "history": [
@@ -20164,6 +20772,14 @@
         "resendId": "01a10447-46b6-7244-b0e4-e822170a5f00",
         "status": "delivered",
         "notes": "Day 4-5 follow-up sent quoting $19/mo Core plan, Tara Lattanzio proof, and free 48-hr mockup offer."
+      },
+      {
+        "step": "Final",
+        "sentAt": "2026-10-10T22:49:22.146Z",
+        "subject": "Re: A modern web presence for Pratt & Pratt",
+        "resendId": "01a12801-b157-71bb-9500-2bbf6c666c6c",
+        "status": "delivered",
+        "notes": "Final Breakaway / permission to close file email sent."
       }
     ]
   },
@@ -20177,9 +20793,9 @@
     "location": "St. Marys, ON (174 Queen Street East, P.O. Box 486, St. Marys, ON N4X 1B3)",
     "pricingQuoted": "$19/month",
     "initialContactDate": "2026-09-29T13:33:00.548Z",
-    "lastContactDate": "2026-10-04T00:19:04.533Z",
+    "lastContactDate": "2026-10-10T22:49:24.638Z",
     "status": "delivered",
-    "sequenceStep": "Day 4 - Follow-up",
+    "sequenceStep": "Final Breakaway",
     "diagnosedIssues": "No website (Perth Law Association & Canadian Law List listing only, Rogers ISP email)",
     "caseStudySent": "https://beeclue.com/case-studies/tara-lattanzio?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-rj-white-law-office",
     "history": [
@@ -20198,6 +20814,14 @@
         "resendId": "01a10447-4e93-72d6-8171-abde355ff8ca",
         "status": "delivered",
         "notes": "Day 4-5 follow-up sent quoting $19/mo Core plan, Tara Lattanzio proof, and free 48-hr mockup offer."
+      },
+      {
+        "step": "Final",
+        "sentAt": "2026-10-10T22:49:24.638Z",
+        "subject": "Re: A modern web presence for R.J. White Law Office",
+        "resendId": "01a12801-bb4c-7a23-bdb2-41983517df36",
+        "status": "delivered",
+        "notes": "Final Breakaway / permission to close file email sent."
       }
     ]
   },
@@ -20244,9 +20868,9 @@
     "location": "Woodstock, ON (45 Light St., Woodstock, ON N4S 6G7)",
     "pricingQuoted": "$19/month",
     "initialContactDate": "2026-09-29T13:33:04.982Z",
-    "lastContactDate": "2026-10-04T00:19:06.525Z",
+    "lastContactDate": "2026-10-10T22:49:27.164Z",
     "status": "delivered",
-    "sequenceStep": "Day 4 - Follow-up",
+    "sequenceStep": "Final Breakaway",
     "diagnosedIssues": "No website (inactive domain johnparklaw.ca with no web host, Rogers ISP email)",
     "caseStudySent": "https://beeclue.com/case-studies/tara-lattanzio?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-john-r-park-law-office",
     "history": [
@@ -20265,6 +20889,14 @@
         "resendId": "01a10447-5652-7768-a183-05578846db7a",
         "status": "delivered",
         "notes": "Day 4-5 follow-up sent quoting $19/mo Core plan, Tara Lattanzio proof, and free 48-hr mockup offer."
+      },
+      {
+        "step": "Final",
+        "sentAt": "2026-10-10T22:49:27.164Z",
+        "subject": "Re: A modern web presence for John R. Park Law Office",
+        "resendId": "01a12801-c50e-7982-8ef9-58c130417225",
+        "status": "delivered",
+        "notes": "Final Breakaway / permission to close file email sent."
       }
     ]
   },
@@ -20278,9 +20910,9 @@
     "location": "Woodstock, ON (45 Light St., Woodstock, ON N4S 6G7)",
     "pricingQuoted": "$19/month",
     "initialContactDate": "2026-09-29T13:33:07.243Z",
-    "lastContactDate": "2026-10-04T00:19:08.518Z",
+    "lastContactDate": "2026-10-10T22:49:29.682Z",
     "status": "delivered",
-    "sequenceStep": "Day 4 - Follow-up",
+    "sequenceStep": "Final Breakaway",
     "diagnosedIssues": "No website (shares office at 45 Light St., inactive domain, Canadian Law List)",
     "caseStudySent": "https://beeclue.com/case-studies/tara-lattanzio?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-michellene-a-beauchamp-law-office",
     "history": [
@@ -20299,6 +20931,14 @@
         "resendId": "01a10447-5e20-7c11-9f81-656de7165dbe",
         "status": "delivered",
         "notes": "Day 4-5 follow-up sent quoting $19/mo Core plan, Tara Lattanzio proof, and free 48-hr mockup offer."
+      },
+      {
+        "step": "Final",
+        "sentAt": "2026-10-10T22:49:29.682Z",
+        "subject": "Re: A modern web presence for Michellene A. Beauchamp Law Office",
+        "resendId": "01a12801-cefe-7445-8462-fa503fd49217",
+        "status": "delivered",
+        "notes": "Final Breakaway / permission to close file email sent."
       }
     ]
   },
@@ -20312,9 +20952,9 @@
     "location": "Woodstock, ON (9-113 Winniett St., Woodstock, ON N4S 5Z8)",
     "pricingQuoted": "$19/month",
     "initialContactDate": "2026-09-29T13:33:09.459Z",
-    "lastContactDate": "2026-10-04T00:19:10.572Z",
+    "lastContactDate": "2026-10-10T22:49:32.318Z",
     "status": "delivered",
-    "sequenceStep": "Day 4 - Follow-up",
+    "sequenceStep": "Final Breakaway",
     "diagnosedIssues": "No website (Canadian Law List listing only, Rogers ISP email)",
     "caseStudySent": "https://beeclue.com/case-studies/tara-lattanzio?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-mark-b-innes-barrister",
     "history": [
@@ -20333,6 +20973,14 @@
         "resendId": "01a10447-6600-7011-ad68-09a0a5f4704a",
         "status": "delivered",
         "notes": "Day 4-5 follow-up sent quoting $19/mo Core plan, Tara Lattanzio proof, and free 48-hr mockup offer."
+      },
+      {
+        "step": "Final",
+        "sentAt": "2026-10-10T22:49:32.318Z",
+        "subject": "Re: A modern web presence for Mark B. Innes, Barrister",
+        "resendId": "01a12801-d949-785a-aec8-ed12894d953e",
+        "status": "delivered",
+        "notes": "Final Breakaway / permission to close file email sent."
       }
     ]
   },
@@ -20346,9 +20994,9 @@
     "location": "Tillsonburg, ON (37 Harvey St., P.O. Box 397, Stn. Main, Tillsonburg, ON N4G 4H8)",
     "pricingQuoted": "$19/month",
     "initialContactDate": "2026-09-29T13:33:11.714Z",
-    "lastContactDate": "2026-10-04T00:19:12.631Z",
+    "lastContactDate": "2026-10-10T22:49:34.875Z",
     "status": "delivered",
-    "sequenceStep": "Day 4 - Follow-up",
+    "sequenceStep": "Final Breakaway",
     "diagnosedIssues": "No website (Canadian Law List listing only, Execulink ISP email)",
     "caseStudySent": "https://beeclue.com/case-studies/tara-lattanzio?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-dennis-odorjan-law-firm",
     "history": [
@@ -20367,6 +21015,14 @@
         "resendId": "01a10447-6e32-7e76-ade3-183e147213f9",
         "status": "delivered",
         "notes": "Day 4-5 follow-up sent quoting $19/mo Core plan, Tara Lattanzio proof, and free 48-hr mockup offer."
+      },
+      {
+        "step": "Final",
+        "sentAt": "2026-10-10T22:49:34.875Z",
+        "subject": "Re: A modern web presence for Dennis Odorjan Law Firm",
+        "resendId": "01a12801-e346-78ac-a438-feb063755b09",
+        "status": "delivered",
+        "notes": "Final Breakaway / permission to close file email sent."
       }
     ]
   },
@@ -20380,9 +21036,9 @@
     "location": "Brantford, ON (119 Brant Avenue, P.O. Box 691, Brantford, ON N3T 3H5)",
     "pricingQuoted": "$19/month",
     "initialContactDate": "2026-09-29T13:33:13.918Z",
-    "lastContactDate": "2026-10-04T00:19:14.677Z",
+    "lastContactDate": "2026-10-10T22:49:37.381Z",
     "status": "delivered",
-    "sequenceStep": "Day 4 - Follow-up",
+    "sequenceStep": "Final Breakaway",
     "diagnosedIssues": "No website (inactive domain stanzliklaw.ca with no web host, Bellnet ISP email)",
     "caseStudySent": "https://beeclue.com/case-studies/tara-lattanzio?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-shelley-m-stanzlik-barrister-solicitor",
     "history": [
@@ -20401,6 +21057,14 @@
         "resendId": "01a10447-7633-711d-ada6-eefa450facbb",
         "status": "delivered",
         "notes": "Day 4-5 follow-up sent quoting $19/mo Core plan, Tara Lattanzio proof, and free 48-hr mockup offer."
+      },
+      {
+        "step": "Final",
+        "sentAt": "2026-10-10T22:49:37.381Z",
+        "subject": "Re: A modern web presence for Shelley M. Stanzlik, Barrister & Solicitor",
+        "resendId": "01a12801-ed0b-79f1-9352-a9ef2635bcd5",
+        "status": "delivered",
+        "notes": "Final Breakaway / permission to close file email sent."
       }
     ]
   },
@@ -20414,9 +21078,9 @@
     "location": "Ohsweken / Six Nations, ON (1569 Chiefswood Rd., Ohsweken, ON N0A 1M0)",
     "pricingQuoted": "$19/month",
     "initialContactDate": "2026-09-29T13:33:16.163Z",
-    "lastContactDate": "2026-10-04T00:19:16.670Z",
+    "lastContactDate": "2026-10-10T22:49:39.883Z",
     "status": "delivered",
-    "sequenceStep": "Day 4 - Follow-up",
+    "sequenceStep": "Final Breakaway",
     "diagnosedIssues": "No website (Advocates Society directory listing only, Bellnet ISP email)",
     "caseStudySent": "https://beeclue.com/case-studies/tara-lattanzio?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-kathleen-lickers-barrister-solicitor",
     "history": [
@@ -20435,6 +21099,14 @@
         "resendId": "01a10447-7df8-7922-92b3-6063b81ee784",
         "status": "delivered",
         "notes": "Day 4-5 follow-up sent quoting $19/mo Core plan, Tara Lattanzio proof, and free 48-hr mockup offer."
+      },
+      {
+        "step": "Final",
+        "sentAt": "2026-10-10T22:49:39.883Z",
+        "subject": "Re: A modern web presence for Kathleen Lickers, Barrister & Solicitor",
+        "resendId": "01a12801-f6d3-72f0-b0d8-eeb2b6ded01e",
+        "status": "delivered",
+        "notes": "Final Breakaway / permission to close file email sent."
       }
     ]
   },
@@ -20448,9 +21120,9 @@
     "location": "Brantford, ON (397 Colborne St., Brantford, ON N3S 3N4)",
     "pricingQuoted": "$19/month",
     "initialContactDate": "2026-09-29T13:33:18.367Z",
-    "lastContactDate": "2026-10-04T00:19:18.662Z",
+    "lastContactDate": "2026-10-10T22:49:42.383Z",
     "status": "delivered",
-    "sequenceStep": "Day 4 - Follow-up",
+    "sequenceStep": "Final Breakaway",
     "diagnosedIssues": "No website (domain mcd-law.ca used for email only, Canadian Law List)",
     "caseStudySent": "https://beeclue.com/case-studies/tara-lattanzio?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-m-cristina-difelice-barrister-solicitor",
     "history": [
@@ -20469,6 +21141,14 @@
         "resendId": "01a10447-85c4-7ed1-bc2d-f1f613cdddf1",
         "status": "delivered",
         "notes": "Day 4-5 follow-up sent quoting $19/mo Core plan, Tara Lattanzio proof, and free 48-hr mockup offer."
+      },
+      {
+        "step": "Final",
+        "sentAt": "2026-10-10T22:49:42.383Z",
+        "subject": "Re: A modern web presence for M. Cristina DiFelice, Barrister & Solicitor",
+        "resendId": "01a12802-009c-768e-9352-5c28718a1979",
+        "status": "delivered",
+        "notes": "Final Breakaway / permission to close file email sent."
       }
     ]
   },
@@ -20482,9 +21162,9 @@
     "location": "Brantford, ON (126 Mount Pleasant St, Brantford, ON N3T 1T3)",
     "pricingQuoted": "$19/month",
     "initialContactDate": "2026-09-29T13:33:20.708Z",
-    "lastContactDate": "2026-10-04T00:19:20.658Z",
+    "lastContactDate": "2026-10-10T22:49:44.893Z",
     "status": "delivered",
-    "sequenceStep": "Day 4 - Follow-up",
+    "sequenceStep": "Final Breakaway",
     "diagnosedIssues": "No website (Canadian Law List & YellowPages listing only, Rogers ISP email)",
     "caseStudySent": "https://beeclue.com/case-studies/tara-lattanzio?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-jean-diab-barrister-solicitor",
     "history": [
@@ -20503,6 +21183,14 @@
         "resendId": "01a10447-8d87-721d-9208-ff971dc2700d",
         "status": "delivered",
         "notes": "Day 4-5 follow-up sent quoting $19/mo Core plan, Tara Lattanzio proof, and free 48-hr mockup offer."
+      },
+      {
+        "step": "Final",
+        "sentAt": "2026-10-10T22:49:44.893Z",
+        "subject": "Re: A modern web presence for Jean Diab, Barrister & Solicitor",
+        "resendId": "01a12802-0a6b-7ca9-a62f-14ccf9150af6",
+        "status": "delivered",
+        "notes": "Final Breakaway / permission to close file email sent."
       }
     ]
   },
@@ -20516,9 +21204,9 @@
     "location": "Port Dover, ON (725 Main St., P.O. Box 610, Port Dover, ON N0A 1N0)",
     "pricingQuoted": "$19/month",
     "initialContactDate": "2026-09-29T13:33:22.979Z",
-    "lastContactDate": "2026-10-04T00:19:22.653Z",
+    "lastContactDate": "2026-10-10T22:49:47.447Z",
     "status": "delivered",
-    "sequenceStep": "Day 4 - Follow-up",
+    "sequenceStep": "Final Breakaway",
     "diagnosedIssues": "No website (Norfolk Law Association & Canadian Law List listing only, Gmail)",
     "caseStudySent": "https://beeclue.com/case-studies/tara-lattanzio?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-stahl-bowyer",
     "history": [
@@ -20537,6 +21225,14 @@
         "resendId": "01a10447-955a-79ea-923e-b23df75b7cd8",
         "status": "delivered",
         "notes": "Day 4-5 follow-up sent quoting $19/mo Core plan, Tara Lattanzio proof, and free 48-hr mockup offer."
+      },
+      {
+        "step": "Final",
+        "sentAt": "2026-10-10T22:49:47.447Z",
+        "subject": "Re: A modern web presence for Stahl & Bowyer",
+        "resendId": "01a12802-1465-78e4-b7c6-d13eafd6cdac",
+        "status": "delivered",
+        "notes": "Final Breakaway / permission to close file email sent."
       }
     ]
   },
@@ -20550,9 +21246,9 @@
     "location": "Dunnville, ON (117 Queen Street, Dunnville, ON N1A 1H6)",
     "pricingQuoted": "$19/month",
     "initialContactDate": "2026-09-29T13:33:25.187Z",
-    "lastContactDate": "2026-10-04T00:19:24.690Z",
+    "lastContactDate": "2026-10-10T22:49:49.944Z",
     "status": "delivered",
-    "sequenceStep": "Day 4 - Follow-up",
+    "sequenceStep": "Final Breakaway",
     "diagnosedIssues": "No website (inactive domain yhlaw.ca with no web host, Canadian Law List)",
     "caseStudySent": "https://beeclue.com/case-studies/tara-lattanzio?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-yanch-hilliard-llp",
     "history": [
@@ -20571,6 +21267,14 @@
         "resendId": "01a10447-9d4a-7699-a83d-9c109cb50a3b",
         "status": "delivered",
         "notes": "Day 4-5 follow-up sent quoting $19/mo Core plan, Tara Lattanzio proof, and free 48-hr mockup offer."
+      },
+      {
+        "step": "Final",
+        "sentAt": "2026-10-10T22:49:49.944Z",
+        "subject": "Re: A modern web presence for Yanch & Hilliard LLP",
+        "resendId": "01a12802-1e26-76f9-b782-99f83ee93380",
+        "status": "delivered",
+        "notes": "Final Breakaway / permission to close file email sent."
       }
     ]
   },
@@ -20584,9 +21288,9 @@
     "location": "Dunnville, ON (30 Pine Meadow Crt., Dunnville, ON N1A 3G3)",
     "pricingQuoted": "$19/month",
     "initialContactDate": "2026-09-29T13:33:27.376Z",
-    "lastContactDate": "2026-10-04T00:19:26.739Z",
+    "lastContactDate": "2026-10-10T22:49:52.444Z",
     "status": "delivered",
-    "sequenceStep": "Day 4 - Follow-up",
+    "sequenceStep": "Final Breakaway",
     "diagnosedIssues": "No website (Canadian Law List listing only, Sympatico ISP email)",
     "caseStudySent": "https://beeclue.com/case-studies/tara-lattanzio?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-h-e-walker-mcquatty-barrister-solicitor",
     "history": [
@@ -20605,6 +21309,14 @@
         "resendId": "01a10447-a552-7459-ac57-e34699b1e0d0",
         "status": "delivered",
         "notes": "Day 4-5 follow-up sent quoting $19/mo Core plan, Tara Lattanzio proof, and free 48-hr mockup offer."
+      },
+      {
+        "step": "Final",
+        "sentAt": "2026-10-10T22:49:52.444Z",
+        "subject": "Re: A modern web presence for H. E. Walker McQuatty, Barrister & Solicitor",
+        "resendId": "01a12802-27e3-70d8-8830-85ba1153f3be",
+        "status": "delivered",
+        "notes": "Final Breakaway / permission to close file email sent."
       }
     ]
   },
@@ -20618,9 +21330,9 @@
     "location": "Orangeville, ON (28 First Ave., Orangeville, ON L9W 1H8)",
     "pricingQuoted": "$19/month",
     "initialContactDate": "2026-09-29T13:33:29.549Z",
-    "lastContactDate": "2026-10-04T00:19:28.729Z",
+    "lastContactDate": "2026-10-10T22:49:54.949Z",
     "status": "delivered",
-    "sequenceStep": "Day 4 - Follow-up",
+    "sequenceStep": "Final Breakaway",
     "diagnosedIssues": "No website (Dufferin County Law Association listing only, Rogers ISP email)",
     "caseStudySent": "https://beeclue.com/case-studies/tara-lattanzio?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-church-fitzpatrick",
     "history": [
@@ -20639,6 +21351,14 @@
         "resendId": "01a10447-ad18-703f-b99e-ef810ff3bb80",
         "status": "delivered",
         "notes": "Day 4-5 follow-up sent quoting $19/mo Core plan, Tara Lattanzio proof, and free 48-hr mockup offer."
+      },
+      {
+        "step": "Final",
+        "sentAt": "2026-10-10T22:49:54.949Z",
+        "subject": "Re: A modern web presence for Church & Fitzpatrick",
+        "resendId": "01a12802-31b2-7e2a-8941-6ec2e557fc76",
+        "status": "delivered",
+        "notes": "Final Breakaway / permission to close file email sent."
       }
     ]
   },
@@ -20652,9 +21372,9 @@
     "location": "Orangeville, ON (200 Zina Street, Orangeville, ON L9W 1G1)",
     "pricingQuoted": "$19/month",
     "initialContactDate": "2026-09-29T13:33:31.762Z",
-    "lastContactDate": "2026-10-04T00:19:30.717Z",
+    "lastContactDate": "2026-10-10T22:49:57.584Z",
     "status": "delivered",
-    "sequenceStep": "Day 4 - Follow-up",
+    "sequenceStep": "Final Breakaway",
     "diagnosedIssues": "No website (Dufferin County Law Association listing only, Sympatico ISP email)",
     "caseStudySent": "https://beeclue.com/case-studies/tara-lattanzio?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-lynda-c-lamb-law-offices",
     "history": [
@@ -20673,6 +21393,14 @@
         "resendId": "01a10447-b4dd-7ea6-a2f7-df94a16df6fa",
         "status": "delivered",
         "notes": "Day 4-5 follow-up sent quoting $19/mo Core plan, Tara Lattanzio proof, and free 48-hr mockup offer."
+      },
+      {
+        "step": "Final",
+        "sentAt": "2026-10-10T22:49:57.584Z",
+        "subject": "Re: A modern web presence for Lynda C. Lamb, Law Offices",
+        "resendId": "01a12802-3bf4-7a6a-a898-ff9d4a66ac3c",
+        "status": "delivered",
+        "notes": "Final Breakaway / permission to close file email sent."
       }
     ]
   },
@@ -20686,9 +21414,9 @@
     "location": "Orangeville, ON (34 First Avenue, Orangeville, ON L9W 1H8)",
     "pricingQuoted": "$19/month",
     "initialContactDate": "2026-09-29T13:33:34.020Z",
-    "lastContactDate": "2026-10-04T00:19:32.708Z",
+    "lastContactDate": "2026-10-10T22:50:00.156Z",
     "status": "delivered",
-    "sequenceStep": "Day 4 - Follow-up",
+    "sequenceStep": "Final Breakaway",
     "diagnosedIssues": "No website (Dufferin County Law Association listing only, Bellnet ISP email)",
     "caseStudySent": "https://beeclue.com/case-studies/tara-lattanzio?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-huber-and-heersche",
     "history": [
@@ -20707,6 +21435,14 @@
         "resendId": "01a10447-bc9b-7c97-a04b-71df69a3b247",
         "status": "delivered",
         "notes": "Day 4-5 follow-up sent quoting $19/mo Core plan, Tara Lattanzio proof, and free 48-hr mockup offer."
+      },
+      {
+        "step": "Final",
+        "sentAt": "2026-10-10T22:50:00.156Z",
+        "subject": "Re: A modern web presence for Huber and Heersche",
+        "resendId": "01a12802-4606-7c9b-bc4f-5931bca4dd9e",
+        "status": "delivered",
+        "notes": "Final Breakaway / permission to close file email sent."
       }
     ]
   },
@@ -20720,9 +21456,9 @@
     "location": "Orangeville, ON (12 First Avenue, Orangeville, ON L9W 1H8)",
     "pricingQuoted": "$19/month",
     "initialContactDate": "2026-09-29T13:33:36.239Z",
-    "lastContactDate": "2026-10-04T00:19:34.709Z",
+    "lastContactDate": "2026-10-10T22:50:02.720Z",
     "status": "delivered",
-    "sequenceStep": "Day 4 - Follow-up",
+    "sequenceStep": "Final Breakaway",
     "diagnosedIssues": "No website (inactive domain hornsethlaw.ca, Bellnet ISP email, DCLA)",
     "caseStudySent": "https://beeclue.com/case-studies/tara-lattanzio?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-margot-l-hornseth-barrister-solicitor",
     "history": [
@@ -20741,6 +21477,14 @@
         "resendId": "01a10447-c45f-796a-8e26-e0d6461e657e",
         "status": "delivered",
         "notes": "Day 4-5 follow-up sent quoting $19/mo Core plan, Tara Lattanzio proof, and free 48-hr mockup offer."
+      },
+      {
+        "step": "Final",
+        "sentAt": "2026-10-10T22:50:02.720Z",
+        "subject": "Re: A modern web presence for Margot L. Hornseth, Barrister & Solicitor",
+        "resendId": "01a12802-5008-763a-a127-f75e5636415a",
+        "status": "delivered",
+        "notes": "Final Breakaway / permission to close file email sent."
       }
     ]
   },
@@ -20754,9 +21498,9 @@
     "location": "Shelburne, ON (305 Owen Sound Street, P.O. Box 700, Shelburne, ON L9V 2W9)",
     "pricingQuoted": "$19/month",
     "initialContactDate": "2026-09-29T13:33:38.454Z",
-    "lastContactDate": "2026-10-04T00:19:36.734Z",
+    "lastContactDate": "2026-10-10T22:50:05.309Z",
     "status": "delivered",
-    "sequenceStep": "Day 4 - Follow-up",
+    "sequenceStep": "Final Breakaway",
     "diagnosedIssues": "No active website (domain shelburnelaw.ca placeholder, Canadian Law List)",
     "caseStudySent": "https://beeclue.com/case-studies/tara-lattanzio?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-timmerman-haskell-mills-llp",
     "history": [
@@ -20775,6 +21519,14 @@
         "resendId": "01a10447-cc60-7969-ac08-5063b569dc76",
         "status": "delivered",
         "notes": "Day 4-5 follow-up sent quoting $19/mo Core plan, Tara Lattanzio proof, and free 48-hr mockup offer."
+      },
+      {
+        "step": "Final",
+        "sentAt": "2026-10-10T22:50:05.309Z",
+        "subject": "Re: A modern web presence for Timmerman, Haskell & Mills LLP",
+        "resendId": "01a12802-5a23-787e-97f4-4a322b492442",
+        "status": "delivered",
+        "notes": "Final Breakaway / permission to close file email sent."
       }
     ]
   },
@@ -20788,9 +21540,9 @@
     "location": "Acton, ON (67 Mill St. E., Acton, ON L7J 1H4)",
     "pricingQuoted": "$19/month",
     "initialContactDate": "2026-09-29T13:33:40.747Z",
-    "lastContactDate": "2026-10-04T00:19:38.797Z",
+    "lastContactDate": "2026-10-10T22:50:07.812Z",
     "status": "delivered",
-    "sequenceStep": "Day 4 - Follow-up",
+    "sequenceStep": "Final Breakaway",
     "diagnosedIssues": "No website (Downtown Acton BIA & Halton Hills Chamber listing only, Gmail)",
     "caseStudySent": "https://beeclue.com/case-studies/tara-lattanzio?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-ronald-k-henry-law-firm",
     "history": [
@@ -20809,6 +21561,14 @@
         "resendId": "01a10447-d468-7d58-9afd-c5604b00a82f",
         "status": "delivered",
         "notes": "Day 4-5 follow-up sent quoting $19/mo Core plan, Tara Lattanzio proof, and free 48-hr mockup offer."
+      },
+      {
+        "step": "Final",
+        "sentAt": "2026-10-10T22:50:07.812Z",
+        "subject": "Re: A modern web presence for Ronald K. Henry Law Firm",
+        "resendId": "01a12802-63f1-7813-8d51-bb3666750b63",
+        "status": "delivered",
+        "notes": "Final Breakaway / permission to close file email sent."
       }
     ]
   },
@@ -21502,9 +22262,9 @@
     "location": "Simcoe, ON (233 West St, Simcoe, ON N3Y 2W2)",
     "pricingQuoted": "$29/month",
     "initialContactDate": "2026-10-04T15:47:23.623Z",
-    "lastContactDate": "2026-10-04T15:47:23.623Z",
+    "lastContactDate": "2026-10-10T22:45:12.966Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Outreach",
+    "sequenceStep": "Day 4 - Follow-up",
     "diagnosedIssues": "No active website domain; patient inquiries handled via telephone and Apple email",
     "caseStudySent": "https://beeclue.com/web-design-for-dental-clinics?utm_source=beeclue&utm_medium=email&utm_campaign=ontario-dental-dr-william-janushewski-simcoe",
     "history": [
@@ -21515,6 +22275,14 @@
         "resendId": "01a10799-34dd-7d62-a3cd-27b8ffde854d",
         "status": "delivered",
         "notes": "Initial Day 0 outreach sent to Ontario small-town dental clinic with no website, quoting $29/mo Business plan, $0 build fee, and free 48-hr mockup offer."
+      },
+      {
+        "step": "Day 4",
+        "sentAt": "2026-10-10T22:45:12.966Z",
+        "subject": "Re: Website preview for Janushewski Dr W B Dentistry (Simcoe, ON)",
+        "resendId": "01a127fd-e423-7aec-8edb-0afbbec96cff",
+        "status": "delivered",
+        "notes": "Threaded Day 4 follow-up sent. Re-offered free 48-hr dental mockup and highlighted $29/mo Business plan with $0 upfront fee."
       }
     ]
   },
@@ -21528,9 +22296,9 @@
     "location": "Port Dover, ON (110 St Andrew St, Box 789, Port Dover, ON N0A 1N0)",
     "pricingQuoted": "$29/month",
     "initialContactDate": "2026-10-04T15:47:25.629Z",
-    "lastContactDate": "2026-10-04T15:47:25.629Z",
+    "lastContactDate": "2026-10-10T22:45:15.489Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Outreach",
+    "sequenceStep": "Day 4 - Follow-up",
     "diagnosedIssues": "No active website domain; relies on local community directories and regional ISP telecom email",
     "caseStudySent": "https://beeclue.com/web-design-for-dental-clinics?utm_source=beeclue&utm_medium=email&utm_campaign=ontario-dental-dr-michael-ostapchuk-port-dover",
     "history": [
@@ -21541,6 +22309,14 @@
         "resendId": "01a10799-3cec-7ce7-b096-fed7420b2084",
         "status": "delivered",
         "notes": "Initial Day 0 outreach sent to Ontario small-town dental clinic with no website, quoting $29/mo Business plan, $0 build fee, and free 48-hr mockup offer."
+      },
+      {
+        "step": "Day 4",
+        "sentAt": "2026-10-10T22:45:15.489Z",
+        "subject": "Re: Website preview for Michael Ostapchuk Dentistry (Port Dover, ON)",
+        "resendId": "01a127fd-ee0b-70d5-8df9-76a6b1f1987d",
+        "status": "delivered",
+        "notes": "Threaded Day 4 follow-up sent. Re-offered free 48-hr dental mockup and highlighted $29/mo Business plan with $0 upfront fee."
       }
     ]
   },
@@ -21554,9 +22330,9 @@
     "location": "Ingersoll, ON (117 Duke St, Ingersoll, ON N5C 2W7)",
     "pricingQuoted": "$29/month",
     "initialContactDate": "2026-10-04T15:47:27.621Z",
-    "lastContactDate": "2026-10-04T15:47:27.621Z",
+    "lastContactDate": "2026-10-10T22:45:18.138Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Outreach",
+    "sequenceStep": "Day 4 - Follow-up",
     "diagnosedIssues": "No website domain; manages digital patient inquiries via Facebook and Gmail",
     "caseStudySent": "https://beeclue.com/web-design-for-dental-clinics?utm_source=beeclue&utm_medium=email&utm_campaign=ontario-dental-dr-tyson-mailman-ingersoll",
     "history": [
@@ -21567,6 +22343,14 @@
         "resendId": "01a10799-44bd-7d52-a0ef-d288c7fd01c3",
         "status": "delivered",
         "notes": "Initial Day 0 outreach sent to Ontario small-town dental clinic with no website, quoting $29/mo Business plan, $0 build fee, and free 48-hr mockup offer."
+      },
+      {
+        "step": "Day 4",
+        "sentAt": "2026-10-10T22:45:18.138Z",
+        "subject": "Re: Website preview for Dentistry on Duke / Mailman Dentistry (Ingersoll, ON)",
+        "resendId": "01a127fd-f85d-78b5-b13a-a20438464e2d",
+        "status": "delivered",
+        "notes": "Threaded Day 4 follow-up sent. Re-offered free 48-hr dental mockup and highlighted $29/mo Business plan with $0 upfront fee."
       }
     ]
   },
@@ -21580,9 +22364,9 @@
     "location": "Cobourg, ON (11 Charles St, Cobourg, ON K9A 2T4)",
     "pricingQuoted": "$29/month",
     "initialContactDate": "2026-10-04T15:47:29.624Z",
-    "lastContactDate": "2026-10-04T15:47:29.624Z",
+    "lastContactDate": "2026-10-10T22:45:20.713Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Outreach",
+    "sequenceStep": "Day 4 - Follow-up",
     "diagnosedIssues": "No website domain; patient intake routed via telephone and Gmail",
     "caseStudySent": "https://beeclue.com/web-design-for-dental-clinics?utm_source=beeclue&utm_medium=email&utm_campaign=ontario-dental-dr-jacob-mursic-cobourg",
     "history": [
@@ -21593,6 +22377,14 @@
         "resendId": "01a10799-4c90-7463-85ab-58618782bd10",
         "status": "delivered",
         "notes": "Initial Day 0 outreach sent to Ontario small-town dental clinic with no website, quoting $29/mo Business plan, $0 build fee, and free 48-hr mockup offer."
+      },
+      {
+        "step": "Day 4",
+        "sentAt": "2026-10-10T22:45:20.713Z",
+        "subject": "Re: Website preview for Harbourside Dental (Cobourg, ON)",
+        "resendId": "01a127fe-023f-7168-a6d2-f051926ccfe3",
+        "status": "delivered",
+        "notes": "Threaded Day 4 follow-up sent. Re-offered free 48-hr dental mockup and highlighted $29/mo Business plan with $0 upfront fee."
       }
     ]
   },
@@ -21606,9 +22398,9 @@
     "location": "Huntsville, ON (3A Main St W, Huntsville, ON P1H 2C5)",
     "pricingQuoted": "$29/month",
     "initialContactDate": "2026-10-04T15:47:31.627Z",
-    "lastContactDate": "2026-10-04T15:47:31.627Z",
+    "lastContactDate": "2026-10-10T22:45:23.270Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Outreach",
+    "sequenceStep": "Day 4 - Follow-up",
     "diagnosedIssues": "Former domain hijacked to spam; operates without functional website via Gmail",
     "caseStudySent": "https://beeclue.com/web-design-for-dental-clinics?utm_source=beeclue&utm_medium=email&utm_campaign=ontario-dental-dr-christopher-pearce-huntsville",
     "history": [
@@ -21619,6 +22411,14 @@
         "resendId": "01a10799-546a-7047-b978-1cd011c443dc",
         "status": "delivered",
         "notes": "Initial Day 0 outreach sent to Ontario small-town dental clinic with no website, quoting $29/mo Business plan, $0 build fee, and free 48-hr mockup offer."
+      },
+      {
+        "step": "Day 4",
+        "sentAt": "2026-10-10T22:45:23.270Z",
+        "subject": "Re: Website preview for Main Street Dental / Dr. Pearce (Huntsville, ON)",
+        "resendId": "01a127fe-0c71-7d14-b007-e1316dc8dc8b",
+        "status": "delivered",
+        "notes": "Threaded Day 4 follow-up sent. Re-offered free 48-hr dental mockup and highlighted $29/mo Business plan with $0 upfront fee."
       }
     ]
   },
@@ -21632,9 +22432,9 @@
     "location": "Kenora, ON (34 Matheson St S, 1st Floor, Kenora, ON P9N 1T6)",
     "pricingQuoted": "$29/month",
     "initialContactDate": "2026-10-04T15:47:33.599Z",
-    "lastContactDate": "2026-10-04T15:47:33.599Z",
+    "lastContactDate": "2026-10-10T22:45:25.834Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Outreach",
+    "sequenceStep": "Day 4 - Follow-up",
     "diagnosedIssues": "Former website domain 401 dead / inactive; runs intake via telephone and Gmail",
     "caseStudySent": "https://beeclue.com/web-design-for-dental-clinics?utm_source=beeclue&utm_medium=email&utm_campaign=ontario-dental-dr-marcia-little-kenora",
     "history": [
@@ -21645,6 +22445,14 @@
         "resendId": "01a10799-5c1b-7f41-a4f7-ae5dd0c70b88",
         "status": "delivered",
         "notes": "Initial Day 0 outreach sent to Ontario small-town dental clinic with no website, quoting $29/mo Business plan, $0 build fee, and free 48-hr mockup offer."
+      },
+      {
+        "step": "Day 4",
+        "sentAt": "2026-10-10T22:45:25.834Z",
+        "subject": "Re: Website preview for Dr. Marcia Little Dentistry (Kenora, ON)",
+        "resendId": "01a127fe-1673-7cab-8c60-4ad892ced0f4",
+        "status": "delivered",
+        "notes": "Threaded Day 4 follow-up sent. Re-offered free 48-hr dental mockup and highlighted $29/mo Business plan with $0 upfront fee."
       }
     ]
   },
@@ -21658,9 +22466,9 @@
     "location": "Atikokan, ON (218 O'Brien St, PO Box 1270, Atikokan, ON P0T 1C0)",
     "pricingQuoted": "$29/month",
     "initialContactDate": "2026-10-04T15:47:35.593Z",
-    "lastContactDate": "2026-10-04T15:47:35.593Z",
+    "lastContactDate": "2026-10-10T22:45:28.340Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Outreach",
+    "sequenceStep": "Day 4 - Follow-up",
     "diagnosedIssues": "No website domain; serves Atikokan community via telephone and Gmail",
     "caseStudySent": "https://beeclue.com/web-design-for-dental-clinics?utm_source=beeclue&utm_medium=email&utm_campaign=ontario-dental-dr-cary-gillies-atikokan",
     "history": [
@@ -21671,6 +22479,14 @@
         "resendId": "01a10799-63e5-78d3-8f2e-56b423e1c8c5",
         "status": "delivered",
         "notes": "Initial Day 0 outreach sent to Ontario small-town dental clinic with no website, quoting $29/mo Business plan, $0 build fee, and free 48-hr mockup offer."
+      },
+      {
+        "step": "Day 4",
+        "sentAt": "2026-10-10T22:45:28.340Z",
+        "subject": "Re: Website preview for Atikokan Family Dental Centre (Atikokan, ON)",
+        "resendId": "01a127fe-2035-7ada-a3ab-40a223b7b987",
+        "status": "delivered",
+        "notes": "Threaded Day 4 follow-up sent. Re-offered free 48-hr dental mockup and highlighted $29/mo Business plan with $0 upfront fee."
       }
     ]
   },
@@ -21684,9 +22500,9 @@
     "location": "Sioux Lookout, ON (57 Prince St, PO Box 1330, Sioux Lookout, ON P8T 1B8)",
     "pricingQuoted": "$29/month",
     "initialContactDate": "2026-10-04T15:47:37.585Z",
-    "lastContactDate": "2026-10-04T15:47:37.585Z",
+    "lastContactDate": "2026-10-10T22:45:30.851Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Outreach",
+    "sequenceStep": "Day 4 - Follow-up",
     "diagnosedIssues": "Former domain dead (NXDOMAIN); operates patient inquiries via telephone and Yahoo email",
     "caseStudySent": "https://beeclue.com/web-design-for-dental-clinics?utm_source=beeclue&utm_medium=email&utm_campaign=ontario-dental-dr-farhan-rizvi-sioux-lookout",
     "history": [
@@ -21697,6 +22513,14 @@
         "resendId": "01a10799-6bab-7251-8963-ef727832fd08",
         "status": "delivered",
         "notes": "Initial Day 0 outreach sent to Ontario small-town dental clinic with no website, quoting $29/mo Business plan, $0 build fee, and free 48-hr mockup offer."
+      },
+      {
+        "step": "Day 4",
+        "sentAt": "2026-10-10T22:45:30.851Z",
+        "subject": "Re: Website preview for Sioux Lookout Dental Centre (Sioux Lookout, ON)",
+        "resendId": "01a127fe-2a02-71f2-8142-5fe01a9f4ebe",
+        "status": "delivered",
+        "notes": "Threaded Day 4 follow-up sent. Re-offered free 48-hr dental mockup and highlighted $29/mo Business plan with $0 upfront fee."
       }
     ]
   },
@@ -21710,9 +22534,9 @@
     "location": "Gore Bay, ON (60 Meredith St, Unit 2, PO Box 420, Gore Bay, ON P0P 1H0)",
     "pricingQuoted": "$29/month",
     "initialContactDate": "2026-10-04T15:47:39.597Z",
-    "lastContactDate": "2026-10-04T15:47:39.597Z",
+    "lastContactDate": "2026-10-10T22:45:33.348Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Outreach",
+    "sequenceStep": "Day 4 - Follow-up",
     "diagnosedIssues": "No website domain; serves Manitoulin Island patients via telephone and Outlook email",
     "caseStudySent": "https://beeclue.com/web-design-for-dental-clinics?utm_source=beeclue&utm_medium=email&utm_campaign=ontario-dental-dr-mary-cross-duchene-gore-bay",
     "history": [
@@ -21723,6 +22547,14 @@
         "resendId": "01a10799-7373-72a7-8065-8e29afc643bf",
         "status": "delivered",
         "notes": "Initial Day 0 outreach sent to Ontario small-town dental clinic with no website, quoting $29/mo Business plan, $0 build fee, and free 48-hr mockup offer."
+      },
+      {
+        "step": "Day 4",
+        "sentAt": "2026-10-10T22:45:33.348Z",
+        "subject": "Re: Website preview for Gore Bay Dental (Manitoulin Island, ON)",
+        "resendId": "01a127fe-33cb-7831-9443-b974623ce127",
+        "status": "delivered",
+        "notes": "Threaded Day 4 follow-up sent. Re-offered free 48-hr dental mockup and highlighted $29/mo Business plan with $0 upfront fee."
       }
     ]
   },
@@ -21736,9 +22568,9 @@
     "location": "Chapleau, ON (34 Birch St, PO Box 1024, Chapleau, ON P0M 1K0)",
     "pricingQuoted": "$29/month",
     "initialContactDate": "2026-10-04T15:47:41.589Z",
-    "lastContactDate": "2026-10-04T15:47:41.589Z",
+    "lastContactDate": "2026-10-10T22:45:35.858Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Outreach",
+    "sequenceStep": "Day 4 - Follow-up",
     "diagnosedIssues": "No website domain; handles dental hygiene appointments via telephone and Sympatico ISP email",
     "caseStudySent": "https://beeclue.com/web-design-for-dental-clinics?utm_source=beeclue&utm_medium=email&utm_campaign=ontario-dental-lise-morin-martel-chapleau",
     "history": [
@@ -21749,6 +22581,14 @@
         "resendId": "01a10799-7b55-79cd-966b-8c31e014b87c",
         "status": "delivered",
         "notes": "Initial Day 0 outreach sent to Ontario small-town dental clinic with no website, quoting $29/mo Business plan, $0 build fee, and free 48-hr mockup offer."
+      },
+      {
+        "step": "Day 4",
+        "sentAt": "2026-10-10T22:45:35.858Z",
+        "subject": "Re: Website preview for The Dental Suite (Chapleau, ON)",
+        "resendId": "01a127fe-3da0-753d-9840-eaa67b089753",
+        "status": "delivered",
+        "notes": "Threaded Day 4 follow-up sent. Re-offered free 48-hr dental mockup and highlighted $29/mo Business plan with $0 upfront fee."
       }
     ]
   },
@@ -21762,9 +22602,9 @@
     "location": "Wheatley, ON (17 Erie St S, PO Box 358, Wheatley, ON N0P 2P0)",
     "pricingQuoted": "$29/month",
     "initialContactDate": "2026-10-04T15:47:43.648Z",
-    "lastContactDate": "2026-10-04T15:47:43.648Z",
+    "lastContactDate": "2026-10-10T22:45:38.420Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Outreach",
+    "sequenceStep": "Day 4 - Follow-up",
     "diagnosedIssues": "No active domain (all domains NXDOMAIN); runs patient intake via telephone and Hotmail",
     "caseStudySent": "https://beeclue.com/web-design-for-dental-clinics?utm_source=beeclue&utm_medium=email&utm_campaign=ontario-dental-dr-robert-brissette-wheatley",
     "history": [
@@ -21775,6 +22615,14 @@
         "resendId": "01a10799-835c-79ac-9eb6-4bc2e02385bd",
         "status": "delivered",
         "notes": "Initial Day 0 outreach sent to Ontario small-town dental clinic with no website, quoting $29/mo Business plan, $0 build fee, and free 48-hr mockup offer."
+      },
+      {
+        "step": "Day 4",
+        "sentAt": "2026-10-10T22:45:38.420Z",
+        "subject": "Re: Website preview for Wheatley Dental / Dr. Brissette (Wheatley, ON)",
+        "resendId": "01a127fe-479c-7300-84ee-920cc782aecd",
+        "status": "delivered",
+        "notes": "Threaded Day 4 follow-up sent. Re-offered free 48-hr dental mockup and highlighted $29/mo Business plan with $0 upfront fee."
       }
     ]
   },
@@ -21788,9 +22636,9 @@
     "location": "Hearst, ON (1101 Front Street, Hearst, ON P0L 1N0)",
     "pricingQuoted": "$29/month",
     "initialContactDate": "2026-10-04T15:47:45.637Z",
-    "lastContactDate": "2026-10-04T15:47:45.637Z",
+    "lastContactDate": "2026-10-10T22:45:40.906Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Outreach",
+    "sequenceStep": "Day 4 - Follow-up",
     "diagnosedIssues": "No website domain; serves Hearst and Mattice via telephone and Hotmail",
     "caseStudySent": "https://beeclue.com/web-design-for-dental-clinics?utm_source=beeclue&utm_medium=email&utm_campaign=ontario-dental-nicole-lacroix-morin-hearst",
     "history": [
@@ -21801,6 +22649,14 @@
         "resendId": "01a10799-8b14-7575-bcc5-a5285175df82",
         "status": "delivered",
         "notes": "Initial Day 0 outreach sent to Ontario small-town dental clinic with no website, quoting $29/mo Business plan, $0 build fee, and free 48-hr mockup offer."
+      },
+      {
+        "step": "Day 4",
+        "sentAt": "2026-10-10T22:45:40.906Z",
+        "subject": "Re: Website preview for Lacroix-Morin Dental Hygiene (Hearst, ON)",
+        "resendId": "01a127fe-5158-72f6-8ee9-36f355e7eced",
+        "status": "delivered",
+        "notes": "Threaded Day 4 follow-up sent. Re-offered free 48-hr dental mockup and highlighted $29/mo Business plan with $0 upfront fee."
       }
     ]
   },
@@ -21814,9 +22670,9 @@
     "location": "Frankford, ON (16 Trent Street South, Frankford, ON K0K 2C0)",
     "pricingQuoted": "$29/month",
     "initialContactDate": "2026-10-04T15:47:47.629Z",
-    "lastContactDate": "2026-10-04T15:47:47.629Z",
+    "lastContactDate": "2026-10-10T22:45:43.416Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Outreach",
+    "sequenceStep": "Day 4 - Follow-up",
     "diagnosedIssues": "No website domain; handles patient intake in Frankford via telephone and Gmail",
     "caseStudySent": "https://beeclue.com/web-design-for-dental-clinics?utm_source=beeclue&utm_medium=email&utm_campaign=ontario-dental-tasha-reddom-frankford",
     "history": [
@@ -21827,6 +22683,14 @@
         "resendId": "01a10799-92e4-761e-a49d-a16edc36122a",
         "status": "delivered",
         "notes": "Initial Day 0 outreach sent to Ontario small-town dental clinic with no website, quoting $29/mo Business plan, $0 build fee, and free 48-hr mockup offer."
+      },
+      {
+        "step": "Day 4",
+        "sentAt": "2026-10-10T22:45:43.416Z",
+        "subject": "Re: Website preview for Tasha Reddom Dental Hygiene (Frankford, ON)",
+        "resendId": "01a127fe-5b20-794b-a4e1-55b2885401d3",
+        "status": "delivered",
+        "notes": "Threaded Day 4 follow-up sent. Re-offered free 48-hr dental mockup and highlighted $29/mo Business plan with $0 upfront fee."
       }
     ]
   },
@@ -21840,9 +22704,9 @@
     "location": "Mallorytown, ON (26 Narrows Lane Rd, Mallorytown, ON K0E 1R0)",
     "pricingQuoted": "$29/month",
     "initialContactDate": "2026-10-04T15:47:49.611Z",
-    "lastContactDate": "2026-10-04T15:47:49.611Z",
+    "lastContactDate": "2026-10-10T22:45:45.925Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Outreach",
+    "sequenceStep": "Day 4 - Follow-up",
     "diagnosedIssues": "No website domain; serves rural Leeds and Thousand Islands via telephone and Gmail",
     "caseStudySent": "https://beeclue.com/web-design-for-dental-clinics?utm_source=beeclue&utm_medium=email&utm_campaign=ontario-dental-christine-greene-mallorytown",
     "history": [
@@ -21853,6 +22717,14 @@
         "resendId": "01a10799-9aab-7778-8898-533a251b0d3c",
         "status": "delivered",
         "notes": "Initial Day 0 outreach sent to Ontario small-town dental clinic with no website, quoting $29/mo Business plan, $0 build fee, and free 48-hr mockup offer."
+      },
+      {
+        "step": "Day 4",
+        "sentAt": "2026-10-10T22:45:45.925Z",
+        "subject": "Re: Website preview for Chris-tal Clean Dental Hygiene (Mallorytown, ON)",
+        "resendId": "01a127fe-64ed-7190-8009-3736c6148c71",
+        "status": "delivered",
+        "notes": "Threaded Day 4 follow-up sent. Re-offered free 48-hr dental mockup and highlighted $29/mo Business plan with $0 upfront fee."
       }
     ]
   },
@@ -21866,9 +22738,9 @@
     "location": "Ayr, ON (76 Stanley Street, Ayr, ON N0B 1E0)",
     "pricingQuoted": "$29/month",
     "initialContactDate": "2026-10-04T15:47:51.623Z",
-    "lastContactDate": "2026-10-04T15:47:51.623Z",
+    "lastContactDate": "2026-10-10T22:45:48.511Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Outreach",
+    "sequenceStep": "Day 4 - Follow-up",
     "diagnosedIssues": "No website domain; operates community dental hygiene in Ayr via telephone and Rogers telecom email",
     "caseStudySent": "https://beeclue.com/web-design-for-dental-clinics?utm_source=beeclue&utm_medium=email&utm_campaign=ontario-dental-michelle-oneill-ayr",
     "history": [
@@ -21879,6 +22751,14 @@
         "resendId": "01a10799-a27f-7aa3-a9e2-5dd62469591a",
         "status": "delivered",
         "notes": "Initial Day 0 outreach sent to Ontario small-town dental clinic with no website, quoting $29/mo Business plan, $0 build fee, and free 48-hr mockup offer."
+      },
+      {
+        "step": "Day 4",
+        "sentAt": "2026-10-10T22:45:48.511Z",
+        "subject": "Re: Website preview for O'Neill's Dental Hygiene Clinic (Ayr, ON)",
+        "resendId": "01a127fe-6f06-7a57-9990-6eb91d8402f6",
+        "status": "delivered",
+        "notes": "Threaded Day 4 follow-up sent. Re-offered free 48-hr dental mockup and highlighted $29/mo Business plan with $0 upfront fee."
       }
     ]
   },
@@ -21892,9 +22772,9 @@
     "location": "Midland, ON (343 Midland Avenue, Midland, ON L4R 3K8)",
     "pricingQuoted": "$29/month",
     "initialContactDate": "2026-10-04T15:47:53.655Z",
-    "lastContactDate": "2026-10-04T15:47:53.655Z",
+    "lastContactDate": "2026-10-10T22:45:51.077Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Outreach",
+    "sequenceStep": "Day 4 - Follow-up",
     "diagnosedIssues": "Abandoned domain redirects to third-party agency; operates directly via telephone and Gmail",
     "caseStudySent": "https://beeclue.com/web-design-for-dental-clinics?utm_source=beeclue&utm_medium=email&utm_campaign=ontario-dental-roma-czech-midland",
     "history": [
@@ -21905,6 +22785,14 @@
         "resendId": "01a10799-aa77-719b-ad3b-586547c1d1c4",
         "status": "delivered",
         "notes": "Initial Day 0 outreach sent to Ontario small-town dental clinic with no website, quoting $29/mo Business plan, $0 build fee, and free 48-hr mockup offer."
+      },
+      {
+        "step": "Day 4",
+        "sentAt": "2026-10-10T22:45:51.077Z",
+        "subject": "Re: Website preview for Dental Hygiene with Roma (Midland, ON)",
+        "resendId": "01a127fe-790c-76ee-9c65-d8605b186d80",
+        "status": "delivered",
+        "notes": "Threaded Day 4 follow-up sent. Re-offered free 48-hr dental mockup and highlighted $29/mo Business plan with $0 upfront fee."
       }
     ]
   },
@@ -21918,9 +22806,9 @@
     "location": "Thessalon, ON (145 Dawson St, Thessalon, ON P0R 1L0)",
     "pricingQuoted": "$29/month",
     "initialContactDate": "2026-10-04T15:47:55.710Z",
-    "lastContactDate": "2026-10-04T15:47:55.710Z",
+    "lastContactDate": "2026-10-10T22:45:53.621Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Outreach",
+    "sequenceStep": "Day 4 - Follow-up",
     "diagnosedIssues": "No standalone website domain; routes appointments in rural Algoma via Facebook and Shaw email",
     "caseStudySent": "https://beeclue.com/web-design-for-dental-clinics?utm_source=beeclue&utm_medium=email&utm_campaign=ontario-dental-sophie-freeman-thessalon",
     "history": [
@@ -21931,6 +22819,14 @@
         "resendId": "01a10799-b27b-728f-9f89-eaedd694ad62",
         "status": "delivered",
         "notes": "Initial Day 0 outreach sent to Ontario small-town dental clinic with no website, quoting $29/mo Business plan, $0 build fee, and free 48-hr mockup offer."
+      },
+      {
+        "step": "Day 4",
+        "sentAt": "2026-10-10T22:45:53.621Z",
+        "subject": "Re: Website preview for Sophie's Oral Hygiene Care (Thessalon, ON)",
+        "resendId": "01a127fe-8301-7551-ba42-0ec61104bafe",
+        "status": "delivered",
+        "notes": "Threaded Day 4 follow-up sent. Re-offered free 48-hr dental mockup and highlighted $29/mo Business plan with $0 upfront fee."
       }
     ]
   },
@@ -21944,9 +22840,9 @@
     "location": "Denfield, ON (Denfield, ON N0M 1P0)",
     "pricingQuoted": "$29/month",
     "initialContactDate": "2026-10-04T15:47:57.712Z",
-    "lastContactDate": "2026-10-04T15:47:57.712Z",
+    "lastContactDate": "2026-10-10T22:45:56.139Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Outreach",
+    "sequenceStep": "Day 4 - Follow-up",
     "diagnosedIssues": "No website domain; coordinates mobile/rural dental appointments via telephone and Apple email",
     "caseStudySent": "https://beeclue.com/web-design-for-dental-clinics?utm_source=beeclue&utm_medium=email&utm_campaign=ontario-dental-caroline-filson-denfield",
     "history": [
@@ -21957,6 +22853,14 @@
         "resendId": "01a10799-ba47-7c79-8754-7fe06ac648a3",
         "status": "delivered",
         "notes": "Initial Day 0 outreach sent to Ontario small-town dental clinic with no website, quoting $29/mo Business plan, $0 build fee, and free 48-hr mockup offer."
+      },
+      {
+        "step": "Day 4",
+        "sentAt": "2026-10-10T22:45:56.139Z",
+        "subject": "Re: Website preview for Samaritan Senior Dental Service (Middlesex, ON)",
+        "resendId": "01a127fe-8cbf-7b7b-8b19-54165945949f",
+        "status": "delivered",
+        "notes": "Threaded Day 4 follow-up sent. Re-offered free 48-hr dental mockup and highlighted $29/mo Business plan with $0 upfront fee."
       }
     ]
   },
@@ -21970,9 +22874,9 @@
     "location": "Bright's Grove, ON (6-2684 Lakeshore Road, Bright's Grove, ON N0N 1C0)",
     "pricingQuoted": "$29/month",
     "initialContactDate": "2026-10-04T15:47:59.702Z",
-    "lastContactDate": "2026-10-04T15:47:59.702Z",
+    "lastContactDate": "2026-10-10T22:45:58.625Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Outreach",
+    "sequenceStep": "Day 4 - Follow-up",
     "diagnosedIssues": "No website domain; handles patient hygiene appointments via telephone and Gmail",
     "caseStudySent": "https://beeclue.com/web-design-for-dental-clinics?utm_source=beeclue&utm_medium=email&utm_campaign=ontario-dental-pamela-jackson-brights-grove",
     "history": [
@@ -21983,6 +22887,14 @@
         "resendId": "01a10799-c20f-7319-bdf1-1b3773229787",
         "status": "delivered",
         "notes": "Initial Day 0 outreach sent to Ontario small-town dental clinic with no website, quoting $29/mo Business plan, $0 build fee, and free 48-hr mockup offer."
+      },
+      {
+        "step": "Day 4",
+        "sentAt": "2026-10-10T22:45:58.625Z",
+        "subject": "Re: Website preview for Healthy Smiles Hygiene Care (Bright's Grove, ON)",
+        "resendId": "01a127fe-968d-7132-acfa-e903f2014e8e",
+        "status": "delivered",
+        "notes": "Threaded Day 4 follow-up sent. Re-offered free 48-hr dental mockup and highlighted $29/mo Business plan with $0 upfront fee."
       }
     ]
   },
@@ -21996,9 +22908,9 @@
     "location": "Belleville, ON (Bayview Mall, 39-470 Dundas St E, Belleville, ON K8N 1G1)",
     "pricingQuoted": "$29/month",
     "initialContactDate": "2026-10-04T15:48:01.689Z",
-    "lastContactDate": "2026-10-04T15:48:01.689Z",
+    "lastContactDate": "2026-10-10T22:46:01.121Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Outreach",
+    "sequenceStep": "Day 4 - Follow-up",
     "diagnosedIssues": "No website domain; operates clinic bookings via telephone and Gmail",
     "caseStudySent": "https://beeclue.com/web-design-for-dental-clinics?utm_source=beeclue&utm_medium=email&utm_campaign=ontario-dental-gwen-johnson-belleville",
     "history": [
@@ -22009,6 +22921,14 @@
         "resendId": "01a10799-c9d7-76c4-93a4-cd461eb233a9",
         "status": "delivered",
         "notes": "Initial Day 0 outreach sent to Ontario small-town dental clinic with no website, quoting $29/mo Business plan, $0 build fee, and free 48-hr mockup offer."
+      },
+      {
+        "step": "Day 4",
+        "sentAt": "2026-10-10T22:46:01.121Z",
+        "subject": "Re: Website preview for Gwen The Queen of Clean (Belleville, ON)",
+        "resendId": "01a127fe-a04e-798d-bb04-5394fccf37e4",
+        "status": "delivered",
+        "notes": "Threaded Day 4 follow-up sent. Re-offered free 48-hr dental mockup and highlighted $29/mo Business plan with $0 upfront fee."
       }
     ]
   },
