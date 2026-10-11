@@ -1,10 +1,86 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import styles from "./page.module.css";
-import { ArrowRight, Code, LayoutTemplate, Smartphone, ShoppingCart, Search, CheckCircle2 } from "lucide-react";
+import { ArrowRight, Check, CheckCircle2 } from "lucide-react";
 import FadeIn from "@/components/FadeIn";
 import ReviewsMeta from "@/components/ReviewsMeta";
+
+const servicesList = [
+  {
+    title: "Custom Software Development",
+    href: "/custom-software-development-toronto/",
+    image: "https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=800&q=80",
+    imageAlt: "Custom Software Development and Engineering in Toronto",
+    desc: "Tailored business management systems, SaaS platforms, and enterprise CRM/ERP solutions engineered to streamline workflows and replace fragmented tools with unified architectures.",
+    features: ["Business management systems", "SaaS platform development", "CRM & ERP integrations", "Custom client portals"],
+  },
+  {
+    title: "Web Design & Development",
+    href: "/web-design-toronto/",
+    image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=800&q=80",
+    imageAlt: "Modern Web Design and Development Toronto",
+    desc: "Bespoke, high-converting websites engineered with Next.js and React. Mobile-first responsive layouts, rapid loading speeds, and local GTA search optimization.",
+    features: ["Bespoke corporate websites", "Landing page optimization", "Next.js & React architectures", "Conversion rate optimization"],
+  },
+  {
+    title: "WordPress Development Canada",
+    href: "/wordpress-web-design-canada/",
+    image: "https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?auto=format&fit=crop&w=800&q=80",
+    imageAlt: "WordPress Web Design Canada",
+    desc: "Custom WordPress themes built from scratch with zero plugin bloat. Hand-coded, headless-ready, and hardened for maximum performance, security, and effortless publishing.",
+    features: ["Custom theme development", "Zero-bloat hand-coded builds", "Headless WordPress setups", "Advanced security hardening"],
+  },
+  {
+    title: "Mobile App Development",
+    href: "/mobile-app-development-toronto/",
+    image: "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?auto=format&fit=crop&w=800&q=80",
+    imageAlt: "Mobile App Development iOS and Android",
+    desc: "Reliable, high-performance mobile applications for iOS and Android. From initial startup MVP prototypes to enterprise cross-platform React Native digital products.",
+    features: ["Native iOS & Android apps", "Cross-platform React Native", "Startup MVP development", "App Store & Play Store launch"],
+  },
+  {
+    title: "Ecommerce Development",
+    href: "/ecommerce-development-toronto/",
+    image: "https://images.unsplash.com/photo-1556742049-0a67c5574f73?auto=format&fit=crop&w=800&q=80",
+    imageAlt: "Ecommerce Development Shopify and WooCommerce",
+    desc: "Secure, high-converting digital storefronts built on Shopify Plus, WooCommerce, and custom headless checkouts designed to scale sales volume across Canada.",
+    features: ["Shopify Plus development", "WooCommerce customization", "Payment gateway integration", "Inventory & order sync"],
+  },
+  {
+    title: "SEO & Digital Visibility",
+    href: "/seo-services-toronto/",
+    image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=800&q=80",
+    imageAlt: "SEO Services and Search Visibility Toronto",
+    desc: "Data-driven SEO strategies targeting Toronto, the GTA, and national markets. Technical site health, Core Web Vitals tuning, and AI conversational search optimization.",
+    features: ["Technical SEO & site speed", "Local GTA search ranking", "Content gap & keyword strategy", "AEO / AI search readiness"],
+  },
+  {
+    title: "UI/UX Design & Branding",
+    href: "/ui-ux-design-toronto/",
+    image: "https://images.unsplash.com/photo-1581291518857-4e27b48ff24e?auto=format&fit=crop&w=800&q=80",
+    imageAlt: "UI/UX Design and Brand Identity Systems",
+    desc: "Strategic, user-centric interfaces and brand identities crafted in Figma. Design systems, wireframes, and prototypes engineered to eliminate customer friction and inspire trust.",
+    features: ["Figma UI design systems", "UX research & wireframing", "Brand identity & logo suites", "Interactive clickable prototypes"],
+  },
+  {
+    title: "Website Maintenance & Support",
+    href: "/website-maintenance-toronto/",
+    image: "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=800&q=80",
+    imageAlt: "Website Maintenance and Speed Optimization",
+    desc: "Proactive website maintenance, 24/7 security monitoring, monthly updates, and Core Web Vitals optimization to keep your digital platform running at peak performance.",
+    features: ["24/7 uptime monitoring", "Core Web Vitals tuning", "Regular security patches", "Dedicated technical support"],
+  },
+  {
+    title: "Digital Marketing & Growth",
+    href: "/digital-marketing-toronto/",
+    image: "https://images.unsplash.com/photo-1432888498266-38ffec3eaf0a?auto=format&fit=crop&w=800&q=80",
+    imageAlt: "Digital Marketing and Growth Strategy",
+    desc: "Multi-channel digital marketing campaigns that drive qualified inbound leads, elevate brand recognition, and deliver measurable return on investment.",
+    features: ["PPC & search ad campaigns", "Conversion funnel optimization", "B2B lead generation", "Performance tracking & analytics"],
+  },
+];
 
 export default function ServicesPage() {
   const jsonLd = {
@@ -50,208 +126,38 @@ export default function ServicesPage() {
       <FadeIn className={styles.baseSection}>
         <div className={styles.servicesHeader}>
           <h2>Effortlessly Transform Your Ideas into Stunning, Professional Layouts with Ease</h2>
+          <p>End-to-end digital engineering and design services built for Canadian businesses looking to scale.</p>
         </div>
         
-        <div className={styles.aboutGrid} style={{ marginBottom: "5rem" }}>
-          <div className={styles.aboutText}>
-            <h3 style={{ fontSize: "2rem", marginBottom: "1rem", color: "var(--foreground)" }}>Custom Software Development</h3>
-            <p>
-              Businesses often rely on multiple tools that don't integrate well with each other. Custom software allows companies to streamline workflows, automate processes, and manage operations more efficiently.
-            </p>
-            <p>
-              Beeclue Tech specializes in custom software development in Toronto and the Greater Toronto Area, building tailored platforms designed specifically for modern Canadian business requirements. We help enterprises across Mississauga, Markham, and downtown Toronto replace fragmented tools with scalable, unified systems.
-            </p>
-            <div style={{ marginTop: "1.5rem", color: "var(--muted)", lineHeight: "1.8" }}>
-              <strong>Our custom software services include:</strong>
-              <ul style={{ listStyleType: "none", paddingLeft: "0", marginTop: "0.5rem" }}>
-                <li>• Business management systems</li>
-                <li>• SaaS platform development</li>
-                <li>• CRM and ERP systems</li>
-                <li>• Workflow automation tools</li>
-                <li>• Customer portals</li>
-                <li>• API integrations</li>
-              </ul>
+        <div className={styles.scroller}>
+          {servicesList.map((service, index) => (
+            <div key={index} className={styles.serviceCard}>
+              <div className={styles.serviceCardImage}>
+                <Image
+                  src={service.image}
+                  alt={service.imageAlt}
+                  fill
+                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                  style={{ objectFit: "cover" }}
+                />
+              </div>
+              <div className={styles.serviceCardBody}>
+                <h3>{service.title}</h3>
+                <p>{service.desc}</p>
+                <ul className={styles.serviceFeatures}>
+                  {service.features.map((feat, fIdx) => (
+                    <li key={fIdx}>
+                      <Check size={16} color="var(--primary)" />
+                      <span>{feat}</span>
+                    </li>
+                  ))}
+                </ul>
+                <Link href={service.href} className={styles.learnMoreLink} aria-label={`Learn more about ${service.title}`}>
+                  Learn More <ArrowRight size={16} />
+                </Link>
+              </div>
             </div>
-            <p style={{ marginTop: "1rem", fontStyle: "italic", color: "var(--muted)" }}>
-              Every system is designed to scale with your business and adapt as your operations grow.
-            </p>
-            <Link href="/custom-software-development-toronto/" className={styles.learnMoreLink} aria-label="Learn more about Custom Software Development">Learn More <ArrowRight size={16} /></Link>
-          </div>
-          <div style={{ display: "flex", alignItems: "center", justifyContent: "center" }}>
-            <Code size={120} color="#3385ff" strokeWidth={1} />
-          </div>
-        </div>
-
-        <div className={styles.aboutGrid} style={{ marginBottom: "5rem" }}>
-          <div className={styles.aboutText}>
-            <h3 style={{ fontSize: "2rem", marginBottom: "1rem", color: "var(--foreground)" }}>Web Design & Development</h3>
-            <p>
-              A professional website is often the first impression customers have of your business. Our web development team builds modern websites designed for performance, local GTA search engine visibility, and premium user experience.
-            </p>
-            <p>
-              As a top-rated web development agency in the Greater Toronto Area, Beeclue Tech creates high-converting websites that combine attractive design with strong technical foundations. Whether you are a startup in Vaughan or an established enterprise in Brampton, our locally crafted web solutions are engineered to convert visitors into customers.
-            </p>
-            <div style={{ marginTop: "1.5rem", color: "var(--muted)", lineHeight: "1.8" }}>
-              <strong>Our website development services include:</strong>
-              <ul style={{ listStyleType: "none", paddingLeft: "0", marginTop: "0.5rem" }}>
-                <li>• Business website development</li>
-                <li>• WordPress website development</li>
-                <li>• Website redesign and modernization</li>
-                <li>• Landing page design</li>
-                <li>• Website speed optimization</li>
-                <li>• SEO-friendly development</li>
-              </ul>
-            </div>
-            <p style={{ marginTop: "1rem", fontStyle: "italic", color: "var(--muted)" }}>
-              Every website we build is mobile-friendly, optimized for search engines, and designed to convert visitors into customers.
-            </p>
-            <Link href="/web-design-toronto/" className={styles.learnMoreLink} aria-label="Learn more about Web Design in Toronto">Learn More <ArrowRight size={16} /></Link>
-          </div>
-          <div style={{ display: "flex", alignItems: "center", justifyContent: "center" }}>
-            <LayoutTemplate size={120} color="#3385ff" strokeWidth={1} />
-          </div>
-        </div>
-
-        <div className={styles.aboutGrid} style={{ marginBottom: "5rem" }}>
-          <div className={styles.aboutText}>
-            <h3 style={{ fontSize: "2rem", marginBottom: "1rem", color: "var(--foreground)" }}>WordPress Development Canada</h3>
-            <p>
-              WordPress powers over 40% of the internet. When engineered correctly, it is powerful, flexible, and extremely SEO-friendly. We strip away bloat and build custom, scalable WordPress experiences.
-            </p>
-            <p>
-              At Beeclue Tech, we serve clients across Canada with expert WordPress solutions. From headless architectures to seamless custom plugin integrations, we build fast, secure digital experiences.
-            </p>
-            <div style={{ marginTop: "1.5rem", color: "var(--muted)", lineHeight: "1.8" }}>
-              <strong>Our WordPress services include:</strong>
-              <ul style={{ listStyleType: "none", paddingLeft: "0", marginTop: "0.5rem" }}>
-                <li>• Custom theme development</li>
-                <li>• Plugin integration and development</li>
-                <li>• Headless WordPress architectures</li>
-                <li>• WordPress speed optimization</li>
-                <li>• Security hardening</li>
-              </ul>
-            </div>
-            <p style={{ marginTop: "1rem", fontStyle: "italic", color: "var(--muted)" }}>
-              Own your platform completely without vendor lock-in.
-            </p>
-            <Link href="/wordpress-web-design-canada/" className={styles.learnMoreLink} aria-label="Learn more about WordPress Web Design">Learn More <ArrowRight size={16} /></Link>
-          </div>
-          <div style={{ display: "flex", alignItems: "center", justifyContent: "center" }}>
-            <LayoutTemplate size={120} color="#3385ff" strokeWidth={1} />
-          </div>
-        </div>
-
-        <div className={styles.aboutGrid} style={{ marginBottom: "5rem" }}>
-          <div className={styles.aboutText}>
-            <h3 style={{ fontSize: "2rem", marginBottom: "1rem", color: "var(--foreground)" }}>Mobile App Development</h3>
-            <p>
-              Mobile applications allow businesses to connect with customers seamlessly, deliver services digitally, and create powerful new revenue streams.
-            </p>
-            <p>
-              Beeclue Tech offers professional mobile app development services across the GTA for startups and established Canadian companies. From native builds to cross-platform solutions, our Toronto-based app developers engineer reliable mobile experiences that connect you directly with your local and global audience.
-            </p>
-            <div style={{ marginTop: "1.5rem", color: "var(--muted)", lineHeight: "1.8" }}>
-              <strong>Our mobile development services include:</strong>
-              <ul style={{ listStyleType: "none", paddingLeft: "0", marginTop: "0.5rem" }}>
-                <li>• iOS app development</li>
-                <li>• Android app development</li>
-                <li>• Cross-platform mobile apps</li>
-                <li>• Startup MVP development</li>
-                <li>• App UI and UX design</li>
-              </ul>
-            </div>
-            <p style={{ marginTop: "1rem", fontStyle: "italic", color: "var(--muted)" }}>
-              We focus on building reliable mobile applications that deliver seamless user experiences across devices.
-            </p>
-            <Link href="/mobile-app-development-toronto/" className={styles.learnMoreLink} aria-label="Learn more about Mobile App Development">Learn More <ArrowRight size={16} /></Link>
-          </div>
-          <div style={{ display: "flex", alignItems: "center", justifyContent: "center" }}>
-            <Smartphone size={120} color="#3385ff" strokeWidth={1} />
-          </div>
-        </div>
-
-        <div className={styles.aboutGrid} style={{ marginBottom: "5rem" }}>
-          <div className={styles.aboutText}>
-            <h3 style={{ fontSize: "2rem", marginBottom: "1rem", color: "var(--foreground)" }}>Ecommerce Development</h3>
-            <p>
-              For retail and B2B businesses in the Greater Toronto Area, a high-performance ecommerce platform is essential to capture the digital market. Beeclue Tech helps Canadian companies build secure, scalable Shopify and custom ecommerce stores engineered to drive local sales and support international online growth.
-            </p>
-            <div style={{ marginTop: "1.5rem", color: "var(--muted)", lineHeight: "1.8" }}>
-              <strong>Our ecommerce development services include:</strong>
-              <ul style={{ listStyleType: "none", paddingLeft: "0", marginTop: "0.5rem" }}>
-                <li>• Shopify development</li>
-                <li>• WooCommerce development</li>
-                <li>• Custom ecommerce platforms</li>
-                <li>• Payment gateway integrations</li>
-                <li>• Inventory and order management systems</li>
-              </ul>
-            </div>
-            <p style={{ marginTop: "1rem", fontStyle: "italic", color: "var(--muted)" }}>
-              We design ecommerce platforms that provide smooth shopping experiences while maintaining high levels of security and performance.
-            </p>
-            <Link href="/ecommerce-development-toronto/" className={styles.learnMoreLink} aria-label="Learn more about Ecommerce Development">Learn More <ArrowRight size={16} /></Link>
-          </div>
-          <div style={{ display: "flex", alignItems: "center", justifyContent: "center" }}>
-            <ShoppingCart size={120} color="#3385ff" strokeWidth={1} />
-          </div>
-        </div>
-
-        <div className={styles.aboutGrid}>
-          <div className={styles.aboutText}>
-            <h3 style={{ fontSize: "2rem", marginBottom: "1rem", color: "var(--foreground)" }}>SEO & Digital Visibility</h3>
-            <p>
-              Having a great website is only valuable if customers can find it online. Our technical SEO services help businesses improve their search engine visibility and attract highly qualified traffic.
-            </p>
-            <p>
-              Beeclue Tech provides specialized SEO services for businesses in Toronto and the GTA, focusing on sustainable organic growth. We ensure your brand dominates local search rankings across Etobicoke, Scarborough, and the wider Toronto region.
-            </p>
-            <div style={{ marginTop: "1.5rem", color: "var(--muted)", lineHeight: "1.8" }}>
-              <strong>Our SEO services include:</strong>
-              <ul style={{ listStyleType: "none", paddingLeft: "0", marginTop: "0.5rem" }}>
-                <li>• Technical SEO optimization</li>
-                <li>• On-page SEO improvements</li>
-                <li>• Local SEO targeting Toronto</li>
-                <li>• Website speed optimization</li>
-                <li>• Search analytics and monitoring</li>
-              </ul>
-            </div>
-            <p style={{ marginTop: "1rem", fontStyle: "italic", color: "var(--muted)" }}>
-              Through structured SEO strategies, we help businesses strengthen their online presence and generate consistent organic traffic.
-            </p>
-            <Link href="/seo-services-toronto/" className={styles.learnMoreLink} aria-label="Learn more about SEO Services">Learn More <ArrowRight size={16} /></Link>
-          </div>
-          <div style={{ display: "flex", alignItems: "center", justifyContent: "center" }}>
-            <Search size={120} color="#3385ff" strokeWidth={1} />
-          </div>
-        </div>
-
-        <div className={styles.aboutGrid}>
-          <div className={styles.aboutText}>
-            <h3 style={{ fontSize: "2rem", marginBottom: "1rem", color: "var(--foreground)" }}>UI/UX Design & Branding</h3>
-            <p>
-              Design that drives revenue. We architect premium, user-centric interfaces and brand identities that captivate audiences, eliminate friction, and transform casual visitors into loyal customers.
-            </p>
-            <p>
-              At Beeclue Tech, we bridge the gap between stunning visual aesthetics and profound psychological usability, delivering world-class digital experiences for Canadian businesses.
-            </p>
-            <div style={{ marginTop: "1.5rem", color: "var(--muted)", lineHeight: "1.8" }}>
-              <strong>Our design services include:</strong>
-              <ul style={{ listStyleType: "none", paddingLeft: "0", marginTop: "0.5rem" }}>
-                <li>• UI Design (Figma)</li>
-                <li>• UX Research & Wireframing</li>
-                <li>• Brand Identity & Logos</li>
-                <li>• Mobile App Design</li>
-                <li>• Web & SaaS Design</li>
-              </ul>
-            </div>
-            <p style={{ marginTop: "1rem", fontStyle: "italic", color: "var(--muted)" }}>
-              We design scalable systems that simplify complex information.
-            </p>
-            <Link href="/ui-ux-design-toronto/" className={styles.learnMoreLink} aria-label="Learn more about UI/UX Design">Learn More <ArrowRight size={16} /></Link>
-          </div>
-          <div style={{ display: "flex", alignItems: "center", justifyContent: "center" }}>
-            <Search size={120} color="#3385ff" strokeWidth={1} />
-          </div>
+          ))}
         </div>
       </FadeIn>
 
@@ -261,15 +167,15 @@ export default function ServicesPage() {
           <h2>Tech Stack</h2>
           <p>Our development team works with modern technologies to build scalable digital platforms.</p>
         </div>
-        <div className={styles.techTags} style={{ gap: "1rem", marginTop: "2rem" }}>
-          <span style={{ fontSize: "1rem", padding: "0.75rem 1.5rem" }}>Flutter</span>
-          <span style={{ fontSize: "1rem", padding: "0.75rem 1.5rem" }}>WordPress</span>
-          <span style={{ fontSize: "1rem", padding: "0.75rem 1.5rem" }}>Firebase</span>
-          <span style={{ fontSize: "1rem", padding: "0.75rem 1.5rem" }}>React</span>
-          <span style={{ fontSize: "1rem", padding: "0.75rem 1.5rem" }}>Node.js</span>
-          <span style={{ fontSize: "1rem", padding: "0.75rem 1.5rem" }}>Express.js</span>
-          <span style={{ fontSize: "1rem", padding: "0.75rem 1.5rem" }}>Remix</span>
-          <span style={{ fontSize: "1rem", padding: "0.75rem 1.5rem" }}>Next.js</span>
+        <div className={styles.techTags}>
+          <span>Flutter</span>
+          <span>WordPress</span>
+          <span>Firebase</span>
+          <span>React</span>
+          <span>Node.js</span>
+          <span>Express.js</span>
+          <span>Remix</span>
+          <span>Next.js</span>
         </div>
       </FadeIn>
 
@@ -277,6 +183,7 @@ export default function ServicesPage() {
       <FadeIn className={`${styles.baseSection} ${styles.valueSection}`}>
         <div className={styles.valueHeader}>
           <h2>Why Businesses Choose Us</h2>
+          <p>Key architectural standards, transparent workflows, and engineering practices that guarantee business results.</p>
         </div>
         <div className={styles.valueGrid}>
           <div className={styles.valueItem}>
