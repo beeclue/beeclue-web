@@ -175,7 +175,13 @@ export default function Navigation() {
 
           {/* Nav Links */}
           <nav className={styles.desktopLinks} aria-label="Main Navigation">
-            
+            <Link 
+              href="/" 
+              className={`${styles.desktopLink} ${pathname === "/" ? styles.desktopLinkActive : ""}`}
+            >
+              Home
+            </Link>
+
             {/* Services with Dropdown */}
             <div 
               className={styles.dropdownContainer}
@@ -261,6 +267,13 @@ export default function Navigation() {
               className={`${styles.desktopLink} ${pathname === "/about-us" ? styles.desktopLinkActive : ""}`}
             >
               About
+            </Link>
+
+            <Link 
+              href="/contact" 
+              className={`${styles.desktopLink} ${pathname === "/contact" ? styles.desktopLinkActive : ""}`}
+            >
+              Contact
             </Link>
           </nav>
 
