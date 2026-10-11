@@ -101,7 +101,7 @@ export default function AiReadinessCheckerPage() {
           </div>
 
           <div className={styles.valueGrid}>
-            <div className={styles.valueItem}>
+            <div className={styles.valueItem} style={{ display: "flex", flexDirection: "column", alignItems: "center", textAlign: "center" }}>
               <Cpu size={32} color="var(--primary-light)" style={{ marginBottom: "1rem" }} />
               <h3>1. AI Infrastructure & Schema</h3>
               <p>
@@ -109,7 +109,7 @@ export default function AiReadinessCheckerPage() {
               </p>
             </div>
 
-            <div className={styles.valueItem}>
+            <div className={styles.valueItem} style={{ display: "flex", flexDirection: "column", alignItems: "center", textAlign: "center" }}>
               <Bot size={32} color="var(--primary-light)" style={{ marginBottom: "1rem" }} />
               <h3>2. Unrestricted AI Crawler Access</h3>
               <p>
@@ -117,7 +117,7 @@ export default function AiReadinessCheckerPage() {
               </p>
             </div>
 
-            <div className={styles.valueItem}>
+            <div className={styles.valueItem} style={{ display: "flex", flexDirection: "column", alignItems: "center", textAlign: "center" }}>
               <ShieldCheck size={32} color="var(--primary-light)" style={{ marginBottom: "1rem" }} />
               <h3>3. Verifiable Trust & Entity Authority</h3>
               <p>
@@ -135,7 +135,9 @@ export default function AiReadinessCheckerPage() {
             <h2>Frequently Asked Questions</h2>
             <p>Everything you need to know about AI search optimization and website grading.</p>
           </div>
-          <FaqAccordion faqs={faqs} />
+          <div style={{ maxWidth: "800px", margin: "0 auto", width: "100%" }}>
+            <FaqAccordion faqs={faqs} />
+          </div>
         </FadeIn>
       </section>
     </div>

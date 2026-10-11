@@ -157,11 +157,11 @@ export default function AiReadinessGrader() {
     <div className={styles.toolContainer}>
       {/* Hero Section matching site design */}
       <div className={styles.heroContent}>
-        <h1 className={globalStyles.title}>
+        <h1 className={styles.heroTitle}>
           <span className={globalStyles.titleLinePrimary}>Is Your Website</span>
           <span className={globalStyles.titleLine}>Visible to AI Search?</span>
         </h1>
-        <p className={globalStyles.subtitle}>
+        <p className={styles.heroSubtitle}>
           When clients ask ChatGPT, Google AI Overviews, or Perplexity to recommend a local business, does your company show up? Get your instant AI Readiness Score, category breakdown, and fix roadmap in 30 seconds.
         </p>
 
