@@ -38,7 +38,7 @@ export default function AboutUsPage() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
       {/* HEADER SECTION */}
-      <FadeIn className={styles.baseSection} style={{ paddingTop: "20vh", minHeight: "50vh", display: "flex", alignItems: "center" }}>
+      <FadeIn className={styles.baseSection} style={{ paddingTop: "20vh", minHeight: "50vh", display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center" }}>
         <div className={styles.heroContent}>
           <h1 className={styles.title} style={{ fontSize: "clamp(2.5rem, 6vw, 5rem)" }}>
             <span className={styles.titleLinePrimary}>Crafting Digital</span>
@@ -48,10 +48,14 @@ export default function AboutUsPage() {
           <p className={styles.subtitle} style={{ fontSize: "1.25rem", maxWidth: "800px" }}>
             Beeclue Tech is an elite digital development agency helping businesses build powerful websites, scalable software systems, and mobile applications. We partner with companies across Toronto to create technology solutions that support long-term growth and innovation.
           </p>
-          <div style={{ display: "flex", gap: "1.5rem", alignItems: "center" }}>
+          <div className={styles.heroRatingContainer}>
             <Link href="/contact" className={styles.ctaButton}>
               Get a Free Consultation <ArrowRight className={styles.arrow} />
             </Link>
+            <div className={styles.heroRatingBadge}>
+              <div style={{ color: "#fbbf24", fontSize: "1.25rem", letterSpacing: "2px" }}>★★★★★</div>
+              <span style={{ color: "var(--muted)", fontSize: "0.875rem" }}>5.0 from 30+ reviews</span>
+            </div>
           </div>
         </div>
       </FadeIn>
