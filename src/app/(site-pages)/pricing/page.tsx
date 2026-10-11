@@ -142,7 +142,7 @@ export default function PricingPage() {
           <div className={pricingStyles.pricingCard}>
             <div className={pricingStyles.cardHeader}>
               <div className={pricingStyles.cardTag}>Package 1</div>
-              <h2 className={pricingStyles.cardTitle}>Premium Core</h2>
+              <h3 className={pricingStyles.cardTitle}>Premium Core</h3>
               <p className={pricingStyles.cardDesc}>
                 A high-speed, bespoke web presence built from scratch for solo practitioners and boutique service firms.
               </p>
@@ -204,7 +204,7 @@ export default function PricingPage() {
 
             <div className={pricingStyles.cardHeader}>
               <div className={pricingStyles.cardTag}>Premium Package 2</div>
-              <h2 className={pricingStyles.cardTitle}>Premium Growth</h2>
+              <h3 className={pricingStyles.cardTitle}>Premium Growth</h3>
               <p className={pricingStyles.cardDesc}>
                 Full-funnel digital authority for growing practices, multi-location clinics, and commercial service companies.
               </p>
@@ -264,7 +264,7 @@ export default function PricingPage() {
           <div className={pricingStyles.pricingCard}>
             <div className={pricingStyles.cardHeader}>
               <div className={pricingStyles.cardTag}>Premium Package 3</div>
-              <h2 className={pricingStyles.cardTitle}>Enterprise / E-Com</h2>
+              <h3 className={pricingStyles.cardTitle}>Enterprise / E-Com</h3>
               <p className={pricingStyles.cardDesc}>
                 High-volume e-commerce stores, custom SaaS portals, and mission-critical multi-currency platforms.
               </p>
