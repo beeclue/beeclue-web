@@ -303,24 +303,24 @@ export default function AiReadinessGrader() {
               <div className={styles.findingsList}>
                 {result.recommendations.map((rec, i) => (
                   <div key={i} className={styles.findingCard}>
-                    <div className={styles.findingIconWrap}>
-                      <AlertCircle
-                        size={22}
-                        color={rec.impact === 'high' ? '#ef4444' : '#f59e0b'}
-                      />
-                    </div>
+                    <div className={styles.findingNumber}>{i + 1}</div>
                     <div className={styles.findingContent}>
                       <div className={styles.findingHeader}>
                         <h4 className={styles.findingTitle}>{rec.check}</h4>
-                        <span className={styles.impactBadge}>
-                          [{rec.impact.toUpperCase()} IMPACT · {rec.category.toUpperCase()}]
+                        <span
+                          className={`${styles.priorityBadge} ${
+                            rec.impact === 'high' ? styles.priorityHigh : styles.priorityMedium
+                          }`}
+                        >
+                          {rec.impact === 'high' ? 'High Priority' : 'Recommended'}
                         </span>
                       </div>
                       <p className={styles.findingDetails}>{rec.details}</p>
                       {rec.recommendation && (
-                        <div className={styles.findingAction}>
-                          <strong>Recommended Fix:</strong> {rec.recommendation}
-                        </div>
+                        <p className={styles.findingAction}>
+                          <span className={styles.actionLabel}>Action:</span>
+                          {rec.recommendation}
+                        </p>
                       )}
                     </div>
                   </div>

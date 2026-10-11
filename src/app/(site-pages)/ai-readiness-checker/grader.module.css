@@ -359,23 +359,41 @@
 .findingsList {
   display: flex;
   flex-direction: column;
-  gap: 1.25rem;
-  margin-top: 1.5rem;
+  gap: 1rem;
+  max-width: 900px;
+  margin: 1.5rem auto 0 auto;
+  width: 100%;
 }
 
 .findingCard {
   background: rgba(255, 255, 255, 0.02);
   border: 1px solid var(--border);
-  border-radius: 12px;
-  padding: 1.5rem;
+  border-radius: 10px;
+  padding: 1.25rem 1.5rem;
   display: flex;
   gap: 1.25rem;
   align-items: flex-start;
+  transition: border-color 0.2s ease;
 }
 
-.findingIconWrap {
-  margin-top: 3px;
+.findingCard:hover {
+  border-color: rgba(255, 255, 255, 0.12);
+}
+
+.findingNumber {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid var(--border);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--muted);
   flex-shrink: 0;
+  margin-top: 2px;
 }
 
 .findingContent {
@@ -385,40 +403,57 @@
 .findingHeader {
   display: flex;
   align-items: center;
-  gap: 0.75rem;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-bottom: 0.4rem;
   flex-wrap: wrap;
-  margin-bottom: 0.5rem;
 }
 
 .findingTitle {
   font-size: 1.05rem;
   font-weight: 600;
   color: var(--foreground);
+  margin: 0;
 }
 
-.impactBadge {
+.priorityBadge {
   font-size: 0.75rem;
-  font-weight: 600;
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
-  color: var(--muted);
+  font-weight: 500;
+  padding: 0.2rem 0.65rem;
+  border-radius: 9999px;
+  letter-spacing: 0.02em;
+}
+
+.priorityHigh {
+  background: rgba(239, 68, 68, 0.1);
+  color: #f87171;
+  border: 1px solid rgba(239, 68, 68, 0.25);
+}
+
+.priorityMedium {
+  background: rgba(245, 158, 11, 0.1);
+  color: #fbbf24;
+  border: 1px solid rgba(245, 158, 11, 0.25);
 }
 
 .findingDetails {
-  font-size: 0.95rem;
+  font-size: 0.92rem;
   color: var(--muted);
   line-height: 1.55;
-  margin-bottom: 0.75rem;
+  margin: 0 0 0.5rem 0;
 }
 
 .findingAction {
-  font-size: 0.9rem;
+  font-size: 0.92rem;
   color: var(--foreground);
-  background: rgba(0, 0, 0, 0.4);
-  padding: 0.75rem 1rem;
-  border-radius: 8px;
-  border-left: 3px solid var(--primary);
   line-height: 1.5;
+  margin: 0;
+}
+
+.actionLabel {
+  color: var(--primary-light);
+  font-weight: 600;
+  margin-right: 0.35rem;
 }
 
 /* Call to Action Pitch */
