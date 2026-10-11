@@ -19,7 +19,7 @@ export default function PredictiveArc({
   speed = 1,
   spacing = 5,
   dotSize = 5.5,
-  archHeight = 0.65,
+  archHeight = 0.55,
   thickness = 1,
   brightness = 1.1,
   hue = 0,
@@ -70,8 +70,8 @@ export default function PredictiveArc({
       }
 
       const centerX = width / 2;
-      const centerY = height * 0.28;
-      const archSpan = width * 1.45;
+      const centerY = height * 0.40;
+      const archSpan = width * 1.5;
       const calculatedArchHeight = height * archHeight;
 
       // Additive blending for vivid, luminous glow
@@ -95,17 +95,17 @@ export default function PredictiveArc({
 
           if (intensity <= 0.02) continue;
 
-          // ThreeUI Predictive Arc deep violet, indigo, and bright core algorithm
-          let r = Math.min(255, 60 * intensity + 100 * Math.pow(intensity, 3));
-          let g = Math.min(255, 20 * intensity + 65 * Math.pow(intensity, 4));
-          let b = Math.min(255, 130 * intensity + 145 * Math.pow(intensity, 2));
+          // Vibrant Beeclue Primary Electric Blue (#3385ff / rgb(51, 133, 255))
+          let r = Math.min(255, 25 * intensity + 35 * Math.pow(intensity, 2));
+          let g = Math.min(255, 90 * intensity + 65 * Math.pow(intensity, 2));
+          let b = Math.min(255, 215 * intensity + 40 * Math.pow(intensity, 2));
 
-          // Luminous core flare
-          if (intensity > 0.68) {
-            const coreBoost = (intensity - 0.68) * 3.4;
-            r = Math.min(255, r + 160 * coreBoost);
-            g = Math.min(255, g + 160 * coreBoost);
-            b = Math.min(255, b + 160 * coreBoost);
+          // Luminous electric flare in the active core
+          if (intensity > 0.58) {
+            const coreBoost = (intensity - 0.58) * 3.2;
+            r = Math.min(255, r + 165 * coreBoost);
+            g = Math.min(255, g + 185 * coreBoost);
+            b = 255;
           }
 
           ctx.fillStyle = `rgb(${Math.floor(r * brightness)}, ${Math.floor(g * brightness)}, ${Math.floor(b * brightness)})`;
