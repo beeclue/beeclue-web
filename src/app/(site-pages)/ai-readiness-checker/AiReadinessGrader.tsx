@@ -264,7 +264,7 @@ export default function AiReadinessGrader() {
           </div>
 
           {/* Category Breakdown */}
-          <div>
+          <div style={{ width: '100%' }}>
             <div className={globalStyles.servicesHeader} style={{ marginBottom: '1.5rem' }}>
               <h2>Category Score Breakdown</h2>
               <p>The six critical evaluation layers large language models and search engines assess before citing a business.</p>
@@ -301,7 +301,7 @@ export default function AiReadinessGrader() {
 
           {/* Key Findings */}
           {result.recommendations.length > 0 && (
-            <div>
+            <div style={{ width: '100%' }}>
               <div className={globalStyles.servicesHeader} style={{ marginBottom: '1.5rem' }}>
                 <h2>High-Priority Visibility Fixes</h2>
                 <p>Actionable gaps preventing ChatGPT, Perplexity, and Google AI Overviews from citing your services.</p>

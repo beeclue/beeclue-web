@@ -163,7 +163,6 @@
 
 .scoreHeroCard {
   width: 100%;
-  max-width: 1000px;
   margin: 0 auto;
   background: rgba(255, 255, 255, 0.02);
   border: 1px solid var(--border);
@@ -245,7 +244,6 @@
 
 .verdictBox {
   width: 100%;
-  max-width: 900px;
   margin: 1.5rem auto 0;
   background: rgba(0, 0, 0, 0.5);
   border: 1px solid var(--border);
@@ -263,6 +261,7 @@
   grid-template-columns: 1fr;
   gap: 1.5rem;
   margin-top: 1.5rem;
+  width: 100%;
 }
 
 @media (min-width: 768px) {
@@ -272,6 +271,7 @@
 }
 
 .categoryCard {
+  width: 100%;
   background: rgba(255, 255, 255, 0.02);
   border: 1px solid var(--border);
   border-radius: 12px;
@@ -361,9 +361,11 @@
   flex-direction: column;
   gap: 1.25rem;
   margin-top: 1.5rem;
+  width: 100%;
 }
 
 .findingCard {
+  width: 100%;
   background: rgba(255, 255, 255, 0.02);
   border: 1px solid var(--border);
   border-radius: 12px;
@@ -423,7 +425,6 @@
 /* Call to Action Pitch */
 .pitchCard {
   width: 100%;
-  max-width: 1000px;
   background: rgba(255, 255, 255, 0.02);
   border: 1px solid var(--border);
   border-radius: 12px;
