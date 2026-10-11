@@ -170,69 +170,47 @@ export default function WebDesignTorontoPage() {
           <p>Comprehensive, end-to-end web solutions tailored to scale your local or enterprise business.</p>
         </div>
         
-        <div className={styles.aboutGrid} style={{ marginBottom: "5rem" }}>
-          <div className={styles.aboutText}>
-            <h3 style={{ fontSize: "2rem", marginBottom: "1rem", color: "var(--foreground)" }}>Custom Website Design</h3>
-            <p>We engineer visually captivating, bespoke websites strictly aligned with your brand identity. Our user-centric (UX/UI) designs guarantee intuitive navigation and strong engagement, ensuring your business stands out from local competitors.</p>
-            <Link href="/contact" className={styles.learnMoreLink} aria-label="Contact us to learn more about Custom Web Applications">Learn More <ArrowRight size={16} /></Link>
+        <div className={styles.scroller}>
+          <div className={styles.serviceCard}>
+            <LayoutTemplate className={styles.serviceIcon} />
+            <h3>Custom Website Design</h3>
+            <p>We engineer visually captivating, bespoke websites strictly aligned with your brand identity. User-centric UI/UX architectures designed to guarantee intuitive navigation, memorable interactions, and high visitor engagement.</p>
+            <Link href="/contact" className={styles.learnMoreLink} aria-label="Contact us about Custom Website Design">Learn More <ArrowRight size={16} /></Link>
           </div>
-          <div style={{ display: "flex", alignItems: "center", justifyContent: "center" }}>
-            <LayoutTemplate size={120} color="#3385ff" strokeWidth={1} />
-          </div>
-        </div>
 
-        <div className={styles.aboutGrid} style={{ marginBottom: "5rem" }}>
-          <div className={styles.aboutText}>
-            <h3 style={{ fontSize: "2rem", marginBottom: "1rem", color: "var(--foreground)" }}>Business Website Development</h3>
-            <p>We build professional, corporate-grade websites explicitly structured to showcase your services and capture leads. Every site is fully responsive (mobile-friendly), fast-loading, and architected to support aggressive long-term scaling.</p>
-            <Link href="/contact" className={styles.learnMoreLink} aria-label="Contact us to learn more about UI/UX Design">Learn More <ArrowRight size={16} /></Link>
+          <div className={styles.serviceCard}>
+            <Briefcase className={styles.serviceIcon} />
+            <h3>Business Website Development</h3>
+            <p>Professional, corporate-grade websites explicitly structured to showcase your service capabilities and capture qualified leads. Fully responsive, mobile-first, and engineered for aggressive business growth.</p>
+            <Link href="/contact" className={styles.learnMoreLink} aria-label="Contact us about Business Website Development">Learn More <ArrowRight size={16} /></Link>
           </div>
-          <div style={{ display: "flex", alignItems: "center", justifyContent: "center" }}>
-            <Briefcase size={120} color="#3385ff" strokeWidth={1} />
-          </div>
-        </div>
 
-        <div className={styles.aboutGrid} style={{ marginBottom: "5rem" }}>
-          <div className={styles.aboutText}>
-            <h3 style={{ fontSize: "2rem", marginBottom: "1rem", color: "var(--foreground)" }}>WordPress Development</h3>
-            <p>Empower your team with flexible, highly scalable WordPress platforms. We design custom WP themes, integrate essential plugins, and heavily optimize the backend for blazing performance and effortless content management.</p>
-            <Link href="/contact" className={styles.learnMoreLink} aria-label="Contact us to learn more about Full Stack Development">Learn More <ArrowRight size={16} /></Link>
+          <div className={styles.serviceCard}>
+            <Globe className={styles.serviceIcon} />
+            <h3>WordPress Development</h3>
+            <p>Empower your team with flexible, highly scalable WordPress platforms. Custom themes, hand-coded architectures with zero bloat, and advanced caching for effortless content management.</p>
+            <Link href="/wordpress-web-design-canada/" className={styles.learnMoreLink} aria-label="Learn more about WordPress Web Design">Learn More <ArrowRight size={16} /></Link>
           </div>
-          <div style={{ display: "flex", alignItems: "center", justifyContent: "center" }}>
-            <Globe size={120} color="#3385ff" strokeWidth={1} />
-          </div>
-        </div>
 
-        <div className={styles.aboutGrid} style={{ marginBottom: "5rem" }}>
-          <div className={styles.aboutText}>
-            <h3 style={{ fontSize: "2rem", marginBottom: "1rem", color: "var(--foreground)" }}>Website Redesign</h3>
-            <p>Is your current site bleeding leads due to outdated design or slow speeds? Our complete digital overhauls modernize your web presence, resolving technical debt and drastically improving user retention and conversion rates.</p>
-            <Link href="/contact" className={styles.learnMoreLink} aria-label="Contact us to learn more about Backend Architecture">Learn More <ArrowRight size={16} /></Link>
+          <div className={styles.serviceCard}>
+            <RefreshCcw className={styles.serviceIcon} />
+            <h3>Website Redesign</h3>
+            <p>Is your current site bleeding leads due to outdated design or slow speeds? Our digital overhauls modernize your web presence, resolving technical debt and drastically boosting user retention and conversions.</p>
+            <Link href="/website-redesign-toronto/" className={styles.learnMoreLink} aria-label="Learn more about Website Redesign in Toronto">Learn More <ArrowRight size={16} /></Link>
           </div>
-          <div style={{ display: "flex", alignItems: "center", justifyContent: "center" }}>
-            <RefreshCcw size={120} color="#3385ff" strokeWidth={1} />
-          </div>
-        </div>
 
-        <div className={styles.aboutGrid} style={{ marginBottom: "5rem" }}>
-          <div className={styles.aboutText}>
-            <h3 style={{ fontSize: "2rem", marginBottom: "1rem", color: "var(--foreground)" }}>Ecommerce Development</h3>
-            <p>Scale your digital retail footprint with ultra-secure ecommerce ecosystems. From custom headless builds to advanced Shopify integrations, we optimize the entire checkout flow for maximum sales volume and zero friction.</p>
-            <Link href="/contact" className={styles.learnMoreLink} aria-label="Contact us to learn more about Cloud Infrastructure">Learn More <ArrowRight size={16} /></Link>
+          <div className={styles.serviceCard}>
+            <ShoppingCart className={styles.serviceIcon} />
+            <h3>Ecommerce Development</h3>
+            <p>Scale your digital retail footprint with ultra-secure ecommerce ecosystems. From custom headless Next.js builds to advanced Shopify Plus setups, optimized for maximum sales volume and frictionless checkout.</p>
+            <Link href="/ecommerce-development-toronto/" className={styles.learnMoreLink} aria-label="Learn more about Ecommerce Development">Learn More <ArrowRight size={16} /></Link>
           </div>
-          <div style={{ display: "flex", alignItems: "center", justifyContent: "center" }}>
-            <ShoppingCart size={120} color="#3385ff" strokeWidth={1} />
-          </div>
-        </div>
 
-        <div className={styles.aboutGrid}>
-          <div className={styles.aboutText}>
-            <h3 style={{ fontSize: "2rem", marginBottom: "1rem", color: "var(--foreground)" }}>SEO-Friendly Development</h3>
-            <p>Beautiful code means higher rankings. We adhere to rigorous technical SEO best practices—implementing clean architecture, schema markup, and advanced caching so your site naturally dominates Toronto search results from day one.</p>
-            <Link href="/contact" className={styles.learnMoreLink} aria-label="Contact us to learn more about API Integrations">Learn More <ArrowRight size={16} /></Link>
-          </div>
-          <div style={{ display: "flex", alignItems: "center", justifyContent: "center" }}>
-            <Search size={120} color="#3385ff" strokeWidth={1} />
+          <div className={styles.serviceCard}>
+            <Search className={styles.serviceIcon} />
+            <h3>SEO-Friendly Development</h3>
+            <p>Beautiful code means higher rankings. We adhere to rigorous technical SEO standards—clean architecture, JSON-LD schema markup, and Core Web Vitals optimization so your site dominates Toronto search results.</p>
+            <Link href="/seo-services-toronto/" className={styles.learnMoreLink} aria-label="Learn more about SEO Services in Toronto">Learn More <ArrowRight size={16} /></Link>
           </div>
         </div>
       </FadeIn>
