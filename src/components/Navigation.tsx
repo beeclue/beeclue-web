@@ -5,7 +5,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { m, AnimatePresence } from 'framer-motion';
 import styles from "./Navigation.module.css";
-import { Menu, X, Plus, Minus, ChevronDown, ArrowRight, Code, Layout, Smartphone, ShoppingCart, Search, Palette, Globe } from "lucide-react";
+import { Menu, X, Plus, Minus, ChevronDown, ArrowRight, Code, Layout, Smartphone, ShoppingCart, Search, Palette, Globe, Bot } from "lucide-react";
 import { usePathname } from "next/navigation";
 
 const servicesDropdown = [
@@ -51,6 +51,12 @@ const servicesDropdown = [
     desc: "Custom hand-coded themes with zero plugin bloat.",
     icon: Globe,
   },
+  {
+    name: "AI Readiness Checker",
+    href: "/ai-readiness-checker",
+    desc: "Free automated audit for ChatGPT & AEO visibility.",
+    icon: Bot,
+  },
 ];
 
 const menuLinks = [
@@ -61,6 +67,7 @@ const menuLinks = [
     isNested: true,
     children: [
       { name: "All Services", href: "/services/" },
+      { name: "AI Readiness Checker (Free Tool)", href: "/ai-readiness-checker" },
       { name: "Web Design & Development", href: "/web-design-toronto/" },
       { name: "Custom Software", href: "/custom-software-development-toronto/" },
       { name: "Mobile Apps", href: "/mobile-app-development-toronto/" },
@@ -151,7 +158,8 @@ export default function Navigation() {
   const isServicesActive = pathname.startsWith("/services") || 
     pathname.includes("development") || 
     pathname.includes("design-toronto") || 
-    pathname.includes("seo-services");
+    pathname.includes("seo-services") ||
+    pathname === "/ai-readiness-checker";
 
   return (
     <>

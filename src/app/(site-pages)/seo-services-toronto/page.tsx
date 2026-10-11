@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import styles from "@/app/page.module.css";
-import { ArrowRight, LayoutTemplate, Briefcase, Globe, RefreshCcw, ShoppingCart, Search, CheckCircle2, Check, BarChart, TrendingUp, Target, Users } from "lucide-react";
+import { ArrowRight, LayoutTemplate, Briefcase, Globe, RefreshCcw, ShoppingCart, Search, CheckCircle2, Check, BarChart, TrendingUp, Target, Users, Sparkles } from "lucide-react";
 import FadeIn from "@/components/FadeIn";
 import ServiceTracker from "@/components/ServiceTracker";
 import FaqAccordion from "@/components/FaqAccordion";
@@ -15,6 +15,7 @@ export default function SeoServicesTorontoPage() {
     { q: "What is included in your SEO services?", a: "Our SEO services include technical SEO audits and fixes, on-page optimization with keyword mapping, local Toronto SEO with Google Business Profile management, content strategy and creation, link building and digital PR, and detailed monthly performance reporting with actionable insights." },
     { q: "Do you do local SEO for Toronto businesses?", a: "Yes. Local SEO is one of our core specialties. We optimize your Google Business Profile, build local citations across Canadian directories, create neighborhood-specific landing pages, and implement local schema markup to help you appear in Google Maps and the local map pack for Toronto-area searches." },
     { q: "How is your SEO different from other agencies?", a: "Unlike agencies that treat SEO and web design as separate services, we build SEO into your website from day one. This means no dropped rankings on redesign, no SEO as an afterthought, and both services working together under one roof. Our approach ensures your site is technically sound, fast, and built to rank from launch." },
+    { q: "How does AI Search (ChatGPT, Perplexity, Google AI Overviews) impact my SEO?", a: "Conversational AI assistants rely on structured Schema.org markup, unrestricted machine crawling, and verifiable entity credibility to recommend businesses. We optimize your digital presence for both Google search and Generative AI engines (AEO/GEO). You can audit your website instantly with our free AI Readiness Checker." },
   ];
 
   const jsonLd = {
@@ -70,6 +71,14 @@ export default function SeoServicesTorontoPage() {
             "acceptedAnswer": {
               "@type": "Answer",
               "text": "Unlike agencies that treat SEO and web design as separate services, we build SEO into your website from day one. This means no dropped rankings on redesign, no SEO as an afterthought, and both services working together under one roof. Our approach ensures your site is technically sound, fast, and built to rank from launch."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How does AI Search (ChatGPT, Perplexity, Google AI Overviews) impact my SEO?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Conversational AI assistants rely on structured Schema.org markup, unrestricted machine crawling, and verifiable entity credibility to recommend businesses. We optimize your digital presence for both Google search and Generative AI engines (AEO/GEO). You can audit your website instantly with our free AI Readiness Checker."
             }
           }
         ]
@@ -188,6 +197,52 @@ export default function SeoServicesTorontoPage() {
             <Users className={styles.serviceIcon} />
             <h3>Digital PR & Backlinks</h3>
             <p>We earn high-authority, contextual backlinks through legitimate digital PR and outreach, drastically increasing your domain's overall trust and ranking power.</p>
+          </div>
+        </div>
+      </FadeIn>
+
+      {/* AI READINESS & AEO AUDIT CALLOUT */}
+      <FadeIn className={styles.baseSection}>
+        <div style={{
+          background: "linear-gradient(135deg, rgba(200, 149, 109, 0.08) 0%, rgba(255, 255, 255, 0.02) 100%)",
+          border: "1px solid var(--border)",
+          borderRadius: "16px",
+          padding: "clamp(2rem, 5vw, 3.5rem)",
+          display: "flex",
+          flexDirection: "column",
+          alignItems: "center",
+          textAlign: "center",
+          gap: "1.25rem",
+          width: "100%",
+          margin: "0 auto",
+        }}>
+          <div style={{
+            display: "inline-flex",
+            alignItems: "center",
+            gap: "0.5rem",
+            padding: "0.35rem 0.85rem",
+            borderRadius: "50px",
+            background: "rgba(200, 149, 109, 0.15)",
+            border: "1px solid rgba(200, 149, 109, 0.3)",
+            color: "var(--primary-light)",
+            fontSize: "0.85rem",
+            fontWeight: 600,
+            textTransform: "uppercase",
+            letterSpacing: "0.05em"
+          }}>
+            <Sparkles size={14} /> Free Instant Tool
+          </div>
+          <h2 style={{ fontSize: "clamp(1.75rem, 4vw, 2.75rem)", fontWeight: 700, margin: 0, color: "var(--foreground)" }}>
+            Is Your Website Visible to AI Search?
+          </h2>
+          <p style={{ color: "var(--muted)", fontSize: "1.1rem", maxWidth: "720px", lineHeight: 1.6, margin: 0 }}>
+            Large language models like ChatGPT, Perplexity, Claude, and Google AI Overviews do not browse websites like humans. Test your Schema markup, crawler permissions, and entity trust in seconds with our automated audit tool.
+          </p>
+          <div style={{ marginTop: "0.5rem" }}>
+            <Link href="/ai-readiness-checker" className={styles.ctaButton} style={{ display: "inline-flex", alignItems: "center", gap: "0.5rem" }}>
+              <span>Run Free AI Readiness Checker</span>
+              <ArrowRight size={16} />
+            </Link>
           </div>
         </div>
       </FadeIn>
