@@ -251,12 +251,20 @@
 .baseSection > .heroContent .title {
   text-align: center;
   align-items: center;
+  margin-bottom: 2rem;
 }
 
 .baseSection > .heroContent .subtitle {
   text-align: center;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 2.75rem;
+  line-height: 1.7;
+}
+
+.baseSection > .heroContent .heroRatingContainer,
+.baseSection > .heroContent .ctaButton {
+  margin-top: 0.5rem;
 }
 
 /* About & Stats */
