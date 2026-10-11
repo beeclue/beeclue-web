@@ -6,7 +6,7 @@ import FadeIn from "@/components/FadeIn";
 import IndustryList from "@/components/IndustryList";
 import ReviewsMeta from "@/components/ReviewsMeta";
 import TrackableCTA from "@/components/TrackableCTA";
-import HeroLeadForm from "@/components/HeroLeadForm";
+import HeroShowcase from "@/components/HeroShowcase";
 
 // Dynamically import the 3D scene to avoid SSR issues
 export default function Home() {
@@ -118,9 +118,9 @@ export default function Home() {
               </div>
             </div>
 
-            {/* Right: Interactive Instant Teardown & Audit Form */}
-            <div>
-              <HeroLeadForm />
+            {/* Right: Live Interactive Case Studies Showcase */}
+            <div className={styles.heroRight}>
+              <HeroShowcase />
             </div>
 
           </div>
