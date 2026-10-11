@@ -2,10 +2,56 @@
 
 import { useState, useEffect } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { m, AnimatePresence } from 'framer-motion';
 import styles from "./Navigation.module.css";
-import { Menu, X, Plus, Minus } from "lucide-react";
+import { Menu, X, Plus, Minus, ChevronDown, ArrowRight, Code, Layout, Smartphone, ShoppingCart, Search, Palette, Globe } from "lucide-react";
 import { usePathname } from "next/navigation";
+
+const servicesDropdown = [
+  {
+    name: "Web Design & Development",
+    href: "/web-design-toronto/",
+    desc: "Fast, custom Next.js websites built to convert.",
+    icon: Layout,
+  },
+  {
+    name: "Custom Software & SaaS",
+    href: "/custom-software-development-toronto/",
+    desc: "Robust backends and client management portals.",
+    icon: Code,
+  },
+  {
+    name: "Mobile App Development",
+    href: "/mobile-app-development-toronto/",
+    desc: "Native iOS & Android apps built with React Native.",
+    icon: Smartphone,
+  },
+  {
+    name: "E-Commerce Development",
+    href: "/ecommerce-development-toronto/",
+    desc: "Shopify Plus & custom headless digital stores.",
+    icon: ShoppingCart,
+  },
+  {
+    name: "SEO & Search Visibility",
+    href: "/seo-services-toronto/",
+    desc: "Local GTA search optimization and AEO visibility.",
+    icon: Search,
+  },
+  {
+    name: "UI/UX Design & Branding",
+    href: "/ui-ux-design-toronto/",
+    desc: "Modern digital interfaces and design systems.",
+    icon: Palette,
+  },
+  {
+    name: "WordPress Web Design",
+    href: "/wordpress-web-design-canada/",
+    desc: "Custom hand-coded themes with zero plugin bloat.",
+    icon: Globe,
+  },
+];
 
 const menuLinks = [
   { name: "Home", href: "/" },
@@ -34,12 +80,29 @@ const menuLinks = [
 export default function Navigation() {
   const [isOpen, setIsOpen] = useState(false);
   const [isServicesOpen, setIsServicesOpen] = useState(false);
+  const [desktopServicesOpen, setDesktopServicesOpen] = useState(false);
+  const [isScrolled, setIsScrolled] = useState(false);
   const pathname = usePathname();
 
-  // Close menu on route change
+  // Handle scroll for desktop sticky nav background
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 20) {
+        setIsScrolled(true);
+      } else {
+        setIsScrolled(false);
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll, { passive: true });
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
+
+  // Close menus on route change
   useEffect(() => {
     setIsOpen(false);
     setIsServicesOpen(false);
+    setDesktopServicesOpen(false);
   }, [pathname]);
 
   const toggleMenu = () => {
@@ -54,7 +117,7 @@ export default function Navigation() {
     setIsServicesOpen(!isServicesOpen);
   };
 
-  // Animation Variants
+  // Animation Variants for Mobile Overlay
   const menuVariants = {
     closed: {
       opacity: 0,
@@ -85,9 +148,136 @@ export default function Navigation() {
     open: { height: "auto", opacity: 1, overflow: "hidden", transition: { duration: 0.4, ease: "easeInOut" as const } }
   };
 
+  const isServicesActive = pathname.startsWith("/services") || 
+    pathname.includes("development") || 
+    pathname.includes("design-toronto") || 
+    pathname.includes("seo-services");
+
   return (
     <>
-      {/* Floating Pill Trigger */}
+      {/* ========================================================= */}
+      {/* DESKTOP TOP STICKY NAVIGATION BAR (Min-width: 1024px)     */}
+      {/* ========================================================= */}
+      <header className={`${styles.desktopNav} ${isScrolled ? styles.desktopNavScrolled : ""}`}>
+        <div className={styles.desktopNavContainer}>
+          
+          {/* Logo */}
+          <Link href="/" className={styles.desktopLogo} aria-label="Beeclue Tech Home">
+            <Image
+              src="/beeclue-logo.png"
+              alt="Beeclue Tech"
+              width={145}
+              height={36}
+              priority
+              className={styles.desktopLogoImg}
+            />
+          </Link>
+
+          {/* Nav Links */}
+          <nav className={styles.desktopLinks} aria-label="Main Navigation">
+            
+            {/* Services with Dropdown */}
+            <div 
+              className={styles.dropdownContainer}
+              onMouseEnter={() => setDesktopServicesOpen(true)}
+              onMouseLeave={() => setDesktopServicesOpen(false)}
+            >
+              <Link 
+                href="/services" 
+                className={`${styles.desktopLink} ${isServicesActive ? styles.desktopLinkActive : ""}`}
+                aria-expanded={desktopServicesOpen}
+              >
+                <span>Services</span>
+                <ChevronDown size={14} className={`${styles.chevron} ${desktopServicesOpen ? styles.chevronOpen : ""}`} />
+              </Link>
+
+              <AnimatePresence>
+                {desktopServicesOpen && (
+                  <m.div
+                    className={styles.dropdownMenu}
+                    initial={{ opacity: 0, y: 8 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    exit={{ opacity: 0, y: 8 }}
+                    transition={{ duration: 0.2, ease: "easeOut" }}
+                  >
+                    <div className={styles.dropdownGrid}>
+                      {servicesDropdown.map((service, i) => {
+                        const Icon = service.icon;
+                        return (
+                          <Link 
+                            key={i} 
+                            href={service.href} 
+                            className={styles.dropdownItem}
+                            onClick={() => setDesktopServicesOpen(false)}
+                          >
+                            <div className={styles.dropdownIconWrap}>
+                              <Icon size={16} />
+                            </div>
+                            <div className={styles.dropdownTextWrap}>
+                              <span className={styles.dropdownItemTitle}>{service.name}</span>
+                              <span className={styles.dropdownItemDesc}>{service.desc}</span>
+                            </div>
+                          </Link>
+                        );
+                      })}
+                    </div>
+                    <div className={styles.dropdownFooter}>
+                      <Link 
+                        href="/services" 
+                        className={styles.dropdownFooterLink}
+                        onClick={() => setDesktopServicesOpen(false)}
+                      >
+                        Explore All Agency Capabilities <ArrowRight size={14} />
+                      </Link>
+                    </div>
+                  </m.div>
+                )}
+              </AnimatePresence>
+            </div>
+
+            <Link 
+              href="/case-studies" 
+              className={`${styles.desktopLink} ${pathname.startsWith("/case-studies") ? styles.desktopLinkActive : ""}`}
+            >
+              Case Studies
+            </Link>
+
+            <Link 
+              href="/pricing" 
+              className={`${styles.desktopLink} ${pathname === "/pricing" ? styles.desktopLinkActive : ""}`}
+            >
+              Pricing
+            </Link>
+
+            <Link 
+              href="/blogs" 
+              className={`${styles.desktopLink} ${pathname.startsWith("/blogs") ? styles.desktopLinkActive : ""}`}
+            >
+              Blog
+            </Link>
+
+            <Link 
+              href="/about-us" 
+              className={`${styles.desktopLink} ${pathname === "/about-us" ? styles.desktopLinkActive : ""}`}
+            >
+              About
+            </Link>
+          </nav>
+
+          {/* Desktop Call to Action */}
+          <div className={styles.desktopActions}>
+            <Link href="/contact" className={styles.desktopCtaBtn}>
+              <span>Get an Audit</span>
+              <ArrowRight size={15} />
+            </Link>
+          </div>
+
+        </div>
+      </header>
+
+      {/* ========================================================= */}
+      {/* MOBILE FLOATING PILL TRIGGER (Max-width: 1023px)          */}
+      {/* ========================================================= */}
       <button 
         className={`${styles.triggerPill} ${isOpen ? styles.triggerPillOpen : ""}`} 
         onClick={toggleMenu}
@@ -99,7 +289,9 @@ export default function Navigation() {
         </div>
       </button>
 
-      {/* Full Screen Overlay */}
+      {/* ========================================================= */}
+      {/* MOBILE FULL SCREEN OVERLAY                                */}
+      {/* ========================================================= */}
       <AnimatePresence>
         {isOpen && (
           <m.div 
