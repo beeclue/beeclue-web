@@ -240,16 +240,21 @@
 
 /* About & Stats */
 .aboutGrid {
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3.5rem;
+  max-width: 1000px;
+  margin: 0 auto;
+  text-align: center;
 }
 
-@media (min-width: 1024px) {
-  .aboutGrid {
-    grid-template-columns: 1fr 250px;
-    align-items: center;
-  }
+.aboutText {
+  text-align: center;
+}
+
+.aboutText h2 {
+  text-align: center;
 }
 
 .aboutText p {
@@ -257,21 +262,34 @@
   font-size: 1.25rem;
   line-height: 1.6;
   margin-bottom: 1.5rem;
-  max-width: 900px;
+  max-width: 850px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
 }
 
 .statsGrid {
   display: grid;
-  grid-template-columns: 1fr;
-  gap: 2rem;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 3rem;
   justify-items: center;
   text-align: center;
+  width: 100%;
+  max-width: 850px;
+  margin: 0 auto;
+}
+
+@media (max-width: 640px) {
+  .statsGrid {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
 }
 
 .statCard {
   display: flex;
   flex-direction: column;
-  padding-bottom: 2rem;
+  padding-bottom: 1.5rem;
   border-bottom: 1px solid var(--border);
   align-items: center;
   width: 100%;
@@ -292,15 +310,26 @@
   letter-spacing: 0.05em;
 }
 
-/* Services */
+/* Services & Common Section Header */
 .servicesHeader {
-  margin-bottom: 5rem;
-  max-width: 600px;
+  margin-bottom: 4.5rem;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.servicesHeader h2 {
+  text-align: center;
 }
 
 .servicesHeader p {
   color: var(--muted);
   font-size: 1.25rem;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 680px;
 }
 
 .scroller {
@@ -375,11 +404,21 @@
 }
 
 /* Value Section */
+.valueHeader {
+  text-align: center;
+  margin: 0 auto 3.5rem;
+  max-width: 800px;
+}
+
+.valueHeader h2 {
+  text-align: center;
+}
+
 .valueGrid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 3rem;
-  margin-top: 4rem;
+  margin-top: 2rem;
 }
 
 @media (max-width: 1024px) {
@@ -417,11 +456,16 @@
 }
 
 /* Process Section */
+.processSection h2 {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
 .processTimeline {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 3rem;
-  margin-top: 5rem;
+  margin-top: 3rem;
 }
 
 .processStep {
@@ -456,27 +500,34 @@
 .testimonialsTop {
   display: flex;
   flex-direction: column;
-  gap: 2rem;
-  margin-bottom: 2rem;
+  align-items: center;
+  text-align: center;
+  gap: 1.5rem;
+  margin-bottom: 3.5rem;
+}
+
+.testimonialsTop h2 {
+  text-align: center;
 }
 
 @media (min-width: 768px) {
   .testimonialsTop {
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: flex-end;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
   }
 }
 
 .reviewsMeta {
   display: flex;
   flex-direction: column;
+  align-items: center;
   gap: 1.5rem;
 }
 
 @media (min-width: 768px) {
   .reviewsMeta {
-    align-items: flex-end;
+    align-items: center;
   }
 }
 

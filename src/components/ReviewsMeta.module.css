@@ -6,13 +6,14 @@
 
 @media (min-width: 768px) {
   .reviewsMeta {
-    align-items: flex-end;
+    align-items: center;
   }
 }
 
 .ratingsBadges {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   gap: 1.5rem;
 }
 
