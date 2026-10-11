@@ -7,6 +7,34 @@ import IndustryList from "@/components/IndustryList";
 import ReviewsMeta from "@/components/ReviewsMeta";
 import TrackableCTA from "@/components/TrackableCTA";
 import HeroShowcase from "@/components/HeroShowcase";
+import FaqAccordion from "@/components/FaqAccordion";
+
+const homeFaqs = [
+  {
+    q: "How much does a custom website cost with Beeclue Tech?",
+    a: "We offer transparent, accessible pricing starting at just $19/month for our Core managed website tier, $29/month for our Business tier (ideal for local service businesses needing SEO and CRM forms), and $59/month for e-commerce stores on WooCommerce or Shopify. For complex bespoke web applications and custom software, we also provide flat-rate project estimates."
+  },
+  {
+    q: "How long does it take to design and launch a new website?",
+    a: "Standard business websites and managed tier platforms are typically delivered within 2 to 4 weeks. Before any commitment, we provide a free 48-hour interactive mobile website preview so you can experience your design and conversion flow upfront. Bespoke web apps or enterprise platforms typically take 6 to 10 weeks depending on scope."
+  },
+  {
+    q: "Do you use pre-made templates or custom code?",
+    a: "Every website built by Beeclue Tech is custom-designed and tailored specifically to your brand, services, and conversion goals. We avoid bloated off-the-shelf templates and page builders that slow down performance. Instead, we engineer lightning-fast sites on modern frameworks like Next.js, React, and lean WordPress."
+  },
+  {
+    q: "Will my website be optimized for Google Search and AI engines (AEO/GEO)?",
+    a: "Yes. Every website includes foundational technical SEO from day one: Schema.org structured data (Organization, LocalBusiness, FAQPage), Core Web Vitals optimization, mobile responsiveness, and unrestricted AI crawler access so conversational engines like ChatGPT, Perplexity, and Google AI Overviews can index and cite your business."
+  },
+  {
+    q: "Can you redesign or migrate my existing website from Wix or WordPress?",
+    a: "Yes. We frequently migrate clients from sluggish, overpriced builders like Wix or Squarespace to fast, modern websites with zero downtime. We preserve your existing search rankings and URLs while giving your business an elevated design, faster load speeds, and improved lead capture."
+  },
+  {
+    q: "How does the free 48-hour website mockup offer work?",
+    a: "Share your current website or project goals with us through our contact form. Within 48 hours, our senior design team builds a custom, interactive mobile mockup showing how a modern redesign will look and perform for your business—100% free with zero obligation."
+  }
+];
 
 // Dynamically import the 3D scene to avoid SSR issues
 export default function Home() {
@@ -67,6 +95,18 @@ export default function Home() {
                   "url": "https://beeclue.com/contact"
                 }
               ]
+            },
+            {
+              "@context": "https://schema.org",
+              "@type": "FAQPage",
+              "mainEntity": homeFaqs.map((faq) => ({
+                "@type": "Question",
+                "name": faq.q,
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": faq.a
+                }
+              }))
             }
           ])
         }}
@@ -430,6 +470,17 @@ export default function Home() {
               </div>
             </div>
           </Link>
+        </div>
+      </FadeIn>
+
+      {/* FREQUENTLY ASKED QUESTIONS SECTION */}
+      <FadeIn className={styles.baseSection}>
+        <div className={styles.servicesHeader}>
+          <h2>Frequently Asked Questions</h2>
+          <p>Everything you need to know about our web design process, pricing, timelines, and technology.</p>
+        </div>
+        <div style={{ maxWidth: "800px", margin: "0 auto", width: "100%" }}>
+          <FaqAccordion faqs={homeFaqs} />
         </div>
       </FadeIn>
     </main>

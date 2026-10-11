@@ -236,6 +236,20 @@ Beeclue Tech provides transparent, value-driven web development, hosting, and en
 - **Primary Location**: Toronto, Canada
 - **Target Audience**: Startups, SMBs, and Enterprise companies seeking elite digital transformation, modern web architecture, and comprehensive software engineering.
 
+## Homepage Frequently Asked Questions (FAQ)
+- **Q: How much does a custom website cost with Beeclue Tech?**
+  **A**: Transparent, accessible pricing starting at $19/month for the Core managed website tier, $29/month for the Business tier (ideal for local service businesses needing SEO and CRM forms), and $59/month for e-commerce stores on WooCommerce or Shopify. Flat-rate custom quotes are also available for bespoke enterprise applications.
+- **Q: How long does it take to design and launch a new website?**
+  **A**: Standard business websites and managed tier platforms are typically delivered within 2 to 4 weeks. Prior to any commitment, Beeclue Tech provides a free 48-hour interactive mobile website preview. Bespoke web apps or enterprise platforms typically take 6 to 10 weeks depending on scope.
+- **Q: Do you use pre-made templates or custom code?**
+  **A**: Every website is custom-designed and tailored specifically to client brand identity, services, and conversion goals—avoiding bloated off-the-shelf templates and page builders in favor of high-performance Next.js, React, and lean WordPress architectures.
+- **Q: Will my website be optimized for Google Search and AI engines (AEO/GEO)?**
+  **A**: Yes. Foundational technical SEO is included from day one: Schema.org structured data (Organization, LocalBusiness, FAQPage), Core Web Vitals optimization, mobile responsiveness, and unrestricted AI crawler access for ChatGPT, Perplexity, and Google AI Overviews.
+- **Q: Can you redesign or migrate my existing website from Wix or WordPress?**
+  **A**: Yes. We frequently migrate clients from sluggish, closed builders like Wix or Squarespace to fast, modern websites with zero downtime, preserving search rankings and URLs while elevating conversion architecture.
+- **Q: How does the free 48-hour website mockup offer work?**
+  **A**: Prospective clients share their existing website or project goals via the contact form, and within 48 hours our senior design team builds a custom interactive mobile mockup showing what a modern redesign looks and feels like with zero obligation.
+
 ## Blogs
 
 ### Custom Software Development in Toronto: 2026 Cost & Hiring Guide
