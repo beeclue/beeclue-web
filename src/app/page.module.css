@@ -1080,37 +1080,107 @@
   }
 }
 
-/* Case Studies List View */
+/* Case Studies & Blogs Grid View */
 .caseStudyList {
-  display: flex;
-  flex-direction: column;
-  gap: 4rem;
-  max-width: 1100px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2.25rem;
+  max-width: 1350px;
   margin: 0 auto;
+}
+
+@media (max-width: 1100px) {
+  .caseStudyList {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .caseStudyList {
+    grid-template-columns: 1fr;
+    gap: 1.75rem;
+  }
 }
 
 .caseStudyListItem {
   display: flex;
+  flex-direction: column;
   background: rgba(255, 255, 255, 0.02);
   border: 1px solid var(--border);
   border-radius: 16px;
   overflow: hidden;
-  transition: transform 0.3s ease, border-color 0.3s ease;
+  transition: transform 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
+  height: 100%;
 }
 
 .caseStudyListItem:hover {
   transform: translateY(-5px);
   border-color: var(--primary);
+  box-shadow: 0 12px 30px rgba(0, 102, 204, 0.15);
 }
 
 .caseStudyListImage {
-  flex: 0 0 40%;
+  width: 100%;
+  height: 220px;
   position: relative;
-  min-height: 300px;
-  background: linear-gradient(45deg, rgba(255,255,255,0.05), rgba(255,255,255,0.02));
+  background: linear-gradient(45deg, rgba(255, 255, 255, 0.04), rgba(255, 255, 255, 0.01));
+  overflow: hidden;
+  flex-shrink: 0;
 }
 
 .caseStudyListContent {
+  flex: 1;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.caseStudyListContent h2 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  line-height: 1.35;
+  margin-bottom: 0.75rem;
+  color: var(--foreground);
+  text-align: left;
+  text-transform: none;
+}
+
+.caseStudyListContent p {
+  color: var(--muted);
+  font-size: 0.95rem;
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+  text-align: left;
+  flex-grow: 1;
+}
+
+.caseStudyListContent > div {
+  margin-top: auto;
+  text-align: left;
+}
+
+.caseStudyListContent .ctaButtonLight {
+  padding: 0.7rem 1.75rem;
+  font-size: 0.875rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  width: auto;
+}
+
+/* Featured Spotlight for City Pages */
+.caseStudySpotlight {
+  display: flex;
+  background: rgba(255, 255, 255, 0.02);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  overflow: hidden;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.caseStudySpotlightContent {
   flex: 1;
   padding: 3rem;
   display: flex;
@@ -1118,29 +1188,39 @@
   justify-content: center;
 }
 
-.caseStudyListContent h2 {
+.caseStudySpotlightContent h2 {
   font-size: 2rem;
   margin-bottom: 1rem;
   color: var(--primary-light);
+  text-transform: none;
+  text-align: left;
 }
 
-.caseStudyListContent p {
+.caseStudySpotlightContent p {
   color: var(--muted);
   font-size: 1.1rem;
   line-height: 1.6;
   margin-bottom: 2rem;
+  text-align: left;
+}
+
+.caseStudySpotlightImage {
+  flex: 0 0 40%;
+  position: relative;
+  min-height: 300px;
+  background: linear-gradient(45deg, rgba(255, 255, 255, 0.05), rgba(255, 255, 255, 0.02));
 }
 
 @media (max-width: 768px) {
-  .caseStudyListItem {
+  .caseStudySpotlight {
     flex-direction: column;
   }
-  .caseStudyListImage {
+  .caseStudySpotlightImage {
     flex: none;
     height: 250px;
     width: 100%;
   }
-  .caseStudyListContent {
+  .caseStudySpotlightContent {
     padding: 2rem;
   }
 }

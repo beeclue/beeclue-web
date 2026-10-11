@@ -242,28 +242,26 @@ export default async function LocalWebDesignPage({ params }: Props) {
 
       {/* CASE STUDY SPOTLIGHT */}
       <FadeIn className={styles.baseSection} style={{ paddingTop: "8rem", paddingBottom: "8rem" }}>
-        <div className={styles.caseStudyList}>
-          <div className={styles.caseStudyListItem}>
-            <div className={styles.caseStudyListContent} style={{ display: "flex", flexDirection: "column", justifyContent: "center" }}>
-              <span style={{ textTransform: "uppercase", fontSize: "0.85rem", letterSpacing: "2px", color: "var(--primary-light)", fontWeight: "bold", marginBottom: "0.5rem" }}>Featured Regional Project</span>
-              <h2>{config.featuredCaseStudy.title}</h2>
-              <p>{config.featuredCaseStudy.description}</p>
-              <div style={{ display: "flex", gap: "0.75rem", margin: "1rem 0" }}>
-                {config.featuredCaseStudy.tech.map((t, idx) => (
-                  <span key={idx} style={{ background: "rgba(255,255,255,0.05)", padding: "0.3rem 0.8rem", borderRadius: "99px", fontSize: "0.8rem", color: "var(--muted)" }}>{t}</span>
-                ))}
-              </div>
-              <div>
-                <Link href={config.featuredCaseStudy.link} className={styles.ctaButtonLight} style={{ display: "inline-flex", alignItems: "center", gap: "0.5rem" }}>
-                  Read Case Study <ArrowRight size={18} />
-                </Link>
-              </div>
+        <div className={styles.caseStudySpotlight}>
+          <div className={styles.caseStudySpotlightContent} style={{ display: "flex", flexDirection: "column", justifyContent: "center" }}>
+            <span style={{ textTransform: "uppercase", fontSize: "0.85rem", letterSpacing: "2px", color: "var(--primary-light)", fontWeight: "bold", marginBottom: "0.5rem" }}>Featured Regional Project</span>
+            <h2>{config.featuredCaseStudy.title}</h2>
+            <p>{config.featuredCaseStudy.description}</p>
+            <div style={{ display: "flex", gap: "0.75rem", margin: "1rem 0" }}>
+              {config.featuredCaseStudy.tech.map((t, idx) => (
+                <span key={idx} style={{ background: "rgba(255,255,255,0.05)", padding: "0.3rem 0.8rem", borderRadius: "99px", fontSize: "0.8rem", color: "var(--muted)" }}>{t}</span>
+              ))}
             </div>
-            <div className={styles.caseStudyListImage} style={{ background: "rgba(255,255,255,0.01)", borderRadius: "12px", border: "1px solid rgba(255,255,255,0.03)", display: "flex", alignItems: "center", justifyContent: "center", minHeight: "300px" }}>
-              <div style={{ textAlign: "center", padding: "3rem" }}>
-                <div style={{ fontSize: "3.5rem", fontWeight: "bold", color: "var(--primary-light)", marginBottom: "0.5rem" }}>{config.localStat.stat}</div>
-                <div style={{ color: "var(--muted)", fontSize: "0.95rem", maxWidth: "250px", margin: "0 auto" }}>{config.localStat.label}</div>
-              </div>
+            <div>
+              <Link href={config.featuredCaseStudy.link} className={styles.ctaButtonLight} style={{ display: "inline-flex", alignItems: "center", gap: "0.5rem" }}>
+                Read Case Study <ArrowRight size={18} />
+              </Link>
+            </div>
+          </div>
+          <div className={styles.caseStudySpotlightImage} style={{ background: "rgba(255,255,255,0.01)", borderRadius: "12px", border: "1px solid rgba(255,255,255,0.03)", display: "flex", alignItems: "center", justifyContent: "center", minHeight: "300px" }}>
+            <div style={{ textAlign: "center", padding: "3rem" }}>
+              <div style={{ fontSize: "3.5rem", fontWeight: "bold", color: "var(--primary-light)", marginBottom: "0.5rem" }}>{config.localStat.stat}</div>
+              <div style={{ color: "var(--muted)", fontSize: "0.95rem", maxWidth: "250px", margin: "0 auto" }}>{config.localStat.label}</div>
             </div>
           </div>
         </div>
