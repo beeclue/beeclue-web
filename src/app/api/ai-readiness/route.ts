@@ -50,8 +50,16 @@ export async function POST(request: Request) {
       );
     }
 
-    const domain = parsedUrl.hostname.replace(/^www\./, '');
+    const domain = parsedUrl.hostname.replace(/^www\./, '').toLowerCase();
     const origin = parsedUrl.origin;
+
+    // Disallow auditing beeclue.com domains
+    if (domain === 'beeclue.com' || domain.endsWith('.beeclue.com')) {
+      return NextResponse.json(
+        { error: 'Audits for beeclue.com domains are restricted. Please enter your business or client website address.' },
+        { status: 400 }
+      );
+    }
 
     // 1. Fetch homepage with timeout
     let homepageHtml = '';

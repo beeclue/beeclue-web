@@ -72,6 +72,13 @@ export default function AiReadinessGrader() {
     const cleanUrl = url.trim();
     if (!cleanUrl) return;
 
+    // Disallow auditing beeclue.com domains
+    const normalized = cleanUrl.toLowerCase().replace(/^https?:\/\//, '').replace(/^www\./, '').split('/')[0];
+    if (normalized === 'beeclue.com' || normalized.endsWith('.beeclue.com')) {
+      setError('Audits for beeclue.com domains are restricted. Please enter your business or client website address.');
+      return;
+    }
+
     setError(null);
     setResult(null);
     setIsLoading(true);
