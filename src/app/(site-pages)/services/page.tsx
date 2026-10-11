@@ -43,7 +43,7 @@ const servicesList = [
   {
     title: "Ecommerce Development",
     href: "/ecommerce-development-toronto/",
-    image: "https://images.unsplash.com/photo-1556742049-0a67c5574f73?auto=format&fit=crop&w=800&q=80",
+    image: "https://images.unsplash.com/photo-1556740758-90de374c12ad?auto=format&fit=crop&w=800&q=80",
     imageAlt: "Ecommerce Development Shopify and WooCommerce",
     desc: "Secure, high-converting digital storefronts built on Shopify Plus, WooCommerce, and custom headless checkouts designed to scale sales volume across Canada.",
     features: ["Shopify Plus development", "WooCommerce customization", "Payment gateway integration", "Inventory & order sync"],
