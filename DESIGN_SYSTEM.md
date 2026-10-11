@@ -54,5 +54,5 @@ Whenever a new page or feature is built, reuse these components before recreatin
 
 ## 5. Design Guidelines for Agents
 - **Don't touch horizontal padding**: Rely on `.baseSection` to provide left and right padding (`5vw`). If you use inline `padding`, only overwrite `paddingTop` or `paddingBottom`.
-- **Center alignments require intent**: Most content (like `.servicesHeader`) is left-aligned. Only center elements if it specifically mimics a confirmed pattern (like the Footer CTA blocks).
+- **Section headers are center-aligned**: Standard section headers (`.servicesHeader`, `.valueHeader`, and `.baseSection h2`) are center-aligned by default to maintain consistent visual balance across all pages.
 - **Use Lucide Icons**: Import icons from `lucide-react` and size them appropriately (e.g., `size={32}` or `size={48}` for headers) colored with `var(--primary-light)`.
