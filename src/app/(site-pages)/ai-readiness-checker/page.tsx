@@ -2,6 +2,7 @@ import React from "react";
 import type { Metadata } from "next";
 import Link from "next/link";
 import styles from "@/app/page.module.css";
+import graderStyles from "./grader.module.css";
 import FadeIn from "@/components/FadeIn";
 import FaqAccordion from "@/components/FaqAccordion";
 import AiReadinessGrader from "./AiReadinessGrader";
@@ -100,26 +101,32 @@ export default function AiReadinessCheckerPage() {
             </p>
           </div>
 
-          <div className={styles.valueGrid}>
-            <div className={styles.valueItem} style={{ display: "flex", flexDirection: "column", alignItems: "center", textAlign: "center" }}>
-              <Cpu size={32} color="var(--primary-light)" style={{ marginBottom: "1rem" }} />
-              <h3>1. AI Infrastructure & Schema</h3>
+          <div className={graderStyles.eduGrid}>
+            <div className={graderStyles.eduCard}>
+              <div className={graderStyles.eduIconWrap}>
+                <Cpu size={28} />
+              </div>
+              <h3>1. AI Infrastructure &amp; Schema</h3>
               <p>
                 Large Language Models do not browse websites like humans. They rely on Schema.org JSON-LD tags, FAQPage markup, and machine directories to verify business identity, licensing, and service offerings.
               </p>
             </div>
 
-            <div className={styles.valueItem} style={{ display: "flex", flexDirection: "column", alignItems: "center", textAlign: "center" }}>
-              <Bot size={32} color="var(--primary-light)" style={{ marginBottom: "1rem" }} />
+            <div className={graderStyles.eduCard}>
+              <div className={graderStyles.eduIconWrap}>
+                <Bot size={28} />
+              </div>
               <h3>2. Unrestricted AI Crawler Access</h3>
               <p>
                 Many websites unknowingly block GPTBot, ClaudeBot, or Perplexity in their robots.txt file. Our tool checks your server permissions so conversational assistants can freely index your latest pricing and services.
               </p>
             </div>
 
-            <div className={styles.valueItem} style={{ display: "flex", flexDirection: "column", alignItems: "center", textAlign: "center" }}>
-              <ShieldCheck size={32} color="var(--primary-light)" style={{ marginBottom: "1rem" }} />
-              <h3>3. Verifiable Trust & Entity Authority</h3>
+            <div className={graderStyles.eduCard}>
+              <div className={graderStyles.eduIconWrap}>
+                <ShieldCheck size={28} />
+              </div>
+              <h3>3. Verifiable Trust &amp; Entity Authority</h3>
               <p>
                 Before an AI assistant recommends a contractor, law firm, or clinic, it verifies credibility signals: registered address, phone numbers, client testimonials, and licenses to protect user trust.
               </p>

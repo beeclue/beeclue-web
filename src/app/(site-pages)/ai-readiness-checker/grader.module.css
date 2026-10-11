@@ -461,3 +461,64 @@
   align-items: center;
   justify-content: center;
 }
+
+/* Educational Guide Grid */
+.eduGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  margin-top: 3rem;
+  width: 100%;
+}
+
+@media (max-width: 900px) {
+  .eduGrid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.eduCard {
+  background: rgba(255, 255, 255, 0.02);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 2.75rem 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  transition: transform 0.3s ease, border-color 0.3s ease;
+}
+
+.eduCard:hover {
+  border-color: rgba(51, 133, 255, 0.4);
+  transform: translateY(-4px);
+}
+
+.eduIconWrap {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  background: rgba(51, 133, 255, 0.08);
+  border: 1px solid rgba(51, 133, 255, 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1.5rem;
+  color: var(--primary-light);
+}
+
+.eduCard h3 {
+  font-family: var(--font-outfit);
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: var(--foreground);
+  margin-bottom: 1rem;
+  line-height: 1.35;
+}
+
+.eduCard p {
+  font-size: 0.95rem;
+  color: var(--muted);
+  line-height: 1.6;
+  margin: 0;
+}
