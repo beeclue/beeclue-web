@@ -54,5 +54,12 @@
     "email": "chrizgreene@gmail.com",
     "reason": "Responded no longer in business - requested removal / blacklisted",
     "blacklistedAt": "2026-10-10T22:48:55.000Z"
+  },
+  {
+    "name": "Susan V. Tipograph",
+    "firmName": "Law Office of Susan V. Tipograph",
+    "email": "stipograph@yahoo.com",
+    "reason": "Responded retired - requested removal from list",
+    "blacklistedAt": "2026-10-18T23:31:39.433Z"
   }
 ]

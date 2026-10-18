@@ -25895,9 +25895,9 @@
     "location": "Manhattan, NY (351 Broadway, 4th Floor, Manhattan, NY 10013)",
     "pricingQuoted": "$19/month",
     "initialContactDate": "2026-10-18T22:10:21.638Z",
-    "lastContactDate": "2026-10-18T22:10:21.638Z",
-    "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Outreach",
+    "lastContactDate": "2026-10-18T23:31:39.445Z",
+    "status": "not_interested",
+    "sequenceStep": "Closed - Not Interested (Blacklisted)",
     "diagnosedIssues": "Practicing near Foley Square courthouses purely via offline word of mouth with no branded landing page.",
     "caseStudySent": "https://taralattanzio.ca?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-law-office-of-susan-v-tipograph",
     "history": [
@@ -25908,6 +25908,11 @@
         "resendId": "01a15110-db06-74b8-a8ba-aa7023da2645",
         "status": "delivered",
         "notes": "NYC solo lawyer outreach for practices without a website. Pitched $19/mo Core plan, $0 upfront fee, and free 48-hr mockup preview."
+      },
+      {
+        "step": "Opt-Out / Reply",
+        "sentAt": "2026-10-18T23:31:39.445Z",
+        "notes": "Prospect replied: \"I'm retired. Please take me off your list.\" Blacklisted and suppressed from all future sequences."
       }
     ]
   },
