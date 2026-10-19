@@ -26316,9 +26316,9 @@
     "location": "Brooklyn, NY (32 Court Street, Suite 707, Brooklyn, NY 11201)",
     "pricingQuoted": "$19/month",
     "initialContactDate": "2026-10-18T22:10:35.502Z",
-    "lastContactDate": "2026-10-18T22:10:35.502Z",
-    "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Outreach",
+    "lastContactDate": "2026-10-19T17:16:12.484Z",
+    "status": "not_interested",
+    "sequenceStep": "Closed - Not Interested (Blacklisted)",
     "diagnosedIssues": "32 Court Street office across from Brooklyn Family and Supreme Courts handling sensitive custody and defense with no website.",
     "caseStudySent": "https://taralattanzio.ca?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-law-office-of-julie-a-clark-esq",
     "history": [
@@ -26329,6 +26329,11 @@
         "resendId": "01a15111-1122-79a2-9bc2-b339a3b99b5b",
         "status": "delivered",
         "notes": "NYC solo lawyer outreach for practices without a website. Pitched $19/mo Core plan, $0 upfront fee, and free 48-hr mockup preview."
+      },
+      {
+        "step": "Opt-Out / Reply",
+        "sentAt": "2026-10-19T17:16:12.484Z",
+        "notes": "Prospect replied: \"no thanks ... Please acknowledge receipt of this email. EFFECTIVE NOVEMBER 1, 2025, MY OFFICE ADDRESS HAS CHANGED...\" Blacklisted and suppressed."
       }
     ]
   },
