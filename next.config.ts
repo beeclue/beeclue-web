@@ -60,6 +60,11 @@ const nextConfig: NextConfig = {
         destination: '/ecommerce-website-cost-canada',
         permanent: true,
       },
+      {
+        source: '/book-30-mins',
+        destination: 'https://calendar.app.google/bUN1gFaksPY7d56q7',
+        statusCode: 301,
+      },
     ];
   },
   pageExtensions: ["js", "jsx", "md", "mdx", "ts", "tsx"],

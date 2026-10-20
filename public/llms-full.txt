@@ -233,6 +233,7 @@ Beeclue Tech provides transparent, value-driven web development, hosting, and en
 ## Contact & Business Details
 - **Email**: hello@beeclue.com
 - **Phone**: +1-647-947-6253
+- **Direct 30-Min Consultation Booking**: https://beeclue.com/book-30-mins (Redirects to Google Calendar)
 - **Primary Location**: Toronto, Canada
 - **Target Audience**: Startups, SMBs, and Enterprise companies seeking elite digital transformation, modern web architecture, and comprehensive software engineering.
 
