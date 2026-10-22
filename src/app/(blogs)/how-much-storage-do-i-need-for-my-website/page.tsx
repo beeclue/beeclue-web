@@ -533,7 +533,7 @@ export default function WebsiteStorageGuideBlog() {
 
           <div className={blogStyles.highlightBox}>
             <p>
-              Looking to redesign your business website with lightning-fast speeds and lean, scalable architecture? Check out our <Link href="/web-design-toronto" className={blogStyles.internalLink}>Toronto web design services</Link> or view our <Link href="/case-studies" className={blogStyles.internalLink}>proven client case studies</Link>.
+              Looking to redesign your business website with lightning-fast speeds, lean scalable architecture, and transparent costs? Explore our <Link href="/web-design-toronto" className={blogStyles.internalLink}>Toronto web design &amp; development services</Link>, view our <Link href="/pricing" className={blogStyles.internalLink}>managed website pricing</Link>, or check out our <Link href="/case-studies" className={blogStyles.internalLink}>proven client case studies</Link>.
             </p>
           </div>
 

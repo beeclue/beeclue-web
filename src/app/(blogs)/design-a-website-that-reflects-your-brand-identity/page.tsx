@@ -3,6 +3,7 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import FadeIn from "@/components/FadeIn";
+import BlogAuthorBox from "@/components/BlogAuthorBox";
 import blogStyles from "../shared-blog.module.css";
 import globalStyles from "@/app/page.module.css";
 
@@ -94,7 +95,7 @@ export default function BrandIdentityBlog() {
               Designing a website that accurately and powerfully reflects your brand identity is an intricate balance of psychology, graphic design, copywriting, and technical execution. It is the process of translating intangible concepts—like your company’s mission, tone of voice, and corporate culture—into tangible digital elements like color palettes, typography, interactive micro-animations, and user flow. 
             </p>
             <p>
-              Whether you are an ambitious startup trying to carve out a niche or an established enterprise looking to undergo a digital rebranding, this comprehensive guide will walk you through the essential steps to <Link href="/web-design-toronto" className={blogStyles.internalLink}>design a website</Link> that serves as a true, authentic extension of your brand identity.
+              Whether you are an ambitious startup trying to carve out a niche or an established enterprise looking to undergo a digital rebranding, this comprehensive guide will walk you through the essential steps to approach <Link href="/web-design-toronto" className={blogStyles.internalLink}>professional web design in Toronto</Link> that serves as a true, authentic extension of your brand identity.
             </p>
           </FadeIn>
 
@@ -232,18 +233,14 @@ export default function BrandIdentityBlog() {
               When executed correctly, a deeply branded website builds instant trust, differentiates you from your competitors, and turns passive visitors into passionate brand advocates.
             </p>
             <p>
-              Are you ready to build a digital presence that truly captures the essence of your business? At Beeclue, we specialize in translating complex brand identities into stunning, high-performance web experiences. Explore our <Link href="/case-studies" className={blogStyles.internalLink}>portfolio of case studies</Link> to see our branding in action, or <Link href="/services" className={blogStyles.internalLink}>contact our team today</Link> to start your digital transformation.
+              Are you ready to build a digital presence that truly captures the essence of your business? At Beeclue, we specialize in translating complex brand identities into stunning, high-performance web experiences with our bespoke <Link href="/web-design-toronto" className={blogStyles.internalLink}>Toronto web design services</Link>. Explore our transparent <Link href="/pricing" className={blogStyles.internalLink}>pricing packages</Link>, review our <Link href="/case-studies" className={blogStyles.internalLink}>portfolio of case studies</Link> to see our branding in action, or <Link href="/services" className={blogStyles.internalLink}>contact our team today</Link> to start your digital transformation.
             </p>
           </FadeIn>
         </div>
       
-        <div className={blogStyles.authorBox}>
-          <Image src="/apple-touch-icon.png" alt="Beeclue Design Team" width={60} height={60} className={blogStyles.authorImage} />
-          <div className={blogStyles.authorDetails}>
-            <h4>Beeclue Design Team</h4>
-            <p>Beeclue Tech is a Toronto-based engineering and web design agency specializing in high-performance digital platforms. With expertise in Next.js, WordPress, and Custom Software Development, our team delivers scalable solutions that drive measurable business growth.</p>
-          </div>
-        </div>
+        <FadeIn delay={0.4}>
+          <BlogAuthorBox />
+        </FadeIn>
       </article>
     </main>
   );

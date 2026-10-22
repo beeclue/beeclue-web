@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import styles from "@/app/page.module.css";
 import { ArrowRight, LayoutTemplate, Briefcase, Globe, RefreshCcw, ShoppingCart, Search, CheckCircle2, Check } from "lucide-react";
 import FadeIn from "@/components/FadeIn";
@@ -115,11 +116,16 @@ export default function WebDesignTorontoPage() {
           <p className={styles.subtitle} style={{ fontSize: "1.25rem", maxWidth: "800px" }}>
             Beeclue Tech engineers high-converting, modern, and lightning-fast websites for businesses across Toronto and the GTA. We build SEO-optimized digital platforms designed to capture leads, elevate your brand credibility, and drive measurable online growth.
           </p>
-          <div className={styles.heroRatingContainer}>
-            <Link href="/contact" className={styles.ctaButton}>
-              Get a Free Consultation <ArrowRight className={styles.arrow} />
-            </Link>
-            <div className={styles.heroRatingBadge}>
+          <div className={styles.heroRatingContainer} style={{ justifyContent: "center", width: "100%" }}>
+            <div style={{ display: "flex", flexWrap: "wrap", gap: "1rem", alignItems: "center", justifyContent: "center" }}>
+              <Link href="/contact" className={styles.ctaButton}>
+                Get a Free Consultation <ArrowRight className={styles.arrow} />
+              </Link>
+              <Link href="/pricing" className={styles.ctaButtonLight}>
+                View Pricing &amp; Packages <ArrowRight className={styles.arrow} size={18} />
+              </Link>
+            </div>
+            <div className={styles.heroRatingBadge} style={{ justifyContent: "center" }}>
               <div style={{ color: "#fbbf24", fontSize: "1.25rem", letterSpacing: "2px" }}>★★★★★</div>
               <span style={{ color: "var(--muted)", fontSize: "0.875rem" }}>5.0 from 30+ reviews</span>
             </div>
@@ -160,6 +166,103 @@ export default function WebDesignTorontoPage() {
             </div>
           </div>
 
+        </div>
+      </FadeIn>
+
+      {/* FEATURED TORONTO & GTA CLIENT PROJECTS */}
+      <FadeIn className={styles.baseSection} style={{ paddingTop: "2rem" }}>
+        <div className={styles.servicesHeader}>
+          <h2>Featured Toronto &amp; GTA Projects</h2>
+          <p>Real-world custom digital platforms engineered for Ontario businesses — designed for conversion, accessibility, and sub-second speeds.</p>
+        </div>
+
+        <div className={styles.caseStudyList}>
+          {/* Tara Lattanzio */}
+          <div className={styles.caseStudyListItem}>
+            <div className={styles.caseStudyListImage}>
+              <Image 
+                src="https://cdn.jsdelivr.net/gh/beeclue/clients@main/self/tara-lattanzio.webp" 
+                alt="Tara Lattanzio Family Law Website Design" 
+                fill
+                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                style={{ objectFit: "contain", padding: "1.5rem" }}
+              />
+            </div>
+            <div className={styles.caseStudyListContent}>
+              <div style={{ display: "inline-block", padding: "0.25rem 0.75rem", borderRadius: "50px", background: "rgba(0, 102, 204, 0.15)", color: "var(--primary-light)", fontSize: "0.75rem", fontWeight: 600, marginBottom: "0.75rem", width: "fit-content" }}>
+                Legal Practice · Ontario
+              </div>
+              <h2>Tara Lattanzio Law — Legal Platform &amp; Branding</h2>
+              <p>
+                Custom Next.js architecture engineered for family law practice in Ontario. Built with empathetic consultation workflows, 100/100 Core Web Vitals, and local SEO that ranks on page 1 of Google.
+              </p>
+              <div>
+                <Link href="/case-studies/tara-lattanzio" className={styles.ctaButtonLight}>
+                  View Case Study <ArrowRight size={16} />
+                </Link>
+              </div>
+            </div>
+          </div>
+
+          {/* Work N Wear */}
+          <div className={styles.caseStudyListItem}>
+            <div className={styles.caseStudyListImage}>
+              <Image 
+                src="https://cdn.jsdelivr.net/gh/beeclue/clients@main/self/wnw-home.webp" 
+                alt="Work N Wear Canadian E-commerce Platform" 
+                fill
+                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                style={{ objectFit: "contain", padding: "1.5rem" }}
+              />
+            </div>
+            <div className={styles.caseStudyListContent}>
+              <div style={{ display: "inline-block", padding: "0.25rem 0.75rem", borderRadius: "50px", background: "rgba(0, 102, 204, 0.15)", color: "var(--primary-light)", fontSize: "0.75rem", fontWeight: 600, marginBottom: "0.75rem", width: "fit-content" }}>
+                E-Commerce · Canada
+              </div>
+              <h2>Work N Wear — Shopify &amp; AI Shopping Experience</h2>
+              <p>
+                Engineered a high-converting Canadian e-commerce presence paired with an interactive AI shopping agent that assists trade professionals with safety gear selection, boosting online conversions.
+              </p>
+              <div>
+                <Link href="/case-studies/work-n-wear" className={styles.ctaButtonLight}>
+                  View Case Study <ArrowRight size={16} />
+                </Link>
+              </div>
+            </div>
+          </div>
+
+          {/* MacMates */}
+          <div className={styles.caseStudyListItem}>
+            <div className={styles.caseStudyListImage}>
+              <Image 
+                src="https://cdn.jsdelivr.net/gh/beeclue/clients@main/self/mac-mates.webp" 
+                alt="MacMates GTA Device Repair Platform" 
+                fill
+                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                style={{ objectFit: "contain", padding: "1.5rem" }}
+              />
+            </div>
+            <div className={styles.caseStudyListContent}>
+              <div style={{ display: "inline-block", padding: "0.25rem 0.75rem", borderRadius: "50px", background: "rgba(0, 102, 204, 0.15)", color: "var(--primary-light)", fontSize: "0.75rem", fontWeight: 600, marginBottom: "0.75rem", width: "fit-content" }}>
+                Local Tech Service · GTA
+              </div>
+              <h2>MacMates — High-Speed Web Platform &amp; Local SEO</h2>
+              <p>
+                Comprehensive Next.js website and local SEO architecture for GTA Apple device specialists. Designed to capture high-intent repair bookings across Oakville and the Greater Toronto Area.
+              </p>
+              <div>
+                <Link href="/case-studies/mac-mates" className={styles.ctaButtonLight}>
+                  View Case Study <ArrowRight size={16} />
+                </Link>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div style={{ textAlign: "center", marginTop: "3rem" }}>
+          <Link href="/case-studies" className={styles.ctaButtonLight}>
+            Explore All Case Studies &amp; Live Results <ArrowRight size={18} />
+          </Link>
         </div>
       </FadeIn>
 
@@ -308,6 +411,31 @@ export default function WebDesignTorontoPage() {
               <h3>Data-Driven Approach</h3>
               <p>Every design and technical architecture choice is backed by analytics and user behavior to maximize your ROI.</p>
             </div>
+          </div>
+        </div>
+      </FadeIn>
+
+      {/* TRANSPARENT PRICING BANNER */}
+      <FadeIn className={styles.baseSection} style={{ background: "rgba(0, 102, 204, 0.05)", borderTop: "1px solid var(--border)", borderBottom: "1px solid var(--border)", padding: "4rem 5vw" }}>
+        <div style={{ maxWidth: "1000px", margin: "0 auto", display: "flex", flexWrap: "wrap", justifyContent: "space-between", alignItems: "center", gap: "2rem" }}>
+          <div style={{ flex: "1 1 500px" }}>
+            <span style={{ color: "var(--primary-light)", textTransform: "uppercase", fontSize: "0.875rem", letterSpacing: "1px", fontWeight: 700 }}>
+              Transparent Investment · No Hidden Fees
+            </span>
+            <h2 style={{ fontSize: "clamp(1.75rem, 3.5vw, 2.5rem)", marginTop: "0.5rem", marginBottom: "0.75rem", color: "var(--foreground)" }}>
+              Predictable Website Pricing Designed for ROI
+            </h2>
+            <p style={{ color: "var(--muted)", fontSize: "1.1rem", lineHeight: 1.6, margin: 0 }}>
+              Whether you need our affordable startup managed plans or an enterprise custom build with bundled domain &amp; cloud hosting, we deliver clear scopes with zero technical surprises.
+            </p>
+          </div>
+          <div style={{ display: "flex", flexDirection: "column", gap: "1rem" }}>
+            <Link href="/pricing" className={styles.ctaButton}>
+              Explore Pricing &amp; Plans <ArrowRight className={styles.arrow} />
+            </Link>
+            <span style={{ color: "var(--muted)", fontSize: "0.85rem", textAlign: "center" }}>
+              Custom builds · Managed care · Free 48h mockup
+            </span>
           </div>
         </div>
       </FadeIn>
