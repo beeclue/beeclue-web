@@ -98,16 +98,15 @@ When instructed to dispatch or send emails directly:
 - Retrieve `RESEND_API_KEY` from `.env` (`/Users/kishorenarang/Projects/webprojects/beeclue-web/.env`).
 - Send emails via the Resend REST API (`https://api.resend.com/emails`) using `curl` or a Node.js script.
 - **Default Sender**: `"Kay at Beeclue Tech <hello@beeclue.com>"` (or the verified sending domain configured in Resend).
-- **Law Firm Sales Outreach Constraints**:
-  - Direct verified decision-maker emails ONLY (no generic `info@`, `contact@`, `admin@`).
-  - Strict limit of ONE contact per firm.
-  - NEVER include BCC headers on law firm sales emails.
+- **Outreach & Delivery Constraints**:
+  - Direct verified decision-maker emails ONLY (no generic `info@`, `contact@`, `admin@` unless a specific trade/partner directory only publishes that single address).
+  - Strict limit of ONE contact per firm/company.
+  - **STRICT NO BCC RULE**: NEVER include BCC headers (e.g. `admin@beeclue.com` or any BCC) on ANY emails going forward—neither for sales outreach, partner outreach, nor follow-ups. All emails must be sent strictly direct to the recipient only.
   - **Exact Business Name Verification**: NEVER infer, truncate, or abbreviate a business or firm name from its domain name (e.g., domain `donovanlaughlin.com` must NEVER be guessed as `Donovan & Laughlin`). Always verify the exact registered entity name from the site footer, header, contact page, or official state directory (e.g., `Donovan Laughlin and Laughlin, LLC`). For law firms, incorrect partner names or missed suffixes are an immediate red flag that ruins credibility.
   - Subject line MUST reference the firm/company name (e.g., "Modernizing the website for [Firm Name]"), never the individual's name.
-  - Include UTM tracking on links: `?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-<firm-slug>`.
-- **B2B Partnership Outreach Constraints**:
-  - Always BCC `admin@beeclue.com`.
-  - Include UTM tracking: `?utm_source=beeclue&utm_medium=partner-outreach&utm_campaign=sales-outreach-partner-<slug>`.
+  - Include UTM tracking on links:
+    * Sales outreach: `?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-<firm-slug>`
+    * Partner outreach: `?utm_source=beeclue&utm_medium=partner-outreach&utm_campaign=sales-outreach-partner-<slug>`
 
 ## Contact History & Outreach JSON Database (`agents/marketing/outreach_history.json`)
 
@@ -158,7 +157,7 @@ Whenever the user prompts **"send emails for today"**, automatically execute the
 3. **20 Print Shops (Day 0 New Partnership Outreach)**:
    - Independent commercial print shops, sign manufacturers, vehicle graphics shops, and branding/print boutiques.
    - Angle: 20% recurring commission on client website referrals + reciprocal referrals for client physical print/signage collateral.
-   - BCC: `admin@beeclue.com`.
+   - No BCC (Strictly direct to recipient only).
 4. **40 Day 4/5 Follow-ups**:
    - Automated threaded follow-ups to prior cohorts who haven't replied.
    - Strict suppression of active conversations (e.g. Melvin Dubinsky / `lawpro@verizon.net`) or blacklist entries.
