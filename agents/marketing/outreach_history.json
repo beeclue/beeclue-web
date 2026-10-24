@@ -27240,9 +27240,9 @@
     "location": "Downtown Toronto, ON (145 King Street West, Shopping Concourse)",
     "pricingQuoted": "20% Partner Commission (Recurring & Lump-Sum)",
     "initialContactDate": "2026-10-19T17:54:46.395Z",
-    "lastContactDate": "2026-10-19T17:54:46.395Z",
+    "lastContactDate": "2026-10-24T00:33:34.884Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Partnership Outreach",
+    "sequenceStep": "Day 4 - Partnership Follow-up",
     "diagnosedIssues": "Commercial print shop in Downtown Toronto, ON whose business clients frequently ask for website design and digital funnels upon ordering physical print collateral.",
     "caseStudySent": "https://beeclue.com?utm_source=beeclue&utm_medium=partner-outreach&utm_campaign=toronto-print-partners",
     "history": [
@@ -27253,6 +27253,14 @@
         "resendId": "01a1554d-37b0-7dcd-a4fc-d92b8eac77a8",
         "status": "delivered",
         "notes": "Toronto commercial print shop partnership outreach. Offered 20% ongoing commission on website design/dev referrals + reciprocal referrals for print/sign collateral."
+      },
+      {
+        "step": "Day 4 - Follow-up",
+        "sentAt": "2026-10-24T00:33:34.884Z",
+        "subject": "Re: Web design overflow & 2-way referral collaboration for Print Three King Street West",
+        "resendId": "01a16b53-c64c-7ec7-86c5-feb8e4848aa3",
+        "status": "delivered",
+        "notes": "Day 4 partnership follow-up note reiterating 20% commission on web design overflow and reciprocal local print referrals."
       }
     ]
   },
@@ -27266,9 +27274,9 @@
     "location": "North York, ON (20-4480 Chesswood Drive)",
     "pricingQuoted": "20% Partner Commission (Recurring & Lump-Sum)",
     "initialContactDate": "2026-10-19T17:54:47.211Z",
-    "lastContactDate": "2026-10-19T17:54:47.211Z",
+    "lastContactDate": "2026-10-24T00:33:35.726Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Partnership Outreach",
+    "sequenceStep": "Day 4 - Partnership Follow-up",
     "diagnosedIssues": "Commercial print shop in North York, ON whose business clients frequently ask for website design and digital funnels upon ordering physical print collateral.",
     "caseStudySent": "https://beeclue.com?utm_source=beeclue&utm_medium=partner-outreach&utm_campaign=toronto-print-partners",
     "history": [
@@ -27279,6 +27287,14 @@
         "resendId": "01a1554d-3ae5-79ad-9160-b234dc9a546f",
         "status": "delivered",
         "notes": "Toronto commercial print shop partnership outreach. Offered 20% ongoing commission on website design/dev referrals + reciprocal referrals for print/sign collateral."
+      },
+      {
+        "step": "Day 4 - Follow-up",
+        "sentAt": "2026-10-24T00:33:35.726Z",
+        "subject": "Re: Web design overflow & 2-way referral collaboration for Origo Communications",
+        "resendId": "01a16b53-c989-7eaa-8549-20afcb29fcd3",
+        "status": "delivered",
+        "notes": "Day 4 partnership follow-up note reiterating 20% commission on web design overflow and reciprocal local print referrals."
       }
     ]
   },
@@ -27292,9 +27308,9 @@
     "location": "Mississauga / Toronto GTA, ON (1420 Meyerside Dr)",
     "pricingQuoted": "20% Partner Commission (Recurring & Lump-Sum)",
     "initialContactDate": "2026-10-19T17:54:48.035Z",
-    "lastContactDate": "2026-10-19T17:54:48.035Z",
+    "lastContactDate": "2026-10-24T00:33:36.543Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Partnership Outreach",
+    "sequenceStep": "Day 4 - Partnership Follow-up",
     "diagnosedIssues": "Commercial print shop in Mississauga / Toronto GTA, ON whose business clients frequently ask for website design and digital funnels upon ordering physical print collateral.",
     "caseStudySent": "https://beeclue.com?utm_source=beeclue&utm_medium=partner-outreach&utm_campaign=toronto-print-partners",
     "history": [
@@ -27305,6 +27321,14 @@
         "resendId": "01a1554d-3e24-72ac-9f81-1fba78bf8ada",
         "status": "delivered",
         "notes": "Toronto commercial print shop partnership outreach. Offered 20% ongoing commission on website design/dev referrals + reciprocal referrals for print/sign collateral."
+      },
+      {
+        "step": "Day 4 - Follow-up",
+        "sentAt": "2026-10-24T00:33:36.543Z",
+        "subject": "Re: Web design overflow & 2-way referral collaboration for New Era Print Solutions",
+        "resendId": "01a16b53-ccd8-7917-b69c-8a80d932682c",
+        "status": "delivered",
+        "notes": "Day 4 partnership follow-up note reiterating 20% commission on web design overflow and reciprocal local print referrals."
       }
     ]
   },
@@ -27318,9 +27342,9 @@
     "location": "Toronto, ON (Toronto & GTA)",
     "pricingQuoted": "20% Partner Commission (Recurring & Lump-Sum)",
     "initialContactDate": "2026-10-19T17:54:48.856Z",
-    "lastContactDate": "2026-10-19T17:54:48.856Z",
+    "lastContactDate": "2026-10-24T00:33:37.406Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Partnership Outreach",
+    "sequenceStep": "Day 4 - Partnership Follow-up",
     "diagnosedIssues": "Commercial print shop in Toronto, ON whose business clients frequently ask for website design and digital funnels upon ordering physical print collateral.",
     "caseStudySent": "https://beeclue.com?utm_source=beeclue&utm_medium=partner-outreach&utm_campaign=toronto-print-partners",
     "history": [
@@ -27331,6 +27355,14 @@
         "resendId": "01a1554d-4151-73ae-9dac-b4d7957d1df8",
         "status": "delivered",
         "notes": "Toronto commercial print shop partnership outreach. Offered 20% ongoing commission on website design/dev referrals + reciprocal referrals for print/sign collateral."
+      },
+      {
+        "step": "Day 4 - Follow-up",
+        "sentAt": "2026-10-24T00:33:37.406Z",
+        "subject": "Re: Web design overflow & 2-way referral collaboration for Signify Sign Company",
+        "resendId": "01a16b53-d027-76b9-8282-e2aaabaea35c",
+        "status": "delivered",
+        "notes": "Day 4 partnership follow-up note reiterating 20% commission on web design overflow and reciprocal local print referrals."
       }
     ]
   },
@@ -27344,9 +27376,9 @@
     "location": "Scarborough / Toronto, ON (2026 Ellesmere Rd, Unit 1)",
     "pricingQuoted": "20% Partner Commission (Recurring & Lump-Sum)",
     "initialContactDate": "2026-10-19T17:54:49.673Z",
-    "lastContactDate": "2026-10-19T17:54:49.673Z",
+    "lastContactDate": "2026-10-24T00:33:38.222Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Partnership Outreach",
+    "sequenceStep": "Day 4 - Partnership Follow-up",
     "diagnosedIssues": "Commercial print shop in Scarborough / Toronto, ON whose business clients frequently ask for website design and digital funnels upon ordering physical print collateral.",
     "caseStudySent": "https://beeclue.com?utm_source=beeclue&utm_medium=partner-outreach&utm_campaign=toronto-print-partners",
     "history": [
@@ -27357,6 +27389,14 @@
         "resendId": "01a1554d-4483-7120-bf74-ebbe8a837e91",
         "status": "delivered",
         "notes": "Toronto commercial print shop partnership outreach. Offered 20% ongoing commission on website design/dev referrals + reciprocal referrals for print/sign collateral."
+      },
+      {
+        "step": "Day 4 - Follow-up",
+        "sentAt": "2026-10-24T00:33:38.222Z",
+        "subject": "Re: Web design overflow & 2-way referral collaboration for Signarama Toronto East",
+        "resendId": "01a16b53-d368-74f2-b12d-c525287ae4df",
+        "status": "delivered",
+        "notes": "Day 4 partnership follow-up note reiterating 20% commission on web design overflow and reciprocal local print referrals."
       }
     ]
   },
@@ -27370,9 +27410,9 @@
     "location": "Mississauga, ON (1255 Crestlawn Drive, Unit 1)",
     "pricingQuoted": "20% Partner Commission (Recurring & Lump-Sum)",
     "initialContactDate": "2026-10-19T17:54:50.507Z",
-    "lastContactDate": "2026-10-19T17:54:50.507Z",
+    "lastContactDate": "2026-10-24T00:33:39.031Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Partnership Outreach",
+    "sequenceStep": "Day 4 - Partnership Follow-up",
     "diagnosedIssues": "Commercial print shop in Mississauga, ON whose business clients frequently ask for website design and digital funnels upon ordering physical print collateral.",
     "caseStudySent": "https://beeclue.com?utm_source=beeclue&utm_medium=partner-outreach&utm_campaign=toronto-print-partners",
     "history": [
@@ -27383,6 +27423,14 @@
         "resendId": "01a1554d-47bf-718a-8a40-7cc9157451cb",
         "status": "delivered",
         "notes": "Toronto commercial print shop partnership outreach. Offered 20% ongoing commission on website design/dev referrals + reciprocal referrals for print/sign collateral."
+      },
+      {
+        "step": "Day 4 - Follow-up",
+        "sentAt": "2026-10-24T00:33:39.031Z",
+        "subject": "Re: Web design overflow & 2-way referral collaboration for The Printing Team",
+        "resendId": "01a16b53-d693-762f-a5d8-e7813d0d3d14",
+        "status": "delivered",
+        "notes": "Day 4 partnership follow-up note reiterating 20% commission on web design overflow and reciprocal local print referrals."
       }
     ]
   },
@@ -27396,9 +27444,9 @@
     "location": "Markham / North Toronto, ON (311 Amber St., Unit 2)",
     "pricingQuoted": "20% Partner Commission (Recurring & Lump-Sum)",
     "initialContactDate": "2026-10-19T17:54:51.360Z",
-    "lastContactDate": "2026-10-19T17:54:51.360Z",
+    "lastContactDate": "2026-10-24T00:33:39.916Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Partnership Outreach",
+    "sequenceStep": "Day 4 - Partnership Follow-up",
     "diagnosedIssues": "Commercial print shop in Markham / North Toronto, ON whose business clients frequently ask for website design and digital funnels upon ordering physical print collateral.",
     "caseStudySent": "https://beeclue.com?utm_source=beeclue&utm_medium=partner-outreach&utm_campaign=toronto-print-partners",
     "history": [
@@ -27409,6 +27457,14 @@
         "resendId": "01a1554d-4b08-7b65-8cb7-a03e2d22194f",
         "status": "delivered",
         "notes": "Toronto commercial print shop partnership outreach. Offered 20% ongoing commission on website design/dev referrals + reciprocal referrals for print/sign collateral."
+      },
+      {
+        "step": "Day 4 - Follow-up",
+        "sentAt": "2026-10-24T00:33:39.916Z",
+        "subject": "Re: Web design overflow & 2-way referral collaboration for Allegra Toronto North",
+        "resendId": "01a16b53-d9c5-7632-9c33-69011459c382",
+        "status": "delivered",
+        "notes": "Day 4 partnership follow-up note reiterating 20% commission on web design overflow and reciprocal local print referrals."
       }
     ]
   },
@@ -27422,9 +27478,9 @@
     "location": "Markham, ON (2900 John Street, Suite 100)",
     "pricingQuoted": "20% Partner Commission (Recurring & Lump-Sum)",
     "initialContactDate": "2026-10-19T17:54:52.176Z",
-    "lastContactDate": "2026-10-19T17:54:52.176Z",
+    "lastContactDate": "2026-10-24T00:33:40.739Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Partnership Outreach",
+    "sequenceStep": "Day 4 - Partnership Follow-up",
     "diagnosedIssues": "Commercial print shop in Markham, ON whose business clients frequently ask for website design and digital funnels upon ordering physical print collateral.",
     "caseStudySent": "https://beeclue.com?utm_source=beeclue&utm_medium=partner-outreach&utm_campaign=toronto-print-partners",
     "history": [
@@ -27435,6 +27491,14 @@
         "resendId": "01a1554d-4e4b-7379-ae4f-025dc22ac391",
         "status": "delivered",
         "notes": "Toronto commercial print shop partnership outreach. Offered 20% ongoing commission on website design/dev referrals + reciprocal referrals for print/sign collateral."
+      },
+      {
+        "step": "Day 4 - Follow-up",
+        "sentAt": "2026-10-24T00:33:40.739Z",
+        "subject": "Re: Web design overflow & 2-way referral collaboration for Print Three Markham",
+        "resendId": "01a16b53-dd36-7dcc-8305-24411db6fedb",
+        "status": "delivered",
+        "notes": "Day 4 partnership follow-up note reiterating 20% commission on web design overflow and reciprocal local print referrals."
       }
     ]
   },
@@ -27448,9 +27512,9 @@
     "location": "Etobicoke, ON (24 Ronson Dr., Unit 1)",
     "pricingQuoted": "20% Partner Commission (Recurring & Lump-Sum)",
     "initialContactDate": "2026-10-19T17:54:53.007Z",
-    "lastContactDate": "2026-10-19T17:54:53.007Z",
+    "lastContactDate": "2026-10-24T00:33:41.581Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Partnership Outreach",
+    "sequenceStep": "Day 4 - Partnership Follow-up",
     "diagnosedIssues": "Commercial print shop in Etobicoke, ON whose business clients frequently ask for website design and digital funnels upon ordering physical print collateral.",
     "caseStudySent": "https://beeclue.com?utm_source=beeclue&utm_medium=partner-outreach&utm_campaign=toronto-print-partners",
     "history": [
@@ -27461,6 +27525,14 @@
         "resendId": "01a1554d-518c-78ba-8c6f-927da6839647",
         "status": "delivered",
         "notes": "Toronto commercial print shop partnership outreach. Offered 20% ongoing commission on website design/dev referrals + reciprocal referrals for print/sign collateral."
+      },
+      {
+        "step": "Day 4 - Follow-up",
+        "sentAt": "2026-10-24T00:33:41.581Z",
+        "subject": "Re: Web design overflow & 2-way referral collaboration for Print Three Etobicoke",
+        "resendId": "01a16b53-e087-7aa8-b4e7-0947422311bd",
+        "status": "delivered",
+        "notes": "Day 4 partnership follow-up note reiterating 20% commission on web design overflow and reciprocal local print referrals."
       }
     ]
   },
@@ -27474,9 +27546,9 @@
     "location": "Etobicoke, ON (142 Islington Ave)",
     "pricingQuoted": "20% Partner Commission (Recurring & Lump-Sum)",
     "initialContactDate": "2026-10-19T17:54:53.826Z",
-    "lastContactDate": "2026-10-19T17:54:53.826Z",
+    "lastContactDate": "2026-10-24T00:33:42.431Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Partnership Outreach",
+    "sequenceStep": "Day 4 - Partnership Follow-up",
     "diagnosedIssues": "Commercial print shop in Etobicoke, ON whose business clients frequently ask for website design and digital funnels upon ordering physical print collateral.",
     "caseStudySent": "https://beeclue.com?utm_source=beeclue&utm_medium=partner-outreach&utm_campaign=toronto-print-partners",
     "history": [
@@ -27487,6 +27559,14 @@
         "resendId": "01a1554d-54bc-7cf9-b9f9-113c8f6f285b",
         "status": "delivered",
         "notes": "Toronto commercial print shop partnership outreach. Offered 20% ongoing commission on website design/dev referrals + reciprocal referrals for print/sign collateral."
+      },
+      {
+        "step": "Day 4 - Follow-up",
+        "sentAt": "2026-10-24T00:33:42.431Z",
+        "subject": "Re: Web design overflow & 2-way referral collaboration for Graphic Print and Copies Inc.",
+        "resendId": "01a16b53-e3b4-7957-a465-3170dd962834",
+        "status": "delivered",
+        "notes": "Day 4 partnership follow-up note reiterating 20% commission on web design overflow and reciprocal local print referrals."
       }
     ]
   },
@@ -27500,9 +27580,9 @@
     "location": "Scarborough, ON (2-90 Venture Drive)",
     "pricingQuoted": "20% Partner Commission (Recurring & Lump-Sum)",
     "initialContactDate": "2026-10-19T17:54:54.641Z",
-    "lastContactDate": "2026-10-19T17:54:54.641Z",
+    "lastContactDate": "2026-10-24T00:33:43.239Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Partnership Outreach",
+    "sequenceStep": "Day 4 - Partnership Follow-up",
     "diagnosedIssues": "Commercial print shop in Scarborough, ON whose business clients frequently ask for website design and digital funnels upon ordering physical print collateral.",
     "caseStudySent": "https://beeclue.com?utm_source=beeclue&utm_medium=partner-outreach&utm_campaign=toronto-print-partners",
     "history": [
@@ -27513,6 +27593,14 @@
         "resendId": "01a1554d-57ed-7aa5-9d43-7d199187e936",
         "status": "delivered",
         "notes": "Toronto commercial print shop partnership outreach. Offered 20% ongoing commission on website design/dev referrals + reciprocal referrals for print/sign collateral."
+      },
+      {
+        "step": "Day 4 - Follow-up",
+        "sentAt": "2026-10-24T00:33:43.239Z",
+        "subject": "Re: Web design overflow & 2-way referral collaboration for Candz Print",
+        "resendId": "01a16b53-e705-7832-a12f-c29ac95d0785",
+        "status": "delivered",
+        "notes": "Day 4 partnership follow-up note reiterating 20% commission on web design overflow and reciprocal local print referrals."
       }
     ]
   },
@@ -27526,9 +27614,9 @@
     "location": "North York, ON (62 Alness Street, Unit 6)",
     "pricingQuoted": "20% Partner Commission (Recurring & Lump-Sum)",
     "initialContactDate": "2026-10-19T17:54:55.476Z",
-    "lastContactDate": "2026-10-19T17:54:55.476Z",
+    "lastContactDate": "2026-10-24T00:33:44.109Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Partnership Outreach",
+    "sequenceStep": "Day 4 - Partnership Follow-up",
     "diagnosedIssues": "Commercial print shop in North York, ON whose business clients frequently ask for website design and digital funnels upon ordering physical print collateral.",
     "caseStudySent": "https://beeclue.com?utm_source=beeclue&utm_medium=partner-outreach&utm_campaign=toronto-print-partners",
     "history": [
@@ -27539,6 +27627,14 @@
         "resendId": "01a1554d-5b33-74a3-9ab6-40420cf34848",
         "status": "delivered",
         "notes": "Toronto commercial print shop partnership outreach. Offered 20% ongoing commission on website design/dev referrals + reciprocal referrals for print/sign collateral."
+      },
+      {
+        "step": "Day 4 - Follow-up",
+        "sentAt": "2026-10-24T00:33:44.109Z",
+        "subject": "Re: Web design overflow & 2-way referral collaboration for Corporate Printing Services",
+        "resendId": "01a16b53-ea27-7588-b840-fde7c1b15cce",
+        "status": "delivered",
+        "notes": "Day 4 partnership follow-up note reiterating 20% commission on web design overflow and reciprocal local print referrals."
       }
     ]
   },
@@ -27552,9 +27648,9 @@
     "location": "Midtown Toronto, ON (2100 Yonge St)",
     "pricingQuoted": "20% Partner Commission (Recurring & Lump-Sum)",
     "initialContactDate": "2026-10-19T17:54:56.320Z",
-    "lastContactDate": "2026-10-19T17:54:56.320Z",
+    "lastContactDate": "2026-10-24T00:33:44.927Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Partnership Outreach",
+    "sequenceStep": "Day 4 - Partnership Follow-up",
     "diagnosedIssues": "Commercial print shop in Midtown Toronto, ON whose business clients frequently ask for website design and digital funnels upon ordering physical print collateral.",
     "caseStudySent": "https://beeclue.com?utm_source=beeclue&utm_medium=partner-outreach&utm_campaign=toronto-print-partners",
     "history": [
@@ -27565,6 +27661,14 @@
         "resendId": "01a1554d-5e69-71a7-be0c-7f61fc63bff2",
         "status": "delivered",
         "notes": "Toronto commercial print shop partnership outreach. Offered 20% ongoing commission on website design/dev referrals + reciprocal referrals for print/sign collateral."
+      },
+      {
+        "step": "Day 4 - Follow-up",
+        "sentAt": "2026-10-24T00:33:44.927Z",
+        "subject": "Re: Web design overflow & 2-way referral collaboration for Print Three Yonge Street",
+        "resendId": "01a16b53-ed98-78f8-9bfa-0f625cd01617",
+        "status": "delivered",
+        "notes": "Day 4 partnership follow-up note reiterating 20% commission on web design overflow and reciprocal local print referrals."
       }
     ]
   },
@@ -27578,9 +27682,9 @@
     "location": "Toronto, ON (Toronto & GTA)",
     "pricingQuoted": "20% Partner Commission (Recurring & Lump-Sum)",
     "initialContactDate": "2026-10-19T17:54:57.158Z",
-    "lastContactDate": "2026-10-19T17:54:57.158Z",
+    "lastContactDate": "2026-10-24T00:33:45.781Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Partnership Outreach",
+    "sequenceStep": "Day 4 - Partnership Follow-up",
     "diagnosedIssues": "Commercial print shop in Toronto, ON whose business clients frequently ask for website design and digital funnels upon ordering physical print collateral.",
     "caseStudySent": "https://beeclue.com?utm_source=beeclue&utm_medium=partner-outreach&utm_campaign=toronto-print-partners",
     "history": [
@@ -27591,6 +27695,14 @@
         "resendId": "01a1554d-61af-7bb5-8062-7b8fb9dbc110",
         "status": "delivered",
         "notes": "Toronto commercial print shop partnership outreach. Offered 20% ongoing commission on website design/dev referrals + reciprocal referrals for print/sign collateral."
+      },
+      {
+        "step": "Day 4 - Follow-up",
+        "sentAt": "2026-10-24T00:33:45.781Z",
+        "subject": "Re: Web design overflow & 2-way referral collaboration for Dee Print",
+        "resendId": "01a16b53-f0e6-733e-8ba3-050c5045771f",
+        "status": "delivered",
+        "notes": "Day 4 partnership follow-up note reiterating 20% commission on web design overflow and reciprocal local print referrals."
       }
     ]
   },
@@ -27604,9 +27716,9 @@
     "location": "Etobicoke / Toronto, ON (249 Evans Avenue)",
     "pricingQuoted": "20% Partner Commission (Recurring & Lump-Sum)",
     "initialContactDate": "2026-10-19T17:54:58.026Z",
-    "lastContactDate": "2026-10-19T17:54:58.026Z",
+    "lastContactDate": "2026-10-24T00:33:46.604Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Partnership Outreach",
+    "sequenceStep": "Day 4 - Partnership Follow-up",
     "diagnosedIssues": "Commercial print shop in Etobicoke / Toronto, ON whose business clients frequently ask for website design and digital funnels upon ordering physical print collateral.",
     "caseStudySent": "https://beeclue.com?utm_source=beeclue&utm_medium=partner-outreach&utm_campaign=toronto-print-partners",
     "history": [
@@ -27617,6 +27729,14 @@
         "resendId": "01a1554d-64f7-7895-a646-f8f11b2ef43f",
         "status": "delivered",
         "notes": "Toronto commercial print shop partnership outreach. Offered 20% ongoing commission on website design/dev referrals + reciprocal referrals for print/sign collateral."
+      },
+      {
+        "step": "Day 4 - Follow-up",
+        "sentAt": "2026-10-24T00:33:46.604Z",
+        "subject": "Re: Web design overflow & 2-way referral collaboration for CJ Graphics Inc.",
+        "resendId": "01a16b53-f415-78ab-98eb-bb3f46ff281d",
+        "status": "delivered",
+        "notes": "Day 4 partnership follow-up note reiterating 20% commission on web design overflow and reciprocal local print referrals."
       }
     ]
   },
@@ -27630,9 +27750,9 @@
     "location": "Bloor West Village, Toronto, ON (2239 Bloor Street West)",
     "pricingQuoted": "20% Partner Commission (Recurring & Lump-Sum)",
     "initialContactDate": "2026-10-19T17:54:58.844Z",
-    "lastContactDate": "2026-10-19T17:54:58.844Z",
+    "lastContactDate": "2026-10-24T00:33:47.415Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Partnership Outreach",
+    "sequenceStep": "Day 4 - Partnership Follow-up",
     "diagnosedIssues": "Commercial print shop in Bloor West Village, Toronto, ON whose business clients frequently ask for website design and digital funnels upon ordering physical print collateral.",
     "caseStudySent": "https://beeclue.com?utm_source=beeclue&utm_medium=partner-outreach&utm_campaign=toronto-print-partners",
     "history": [
@@ -27643,6 +27763,14 @@
         "resendId": "01a1554d-6858-7af6-82c9-cfce4bd2601b",
         "status": "delivered",
         "notes": "Toronto commercial print shop partnership outreach. Offered 20% ongoing commission on website design/dev referrals + reciprocal referrals for print/sign collateral."
+      },
+      {
+        "step": "Day 4 - Follow-up",
+        "sentAt": "2026-10-24T00:33:47.415Z",
+        "subject": "Re: Web design overflow & 2-way referral collaboration for Nexus Printing & Signs",
+        "resendId": "01a16b53-f74f-7707-9898-2f1bbdded723",
+        "status": "delivered",
+        "notes": "Day 4 partnership follow-up note reiterating 20% commission on web design overflow and reciprocal local print referrals."
       }
     ]
   },
@@ -27656,9 +27784,9 @@
     "location": "Queen West, Toronto, ON (495 Queen St W)",
     "pricingQuoted": "20% Partner Commission (Recurring & Lump-Sum)",
     "initialContactDate": "2026-10-19T17:54:59.677Z",
-    "lastContactDate": "2026-10-19T17:54:59.677Z",
+    "lastContactDate": "2026-10-24T00:33:48.304Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Partnership Outreach",
+    "sequenceStep": "Day 4 - Partnership Follow-up",
     "diagnosedIssues": "Commercial print shop in Queen West, Toronto, ON whose business clients frequently ask for website design and digital funnels upon ordering physical print collateral.",
     "caseStudySent": "https://beeclue.com?utm_source=beeclue&utm_medium=partner-outreach&utm_campaign=toronto-print-partners",
     "history": [
@@ -27669,6 +27797,14 @@
         "resendId": "01a1554d-6b8f-7b5b-9606-ff6d81f6a367",
         "status": "delivered",
         "notes": "Toronto commercial print shop partnership outreach. Offered 20% ongoing commission on website design/dev referrals + reciprocal referrals for print/sign collateral."
+      },
+      {
+        "step": "Day 4 - Follow-up",
+        "sentAt": "2026-10-24T00:33:48.304Z",
+        "subject": "Re: Web design overflow & 2-way referral collaboration for Digitime Signs & Custom Tees",
+        "resendId": "01a16b53-fa8d-779e-9fe4-6d0fd9b876a3",
+        "status": "delivered",
+        "notes": "Day 4 partnership follow-up note reiterating 20% commission on web design overflow and reciprocal local print referrals."
       }
     ]
   },
@@ -27682,9 +27818,9 @@
     "location": "Richmond Hill, ON (21-100 West Beaver Creek Rd)",
     "pricingQuoted": "20% Partner Commission (Recurring & Lump-Sum)",
     "initialContactDate": "2026-10-19T17:55:00.575Z",
-    "lastContactDate": "2026-10-19T17:55:00.575Z",
+    "lastContactDate": "2026-10-24T00:33:49.116Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Partnership Outreach",
+    "sequenceStep": "Day 4 - Partnership Follow-up",
     "diagnosedIssues": "Commercial print shop in Richmond Hill, ON whose business clients frequently ask for website design and digital funnels upon ordering physical print collateral.",
     "caseStudySent": "https://beeclue.com?utm_source=beeclue&utm_medium=partner-outreach&utm_campaign=toronto-print-partners",
     "history": [
@@ -27695,6 +27831,14 @@
         "resendId": "01a1554d-6ecd-7339-993c-b81b5863e231",
         "status": "delivered",
         "notes": "Toronto commercial print shop partnership outreach. Offered 20% ongoing commission on website design/dev referrals + reciprocal referrals for print/sign collateral."
+      },
+      {
+        "step": "Day 4 - Follow-up",
+        "sentAt": "2026-10-24T00:33:49.116Z",
+        "subject": "Re: Web design overflow & 2-way referral collaboration for Revolution Print Inc.",
+        "resendId": "01a16b53-fdf5-7e48-8e9d-ffab60ad05a4",
+        "status": "delivered",
+        "notes": "Day 4 partnership follow-up note reiterating 20% commission on web design overflow and reciprocal local print referrals."
       }
     ]
   },
@@ -27708,9 +27852,9 @@
     "location": "Brampton, ON (24 Queen Street East, Suite 101)",
     "pricingQuoted": "20% Partner Commission (Recurring & Lump-Sum)",
     "initialContactDate": "2026-10-19T17:55:01.398Z",
-    "lastContactDate": "2026-10-19T17:55:01.398Z",
+    "lastContactDate": "2026-10-24T00:33:49.982Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Partnership Outreach",
+    "sequenceStep": "Day 4 - Partnership Follow-up",
     "diagnosedIssues": "Commercial print shop in Brampton, ON whose business clients frequently ask for website design and digital funnels upon ordering physical print collateral.",
     "caseStudySent": "https://beeclue.com?utm_source=beeclue&utm_medium=partner-outreach&utm_campaign=toronto-print-partners",
     "history": [
@@ -27721,6 +27865,14 @@
         "resendId": "01a1554d-724f-76ca-95e7-4ce07f59788c",
         "status": "delivered",
         "notes": "Toronto commercial print shop partnership outreach. Offered 20% ongoing commission on website design/dev referrals + reciprocal referrals for print/sign collateral."
+      },
+      {
+        "step": "Day 4 - Follow-up",
+        "sentAt": "2026-10-24T00:33:49.982Z",
+        "subject": "Re: Web design overflow & 2-way referral collaboration for Print Three Brampton",
+        "resendId": "01a16b54-0151-7291-a846-1168ba31dd84",
+        "status": "delivered",
+        "notes": "Day 4 partnership follow-up note reiterating 20% commission on web design overflow and reciprocal local print referrals."
       }
     ]
   },
@@ -27734,9 +27886,9 @@
     "location": "East York, Toronto, ON (2195 Danforth Ave)",
     "pricingQuoted": "20% Partner Commission (Recurring & Lump-Sum)",
     "initialContactDate": "2026-10-19T17:55:02.235Z",
-    "lastContactDate": "2026-10-19T17:55:02.235Z",
+    "lastContactDate": "2026-10-24T00:33:50.797Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Partnership Outreach",
+    "sequenceStep": "Day 4 - Partnership Follow-up",
     "diagnosedIssues": "Commercial print shop in East York, Toronto, ON whose business clients frequently ask for website design and digital funnels upon ordering physical print collateral.",
     "caseStudySent": "https://beeclue.com?utm_source=beeclue&utm_medium=partner-outreach&utm_campaign=toronto-print-partners",
     "history": [
@@ -27747,6 +27899,14 @@
         "resendId": "01a1554d-758e-7774-a294-ec15816838fa",
         "status": "delivered",
         "notes": "Toronto commercial print shop partnership outreach. Offered 20% ongoing commission on website design/dev referrals + reciprocal referrals for print/sign collateral."
+      },
+      {
+        "step": "Day 4 - Follow-up",
+        "sentAt": "2026-10-24T00:33:50.797Z",
+        "subject": "Re: Web design overflow & 2-way referral collaboration for First Class Printing & Signs",
+        "resendId": "01a16b54-047f-7718-bc75-bfce90c8a221",
+        "status": "delivered",
+        "notes": "Day 4 partnership follow-up note reiterating 20% commission on web design overflow and reciprocal local print referrals."
       }
     ]
   },
