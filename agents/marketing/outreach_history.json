@@ -24309,9 +24309,9 @@
     "location": "Manhattan, NY (305 Broadway, Suite 805, Manhattan, NY 10007)",
     "pricingQuoted": "$19/month",
     "initialContactDate": "2026-10-16T23:28:19.932Z",
-    "lastContactDate": "2026-10-16T23:28:19.932Z",
+    "lastContactDate": "2026-10-24T00:03:51.392Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Outreach",
+    "sequenceStep": "Day 4 - Follow-up",
     "diagnosedIssues": "No standalone website; relies on directory listings and court panel rosters without an online client intake form.",
     "caseStudySent": "https://taralattanzio.ca?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-law-office-of-eugene-d-conway",
     "history": [
@@ -24322,6 +24322,14 @@
         "resendId": "01a1470b-858c-72a8-8cd0-3e88568c29d5",
         "status": "delivered",
         "notes": "NYC solo lawyer outreach for practices without a website. Pitched $19/mo Core plan, $0 upfront fee, and free 48-hr mockup preview."
+      },
+      {
+        "step": "Day 4",
+        "sentAt": "2026-10-24T00:03:51.392Z",
+        "subject": "Re: Website & consultation intake for Law Office of Eugene D. Conway",
+        "resendId": "01a16b38-8f9b-7bc0-93ab-05b0e473ed02",
+        "status": "delivered",
+        "notes": "Day 4 follow-up note floating up $19/mo Core plan and free 48-hr mockup offer."
       }
     ]
   },
@@ -24335,9 +24343,9 @@
     "location": "Brooklyn, NY (925 Avenue T, Brooklyn, NY 11223)",
     "pricingQuoted": "$19/month",
     "initialContactDate": "2026-10-16T23:28:20.790Z",
-    "lastContactDate": "2026-10-16T23:28:20.790Z",
+    "lastContactDate": "2026-10-24T00:03:52.207Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Outreach",
+    "sequenceStep": "Day 4 - Follow-up",
     "diagnosedIssues": "No firm website; relies on lender rosters and Justia profile, missing direct Brooklyn closing client acquisition.",
     "caseStudySent": "https://taralattanzio.ca?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-michael-swerdloff-llc",
     "history": [
@@ -24348,6 +24356,14 @@
         "resendId": "01a1470b-88e0-7ce9-a2fe-841da9fc16a1",
         "status": "delivered",
         "notes": "NYC solo lawyer outreach for practices without a website. Pitched $19/mo Core plan, $0 upfront fee, and free 48-hr mockup preview."
+      },
+      {
+        "step": "Day 4",
+        "sentAt": "2026-10-24T00:03:52.207Z",
+        "subject": "Re: Website & consultation intake for Michael & Swerdloff, LLC",
+        "resendId": "01a16b38-92c9-7410-8ab2-10d268898962",
+        "status": "delivered",
+        "notes": "Day 4 follow-up note floating up $19/mo Core plan and free 48-hr mockup offer."
       }
     ]
   },
@@ -24361,9 +24377,9 @@
     "location": "Manhattan, NY (325 Broadway, Suite 404, Manhattan, NY 10007)",
     "pricingQuoted": "$19/month",
     "initialContactDate": "2026-10-16T23:28:21.639Z",
-    "lastContactDate": "2026-10-16T23:28:21.639Z",
+    "lastContactDate": "2026-10-24T00:03:53.046Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Outreach",
+    "sequenceStep": "Day 4 - Follow-up",
     "diagnosedIssues": "Broadway court corridor practice with no standalone website or mobile emergency contact intake.",
     "caseStudySent": "https://taralattanzio.ca?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-law-office-of-h-hershel-katz",
     "history": [
@@ -24374,6 +24390,14 @@
         "resendId": "01a1470b-8c39-710d-9c08-40338c054250",
         "status": "delivered",
         "notes": "NYC solo lawyer outreach for practices without a website. Pitched $19/mo Core plan, $0 upfront fee, and free 48-hr mockup preview."
+      },
+      {
+        "step": "Day 4",
+        "sentAt": "2026-10-24T00:03:53.046Z",
+        "subject": "Re: Website & consultation intake for Law Office of H. Hershel Katz",
+        "resendId": "01a16b38-95fa-7da1-967a-b0234d7a45a2",
+        "status": "delivered",
+        "notes": "Day 4 follow-up note floating up $19/mo Core plan and free 48-hr mockup offer."
       }
     ]
   },
@@ -24387,9 +24411,9 @@
     "location": "Manhattan, NY (100 Lafayette Street, Manhattan, NY 10013)",
     "pricingQuoted": "$19/month",
     "initialContactDate": "2026-10-16T23:28:22.578Z",
-    "lastContactDate": "2026-10-16T23:28:22.578Z",
+    "lastContactDate": "2026-10-24T00:03:53.862Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Outreach",
+    "sequenceStep": "Day 4 - Follow-up",
     "diagnosedIssues": "Established criminal defense boutique near 100 Centre Street with no website or case consultation intake.",
     "caseStudySent": "https://taralattanzio.ca?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-gotlin-jaffe",
     "history": [
@@ -24400,6 +24424,14 @@
         "resendId": "01a1470b-8f87-79da-b0f3-93fcb752069f",
         "status": "delivered",
         "notes": "NYC solo lawyer outreach for practices without a website. Pitched $19/mo Core plan, $0 upfront fee, and free 48-hr mockup preview."
+      },
+      {
+        "step": "Day 4",
+        "sentAt": "2026-10-24T00:03:53.862Z",
+        "subject": "Re: Website & consultation intake for Gotlin & Jaffe",
+        "resendId": "01a16b38-9945-733f-8ca9-32fb5f7fbc01",
+        "status": "delivered",
+        "notes": "Day 4 follow-up note floating up $19/mo Core plan and free 48-hr mockup offer."
       }
     ]
   },
@@ -24413,9 +24445,9 @@
     "location": "Staten Island, NY (4300 Hylan Blvd, Suite 2A, Staten Island, NY 10312)",
     "pricingQuoted": "$19/month",
     "initialContactDate": "2026-10-16T23:28:23.482Z",
-    "lastContactDate": "2026-10-16T23:28:23.482Z",
+    "lastContactDate": "2026-10-24T00:03:54.707Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Outreach",
+    "sequenceStep": "Day 4 - Follow-up",
     "diagnosedIssues": "Hylan Blvd Staten Island office with no standalone website for prospective property buyers or estate planning clients.",
     "caseStudySent": "https://taralattanzio.ca?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-law-office-of-robert-a-arminante",
     "history": [
@@ -24426,6 +24458,14 @@
         "resendId": "01a1470b-9335-7b37-a1a6-d1170866a339",
         "status": "delivered",
         "notes": "NYC solo lawyer outreach for practices without a website. Pitched $19/mo Core plan, $0 upfront fee, and free 48-hr mockup preview."
+      },
+      {
+        "step": "Day 4",
+        "sentAt": "2026-10-24T00:03:54.707Z",
+        "subject": "Re: Website & consultation intake for Law Office of Robert A. Arminante",
+        "resendId": "01a16b38-9c92-764f-986b-38ca09736623",
+        "status": "delivered",
+        "notes": "Day 4 follow-up note floating up $19/mo Core plan and free 48-hr mockup offer."
       }
     ]
   },
@@ -24439,9 +24479,9 @@
     "location": "Manhattan, NY (70-74 Bowery, Suite LL-3, Manhattan, NY 10013)",
     "pricingQuoted": "$19/month",
     "initialContactDate": "2026-10-16T23:28:24.366Z",
-    "lastContactDate": "2026-10-16T23:28:24.366Z",
+    "lastContactDate": "2026-10-24T00:03:55.522Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Outreach",
+    "sequenceStep": "Day 4 - Follow-up",
     "diagnosedIssues": "Chinatown/Lower Manhattan real estate closing practice with no digital home for condo/co-op buyers.",
     "caseStudySent": "https://taralattanzio.ca?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-law-office-of-ryan-hom",
     "history": [
@@ -24452,6 +24492,14 @@
         "resendId": "01a1470b-96d7-7ec6-8917-83c27f72ee54",
         "status": "delivered",
         "notes": "NYC solo lawyer outreach for practices without a website. Pitched $19/mo Core plan, $0 upfront fee, and free 48-hr mockup preview."
+      },
+      {
+        "step": "Day 4",
+        "sentAt": "2026-10-24T00:03:55.522Z",
+        "subject": "Re: Website & consultation intake for Law Office of Ryan Hom",
+        "resendId": "01a16b38-9fbe-73e8-a5a7-52a9d89f885c",
+        "status": "delivered",
+        "notes": "Day 4 follow-up note floating up $19/mo Core plan and free 48-hr mockup offer."
       }
     ]
   },
@@ -24465,9 +24513,9 @@
     "location": "Brooklyn, NY (1795 Coney Island Avenue, Brooklyn, NY 11230)",
     "pricingQuoted": "$19/month",
     "initialContactDate": "2026-10-16T23:28:25.275Z",
-    "lastContactDate": "2026-10-16T23:28:25.275Z",
+    "lastContactDate": "2026-10-24T00:03:56.340Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Outreach",
+    "sequenceStep": "Day 4 - Follow-up",
     "diagnosedIssues": "Coney Island Avenue commercial presence in Midwood with no website or online consultation booking.",
     "caseStudySent": "https://taralattanzio.ca?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-law-offices-of-michael-michael-pllc",
     "history": [
@@ -24478,6 +24526,14 @@
         "resendId": "01a1470b-9a31-7851-a463-e7b0a221602c",
         "status": "delivered",
         "notes": "NYC solo lawyer outreach for practices without a website. Pitched $19/mo Core plan, $0 upfront fee, and free 48-hr mockup preview."
+      },
+      {
+        "step": "Day 4",
+        "sentAt": "2026-10-24T00:03:56.340Z",
+        "subject": "Re: Website & consultation intake for Law Offices of Michael Michael, PLLC",
+        "resendId": "01a16b38-a2e8-7692-92e8-7de5865c1db8",
+        "status": "delivered",
+        "notes": "Day 4 follow-up note floating up $19/mo Core plan and free 48-hr mockup offer."
       }
     ]
   },
@@ -24491,9 +24547,9 @@
     "location": "Manhattan, NY (400 East 70th Street, Suite 504, Manhattan, NY 10021)",
     "pricingQuoted": "$19/month",
     "initialContactDate": "2026-10-16T23:28:26.132Z",
-    "lastContactDate": "2026-10-16T23:28:26.132Z",
+    "lastContactDate": "2026-10-24T00:03:57.165Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Outreach",
+    "sequenceStep": "Day 4 - Follow-up",
     "diagnosedIssues": "Upper East Side practice handling residential closings without a dedicated web storefront.",
     "caseStudySent": "https://taralattanzio.ca?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-andrew-s-khani-attorney-at-law",
     "history": [
@@ -24504,6 +24560,14 @@
         "resendId": "01a1470b-9dba-792a-9a60-b135c9d4cb82",
         "status": "delivered",
         "notes": "NYC solo lawyer outreach for practices without a website. Pitched $19/mo Core plan, $0 upfront fee, and free 48-hr mockup preview."
+      },
+      {
+        "step": "Day 4",
+        "sentAt": "2026-10-24T00:03:57.165Z",
+        "subject": "Re: Website & consultation intake for Andrew S. Khani, Attorney at Law",
+        "resendId": "01a16b38-a623-7485-ae17-3ffb080b038e",
+        "status": "delivered",
+        "notes": "Day 4 follow-up note floating up $19/mo Core plan and free 48-hr mockup offer."
       }
     ]
   },
@@ -24517,9 +24581,9 @@
     "location": "Bronx, NY (1978 Williamsbridge Rd, Bronx, NY 10461)",
     "pricingQuoted": "$19/month",
     "initialContactDate": "2026-10-16T23:28:27.001Z",
-    "lastContactDate": "2026-10-16T23:28:27.001Z",
+    "lastContactDate": "2026-10-24T00:03:57.985Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Outreach",
+    "sequenceStep": "Day 4 - Follow-up",
     "diagnosedIssues": "Long-standing Morris Park solo practice relying exclusively on phone referrals with no online service overview.",
     "caseStudySent": "https://taralattanzio.ca?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-david-w-barnhard-esq",
     "history": [
@@ -24530,6 +24594,14 @@
         "resendId": "01a1470b-a128-7a54-8184-636560a23c13",
         "status": "delivered",
         "notes": "NYC solo lawyer outreach for practices without a website. Pitched $19/mo Core plan, $0 upfront fee, and free 48-hr mockup preview."
+      },
+      {
+        "step": "Day 4",
+        "sentAt": "2026-10-24T00:03:57.985Z",
+        "subject": "Re: Website & consultation intake for David W. Barnhard Esq.",
+        "resendId": "01a16b38-a956-7b82-bb48-b7d8ce2e3e7e",
+        "status": "delivered",
+        "notes": "Day 4 follow-up note floating up $19/mo Core plan and free 48-hr mockup offer."
       }
     ]
   },
@@ -24543,9 +24615,9 @@
     "location": "Bronx, NY (172 E 161st St, Bronx, NY 10451)",
     "pricingQuoted": "$19/month",
     "initialContactDate": "2026-10-16T23:28:27.896Z",
-    "lastContactDate": "2026-10-16T23:28:27.896Z",
+    "lastContactDate": "2026-10-24T00:03:58.811Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Outreach",
+    "sequenceStep": "Day 4 - Follow-up",
     "diagnosedIssues": "Directly opposite Bronx County Hall of Justice on 161st St, but has no mobile landing page for courthouse mobile search traffic.",
     "caseStudySent": "https://taralattanzio.ca?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-law-offices-of-michael-j-barsky",
     "history": [
@@ -24556,6 +24628,14 @@
         "resendId": "01a1470b-a478-704b-b5d8-795880d370db",
         "status": "delivered",
         "notes": "NYC solo lawyer outreach for practices without a website. Pitched $19/mo Core plan, $0 upfront fee, and free 48-hr mockup preview."
+      },
+      {
+        "step": "Day 4",
+        "sentAt": "2026-10-24T00:03:58.811Z",
+        "subject": "Re: Website & consultation intake for Law Offices of Michael J. Barsky",
+        "resendId": "01a16b38-ac90-7d26-b1cb-4f8ca1addad8",
+        "status": "delivered",
+        "notes": "Day 4 follow-up note floating up $19/mo Core plan and free 48-hr mockup offer."
       }
     ]
   },
@@ -24569,9 +24649,9 @@
     "location": "Bronx, NY (1937 Williamsbridge Road, 2nd Floor, Bronx, NY 10461)",
     "pricingQuoted": "$19/month",
     "initialContactDate": "2026-10-16T23:28:28.741Z",
-    "lastContactDate": "2026-10-16T23:28:28.741Z",
+    "lastContactDate": "2026-10-24T00:03:59.684Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Outreach",
+    "sequenceStep": "Day 4 - Follow-up",
     "diagnosedIssues": "Pelham Parkway community practice handling family and criminal cases with no digital consultation intake.",
     "caseStudySent": "https://taralattanzio.ca?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-law-office-of-susan-m-dambrosio",
     "history": [
@@ -24582,6 +24662,14 @@
         "resendId": "01a1470b-a7f9-7d7f-9c06-656e579288e2",
         "status": "delivered",
         "notes": "NYC solo lawyer outreach for practices without a website. Pitched $19/mo Core plan, $0 upfront fee, and free 48-hr mockup preview."
+      },
+      {
+        "step": "Day 4",
+        "sentAt": "2026-10-24T00:03:59.684Z",
+        "subject": "Re: Website & consultation intake for Law Office of Susan M. D'Ambrosio",
+        "resendId": "01a16b38-afc8-7a73-a894-624c71a3a26e",
+        "status": "delivered",
+        "notes": "Day 4 follow-up note floating up $19/mo Core plan and free 48-hr mockup offer."
       }
     ]
   },
@@ -24595,9 +24683,9 @@
     "location": "Brooklyn, NY (1820 Avenue M, PMB #2281, Brooklyn, NY 11230)",
     "pricingQuoted": "$19/month",
     "initialContactDate": "2026-10-16T23:28:29.607Z",
-    "lastContactDate": "2026-10-16T23:28:29.607Z",
+    "lastContactDate": "2026-10-24T00:04:00.516Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Outreach",
+    "sequenceStep": "Day 4 - Follow-up",
     "diagnosedIssues": "Midwood real estate closing practice with no branded website or closing checklist form.",
     "caseStudySent": "https://taralattanzio.ca?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-law-offices-of-chavie-levin",
     "history": [
@@ -24608,6 +24696,14 @@
         "resendId": "01a1470b-ab52-72e5-9ab5-2a5a1dabedd9",
         "status": "delivered",
         "notes": "NYC solo lawyer outreach for practices without a website. Pitched $19/mo Core plan, $0 upfront fee, and free 48-hr mockup preview."
+      },
+      {
+        "step": "Day 4",
+        "sentAt": "2026-10-24T00:04:00.516Z",
+        "subject": "Re: Website & consultation intake for Law Offices of Chavie Levin",
+        "resendId": "01a16b38-b32e-7b30-b4e8-b581e90d6ff5",
+        "status": "delivered",
+        "notes": "Day 4 follow-up note floating up $19/mo Core plan and free 48-hr mockup offer."
       }
     ]
   },
@@ -24621,9 +24717,9 @@
     "location": "Manhattan, NY (299 Broadway, Suite 1700, Manhattan, NY 10007)",
     "pricingQuoted": "$19/month",
     "initialContactDate": "2026-10-16T23:28:30.441Z",
-    "lastContactDate": "2026-10-16T23:28:30.441Z",
+    "lastContactDate": "2026-10-24T00:04:01.331Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Outreach",
+    "sequenceStep": "Day 4 - Follow-up",
     "diagnosedIssues": "Former Manhattan Assistant DA with 299 Broadway office but no website to highlight credentials or intake clients.",
     "caseStudySent": "https://taralattanzio.ca?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-law-office-of-steven-bartley",
     "history": [
@@ -24634,6 +24730,14 @@
         "resendId": "01a1470b-aea1-74c2-8ec3-abafd1fc87c6",
         "status": "delivered",
         "notes": "NYC solo lawyer outreach for practices without a website. Pitched $19/mo Core plan, $0 upfront fee, and free 48-hr mockup preview."
+      },
+      {
+        "step": "Day 4",
+        "sentAt": "2026-10-24T00:04:01.331Z",
+        "subject": "Re: Website & consultation intake for Law Office of Steven Bartley",
+        "resendId": "01a16b38-b66c-7155-8133-ed0121bd00ac",
+        "status": "delivered",
+        "notes": "Day 4 follow-up note floating up $19/mo Core plan and free 48-hr mockup offer."
       }
     ]
   },
@@ -24647,9 +24751,9 @@
     "location": "Manhattan, NY (100 West 31st Street, No. 45L, Manhattan, NY 10001)",
     "pricingQuoted": "$19/month",
     "initialContactDate": "2026-10-16T23:28:31.303Z",
-    "lastContactDate": "2026-10-16T23:28:31.303Z",
+    "lastContactDate": "2026-10-24T00:04:02.140Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Outreach",
+    "sequenceStep": "Day 4 - Follow-up",
     "diagnosedIssues": "Midtown Manhattan solo real estate practice with over 40 years experience but no online bio or digital presence.",
     "caseStudySent": "https://taralattanzio.ca?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-law-office-of-kenneth-a-sommer",
     "history": [
@@ -24660,6 +24764,14 @@
         "resendId": "01a1470b-b1e4-7b6f-a7dc-d76c5b5465a3",
         "status": "delivered",
         "notes": "NYC solo lawyer outreach for practices without a website. Pitched $19/mo Core plan, $0 upfront fee, and free 48-hr mockup preview."
+      },
+      {
+        "step": "Day 4",
+        "sentAt": "2026-10-24T00:04:02.140Z",
+        "subject": "Re: Website & consultation intake for Law Office of Kenneth A. Sommer",
+        "resendId": "01a16b38-b99c-7158-9aff-d2cb3397b04a",
+        "status": "delivered",
+        "notes": "Day 4 follow-up note floating up $19/mo Core plan and free 48-hr mockup offer."
       }
     ]
   },
@@ -24673,9 +24785,9 @@
     "location": "Bronx, NY (180 E 162nd St, Suite 1-CD, Bronx, NY 10451)",
     "pricingQuoted": "$19/month",
     "initialContactDate": "2026-10-16T23:28:32.146Z",
-    "lastContactDate": "2026-10-16T23:28:32.146Z",
+    "lastContactDate": "2026-10-24T00:04:03.006Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Outreach",
+    "sequenceStep": "Day 4 - Follow-up",
     "diagnosedIssues": "Practicing near Grand Concourse since 1986 without an active website or mobile intake form.",
     "caseStudySent": "https://taralattanzio.ca?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-aspinall-cohen",
     "history": [
@@ -24686,6 +24798,14 @@
         "resendId": "01a1470b-b544-7943-aca9-0c976d0019f2",
         "status": "delivered",
         "notes": "NYC solo lawyer outreach for practices without a website. Pitched $19/mo Core plan, $0 upfront fee, and free 48-hr mockup preview."
+      },
+      {
+        "step": "Day 4",
+        "sentAt": "2026-10-24T00:04:03.006Z",
+        "subject": "Re: Website & consultation intake for Aspinall & Cohen",
+        "resendId": "01a16b38-bcbf-703f-897e-a45cf575f3a8",
+        "status": "delivered",
+        "notes": "Day 4 follow-up note floating up $19/mo Core plan and free 48-hr mockup offer."
       }
     ]
   },
@@ -24699,9 +24819,9 @@
     "location": "Manhattan, NY (244 Madison Ave, Suite 290, Manhattan, NY 10016)",
     "pricingQuoted": "$19/month",
     "initialContactDate": "2026-10-16T23:28:33.054Z",
-    "lastContactDate": "2026-10-16T23:28:33.054Z",
+    "lastContactDate": "2026-10-24T00:04:03.826Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Outreach",
+    "sequenceStep": "Day 4 - Follow-up",
     "diagnosedIssues": "Madison Ave office with extensive felony trial experience but zero digital presence for prospective private clients.",
     "caseStudySent": "https://taralattanzio.ca?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-law-office-of-brian-r-baker",
     "history": [
@@ -24712,6 +24832,14 @@
         "resendId": "01a1470b-b895-7e0e-8d2d-6897ef3e601a",
         "status": "delivered",
         "notes": "NYC solo lawyer outreach for practices without a website. Pitched $19/mo Core plan, $0 upfront fee, and free 48-hr mockup preview."
+      },
+      {
+        "step": "Day 4",
+        "sentAt": "2026-10-24T00:04:03.826Z",
+        "subject": "Re: Website & consultation intake for Law Office of Brian R. Baker",
+        "resendId": "01a16b38-c023-7ec2-9c43-94fe48112e49",
+        "status": "delivered",
+        "notes": "Day 4 follow-up note floating up $19/mo Core plan and free 48-hr mockup offer."
       }
     ]
   },
@@ -24725,9 +24853,9 @@
     "location": "Manhattan, NY (450 7th Ave, Manhattan, NY 10123)",
     "pricingQuoted": "$19/month",
     "initialContactDate": "2026-10-16T23:28:33.907Z",
-    "lastContactDate": "2026-10-16T23:28:33.907Z",
+    "lastContactDate": "2026-10-24T00:04:04.683Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Outreach",
+    "sequenceStep": "Day 4 - Follow-up",
     "diagnosedIssues": "Midtown Manhattan practice at 450 Seventh Ave with no website, losing search traffic to large multi-partner firms.",
     "caseStudySent": "https://taralattanzio.ca?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-law-office-of-richard-w-barton",
     "history": [
@@ -24738,6 +24866,14 @@
         "resendId": "01a1470b-bc1c-744e-9aa1-a4184e481f1d",
         "status": "delivered",
         "notes": "NYC solo lawyer outreach for practices without a website. Pitched $19/mo Core plan, $0 upfront fee, and free 48-hr mockup preview."
+      },
+      {
+        "step": "Day 4",
+        "sentAt": "2026-10-24T00:04:04.683Z",
+        "subject": "Re: Website & consultation intake for Law Office of Richard W. Barton",
+        "resendId": "01a16b38-c388-7073-9808-e914491f5dc9",
+        "status": "delivered",
+        "notes": "Day 4 follow-up note floating up $19/mo Core plan and free 48-hr mockup offer."
       }
     ]
   },
@@ -24751,9 +24887,9 @@
     "location": "Bronx, NY (835 Walton Ave, Bronx, NY 10451)",
     "pricingQuoted": "$19/month",
     "initialContactDate": "2026-10-16T23:28:34.757Z",
-    "lastContactDate": "2026-10-16T23:28:34.757Z",
+    "lastContactDate": "2026-10-24T00:04:05.506Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Outreach",
+    "sequenceStep": "Day 4 - Follow-up",
     "diagnosedIssues": "Former 30-year veteran Bronx Assistant DA in solo practice across from Joyce Kilmer Park with no website to showcase trial background.",
     "caseStudySent": "https://taralattanzio.ca?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-law-office-of-bruce-r-birns",
     "history": [
@@ -24764,6 +24900,14 @@
         "resendId": "01a1470b-bf75-7d91-b3de-f250cbd0a532",
         "status": "delivered",
         "notes": "NYC solo lawyer outreach for practices without a website. Pitched $19/mo Core plan, $0 upfront fee, and free 48-hr mockup preview."
+      },
+      {
+        "step": "Day 4",
+        "sentAt": "2026-10-24T00:04:05.506Z",
+        "subject": "Re: Website & consultation intake for Law Office of Bruce R. Birns",
+        "resendId": "01a16b38-c6b2-7c32-92e9-b2e33faa8b77",
+        "status": "delivered",
+        "notes": "Day 4 follow-up note floating up $19/mo Core plan and free 48-hr mockup offer."
       }
     ]
   },
@@ -24777,9 +24921,9 @@
     "location": "Manhattan, NY (314 W 40th St, Manhattan, NY 10018)",
     "pricingQuoted": "$19/month",
     "initialContactDate": "2026-10-16T23:28:35.608Z",
-    "lastContactDate": "2026-10-16T23:28:35.608Z",
+    "lastContactDate": "2026-10-24T00:04:06.338Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Outreach",
+    "sequenceStep": "Day 4 - Follow-up",
     "diagnosedIssues": "Specialized parole revocation and criminal defense practice with no online intake or direct inquiry pathway.",
     "caseStudySent": "https://taralattanzio.ca?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-law-office-of-osvaldo-caban-jr",
     "history": [
@@ -24790,6 +24934,14 @@
         "resendId": "01a1470b-c2c6-718e-8761-1185dd1b133c",
         "status": "delivered",
         "notes": "NYC solo lawyer outreach for practices without a website. Pitched $19/mo Core plan, $0 upfront fee, and free 48-hr mockup preview."
+      },
+      {
+        "step": "Day 4",
+        "sentAt": "2026-10-24T00:04:06.338Z",
+        "subject": "Re: Website & consultation intake for Law Office of Osvaldo Caban, Jr.",
+        "resendId": "01a16b38-c9ed-7ce8-9e25-5f113f67347a",
+        "status": "delivered",
+        "notes": "Day 4 follow-up note floating up $19/mo Core plan and free 48-hr mockup offer."
       }
     ]
   },
@@ -24803,9 +24955,9 @@
     "location": "Manhattan, NY (708 3rd Ave, Manhattan, NY 10017)",
     "pricingQuoted": "$19/month",
     "initialContactDate": "2026-10-16T23:28:36.462Z",
-    "lastContactDate": "2026-10-16T23:28:36.462Z",
+    "lastContactDate": "2026-10-24T00:04:07.200Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Outreach",
+    "sequenceStep": "Day 4 - Follow-up",
     "diagnosedIssues": "Grand Central area office on Third Avenue with decades of trial practice but no website or online contact form.",
     "caseStudySent": "https://taralattanzio.ca?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-c-c-law",
     "history": [
@@ -24816,6 +24968,14 @@
         "resendId": "01a1470b-c614-785e-94fb-e1ed472c09b0",
         "status": "delivered",
         "notes": "NYC solo lawyer outreach for practices without a website. Pitched $19/mo Core plan, $0 upfront fee, and free 48-hr mockup preview."
+      },
+      {
+        "step": "Day 4",
+        "sentAt": "2026-10-24T00:04:07.200Z",
+        "subject": "Re: Website & consultation intake for C & C Law",
+        "resendId": "01a16b38-cd2d-7b4f-ae66-fc52bb7c06d6",
+        "status": "delivered",
+        "notes": "Day 4 follow-up note floating up $19/mo Core plan and free 48-hr mockup offer."
       }
     ]
   },
@@ -24829,9 +24989,9 @@
     "location": "Bronx, NY (697 Bridge Street, Bronx, NY 10464)",
     "pricingQuoted": "$19/month",
     "initialContactDate": "2026-10-17T14:57:02.637Z",
-    "lastContactDate": "2026-10-17T14:57:02.637Z",
+    "lastContactDate": "2026-10-24T00:04:08.014Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Outreach",
+    "sequenceStep": "Day 4 - Follow-up",
     "diagnosedIssues": "Former Bronx Assistant DA specializing in forensic DNA operating from City Island with no online presence or client intake portal.",
     "caseStudySent": "https://taralattanzio.ca?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-chernin-law-pllc",
     "history": [
@@ -24842,6 +25002,14 @@
         "resendId": "01a14a5d-c84c-7ec4-880c-23edd3ce549c",
         "status": "delivered",
         "notes": "NYC solo lawyer outreach for practices without a website. Pitched $19/mo Core plan, $0 upfront fee, and free 48-hr mockup preview."
+      },
+      {
+        "step": "Day 4",
+        "sentAt": "2026-10-24T00:04:08.014Z",
+        "subject": "Re: Website & consultation intake for Chernin Law, PLLC",
+        "resendId": "01a16b38-d08e-71d7-97a9-92143070cf48",
+        "status": "delivered",
+        "notes": "Day 4 follow-up note floating up $19/mo Core plan and free 48-hr mockup offer."
       }
     ]
   },
@@ -24855,9 +25023,9 @@
     "location": "Bronx, NY (910 Sheridan Ave, Bronx, NY 10451)",
     "pricingQuoted": "$19/month",
     "initialContactDate": "2026-10-17T14:57:03.481Z",
-    "lastContactDate": "2026-10-17T14:57:03.481Z",
+    "lastContactDate": "2026-10-24T00:04:08.880Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Outreach",
+    "sequenceStep": "Day 4 - Follow-up",
     "diagnosedIssues": "Steps from Bronx County Hall of Justice, relying strictly on walk-ins and phone calls with no mobile landing page.",
     "caseStudySent": "https://taralattanzio.ca?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-law-offices-of-carlos-e-cruz-jr",
     "history": [
@@ -24868,6 +25036,14 @@
         "resendId": "01a14a5d-cbae-71dd-97f3-0794df952be0",
         "status": "delivered",
         "notes": "NYC solo lawyer outreach for practices without a website. Pitched $19/mo Core plan, $0 upfront fee, and free 48-hr mockup preview."
+      },
+      {
+        "step": "Day 4",
+        "sentAt": "2026-10-24T00:04:08.880Z",
+        "subject": "Re: Website & consultation intake for Law Offices of Carlos E. Cruz, Jr.",
+        "resendId": "01a16b38-d3e5-76bd-bf59-c664d7da323c",
+        "status": "delivered",
+        "notes": "Day 4 follow-up note floating up $19/mo Core plan and free 48-hr mockup offer."
       }
     ]
   },
@@ -24881,9 +25057,9 @@
     "location": "Bronx, NY (2027 Williamsbridge Road, Bronx, NY 10461)",
     "pricingQuoted": "$19/month",
     "initialContactDate": "2026-10-17T14:57:04.332Z",
-    "lastContactDate": "2026-10-17T14:57:04.332Z",
+    "lastContactDate": "2026-10-24T00:04:09.699Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Outreach",
+    "sequenceStep": "Day 4 - Follow-up",
     "diagnosedIssues": "Dead domain markdemarcolaw.com gives prospective clients DNS errors, losing Pelham Parkway search traffic.",
     "caseStudySent": "https://taralattanzio.ca?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-law-offices-of-mark-s-demarco",
     "history": [
@@ -24894,6 +25070,14 @@
         "resendId": "01a14a5d-cef9-7212-b9e4-ec1baead30c3",
         "status": "delivered",
         "notes": "NYC solo lawyer outreach for practices without a website. Pitched $19/mo Core plan, $0 upfront fee, and free 48-hr mockup preview."
+      },
+      {
+        "step": "Day 4",
+        "sentAt": "2026-10-24T00:04:09.699Z",
+        "subject": "Re: Website & consultation intake for Law Offices of Mark S. DeMarco",
+        "resendId": "01a16b38-d71d-76e5-9286-f1ff638dbe55",
+        "status": "delivered",
+        "notes": "Day 4 follow-up note floating up $19/mo Core plan and free 48-hr mockup offer."
       }
     ]
   },
@@ -24907,9 +25091,9 @@
     "location": "Bronx, NY (72 E 161st St, Bronx, NY 10451)",
     "pricingQuoted": "$19/month",
     "initialContactDate": "2026-10-17T14:57:05.175Z",
-    "lastContactDate": "2026-10-17T14:57:05.175Z",
+    "lastContactDate": "2026-10-24T00:04:10.513Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Outreach",
+    "sequenceStep": "Day 4 - Follow-up",
     "diagnosedIssues": "Directly opposite Bronx Supreme Court on 161st St with zero digital presence or online intake.",
     "caseStudySent": "https://taralattanzio.ca?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-law-office-of-philippe-r-dussek",
     "history": [
@@ -24920,6 +25104,14 @@
         "resendId": "01a14a5d-d241-75d9-a0b4-cb827a721bc8",
         "status": "delivered",
         "notes": "NYC solo lawyer outreach for practices without a website. Pitched $19/mo Core plan, $0 upfront fee, and free 48-hr mockup preview."
+      },
+      {
+        "step": "Day 4",
+        "sentAt": "2026-10-24T00:04:10.513Z",
+        "subject": "Re: Website & consultation intake for Law Office of Philippe R. Dussek",
+        "resendId": "01a16b38-da47-7e26-bc04-c31bfee65130",
+        "status": "delivered",
+        "notes": "Day 4 follow-up note floating up $19/mo Core plan and free 48-hr mockup offer."
       }
     ]
   },
@@ -24933,9 +25125,9 @@
     "location": "Queens, NY (89-00 Sutphin Blvd, Suite 308E, Queens, NY 11435)",
     "pricingQuoted": "$19/month",
     "initialContactDate": "2026-10-17T14:57:06.022Z",
-    "lastContactDate": "2026-10-17T14:57:06.022Z",
+    "lastContactDate": "2026-10-24T00:04:11.395Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Outreach",
+    "sequenceStep": "Day 4 - Follow-up",
     "diagnosedIssues": "Directly opposite Queens Supreme Court in Jamaica with no standalone website or mobile consultation page.",
     "caseStudySent": "https://taralattanzio.ca?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-law-office-of-alix-duroseau-jr",
     "history": [
@@ -24946,6 +25138,14 @@
         "resendId": "01a14a5d-d599-7c03-83cc-15cd518ef6d0",
         "status": "delivered",
         "notes": "NYC solo lawyer outreach for practices without a website. Pitched $19/mo Core plan, $0 upfront fee, and free 48-hr mockup preview."
+      },
+      {
+        "step": "Day 4",
+        "sentAt": "2026-10-24T00:04:11.395Z",
+        "subject": "Re: Website & consultation intake for Law Office of Alix Duroseau Jr.",
+        "resendId": "01a16b38-dd7f-7a8f-b4c8-ad8f82b5e613",
+        "status": "delivered",
+        "notes": "Day 4 follow-up note floating up $19/mo Core plan and free 48-hr mockup offer."
       }
     ]
   },
@@ -24959,9 +25159,9 @@
     "location": "Bronx, NY (177 E. 161st St., Bronx, NY 10451)",
     "pricingQuoted": "$19/month",
     "initialContactDate": "2026-10-17T14:57:06.858Z",
-    "lastContactDate": "2026-10-17T14:57:06.858Z",
+    "lastContactDate": "2026-10-24T00:04:12.217Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Outreach",
+    "sequenceStep": "Day 4 - Follow-up",
     "diagnosedIssues": "Opposite Bronx Supreme Court on East 161st St with no online intake pipeline for families seeking counsel.",
     "caseStudySent": "https://taralattanzio.ca?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-law-office-of-paul-s-london",
     "history": [
@@ -24972,6 +25172,14 @@
         "resendId": "01a14a5d-d8df-79a0-8cef-cda7828a9fac",
         "status": "delivered",
         "notes": "NYC solo lawyer outreach for practices without a website. Pitched $19/mo Core plan, $0 upfront fee, and free 48-hr mockup preview."
+      },
+      {
+        "step": "Day 4",
+        "sentAt": "2026-10-24T00:04:12.217Z",
+        "subject": "Re: Website & consultation intake for Law Office of Paul S. London",
+        "resendId": "01a16b38-e0f2-75b2-97a8-30ffb170b05a",
+        "status": "delivered",
+        "notes": "Day 4 follow-up note floating up $19/mo Core plan and free 48-hr mockup offer."
       }
     ]
   },
@@ -24985,9 +25193,9 @@
     "location": "Manhattan, NY (30 Wall Street, 8th Floor, Manhattan, NY 10005)",
     "pricingQuoted": "$19/month",
     "initialContactDate": "2026-10-17T14:57:07.698Z",
-    "lastContactDate": "2026-10-17T14:57:07.698Z",
+    "lastContactDate": "2026-10-24T00:04:13.073Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Outreach",
+    "sequenceStep": "Day 4 - Follow-up",
     "diagnosedIssues": "Wall Street office handling major federal and state criminal cases with zero digital presence.",
     "caseStudySent": "https://taralattanzio.ca?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-glenn-r-abolafia-attorney-at-law-pc",
     "history": [
@@ -24998,6 +25206,14 @@
         "resendId": "01a14a5d-dc29-79b1-baad-449424b30788",
         "status": "delivered",
         "notes": "NYC solo lawyer outreach for practices without a website. Pitched $19/mo Core plan, $0 upfront fee, and free 48-hr mockup preview."
+      },
+      {
+        "step": "Day 4",
+        "sentAt": "2026-10-24T00:04:13.073Z",
+        "subject": "Re: Website & consultation intake for Glenn R. Abolafia, Attorney at Law, P.C.",
+        "resendId": "01a16b38-e445-7535-9608-9d1b570fc6ee",
+        "status": "delivered",
+        "notes": "Day 4 follow-up note floating up $19/mo Core plan and free 48-hr mockup offer."
       }
     ]
   },
@@ -25011,9 +25227,9 @@
     "location": "Manhattan, NY (305 Broadway, Suite 602, Manhattan, NY 10007)",
     "pricingQuoted": "$19/month",
     "initialContactDate": "2026-10-17T14:57:08.599Z",
-    "lastContactDate": "2026-10-17T14:57:08.599Z",
+    "lastContactDate": "2026-10-24T00:04:13.878Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Outreach",
+    "sequenceStep": "Day 4 - Follow-up",
     "diagnosedIssues": "Practicing at 305 Broadway near Manhattan federal/state courts since 1978 with no website or digital intake page.",
     "caseStudySent": "https://taralattanzio.ca?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-law-offices-of-donald-duboulay",
     "history": [
@@ -25024,6 +25240,14 @@
         "resendId": "01a14a5d-df6a-785b-b1bc-ff2b0d0d073a",
         "status": "delivered",
         "notes": "NYC solo lawyer outreach for practices without a website. Pitched $19/mo Core plan, $0 upfront fee, and free 48-hr mockup preview."
+      },
+      {
+        "step": "Day 4",
+        "sentAt": "2026-10-24T00:04:13.878Z",
+        "subject": "Re: Website & consultation intake for Law Offices of Donald duBoulay",
+        "resendId": "01a16b38-e779-7cb4-a3bc-997e82e01b83",
+        "status": "delivered",
+        "notes": "Day 4 follow-up note floating up $19/mo Core plan and free 48-hr mockup offer."
       }
     ]
   },
@@ -25038,7 +25262,7 @@
     "pricingQuoted": "$19/month",
     "initialContactDate": "2026-10-17T14:57:09.426Z",
     "lastContactDate": "2026-10-17T14:57:09.426Z",
-    "status": "delivered",
+    "status": "in-conversation",
     "sequenceStep": "Day 0 - Initial Outreach",
     "diagnosedIssues": "Expired domain dubinskytrialatty.com throws server errors, losing prospective Lower Manhattan trial clients.",
     "caseStudySent": "https://taralattanzio.ca?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-law-office-of-melvin-dubinsky",
@@ -25049,9 +25273,10 @@
         "subject": "Website & consultation intake for Law Office of Melvin Dubinsky",
         "resendId": "01a14a5d-e2e9-706a-a8b4-d74f140b7c62",
         "status": "delivered",
-        "notes": "NYC solo lawyer outreach for practices without a website. Pitched $19/mo Core plan, $0 upfront fee, and free 48-hr mockup preview."
+        "notes": "NYC solo lawyer outreach for practices without a website. Pitched $19/mo Core plan, $0 upfront fee, and free 48-hr mockup preview. (Status updated: active conversation in progress with user)"
       }
-    ]
+    ],
+    "notes": "Active conversation in progress with user. Suppressed from automated follow-ups."
   },
   {
     "id": "law-office-of-joanne-m-dwyer",
@@ -25063,9 +25288,9 @@
     "location": "Manhattan, NY (225 Broadway, 41st Floor, Manhattan, NY 10007)",
     "pricingQuoted": "$19/month",
     "initialContactDate": "2026-10-17T14:57:10.295Z",
-    "lastContactDate": "2026-10-17T14:57:10.295Z",
+    "lastContactDate": "2026-10-24T00:04:14.695Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Outreach",
+    "sequenceStep": "Day 4 - Follow-up",
     "diagnosedIssues": "225 Broadway location in Lower Manhattan with decades of trial practice but absent from Google search results.",
     "caseStudySent": "https://taralattanzio.ca?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-law-office-of-joanne-m-dwyer",
     "history": [
@@ -25076,6 +25301,14 @@
         "resendId": "01a14a5d-e64e-76f3-bccd-6148b4fea6b8",
         "status": "delivered",
         "notes": "NYC solo lawyer outreach for practices without a website. Pitched $19/mo Core plan, $0 upfront fee, and free 48-hr mockup preview."
+      },
+      {
+        "step": "Day 4",
+        "sentAt": "2026-10-24T00:04:14.695Z",
+        "subject": "Re: Website & consultation intake for Law Office of Joanne M. Dwyer",
+        "resendId": "01a16b38-ea9e-7d00-9419-7c27624bf89b",
+        "status": "delivered",
+        "notes": "Day 4 follow-up note floating up $19/mo Core plan and free 48-hr mockup offer."
       }
     ]
   },
@@ -25089,9 +25322,9 @@
     "location": "Manhattan, NY (20 Vesey Street, Suite 400, Manhattan, NY 10007)",
     "pricingQuoted": "$19/month",
     "initialContactDate": "2026-10-17T14:57:11.221Z",
-    "lastContactDate": "2026-10-17T14:57:11.221Z",
+    "lastContactDate": "2026-10-24T00:04:15.518Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Outreach",
+    "sequenceStep": "Day 4 - Follow-up",
     "diagnosedIssues": "Located at 20 Vesey Street near Lower Manhattan courts with no firm website or online intake.",
     "caseStudySent": "https://taralattanzio.ca?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-law-office-of-gregory-e-cooper-esq",
     "history": [
@@ -25102,6 +25335,14 @@
         "resendId": "01a14a5d-e98e-7519-b103-d963470b1df5",
         "status": "delivered",
         "notes": "NYC solo lawyer outreach for practices without a website. Pitched $19/mo Core plan, $0 upfront fee, and free 48-hr mockup preview."
+      },
+      {
+        "step": "Day 4",
+        "sentAt": "2026-10-24T00:04:15.518Z",
+        "subject": "Re: Website & consultation intake for Law Office of Gregory E. Cooper, Esq.",
+        "resendId": "01a16b38-edd1-7138-ba48-52d6f37ff517",
+        "status": "delivered",
+        "notes": "Day 4 follow-up note floating up $19/mo Core plan and free 48-hr mockup offer."
       }
     ]
   },
@@ -25115,9 +25356,9 @@
     "location": "Manhattan, NY (325 Broadway, Suite 505, Manhattan, NY 10007)",
     "pricingQuoted": "$19/month",
     "initialContactDate": "2026-10-17T14:57:12.061Z",
-    "lastContactDate": "2026-10-17T14:57:12.061Z",
+    "lastContactDate": "2026-10-24T00:04:16.335Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Outreach",
+    "sequenceStep": "Day 4 - Follow-up",
     "diagnosedIssues": "Legacy domain javierdamien.com is dead and throws DNS errors, severely damaging client trust.",
     "caseStudySent": "https://taralattanzio.ca?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-law-offices-of-javier-damien",
     "history": [
@@ -25128,6 +25369,14 @@
         "resendId": "01a14a5d-ed37-70e7-a5f1-46d44e1357e9",
         "status": "delivered",
         "notes": "NYC solo lawyer outreach for practices without a website. Pitched $19/mo Core plan, $0 upfront fee, and free 48-hr mockup preview."
+      },
+      {
+        "step": "Day 4",
+        "sentAt": "2026-10-24T00:04:16.335Z",
+        "subject": "Re: Website & consultation intake for Law Offices of Javier Damien",
+        "resendId": "01a16b38-f104-753d-97d3-28c5ab71d37b",
+        "status": "delivered",
+        "notes": "Day 4 follow-up note floating up $19/mo Core plan and free 48-hr mockup offer."
       }
     ]
   },
@@ -25141,9 +25390,9 @@
     "location": "Queens, NY (118-21 Queens Blvd, Suite 603, Queens, NY 11375)",
     "pricingQuoted": "$19/month",
     "initialContactDate": "2026-10-17T14:57:12.917Z",
-    "lastContactDate": "2026-10-17T14:57:12.917Z",
+    "lastContactDate": "2026-10-24T00:04:17.164Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Outreach",
+    "sequenceStep": "Day 4 - Follow-up",
     "diagnosedIssues": "Queens Boulevard office tower in Forest Hills with no website to capture local condo or civil litigation search traffic.",
     "caseStudySent": "https://taralattanzio.ca?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-the-demarco-law-firm-pllc",
     "history": [
@@ -25154,6 +25403,14 @@
         "resendId": "01a14a5d-f08b-70ec-b69a-fe398876b67d",
         "status": "delivered",
         "notes": "NYC solo lawyer outreach for practices without a website. Pitched $19/mo Core plan, $0 upfront fee, and free 48-hr mockup preview."
+      },
+      {
+        "step": "Day 4",
+        "sentAt": "2026-10-24T00:04:17.164Z",
+        "subject": "Re: Website & consultation intake for The DeMarco Law Firm, PLLC",
+        "resendId": "01a16b38-f434-7e34-bae6-f1aa8bb3267b",
+        "status": "delivered",
+        "notes": "Day 4 follow-up note floating up $19/mo Core plan and free 48-hr mockup offer."
       }
     ]
   },
@@ -25167,9 +25424,9 @@
     "location": "Manhattan, NY (15 Maiden Lane, Suite 1108, Manhattan, NY 10038)",
     "pricingQuoted": "$19/month",
     "initialContactDate": "2026-10-17T14:57:13.750Z",
-    "lastContactDate": "2026-10-17T14:57:13.750Z",
+    "lastContactDate": "2026-10-24T00:04:17.982Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Outreach",
+    "sequenceStep": "Day 4 - Follow-up",
     "diagnosedIssues": "Maiden Lane practice near City Hall with decades of civil rights litigation but zero web presence.",
     "caseStudySent": "https://taralattanzio.ca?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-law-office-of-gary-s-fish",
     "history": [
@@ -25180,6 +25437,14 @@
         "resendId": "01a14a5d-f3cb-7516-9942-dc3a0b7e68d2",
         "status": "delivered",
         "notes": "NYC solo lawyer outreach for practices without a website. Pitched $19/mo Core plan, $0 upfront fee, and free 48-hr mockup preview."
+      },
+      {
+        "step": "Day 4",
+        "sentAt": "2026-10-24T00:04:17.982Z",
+        "subject": "Re: Website & consultation intake for Law Office of Gary S. Fish",
+        "resendId": "01a16b38-f77c-7519-a1b3-4b3ce4e8cd13",
+        "status": "delivered",
+        "notes": "Day 4 follow-up note floating up $19/mo Core plan and free 48-hr mockup offer."
       }
     ]
   },
@@ -25193,9 +25458,9 @@
     "location": "Manhattan, NY (33 Greenwich Avenue, Suite 6C, Manhattan, NY 10014)",
     "pricingQuoted": "$19/month",
     "initialContactDate": "2026-10-17T14:57:14.585Z",
-    "lastContactDate": "2026-10-17T14:57:14.585Z",
+    "lastContactDate": "2026-10-24T00:04:18.828Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Outreach",
+    "sequenceStep": "Day 4 - Follow-up",
     "diagnosedIssues": "Greenwich Avenue West Village practice with federal admissions but zero digital intake portal.",
     "caseStudySent": "https://taralattanzio.ca?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-law-office-of-lori-cohen-esq-pc",
     "history": [
@@ -25206,6 +25471,14 @@
         "resendId": "01a14a5d-f70c-7415-81b1-401de2ed66ec",
         "status": "delivered",
         "notes": "NYC solo lawyer outreach for practices without a website. Pitched $19/mo Core plan, $0 upfront fee, and free 48-hr mockup preview."
+      },
+      {
+        "step": "Day 4",
+        "sentAt": "2026-10-24T00:04:18.828Z",
+        "subject": "Re: Website & consultation intake for Law Office of Lori Cohen, Esq. P.C.",
+        "resendId": "01a16b38-facd-7a7a-8736-8dc4d14da345",
+        "status": "delivered",
+        "notes": "Day 4 follow-up note floating up $19/mo Core plan and free 48-hr mockup offer."
       }
     ]
   },
@@ -25219,9 +25492,9 @@
     "location": "Bronx, NY (316 E 149th St #13, Bronx, NY 10451)",
     "pricingQuoted": "$19/month",
     "initialContactDate": "2026-10-17T14:57:15.419Z",
-    "lastContactDate": "2026-10-17T14:57:15.419Z",
+    "lastContactDate": "2026-10-24T00:04:19.643Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Outreach",
+    "sequenceStep": "Day 4 - Follow-up",
     "diagnosedIssues": "East 149th Street commercial hub practice in South Bronx with no online presence or intake forms.",
     "caseStudySent": "https://taralattanzio.ca?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-edward-r-dudley-law-offices",
     "history": [
@@ -25232,6 +25505,14 @@
         "resendId": "01a14a5d-fa4d-74dc-a450-11c2f9786ac6",
         "status": "delivered",
         "notes": "NYC solo lawyer outreach for practices without a website. Pitched $19/mo Core plan, $0 upfront fee, and free 48-hr mockup preview."
+      },
+      {
+        "step": "Day 4",
+        "sentAt": "2026-10-24T00:04:19.643Z",
+        "subject": "Re: Website & consultation intake for Edward R. Dudley Law Offices",
+        "resendId": "01a16b38-fdf2-71f6-9124-80b8f6fa21c8",
+        "status": "delivered",
+        "notes": "Day 4 follow-up note floating up $19/mo Core plan and free 48-hr mockup offer."
       }
     ]
   },
@@ -25245,9 +25526,9 @@
     "location": "Queens, NY (5314 211th St, Queens, NY 11364)",
     "pricingQuoted": "$19/month",
     "initialContactDate": "2026-10-17T14:57:16.256Z",
-    "lastContactDate": "2026-10-17T14:57:16.256Z",
+    "lastContactDate": "2026-10-24T00:04:20.460Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Outreach",
+    "sequenceStep": "Day 4 - Follow-up",
     "diagnosedIssues": "Bayside/Flushing Queens practice serving families for decades with no website or online consultation booking.",
     "caseStudySent": "https://taralattanzio.ca?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-law-office-of-lynn-calvacca",
     "history": [
@@ -25258,6 +25539,14 @@
         "resendId": "01a14a5d-fd92-70c5-918e-1cb30e4d8e20",
         "status": "delivered",
         "notes": "NYC solo lawyer outreach for practices without a website. Pitched $19/mo Core plan, $0 upfront fee, and free 48-hr mockup preview."
+      },
+      {
+        "step": "Day 4",
+        "sentAt": "2026-10-24T00:04:20.460Z",
+        "subject": "Re: Website & consultation intake for Law Office of Lynn Calvacca",
+        "resendId": "01a16b39-0122-7e44-b9d1-a74c9ad13b5c",
+        "status": "delivered",
+        "notes": "Day 4 follow-up note floating up $19/mo Core plan and free 48-hr mockup offer."
       }
     ]
   },
@@ -25271,9 +25560,9 @@
     "location": "Bronx, NY (840 Grand Concourse, Office 1A, Bronx, NY 10451)",
     "pricingQuoted": "$19/month",
     "initialContactDate": "2026-10-17T14:57:17.112Z",
-    "lastContactDate": "2026-10-17T14:57:17.112Z",
+    "lastContactDate": "2026-10-24T00:04:21.271Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Outreach",
+    "sequenceStep": "Day 4 - Follow-up",
     "diagnosedIssues": "Directly on Grand Concourse catering to bilingual clients with no website or Spanish intake page.",
     "caseStudySent": "https://taralattanzio.ca?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-law-office-of-victor-g-daly-rivera",
     "history": [
@@ -25284,6 +25573,14 @@
         "resendId": "01a14a5e-00ec-7af3-973b-6dab3917b711",
         "status": "delivered",
         "notes": "NYC solo lawyer outreach for practices without a website. Pitched $19/mo Core plan, $0 upfront fee, and free 48-hr mockup preview."
+      },
+      {
+        "step": "Day 4",
+        "sentAt": "2026-10-24T00:04:21.271Z",
+        "subject": "Re: Website & consultation intake for Law Office of Victor G. Daly-Rivera",
+        "resendId": "01a16b39-0454-7c53-a4ac-5f446005768b",
+        "status": "delivered",
+        "notes": "Day 4 follow-up note floating up $19/mo Core plan and free 48-hr mockup offer."
       }
     ]
   },
@@ -25297,9 +25594,9 @@
     "location": "Manhattan, NY (1825 Park Ave., Suite 1102, Manhattan, NY 10035)",
     "pricingQuoted": "$19/month",
     "initialContactDate": "2026-10-17T14:57:17.948Z",
-    "lastContactDate": "2026-10-17T14:57:17.948Z",
+    "lastContactDate": "2026-10-24T00:04:22.110Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Outreach",
+    "sequenceStep": "Day 4 - Follow-up",
     "diagnosedIssues": "Harlem trial boutique whose domain dcnylaw.com has expired and fails to load, forfeiting private retainers.",
     "caseStudySent": "https://taralattanzio.ca?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-donaldson-chilliest-llp",
     "history": [
@@ -25310,6 +25607,14 @@
         "resendId": "01a14a5e-042d-7e76-ba51-b9692f310afa",
         "status": "delivered",
         "notes": "NYC solo lawyer outreach for practices without a website. Pitched $19/mo Core plan, $0 upfront fee, and free 48-hr mockup preview."
+      },
+      {
+        "step": "Day 4",
+        "sentAt": "2026-10-24T00:04:22.110Z",
+        "subject": "Re: Website & consultation intake for Donaldson & Chilliest, LLP",
+        "resendId": "01a16b39-0780-700c-8092-c5357e08b544",
+        "status": "delivered",
+        "notes": "Day 4 follow-up note floating up $19/mo Core plan and free 48-hr mockup offer."
       }
     ]
   },
@@ -25323,9 +25628,9 @@
     "location": "Queens, NY (61-18 190th Street, Suite 236, Queens, NY 11365)",
     "pricingQuoted": "$19/month",
     "initialContactDate": "2026-10-17T14:57:18.780Z",
-    "lastContactDate": "2026-10-17T14:57:18.780Z",
+    "lastContactDate": "2026-10-24T00:04:22.930Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Outreach",
+    "sequenceStep": "Day 4 - Follow-up",
     "diagnosedIssues": "Domain bachesq.com is dead and unhosted; Queens homebuyers and lenders looking up the firm hit a broken site.",
     "caseStudySent": "https://taralattanzio.ca?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-law-office-of-seyun-bach",
     "history": [
@@ -25336,6 +25641,14 @@
         "resendId": "01a14a5e-076f-7357-a439-57f82b626a75",
         "status": "delivered",
         "notes": "NYC solo lawyer outreach for practices without a website. Pitched $19/mo Core plan, $0 upfront fee, and free 48-hr mockup preview."
+      },
+      {
+        "step": "Day 4",
+        "sentAt": "2026-10-24T00:04:22.930Z",
+        "subject": "Re: Website & consultation intake for Law Office of Seyun Bach",
+        "resendId": "01a16b39-0ac3-7c18-97db-d06563cd6dfa",
+        "status": "delivered",
+        "notes": "Day 4 follow-up note floating up $19/mo Core plan and free 48-hr mockup offer."
       }
     ]
   },
@@ -25349,9 +25662,9 @@
     "location": "Manhattan, NY (305 Broadway, Floor 7, Manhattan, NY 10007)",
     "pricingQuoted": "$19/month",
     "initialContactDate": "2026-10-18T15:37:08.344Z",
-    "lastContactDate": "2026-10-18T15:37:08.344Z",
+    "lastContactDate": "2026-10-24T00:04:23.736Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Outreach",
+    "sequenceStep": "Day 4 - Follow-up",
     "diagnosedIssues": "Located on Broadway across from Foley Square courthouses with no standalone website or mobile emergency consultation intake.",
     "caseStudySent": "https://taralattanzio.ca?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-law-office-of-michael-t-conroy",
     "history": [
@@ -25362,6 +25675,14 @@
         "resendId": "01a14fa8-d9bf-7212-b816-a00226b6b895",
         "status": "delivered",
         "notes": "NYC solo lawyer outreach for practices without a website. Pitched $19/mo Core plan, $0 upfront fee, and free 48-hr mockup preview."
+      },
+      {
+        "step": "Day 4",
+        "sentAt": "2026-10-24T00:04:23.736Z",
+        "subject": "Re: Website & consultation intake for Law Office of Michael T. Conroy",
+        "resendId": "01a16b39-0df9-7e7e-9e45-6c3d4e411e54",
+        "status": "delivered",
+        "notes": "Day 4 follow-up note floating up $19/mo Core plan and free 48-hr mockup offer."
       }
     ]
   },
