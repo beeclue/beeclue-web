@@ -143,6 +143,28 @@ Every contacted prospect must have a complete record with:
 3. Check `agents/marketing/outreach_history.json` before any new outreach to prevent duplicate emails to the same firm or contact.
 4. **Permanent Blacklist Suppression**: Always check `agents/marketing/blacklist.json` before sending any emails or follow-ups. Any contact or domain present in this suppression list must be strictly excluded from all current and future campaigns.
 
+## Daily Automated Outreach Routine ("send emails for today")
+
+Whenever the user prompts **"send emails for today"**, automatically execute the standardized daily outreach engine:
+1. **20 Law Firms (Day 0 New Outreach)**:
+   - Solo attorneys / boutique partners without websites or with dated/legacy sites.
+   - Core angle: 24/7 business consultant & client intake advisor.
+   - Pricing: $19/mo Core tier, $0 upfront fee, zero lock-in, free 48-hr custom mockup.
+   - Social proof: `taralattanzio.ca`.
+2. **20 Accountants (Day 0 New Outreach - Local Only)**:
+   - Local CPAs, independent tax practitioners, and boutique accounting practices (strictly local solo/boutique practices, NO giant accounting networks or national corporate firms).
+   - Angle: Automated appointment booking, secure document drop-off/portal link, local trust & 24/7 client intake for tax season and year-round business advisory.
+   - Pricing: $19/mo Core tier, $0 upfront fee, zero lock-in, free 48-hr custom mockup.
+3. **20 Print Shops (Day 0 New Partnership Outreach)**:
+   - Independent commercial print shops, sign manufacturers, vehicle graphics shops, and branding/print boutiques.
+   - Angle: 20% recurring commission on client website referrals + reciprocal referrals for client physical print/signage collateral.
+   - BCC: `admin@beeclue.com`.
+4. **40 Day 4/5 Follow-ups**:
+   - Automated threaded follow-ups to prior cohorts who haven't replied.
+   - Strict suppression of active conversations (e.g. Melvin Dubinsky / `lawpro@verizon.net`) or blacklist entries.
+
+**Total Daily Volume**: 60 net-new outreaches (20 law + 20 accountants + 20 print partners) + 40 follow-ups = 100 emails/day.
+
 ## Quick Reference — Don't Re-Ask, Just Use
 
 - Sender identity: Kay at Beeclue Tech
