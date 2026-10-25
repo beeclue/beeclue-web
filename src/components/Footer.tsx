@@ -71,6 +71,7 @@ export default function Footer() {
               <Link href="/web-design-toronto" style={{ color: 'rgba(255,255,255,0.7)', textDecoration: 'none', fontSize: '0.9rem' }}>Web Design</Link>
               <Link href="/custom-software-development-toronto" style={{ color: 'rgba(255,255,255,0.7)', textDecoration: 'none', fontSize: '0.9rem' }}>Custom Software</Link>
               <Link href="/mobile-app-development-toronto" style={{ color: 'rgba(255,255,255,0.7)', textDecoration: 'none', fontSize: '0.9rem' }}>Mobile Apps</Link>
+              <Link href="/shopify-development-toronto" style={{ color: 'rgba(255,255,255,0.7)', textDecoration: 'none', fontSize: '0.9rem' }}>Shopify Store Design</Link>
               <Link href="/ecommerce-development-toronto" style={{ color: 'rgba(255,255,255,0.7)', textDecoration: 'none', fontSize: '0.9rem' }}>E-Commerce</Link>
               <Link href="/seo-services-toronto" style={{ color: 'rgba(255,255,255,0.7)', textDecoration: 'none', fontSize: '0.9rem' }}>SEO & Marketing</Link>
               <Link href="/ui-ux-design-toronto" style={{ color: 'rgba(255,255,255,0.7)', textDecoration: 'none', fontSize: '0.9rem' }}>UI/UX Design</Link>

@@ -22,12 +22,34 @@ import FaqAccordion from "@/components/FaqAccordion";
 export default function ShopifyEcommerceWebsiteDesignPage() {
 
   const faqs = [
-    { q: "How much does a Shopify e-commerce website design cost?", a: "Shopify e-commerce website design costs range from $5,000 for a custom theme build to $50,000+ for a fully bespoke Shopify Plus headless solution. The investment depends on design complexity, product catalog size, custom features, and third-party integrations." },
-    { q: "How long does it take to design a Shopify e-commerce store?", a: "A standard Shopify e-commerce store takes 4 to 8 weeks from discovery to launch. Complex projects with custom functionality, large product catalogs, or headless architecture typically take 8 to 14 weeks. We provide a detailed timeline during the scoping phase." },
-    { q: "Do you design custom Shopify themes from scratch?", a: "Yes. We design and build custom Shopify themes tailored to your brand and business needs. Every theme is engineered for performance, mobile responsiveness, and conversion optimization — no generic templates or cookie-cutter designs." },
-    { q: "Will my Shopify store be optimized for conversions?", a: "Absolutely. Every Shopify store we design is built with conversion rate optimization as a core principle. From product page layouts and checkout flows to trust signals and urgency elements, every design decision is driven by data and proven conversion psychology." },
-    { q: "Can you redesign my existing Shopify store?", a: "Yes. We specialize in Shopify store redesigns that preserve your existing data, SEO rankings, and integrations while delivering a modern, high-converting design. Our redesign process includes a full UX audit, strategy session, and performance benchmarking." },
-    { q: "Do you provide ongoing Shopify support after launch?", a: "Yes. We offer ongoing Shopify support packages that include maintenance, performance monitoring, feature development, A/B testing, and strategic consulting to ensure your store continues to perform and grow." },
+    {
+      q: "How much does a Shopify e-commerce website design cost?",
+      a: "Our Shopify website design pricing is structured around your business stage. For new brands and retail boutiques launching their first online storefront, our turnkey 'Shopify Launchpad' starter packages provide complete theme styling, mobile UX, Canadian tax/shipping setup, and initial product uploads at accessible flat-rate project pricing. For scaling brands, custom bespoke Liquid design and conversion rate optimization are scoped based on custom animations, catalog complexity, and third-party integrations.",
+    },
+    {
+      q: "What is the benefit of working with an Official Shopify Partner?",
+      a: "When you build your store with Beeclue Tech, we create your store in our Official Shopify Partner Sandbox. This gives you an unlimited free trial with $0 in Shopify monthly platform fees while we design and test your storefront. You only start paying Shopify when your store goes live to the public.",
+    },
+    {
+      q: "How long does it take to design a Shopify e-commerce store?",
+      a: "A turnkey Shopify Launchpad store takes 2 to 3 weeks from kickoff to launch. Bespoke custom theme designs with unique UI/UX, animations, and custom sections typically take 4 to 6 weeks. Complex platform migrations or headless builds take 6 to 10 weeks.",
+    },
+    {
+      q: "Do you design custom Shopify themes from scratch?",
+      a: "Yes. We design and build custom Shopify themes tailored to your brand and business needs. Every theme is engineered for performance, mobile responsiveness, and conversion optimization — no generic templates or cookie-cutter designs.",
+    },
+    {
+      q: "Will my Shopify store be optimized for conversions?",
+      a: "Absolutely. Every Shopify store we design is built with conversion rate optimization as a core principle. From product page layouts and checkout flows to trust signals and urgency elements, every design decision is driven by data and proven conversion psychology.",
+    },
+    {
+      q: "Can you redesign my existing Shopify store?",
+      a: "Yes. We specialize in Shopify store redesigns that preserve your existing data, SEO rankings, and integrations while delivering a modern, high-converting design. Our redesign process includes a full UX audit, strategy session, and performance benchmarking.",
+    },
+    {
+      q: "Do you provide ongoing Shopify support after launch?",
+      a: "Yes. We offer ongoing Shopify support packages that include maintenance, performance monitoring, feature development, A/B testing, and strategic consulting to ensure your store continues to perform and grow.",
+    },
   ];
 
   const jsonLd = {
@@ -287,42 +309,42 @@ export default function ShopifyEcommerceWebsiteDesignPage() {
         </div>
         <div className={styles.valueGrid}>
           <div className={styles.valueItem}>
-            <CheckCircle2 className={styles.valueIcon} />
+            <CheckCircle2 className={styles.valueIcon} color="var(--primary-light)" />
             <div>
               <h3>E-Commerce Design Specialists</h3>
               <p>We don&apos;t design generic websites. Every project we take on is an e-commerce store, giving us deep expertise in the UX patterns, trust signals, and conversion mechanics that drive online revenue.</p>
             </div>
           </div>
           <div className={styles.valueItem}>
-            <CheckCircle2 className={styles.valueIcon} />
+            <CheckCircle2 className={styles.valueIcon} color="var(--primary-light)" />
             <div>
               <h3>Conversion-Driven Approach</h3>
               <p>Beautiful design without conversions is art, not business. Every design decision we make is informed by data, A/B testing, and conversion psychology to ensure your store drives measurable revenue growth.</p>
             </div>
           </div>
           <div className={styles.valueItem}>
-            <CheckCircle2 className={styles.valueIcon} />
+            <CheckCircle2 className={styles.valueIcon} color="var(--primary-light)" />
             <div>
               <h3>Shopify Platform Expertise</h3>
               <p>We know Shopify inside and out — from Liquid templating to the Storefront API, from Shopify Plus features to third-party app integrations. Our platform depth ensures your store is built to perform and scale.</p>
             </div>
           </div>
           <div className={styles.valueItem}>
-            <CheckCircle2 className={styles.valueIcon} />
+            <CheckCircle2 className={styles.valueIcon} color="var(--primary-light)" />
             <div>
               <h3>Performance-First Design</h3>
               <p>Page speed directly impacts sales. We design Shopify stores that load in under 2 seconds, earn top Core Web Vitals scores, and deliver a frictionless experience across every device and connection speed.</p>
             </div>
           </div>
           <div className={styles.valueItem}>
-            <CheckCircle2 className={styles.valueIcon} />
+            <CheckCircle2 className={styles.valueIcon} color="var(--primary-light)" />
             <div>
               <h3>End-to-End Service</h3>
               <p>From initial strategy and UX research through visual design, development, launch, and ongoing support — we handle every aspect of your Shopify store design under one roof. No handoffs, no gaps.</p>
             </div>
           </div>
           <div className={styles.valueItem}>
-            <CheckCircle2 className={styles.valueIcon} />
+            <CheckCircle2 className={styles.valueIcon} color="var(--primary-light)" />
             <div>
               <h3>Proven Results</h3>
               <p>Our Shopify store designs consistently deliver measurable results — higher conversion rates, lower cart abandonment, increased average order value, and improved customer satisfaction scores.</p>

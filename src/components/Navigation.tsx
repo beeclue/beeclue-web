@@ -28,9 +28,9 @@ const servicesDropdown = [
     icon: Smartphone,
   },
   {
-    name: "E-Commerce Development",
-    href: "/ecommerce-development-toronto/",
-    desc: "Shopify Plus & custom headless digital stores.",
+    name: "Shopify & E-Commerce",
+    href: "/shopify-development-toronto/",
+    desc: "Official Shopify Partner store setup, custom themes & conversions.",
     icon: ShoppingCart,
   },
   {
@@ -71,7 +71,8 @@ const menuLinks = [
       { name: "Web Design & Development", href: "/web-design-toronto/" },
       { name: "Custom Software", href: "/custom-software-development-toronto/" },
       { name: "Mobile Apps", href: "/mobile-app-development-toronto/" },
-      { name: "E-Commerce", href: "/ecommerce-development-toronto/" },
+      { name: "Shopify Store Setup", href: "/shopify-development-toronto/" },
+      { name: "E-Commerce Development", href: "/ecommerce-development-toronto/" },
       { name: "SEO & Marketing", href: "/seo-services-toronto/" },
       { name: "UI/UX Design", href: "/ui-ux-design-toronto/" },
       { name: "WordPress Design", href: "/wordpress-web-design-canada/" },
