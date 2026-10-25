@@ -50,7 +50,7 @@ export default function LawFirmCalculator() {
     <div className={styles.calculatorContainer}>
       <div className={styles.header}>
         <h2>
-          <Calculator style={{ verticalAlign: "middle", marginRight: "8px", color: "var(--primary)" }} /> Law Firm Website Cost &amp; ROI Calculator
+          <Calculator style={{ verticalAlign: "middle", marginRight: "8px", color: "var(--primary-light)" }} /> Law Firm Website Cost &amp; ROI Calculator
         </h2>
         <p>Calculate your estimated website investment and projected annual case retainer revenue.</p>
       </div>
@@ -124,7 +124,7 @@ export default function LawFirmCalculator() {
 
             <div className={styles.metricBlock}>
               <div className={styles.metricLabel}>Est. Qualified Case Leads / Year</div>
-              <div className={styles.metricValue} style={{ color: "var(--primary)" }}>
+              <div className={styles.metricValue} style={{ color: "var(--primary-light)" }}>
                 ~{(estimatedMonthlyLeads * 12).toLocaleString()} Leads
               </div>
             </div>
@@ -133,7 +133,7 @@ export default function LawFirmCalculator() {
               <div className={styles.metricLabel}>Projected Annual Retainer Value ROI</div>
               <div className={`${styles.metricValue} ${styles.roiValue}`}>
                 ${annualProjectedRevenue.toLocaleString()}
-                <TrendingUp size={24} style={{ inlineSize: "24px", marginLeft: "8px", verticalAlign: "middle", color: "var(--primary)" }} />
+                <TrendingUp size={24} style={{ inlineSize: "24px", marginLeft: "8px", verticalAlign: "middle", color: "var(--primary-light)" }} />
               </div>
             </div>
           </div>

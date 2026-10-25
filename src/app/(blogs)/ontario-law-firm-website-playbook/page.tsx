@@ -553,7 +553,7 @@ export default function OntarioLawFirmWebsitePlaybookBlog() {
               We eliminate traditional agency friction by offering a <strong>$0 upfront build fee</strong> on our managed cloud retainers (starting from <strong>$19/month for Core</strong> and <strong>$29/month for Business</strong>). We handle 100% of the UI/UX design, custom Next.js coding, LSO compliance architecture, hosting, SSL security, and ongoing updates so your team can focus exclusively on casework and client advocacy.
             </p>
             <p>
-              Explore our specialized <Link href="/services/web-design-for-law-firms" className={blogStyles.internalLink}>Law Firm Website Design Services</Link> or discover our wider <Link href="/services/web-design" className={blogStyles.internalLink}>Custom Web Design Capabilities</Link>.
+              Explore our specialized <Link href="/web-design-for-law-firms" className={blogStyles.internalLink}>Law Firm Website Design Services</Link> or discover our wider <Link href="/services/web-design" className={blogStyles.internalLink}>Custom Web Design Capabilities</Link>.
             </p>
 
             <div className={blogStyles.highlightBox} style={{ textAlign: "center", padding: "3rem 2rem" }}>

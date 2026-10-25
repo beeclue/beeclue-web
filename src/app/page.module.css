@@ -393,7 +393,7 @@
 }
 
 .serviceIcon {
-  color: var(--primary);
+  color: var(--primary-light);
   width: 48px;
   height: 48px;
   margin-bottom: 2rem;
@@ -470,7 +470,7 @@
 }
 
 .valueIcon {
-  color: var(--primary);
+  color: var(--primary-light);
   flex-shrink: 0;
   width: 32px;
   height: 32px;
@@ -1299,7 +1299,7 @@
 }
 
 .industryIcon {
-  color: var(--primary);
+  color: var(--primary-light);
   width: 40px;
   height: 40px;
   margin-bottom: 1.5rem;
@@ -1395,7 +1395,7 @@
 
 .faqChevron {
   flex-shrink: 0;
-  color: var(--primary);
+  color: var(--primary-light);
   transition: transform 0.3s ease;
 }
 
