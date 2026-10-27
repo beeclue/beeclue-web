@@ -29280,9 +29280,9 @@
     "location": "Wappingers Falls, NY (Dutchess / Metro NY) (3550 North Ave)",
     "pricingQuoted": "$19/month",
     "initialContactDate": "2026-10-21T19:55:31.529Z",
-    "lastContactDate": "2026-10-21T19:55:31.529Z",
+    "lastContactDate": "2026-10-27T00:15:21.768Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Outreach",
+    "sequenceStep": "Day 4 - Follow-up",
     "diagnosedIssues": "Domain lyons-supple.com has no active web server, relying purely on directory listings and phone inquiries.",
     "caseStudySent": "https://taralattanzio.ca?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-lyons-supple",
     "history": [
@@ -29293,6 +29293,14 @@
         "resendId": "01a16008-7ced-78fe-a522-055bdb646cd9",
         "status": "delivered",
         "notes": "NYC/NY metro solo lawyer outreach for practices without a website (Batch 7). Pitched $19/mo Core plan, $0 upfront fee, and free 48-hr mockup preview."
+      },
+      {
+        "step": "Day 4",
+        "sentAt": "2026-10-27T00:15:21.768Z",
+        "subject": "Re: Website & consultation intake for Lyons & Supple",
+        "resendId": "01a17ab6-2b92-748b-ade7-b0a12ce7b4fc",
+        "status": "delivered",
+        "notes": "Day 4 threaded follow-up sent (NO BCC). Free mockup / partnership check-in. Sent from hello@mail.beeclue.com with reply_to hello@beeclue.com."
       }
     ]
   },
@@ -29306,9 +29314,9 @@
     "location": "Garden City, NY (Nassau County) (394 Old Country Rd)",
     "pricingQuoted": "$19/month",
     "initialContactDate": "2026-10-21T19:55:32.365Z",
-    "lastContactDate": "2026-10-21T19:55:32.365Z",
+    "lastContactDate": "2026-10-27T00:15:22.996Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Outreach",
+    "sequenceStep": "Day 4 - Follow-up",
     "diagnosedIssues": "Firm domain masonandmason.net has no active web server, missing prospective Long Island residential and commercial closing clients.",
     "caseStudySent": "https://taralattanzio.ca?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-mason-mason-pc",
     "history": [
@@ -29319,6 +29327,14 @@
         "resendId": "01a16008-8046-73b4-b0d1-d9985c63a931",
         "status": "delivered",
         "notes": "NYC/NY metro solo lawyer outreach for practices without a website (Batch 7). Pitched $19/mo Core plan, $0 upfront fee, and free 48-hr mockup preview."
+      },
+      {
+        "step": "Day 4",
+        "sentAt": "2026-10-27T00:15:22.996Z",
+        "subject": "Re: Website & consultation intake for Mason & Mason, PC",
+        "resendId": "01a17ab6-3060-7be7-b819-639596936bd0",
+        "status": "delivered",
+        "notes": "Day 4 threaded follow-up sent (NO BCC). Free mockup / partnership check-in. Sent from hello@mail.beeclue.com with reply_to hello@beeclue.com."
       }
     ]
   },
@@ -29332,9 +29348,9 @@
     "location": "New York, NY (Manhattan) (110 W 40th St, Suite 2100)",
     "pricingQuoted": "$19/month",
     "initialContactDate": "2026-10-21T19:55:33.181Z",
-    "lastContactDate": "2026-10-21T19:55:33.181Z",
+    "lastContactDate": "2026-10-27T00:15:24.015Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Outreach",
+    "sequenceStep": "Day 4 - Follow-up",
     "diagnosedIssues": "Midtown Manhattan corporate practice whose domain mekhlaw.com is inactive without a web server or digital intake presence.",
     "caseStudySent": "https://taralattanzio.ca?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-mekhtiyev-law-firm-pc",
     "history": [
@@ -29345,6 +29361,14 @@
         "resendId": "01a16008-8378-7dfe-8432-a623d2d76788",
         "status": "delivered",
         "notes": "NYC/NY metro solo lawyer outreach for practices without a website (Batch 7). Pitched $19/mo Core plan, $0 upfront fee, and free 48-hr mockup preview."
+      },
+      {
+        "step": "Day 4",
+        "sentAt": "2026-10-27T00:15:24.015Z",
+        "subject": "Re: Website & consultation intake for Mekhtiyev Law Firm, PC",
+        "resendId": "01a17ab6-3528-7251-ab61-0b5c649a4dc9",
+        "status": "delivered",
+        "notes": "Day 4 threaded follow-up sent (NO BCC). Free mockup / partnership check-in. Sent from hello@mail.beeclue.com with reply_to hello@beeclue.com."
       }
     ]
   },
@@ -29358,9 +29382,9 @@
     "location": "Holbrook, NY (Suffolk County) (4250 Veterans Memorial Hwy, Suite 2100)",
     "pricingQuoted": "$19/month",
     "initialContactDate": "2026-10-21T19:55:33.983Z",
-    "lastContactDate": "2026-10-21T19:55:33.983Z",
+    "lastContactDate": "2026-10-27T00:15:25.035Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Outreach",
+    "sequenceStep": "Day 4 - Follow-up",
     "diagnosedIssues": "Long Island property law practice whose custom domain mmessinalaw.com displays an empty parking page with no client booking intake.",
     "caseStudySent": "https://taralattanzio.ca?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-michele-r-messina-pc",
     "history": [
@@ -29371,6 +29395,14 @@
         "resendId": "01a16008-86a3-755f-a65c-c843916d4e79",
         "status": "delivered",
         "notes": "NYC/NY metro solo lawyer outreach for practices without a website (Batch 7). Pitched $19/mo Core plan, $0 upfront fee, and free 48-hr mockup preview."
+      },
+      {
+        "step": "Day 4",
+        "sentAt": "2026-10-27T00:15:25.035Z",
+        "subject": "Re: Website & consultation intake for Michele R. Messina, PC",
+        "resendId": "01a17ab6-3928-7edd-bf12-695537c66a9b",
+        "status": "delivered",
+        "notes": "Day 4 threaded follow-up sent (NO BCC). Free mockup / partnership check-in. Sent from hello@mail.beeclue.com with reply_to hello@beeclue.com."
       }
     ]
   },
@@ -29384,9 +29416,9 @@
     "location": "Jericho, NY (Nassau County) (375 N Broadway)",
     "pricingQuoted": "$19/month",
     "initialContactDate": "2026-10-21T19:55:34.803Z",
-    "lastContactDate": "2026-10-21T19:55:34.803Z",
+    "lastContactDate": "2026-10-27T00:15:26.050Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Outreach",
+    "sequenceStep": "Day 4 - Follow-up",
     "diagnosedIssues": "Jericho practice operating with an inactive domain mirrolaw.com and no mobile consultation booking funnel.",
     "caseStudySent": "https://taralattanzio.ca?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-roy-j-mirro-associates",
     "history": [
@@ -29397,6 +29429,14 @@
         "resendId": "01a16008-89cb-78f7-895f-1214f02f5167",
         "status": "delivered",
         "notes": "NYC/NY metro solo lawyer outreach for practices without a website (Batch 7). Pitched $19/mo Core plan, $0 upfront fee, and free 48-hr mockup preview."
+      },
+      {
+        "step": "Day 4",
+        "sentAt": "2026-10-27T00:15:26.050Z",
+        "subject": "Re: Website & consultation intake for Roy J. Mirro & Associates",
+        "resendId": "01a17ab6-3d1d-7b11-a6d4-d339d0760fce",
+        "status": "delivered",
+        "notes": "Day 4 threaded follow-up sent (NO BCC). Free mockup / partnership check-in. Sent from hello@mail.beeclue.com with reply_to hello@beeclue.com."
       }
     ]
   },
@@ -29410,9 +29450,9 @@
     "location": "Great Neck, NY (Nassau County) (1 Barstow Rd, Suite P-14)",
     "pricingQuoted": "$19/month",
     "initialContactDate": "2026-10-21T19:55:35.678Z",
-    "lastContactDate": "2026-10-21T19:55:35.678Z",
+    "lastContactDate": "2026-10-27T00:15:27.083Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Outreach",
+    "sequenceStep": "Day 4 - Follow-up",
     "diagnosedIssues": "High-volume Great Neck closing attorney whose domain nathanpinkhasov.com has lapsed to an empty placeholder.",
     "caseStudySent": "https://taralattanzio.ca?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-law-offices-of-nathan-pinkhasov",
     "history": [
@@ -29423,6 +29463,14 @@
         "resendId": "01a16008-8cfd-7d14-8db1-d3174338fbc7",
         "status": "delivered",
         "notes": "NYC/NY metro solo lawyer outreach for practices without a website (Batch 7). Pitched $19/mo Core plan, $0 upfront fee, and free 48-hr mockup preview."
+      },
+      {
+        "step": "Day 4",
+        "sentAt": "2026-10-27T00:15:27.083Z",
+        "subject": "Re: Website & consultation intake for Law Offices of Nathan Pinkhasov",
+        "resendId": "01a17ab6-4116-7318-8989-be2150e94ba1",
+        "status": "delivered",
+        "notes": "Day 4 threaded follow-up sent (NO BCC). Free mockup / partnership check-in. Sent from hello@mail.beeclue.com with reply_to hello@beeclue.com."
       }
     ]
   },
@@ -29436,9 +29484,9 @@
     "location": "Smithtown, NY (Suffolk County) (444 Route 111)",
     "pricingQuoted": "$19/month",
     "initialContactDate": "2026-10-21T19:55:36.521Z",
-    "lastContactDate": "2026-10-21T19:55:36.521Z",
+    "lastContactDate": "2026-10-27T00:15:28.140Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Outreach",
+    "sequenceStep": "Day 4 - Follow-up",
     "diagnosedIssues": "Smithtown property closing practice whose domain puleodelisle.com has no web server or active client intake page.",
     "caseStudySent": "https://taralattanzio.ca?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-puleo-delisle-pllc",
     "history": [
@@ -29449,6 +29497,14 @@
         "resendId": "01a16008-9070-71cf-a34a-87783039ade4",
         "status": "delivered",
         "notes": "NYC/NY metro solo lawyer outreach for practices without a website (Batch 7). Pitched $19/mo Core plan, $0 upfront fee, and free 48-hr mockup preview."
+      },
+      {
+        "step": "Day 4",
+        "sentAt": "2026-10-27T00:15:28.140Z",
+        "subject": "Re: Website & consultation intake for Puleo Delisle, PLLC",
+        "resendId": "01a17ab6-451d-74d3-92a6-2aba2b38703c",
+        "status": "delivered",
+        "notes": "Day 4 threaded follow-up sent (NO BCC). Free mockup / partnership check-in. Sent from hello@mail.beeclue.com with reply_to hello@beeclue.com."
       }
     ]
   },
@@ -29462,9 +29518,9 @@
     "location": "Garden City, NY (Nassau County) (600 Old Country Rd, Suite 405)",
     "pricingQuoted": "$19/month",
     "initialContactDate": "2026-10-21T19:55:37.351Z",
-    "lastContactDate": "2026-10-21T19:55:37.351Z",
+    "lastContactDate": "2026-10-27T00:15:29.326Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Outreach",
+    "sequenceStep": "Day 4 - Follow-up",
     "diagnosedIssues": "Garden City practice whose domain ksapc.net throws an active Wix DNS error, completely disconnecting prospective clients.",
     "caseStudySent": "https://taralattanzio.ca?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-kevin-schmitt-associates-pc",
     "history": [
@@ -29475,6 +29531,14 @@
         "resendId": "01a16008-93ba-72e6-b0e9-26bdb8292dee",
         "status": "delivered",
         "notes": "NYC/NY metro solo lawyer outreach for practices without a website (Batch 7). Pitched $19/mo Core plan, $0 upfront fee, and free 48-hr mockup preview."
+      },
+      {
+        "step": "Day 4",
+        "sentAt": "2026-10-27T00:15:29.326Z",
+        "subject": "Re: Website & consultation intake for Kevin Schmitt & Associates, PC",
+        "resendId": "01a17ab6-493f-7995-aa39-aaae93016bc0",
+        "status": "delivered",
+        "notes": "Day 4 threaded follow-up sent (NO BCC). Free mockup / partnership check-in. Sent from hello@mail.beeclue.com with reply_to hello@beeclue.com."
       }
     ]
   },
@@ -29488,9 +29552,9 @@
     "location": "New York, NY (Manhattan) (420 Lexington Ave, 3rd Floor)",
     "pricingQuoted": "$19/month",
     "initialContactDate": "2026-10-21T19:55:38.169Z",
-    "lastContactDate": "2026-10-21T19:55:38.169Z",
+    "lastContactDate": "2026-10-27T00:15:30.372Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Outreach",
+    "sequenceStep": "Day 4 - Follow-up",
     "diagnosedIssues": "Grand Central / Midtown practice whose custom domain has no active web server, relying strictly on legal directory entries.",
     "caseStudySent": "https://taralattanzio.ca?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-farooqui-law-firm-pllc",
     "history": [
@@ -29501,6 +29565,14 @@
         "resendId": "01a16008-96f9-7694-b4cd-cdd9b7acc261",
         "status": "delivered",
         "notes": "NYC/NY metro solo lawyer outreach for practices without a website (Batch 7). Pitched $19/mo Core plan, $0 upfront fee, and free 48-hr mockup preview."
+      },
+      {
+        "step": "Day 4",
+        "sentAt": "2026-10-27T00:15:30.372Z",
+        "subject": "Re: Website & consultation intake for Farooqui Law Firm, PLLC",
+        "resendId": "01a17ab6-4de1-77d6-b62e-f127eafa29ba",
+        "status": "delivered",
+        "notes": "Day 4 threaded follow-up sent (NO BCC). Free mockup / partnership check-in. Sent from hello@mail.beeclue.com with reply_to hello@beeclue.com."
       }
     ]
   },
@@ -29514,9 +29586,9 @@
     "location": "Garden City, NY (Nassau County) (585 Stewart Ave, Suite 306)",
     "pricingQuoted": "$19/month",
     "initialContactDate": "2026-10-21T19:55:38.979Z",
-    "lastContactDate": "2026-10-21T19:55:38.979Z",
+    "lastContactDate": "2026-10-27T00:15:31.384Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Outreach",
+    "sequenceStep": "Day 4 - Follow-up",
     "diagnosedIssues": "Long Island commercial conveyancing practice whose domain marcpazpc.com has lapsed without a web server.",
     "caseStudySent": "https://taralattanzio.ca?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-marc-a-paz-p-c",
     "history": [
@@ -29527,6 +29599,14 @@
         "resendId": "01a16008-9a26-71ff-a799-58b13bae9e40",
         "status": "delivered",
         "notes": "NYC/NY metro solo lawyer outreach for practices without a website (Batch 7). Pitched $19/mo Core plan, $0 upfront fee, and free 48-hr mockup preview."
+      },
+      {
+        "step": "Day 4",
+        "sentAt": "2026-10-27T00:15:31.384Z",
+        "subject": "Re: Website & consultation intake for Marc A. Paz, P.C.",
+        "resendId": "01a17ab6-51f6-7916-9feb-f3f2289abed7",
+        "status": "delivered",
+        "notes": "Day 4 threaded follow-up sent (NO BCC). Free mockup / partnership check-in. Sent from hello@mail.beeclue.com with reply_to hello@beeclue.com."
       }
     ]
   },
@@ -29540,9 +29620,9 @@
     "location": "Bronx, NY (161st Street / Courthouse District) (184 E 161st Street)",
     "pricingQuoted": "$19/month",
     "initialContactDate": "2026-10-21T19:55:39.787Z",
-    "lastContactDate": "2026-10-21T19:55:39.787Z",
+    "lastContactDate": "2026-10-27T00:15:32.420Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Outreach",
+    "sequenceStep": "Day 4 - Follow-up",
     "diagnosedIssues": "Practicing directly on East 161st Street across from the Bronx Hall of Justice with heavy foot traffic but zero standalone website.",
     "caseStudySent": "https://taralattanzio.ca?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-the-law-office-of-nick-m-frisco",
     "history": [
@@ -29553,6 +29633,14 @@
         "resendId": "01a16008-9d48-7671-be70-15119245821b",
         "status": "delivered",
         "notes": "NYC/NY metro solo lawyer outreach for practices without a website (Batch 7). Pitched $19/mo Core plan, $0 upfront fee, and free 48-hr mockup preview."
+      },
+      {
+        "step": "Day 4",
+        "sentAt": "2026-10-27T00:15:32.420Z",
+        "subject": "Re: Website & consultation intake for The Law Office of Nick M. Frisco",
+        "resendId": "01a17ab6-55e9-7966-b254-fe29393e832f",
+        "status": "delivered",
+        "notes": "Day 4 threaded follow-up sent (NO BCC). Free mockup / partnership check-in. Sent from hello@mail.beeclue.com with reply_to hello@beeclue.com."
       }
     ]
   },
@@ -29566,9 +29654,9 @@
     "location": "Bronx, NY (903-F Sheridan Avenue)",
     "pricingQuoted": "$19/month",
     "initialContactDate": "2026-10-21T19:55:40.616Z",
-    "lastContactDate": "2026-10-21T19:55:40.616Z",
+    "lastContactDate": "2026-10-27T00:15:33.441Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Outreach",
+    "sequenceStep": "Day 4 - Follow-up",
     "diagnosedIssues": "Bronx defense attorney practicing steps from the courthouses relying entirely on court panel appointments with no online consultation portal.",
     "caseStudySent": "https://taralattanzio.ca?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-martin-galvin-attorney-at-law",
     "history": [
@@ -29579,6 +29667,14 @@
         "resendId": "01a16008-a077-704d-b89b-2aa92eb89bb6",
         "status": "delivered",
         "notes": "NYC/NY metro solo lawyer outreach for practices without a website (Batch 7). Pitched $19/mo Core plan, $0 upfront fee, and free 48-hr mockup preview."
+      },
+      {
+        "step": "Day 4",
+        "sentAt": "2026-10-27T00:15:33.441Z",
+        "subject": "Re: Website & consultation intake for Martin Galvin, Attorney at Law",
+        "resendId": "01a17ab6-59f7-7a09-a8a4-3f46fd8e760c",
+        "status": "delivered",
+        "notes": "Day 4 threaded follow-up sent (NO BCC). Free mockup / partnership check-in. Sent from hello@mail.beeclue.com with reply_to hello@beeclue.com."
       }
     ]
   },
@@ -29592,9 +29688,9 @@
     "location": "New York, NY (Lower Manhattan) (401 Broadway, Suite 800)",
     "pricingQuoted": "$19/month",
     "initialContactDate": "2026-10-21T19:55:41.429Z",
-    "lastContactDate": "2026-10-21T19:55:41.429Z",
+    "lastContactDate": "2026-10-27T00:15:34.472Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Outreach",
+    "sequenceStep": "Day 4 - Follow-up",
     "diagnosedIssues": "Lower Manhattan Broadway practice relying solely on institutional court panel listings with no dedicated website or mobile intake form.",
     "caseStudySent": "https://taralattanzio.ca?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-law-office-of-susan-l-gans",
     "history": [
@@ -29605,6 +29701,14 @@
         "resendId": "01a16008-a3b5-7ddb-991d-08451674a3e8",
         "status": "delivered",
         "notes": "NYC/NY metro solo lawyer outreach for practices without a website (Batch 7). Pitched $19/mo Core plan, $0 upfront fee, and free 48-hr mockup preview."
+      },
+      {
+        "step": "Day 4",
+        "sentAt": "2026-10-27T00:15:34.472Z",
+        "subject": "Re: Website & consultation intake for Law Office of Susan L. Gans",
+        "resendId": "01a17ab6-5df4-7009-998b-fef9bda2dfec",
+        "status": "delivered",
+        "notes": "Day 4 threaded follow-up sent (NO BCC). Free mockup / partnership check-in. Sent from hello@mail.beeclue.com with reply_to hello@beeclue.com."
       }
     ]
   },
@@ -29618,9 +29722,9 @@
     "location": "New York, NY (Financial District) (110 Wall St, 11th Floor)",
     "pricingQuoted": "$19/month",
     "initialContactDate": "2026-10-21T19:55:42.238Z",
-    "lastContactDate": "2026-10-21T19:55:42.238Z",
+    "lastContactDate": "2026-10-27T00:15:35.486Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Outreach",
+    "sequenceStep": "Day 4 - Follow-up",
     "diagnosedIssues": "Financial District practice at 110 Wall Street handling state and federal litigation without a branded web presence.",
     "caseStudySent": "https://taralattanzio.ca?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-law-office-of-joseph-giampaolo",
     "history": [
@@ -29631,6 +29735,14 @@
         "resendId": "01a16008-a6e3-701e-b03b-a7c531a6368d",
         "status": "delivered",
         "notes": "NYC/NY metro solo lawyer outreach for practices without a website (Batch 7). Pitched $19/mo Core plan, $0 upfront fee, and free 48-hr mockup preview."
+      },
+      {
+        "step": "Day 4",
+        "sentAt": "2026-10-27T00:15:35.486Z",
+        "subject": "Re: Website & consultation intake for Law Office of Joseph Giampaolo",
+        "resendId": "01a17ab6-61f9-7e5f-a309-4e1387a42f6c",
+        "status": "delivered",
+        "notes": "Day 4 threaded follow-up sent (NO BCC). Free mockup / partnership check-in. Sent from hello@mail.beeclue.com with reply_to hello@beeclue.com."
       }
     ]
   },
@@ -29644,9 +29756,9 @@
     "location": "New York, NY (Lower Manhattan) (401 Broadway, Suite 1502)",
     "pricingQuoted": "$19/month",
     "initialContactDate": "2026-10-21T19:55:43.089Z",
-    "lastContactDate": "2026-10-21T19:55:43.089Z",
+    "lastContactDate": "2026-10-27T00:15:36.496Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Outreach",
+    "sequenceStep": "Day 4 - Follow-up",
     "diagnosedIssues": "Practicing on Broadway across from Foley Square courthouses without a dedicated mobile website or emergency consultation booking page.",
     "caseStudySent": "https://taralattanzio.ca?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-law-office-of-deanna-fisher",
     "history": [
@@ -29657,6 +29769,14 @@
         "resendId": "01a16008-aa06-7ae7-becf-cc0f1b9d7f16",
         "status": "delivered",
         "notes": "NYC/NY metro solo lawyer outreach for practices without a website (Batch 7). Pitched $19/mo Core plan, $0 upfront fee, and free 48-hr mockup preview."
+      },
+      {
+        "step": "Day 4",
+        "sentAt": "2026-10-27T00:15:36.496Z",
+        "subject": "Re: Website & consultation intake for Law Office of Deanna Fisher",
+        "resendId": "01a17ab6-65f1-7749-94b7-14f369792d8c",
+        "status": "delivered",
+        "notes": "Day 4 threaded follow-up sent (NO BCC). Free mockup / partnership check-in. Sent from hello@mail.beeclue.com with reply_to hello@beeclue.com."
       }
     ]
   },
@@ -29670,9 +29790,9 @@
     "location": "New York, NY (Chelsea / Manhattan) (116 W 23rd St, Suite 500)",
     "pricingQuoted": "$19/month",
     "initialContactDate": "2026-10-21T19:55:43.910Z",
-    "lastContactDate": "2026-10-21T19:55:43.910Z",
+    "lastContactDate": "2026-10-27T00:15:37.518Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Outreach",
+    "sequenceStep": "Day 4 - Follow-up",
     "diagnosedIssues": "Chelsea-based practice handling Manhattan and Bronx criminal casework with only directory citations and no standalone website.",
     "caseStudySent": "https://taralattanzio.ca?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-law-office-of-jonathan-c-goltzman",
     "history": [
@@ -29683,6 +29803,14 @@
         "resendId": "01a16008-ad5a-7cd0-ab01-b69108aad883",
         "status": "delivered",
         "notes": "NYC/NY metro solo lawyer outreach for practices without a website (Batch 7). Pitched $19/mo Core plan, $0 upfront fee, and free 48-hr mockup preview."
+      },
+      {
+        "step": "Day 4",
+        "sentAt": "2026-10-27T00:15:37.518Z",
+        "subject": "Re: Website & consultation intake for Law Office of Jonathan C. Goltzman",
+        "resendId": "01a17ab6-69e3-7ee1-b2b3-9a2f9b15ac10",
+        "status": "delivered",
+        "notes": "Day 4 threaded follow-up sent (NO BCC). Free mockup / partnership check-in. Sent from hello@mail.beeclue.com with reply_to hello@beeclue.com."
       }
     ]
   },
@@ -29696,9 +29824,9 @@
     "location": "New York, NY (Civic Center / Lower Manhattan) (305 Broadway, 7th Floor)",
     "pricingQuoted": "$19/month",
     "initialContactDate": "2026-10-21T19:55:44.720Z",
-    "lastContactDate": "2026-10-21T19:55:44.720Z",
+    "lastContactDate": "2026-10-27T00:15:38.536Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Outreach",
+    "sequenceStep": "Day 4 - Follow-up",
     "diagnosedIssues": "Established 305 Broadway trial practice operating near Manhattan Supreme Court purely through referrals with zero digital intake presence.",
     "caseStudySent": "https://taralattanzio.ca?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-law-offices-of-alan-m-gardner",
     "history": [
@@ -29709,6 +29837,14 @@
         "resendId": "01a16008-b095-75ba-9bf0-b82ed0d73586",
         "status": "delivered",
         "notes": "NYC/NY metro solo lawyer outreach for practices without a website (Batch 7). Pitched $19/mo Core plan, $0 upfront fee, and free 48-hr mockup preview."
+      },
+      {
+        "step": "Day 4",
+        "sentAt": "2026-10-27T00:15:38.536Z",
+        "subject": "Re: Website & consultation intake for Law Offices of Alan M. Gardner",
+        "resendId": "01a17ab6-6de0-75e6-aeba-46de00e04ade",
+        "status": "delivered",
+        "notes": "Day 4 threaded follow-up sent (NO BCC). Free mockup / partnership check-in. Sent from hello@mail.beeclue.com with reply_to hello@beeclue.com."
       }
     ]
   },
@@ -29722,9 +29858,9 @@
     "location": "New York, NY (Lower Manhattan) (401 Broadway, Suite 810)",
     "pricingQuoted": "$19/month",
     "initialContactDate": "2026-10-21T19:55:45.525Z",
-    "lastContactDate": "2026-10-21T19:55:45.525Z",
+    "lastContactDate": "2026-10-27T00:15:39.568Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Outreach",
+    "sequenceStep": "Day 4 - Follow-up",
     "diagnosedIssues": "Broadway defense practice with decades of trial and appellate experience without a standalone mobile website.",
     "caseStudySent": "https://taralattanzio.ca?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-law-office-of-a-richard-verchick",
     "history": [
@@ -29735,6 +29871,14 @@
         "resendId": "01a16008-b3b9-7753-acb9-e664ede673cb",
         "status": "delivered",
         "notes": "NYC/NY metro solo lawyer outreach for practices without a website (Batch 7). Pitched $19/mo Core plan, $0 upfront fee, and free 48-hr mockup preview."
+      },
+      {
+        "step": "Day 4",
+        "sentAt": "2026-10-27T00:15:39.568Z",
+        "subject": "Re: Website & consultation intake for Law Office of A. Richard Verchick",
+        "resendId": "01a17ab6-71de-716f-bac9-17a331cd98e5",
+        "status": "delivered",
+        "notes": "Day 4 threaded follow-up sent (NO BCC). Free mockup / partnership check-in. Sent from hello@mail.beeclue.com with reply_to hello@beeclue.com."
       }
     ]
   },
@@ -29748,9 +29892,9 @@
     "location": "Briarcliff Manor, NY (Westchester County) (7 Avondale Ct)",
     "pricingQuoted": "$19/month",
     "initialContactDate": "2026-10-21T19:55:46.362Z",
-    "lastContactDate": "2026-10-21T19:55:46.362Z",
+    "lastContactDate": "2026-10-27T00:15:40.599Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Outreach",
+    "sequenceStep": "Day 4 - Follow-up",
     "diagnosedIssues": "Westchester practice operating since 1983 relying purely on directory listings and court panel appointments with no dedicated website.",
     "caseStudySent": "https://taralattanzio.ca?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-law-office-of-frederick-t-bittlingmaier",
     "history": [
@@ -29761,6 +29905,14 @@
         "resendId": "01a16008-b6df-7d5a-a4a9-cca6e8310f95",
         "status": "delivered",
         "notes": "NYC/NY metro solo lawyer outreach for practices without a website (Batch 7). Pitched $19/mo Core plan, $0 upfront fee, and free 48-hr mockup preview."
+      },
+      {
+        "step": "Day 4",
+        "sentAt": "2026-10-27T00:15:40.599Z",
+        "subject": "Re: Website & consultation intake for Law Office of Frederick T. Bittlingmaier",
+        "resendId": "01a17ab6-75e7-708a-b997-d8d48ee94155",
+        "status": "delivered",
+        "notes": "Day 4 threaded follow-up sent (NO BCC). Free mockup / partnership check-in. Sent from hello@mail.beeclue.com with reply_to hello@beeclue.com."
       }
     ]
   },
@@ -29774,9 +29926,9 @@
     "location": "New York, NY (Lower Manhattan) (225 Broadway, Suite 1803)",
     "pricingQuoted": "$19/month",
     "initialContactDate": "2026-10-21T19:55:47.182Z",
-    "lastContactDate": "2026-10-21T19:55:47.182Z",
+    "lastContactDate": "2026-10-27T00:15:41.630Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Outreach",
+    "sequenceStep": "Day 4 - Follow-up",
     "diagnosedIssues": "225 Broadway practice representing clients across NYC courthouses without a dedicated web portal or mobile consultation booking page.",
     "caseStudySent": "https://taralattanzio.ca?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-law-office-of-danielle-von-lehman",
     "history": [
@@ -29787,6 +29939,14 @@
         "resendId": "01a16008-ba24-7bd1-8371-797dc7857418",
         "status": "delivered",
         "notes": "NYC/NY metro solo lawyer outreach for practices without a website (Batch 7). Pitched $19/mo Core plan, $0 upfront fee, and free 48-hr mockup preview."
+      },
+      {
+        "step": "Day 4",
+        "sentAt": "2026-10-27T00:15:41.630Z",
+        "subject": "Re: Website & consultation intake for Law Office of Danielle Von Lehman",
+        "resendId": "01a17ab6-79f0-7bf9-abe1-05c11e95b364",
+        "status": "delivered",
+        "notes": "Day 4 threaded follow-up sent (NO BCC). Free mockup / partnership check-in. Sent from hello@mail.beeclue.com with reply_to hello@beeclue.com."
       }
     ]
   },
@@ -29800,9 +29960,9 @@
     "location": "Toronto, ON (5000 Yonge Street)",
     "pricingQuoted": "20% Partner Commission (Recurring & Lump-Sum)",
     "initialContactDate": "2026-10-21T19:55:55.667Z",
-    "lastContactDate": "2026-10-21T19:55:55.667Z",
+    "lastContactDate": "2026-10-27T00:15:42.708Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Partnership Outreach",
+    "sequenceStep": "Day 4 - Partnership Follow-up",
     "diagnosedIssues": "Creative studio / print specialist in Toronto, ON whose business clients frequently ask for web design, landing pages, and development handoffs.",
     "caseStudySent": "https://beeclue.com?utm_source=beeclue&utm_medium=partner-outreach&utm_campaign=toronto-creative-partners",
     "history": [
@@ -29813,6 +29973,14 @@
         "resendId": "01a16008-db47-701b-89dc-cd4e2051b9d7",
         "status": "delivered",
         "notes": "Toronto creative studio / print specialist partnership outreach (Batch 3). Offered 20% ongoing commission on website design/dev referrals + reciprocal referrals for creative print/design collateral."
+      },
+      {
+        "step": "Day 4",
+        "sentAt": "2026-10-27T00:15:42.708Z",
+        "subject": "Re: Web design overflow & 2-way referral collaboration for Rebrand Advertising and Design",
+        "resendId": "01a17ab6-7e08-79e1-8678-6b2d815c0853",
+        "status": "delivered",
+        "notes": "Day 4 threaded follow-up sent (NO BCC). Free mockup / partnership check-in. Sent from hello@mail.beeclue.com with reply_to hello@beeclue.com."
       }
     ]
   },
@@ -29826,9 +29994,9 @@
     "location": "Toronto, ON (150 Lamb Avenue)",
     "pricingQuoted": "20% Partner Commission (Recurring & Lump-Sum)",
     "initialContactDate": "2026-10-21T19:55:56.481Z",
-    "lastContactDate": "2026-10-21T19:55:56.481Z",
+    "lastContactDate": "2026-10-27T00:15:43.744Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Partnership Outreach",
+    "sequenceStep": "Day 4 - Partnership Follow-up",
     "diagnosedIssues": "Creative studio / print specialist in Toronto, ON whose business clients frequently ask for web design, landing pages, and development handoffs.",
     "caseStudySent": "https://beeclue.com?utm_source=beeclue&utm_medium=partner-outreach&utm_campaign=toronto-creative-partners",
     "history": [
@@ -29839,6 +30007,14 @@
         "resendId": "01a16008-de81-71cd-8308-ad8e1f354b62",
         "status": "delivered",
         "notes": "Toronto creative studio / print specialist partnership outreach (Batch 3). Offered 20% ongoing commission on website design/dev referrals + reciprocal referrals for creative print/design collateral."
+      },
+      {
+        "step": "Day 4",
+        "sentAt": "2026-10-27T00:15:43.744Z",
+        "subject": "Re: Web design overflow & 2-way referral collaboration for Studio 10 Graphic Design Inc.",
+        "resendId": "01a17ab6-8239-7be0-b4cd-22883fd3c618",
+        "status": "delivered",
+        "notes": "Day 4 threaded follow-up sent (NO BCC). Free mockup / partnership check-in. Sent from hello@mail.beeclue.com with reply_to hello@beeclue.com."
       }
     ]
   },
@@ -29852,9 +30028,9 @@
     "location": "Toronto, ON (80 Ward Street)",
     "pricingQuoted": "20% Partner Commission (Recurring & Lump-Sum)",
     "initialContactDate": "2026-10-21T19:55:57.318Z",
-    "lastContactDate": "2026-10-21T19:55:57.318Z",
+    "lastContactDate": "2026-10-27T00:15:44.767Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Partnership Outreach",
+    "sequenceStep": "Day 4 - Partnership Follow-up",
     "diagnosedIssues": "Creative studio / print specialist in Toronto, ON whose business clients frequently ask for web design, landing pages, and development handoffs.",
     "caseStudySent": "https://beeclue.com?utm_source=beeclue&utm_medium=partner-outreach&utm_campaign=toronto-creative-partners",
     "history": [
@@ -29865,6 +30041,14 @@
         "resendId": "01a16008-e1b2-719e-bcf3-649f937d32e9",
         "status": "delivered",
         "notes": "Toronto creative studio / print specialist partnership outreach (Batch 3). Offered 20% ongoing commission on website design/dev referrals + reciprocal referrals for creative print/design collateral."
+      },
+      {
+        "step": "Day 4",
+        "sentAt": "2026-10-27T00:15:44.767Z",
+        "subject": "Re: Web design overflow & 2-way referral collaboration for Typotherapy",
+        "resendId": "01a17ab6-863c-7b55-9834-48b3fa3c334f",
+        "status": "delivered",
+        "notes": "Day 4 threaded follow-up sent (NO BCC). Free mockup / partnership check-in. Sent from hello@mail.beeclue.com with reply_to hello@beeclue.com."
       }
     ]
   },
@@ -29878,9 +30062,9 @@
     "location": "Toronto, ON (1166A Dundas Street West, Unit 2)",
     "pricingQuoted": "20% Partner Commission (Recurring & Lump-Sum)",
     "initialContactDate": "2026-10-21T19:55:58.127Z",
-    "lastContactDate": "2026-10-21T19:55:58.127Z",
+    "lastContactDate": "2026-10-27T00:15:45.833Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Partnership Outreach",
+    "sequenceStep": "Day 4 - Partnership Follow-up",
     "diagnosedIssues": "Creative studio / print specialist in Toronto, ON whose business clients frequently ask for web design, landing pages, and development handoffs.",
     "caseStudySent": "https://beeclue.com?utm_source=beeclue&utm_medium=partner-outreach&utm_campaign=toronto-creative-partners",
     "history": [
@@ -29891,6 +30075,14 @@
         "resendId": "01a16008-e4f3-72c0-8307-3b8e17e2b817",
         "status": "delivered",
         "notes": "Toronto creative studio / print specialist partnership outreach (Batch 3). Offered 20% ongoing commission on website design/dev referrals + reciprocal referrals for creative print/design collateral."
+      },
+      {
+        "step": "Day 4",
+        "sentAt": "2026-10-27T00:15:45.833Z",
+        "subject": "Re: Web design overflow & 2-way referral collaboration for Studio Wyse",
+        "resendId": "01a17ab6-8a53-7b47-9aa0-617b664e8f2a",
+        "status": "delivered",
+        "notes": "Day 4 threaded follow-up sent (NO BCC). Free mockup / partnership check-in. Sent from hello@mail.beeclue.com with reply_to hello@beeclue.com."
       }
     ]
   },
@@ -29904,9 +30096,9 @@
     "location": "Toronto, ON (360 Dufferin Street, Suite 201)",
     "pricingQuoted": "20% Partner Commission (Recurring & Lump-Sum)",
     "initialContactDate": "2026-10-21T19:55:58.937Z",
-    "lastContactDate": "2026-10-21T19:55:58.937Z",
+    "lastContactDate": "2026-10-27T00:15:46.860Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Partnership Outreach",
+    "sequenceStep": "Day 4 - Partnership Follow-up",
     "diagnosedIssues": "Creative studio / print specialist in Toronto, ON whose business clients frequently ask for web design, landing pages, and development handoffs.",
     "caseStudySent": "https://beeclue.com?utm_source=beeclue&utm_medium=partner-outreach&utm_campaign=toronto-creative-partners",
     "history": [
@@ -29917,6 +30109,14 @@
         "resendId": "01a16008-e81c-7b5c-b3de-fb6f91236fea",
         "status": "delivered",
         "notes": "Toronto creative studio / print specialist partnership outreach (Batch 3). Offered 20% ongoing commission on website design/dev referrals + reciprocal referrals for creative print/design collateral."
+      },
+      {
+        "step": "Day 4",
+        "sentAt": "2026-10-27T00:15:46.860Z",
+        "subject": "Re: Web design overflow & 2-way referral collaboration for Office/Bureau",
+        "resendId": "01a17ab6-8e6a-73b1-ad92-c4c11dfe4907",
+        "status": "delivered",
+        "notes": "Day 4 threaded follow-up sent (NO BCC). Free mockup / partnership check-in. Sent from hello@mail.beeclue.com with reply_to hello@beeclue.com."
       }
     ]
   },
@@ -29930,9 +30130,9 @@
     "location": "Toronto, ON (Parkdale) (1418 Queen Street West)",
     "pricingQuoted": "20% Partner Commission (Recurring & Lump-Sum)",
     "initialContactDate": "2026-10-21T19:55:59.756Z",
-    "lastContactDate": "2026-10-21T19:55:59.756Z",
+    "lastContactDate": "2026-10-27T00:15:47.919Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Partnership Outreach",
+    "sequenceStep": "Day 4 - Partnership Follow-up",
     "diagnosedIssues": "Creative studio / print specialist in Toronto, ON (Parkdale) whose business clients frequently ask for web design, landing pages, and development handoffs.",
     "caseStudySent": "https://beeclue.com?utm_source=beeclue&utm_medium=partner-outreach&utm_campaign=toronto-creative-partners",
     "history": [
@@ -29943,6 +30143,14 @@
         "resendId": "01a16008-eb4e-7c95-b439-85eb120861b4",
         "status": "delivered",
         "notes": "Toronto creative studio / print specialist partnership outreach (Batch 3). Offered 20% ongoing commission on website design/dev referrals + reciprocal referrals for creative print/design collateral."
+      },
+      {
+        "step": "Day 4",
+        "sentAt": "2026-10-27T00:15:47.919Z",
+        "subject": "Re: Web design overflow & 2-way referral collaboration for The Park Agency Print Shop",
+        "resendId": "01a17ab6-9284-7aab-9562-e8756e72c728",
+        "status": "delivered",
+        "notes": "Day 4 threaded follow-up sent (NO BCC). Free mockup / partnership check-in. Sent from hello@mail.beeclue.com with reply_to hello@beeclue.com."
       }
     ]
   },
@@ -29956,9 +30164,9 @@
     "location": "Toronto, ON (Leslieville) (1256 Queen Street East)",
     "pricingQuoted": "20% Partner Commission (Recurring & Lump-Sum)",
     "initialContactDate": "2026-10-21T19:56:00.618Z",
-    "lastContactDate": "2026-10-21T19:56:00.618Z",
+    "lastContactDate": "2026-10-27T00:15:48.961Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Partnership Outreach",
+    "sequenceStep": "Day 4 - Partnership Follow-up",
     "diagnosedIssues": "Creative studio / print specialist in Toronto, ON (Leslieville) whose business clients frequently ask for web design, landing pages, and development handoffs.",
     "caseStudySent": "https://beeclue.com?utm_source=beeclue&utm_medium=partner-outreach&utm_campaign=toronto-creative-partners",
     "history": [
@@ -29969,6 +30177,14 @@
         "resendId": "01a16008-ee83-7b0e-9463-c43026ec88a2",
         "status": "delivered",
         "notes": "Toronto creative studio / print specialist partnership outreach (Batch 3). Offered 20% ongoing commission on website design/dev referrals + reciprocal referrals for creative print/design collateral."
+      },
+      {
+        "step": "Day 4",
+        "sentAt": "2026-10-27T00:15:48.961Z",
+        "subject": "Re: Web design overflow & 2-way referral collaboration for Heliographics Gallery & Print Studio",
+        "resendId": "01a17ab6-969e-7314-a21e-1c75d31213d9",
+        "status": "delivered",
+        "notes": "Day 4 threaded follow-up sent (NO BCC). Free mockup / partnership check-in. Sent from hello@mail.beeclue.com with reply_to hello@beeclue.com."
       }
     ]
   },
@@ -29982,9 +30198,9 @@
     "location": "Toronto, ON (Kensington Market) (82 Nassau Street)",
     "pricingQuoted": "20% Partner Commission (Recurring & Lump-Sum)",
     "initialContactDate": "2026-10-21T19:56:01.453Z",
-    "lastContactDate": "2026-10-21T19:56:01.453Z",
+    "lastContactDate": "2026-10-27T00:15:50.020Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Partnership Outreach",
+    "sequenceStep": "Day 4 - Partnership Follow-up",
     "diagnosedIssues": "Creative studio / print specialist in Toronto, ON (Kensington Market) whose business clients frequently ask for web design, landing pages, and development handoffs.",
     "caseStudySent": "https://beeclue.com?utm_source=beeclue&utm_medium=partner-outreach&utm_campaign=toronto-creative-partners",
     "history": [
@@ -29995,6 +30211,14 @@
         "resendId": "01a16008-f1dd-70cf-b19f-0c026239e13f",
         "status": "delivered",
         "notes": "Toronto creative studio / print specialist partnership outreach (Batch 3). Offered 20% ongoing commission on website design/dev referrals + reciprocal referrals for creative print/design collateral."
+      },
+      {
+        "step": "Day 4",
+        "sentAt": "2026-10-27T00:15:50.020Z",
+        "subject": "Re: Web design overflow & 2-way referral collaboration for Hardboiled Inc.",
+        "resendId": "01a17ab6-9ab5-7c36-b662-0012554dfe96",
+        "status": "delivered",
+        "notes": "Day 4 threaded follow-up sent (NO BCC). Free mockup / partnership check-in. Sent from hello@mail.beeclue.com with reply_to hello@beeclue.com."
       }
     ]
   },
@@ -30008,9 +30232,9 @@
     "location": "Toronto, ON (The Junction) (3282 Dundas Street West)",
     "pricingQuoted": "20% Partner Commission (Recurring & Lump-Sum)",
     "initialContactDate": "2026-10-21T19:56:02.277Z",
-    "lastContactDate": "2026-10-21T19:56:02.277Z",
+    "lastContactDate": "2026-10-27T00:15:51.111Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Partnership Outreach",
+    "sequenceStep": "Day 4 - Partnership Follow-up",
     "diagnosedIssues": "Creative studio / print specialist in Toronto, ON (The Junction) whose business clients frequently ask for web design, landing pages, and development handoffs.",
     "caseStudySent": "https://beeclue.com?utm_source=beeclue&utm_medium=partner-outreach&utm_campaign=toronto-creative-partners",
     "history": [
@@ -30021,6 +30245,14 @@
         "resendId": "01a16008-f522-7858-aaa9-8791347aa607",
         "status": "delivered",
         "notes": "Toronto creative studio / print specialist partnership outreach (Batch 3). Offered 20% ongoing commission on website design/dev referrals + reciprocal referrals for creative print/design collateral."
+      },
+      {
+        "step": "Day 4",
+        "sentAt": "2026-10-27T00:15:51.111Z",
+        "subject": "Re: Web design overflow & 2-way referral collaboration for Dundas Print",
+        "resendId": "01a17ab6-9ee3-7477-a5a3-28bf8e48b305",
+        "status": "delivered",
+        "notes": "Day 4 threaded follow-up sent (NO BCC). Free mockup / partnership check-in. Sent from hello@mail.beeclue.com with reply_to hello@beeclue.com."
       }
     ]
   },
@@ -30034,9 +30266,9 @@
     "location": "Toronto, ON (640 Dundas Street West)",
     "pricingQuoted": "20% Partner Commission (Recurring & Lump-Sum)",
     "initialContactDate": "2026-10-21T19:56:03.086Z",
-    "lastContactDate": "2026-10-21T19:56:03.086Z",
+    "lastContactDate": "2026-10-27T00:15:52.126Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Partnership Outreach",
+    "sequenceStep": "Day 4 - Partnership Follow-up",
     "diagnosedIssues": "Creative studio / print specialist in Toronto, ON whose business clients frequently ask for web design, landing pages, and development handoffs.",
     "caseStudySent": "https://beeclue.com?utm_source=beeclue&utm_medium=partner-outreach&utm_campaign=toronto-creative-partners",
     "history": [
@@ -30047,6 +30279,14 @@
         "resendId": "01a16008-f855-7391-a5de-2e35954c1257",
         "status": "delivered",
         "notes": "Toronto creative studio / print specialist partnership outreach (Batch 3). Offered 20% ongoing commission on website design/dev referrals + reciprocal referrals for creative print/design collateral."
+      },
+      {
+        "step": "Day 4",
+        "sentAt": "2026-10-27T00:15:52.126Z",
+        "subject": "Re: Web design overflow & 2-way referral collaboration for Paranoid Print Company",
+        "resendId": "01a17ab6-a2f7-7dca-b727-22857c6bd10f",
+        "status": "delivered",
+        "notes": "Day 4 threaded follow-up sent (NO BCC). Free mockup / partnership check-in. Sent from hello@mail.beeclue.com with reply_to hello@beeclue.com."
       }
     ]
   },
@@ -30060,9 +30300,9 @@
     "location": "Toronto, ON (Downtown) (396 Spadina Avenue)",
     "pricingQuoted": "20% Partner Commission (Recurring & Lump-Sum)",
     "initialContactDate": "2026-10-21T19:56:03.892Z",
-    "lastContactDate": "2026-10-21T19:56:03.892Z",
+    "lastContactDate": "2026-10-27T00:15:53.153Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Partnership Outreach",
+    "sequenceStep": "Day 4 - Partnership Follow-up",
     "diagnosedIssues": "Creative studio / print specialist in Toronto, ON (Downtown) whose business clients frequently ask for web design, landing pages, and development handoffs.",
     "caseStudySent": "https://beeclue.com?utm_source=beeclue&utm_medium=partner-outreach&utm_campaign=toronto-creative-partners",
     "history": [
@@ -30073,6 +30313,14 @@
         "resendId": "01a16008-fb7b-7abc-844a-619758873b2f",
         "status": "delivered",
         "notes": "Toronto creative studio / print specialist partnership outreach (Batch 3). Offered 20% ongoing commission on website design/dev referrals + reciprocal referrals for creative print/design collateral."
+      },
+      {
+        "step": "Day 4",
+        "sentAt": "2026-10-27T00:15:53.153Z",
+        "subject": "Re: Web design overflow & 2-way referral collaboration for Printorium Toronto",
+        "resendId": "01a17ab6-a6fe-70ce-b145-563239b34ba2",
+        "status": "delivered",
+        "notes": "Day 4 threaded follow-up sent (NO BCC). Free mockup / partnership check-in. Sent from hello@mail.beeclue.com with reply_to hello@beeclue.com."
       }
     ]
   },
@@ -30086,9 +30334,9 @@
     "location": "Toronto, ON (East York) (2133 Danforth Avenue)",
     "pricingQuoted": "20% Partner Commission (Recurring & Lump-Sum)",
     "initialContactDate": "2026-10-21T19:56:04.727Z",
-    "lastContactDate": "2026-10-21T19:56:04.727Z",
+    "lastContactDate": "2026-10-27T00:15:54.209Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Partnership Outreach",
+    "sequenceStep": "Day 4 - Partnership Follow-up",
     "diagnosedIssues": "Creative studio / print specialist in Toronto, ON (East York) whose business clients frequently ask for web design, landing pages, and development handoffs.",
     "caseStudySent": "https://beeclue.com?utm_source=beeclue&utm_medium=partner-outreach&utm_campaign=toronto-creative-partners",
     "history": [
@@ -30099,6 +30347,14 @@
         "resendId": "01a16008-fea6-7122-94d1-5986c4f7e281",
         "status": "delivered",
         "notes": "Toronto creative studio / print specialist partnership outreach (Batch 3). Offered 20% ongoing commission on website design/dev referrals + reciprocal referrals for creative print/design collateral."
+      },
+      {
+        "step": "Day 4",
+        "sentAt": "2026-10-27T00:15:54.209Z",
+        "subject": "Re: Web design overflow & 2-way referral collaboration for Envoy Business Services Danforth",
+        "resendId": "01a17ab6-ab16-7548-8a93-de13985fddcd",
+        "status": "delivered",
+        "notes": "Day 4 threaded follow-up sent (NO BCC). Free mockup / partnership check-in. Sent from hello@mail.beeclue.com with reply_to hello@beeclue.com."
       }
     ]
   },
@@ -30112,9 +30368,9 @@
     "location": "Mississauga, ON (5985 Atlantic Drive, Unit 1)",
     "pricingQuoted": "20% Partner Commission (Recurring & Lump-Sum)",
     "initialContactDate": "2026-10-21T19:56:05.559Z",
-    "lastContactDate": "2026-10-21T19:56:05.559Z",
+    "lastContactDate": "2026-10-27T00:15:55.263Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Partnership Outreach",
+    "sequenceStep": "Day 4 - Partnership Follow-up",
     "diagnosedIssues": "Creative studio / print specialist in Mississauga, ON whose business clients frequently ask for web design, landing pages, and development handoffs.",
     "caseStudySent": "https://beeclue.com?utm_source=beeclue&utm_medium=partner-outreach&utm_campaign=toronto-creative-partners",
     "history": [
@@ -30125,6 +30381,14 @@
         "resendId": "01a16009-01f2-7b84-972b-9805ad501294",
         "status": "delivered",
         "notes": "Toronto creative studio / print specialist partnership outreach (Batch 3). Offered 20% ongoing commission on website design/dev referrals + reciprocal referrals for creative print/design collateral."
+      },
+      {
+        "step": "Day 4",
+        "sentAt": "2026-10-27T00:15:55.263Z",
+        "subject": "Re: Web design overflow & 2-way referral collaboration for Atlantic Printers",
+        "resendId": "01a17ab6-af2c-7e1b-ba0d-1ec1a951db32",
+        "status": "delivered",
+        "notes": "Day 4 threaded follow-up sent (NO BCC). Free mockup / partnership check-in. Sent from hello@mail.beeclue.com with reply_to hello@beeclue.com."
       }
     ]
   },
@@ -30138,9 +30402,9 @@
     "location": "Mississauga, ON (1150 Meyerside Drive)",
     "pricingQuoted": "20% Partner Commission (Recurring & Lump-Sum)",
     "initialContactDate": "2026-10-21T19:56:06.379Z",
-    "lastContactDate": "2026-10-21T19:56:06.379Z",
+    "lastContactDate": "2026-10-27T00:15:56.354Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Partnership Outreach",
+    "sequenceStep": "Day 4 - Partnership Follow-up",
     "diagnosedIssues": "Creative studio / print specialist in Mississauga, ON whose business clients frequently ask for web design, landing pages, and development handoffs.",
     "caseStudySent": "https://beeclue.com?utm_source=beeclue&utm_medium=partner-outreach&utm_campaign=toronto-creative-partners",
     "history": [
@@ -30151,6 +30415,14 @@
         "resendId": "01a16009-0528-7066-ae39-775d846556e3",
         "status": "delivered",
         "notes": "Toronto creative studio / print specialist partnership outreach (Batch 3). Offered 20% ongoing commission on website design/dev referrals + reciprocal referrals for creative print/design collateral."
+      },
+      {
+        "step": "Day 4",
+        "sentAt": "2026-10-27T00:15:56.354Z",
+        "subject": "Re: Web design overflow & 2-way referral collaboration for Micro Printing Ltd.",
+        "resendId": "01a17ab6-b348-77c7-9c8e-70c11fc115bc",
+        "status": "delivered",
+        "notes": "Day 4 threaded follow-up sent (NO BCC). Free mockup / partnership check-in. Sent from hello@mail.beeclue.com with reply_to hello@beeclue.com."
       }
     ]
   },
@@ -30164,9 +30436,9 @@
     "location": "Mississauga, ON (5080 Timberlea Blvd, Unit 47)",
     "pricingQuoted": "20% Partner Commission (Recurring & Lump-Sum)",
     "initialContactDate": "2026-10-21T19:56:07.190Z",
-    "lastContactDate": "2026-10-21T19:56:07.190Z",
+    "lastContactDate": "2026-10-27T00:15:57.374Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Partnership Outreach",
+    "sequenceStep": "Day 4 - Partnership Follow-up",
     "diagnosedIssues": "Creative studio / print specialist in Mississauga, ON whose business clients frequently ask for web design, landing pages, and development handoffs.",
     "caseStudySent": "https://beeclue.com?utm_source=beeclue&utm_medium=partner-outreach&utm_campaign=toronto-creative-partners",
     "history": [
@@ -30177,6 +30449,14 @@
         "resendId": "01a16009-085a-7cc6-96d3-cbc5b22fd484",
         "status": "delivered",
         "notes": "Toronto creative studio / print specialist partnership outreach (Batch 3). Offered 20% ongoing commission on website design/dev referrals + reciprocal referrals for creative print/design collateral."
+      },
+      {
+        "step": "Day 4",
+        "sentAt": "2026-10-27T00:15:57.374Z",
+        "subject": "Re: Web design overflow & 2-way referral collaboration for Press Point Printing",
+        "resendId": "01a17ab6-b776-796f-810e-d6f87b6c6abe",
+        "status": "delivered",
+        "notes": "Day 4 threaded follow-up sent (NO BCC). Free mockup / partnership check-in. Sent from hello@mail.beeclue.com with reply_to hello@beeclue.com."
       }
     ]
   },
@@ -30190,9 +30470,9 @@
     "location": "Mississauga, ON (1225 Aerowood Drive, Unit C)",
     "pricingQuoted": "20% Partner Commission (Recurring & Lump-Sum)",
     "initialContactDate": "2026-10-21T19:56:08.007Z",
-    "lastContactDate": "2026-10-21T19:56:08.007Z",
+    "lastContactDate": "2026-10-27T00:15:58.399Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Partnership Outreach",
+    "sequenceStep": "Day 4 - Partnership Follow-up",
     "diagnosedIssues": "Creative studio / print specialist in Mississauga, ON whose business clients frequently ask for web design, landing pages, and development handoffs.",
     "caseStudySent": "https://beeclue.com?utm_source=beeclue&utm_medium=partner-outreach&utm_campaign=toronto-creative-partners",
     "history": [
@@ -30203,6 +30483,14 @@
         "resendId": "01a16009-0b89-70d8-897d-72e6a8d37c97",
         "status": "delivered",
         "notes": "Toronto creative studio / print specialist partnership outreach (Batch 3). Offered 20% ongoing commission on website design/dev referrals + reciprocal referrals for creative print/design collateral."
+      },
+      {
+        "step": "Day 4",
+        "sentAt": "2026-10-27T00:15:58.399Z",
+        "subject": "Re: Web design overflow & 2-way referral collaboration for The Standout Sign Company Ltd.",
+        "resendId": "01a17ab6-bb7a-743f-86b3-20fcdc227479",
+        "status": "delivered",
+        "notes": "Day 4 threaded follow-up sent (NO BCC). Free mockup / partnership check-in. Sent from hello@mail.beeclue.com with reply_to hello@beeclue.com."
       }
     ]
   },
@@ -30216,9 +30504,9 @@
     "location": "Mississauga, ON (5750 Timberlea Blvd., Unit 12)",
     "pricingQuoted": "20% Partner Commission (Recurring & Lump-Sum)",
     "initialContactDate": "2026-10-21T19:56:08.813Z",
-    "lastContactDate": "2026-10-21T19:56:08.813Z",
+    "lastContactDate": "2026-10-27T00:15:59.450Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Partnership Outreach",
+    "sequenceStep": "Day 4 - Partnership Follow-up",
     "diagnosedIssues": "Creative studio / print specialist in Mississauga, ON whose business clients frequently ask for web design, landing pages, and development handoffs.",
     "caseStudySent": "https://beeclue.com?utm_source=beeclue&utm_medium=partner-outreach&utm_campaign=toronto-creative-partners",
     "history": [
@@ -30229,6 +30517,14 @@
         "resendId": "01a16009-0eb2-7e04-8fed-9338f325ea6b",
         "status": "delivered",
         "notes": "Toronto creative studio / print specialist partnership outreach (Batch 3). Offered 20% ongoing commission on website design/dev referrals + reciprocal referrals for creative print/design collateral."
+      },
+      {
+        "step": "Day 4",
+        "sentAt": "2026-10-27T00:15:59.450Z",
+        "subject": "Re: Web design overflow & 2-way referral collaboration for SSK Signs",
+        "resendId": "01a17ab6-bf8f-7ce9-86ef-dab542865bf0",
+        "status": "delivered",
+        "notes": "Day 4 threaded follow-up sent (NO BCC). Free mockup / partnership check-in. Sent from hello@mail.beeclue.com with reply_to hello@beeclue.com."
       }
     ]
   },
@@ -30242,9 +30538,9 @@
     "location": "Mississauga, ON (370 Brunel Road)",
     "pricingQuoted": "20% Partner Commission (Recurring & Lump-Sum)",
     "initialContactDate": "2026-10-21T19:56:09.635Z",
-    "lastContactDate": "2026-10-21T19:56:09.635Z",
+    "lastContactDate": "2026-10-27T00:16:00.494Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Partnership Outreach",
+    "sequenceStep": "Day 4 - Partnership Follow-up",
     "diagnosedIssues": "Creative studio / print specialist in Mississauga, ON whose business clients frequently ask for web design, landing pages, and development handoffs.",
     "caseStudySent": "https://beeclue.com?utm_source=beeclue&utm_medium=partner-outreach&utm_campaign=toronto-creative-partners",
     "history": [
@@ -30255,6 +30551,14 @@
         "resendId": "01a16009-11da-7218-bcc0-903b90be9123",
         "status": "delivered",
         "notes": "Toronto creative studio / print specialist partnership outreach (Batch 3). Offered 20% ongoing commission on website design/dev referrals + reciprocal referrals for creative print/design collateral."
+      },
+      {
+        "step": "Day 4",
+        "sentAt": "2026-10-27T00:16:00.494Z",
+        "subject": "Re: Web design overflow & 2-way referral collaboration for P C Designs & Graphic Productions Inc.",
+        "resendId": "01a17ab6-c3a9-7cc4-b4b9-08738f7142c8",
+        "status": "delivered",
+        "notes": "Day 4 threaded follow-up sent (NO BCC). Free mockup / partnership check-in. Sent from hello@mail.beeclue.com with reply_to hello@beeclue.com."
       }
     ]
   },
@@ -30268,9 +30572,9 @@
     "location": "Oakville, ON (88 Lakeshore Road West)",
     "pricingQuoted": "20% Partner Commission (Recurring & Lump-Sum)",
     "initialContactDate": "2026-10-21T19:56:10.467Z",
-    "lastContactDate": "2026-10-21T19:56:10.467Z",
+    "lastContactDate": "2026-10-27T00:16:01.548Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Partnership Outreach",
+    "sequenceStep": "Day 4 - Partnership Follow-up",
     "diagnosedIssues": "Creative studio / print specialist in Oakville, ON whose business clients frequently ask for web design, landing pages, and development handoffs.",
     "caseStudySent": "https://beeclue.com?utm_source=beeclue&utm_medium=partner-outreach&utm_campaign=toronto-creative-partners",
     "history": [
@@ -30281,6 +30585,14 @@
         "resendId": "01a16009-1510-782a-8968-91d8ff7dd95a",
         "status": "delivered",
         "notes": "Toronto creative studio / print specialist partnership outreach (Batch 3). Offered 20% ongoing commission on website design/dev referrals + reciprocal referrals for creative print/design collateral."
+      },
+      {
+        "step": "Day 4",
+        "sentAt": "2026-10-27T00:16:01.548Z",
+        "subject": "Re: Web design overflow & 2-way referral collaboration for Art Printing Studio",
+        "resendId": "01a17ab6-c7c5-7ab6-bbd0-449766c089ab",
+        "status": "delivered",
+        "notes": "Day 4 threaded follow-up sent (NO BCC). Free mockup / partnership check-in. Sent from hello@mail.beeclue.com with reply_to hello@beeclue.com."
       }
     ]
   },
@@ -30294,9 +30606,9 @@
     "location": "Brampton, ON (2 Melanie Drive, Unit 7A)",
     "pricingQuoted": "20% Partner Commission (Recurring & Lump-Sum)",
     "initialContactDate": "2026-10-21T19:56:11.290Z",
-    "lastContactDate": "2026-10-21T19:56:11.290Z",
+    "lastContactDate": "2026-10-27T00:16:02.589Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Partnership Outreach",
+    "sequenceStep": "Day 4 - Partnership Follow-up",
     "diagnosedIssues": "Creative studio / print specialist in Brampton, ON whose business clients frequently ask for web design, landing pages, and development handoffs.",
     "caseStudySent": "https://beeclue.com?utm_source=beeclue&utm_medium=partner-outreach&utm_campaign=toronto-creative-partners",
     "history": [
@@ -30307,6 +30619,14 @@
         "resendId": "01a16009-1852-76ab-8788-60eb9db1a2bd",
         "status": "delivered",
         "notes": "Toronto creative studio / print specialist partnership outreach (Batch 3). Offered 20% ongoing commission on website design/dev referrals + reciprocal referrals for creative print/design collateral."
+      },
+      {
+        "step": "Day 4",
+        "sentAt": "2026-10-27T00:16:02.589Z",
+        "subject": "Re: Web design overflow & 2-way referral collaboration for 365 Print and Signs Inc.",
+        "resendId": "01a17ab6-cbda-72ef-99dd-0d7a8e6a09e5",
+        "status": "delivered",
+        "notes": "Day 4 threaded follow-up sent (NO BCC). Free mockup / partnership check-in. Sent from hello@mail.beeclue.com with reply_to hello@beeclue.com."
       }
     ]
   },
@@ -34587,6 +34907,1626 @@
         "resendId": "01a17455-793a-7616-9184-9818bb57c024",
         "status": "delivered",
         "notes": "California print & sign shop partnership outreach (NO BCC). Offered 20% referral commission on website design/development + reciprocal referrals for physical print collateral."
+      }
+    ]
+  },
+  {
+    "id": "law-office-of-david-weiner",
+    "firmName": "Law Office of David Weiner",
+    "contactName": "David Weiner, Esq.",
+    "email": "davidweiner2042@gmail.com",
+    "phone": "209-245-4905",
+    "website": "None (State Bar & Public Directories Only)",
+    "niche": "General Practice, Civil Matters & Estate Planning",
+    "location": "Plymouth, CA (Amador County)",
+    "pricingQuoted": "$19/month",
+    "initialContactDate": "2026-10-27T00:14:00.600Z",
+    "lastContactDate": "2026-10-27T00:14:00.600Z",
+    "status": "delivered",
+    "sequenceStep": "Day 0 - Initial Outreach",
+    "diagnosedIssues": "Active California licensee in Plymouth (Amador County) with no dedicated firm website. Relies on state bar and third-party directories. Offered 24/7 client intake advisor angle at $19/mo Core tier + free mockup preview via taralattanzio.ca.",
+    "caseStudySent": "https://taralattanzio.ca?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-law-office-of-david-weiner",
+    "history": [
+      {
+        "step": "Day 0",
+        "sentAt": "2026-10-27T00:14:00.600Z",
+        "subject": "24/7 client intake & consultation for Law Office of David Weiner",
+        "resendId": "01a17ab4-edac-7505-9ef4-98b0526c7c71",
+        "status": "delivered",
+        "notes": "California small town lawyer outreach (NO BCC). Pitch: 24/7 client intake & consultation onboarding ($19/mo, $0 build fee, free mockup). Sent from hello@mail.beeclue.com with reply_to hello@beeclue.com."
+      }
+    ]
+  },
+  {
+    "id": "the-doyle-law-firm",
+    "firmName": "The Doyle Law Firm",
+    "contactName": "Aaron E Doyle, Esq.",
+    "email": "aaron@thedoylelawfirm.law",
+    "phone": "877-472-3245",
+    "website": "None (State Bar & Public Directories Only)",
+    "niche": "General Practice, Civil Matters & Estate Planning",
+    "location": "Jackson, CA (Amador County)",
+    "pricingQuoted": "$19/month",
+    "initialContactDate": "2026-10-27T00:14:02.129Z",
+    "lastContactDate": "2026-10-27T00:14:02.129Z",
+    "status": "delivered",
+    "sequenceStep": "Day 0 - Initial Outreach",
+    "diagnosedIssues": "Active California licensee in Jackson (Amador County) with no dedicated firm website. Relies on state bar and third-party directories. Offered 24/7 client intake advisor angle at $19/mo Core tier + free mockup preview via taralattanzio.ca.",
+    "caseStudySent": "https://taralattanzio.ca?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-the-doyle-law-firm",
+    "history": [
+      {
+        "step": "Day 0",
+        "sentAt": "2026-10-27T00:14:02.129Z",
+        "subject": "24/7 client intake & consultation for The Doyle Law Firm",
+        "resendId": "01a17ab4-f342-7985-9a92-0826dca2ccf3",
+        "status": "delivered",
+        "notes": "California small town lawyer outreach (NO BCC). Pitch: 24/7 client intake & consultation onboarding ($19/mo, $0 build fee, free mockup). Sent from hello@mail.beeclue.com with reply_to hello@beeclue.com."
+      }
+    ]
+  },
+  {
+    "id": "redkey-gordon-law-corporation",
+    "firmName": "Redkey Gordon  Law Corporation",
+    "contactName": "Jude Redkey, Esq.",
+    "email": "jude@redkeygordonlaw.com",
+    "phone": "209-267-1685",
+    "website": "None (State Bar & Public Directories Only)",
+    "niche": "General Practice, Civil Matters & Estate Planning",
+    "location": "Sutter Creek, CA (Amador County)",
+    "pricingQuoted": "$19/month",
+    "initialContactDate": "2026-10-27T00:14:03.829Z",
+    "lastContactDate": "2026-10-27T00:14:03.829Z",
+    "status": "delivered",
+    "sequenceStep": "Day 0 - Initial Outreach",
+    "diagnosedIssues": "Active California licensee in Sutter Creek (Amador County) with no dedicated firm website. Relies on state bar and third-party directories. Offered 24/7 client intake advisor angle at $19/mo Core tier + free mockup preview via taralattanzio.ca.",
+    "caseStudySent": "https://taralattanzio.ca?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-redkey-gordon-law-corporation",
+    "history": [
+      {
+        "step": "Day 0",
+        "sentAt": "2026-10-27T00:14:03.829Z",
+        "subject": "24/7 client intake & consultation for Redkey Gordon  Law Corporation",
+        "resendId": "01a17ab4-f939-7032-ae93-b345740d9bac",
+        "status": "delivered",
+        "notes": "California small town lawyer outreach (NO BCC). Pitch: 24/7 client intake & consultation onboarding ($19/mo, $0 build fee, free mockup). Sent from hello@mail.beeclue.com with reply_to hello@beeclue.com."
+      }
+    ]
+  },
+  {
+    "id": "law-office-of-larry-k-arguello",
+    "firmName": "Law Office of Larry K Arguello",
+    "contactName": "Larry K. Arguello, Esq.",
+    "email": "larry@arguello-law.com",
+    "phone": "510-693-1555",
+    "website": "None (State Bar & Public Directories Only)",
+    "niche": "General Practice, Civil Matters & Estate Planning",
+    "location": "Amador City, CA (Amador County)",
+    "pricingQuoted": "$19/month",
+    "initialContactDate": "2026-10-27T00:14:05.577Z",
+    "lastContactDate": "2026-10-27T00:14:05.577Z",
+    "status": "delivered",
+    "sequenceStep": "Day 0 - Initial Outreach",
+    "diagnosedIssues": "Active California licensee in Amador City (Amador County) with no dedicated firm website. Relies on state bar and third-party directories. Offered 24/7 client intake advisor angle at $19/mo Core tier + free mockup preview via taralattanzio.ca.",
+    "caseStudySent": "https://taralattanzio.ca?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-law-office-of-larry-k-arguello",
+    "history": [
+      {
+        "step": "Day 0",
+        "sentAt": "2026-10-27T00:14:05.577Z",
+        "subject": "24/7 client intake & consultation for Law Office of Larry K Arguello",
+        "resendId": "01a17ab4-ffdd-775e-a9be-69241b184435",
+        "status": "delivered",
+        "notes": "California small town lawyer outreach (NO BCC). Pitch: 24/7 client intake & consultation onboarding ($19/mo, $0 build fee, free mockup). Sent from hello@mail.beeclue.com with reply_to hello@beeclue.com."
+      }
+    ]
+  },
+  {
+    "id": "law-office-of-timothy-martin-scully",
+    "firmName": "Law Office of Timothy Martin Scully",
+    "contactName": "Timothy Martin Scully, Esq.",
+    "email": "contact@scully.agency",
+    "phone": "Not Available",
+    "website": "None (State Bar & Public Directories Only)",
+    "niche": "General Practice, Civil Matters & Estate Planning",
+    "location": "Ione, CA (Amador County)",
+    "pricingQuoted": "$19/month",
+    "initialContactDate": "2026-10-27T00:14:07.280Z",
+    "lastContactDate": "2026-10-27T00:14:07.280Z",
+    "status": "delivered",
+    "sequenceStep": "Day 0 - Initial Outreach",
+    "diagnosedIssues": "Active California licensee in Ione (Amador County) with no dedicated firm website. Relies on state bar and third-party directories. Offered 24/7 client intake advisor angle at $19/mo Core tier + free mockup preview via taralattanzio.ca.",
+    "caseStudySent": "https://taralattanzio.ca?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-law-office-of-timothy-martin-scully",
+    "history": [
+      {
+        "step": "Day 0",
+        "sentAt": "2026-10-27T00:14:07.280Z",
+        "subject": "24/7 client intake & consultation for Law Office of Timothy Martin Scully",
+        "resendId": "01a17ab5-06b0-7014-a89a-d91a41a72129",
+        "status": "delivered",
+        "notes": "California small town lawyer outreach (NO BCC). Pitch: 24/7 client intake & consultation onboarding ($19/mo, $0 build fee, free mockup). Sent from hello@mail.beeclue.com with reply_to hello@beeclue.com."
+      }
+    ]
+  },
+  {
+    "id": "law-office-of-benjamin-david-kinne",
+    "firmName": "Law Office of Benjamin David Kinne",
+    "contactName": "Benjamin David Kinne, Esq.",
+    "email": "kinne@att.net",
+    "phone": "Not Available",
+    "website": "None (State Bar & Public Directories Only)",
+    "niche": "General Practice, Civil Matters & Estate Planning",
+    "location": "Amador City, CA (Amador County)",
+    "pricingQuoted": "$19/month",
+    "initialContactDate": "2026-10-27T00:14:08.720Z",
+    "lastContactDate": "2026-10-27T00:14:08.720Z",
+    "status": "delivered",
+    "sequenceStep": "Day 0 - Initial Outreach",
+    "diagnosedIssues": "Active California licensee in Amador City (Amador County) with no dedicated firm website. Relies on state bar and third-party directories. Offered 24/7 client intake advisor angle at $19/mo Core tier + free mockup preview via taralattanzio.ca.",
+    "caseStudySent": "https://taralattanzio.ca?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-law-office-of-benjamin-david-kinne",
+    "history": [
+      {
+        "step": "Day 0",
+        "sentAt": "2026-10-27T00:14:08.720Z",
+        "subject": "24/7 client intake & consultation for Law Office of Benjamin David Kinne",
+        "resendId": "01a17ab5-0d5a-76ff-b72b-a37a242601bf",
+        "status": "delivered",
+        "notes": "California small town lawyer outreach (NO BCC). Pitch: 24/7 client intake & consultation onboarding ($19/mo, $0 build fee, free mockup). Sent from hello@mail.beeclue.com with reply_to hello@beeclue.com."
+      }
+    ]
+  },
+  {
+    "id": "law-ofc-cherie-d-arcy",
+    "firmName": "Law Ofc Cherie D'Arcy",
+    "contactName": "Cherie Lynn D'Arcy, Esq.",
+    "email": "cdarcylaw@gmail.com",
+    "phone": "209-257-4990",
+    "website": "None (State Bar & Public Directories Only)",
+    "niche": "General Practice, Civil Matters & Estate Planning",
+    "location": "Jackson, CA (Amador County)",
+    "pricingQuoted": "$19/month",
+    "initialContactDate": "2026-10-27T00:14:10.196Z",
+    "lastContactDate": "2026-10-27T00:14:10.196Z",
+    "status": "delivered",
+    "sequenceStep": "Day 0 - Initial Outreach",
+    "diagnosedIssues": "Active California licensee in Jackson (Amador County) with no dedicated firm website. Relies on state bar and third-party directories. Offered 24/7 client intake advisor angle at $19/mo Core tier + free mockup preview via taralattanzio.ca.",
+    "caseStudySent": "https://taralattanzio.ca?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-law-ofc-cherie-d-arcy",
+    "history": [
+      {
+        "step": "Day 0",
+        "sentAt": "2026-10-27T00:14:10.196Z",
+        "subject": "24/7 client intake & consultation for Law Ofc Cherie D'Arcy",
+        "resendId": "01a17ab5-12f7-7227-aacc-b5ddace6fef6",
+        "status": "delivered",
+        "notes": "California small town lawyer outreach (NO BCC). Pitch: 24/7 client intake & consultation onboarding ($19/mo, $0 build fee, free mockup). Sent from hello@mail.beeclue.com with reply_to hello@beeclue.com."
+      }
+    ]
+  },
+  {
+    "id": "burton-swett",
+    "firmName": "Burton & Swett",
+    "contactName": "Rodney Wilson Burton, Esq.",
+    "email": "rod@burtonswett.com",
+    "phone": "209-267-9217",
+    "website": "None (State Bar & Public Directories Only)",
+    "niche": "General Practice, Civil Matters & Estate Planning",
+    "location": "Amador City, CA (Amador County)",
+    "pricingQuoted": "$19/month",
+    "initialContactDate": "2026-10-27T00:14:11.785Z",
+    "lastContactDate": "2026-10-27T00:14:11.785Z",
+    "status": "delivered",
+    "sequenceStep": "Day 0 - Initial Outreach",
+    "diagnosedIssues": "Active California licensee in Amador City (Amador County) with no dedicated firm website. Relies on state bar and third-party directories. Offered 24/7 client intake advisor angle at $19/mo Core tier + free mockup preview via taralattanzio.ca.",
+    "caseStudySent": "https://taralattanzio.ca?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-burton-swett",
+    "history": [
+      {
+        "step": "Day 0",
+        "sentAt": "2026-10-27T00:14:11.785Z",
+        "subject": "24/7 client intake & consultation for Burton & Swett",
+        "resendId": "01a17ab5-18bd-73e4-ae45-2f44967a088b",
+        "status": "delivered",
+        "notes": "California small town lawyer outreach (NO BCC). Pitch: 24/7 client intake & consultation onboarding ($19/mo, $0 build fee, free mockup). Sent from hello@mail.beeclue.com with reply_to hello@beeclue.com."
+      }
+    ]
+  },
+  {
+    "id": "law-office-of-john-hahn",
+    "firmName": "Law Office of John Hahn",
+    "contactName": "John Hahn, Esq.",
+    "email": "hahnvineyard@gmail.com",
+    "phone": "209-304-3224",
+    "website": "None (State Bar & Public Directories Only)",
+    "niche": "General Practice, Civil Matters & Estate Planning",
+    "location": "Plymouth, CA (Amador County)",
+    "pricingQuoted": "$19/month",
+    "initialContactDate": "2026-10-27T00:14:13.429Z",
+    "lastContactDate": "2026-10-27T00:14:13.429Z",
+    "status": "delivered",
+    "sequenceStep": "Day 0 - Initial Outreach",
+    "diagnosedIssues": "Active California licensee in Plymouth (Amador County) with no dedicated firm website. Relies on state bar and third-party directories. Offered 24/7 client intake advisor angle at $19/mo Core tier + free mockup preview via taralattanzio.ca.",
+    "caseStudySent": "https://taralattanzio.ca?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-law-office-of-john-hahn",
+    "history": [
+      {
+        "step": "Day 0",
+        "sentAt": "2026-10-27T00:14:13.429Z",
+        "subject": "24/7 client intake & consultation for Law Office of John Hahn",
+        "resendId": "01a17ab5-1ef0-70a9-bca0-eee9d7d36d79",
+        "status": "delivered",
+        "notes": "California small town lawyer outreach (NO BCC). Pitch: 24/7 client intake & consultation onboarding ($19/mo, $0 build fee, free mockup). Sent from hello@mail.beeclue.com with reply_to hello@beeclue.com."
+      }
+    ]
+  },
+  {
+    "id": "law-office-of-katherine-domenico",
+    "firmName": "Law Office of Katherine Domenico",
+    "contactName": "Katherine Domenico, Esq.",
+    "email": "katherine@katherinedomenicolaw.com",
+    "phone": "209-256-8150",
+    "website": "None (State Bar & Public Directories Only)",
+    "niche": "General Practice, Civil Matters & Estate Planning",
+    "location": "Jackson, CA (Amador County)",
+    "pricingQuoted": "$19/month",
+    "initialContactDate": "2026-10-27T00:14:15.279Z",
+    "lastContactDate": "2026-10-27T00:14:15.279Z",
+    "status": "delivered",
+    "sequenceStep": "Day 0 - Initial Outreach",
+    "diagnosedIssues": "Active California licensee in Jackson (Amador County) with no dedicated firm website. Relies on state bar and third-party directories. Offered 24/7 client intake advisor angle at $19/mo Core tier + free mockup preview via taralattanzio.ca.",
+    "caseStudySent": "https://taralattanzio.ca?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-law-office-of-katherine-domenico",
+    "history": [
+      {
+        "step": "Day 0",
+        "sentAt": "2026-10-27T00:14:15.279Z",
+        "subject": "24/7 client intake & consultation for Law Office of Katherine Domenico",
+        "resendId": "01a17ab5-255b-7808-9d49-bd02ceb21d29",
+        "status": "delivered",
+        "notes": "California small town lawyer outreach (NO BCC). Pitch: 24/7 client intake & consultation onboarding ($19/mo, $0 build fee, free mockup). Sent from hello@mail.beeclue.com with reply_to hello@beeclue.com."
+      }
+    ]
+  },
+  {
+    "id": "law-office-of-richard-lee-smith",
+    "firmName": "Law Office of Richard Lee Smith",
+    "contactName": "Richard Lee Smith, Esq.",
+    "email": "smithlaw95675@gmail.com",
+    "phone": "209-283-1846",
+    "website": "None (State Bar & Public Directories Only)",
+    "niche": "General Practice, Civil Matters & Estate Planning",
+    "location": "River Pines, CA (Amador County)",
+    "pricingQuoted": "$19/month",
+    "initialContactDate": "2026-10-27T00:14:16.901Z",
+    "lastContactDate": "2026-10-27T00:14:16.901Z",
+    "status": "delivered",
+    "sequenceStep": "Day 0 - Initial Outreach",
+    "diagnosedIssues": "Active California licensee in River Pines (Amador County) with no dedicated firm website. Relies on state bar and third-party directories. Offered 24/7 client intake advisor angle at $19/mo Core tier + free mockup preview via taralattanzio.ca.",
+    "caseStudySent": "https://taralattanzio.ca?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-law-office-of-richard-lee-smith",
+    "history": [
+      {
+        "step": "Day 0",
+        "sentAt": "2026-10-27T00:14:16.901Z",
+        "subject": "24/7 client intake & consultation for Law Office of Richard Lee Smith",
+        "resendId": "01a17ab5-2c94-7707-907f-e439e211d301",
+        "status": "delivered",
+        "notes": "California small town lawyer outreach (NO BCC). Pitch: 24/7 client intake & consultation onboarding ($19/mo, $0 build fee, free mockup). Sent from hello@mail.beeclue.com with reply_to hello@beeclue.com."
+      }
+    ]
+  },
+  {
+    "id": "redkey-gordon-law-corp",
+    "firmName": "Redkey Gordon Law Corp",
+    "contactName": "Robert Aron Gordon, Esq.",
+    "email": "robert@redkeygordonlaw.com",
+    "phone": "209-267-1685",
+    "website": "None (State Bar & Public Directories Only)",
+    "niche": "General Practice, Civil Matters & Estate Planning",
+    "location": "Sutter Creek, CA (Amador County)",
+    "pricingQuoted": "$19/month",
+    "initialContactDate": "2026-10-27T00:14:18.471Z",
+    "lastContactDate": "2026-10-27T00:14:18.471Z",
+    "status": "delivered",
+    "sequenceStep": "Day 0 - Initial Outreach",
+    "diagnosedIssues": "Active California licensee in Sutter Creek (Amador County) with no dedicated firm website. Relies on state bar and third-party directories. Offered 24/7 client intake advisor angle at $19/mo Core tier + free mockup preview via taralattanzio.ca.",
+    "caseStudySent": "https://taralattanzio.ca?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-redkey-gordon-law-corp",
+    "history": [
+      {
+        "step": "Day 0",
+        "sentAt": "2026-10-27T00:14:18.471Z",
+        "subject": "24/7 client intake & consultation for Redkey Gordon Law Corp",
+        "resendId": "01a17ab5-32ec-70ae-aa62-efd3ee86ebdb",
+        "status": "delivered",
+        "notes": "California small town lawyer outreach (NO BCC). Pitch: 24/7 client intake & consultation onboarding ($19/mo, $0 build fee, free mockup). Sent from hello@mail.beeclue.com with reply_to hello@beeclue.com."
+      }
+    ]
+  },
+  {
+    "id": "fowler-helsel-vogt",
+    "firmName": "FOWLER | HELSEL | VOGT",
+    "contactName": "John Charles Fowler, Esq.",
+    "email": "john@fhvlaw.com",
+    "phone": "209-267-8181",
+    "website": "None (State Bar & Public Directories Only)",
+    "niche": "General Practice, Civil Matters & Estate Planning",
+    "location": "Sutter Creek, CA (Amador County)",
+    "pricingQuoted": "$19/month",
+    "initialContactDate": "2026-10-27T00:14:19.923Z",
+    "lastContactDate": "2026-10-27T00:14:19.923Z",
+    "status": "delivered",
+    "sequenceStep": "Day 0 - Initial Outreach",
+    "diagnosedIssues": "Active California licensee in Sutter Creek (Amador County) with no dedicated firm website. Relies on state bar and third-party directories. Offered 24/7 client intake advisor angle at $19/mo Core tier + free mockup preview via taralattanzio.ca.",
+    "caseStudySent": "https://taralattanzio.ca?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-fowler-helsel-vogt",
+    "history": [
+      {
+        "step": "Day 0",
+        "sentAt": "2026-10-27T00:14:19.923Z",
+        "subject": "24/7 client intake & consultation for FOWLER | HELSEL | VOGT",
+        "resendId": "01a17ab5-390f-75f5-ab8c-2bd011cdfd1f",
+        "status": "delivered",
+        "notes": "California small town lawyer outreach (NO BCC). Pitch: 24/7 client intake & consultation onboarding ($19/mo, $0 build fee, free mockup). Sent from hello@mail.beeclue.com with reply_to hello@beeclue.com."
+      }
+    ]
+  },
+  {
+    "id": "fitzgerald-alvarez-camaniti",
+    "firmName": "Fitzgerald, Alvarez & Camaniti",
+    "contactName": "Harsh Hooda, Esq.",
+    "email": "hhooda@faclawoffices.com",
+    "phone": "Not Available",
+    "website": "None (State Bar & Public Directories Only)",
+    "niche": "General Practice, Civil Matters & Estate Planning",
+    "location": "Jackson, CA (Amador County)",
+    "pricingQuoted": "$19/month",
+    "initialContactDate": "2026-10-27T00:14:21.294Z",
+    "lastContactDate": "2026-10-27T00:14:21.294Z",
+    "status": "delivered",
+    "sequenceStep": "Day 0 - Initial Outreach",
+    "diagnosedIssues": "Active California licensee in Jackson (Amador County) with no dedicated firm website. Relies on state bar and third-party directories. Offered 24/7 client intake advisor angle at $19/mo Core tier + free mockup preview via taralattanzio.ca.",
+    "caseStudySent": "https://taralattanzio.ca?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-fitzgerald-alvarez-camaniti",
+    "history": [
+      {
+        "step": "Day 0",
+        "sentAt": "2026-10-27T00:14:21.294Z",
+        "subject": "24/7 client intake & consultation for Fitzgerald, Alvarez & Camaniti",
+        "resendId": "01a17ab5-3eb9-708e-8e50-8ea54602770c",
+        "status": "delivered",
+        "notes": "California small town lawyer outreach (NO BCC). Pitch: 24/7 client intake & consultation onboarding ($19/mo, $0 build fee, free mockup). Sent from hello@mail.beeclue.com with reply_to hello@beeclue.com."
+      }
+    ]
+  },
+  {
+    "id": "gold-country-legal-group",
+    "firmName": "Gold Country Legal Group",
+    "contactName": "Stacy Alicia Tyler, Esq.",
+    "email": "styler@goldcountrylegalgroup.com",
+    "phone": "209-217-8170",
+    "website": "None (State Bar & Public Directories Only)",
+    "niche": "General Practice, Civil Matters & Estate Planning",
+    "location": "Jackson, CA (Amador County)",
+    "pricingQuoted": "$19/month",
+    "initialContactDate": "2026-10-27T00:14:22.786Z",
+    "lastContactDate": "2026-10-27T00:14:22.786Z",
+    "status": "delivered",
+    "sequenceStep": "Day 0 - Initial Outreach",
+    "diagnosedIssues": "Active California licensee in Jackson (Amador County) with no dedicated firm website. Relies on state bar and third-party directories. Offered 24/7 client intake advisor angle at $19/mo Core tier + free mockup preview via taralattanzio.ca.",
+    "caseStudySent": "https://taralattanzio.ca?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-gold-country-legal-group",
+    "history": [
+      {
+        "step": "Day 0",
+        "sentAt": "2026-10-27T00:14:22.786Z",
+        "subject": "24/7 client intake & consultation for Gold Country Legal Group",
+        "resendId": "01a17ab5-4413-7e5b-bcb6-c2dcef50c132",
+        "status": "delivered",
+        "notes": "California small town lawyer outreach (NO BCC). Pitch: 24/7 client intake & consultation onboarding ($19/mo, $0 build fee, free mockup). Sent from hello@mail.beeclue.com with reply_to hello@beeclue.com."
+      }
+    ]
+  },
+  {
+    "id": "law-office-of-theresa-l-haefele",
+    "firmName": "Law Office of Theresa L. Haefele",
+    "contactName": "Theresa Lucile Haefele, Esq.",
+    "email": "theresa@tlhaefele.com",
+    "phone": "209-223-3255",
+    "website": "None (State Bar & Public Directories Only)",
+    "niche": "General Practice, Civil Matters & Estate Planning",
+    "location": "Jackson, CA (Amador County)",
+    "pricingQuoted": "$19/month",
+    "initialContactDate": "2026-10-27T00:14:24.364Z",
+    "lastContactDate": "2026-10-27T00:14:24.364Z",
+    "status": "delivered",
+    "sequenceStep": "Day 0 - Initial Outreach",
+    "diagnosedIssues": "Active California licensee in Jackson (Amador County) with no dedicated firm website. Relies on state bar and third-party directories. Offered 24/7 client intake advisor angle at $19/mo Core tier + free mockup preview via taralattanzio.ca.",
+    "caseStudySent": "https://taralattanzio.ca?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-law-office-of-theresa-l-haefele",
+    "history": [
+      {
+        "step": "Day 0",
+        "sentAt": "2026-10-27T00:14:24.364Z",
+        "subject": "24/7 client intake & consultation for Law Office of Theresa L. Haefele",
+        "resendId": "01a17ab5-49e9-775c-888c-961100451cf6",
+        "status": "delivered",
+        "notes": "California small town lawyer outreach (NO BCC). Pitch: 24/7 client intake & consultation onboarding ($19/mo, $0 build fee, free mockup). Sent from hello@mail.beeclue.com with reply_to hello@beeclue.com."
+      }
+    ]
+  },
+  {
+    "id": "law-office-of-patrick-mcandrew-keene",
+    "firmName": "Law Office of Patrick McAndrew Keene",
+    "contactName": "Patrick McAndrew Keene, Esq.",
+    "email": "lawyer@patkeene.com",
+    "phone": "209-223-0223",
+    "website": "None (State Bar & Public Directories Only)",
+    "niche": "General Practice, Civil Matters & Estate Planning",
+    "location": "Jackson, CA (Amador County)",
+    "pricingQuoted": "$19/month",
+    "initialContactDate": "2026-10-27T00:14:26.012Z",
+    "lastContactDate": "2026-10-27T00:14:26.012Z",
+    "status": "delivered",
+    "sequenceStep": "Day 0 - Initial Outreach",
+    "diagnosedIssues": "Active California licensee in Jackson (Amador County) with no dedicated firm website. Relies on state bar and third-party directories. Offered 24/7 client intake advisor angle at $19/mo Core tier + free mockup preview via taralattanzio.ca.",
+    "caseStudySent": "https://taralattanzio.ca?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-law-office-of-patrick-mcandrew-keene",
+    "history": [
+      {
+        "step": "Day 0",
+        "sentAt": "2026-10-27T00:14:26.012Z",
+        "subject": "24/7 client intake & consultation for Law Office of Patrick McAndrew Keene",
+        "resendId": "01a17ab5-5012-7ef0-92ec-1428e7a941e2",
+        "status": "delivered",
+        "notes": "California small town lawyer outreach (NO BCC). Pitch: 24/7 client intake & consultation onboarding ($19/mo, $0 build fee, free mockup). Sent from hello@mail.beeclue.com with reply_to hello@beeclue.com."
+      }
+    ]
+  },
+  {
+    "id": "law-office-of-stacy-nichole-serrato",
+    "firmName": "Law Office of Stacy Nichole Serrato",
+    "contactName": "Stacy Nichole Serrato, Esq.",
+    "email": "stacy@serratolawpractice.com",
+    "phone": "",
+    "website": "None (State Bar & Public Directories Only)",
+    "niche": "General Practice, Civil Matters & Estate Planning",
+    "location": "Coulterville, CA (Mariposa County)",
+    "pricingQuoted": "$19/month",
+    "initialContactDate": "2026-10-27T00:14:27.588Z",
+    "lastContactDate": "2026-10-27T00:14:27.588Z",
+    "status": "delivered",
+    "sequenceStep": "Day 0 - Initial Outreach",
+    "diagnosedIssues": "Active California licensee in Coulterville (Mariposa County) with no dedicated firm website. Relies on state bar and third-party directories. Offered 24/7 client intake advisor angle at $19/mo Core tier + free mockup preview via taralattanzio.ca.",
+    "caseStudySent": "https://taralattanzio.ca?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-law-office-of-stacy-nichole-serrato",
+    "history": [
+      {
+        "step": "Day 0",
+        "sentAt": "2026-10-27T00:14:27.588Z",
+        "subject": "24/7 client intake & consultation for Law Office of Stacy Nichole Serrato",
+        "resendId": "01a17ab5-5683-77d6-97ae-e8e1b94a6544",
+        "status": "delivered",
+        "notes": "California small town lawyer outreach (NO BCC). Pitch: 24/7 client intake & consultation onboarding ($19/mo, $0 build fee, free mockup). Sent from hello@mail.beeclue.com with reply_to hello@beeclue.com."
+      }
+    ]
+  },
+  {
+    "id": "law-office-of-emily-pence",
+    "firmName": "Law Office of Emily Pence",
+    "contactName": "Emily Marie Pence, Esq.",
+    "email": "emilypence@gmail.com",
+    "phone": "",
+    "website": "None (State Bar & Public Directories Only)",
+    "niche": "General Practice, Civil Matters & Estate Planning",
+    "location": "Mariposa, CA (Mariposa County)",
+    "pricingQuoted": "$19/month",
+    "initialContactDate": "2026-10-27T00:14:29.174Z",
+    "lastContactDate": "2026-10-27T00:14:29.174Z",
+    "status": "delivered",
+    "sequenceStep": "Day 0 - Initial Outreach",
+    "diagnosedIssues": "Active California licensee in Mariposa (Mariposa County) with no dedicated firm website. Relies on state bar and third-party directories. Offered 24/7 client intake advisor angle at $19/mo Core tier + free mockup preview via taralattanzio.ca.",
+    "caseStudySent": "https://taralattanzio.ca?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-law-office-of-emily-pence",
+    "history": [
+      {
+        "step": "Day 0",
+        "sentAt": "2026-10-27T00:14:29.174Z",
+        "subject": "24/7 client intake & consultation for Law Office of Emily Pence",
+        "resendId": "01a17ab5-5ca9-7e97-b4bc-5fe023702aba",
+        "status": "delivered",
+        "notes": "California small town lawyer outreach (NO BCC). Pitch: 24/7 client intake & consultation onboarding ($19/mo, $0 build fee, free mockup). Sent from hello@mail.beeclue.com with reply_to hello@beeclue.com."
+      }
+    ]
+  },
+  {
+    "id": "law-office-of-jennifer-mcgrath",
+    "firmName": "Law Office of Jennifer McGrath",
+    "contactName": "Jennifer Michelle McGrath, Esq.",
+    "email": "atty@gmail.com",
+    "phone": "",
+    "website": "None (State Bar & Public Directories Only)",
+    "niche": "General Practice, Civil Matters & Estate Planning",
+    "location": "Mariposa, CA (Mariposa County)",
+    "pricingQuoted": "$19/month",
+    "initialContactDate": "2026-10-27T00:14:30.740Z",
+    "lastContactDate": "2026-10-27T00:14:30.740Z",
+    "status": "delivered",
+    "sequenceStep": "Day 0 - Initial Outreach",
+    "diagnosedIssues": "Active California licensee in Mariposa (Mariposa County) with no dedicated firm website. Relies on state bar and third-party directories. Offered 24/7 client intake advisor angle at $19/mo Core tier + free mockup preview via taralattanzio.ca.",
+    "caseStudySent": "https://taralattanzio.ca?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-law-office-of-jennifer-mcgrath",
+    "history": [
+      {
+        "step": "Day 0",
+        "sentAt": "2026-10-27T00:14:30.740Z",
+        "subject": "24/7 client intake & consultation for Law Office of Jennifer McGrath",
+        "resendId": "01a17ab5-62de-7f15-a99e-028f8225ca00",
+        "status": "delivered",
+        "notes": "California small town lawyer outreach (NO BCC). Pitch: 24/7 client intake & consultation onboarding ($19/mo, $0 build fee, free mockup). Sent from hello@mail.beeclue.com with reply_to hello@beeclue.com."
+      }
+    ]
+  },
+  {
+    "id": "timothy-j-williams-cpa",
+    "firmName": "Timothy J. Williams, CPA",
+    "contactName": "Timothy J. Williams, CPA",
+    "email": "tim@timwilliamscpa.com",
+    "phone": "",
+    "website": "Independent CPA / Local Accounting Practice",
+    "niche": "Accounting, Bookkeeping & Tax Advisory Services",
+    "location": "Placerville, CA (El Dorado County)",
+    "pricingQuoted": "$19/month",
+    "initialContactDate": "2026-10-27T00:14:32.065Z",
+    "lastContactDate": "2026-10-27T00:14:32.065Z",
+    "status": "delivered",
+    "sequenceStep": "Day 0 - Initial Outreach",
+    "diagnosedIssues": "Independent accounting and tax advisory practice in Placerville (El Dorado County). Pitched 24/7 automated client intake advisor, tax document onboarding checklists, and $19/mo Core tier ($0 build fee, free mockup).",
+    "caseStudySent": "https://beeclue.com?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-timothy-j-williams-cpa",
+    "history": [
+      {
+        "step": "Day 0",
+        "sentAt": "2026-10-27T00:14:32.065Z",
+        "subject": "24/7 client intake & onboarding for Timothy J. Williams, CPA",
+        "resendId": "01a17ab5-68fa-78a4-a66f-5fab9d4ed9b2",
+        "status": "delivered",
+        "notes": "California small town accountant outreach (NO BCC). Pitch: 24/7 client intake advisor & onboarding checklist ($19/mo, $0 build fee, free mockup). Sent from hello@mail.beeclue.com with reply_to hello@beeclue.com."
+      }
+    ]
+  },
+  {
+    "id": "deborah-rohrbough-cpa",
+    "firmName": "Deborah Rohrbough, CPA",
+    "contactName": "Deborah Rohrbough, CPA",
+    "email": "deborah@rohrbough-cpa.finance",
+    "phone": "",
+    "website": "Independent CPA / Local Accounting Practice",
+    "niche": "Accounting, Bookkeeping & Tax Advisory Services",
+    "location": "Placerville, CA (El Dorado County)",
+    "pricingQuoted": "$19/month",
+    "initialContactDate": "2026-10-27T00:14:33.074Z",
+    "lastContactDate": "2026-10-27T00:14:33.074Z",
+    "status": "delivered",
+    "sequenceStep": "Day 0 - Initial Outreach",
+    "diagnosedIssues": "Independent accounting and tax advisory practice in Placerville (El Dorado County). Pitched 24/7 automated client intake advisor, tax document onboarding checklists, and $19/mo Core tier ($0 build fee, free mockup).",
+    "caseStudySent": "https://beeclue.com?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-deborah-rohrbough-cpa",
+    "history": [
+      {
+        "step": "Day 0",
+        "sentAt": "2026-10-27T00:14:33.074Z",
+        "subject": "24/7 client intake & onboarding for Deborah Rohrbough, CPA",
+        "resendId": "01a17ab5-6e29-7093-9a78-fdcac2fdcb29",
+        "status": "delivered",
+        "notes": "California small town accountant outreach (NO BCC). Pitch: 24/7 client intake advisor & onboarding checklist ($19/mo, $0 build fee, free mockup). Sent from hello@mail.beeclue.com with reply_to hello@beeclue.com."
+      }
+    ]
+  },
+  {
+    "id": "merrill-accountancy-corporation",
+    "firmName": "Merrill Accountancy Corporation",
+    "contactName": "Michelle Merrill, CPA",
+    "email": "michelle@merrillcpas.com",
+    "phone": "",
+    "website": "Independent CPA / Local Accounting Practice",
+    "niche": "Accounting, Bookkeeping & Tax Advisory Services",
+    "location": "Auburn, CA (Placer County)",
+    "pricingQuoted": "$19/month",
+    "initialContactDate": "2026-10-27T00:14:34.401Z",
+    "lastContactDate": "2026-10-27T00:14:34.401Z",
+    "status": "delivered",
+    "sequenceStep": "Day 0 - Initial Outreach",
+    "diagnosedIssues": "Independent accounting and tax advisory practice in Auburn (Placer County). Pitched 24/7 automated client intake advisor, tax document onboarding checklists, and $19/mo Core tier ($0 build fee, free mockup).",
+    "caseStudySent": "https://beeclue.com?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-merrill-accountancy-corporation",
+    "history": [
+      {
+        "step": "Day 0",
+        "sentAt": "2026-10-27T00:14:34.401Z",
+        "subject": "24/7 client intake & onboarding for Merrill Accountancy Corporation",
+        "resendId": "01a17ab5-7218-71fb-9c5f-563e438485c0",
+        "status": "delivered",
+        "notes": "California small town accountant outreach (NO BCC). Pitch: 24/7 client intake advisor & onboarding checklist ($19/mo, $0 build fee, free mockup). Sent from hello@mail.beeclue.com with reply_to hello@beeclue.com."
+      }
+    ]
+  },
+  {
+    "id": "bobst-briel-certified-public-accountants-inc",
+    "firmName": "Bobst & Briel Certified Public Accountants, Inc.",
+    "contactName": "Accounting Operations Desk",
+    "email": "admin@bobst.net",
+    "phone": "",
+    "website": "Independent CPA / Local Accounting Practice",
+    "niche": "Accounting, Bookkeeping & Tax Advisory Services",
+    "location": "Auburn, CA (Placer County)",
+    "pricingQuoted": "$19/month",
+    "initialContactDate": "2026-10-27T00:14:35.769Z",
+    "lastContactDate": "2026-10-27T00:14:35.769Z",
+    "status": "delivered",
+    "sequenceStep": "Day 0 - Initial Outreach",
+    "diagnosedIssues": "Independent accounting and tax advisory practice in Auburn (Placer County). Pitched 24/7 automated client intake advisor, tax document onboarding checklists, and $19/mo Core tier ($0 build fee, free mockup).",
+    "caseStudySent": "https://beeclue.com?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-bobst-briel-certified-public-accountants-inc",
+    "history": [
+      {
+        "step": "Day 0",
+        "sentAt": "2026-10-27T00:14:35.769Z",
+        "subject": "24/7 client intake & onboarding for Bobst & Briel Certified Public Accountants, Inc.",
+        "resendId": "01a17ab5-7748-77a9-8f71-0ad77e008d42",
+        "status": "delivered",
+        "notes": "California small town accountant outreach (NO BCC). Pitch: 24/7 client intake advisor & onboarding checklist ($19/mo, $0 build fee, free mockup). Sent from hello@mail.beeclue.com with reply_to hello@beeclue.com."
+      }
+    ]
+  },
+  {
+    "id": "hullen-accountancy-llp",
+    "firmName": "Hullen Accountancy, LLP",
+    "contactName": "Mike Hullen, CPA",
+    "email": "mike@hullencpa.com",
+    "phone": "",
+    "website": "Independent CPA / Local Accounting Practice",
+    "niche": "Accounting, Bookkeeping & Tax Advisory Services",
+    "location": "Auburn, CA (Placer County)",
+    "pricingQuoted": "$19/month",
+    "initialContactDate": "2026-10-27T00:14:37.108Z",
+    "lastContactDate": "2026-10-27T00:14:37.108Z",
+    "status": "delivered",
+    "sequenceStep": "Day 0 - Initial Outreach",
+    "diagnosedIssues": "Independent accounting and tax advisory practice in Auburn (Placer County). Pitched 24/7 automated client intake advisor, tax document onboarding checklists, and $19/mo Core tier ($0 build fee, free mockup).",
+    "caseStudySent": "https://beeclue.com?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-hullen-accountancy-llp",
+    "history": [
+      {
+        "step": "Day 0",
+        "sentAt": "2026-10-27T00:14:37.108Z",
+        "subject": "24/7 client intake & onboarding for Hullen Accountancy, LLP",
+        "resendId": "01a17ab5-7c9f-719e-9d23-2cdf8c69e817",
+        "status": "delivered",
+        "notes": "California small town accountant outreach (NO BCC). Pitch: 24/7 client intake advisor & onboarding checklist ($19/mo, $0 build fee, free mockup). Sent from hello@mail.beeclue.com with reply_to hello@beeclue.com."
+      }
+    ]
+  },
+  {
+    "id": "hawks-associates-cpas",
+    "firmName": "Hawks & Associates CPAs",
+    "contactName": "Professional Practice Desk",
+    "email": "Staff@HawksCPA.com",
+    "phone": "",
+    "website": "Independent CPA / Local Accounting Practice",
+    "niche": "Accounting, Bookkeeping & Tax Advisory Services",
+    "location": "Sonora, CA (Tuolumne County)",
+    "pricingQuoted": "$19/month",
+    "initialContactDate": "2026-10-27T00:14:38.604Z",
+    "lastContactDate": "2026-10-27T00:14:38.604Z",
+    "status": "delivered",
+    "sequenceStep": "Day 0 - Initial Outreach",
+    "diagnosedIssues": "Independent accounting and tax advisory practice in Sonora (Tuolumne County). Pitched 24/7 automated client intake advisor, tax document onboarding checklists, and $19/mo Core tier ($0 build fee, free mockup).",
+    "caseStudySent": "https://beeclue.com?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-hawks-associates-cpas",
+    "history": [
+      {
+        "step": "Day 0",
+        "sentAt": "2026-10-27T00:14:38.604Z",
+        "subject": "24/7 client intake & onboarding for Hawks & Associates CPAs",
+        "resendId": "01a17ab5-8214-7399-a722-8f68cc916113",
+        "status": "delivered",
+        "notes": "California small town accountant outreach (NO BCC). Pitch: 24/7 client intake advisor & onboarding checklist ($19/mo, $0 build fee, free mockup). Sent from hello@mail.beeclue.com with reply_to hello@beeclue.com."
+      }
+    ]
+  },
+  {
+    "id": "porter-accounting-consulting-apc",
+    "firmName": "Porter Accounting & Consulting APC",
+    "contactName": "Don Porter, CPA",
+    "email": "don@porteraccountingandconsult.com",
+    "phone": "",
+    "website": "Independent CPA / Local Accounting Practice",
+    "niche": "Accounting, Bookkeeping & Tax Advisory Services",
+    "location": "Bishop, CA (Inyo County)",
+    "pricingQuoted": "$19/month",
+    "initialContactDate": "2026-10-27T00:14:39.986Z",
+    "lastContactDate": "2026-10-27T00:14:39.986Z",
+    "status": "delivered",
+    "sequenceStep": "Day 0 - Initial Outreach",
+    "diagnosedIssues": "Independent accounting and tax advisory practice in Bishop (Inyo County). Pitched 24/7 automated client intake advisor, tax document onboarding checklists, and $19/mo Core tier ($0 build fee, free mockup).",
+    "caseStudySent": "https://beeclue.com?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-porter-accounting-consulting-apc",
+    "history": [
+      {
+        "step": "Day 0",
+        "sentAt": "2026-10-27T00:14:39.986Z",
+        "subject": "24/7 client intake & onboarding for Porter Accounting & Consulting APC",
+        "resendId": "01a17ab5-87b1-7ca7-8bc3-3369c5a10ec2",
+        "status": "delivered",
+        "notes": "California small town accountant outreach (NO BCC). Pitch: 24/7 client intake advisor & onboarding checklist ($19/mo, $0 build fee, free mockup). Sent from hello@mail.beeclue.com with reply_to hello@beeclue.com."
+      }
+    ]
+  },
+  {
+    "id": "van-tassell-paegel-p-c",
+    "firmName": "Van Tassell & Paegel, P.C.",
+    "contactName": "Randy Van Tassell, CPA",
+    "email": "patricia@sierracpa.com",
+    "phone": "",
+    "website": "Independent CPA / Local Accounting Practice",
+    "niche": "Accounting, Bookkeeping & Tax Advisory Services",
+    "location": "Bishop, CA (Inyo County)",
+    "pricingQuoted": "$19/month",
+    "initialContactDate": "2026-10-27T00:14:41.290Z",
+    "lastContactDate": "2026-10-27T00:14:41.290Z",
+    "status": "delivered",
+    "sequenceStep": "Day 0 - Initial Outreach",
+    "diagnosedIssues": "Independent accounting and tax advisory practice in Bishop (Inyo County). Pitched 24/7 automated client intake advisor, tax document onboarding checklists, and $19/mo Core tier ($0 build fee, free mockup).",
+    "caseStudySent": "https://beeclue.com?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-van-tassell-paegel-p-c",
+    "history": [
+      {
+        "step": "Day 0",
+        "sentAt": "2026-10-27T00:14:41.290Z",
+        "subject": "24/7 client intake & onboarding for Van Tassell & Paegel, P.C.",
+        "resendId": "01a17ab5-8d19-7b8e-9528-79c7379031d4",
+        "status": "delivered",
+        "notes": "California small town accountant outreach (NO BCC). Pitch: 24/7 client intake advisor & onboarding checklist ($19/mo, $0 build fee, free mockup). Sent from hello@mail.beeclue.com with reply_to hello@beeclue.com."
+      }
+    ]
+  },
+  {
+    "id": "luxe-strategic-partners",
+    "firmName": "Luxe Strategic Partners",
+    "contactName": "Practice Management Desk",
+    "email": "info@luxe.cpa",
+    "phone": "",
+    "website": "Independent CPA / Local Accounting Practice",
+    "niche": "Accounting, Bookkeeping & Tax Advisory Services",
+    "location": "Bishop, CA (Inyo County)",
+    "pricingQuoted": "$19/month",
+    "initialContactDate": "2026-10-27T00:14:42.501Z",
+    "lastContactDate": "2026-10-27T00:14:42.501Z",
+    "status": "delivered",
+    "sequenceStep": "Day 0 - Initial Outreach",
+    "diagnosedIssues": "Independent accounting and tax advisory practice in Bishop (Inyo County). Pitched 24/7 automated client intake advisor, tax document onboarding checklists, and $19/mo Core tier ($0 build fee, free mockup).",
+    "caseStudySent": "https://beeclue.com?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-luxe-strategic-partners",
+    "history": [
+      {
+        "step": "Day 0",
+        "sentAt": "2026-10-27T00:14:42.501Z",
+        "subject": "24/7 client intake & onboarding for Luxe Strategic Partners",
+        "resendId": "01a17ab5-9276-7f04-bd2a-acce8f6ba1f5",
+        "status": "delivered",
+        "notes": "California small town accountant outreach (NO BCC). Pitch: 24/7 client intake advisor & onboarding checklist ($19/mo, $0 build fee, free mockup). Sent from hello@mail.beeclue.com with reply_to hello@beeclue.com."
+      }
+    ]
+  },
+  {
+    "id": "griesmer-and-fereira-cpas",
+    "firmName": "Griesmer and Fereira, CPAs",
+    "contactName": "Practice Desk",
+    "email": "info@griesmerandfereira.com",
+    "phone": "",
+    "website": "Independent CPA / Local Accounting Practice",
+    "niche": "Accounting, Bookkeeping & Tax Advisory Services",
+    "location": "Truckee, CA (Nevada County)",
+    "pricingQuoted": "$19/month",
+    "initialContactDate": "2026-10-27T00:14:43.679Z",
+    "lastContactDate": "2026-10-27T00:14:43.679Z",
+    "status": "delivered",
+    "sequenceStep": "Day 0 - Initial Outreach",
+    "diagnosedIssues": "Independent accounting and tax advisory practice in Truckee (Nevada County). Pitched 24/7 automated client intake advisor, tax document onboarding checklists, and $19/mo Core tier ($0 build fee, free mockup).",
+    "caseStudySent": "https://beeclue.com?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-griesmer-and-fereira-cpas",
+    "history": [
+      {
+        "step": "Day 0",
+        "sentAt": "2026-10-27T00:14:43.679Z",
+        "subject": "24/7 client intake & onboarding for Griesmer and Fereira, CPAs",
+        "resendId": "01a17ab5-96ee-76f4-aa52-3adda2b593bd",
+        "status": "delivered",
+        "notes": "California small town accountant outreach (NO BCC). Pitch: 24/7 client intake advisor & onboarding checklist ($19/mo, $0 build fee, free mockup). Sent from hello@mail.beeclue.com with reply_to hello@beeclue.com."
+      }
+    ]
+  },
+  {
+    "id": "sitkoff-o-neil-accountancy-corporation",
+    "firmName": "Sitkoff / O'Neil Accountancy Corporation",
+    "contactName": "Debra Hakansson",
+    "email": "debbie@sitkoffoneil.com",
+    "phone": "",
+    "website": "Independent CPA / Local Accounting Practice",
+    "niche": "Accounting, Bookkeeping & Tax Advisory Services",
+    "location": "Truckee, CA (Nevada County)",
+    "pricingQuoted": "$19/month",
+    "initialContactDate": "2026-10-27T00:14:44.907Z",
+    "lastContactDate": "2026-10-27T00:14:44.907Z",
+    "status": "delivered",
+    "sequenceStep": "Day 0 - Initial Outreach",
+    "diagnosedIssues": "Independent accounting and tax advisory practice in Truckee (Nevada County). Pitched 24/7 automated client intake advisor, tax document onboarding checklists, and $19/mo Core tier ($0 build fee, free mockup).",
+    "caseStudySent": "https://beeclue.com?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-sitkoff-o-neil-accountancy-corporation",
+    "history": [
+      {
+        "step": "Day 0",
+        "sentAt": "2026-10-27T00:14:44.907Z",
+        "subject": "24/7 client intake & onboarding for Sitkoff / O'Neil Accountancy Corporation",
+        "resendId": "01a17ab5-9b85-768a-acd9-235ae5d13986",
+        "status": "delivered",
+        "notes": "California small town accountant outreach (NO BCC). Pitch: 24/7 client intake advisor & onboarding checklist ($19/mo, $0 build fee, free mockup). Sent from hello@mail.beeclue.com with reply_to hello@beeclue.com."
+      }
+    ]
+  },
+  {
+    "id": "singletonauman-pc",
+    "firmName": "SingletonAuman, PC",
+    "contactName": "Client Advisory Desk",
+    "email": "sa@sa-cpas.com",
+    "phone": "",
+    "website": "Independent CPA / Local Accounting Practice",
+    "niche": "Accounting, Bookkeeping & Tax Advisory Services",
+    "location": "Susanville, CA (Lassen County)",
+    "pricingQuoted": "$19/month",
+    "initialContactDate": "2026-10-27T00:14:46.164Z",
+    "lastContactDate": "2026-10-27T00:14:46.164Z",
+    "status": "delivered",
+    "sequenceStep": "Day 0 - Initial Outreach",
+    "diagnosedIssues": "Independent accounting and tax advisory practice in Susanville (Lassen County). Pitched 24/7 automated client intake advisor, tax document onboarding checklists, and $19/mo Core tier ($0 build fee, free mockup).",
+    "caseStudySent": "https://beeclue.com?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-singletonauman-pc",
+    "history": [
+      {
+        "step": "Day 0",
+        "sentAt": "2026-10-27T00:14:46.164Z",
+        "subject": "24/7 client intake & onboarding for SingletonAuman, PC",
+        "resendId": "01a17ab5-a052-7593-9682-94db269ff4ac",
+        "status": "delivered",
+        "notes": "California small town accountant outreach (NO BCC). Pitch: 24/7 client intake advisor & onboarding checklist ($19/mo, $0 build fee, free mockup). Sent from hello@mail.beeclue.com with reply_to hello@beeclue.com."
+      }
+    ]
+  },
+  {
+    "id": "bequette-kimmel-accountancy-corporation",
+    "firmName": "Bequette & Kimmel Accountancy Corporation",
+    "contactName": "John A. Kimmel, CPA",
+    "email": "john@bkcpas.net",
+    "phone": "",
+    "website": "Independent CPA / Local Accounting Practice",
+    "niche": "Accounting, Bookkeeping & Tax Advisory Services",
+    "location": "Quincy, CA (Plumas County)",
+    "pricingQuoted": "$19/month",
+    "initialContactDate": "2026-10-27T00:14:47.597Z",
+    "lastContactDate": "2026-10-27T00:14:47.597Z",
+    "status": "delivered",
+    "sequenceStep": "Day 0 - Initial Outreach",
+    "diagnosedIssues": "Independent accounting and tax advisory practice in Quincy (Plumas County). Pitched 24/7 automated client intake advisor, tax document onboarding checklists, and $19/mo Core tier ($0 build fee, free mockup).",
+    "caseStudySent": "https://beeclue.com?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-bequette-kimmel-accountancy-corporation",
+    "history": [
+      {
+        "step": "Day 0",
+        "sentAt": "2026-10-27T00:14:47.597Z",
+        "subject": "24/7 client intake & onboarding for Bequette & Kimmel Accountancy Corporation",
+        "resendId": "01a17ab5-a53c-7348-9dbb-b2457892cb51",
+        "status": "delivered",
+        "notes": "California small town accountant outreach (NO BCC). Pitch: 24/7 client intake advisor & onboarding checklist ($19/mo, $0 build fee, free mockup). Sent from hello@mail.beeclue.com with reply_to hello@beeclue.com."
+      }
+    ]
+  },
+  {
+    "id": "weston-tuttle-llp",
+    "firmName": "Weston & Tuttle LLP",
+    "contactName": "Operations Desk",
+    "email": "admin@westonandtuttle.com",
+    "phone": "",
+    "website": "Independent CPA / Local Accounting Practice",
+    "niche": "Accounting, Bookkeeping & Tax Advisory Services",
+    "location": "Cameron Park, CA (El Dorado County)",
+    "pricingQuoted": "$19/month",
+    "initialContactDate": "2026-10-27T00:14:49.081Z",
+    "lastContactDate": "2026-10-27T00:14:49.081Z",
+    "status": "delivered",
+    "sequenceStep": "Day 0 - Initial Outreach",
+    "diagnosedIssues": "Independent accounting and tax advisory practice in Cameron Park (El Dorado County). Pitched 24/7 automated client intake advisor, tax document onboarding checklists, and $19/mo Core tier ($0 build fee, free mockup).",
+    "caseStudySent": "https://beeclue.com?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-weston-tuttle-llp",
+    "history": [
+      {
+        "step": "Day 0",
+        "sentAt": "2026-10-27T00:14:49.081Z",
+        "subject": "24/7 client intake & onboarding for Weston & Tuttle LLP",
+        "resendId": "01a17ab5-ab09-706e-a200-a28ea9e4929c",
+        "status": "delivered",
+        "notes": "California small town accountant outreach (NO BCC). Pitch: 24/7 client intake advisor & onboarding checklist ($19/mo, $0 build fee, free mockup). Sent from hello@mail.beeclue.com with reply_to hello@beeclue.com."
+      }
+    ]
+  },
+  {
+    "id": "swenson-cpa-llp",
+    "firmName": "Swenson CPA, LLP",
+    "contactName": "Mark Swenson, CPA",
+    "email": "mswenson@swenson-cpa.com",
+    "phone": "",
+    "website": "Independent CPA / Local Accounting Practice",
+    "niche": "Accounting, Bookkeeping & Tax Advisory Services",
+    "location": "Lincoln, CA (Placer County)",
+    "pricingQuoted": "$19/month",
+    "initialContactDate": "2026-10-27T00:14:50.653Z",
+    "lastContactDate": "2026-10-27T00:14:50.653Z",
+    "status": "delivered",
+    "sequenceStep": "Day 0 - Initial Outreach",
+    "diagnosedIssues": "Independent accounting and tax advisory practice in Lincoln (Placer County). Pitched 24/7 automated client intake advisor, tax document onboarding checklists, and $19/mo Core tier ($0 build fee, free mockup).",
+    "caseStudySent": "https://beeclue.com?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-swenson-cpa-llp",
+    "history": [
+      {
+        "step": "Day 0",
+        "sentAt": "2026-10-27T00:14:50.653Z",
+        "subject": "24/7 client intake & onboarding for Swenson CPA, LLP",
+        "resendId": "01a17ab5-b0a2-78b9-ab4e-f7e9dcdb5fa3",
+        "status": "delivered",
+        "notes": "California small town accountant outreach (NO BCC). Pitch: 24/7 client intake advisor & onboarding checklist ($19/mo, $0 build fee, free mockup). Sent from hello@mail.beeclue.com with reply_to hello@beeclue.com."
+      }
+    ]
+  },
+  {
+    "id": "matthews-hutton-warren-cpas",
+    "firmName": "Matthews, Hutton & Warren, CPAs",
+    "contactName": "Managing Partner Desk",
+    "email": "oroville@mhwcpa.com",
+    "phone": "",
+    "website": "Independent CPA / Local Accounting Practice",
+    "niche": "Accounting, Bookkeeping & Tax Advisory Services",
+    "location": "Oroville, CA (Butte County)",
+    "pricingQuoted": "$19/month",
+    "initialContactDate": "2026-10-27T00:14:52.019Z",
+    "lastContactDate": "2026-10-27T00:14:52.019Z",
+    "status": "delivered",
+    "sequenceStep": "Day 0 - Initial Outreach",
+    "diagnosedIssues": "Independent accounting and tax advisory practice in Oroville (Butte County). Pitched 24/7 automated client intake advisor, tax document onboarding checklists, and $19/mo Core tier ($0 build fee, free mockup).",
+    "caseStudySent": "https://beeclue.com?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-matthews-hutton-warren-cpas",
+    "history": [
+      {
+        "step": "Day 0",
+        "sentAt": "2026-10-27T00:14:52.019Z",
+        "subject": "24/7 client intake & onboarding for Matthews, Hutton & Warren, CPAs",
+        "resendId": "01a17ab5-b6c4-7221-9093-c016f28c472c",
+        "status": "delivered",
+        "notes": "California small town accountant outreach (NO BCC). Pitch: 24/7 client intake advisor & onboarding checklist ($19/mo, $0 build fee, free mockup). Sent from hello@mail.beeclue.com with reply_to hello@beeclue.com."
+      }
+    ]
+  },
+  {
+    "id": "darlene-m-triplett-cpa",
+    "firmName": "Darlene M. Triplett, CPA",
+    "contactName": "Darlene M. Triplett, CPA",
+    "email": "darlene@yctax.solutions",
+    "phone": "",
+    "website": "Independent CPA / Local Accounting Practice",
+    "niche": "Accounting, Bookkeeping & Tax Advisory Services",
+    "location": "Yuba City, CA (Sutter County)",
+    "pricingQuoted": "$19/month",
+    "initialContactDate": "2026-10-27T00:14:53.370Z",
+    "lastContactDate": "2026-10-27T00:14:53.370Z",
+    "status": "delivered",
+    "sequenceStep": "Day 0 - Initial Outreach",
+    "diagnosedIssues": "Independent accounting and tax advisory practice in Yuba City (Sutter County). Pitched 24/7 automated client intake advisor, tax document onboarding checklists, and $19/mo Core tier ($0 build fee, free mockup).",
+    "caseStudySent": "https://beeclue.com?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-darlene-m-triplett-cpa",
+    "history": [
+      {
+        "step": "Day 0",
+        "sentAt": "2026-10-27T00:14:53.370Z",
+        "subject": "24/7 client intake & onboarding for Darlene M. Triplett, CPA",
+        "resendId": "01a17ab5-bc1c-747c-988e-d52e169ebd8c",
+        "status": "delivered",
+        "notes": "California small town accountant outreach (NO BCC). Pitch: 24/7 client intake advisor & onboarding checklist ($19/mo, $0 build fee, free mockup). Sent from hello@mail.beeclue.com with reply_to hello@beeclue.com."
+      }
+    ]
+  },
+  {
+    "id": "montgomery-cpa-services",
+    "firmName": "Montgomery CPA Services",
+    "contactName": "Belinda Montgomery, CPA",
+    "email": "belinda@montgomerycpa.net",
+    "phone": "",
+    "website": "Independent CPA / Local Accounting Practice",
+    "niche": "Accounting, Bookkeeping & Tax Advisory Services",
+    "location": "Loomis, CA (Placer County)",
+    "pricingQuoted": "$19/month",
+    "initialContactDate": "2026-10-27T00:14:54.638Z",
+    "lastContactDate": "2026-10-27T00:14:54.638Z",
+    "status": "delivered",
+    "sequenceStep": "Day 0 - Initial Outreach",
+    "diagnosedIssues": "Independent accounting and tax advisory practice in Loomis (Placer County). Pitched 24/7 automated client intake advisor, tax document onboarding checklists, and $19/mo Core tier ($0 build fee, free mockup).",
+    "caseStudySent": "https://beeclue.com?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-montgomery-cpa-services",
+    "history": [
+      {
+        "step": "Day 0",
+        "sentAt": "2026-10-27T00:14:54.638Z",
+        "subject": "24/7 client intake & onboarding for Montgomery CPA Services",
+        "resendId": "01a17ab5-c191-76d1-ba17-8d2bc9627282",
+        "status": "delivered",
+        "notes": "California small town accountant outreach (NO BCC). Pitch: 24/7 client intake advisor & onboarding checklist ($19/mo, $0 build fee, free mockup). Sent from hello@mail.beeclue.com with reply_to hello@beeclue.com."
+      }
+    ]
+  },
+  {
+    "id": "michael-l-dupree-cpa",
+    "firmName": "Michael L. Dupree, CPA",
+    "contactName": "Michael L. Dupree, CPA",
+    "email": "mikedupreecpa@gmail.com",
+    "phone": "",
+    "website": "Independent CPA / Local Accounting Practice",
+    "niche": "Accounting, Bookkeeping & Tax Advisory Services",
+    "location": "South Lake Tahoe, CA (El Dorado County)",
+    "pricingQuoted": "$19/month",
+    "initialContactDate": "2026-10-27T00:14:55.983Z",
+    "lastContactDate": "2026-10-27T00:14:55.983Z",
+    "status": "delivered",
+    "sequenceStep": "Day 0 - Initial Outreach",
+    "diagnosedIssues": "Independent accounting and tax advisory practice in South Lake Tahoe (El Dorado County). Pitched 24/7 automated client intake advisor, tax document onboarding checklists, and $19/mo Core tier ($0 build fee, free mockup).",
+    "caseStudySent": "https://beeclue.com?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-michael-l-dupree-cpa",
+    "history": [
+      {
+        "step": "Day 0",
+        "sentAt": "2026-10-27T00:14:55.983Z",
+        "subject": "24/7 client intake & onboarding for Michael L. Dupree, CPA",
+        "resendId": "01a17ab5-c656-7168-a774-20c95fc3f733",
+        "status": "delivered",
+        "notes": "California small town accountant outreach (NO BCC). Pitch: 24/7 client intake advisor & onboarding checklist ($19/mo, $0 build fee, free mockup). Sent from hello@mail.beeclue.com with reply_to hello@beeclue.com."
+      }
+    ]
+  },
+  {
+    "id": "robertson-woodford-summers-accountancy-corp",
+    "firmName": "Robertson, Woodford & Summers Accountancy Corp",
+    "contactName": "Professional Accounting Desk",
+    "email": "rws@abacus7.com",
+    "phone": "",
+    "website": "Independent CPA / Local Accounting Practice",
+    "niche": "Accounting, Bookkeeping & Tax Advisory Services",
+    "location": "Grass Valley, CA (Nevada County)",
+    "pricingQuoted": "$19/month",
+    "initialContactDate": "2026-10-27T00:14:57.313Z",
+    "lastContactDate": "2026-10-27T00:14:57.313Z",
+    "status": "delivered",
+    "sequenceStep": "Day 0 - Initial Outreach",
+    "diagnosedIssues": "Independent accounting and tax advisory practice in Grass Valley (Nevada County). Pitched 24/7 automated client intake advisor, tax document onboarding checklists, and $19/mo Core tier ($0 build fee, free mockup).",
+    "caseStudySent": "https://beeclue.com?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-robertson-woodford-summers-accountancy-corp",
+    "history": [
+      {
+        "step": "Day 0",
+        "sentAt": "2026-10-27T00:14:57.313Z",
+        "subject": "24/7 client intake & onboarding for Robertson, Woodford & Summers Accountancy Corp",
+        "resendId": "01a17ab5-cbd0-7278-98e0-83861d9c5500",
+        "status": "delivered",
+        "notes": "California small town accountant outreach (NO BCC). Pitch: 24/7 client intake advisor & onboarding checklist ($19/mo, $0 build fee, free mockup). Sent from hello@mail.beeclue.com with reply_to hello@beeclue.com."
+      }
+    ]
+  },
+  {
+    "id": "demink-signs",
+    "firmName": "DeMink Signs",
+    "contactName": "Sign & Vehicle Graphics Team",
+    "email": "sign@530888sign.com",
+    "phone": "",
+    "website": "Commercial Printing & Signage Partner",
+    "niche": "Print & Sign Partner - Commercial Printing, Vehicle Lettering & Signage",
+    "location": "Auburn, CA (Placer County)",
+    "pricingQuoted": "20% Referral Commission",
+    "initialContactDate": "2026-10-27T00:14:58.548Z",
+    "lastContactDate": "2026-10-27T00:14:58.548Z",
+    "status": "delivered",
+    "sequenceStep": "Day 0 - Initial Outreach",
+    "diagnosedIssues": "California print & sign company in Auburn (Placer County). Offered 20% reciprocal web design commission + reciprocal print referrals.",
+    "caseStudySent": "https://beeclue.com?utm_source=beeclue&utm_medium=partner-outreach&utm_campaign=sales-outreach-partner-demink-signs",
+    "history": [
+      {
+        "step": "Day 0",
+        "sentAt": "2026-10-27T00:14:58.548Z",
+        "subject": "Web design referral partnership for DeMink Signs clients",
+        "resendId": "01a17ab5-d0c8-711a-a6c6-e2ddf0d25c7e",
+        "status": "delivered",
+        "notes": "California print & sign shop partnership outreach (NO BCC). Offered 20% referral commission on website design/development + reciprocal referrals for physical print collateral. Sent from hello@mail.beeclue.com with reply_to hello@beeclue.com."
+      }
+    ]
+  },
+  {
+    "id": "49er-printing",
+    "firmName": "49er Printing",
+    "contactName": "Commercial Print Operations",
+    "email": "49erprinting@sierrabg.com",
+    "phone": "",
+    "website": "Commercial Printing & Signage Partner",
+    "niche": "Print & Sign Partner - Commercial Printing, Vehicle Lettering & Signage",
+    "location": "Auburn, CA (Placer County)",
+    "pricingQuoted": "20% Referral Commission",
+    "initialContactDate": "2026-10-27T00:14:59.846Z",
+    "lastContactDate": "2026-10-27T00:14:59.846Z",
+    "status": "delivered",
+    "sequenceStep": "Day 0 - Initial Outreach",
+    "diagnosedIssues": "California print & sign company in Auburn (Placer County). Offered 20% reciprocal web design commission + reciprocal print referrals.",
+    "caseStudySent": "https://beeclue.com?utm_source=beeclue&utm_medium=partner-outreach&utm_campaign=sales-outreach-partner-49er-printing",
+    "history": [
+      {
+        "step": "Day 0",
+        "sentAt": "2026-10-27T00:14:59.846Z",
+        "subject": "Web design referral partnership for 49er Printing clients",
+        "resendId": "01a17ab5-d59a-7c33-9c55-3e0846465bbe",
+        "status": "delivered",
+        "notes": "California print & sign shop partnership outreach (NO BCC). Offered 20% referral commission on website design/development + reciprocal referrals for physical print collateral. Sent from hello@mail.beeclue.com with reply_to hello@beeclue.com."
+      }
+    ]
+  },
+  {
+    "id": "uptown-signs-graphics-inc",
+    "firmName": "Uptown Signs & Graphics Inc.",
+    "contactName": "Signage & Design Desk",
+    "email": "service@uptownsigns.com",
+    "phone": "",
+    "website": "Commercial Printing & Signage Partner",
+    "niche": "Print & Sign Partner - Commercial Printing, Vehicle Lettering & Signage",
+    "location": "Auburn, CA (Placer County)",
+    "pricingQuoted": "20% Referral Commission",
+    "initialContactDate": "2026-10-27T00:15:01.352Z",
+    "lastContactDate": "2026-10-27T00:15:01.352Z",
+    "status": "delivered",
+    "sequenceStep": "Day 0 - Initial Outreach",
+    "diagnosedIssues": "California print & sign company in Auburn (Placer County). Offered 20% reciprocal web design commission + reciprocal print referrals.",
+    "caseStudySent": "https://beeclue.com?utm_source=beeclue&utm_medium=partner-outreach&utm_campaign=sales-outreach-partner-uptown-signs-graphics-inc",
+    "history": [
+      {
+        "step": "Day 0",
+        "sentAt": "2026-10-27T00:15:01.352Z",
+        "subject": "Web design referral partnership for Uptown Signs & Graphics Inc. clients",
+        "resendId": "01a17ab5-dab1-7451-8a23-a611146789f3",
+        "status": "delivered",
+        "notes": "California print & sign shop partnership outreach (NO BCC). Offered 20% referral commission on website design/development + reciprocal referrals for physical print collateral. Sent from hello@mail.beeclue.com with reply_to hello@beeclue.com."
+      }
+    ]
+  },
+  {
+    "id": "superfast-copy-blueprint",
+    "firmName": "Superfast! Copy & Blueprint",
+    "contactName": "Print & Copy Operations",
+    "email": "superfast@superfastcopy.com",
+    "phone": "",
+    "website": "Commercial Printing & Signage Partner",
+    "niche": "Print & Sign Partner - Commercial Printing, Vehicle Lettering & Signage",
+    "location": "Auburn, CA (Placer County)",
+    "pricingQuoted": "20% Referral Commission",
+    "initialContactDate": "2026-10-27T00:15:02.778Z",
+    "lastContactDate": "2026-10-27T00:15:02.778Z",
+    "status": "delivered",
+    "sequenceStep": "Day 0 - Initial Outreach",
+    "diagnosedIssues": "California print & sign company in Auburn (Placer County). Offered 20% reciprocal web design commission + reciprocal print referrals.",
+    "caseStudySent": "https://beeclue.com?utm_source=beeclue&utm_medium=partner-outreach&utm_campaign=sales-outreach-partner-superfast-copy-blueprint",
+    "history": [
+      {
+        "step": "Day 0",
+        "sentAt": "2026-10-27T00:15:02.778Z",
+        "subject": "Web design referral partnership for Superfast! Copy & Blueprint clients",
+        "resendId": "01a17ab5-e090-70dd-b1f3-115801959b03",
+        "status": "delivered",
+        "notes": "California print & sign shop partnership outreach (NO BCC). Offered 20% referral commission on website design/development + reciprocal referrals for physical print collateral. Sent from hello@mail.beeclue.com with reply_to hello@beeclue.com."
+      }
+    ]
+  },
+  {
+    "id": "the-office-boss-printing",
+    "firmName": "The Office BOSS Printing",
+    "contactName": "Commercial Print Services",
+    "email": "PrintingServices@TheOfficeBOSS.com",
+    "phone": "",
+    "website": "Commercial Printing & Signage Partner",
+    "niche": "Print & Sign Partner - Commercial Printing, Vehicle Lettering & Signage",
+    "location": "Truckee, CA (Nevada County)",
+    "pricingQuoted": "20% Referral Commission",
+    "initialContactDate": "2026-10-27T00:15:05.061Z",
+    "lastContactDate": "2026-10-27T00:15:05.061Z",
+    "status": "delivered",
+    "sequenceStep": "Day 0 - Initial Outreach",
+    "diagnosedIssues": "California print & sign company in Truckee (Nevada County). Offered 20% reciprocal web design commission + reciprocal print referrals.",
+    "caseStudySent": "https://beeclue.com?utm_source=beeclue&utm_medium=partner-outreach&utm_campaign=sales-outreach-partner-the-office-boss-printing",
+    "history": [
+      {
+        "step": "Day 0",
+        "sentAt": "2026-10-27T00:15:05.061Z",
+        "subject": "Web design referral partnership for The Office BOSS Printing clients",
+        "resendId": "01a17ab5-eb0d-710e-8060-6a3787cfe555",
+        "status": "delivered",
+        "notes": "California print & sign shop partnership outreach (NO BCC). Offered 20% referral commission on website design/development + reciprocal referrals for physical print collateral. Sent from hello@mail.beeclue.com with reply_to hello@beeclue.com."
+      }
+    ]
+  },
+  {
+    "id": "community-printing",
+    "firmName": "Community Printing",
+    "contactName": "Print & Copy Operations",
+    "email": "communityprinting@gmail.com",
+    "phone": "",
+    "website": "Commercial Printing & Signage Partner",
+    "niche": "Print & Sign Partner - Commercial Printing, Vehicle Lettering & Signage",
+    "location": "Bishop, CA (Inyo County)",
+    "pricingQuoted": "20% Referral Commission",
+    "initialContactDate": "2026-10-27T00:15:06.168Z",
+    "lastContactDate": "2026-10-27T00:15:06.168Z",
+    "status": "delivered",
+    "sequenceStep": "Day 0 - Initial Outreach",
+    "diagnosedIssues": "California print & sign company in Bishop (Inyo County). Offered 20% reciprocal web design commission + reciprocal print referrals.",
+    "caseStudySent": "https://beeclue.com?utm_source=beeclue&utm_medium=partner-outreach&utm_campaign=sales-outreach-partner-community-printing",
+    "history": [
+      {
+        "step": "Day 0",
+        "sentAt": "2026-10-27T00:15:06.168Z",
+        "subject": "Web design referral partnership for Community Printing clients",
+        "resendId": "01a17ab5-ef1c-75e8-843e-b912efdf7bbe",
+        "status": "delivered",
+        "notes": "California print & sign shop partnership outreach (NO BCC). Offered 20% referral commission on website design/development + reciprocal referrals for physical print collateral. Sent from hello@mail.beeclue.com with reply_to hello@beeclue.com."
+      }
+    ]
+  },
+  {
+    "id": "el-dorado-press",
+    "firmName": "El Dorado Press",
+    "contactName": "Commercial Printing & Blueprinting",
+    "email": "info@eldoradopress.com",
+    "phone": "",
+    "website": "Commercial Printing & Signage Partner",
+    "niche": "Print & Sign Partner - Commercial Printing, Vehicle Lettering & Signage",
+    "location": "Cameron Park, CA (El Dorado County)",
+    "pricingQuoted": "20% Referral Commission",
+    "initialContactDate": "2026-10-27T00:15:07.192Z",
+    "lastContactDate": "2026-10-27T00:15:07.192Z",
+    "status": "delivered",
+    "sequenceStep": "Day 0 - Initial Outreach",
+    "diagnosedIssues": "California print & sign company in Cameron Park (El Dorado County). Offered 20% reciprocal web design commission + reciprocal print referrals.",
+    "caseStudySent": "https://beeclue.com?utm_source=beeclue&utm_medium=partner-outreach&utm_campaign=sales-outreach-partner-el-dorado-press",
+    "history": [
+      {
+        "step": "Day 0",
+        "sentAt": "2026-10-27T00:15:07.192Z",
+        "subject": "Web design referral partnership for El Dorado Press clients",
+        "resendId": "01a17ab5-f36f-77a9-bc08-640681a286db",
+        "status": "delivered",
+        "notes": "California print & sign shop partnership outreach (NO BCC). Offered 20% referral commission on website design/development + reciprocal referrals for physical print collateral. Sent from hello@mail.beeclue.com with reply_to hello@beeclue.com."
+      }
+    ]
+  },
+  {
+    "id": "comer-s-print-shop",
+    "firmName": "Comer's Print Shop",
+    "contactName": "Commercial Printing & Stationery",
+    "email": "comers@comersprintshop.com",
+    "phone": "",
+    "website": "Commercial Printing & Signage Partner",
+    "niche": "Print & Sign Partner - Commercial Printing, Vehicle Lettering & Signage",
+    "location": "Oroville, CA (Butte County)",
+    "pricingQuoted": "20% Referral Commission",
+    "initialContactDate": "2026-10-27T00:15:08.311Z",
+    "lastContactDate": "2026-10-27T00:15:08.311Z",
+    "status": "delivered",
+    "sequenceStep": "Day 0 - Initial Outreach",
+    "diagnosedIssues": "California print & sign company in Oroville (Butte County). Offered 20% reciprocal web design commission + reciprocal print referrals.",
+    "caseStudySent": "https://beeclue.com?utm_source=beeclue&utm_medium=partner-outreach&utm_campaign=sales-outreach-partner-comer-s-print-shop",
+    "history": [
+      {
+        "step": "Day 0",
+        "sentAt": "2026-10-27T00:15:08.311Z",
+        "subject": "Web design referral partnership for Comer's Print Shop clients",
+        "resendId": "01a17ab5-f76e-7b2f-bac8-6d6a26e1c3a4",
+        "status": "delivered",
+        "notes": "California print & sign shop partnership outreach (NO BCC). Offered 20% referral commission on website design/development + reciprocal referrals for physical print collateral. Sent from hello@mail.beeclue.com with reply_to hello@beeclue.com."
+      }
+    ]
+  },
+  {
+    "id": "inside-out-designs",
+    "firmName": "Inside Out Designs",
+    "contactName": "Signs & Screen Printing Desk",
+    "email": "oroville.insideout@gmail.com",
+    "phone": "",
+    "website": "Commercial Printing & Signage Partner",
+    "niche": "Print & Sign Partner - Commercial Printing, Vehicle Lettering & Signage",
+    "location": "Oroville, CA (Butte County)",
+    "pricingQuoted": "20% Referral Commission",
+    "initialContactDate": "2026-10-27T00:15:09.390Z",
+    "lastContactDate": "2026-10-27T00:15:09.390Z",
+    "status": "delivered",
+    "sequenceStep": "Day 0 - Initial Outreach",
+    "diagnosedIssues": "California print & sign company in Oroville (Butte County). Offered 20% reciprocal web design commission + reciprocal print referrals.",
+    "caseStudySent": "https://beeclue.com?utm_source=beeclue&utm_medium=partner-outreach&utm_campaign=sales-outreach-partner-inside-out-designs",
+    "history": [
+      {
+        "step": "Day 0",
+        "sentAt": "2026-10-27T00:15:09.390Z",
+        "subject": "Web design referral partnership for Inside Out Designs clients",
+        "resendId": "01a17ab5-fbcb-7317-bb6f-7e8274fcb14c",
+        "status": "delivered",
+        "notes": "California print & sign shop partnership outreach (NO BCC). Offered 20% referral commission on website design/development + reciprocal referrals for physical print collateral. Sent from hello@mail.beeclue.com with reply_to hello@beeclue.com."
+      }
+    ]
+  },
+  {
+    "id": "yuba-city-plan-printing",
+    "firmName": "Yuba City Plan Printing",
+    "contactName": "Large Format & Planroom Desk",
+    "email": "planroom@ycplanprinting.com",
+    "phone": "",
+    "website": "Commercial Printing & Signage Partner",
+    "niche": "Print & Sign Partner - Commercial Printing, Vehicle Lettering & Signage",
+    "location": "Yuba City, CA (Sutter County)",
+    "pricingQuoted": "20% Referral Commission",
+    "initialContactDate": "2026-10-27T00:15:10.427Z",
+    "lastContactDate": "2026-10-27T00:15:10.427Z",
+    "status": "delivered",
+    "sequenceStep": "Day 0 - Initial Outreach",
+    "diagnosedIssues": "California print & sign company in Yuba City (Sutter County). Offered 20% reciprocal web design commission + reciprocal print referrals.",
+    "caseStudySent": "https://beeclue.com?utm_source=beeclue&utm_medium=partner-outreach&utm_campaign=sales-outreach-partner-yuba-city-plan-printing",
+    "history": [
+      {
+        "step": "Day 0",
+        "sentAt": "2026-10-27T00:15:10.427Z",
+        "subject": "Web design referral partnership for Yuba City Plan Printing clients",
+        "resendId": "01a17ab6-0004-7a17-be63-c2e3d940367d",
+        "status": "delivered",
+        "notes": "California print & sign shop partnership outreach (NO BCC). Offered 20% referral commission on website design/development + reciprocal referrals for physical print collateral. Sent from hello@mail.beeclue.com with reply_to hello@beeclue.com."
+      }
+    ]
+  },
+  {
+    "id": "visual-impact-signs",
+    "firmName": "Visual Impact Signs",
+    "contactName": "Commercial Signs & Graphics Desk",
+    "email": "customerservice@vi-signs.com",
+    "phone": "",
+    "website": "Commercial Printing & Signage Partner",
+    "niche": "Print & Sign Partner - Commercial Printing, Vehicle Lettering & Signage",
+    "location": "Yuba City, CA (Sutter County)",
+    "pricingQuoted": "20% Referral Commission",
+    "initialContactDate": "2026-10-27T00:15:11.625Z",
+    "lastContactDate": "2026-10-27T00:15:11.625Z",
+    "status": "delivered",
+    "sequenceStep": "Day 0 - Initial Outreach",
+    "diagnosedIssues": "California print & sign company in Yuba City (Sutter County). Offered 20% reciprocal web design commission + reciprocal print referrals.",
+    "caseStudySent": "https://beeclue.com?utm_source=beeclue&utm_medium=partner-outreach&utm_campaign=sales-outreach-partner-visual-impact-signs",
+    "history": [
+      {
+        "step": "Day 0",
+        "sentAt": "2026-10-27T00:15:11.625Z",
+        "subject": "Web design referral partnership for Visual Impact Signs clients",
+        "resendId": "01a17ab6-0410-7381-a782-d2e22816d096",
+        "status": "delivered",
+        "notes": "California print & sign shop partnership outreach (NO BCC). Offered 20% referral commission on website design/development + reciprocal referrals for physical print collateral. Sent from hello@mail.beeclue.com with reply_to hello@beeclue.com."
+      }
+    ]
+  },
+  {
+    "id": "precision-1-koncepts-apparel-signs",
+    "firmName": "Precision 1 Koncepts Apparel & Signs",
+    "contactName": "Signage & Apparel Sales",
+    "email": "sales@p1a.us",
+    "phone": "",
+    "website": "Commercial Printing & Signage Partner",
+    "niche": "Print & Sign Partner - Commercial Printing, Vehicle Lettering & Signage",
+    "location": "Yuba City, CA (Sutter County)",
+    "pricingQuoted": "20% Referral Commission",
+    "initialContactDate": "2026-10-27T00:15:12.754Z",
+    "lastContactDate": "2026-10-27T00:15:12.754Z",
+    "status": "delivered",
+    "sequenceStep": "Day 0 - Initial Outreach",
+    "diagnosedIssues": "California print & sign company in Yuba City (Sutter County). Offered 20% reciprocal web design commission + reciprocal print referrals.",
+    "caseStudySent": "https://beeclue.com?utm_source=beeclue&utm_medium=partner-outreach&utm_campaign=sales-outreach-partner-precision-1-koncepts-apparel-signs",
+    "history": [
+      {
+        "step": "Day 0",
+        "sentAt": "2026-10-27T00:15:12.754Z",
+        "subject": "Web design referral partnership for Precision 1 Koncepts Apparel & Signs clients",
+        "resendId": "01a17ab6-08e4-70a3-b03e-82668f546c9e",
+        "status": "delivered",
+        "notes": "California print & sign shop partnership outreach (NO BCC). Offered 20% referral commission on website design/development + reciprocal referrals for physical print collateral. Sent from hello@mail.beeclue.com with reply_to hello@beeclue.com."
+      }
+    ]
+  },
+  {
+    "id": "phoenix-ridge-ink",
+    "firmName": "Phoenix Ridge Ink",
+    "contactName": "Screen Printing & Graphics Desk",
+    "email": "admin@phoenixridgeink.com",
+    "phone": "",
+    "website": "Commercial Printing & Signage Partner",
+    "niche": "Print & Sign Partner - Commercial Printing, Vehicle Lettering & Signage",
+    "location": "Yuba City, CA (Sutter County)",
+    "pricingQuoted": "20% Referral Commission",
+    "initialContactDate": "2026-10-27T00:15:13.865Z",
+    "lastContactDate": "2026-10-27T00:15:13.865Z",
+    "status": "delivered",
+    "sequenceStep": "Day 0 - Initial Outreach",
+    "diagnosedIssues": "California print & sign company in Yuba City (Sutter County). Offered 20% reciprocal web design commission + reciprocal print referrals.",
+    "caseStudySent": "https://beeclue.com?utm_source=beeclue&utm_medium=partner-outreach&utm_campaign=sales-outreach-partner-phoenix-ridge-ink",
+    "history": [
+      {
+        "step": "Day 0",
+        "sentAt": "2026-10-27T00:15:13.865Z",
+        "subject": "Web design referral partnership for Phoenix Ridge Ink clients",
+        "resendId": "01a17ab6-0d65-7a90-aa6f-d106916b7097",
+        "status": "delivered",
+        "notes": "California print & sign shop partnership outreach (NO BCC). Offered 20% referral commission on website design/development + reciprocal referrals for physical print collateral. Sent from hello@mail.beeclue.com with reply_to hello@beeclue.com."
+      }
+    ]
+  },
+  {
+    "id": "in-your-face-signs-tee-s",
+    "firmName": "In Your Face Signs & Tee's",
+    "contactName": "Signs & Graphics Operations",
+    "email": "inyourfacesigns@hotmail.com",
+    "phone": "",
+    "website": "Commercial Printing & Signage Partner",
+    "niche": "Print & Sign Partner - Commercial Printing, Vehicle Lettering & Signage",
+    "location": "South Lake Tahoe, CA (El Dorado County)",
+    "pricingQuoted": "20% Referral Commission",
+    "initialContactDate": "2026-10-27T00:15:14.887Z",
+    "lastContactDate": "2026-10-27T00:15:14.887Z",
+    "status": "delivered",
+    "sequenceStep": "Day 0 - Initial Outreach",
+    "diagnosedIssues": "California print & sign company in South Lake Tahoe (El Dorado County). Offered 20% reciprocal web design commission + reciprocal print referrals.",
+    "caseStudySent": "https://beeclue.com?utm_source=beeclue&utm_medium=partner-outreach&utm_campaign=sales-outreach-partner-in-your-face-signs-tee-s",
+    "history": [
+      {
+        "step": "Day 0",
+        "sentAt": "2026-10-27T00:15:14.887Z",
+        "subject": "Web design referral partnership for In Your Face Signs & Tee's clients",
+        "resendId": "01a17ab6-117f-77e4-bf0f-fb9669bcb10f",
+        "status": "delivered",
+        "notes": "California print & sign shop partnership outreach (NO BCC). Offered 20% referral commission on website design/development + reciprocal referrals for physical print collateral. Sent from hello@mail.beeclue.com with reply_to hello@beeclue.com."
+      }
+    ]
+  },
+  {
+    "id": "rise-designs",
+    "firmName": "RISE Designs",
+    "contactName": "Creative Graphics & Print Desk",
+    "email": "info@risegraphics.com",
+    "phone": "",
+    "website": "Commercial Printing & Signage Partner",
+    "niche": "Print & Sign Partner - Commercial Printing, Vehicle Lettering & Signage",
+    "location": "South Lake Tahoe, CA (El Dorado County)",
+    "pricingQuoted": "20% Referral Commission",
+    "initialContactDate": "2026-10-27T00:15:16.064Z",
+    "lastContactDate": "2026-10-27T00:15:16.064Z",
+    "status": "delivered",
+    "sequenceStep": "Day 0 - Initial Outreach",
+    "diagnosedIssues": "California print & sign company in South Lake Tahoe (El Dorado County). Offered 20% reciprocal web design commission + reciprocal print referrals.",
+    "caseStudySent": "https://beeclue.com?utm_source=beeclue&utm_medium=partner-outreach&utm_campaign=sales-outreach-partner-rise-designs",
+    "history": [
+      {
+        "step": "Day 0",
+        "sentAt": "2026-10-27T00:15:16.064Z",
+        "subject": "Web design referral partnership for RISE Designs clients",
+        "resendId": "01a17ab6-15a4-7ee8-ac0c-ebb86c07079c",
+        "status": "delivered",
+        "notes": "California print & sign shop partnership outreach (NO BCC). Offered 20% referral commission on website design/development + reciprocal referrals for physical print collateral. Sent from hello@mail.beeclue.com with reply_to hello@beeclue.com."
+      }
+    ]
+  },
+  {
+    "id": "sign-creations",
+    "firmName": "Sign Creations",
+    "contactName": "Sign & Vehicle Graphics Sales",
+    "email": "sales@signcreationspro.com",
+    "phone": "",
+    "website": "Commercial Printing & Signage Partner",
+    "niche": "Print & Sign Partner - Commercial Printing, Vehicle Lettering & Signage",
+    "location": "Redding, CA (Shasta County)",
+    "pricingQuoted": "20% Referral Commission",
+    "initialContactDate": "2026-10-27T00:15:17.232Z",
+    "lastContactDate": "2026-10-27T00:15:17.232Z",
+    "status": "delivered",
+    "sequenceStep": "Day 0 - Initial Outreach",
+    "diagnosedIssues": "California print & sign company in Redding (Shasta County). Offered 20% reciprocal web design commission + reciprocal print referrals.",
+    "caseStudySent": "https://beeclue.com?utm_source=beeclue&utm_medium=partner-outreach&utm_campaign=sales-outreach-partner-sign-creations",
+    "history": [
+      {
+        "step": "Day 0",
+        "sentAt": "2026-10-27T00:15:17.232Z",
+        "subject": "Web design referral partnership for Sign Creations clients",
+        "resendId": "01a17ab6-1a13-7535-81d5-3a1210524544",
+        "status": "delivered",
+        "notes": "California print & sign shop partnership outreach (NO BCC). Offered 20% referral commission on website design/development + reciprocal referrals for physical print collateral. Sent from hello@mail.beeclue.com with reply_to hello@beeclue.com."
+      }
+    ]
+  },
+  {
+    "id": "mchale-sign-company",
+    "firmName": "McHale Sign Company",
+    "contactName": "Commercial Signage Operations",
+    "email": "signs@mchalesign.com",
+    "phone": "",
+    "website": "Commercial Printing & Signage Partner",
+    "niche": "Print & Sign Partner - Commercial Printing, Vehicle Lettering & Signage",
+    "location": "Redding, CA (Shasta County)",
+    "pricingQuoted": "20% Referral Commission",
+    "initialContactDate": "2026-10-27T00:15:18.301Z",
+    "lastContactDate": "2026-10-27T00:15:18.301Z",
+    "status": "delivered",
+    "sequenceStep": "Day 0 - Initial Outreach",
+    "diagnosedIssues": "California print & sign company in Redding (Shasta County). Offered 20% reciprocal web design commission + reciprocal print referrals.",
+    "caseStudySent": "https://beeclue.com?utm_source=beeclue&utm_medium=partner-outreach&utm_campaign=sales-outreach-partner-mchale-sign-company",
+    "history": [
+      {
+        "step": "Day 0",
+        "sentAt": "2026-10-27T00:15:18.301Z",
+        "subject": "Web design referral partnership for McHale Sign Company clients",
+        "resendId": "01a17ab6-1ea2-7c86-a810-c5f4fcb3d768",
+        "status": "delivered",
+        "notes": "California print & sign shop partnership outreach (NO BCC). Offered 20% referral commission on website design/development + reciprocal referrals for physical print collateral. Sent from hello@mail.beeclue.com with reply_to hello@beeclue.com."
+      }
+    ]
+  },
+  {
+    "id": "merzlak-signs",
+    "firmName": "Merzlak Signs",
+    "contactName": "Commercial Signage & Graphics",
+    "email": "kam@merzlaksigns.com",
+    "phone": "",
+    "website": "Commercial Printing & Signage Partner",
+    "niche": "Print & Sign Partner - Commercial Printing, Vehicle Lettering & Signage",
+    "location": "Jackson, CA (Amador County)",
+    "pricingQuoted": "20% Referral Commission",
+    "initialContactDate": "2026-10-27T00:15:19.356Z",
+    "lastContactDate": "2026-10-27T00:15:19.356Z",
+    "status": "delivered",
+    "sequenceStep": "Day 0 - Initial Outreach",
+    "diagnosedIssues": "California print & sign company in Jackson (Amador County). Offered 20% reciprocal web design commission + reciprocal print referrals.",
+    "caseStudySent": "https://beeclue.com?utm_source=beeclue&utm_medium=partner-outreach&utm_campaign=sales-outreach-partner-merzlak-signs",
+    "history": [
+      {
+        "step": "Day 0",
+        "sentAt": "2026-10-27T00:15:19.356Z",
+        "subject": "Web design referral partnership for Merzlak Signs clients",
+        "resendId": "01a17ab6-22d2-7f41-8587-ff9a3a32d89c",
+        "status": "delivered",
+        "notes": "California print & sign shop partnership outreach (NO BCC). Offered 20% referral commission on website design/development + reciprocal referrals for physical print collateral. Sent from hello@mail.beeclue.com with reply_to hello@beeclue.com."
+      }
+    ]
+  },
+  {
+    "id": "house-of-print-and-copy",
+    "firmName": "House of Print and Copy",
+    "contactName": "Commercial Print Operations",
+    "email": "print@hopc.biz",
+    "phone": "",
+    "website": "Commercial Printing & Signage Partner",
+    "niche": "Print & Sign Partner - Commercial Printing, Vehicle Lettering & Signage",
+    "location": "Grass Valley, CA (Nevada County)",
+    "pricingQuoted": "20% Referral Commission",
+    "initialContactDate": "2026-10-27T00:15:20.540Z",
+    "lastContactDate": "2026-10-27T00:15:20.540Z",
+    "status": "delivered",
+    "sequenceStep": "Day 0 - Initial Outreach",
+    "diagnosedIssues": "California print & sign company in Grass Valley (Nevada County). Offered 20% reciprocal web design commission + reciprocal print referrals.",
+    "caseStudySent": "https://beeclue.com?utm_source=beeclue&utm_medium=partner-outreach&utm_campaign=sales-outreach-partner-house-of-print-and-copy",
+    "history": [
+      {
+        "step": "Day 0",
+        "sentAt": "2026-10-27T00:15:20.540Z",
+        "subject": "Web design referral partnership for House of Print and Copy clients",
+        "resendId": "01a17ab6-26f8-71be-ae78-fe39c744e917",
+        "status": "delivered",
+        "notes": "California print & sign shop partnership outreach (NO BCC). Offered 20% referral commission on website design/development + reciprocal referrals for physical print collateral. Sent from hello@mail.beeclue.com with reply_to hello@beeclue.com."
+      }
+    ]
+  },
+  {
+    "id": "the-sign-shop-truckee",
+    "firmName": "The Sign Shop Truckee",
+    "contactName": "Commercial Signage Desk",
+    "email": "TheSignShopTruckee@gmail.com",
+    "phone": "",
+    "website": "Commercial Printing & Signage Partner",
+    "niche": "Print & Sign Partner - Commercial Printing, Vehicle Lettering & Signage",
+    "location": "Truckee, CA (Nevada County)",
+    "pricingQuoted": "20% Referral Commission",
+    "initialContactDate": "2026-10-27T00:16:29.755Z",
+    "lastContactDate": "2026-10-27T00:16:29.755Z",
+    "status": "delivered",
+    "sequenceStep": "Day 0 - Initial Outreach",
+    "diagnosedIssues": "California print & sign company in Truckee (Nevada County). Offered 20% reciprocal web design commission + reciprocal print referrals.",
+    "caseStudySent": "https://beeclue.com?utm_source=beeclue&utm_medium=partner-outreach&utm_campaign=sales-outreach-partner-the-sign-shop-truckee",
+    "history": [
+      {
+        "step": "Day 0",
+        "sentAt": "2026-10-27T00:16:29.755Z",
+        "subject": "Web design referral partnership for The Sign Shop Truckee clients",
+        "resendId": "01a17ab7-35dc-7790-ab1e-33cc52ea2e50",
+        "status": "delivered",
+        "notes": "California print & sign shop partnership outreach (NO BCC). Offered 20% referral commission on website design/development + reciprocal referrals for physical print collateral. Sent from hello@mail.beeclue.com with reply_to hello@beeclue.com."
       }
     ]
   }
