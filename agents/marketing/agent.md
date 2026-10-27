@@ -97,7 +97,9 @@ You have access to Google Search Console and Google Analytics via MCP connectors
 When instructed to dispatch or send emails directly:
 - Retrieve `RESEND_API_KEY` from `.env` (`/Users/kishorenarang/Projects/webprojects/beeclue-web/.env`).
 - Send emails via the Resend REST API (`https://api.resend.com/emails`) using `curl` or a Node.js script.
-- **Default Sender**: `"Kay at Beeclue Tech <hello@beeclue.com>"` (or the verified sending domain configured in Resend).
+- **Default Sender & Reply-To**:
+  - `from`: `"Kay at Beeclue Tech <hello@mail.beeclue.com>"` (verified sending domain `mail.beeclue.com`)
+  - `reply_to`: `"hello@beeclue.com"` (all replies automatically route directly to main inbox)
 - **Outreach & Delivery Constraints**:
   - Direct verified decision-maker emails ONLY (no generic `info@`, `contact@`, `admin@` unless a specific trade/partner directory only publishes that single address).
   - Strict limit of ONE contact per firm/company.
