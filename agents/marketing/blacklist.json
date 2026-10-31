@@ -68,5 +68,12 @@
     "email": "jcw24@aol.com",
     "reason": "Responded no thanks - requested acknowledgment and removal from list",
     "blacklistedAt": "2026-10-19T17:16:12.472Z"
+  },
+  {
+    "name": "Mary Cole",
+    "firmName": "Your Type Graphics",
+    "email": "mary@yourtypegraphics.com",
+    "reason": "Responded not interested - home-based micro-business, rarely asked for websites, not a good fit",
+    "blacklistedAt": "2026-10-31T15:12:05.150Z"
   }
 ]
