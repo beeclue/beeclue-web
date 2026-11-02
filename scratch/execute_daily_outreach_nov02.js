@@ -1,0 +1,688 @@
+const fs = require('fs');
+const path = require('path');
+const https = require('https');
+
+// Load environment
+const envContent = fs.readFileSync(path.join(__dirname, '../.env'), 'utf8');
+const keyMatch = envContent.match(/RESEND_API_KEY=([^\r\n]+)/);
+if (!keyMatch) {
+  console.error('RESEND_API_KEY not found in .env');
+  process.exit(1);
+}
+const RESEND_API_KEY = keyMatch[1].trim();
+
+const HISTORY_PATH = path.join(__dirname, '../agents/marketing/outreach_history.json');
+const BLACKLIST_PATH = path.join(__dirname, '../agents/marketing/blacklist.json');
+
+const LAWYERS_PATH = path.join(__dirname, 'today_nov02_lawyers_20.json');
+const ACCTS_PATH = path.join(__dirname, 'today_nov02_accountants_20.json');
+const PRINTS_PATH = path.join(__dirname, 'today_nov02_print_partners_20.json');
+const FOLLOWUPS_PATH = path.join(__dirname, 'today_nov02_followups_40.json');
+const RECEIPTS_PATH = path.join(__dirname, 'today_nov02_receipts.json');
+
+const history = JSON.parse(fs.readFileSync(HISTORY_PATH, 'utf8'));
+const blacklist = JSON.parse(fs.readFileSync(BLACKLIST_PATH, 'utf8'));
+const lawyers = JSON.parse(fs.readFileSync(LAWYERS_PATH, 'utf8'));
+const accountants = JSON.parse(fs.readFileSync(ACCTS_PATH, 'utf8'));
+const printShops = JSON.parse(fs.readFileSync(PRINTS_PATH, 'utf8'));
+const followups = JSON.parse(fs.readFileSync(FOLLOWUPS_PATH, 'utf8'));
+
+const historyEmails = new Set(history.map(h => (h.email || '').toLowerCase().trim()));
+const blacklistEmails = new Set(blacklist.map(b => (typeof b === 'string' ? b : (b.email || '')).toLowerCase().trim()));
+
+function sendResendEmail(payload) {
+  return new Promise((resolve, reject) => {
+    const data = JSON.stringify(payload);
+    const req = https.request('https://api.resend.com/emails', {
+      method: 'POST',
+      headers: {
+        'Authorization': `Bearer ${RESEND_API_KEY}`,
+        'Content-Type': 'application/json',
+        'Content-Length': Buffer.byteLength(data)
+      }
+    }, (res) => {
+      let body = '';
+      res.on('data', chunk => body += chunk);
+      res.on('end', () => {
+        try {
+          const parsed = JSON.parse(body);
+          if (res.statusCode >= 200 && res.statusCode < 300) {
+            resolve(parsed);
+          } else {
+            reject(new Error(`Resend API Error (${res.statusCode}): ${JSON.stringify(parsed)}`));
+          }
+        } catch (e) {
+          reject(new Error(`Failed to parse response: ${body}`));
+        }
+      });
+    });
+    req.on('error', reject);
+    req.write(data);
+    req.end();
+  });
+}
+
+function sleep(ms) {
+  return new Promise(resolve => setTimeout(resolve, ms));
+}
+
+async function run() {
+  console.log(`=======================================================`);
+  console.log(`Executing Daily Outreach Engine for Today (Nov 02, 2026):`);
+  console.log(`  [1] 20 California Law Firms (Tehama County, Day 0)`);
+  console.log(`  [2] 20 California Local Accountants (Day 0)`);
+  console.log(`  [3] 20 California Print & Sign Shops (Day 0 Partnerships)`);
+  console.log(`  [4] 40 Day 4 Follow-Ups (Oct 27 Cohort: 20 Lawyers, 20 Accountants)`);
+  console.log(`  Total: 100 Emails`);
+  console.log(`  From: Kay at Beeclue Tech <hello@mail.beeclue.com>`);
+  console.log(`  Reply-To: hello@beeclue.com`);
+  console.log(`  Strictly NO BCC`);
+  console.log(`=======================================================\n`);
+
+  const updatedHistory = [...history];
+  const historyMap = new Map();
+  updatedHistory.forEach((rec, idx) => {
+    historyMap.set((rec.email || '').toLowerCase().trim(), idx);
+  });
+
+  const receipts = [];
+
+  // ==========================================
+  // PART 1: 20 CALIFORNIA LAW FIRMS (DAY 0)
+  // ==========================================
+  console.log(`\n--- [1/4] DISPATCHING 20 CALIFORNIA LAW FIRMS ---`);
+  for (let i = 0; i < lawyers.length; i++) {
+    const lead = lawyers[i];
+    const emailLower = lead.email.toLowerCase().trim();
+
+    if (historyEmails.has(emailLower) || blacklistEmails.has(emailLower) || emailLower === 'lawpro@verizon.net') {
+      console.log(`[SKIP - In DB / Blacklist] ${lead.email}`);
+      continue;
+    }
+
+    const slug = lead.firmName.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
+    const subject = `24/7 client intake & consultation for ${lead.firmName}`;
+    const caseStudyUrl = `https://taralattanzio.ca?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-${slug}`;
+    const firstName = lead.firstName || (lead.fullName ? lead.fullName.split(' ')[0] : 'there');
+
+    const textBody = `Hi ${firstName},
+
+I hope your week is off to a great start.
+
+I came across your practice while looking into legal services in ${lead.city} and across ${lead.county} County. I noticed that ${lead.firmName} currently doesn't have an active standalone website, relying primarily on state bar listings and third-party directories.
+
+In close-knit California communities like ${lead.city}, word-of-mouth and local reputation are foundational. However, when local residents face an urgent matter in ${lead.practice.toLowerCase()}—whether it's an unexpected court filing, a family transition, or estate planning—their immediate first move is searching on their smartphone to learn who you are, how you work, and what steps to take before calling.
+
+Without a dedicated website, prospective clients often find outdated directory aggregators or end up contacting larger regional firms that have an active web presence.
+
+A modern website acts as a 24/7 business consultant and client intake advisor for your practice. Even while you're in court, in client consultations, or the office is closed for the evening, your site:
+• Clearly outlines your focus in ${lead.practice} and sets client expectations
+• Answers baseline questions upfront so incoming callers are pre-screened and ready to retain you
+• Provides direct one-tap calling and a confidential consultation inquiry form
+
+At Beeclue Tech, we build clean, mobile-first websites specifically for solo practitioners and boutique law firms starting at $19/month—with $0 upfront build fee, zero technical maintenance on your part, and no long-term lock-in.
+
+You can see an example of the clean, mobile-friendly design we build for legal practices here:
+${caseStudyUrl}
+
+If you'd like, I would be happy to put together a free, no-obligation custom mockup for ${lead.firmName} this week so you can see exactly how it looks before deciding anything.
+
+Would you be open to seeing a quick concept?
+
+Best regards,
+
+Kay
+Beeclue Tech
+hello@beeclue.com · (647) 577-0413 · beeclue.com`;
+
+    const htmlBody = `<div style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-size: 15px; line-height: 1.6; color: #1e293b; max-width: 620px;">
+  <p>Hi ${firstName},</p>
+  
+  <p>I hope your week is off to a great start.</p>
+  
+  <p>I came across your practice while looking into legal services in <strong>${lead.city}</strong> and across <strong>${lead.county} County</strong>. I noticed that ${lead.firmName} currently doesn't have an active standalone website, relying primarily on state bar listings and third-party directories.</p>
+  
+  <p>In close-knit California communities like ${lead.city}, word-of-mouth and local reputation are foundational. However, when local residents face an urgent matter in <strong>${lead.practice.toLowerCase()}</strong>—whether it's an unexpected court filing, a family transition, or estate planning—their immediate first move is searching on their smartphone to learn who you are, how you work, and what steps to take before calling.</p>
+  
+  <p>Without a dedicated website, prospective clients often find outdated directory aggregators or end up contacting larger regional firms that have an active web presence.</p>
+  
+  <p>A modern website acts as a <strong>24/7 business consultant and client intake advisor</strong> for your practice. Even while you're in court, in client consultations, or the office is closed for the evening, your site:</p>
+  
+  <ul style="padding-left: 20px; margin: 16px 0;">
+    <li><strong>Client Education:</strong> Clearly outlines your focus in ${lead.practice} and sets client expectations upfront</li>
+    <li><strong>Intake Screening:</strong> Answers baseline questions before callers dial, ensuring incoming inquiries are qualified and ready to retain you</li>
+    <li><strong>Seamless Accessibility:</strong> Provides direct one-tap phone calling and a confidential consultation inquiry form</li>
+  </ul>
+  
+  <p>At <strong>Beeclue Tech</strong>, we build clean, mobile-first websites specifically for solo practitioners and boutique law firms starting at <strong>$19/month</strong>—with $0 upfront build fee, zero technical maintenance on your part, and no long-term lock-in.</p>
+  
+  <p>You can see an example of the clean, mobile-friendly design we build for legal practices here:<br>
+  <a href="${caseStudyUrl}" style="color: #2563eb; font-weight: 500; text-decoration: underline;">View Live Legal Practice Site (taralattanzio.ca)</a></p>
+  
+  <p>If you'd like, I would be happy to put together a <strong>free, no-obligation custom mockup for ${lead.firmName}</strong> this week so you can see exactly how it looks before deciding anything.</p>
+  
+  <p>Would you be open to seeing a quick concept?</p>
+  
+  <p style="margin-top: 24px; margin-bottom: 0;">Best regards,</p>
+  <p style="margin-top: 4px; font-weight: 600; color: #0f172a; margin-bottom: 2px;">Kay</p>
+  <p style="margin: 0; color: #64748b; font-size: 14px;">Beeclue Tech</p>
+  <p style="margin: 2px 0 0 0; color: #64748b; font-size: 13px;">hello@beeclue.com &middot; (647) 577-0413 &middot; <a href="https://beeclue.com" style="color: #64748b; text-decoration: none;">beeclue.com</a></p>
+</div>`;
+
+    const payload = {
+      from: 'Kay at Beeclue Tech <hello@mail.beeclue.com>',
+      reply_to: 'hello@beeclue.com',
+      to: [lead.email],
+      subject: subject,
+      html: htmlBody,
+      text: textBody
+    };
+
+    let attempts = 0;
+    let delivered = false;
+    while (attempts < 2 && !delivered) {
+      attempts++;
+      try {
+        console.log(`[Lawyer ${i + 1}/20] Sending to ${lead.fullName} (${lead.city}, CA)...`);
+        const res = await sendResendEmail(payload);
+        const resendId = res.id;
+        const sentAt = new Date().toISOString();
+        console.log(` -> Delivered! ID: ${resendId}`);
+
+        receipts.push({
+          batch: 'Lawyer Day 0',
+          firmName: lead.firmName,
+          contactName: lead.fullName,
+          email: lead.email,
+          city: lead.city,
+          county: lead.county,
+          resendId: resendId,
+          sentAt: sentAt,
+          status: 'delivered'
+        });
+
+        const newRecord = {
+          id: slug,
+          firmName: lead.firmName,
+          contactName: lead.fullName,
+          email: lead.email,
+          phone: lead.phone || '',
+          website: lead.website || 'None (State Bar Listing Only)',
+          niche: lead.practice,
+          location: `${lead.city}, CA (${lead.county} County)`,
+          pricingQuoted: '$19/mo Core',
+          initialContactDate: sentAt,
+          lastContactDate: sentAt,
+          status: 'delivered',
+          sequenceStep: 'Day 0 - Initial Outreach',
+          diagnosedIssues: `Active California solo/boutique law practice in ${lead.city} (${lead.county} County) operating without a standalone website. Pitched 24/7 intake advisor, $19/mo Core plan ($0 build fee), and free custom mockup.`,
+          caseStudySent: caseStudyUrl,
+          history: [
+            {
+              step: 'Day 0',
+              sentAt: sentAt,
+              subject: subject,
+              resendId: resendId,
+              status: 'delivered',
+              notes: `California small town lawyer outreach (NO BCC). Addressed 24/7 client intake advisor angle, $19/mo Core tier, $0 build fee, free custom mockup. Sent from hello@mail.beeclue.com with reply_to hello@beeclue.com.`
+            }
+          ]
+        };
+
+        updatedHistory.push(newRecord);
+        historyEmails.add(emailLower);
+        delivered = true;
+      } catch (err) {
+        console.error(` -> Attempt ${attempts} FAILED for ${lead.email}: ${err.message}`);
+        if (attempts < 2) await sleep(1500);
+      }
+    }
+
+    await sleep(900);
+  }
+
+  // ==========================================
+  // PART 2: 20 CALIFORNIA LOCAL ACCOUNTANTS (DAY 0)
+  // ==========================================
+  console.log(`\n--- [2/4] DISPATCHING 20 CALIFORNIA LOCAL ACCOUNTANTS ---`);
+  for (let i = 0; i < accountants.length; i++) {
+    const acct = accountants[i];
+    const emailLower = acct.email.toLowerCase().trim();
+
+    if (historyEmails.has(emailLower) || blacklistEmails.has(emailLower) || emailLower === 'lawpro@verizon.net') {
+      console.log(`[SKIP - In DB / Blacklist] ${acct.email}`);
+      continue;
+    }
+
+    const slug = acct.firmName.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
+    const subject = `24/7 client intake & onboarding for ${acct.firmName}`;
+    const acctUrl = `https://beeclue.com?utm_source=beeclue&utm_medium=email&utm_campaign=sales-outreach-acct-${slug}`;
+    const firstName = acct.firstName || (acct.contactName ? acct.contactName.split(' ')[0] : 'there');
+
+    const textBody = `Hi ${firstName},
+
+I hope your week is off to a great start.
+
+I came across your accounting practice while researching independent CPAs and tax advisors in ${acct.city} and across ${acct.county} County.
+
+For local accounting practices, client trust and referrals are everything. However, as year-end planning approaches and small business owners or individuals look for local accounting support, the very first place they look is online on their mobile phone to verify your credentials, see what services you cover, and understand how to submit their documents before calling.
+
+A fast, mobile-friendly website acts as a 24/7 client intake advisor and onboarding hub for your firm:
+• Clearly outlines your tax planning, bookkeeping, and advisory specialties
+• Pre-screens incoming clients with a clean document checklist and intake inquiry form
+• Makes phone and appointment booking completely effortless for local clients
+
+At Beeclue Tech, we build clean, mobile-first websites specifically for independent CPAs and accounting practices starting at $19/month—with $0 upfront build fee, zero technical maintenance on your part, and no long-term lock-in.
+
+If you'd like, I would be happy to put together a free, no-obligation custom mockup for ${acct.firmName} this week so you can see exactly how it would look before deciding anything.
+
+Would you be open to seeing a quick concept?
+
+Best regards,
+
+Kay
+Beeclue Tech
+hello@beeclue.com · (647) 577-0413 · beeclue.com`;
+
+    const htmlBody = `<div style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-size: 15px; line-height: 1.6; color: #1e293b; max-width: 620px;">
+  <p>Hi ${firstName},</p>
+  
+  <p>I hope your week is off to a great start.</p>
+  
+  <p>I came across your accounting practice while researching independent CPAs and tax advisors in <strong>${acct.city}</strong> and across <strong>${acct.county} County</strong>.</p>
+  
+  <p>For local accounting practices, client trust and word-of-mouth are everything. However, as year-end planning approaches and small business owners or individuals look for local accounting support, the very first place they look is online on their mobile phone to verify your credentials, see what services you cover, and understand how to submit their documents before calling.</p>
+  
+  <p>A fast, mobile-friendly website acts as a <strong>24/7 client intake advisor and onboarding hub</strong> for your firm:</p>
+  
+  <ul style="padding-left: 20px; margin: 16px 0;">
+    <li><strong>Client Education:</strong> Clearly outlines your tax planning, bookkeeping, and business advisory services</li>
+    <li><strong>Pre-Screening:</strong> Streamlines client onboarding with a clear checklist and intake form before they call</li>
+    <li><strong>Effortless Contact:</strong> One-tap phone calling and confidential appointment inquiry</li>
+  </ul>
+  
+  <p>At <strong>Beeclue Tech</strong>, we build clean, mobile-first websites specifically for independent accounting firms and CPAs starting at <strong>$19/month</strong>—with $0 upfront build fee, zero technical maintenance on your part, and no long-term lock-in.</p>
+  
+  <p>If you'd like, I would be happy to put together a <strong>free, no-obligation custom mockup for ${acct.firmName}</strong> this week so you can see exactly how it would look before deciding anything.</p>
+  
+  <p>Would you be open to seeing a quick concept?</p>
+  
+  <p style="margin-top: 24px; margin-bottom: 0;">Best regards,</p>
+  <p style="margin-top: 4px; font-weight: 600; color: #0f172a; margin-bottom: 2px;">Kay</p>
+  <p style="margin: 0; color: #64748b; font-size: 14px;">Beeclue Tech</p>
+  <p style="margin: 2px 0 0 0; color: #64748b; font-size: 13px;">hello@beeclue.com &middot; (647) 577-0413 &middot; <a href="https://beeclue.com" style="color: #64748b; text-decoration: none;">beeclue.com</a></p>
+</div>`;
+
+    const payload = {
+      from: 'Kay at Beeclue Tech <hello@mail.beeclue.com>',
+      reply_to: 'hello@beeclue.com',
+      to: [acct.email],
+      subject: subject,
+      html: htmlBody,
+      text: textBody
+    };
+
+    let attempts = 0;
+    let delivered = false;
+    while (attempts < 2 && !delivered) {
+      attempts++;
+      try {
+        console.log(`[Accountant ${i + 1}/20] Sending to ${acct.contactName} (${acct.city}, CA)...`);
+        const res = await sendResendEmail(payload);
+        const resendId = res.id;
+        const sentAt = new Date().toISOString();
+        console.log(` -> Delivered! ID: ${resendId}`);
+
+        receipts.push({
+          batch: 'Accountant Day 0',
+          firmName: acct.firmName,
+          contactName: acct.contactName,
+          email: acct.email,
+          city: acct.city,
+          county: acct.county,
+          resendId: resendId,
+          sentAt: sentAt,
+          status: 'delivered'
+        });
+
+        const newRecord = {
+          id: `acct-${slug}`,
+          firmName: acct.firmName,
+          contactName: acct.contactName,
+          email: acct.email,
+          phone: acct.phone || '',
+          website: 'Independent Accounting / CPA Practice',
+          niche: acct.niche || 'Local Independent CPA & Tax Advisory Practice',
+          location: `${acct.city}, CA (${acct.county} County)`,
+          pricingQuoted: '$19/mo Core',
+          initialContactDate: sentAt,
+          lastContactDate: sentAt,
+          status: 'delivered',
+          sequenceStep: 'Day 0 - Initial Outreach',
+          diagnosedIssues: `Independent CPA / accounting practice in ${acct.city} (${acct.county} County). Pitched 24/7 onboarding hub, document intake checklist, $19/mo Core plan ($0 build fee), and free custom mockup.`,
+          caseStudySent: acctUrl,
+          history: [
+            {
+              step: 'Day 0',
+              sentAt: sentAt,
+              subject: subject,
+              resendId: resendId,
+              status: 'delivered',
+              notes: `California independent accountant outreach (NO BCC). Addressed 24/7 intake checklist, Core $19/mo tier, $0 build fee, free custom mockup. Sent from hello@mail.beeclue.com with reply_to hello@beeclue.com.`
+            }
+          ]
+        };
+
+        updatedHistory.push(newRecord);
+        historyEmails.add(emailLower);
+        delivered = true;
+      } catch (err) {
+        console.error(` -> Attempt ${attempts} FAILED for ${acct.email}: ${err.message}`);
+        if (attempts < 2) await sleep(1500);
+      }
+    }
+
+    await sleep(900);
+  }
+
+  // ==========================================
+  // PART 3: 20 CALIFORNIA PRINT & SIGN SHOPS (DAY 0)
+  // ==========================================
+  console.log(`\n--- [3/4] DISPATCHING 20 CALIFORNIA PRINT & SIGN SHOPS ---`);
+  for (let i = 0; i < printShops.length; i++) {
+    const partner = printShops[i];
+    const emailLower = partner.email.toLowerCase().trim();
+
+    if (historyEmails.has(emailLower) || blacklistEmails.has(emailLower) || emailLower === 'lawpro@verizon.net') {
+      console.log(`[SKIP - In DB / Blacklist] ${partner.email}`);
+      continue;
+    }
+
+    const firmName = partner.firmName || partner.companyName;
+    const contactName = partner.contactName || 'Print Team';
+    const slug = firmName.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
+    const subject = `Web design referral partnership for ${firmName} clients`;
+    const partnerUrl = `https://beeclue.com?utm_source=beeclue&utm_medium=partner-outreach&utm_campaign=sales-outreach-partner-${slug}`;
+    const firstName = partner.firstName || (contactName.includes(' ') ? contactName.split(' ')[0] : contactName);
+
+    const textBody = `Hi ${firstName},
+
+I hope your week is off to a great start.
+
+I came across ${firmName} while researching leading commercial printing, sign, and graphics shops in ${partner.city} and across ${partner.county} County.
+
+We run Beeclue Tech, a web design and technical development agency. Many of our small business clients frequently need physical signage, vehicle lettering, promotional apparel, and commercial print collateral. Conversely, we know that when local businesses order new signs or marketing materials from you, they almost always need a website or digital refresh to go with it.
+
+I'm reaching out to see if you would be open to a reciprocal referral partnership:
+1. 20% Recurring Commission: For any client who needs a website or digital upgrade that you send our way, we pay your shop a 20% recurring monthly referral commission.
+2. Reciprocal Print Referrals: When our clients need banners, vehicle wraps, commercial signs, or physical printing in ${partner.city} and the surrounding area, we direct them straight to ${firmName}.
+3. Zero Work On Your End: We handle 100% of the scoping, design, development, and hosting—you simply make the intro and receive the commission.
+
+Would you be open to a quick 5-minute conversation this week to see if this makes sense for your shop?
+
+Best regards,
+
+Kay
+Beeclue Tech
+hello@beeclue.com · (647) 577-0413 · beeclue.com`;
+
+    const htmlBody = `<div style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-size: 15px; line-height: 1.6; color: #1e293b; max-width: 620px;">
+  <p>Hi ${firstName},</p>
+  
+  <p>I hope your week is off to a great start.</p>
+  
+  <p>I came across <strong>${firmName}</strong> while researching leading commercial printing, sign, and graphics shops in <strong>${partner.city}</strong> and across <strong>${partner.county} County</strong>.</p>
+  
+  <p>We run <strong>Beeclue Tech</strong>, a web design and technical development agency. Many of our small business clients frequently need physical signage, vehicle lettering, promotional apparel, and commercial print collateral. Conversely, we know that when local businesses order new signs or marketing materials from you, they almost always need a website or digital refresh to go with it.</p>
+  
+  <p>I'm reaching out to see if you would be open to a <strong>reciprocal referral partnership</strong>:</p>
+  
+  <ul style="padding-left: 20px; margin: 16px 0;">
+    <li><strong>20% Recurring Commission:</strong> For any client needing website design or technical development that you refer, we pay your shop a 20% recurring monthly commission.</li>
+    <li><strong>Reciprocal Local Print Referrals:</strong> When our clients need commercial signs, banners, vehicle graphics, or physical printing in ${partner.city} and surrounding areas, we refer them straight to ${firmName}.</li>
+    <li><strong>Zero Work On Your End:</strong> We handle 100% of scoping, design, development, and hosting—you simply make the intro and receive the commission.</li>
+  </ul>
+  
+  <p>Would you be open to a quick 5-minute conversation this week to see if this makes sense for your shop?</p>
+  
+  <p style="margin-top: 24px; margin-bottom: 0;">Best regards,</p>
+  <p style="margin-top: 4px; font-weight: 600; color: #0f172a; margin-bottom: 2px;">Kay</p>
+  <p style="margin: 0; color: #64748b; font-size: 14px;">Beeclue Tech</p>
+  <p style="margin: 2px 0 0 0; color: #64748b; font-size: 13px;">hello@beeclue.com &middot; (647) 577-0413 &middot; <a href="https://beeclue.com" style="color: #64748b; text-decoration: none;">beeclue.com</a></p>
+</div>`;
+
+    const payload = {
+      from: 'Kay at Beeclue Tech <hello@mail.beeclue.com>',
+      reply_to: 'hello@beeclue.com',
+      to: [partner.email],
+      subject: subject,
+      html: htmlBody,
+      text: textBody
+    };
+
+    let attempts = 0;
+    let delivered = false;
+    while (attempts < 2 && !delivered) {
+      attempts++;
+      try {
+        console.log(`[Print Shop ${i + 1}/20] Sending to ${firmName} (${partner.city}, CA)...`);
+        const res = await sendResendEmail(payload);
+        const resendId = res.id;
+        const sentAt = new Date().toISOString();
+        console.log(` -> Delivered! ID: ${resendId}`);
+
+        receipts.push({
+          batch: 'Print Partner Day 0',
+          companyName: firmName,
+          contactName: contactName,
+          email: partner.email,
+          city: partner.city,
+          county: partner.county,
+          resendId: resendId,
+          sentAt: sentAt,
+          status: 'delivered'
+        });
+
+        const newRecord = {
+          id: slug,
+          firmName: firmName,
+          contactName: contactName,
+          email: partner.email,
+          phone: partner.phone || '',
+          website: 'Commercial Printing & Signage Partner',
+          niche: 'Print & Sign Partner - Commercial Printing, Vehicle Lettering & Signage',
+          location: `${partner.city}, CA (${partner.county} County)`,
+          pricingQuoted: '20% Referral Commission',
+          initialContactDate: sentAt,
+          lastContactDate: sentAt,
+          status: 'delivered',
+          sequenceStep: 'Day 0 - Initial Outreach',
+          diagnosedIssues: `California print & sign company in ${partner.city} (${partner.county} County). Offered 20% reciprocal web design commission + reciprocal print referrals.`,
+          caseStudySent: partnerUrl,
+          history: [
+            {
+              step: 'Day 0',
+              sentAt: sentAt,
+              subject: subject,
+              resendId: resendId,
+              status: 'delivered',
+              notes: `California print & sign shop partnership outreach (NO BCC). Offered 20% referral commission on website design/development + reciprocal referrals for physical print collateral. Sent from hello@mail.beeclue.com with reply_to hello@beeclue.com.`
+            }
+          ]
+        };
+
+        updatedHistory.push(newRecord);
+        historyEmails.add(emailLower);
+        delivered = true;
+      } catch (err) {
+        console.error(` -> Attempt ${attempts} FAILED for ${partner.email}: ${err.message}`);
+        if (attempts < 2) await sleep(1500);
+      }
+    }
+
+    await sleep(900);
+  }
+
+  // ==========================================
+  // PART 4: 40 DAY 4 FOLLOW-UPS
+  // ==========================================
+  console.log(`\n--- [4/4] DISPATCHING 40 DAY 4 FOLLOW-UPS ---`);
+  for (let i = 0; i < followups.length; i++) {
+    const parentRec = followups[i];
+    const emailLower = parentRec.email.toLowerCase().trim();
+
+    if (blacklistEmails.has(emailLower) || parentRec.status === 'in-conversation' || parentRec.status === 'not_interested' || emailLower === 'lawpro@verizon.net') {
+      console.log(`[SKIP - Blacklisted / Suppressed] ${parentRec.email}`);
+      continue;
+    }
+
+    const lastInteraction = parentRec.history[parentRec.history.length - 1];
+    const initialSubject = lastInteraction.subject || `Website for ${parentRec.firmName}`;
+    const subject = initialSubject.startsWith('Re:') ? initialSubject : `Re: ${initialSubject}`;
+    const initialResendId = lastInteraction.resendId;
+    const isPartner = (parentRec.niche || '').toLowerCase().includes('partner') || (parentRec.pricingQuoted || '').includes('Commission');
+
+    const firstName = (parentRec.contactName || 'there').split(' ')[0] || 'there';
+
+    let textBody = '';
+    let htmlBody = '';
+
+    if (isPartner) {
+      textBody = `Hi ${firstName},
+
+Just following up on my note below from last week regarding a web design referral partnership for ${parentRec.firmName}.
+
+We work with local commercial printers and sign shops to help monetize website inquiries with a 20% recurring monthly commission, while sending our own digital clients to you for print and signage needs.
+
+Do you have 5 minutes this week to discuss how we could refer business to each other?
+
+Best regards,
+
+Kay
+Beeclue Tech
+hello@beeclue.com · (647) 577-0413 · beeclue.com`;
+
+      htmlBody = `<div style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-size: 15px; line-height: 1.6; color: #1e293b; max-width: 620px;">
+  <p>Hi ${firstName},</p>
+  
+  <p>Just following up on my note below from last week regarding a web design referral partnership for <strong>${parentRec.firmName}</strong>.</p>
+  
+  <p>We work with local commercial printers and sign shops to help monetize website inquiries with a <strong>20% recurring monthly commission</strong>, while sending our own digital clients to you for print and signage needs.</p>
+  
+  <p>Do you have 5 minutes this week to discuss how we could refer business to each other?</p>
+  
+  <p style="margin-top: 24px; margin-bottom: 0;">Best regards,</p>
+  <p style="margin-top: 4px; font-weight: 600; color: #0f172a; margin-bottom: 2px;">Kay</p>
+  <p style="margin: 0; color: #64748b; font-size: 14px;">Beeclue Tech</p>
+  <p style="margin: 2px 0 0 0; color: #64748b; font-size: 13px;">hello@beeclue.com &middot; (647) 577-0413 &middot; <a href="https://beeclue.com" style="color: #64748b; text-decoration: none;">beeclue.com</a></p>
+</div>`;
+    } else {
+      textBody = `Hi ${firstName},
+
+I wanted to quickly follow up on my note below about a clean, modern web presence for ${parentRec.firmName}.
+
+I know how busy your schedule can get. To make things as effortless as possible, our team is happy to put together a complimentary 48-hour custom mockup for your practice—with zero upfront cost or commitment—so you can see firsthand how a clean, mobile-first design would elevate client intake.
+
+Would you be open to having us draft a preview for you to review?
+
+Best regards,
+
+Kay
+Beeclue Tech
+hello@beeclue.com · (647) 577-0413 · beeclue.com`;
+
+      htmlBody = `<div style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-size: 15px; line-height: 1.6; color: #1e293b; max-width: 620px;">
+  <p>Hi ${firstName},</p>
+  
+  <p>I wanted to quickly follow up on my note below about a clean, modern web presence for <strong>${parentRec.firmName}</strong>.</p>
+  
+  <p>I know how busy your schedule can get. To make things as effortless as possible, our team is happy to put together a <strong>complimentary 48-hour custom mockup</strong> for your practice—with zero upfront cost or commitment—so you can see firsthand how a clean, mobile-first design would elevate client intake.</p>
+  
+  <p>Would you be open to having us draft a preview for you to review?</p>
+  
+  <p style="margin-top: 24px; margin-bottom: 0;">Best regards,</p>
+  <p style="margin-top: 4px; font-weight: 600; color: #0f172a; margin-bottom: 2px;">Kay</p>
+  <p style="margin: 0; color: #64748b; font-size: 14px;">Beeclue Tech</p>
+  <p style="margin: 2px 0 0 0; color: #64748b; font-size: 13px;">hello@beeclue.com &middot; (647) 577-0413 &middot; <a href="https://beeclue.com" style="color: #64748b; text-decoration: none;">beeclue.com</a></p>
+</div>`;
+    }
+
+    const payload = {
+      from: 'Kay at Beeclue Tech <hello@mail.beeclue.com>',
+      reply_to: 'hello@beeclue.com',
+      to: [parentRec.email],
+      subject: subject,
+      html: htmlBody,
+      text: textBody,
+      headers: initialResendId ? {
+        'In-Reply-To': `<${initialResendId}@resend.dev>`,
+        'References': `<${initialResendId}@resend.dev>`
+      } : undefined
+    };
+
+    let attempts = 0;
+    let delivered = false;
+    while (attempts < 2 && !delivered) {
+      attempts++;
+      try {
+        console.log(`[Follow-Up ${i + 1}/40] Sending to ${parentRec.firmName} (${parentRec.email})...`);
+        const res = await sendResendEmail(payload);
+        const resendId = res.id;
+        const sentAt = new Date().toISOString();
+        console.log(` -> Delivered! ID: ${resendId}`);
+
+        receipts.push({
+          batch: 'Follow-Up Day 4',
+          firmName: parentRec.firmName,
+          contactName: parentRec.contactName,
+          email: parentRec.email,
+          resendId: resendId,
+          sentAt: sentAt,
+          status: 'delivered'
+        });
+
+        // Update database record
+        const recIndex = historyMap.get(emailLower);
+        if (recIndex !== undefined) {
+          const targetRec = updatedHistory[recIndex];
+          targetRec.lastContactDate = sentAt;
+          targetRec.sequenceStep = isPartner ? 'Day 4 - Partnership Follow-up' : 'Day 4 - Follow-up';
+          targetRec.history.push({
+            step: isPartner ? 'Day 4 Partnership Follow-up' : 'Day 4 Follow-up',
+            sentAt: sentAt,
+            subject: subject,
+            resendId: resendId,
+            status: 'delivered',
+            notes: `Day 4 threaded follow-up (NO BCC). Offered complimentary custom mockup preview / partnership review. Sent from hello@mail.beeclue.com with reply_to hello@beeclue.com.`
+          });
+        }
+
+        delivered = true;
+      } catch (err) {
+        console.error(` -> Attempt ${attempts} FAILED for ${parentRec.email}: ${err.message}`);
+        if (attempts < 2) await sleep(1500);
+      }
+    }
+
+    await sleep(900);
+  }
+
+  // ==========================================
+  // SAVE PERSISTENT HISTORY & RECEIPTS
+  // ==========================================
+  console.log(`\n=======================================================`);
+  console.log(`OUTREACH COMPLETED FOR TODAY (NOV 02, 2026):`);
+  console.log(`  Total Delivered: ${receipts.length} / 100`);
+  console.log(`=======================================================`);
+
+  fs.writeFileSync(HISTORY_PATH, JSON.stringify(updatedHistory, null, 2));
+  console.log(`Updated ${HISTORY_PATH} (Now ${updatedHistory.length} total entries)`);
+
+  fs.writeFileSync(RECEIPTS_PATH, JSON.stringify(receipts, null, 2));
+  console.log(`Saved delivery receipts to ${RECEIPTS_PATH}`);
+}
+
+run().catch(err => {
+  console.error('Fatal execution error:', err);
+  process.exit(1);
+});
