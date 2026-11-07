@@ -37600,9 +37600,9 @@
     "location": "Auburn, CA (Placer County)",
     "pricingQuoted": "20% Referral Commission",
     "initialContactDate": "2026-10-27T00:14:58.548Z",
-    "lastContactDate": "2026-10-27T00:14:58.548Z",
+    "lastContactDate": "2026-11-07T00:19:30.030Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Outreach",
+    "sequenceStep": "Day 4 - Partnership Follow-up",
     "diagnosedIssues": "California print & sign company in Auburn (Placer County). Offered 20% reciprocal web design commission + reciprocal print referrals.",
     "caseStudySent": "https://beeclue.com?utm_source=beeclue&utm_medium=partner-outreach&utm_campaign=sales-outreach-partner-demink-signs",
     "history": [
@@ -37613,6 +37613,14 @@
         "resendId": "01a17ab5-d0c8-711a-a6c6-e2ddf0d25c7e",
         "status": "delivered",
         "notes": "California print & sign shop partnership outreach (NO BCC). Offered 20% referral commission on website design/development + reciprocal referrals for physical print collateral. Sent from hello@mail.beeclue.com with reply_to hello@beeclue.com."
+      },
+      {
+        "step": "Day 4 Partnership Follow-up",
+        "sentAt": "2026-11-07T00:19:30.030Z",
+        "subject": "Re: Web design referral partnership for DeMink Signs clients",
+        "resendId": "01a1b35f-ea4b-7d33-8b1e-c3989159d518",
+        "status": "delivered",
+        "notes": "Day 4 threaded follow-up (NO BCC). Offered complimentary custom mockup preview / partnership review. Sent from hello@mail.beeclue.com with reply_to hello@beeclue.com."
       }
     ]
   },
@@ -37627,9 +37635,9 @@
     "location": "Auburn, CA (Placer County)",
     "pricingQuoted": "20% Referral Commission",
     "initialContactDate": "2026-10-27T00:14:59.846Z",
-    "lastContactDate": "2026-10-27T00:14:59.846Z",
+    "lastContactDate": "2026-11-07T00:19:31.029Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Outreach",
+    "sequenceStep": "Day 4 - Partnership Follow-up",
     "diagnosedIssues": "California print & sign company in Auburn (Placer County). Offered 20% reciprocal web design commission + reciprocal print referrals.",
     "caseStudySent": "https://beeclue.com?utm_source=beeclue&utm_medium=partner-outreach&utm_campaign=sales-outreach-partner-49er-printing",
     "history": [
@@ -37640,6 +37648,14 @@
         "resendId": "01a17ab5-d59a-7c33-9c55-3e0846465bbe",
         "status": "delivered",
         "notes": "California print & sign shop partnership outreach (NO BCC). Offered 20% referral commission on website design/development + reciprocal referrals for physical print collateral. Sent from hello@mail.beeclue.com with reply_to hello@beeclue.com."
+      },
+      {
+        "step": "Day 4 Partnership Follow-up",
+        "sentAt": "2026-11-07T00:19:31.029Z",
+        "subject": "Re: Web design referral partnership for 49er Printing clients",
+        "resendId": "01a1b35f-ee17-7830-9517-04987cf6bae4",
+        "status": "delivered",
+        "notes": "Day 4 threaded follow-up (NO BCC). Offered complimentary custom mockup preview / partnership review. Sent from hello@mail.beeclue.com with reply_to hello@beeclue.com."
       }
     ]
   },
@@ -38175,9 +38191,9 @@
     "location": "Mariposa, CA (Mariposa County)",
     "pricingQuoted": "$19/month",
     "initialContactDate": "2026-10-27T21:54:19.108Z",
-    "lastContactDate": "2026-10-27T21:54:19.108Z",
+    "lastContactDate": "2026-11-07T00:18:50.311Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Outreach",
+    "sequenceStep": "Day 4 - Follow-up",
     "diagnosedIssues": "Active California licensee in Mariposa (Mariposa County) with no dedicated firm website. Relies on state bar and third-party directories. Offered 24/7 client intake advisor angle at $19/mo Core tier + free mockup preview via taralattanzio.ca.",
     "caseStudySent": "https://taralattanzio.ca?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-law-office-of-edward-jeppe-johnson",
     "history": [
@@ -38188,6 +38204,14 @@
         "resendId": "01a17f5b-671b-77b6-8180-6ded4039004d",
         "status": "delivered",
         "notes": "California small town lawyer outreach (NO BCC). Pitch: 24/7 client intake & consultation onboarding ($19/mo, $0 build fee, free mockup). Sent from hello@mail.beeclue.com with reply_to hello@beeclue.com."
+      },
+      {
+        "step": "Day 4 Follow-up",
+        "sentAt": "2026-11-07T00:18:50.311Z",
+        "subject": "Re: 24/7 client intake & consultation for Law Office of Edward Jeppe Johnson",
+        "resendId": "01a1b35f-4ea9-7c6b-9cee-a5c3c519ddd1",
+        "status": "delivered",
+        "notes": "Day 4 threaded follow-up (NO BCC). Offered complimentary custom mockup preview / partnership review. Sent from hello@mail.beeclue.com with reply_to hello@beeclue.com."
       }
     ]
   },
@@ -38202,9 +38226,9 @@
     "location": "Mariposa, CA (Mariposa County)",
     "pricingQuoted": "$19/month",
     "initialContactDate": "2026-10-27T21:54:20.160Z",
-    "lastContactDate": "2026-10-27T21:54:20.160Z",
+    "lastContactDate": "2026-11-07T00:18:51.311Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Outreach",
+    "sequenceStep": "Day 4 - Follow-up",
     "diagnosedIssues": "Active California licensee in Mariposa (Mariposa County) with no dedicated firm website. Relies on state bar and third-party directories. Offered 24/7 client intake advisor angle at $19/mo Core tier + free mockup preview via taralattanzio.ca.",
     "caseStudySent": "https://taralattanzio.ca?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-law-office-of-ingrid-margaret-brostrom",
     "history": [
@@ -38215,6 +38239,14 @@
         "resendId": "01a17f5b-6b32-77c5-a925-fe1b328bba38",
         "status": "delivered",
         "notes": "California small town lawyer outreach (NO BCC). Pitch: 24/7 client intake & consultation onboarding ($19/mo, $0 build fee, free mockup). Sent from hello@mail.beeclue.com with reply_to hello@beeclue.com."
+      },
+      {
+        "step": "Day 4 Follow-up",
+        "sentAt": "2026-11-07T00:18:51.311Z",
+        "subject": "Re: 24/7 client intake & consultation for Law Office of Ingrid Margaret Brostrom",
+        "resendId": "01a1b35f-52ee-7511-9b16-e73512ad4fb6",
+        "status": "delivered",
+        "notes": "Day 4 threaded follow-up (NO BCC). Offered complimentary custom mockup preview / partnership review. Sent from hello@mail.beeclue.com with reply_to hello@beeclue.com."
       }
     ]
   },
@@ -38229,9 +38261,9 @@
     "location": "Mariposa, CA (Mariposa County)",
     "pricingQuoted": "$19/month",
     "initialContactDate": "2026-10-27T21:54:21.189Z",
-    "lastContactDate": "2026-10-27T21:54:21.189Z",
+    "lastContactDate": "2026-11-07T00:18:52.318Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Outreach",
+    "sequenceStep": "Day 4 - Follow-up",
     "diagnosedIssues": "Active California licensee in Mariposa (Mariposa County) with no dedicated firm website. Relies on state bar and third-party directories. Offered 24/7 client intake advisor angle at $19/mo Core tier + free mockup preview via taralattanzio.ca.",
     "caseStudySent": "https://taralattanzio.ca?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-law-office-of-neal-d-douglass",
     "history": [
@@ -38242,6 +38274,14 @@
         "resendId": "01a17f5b-6f3e-7d38-99f8-5281fa5f814e",
         "status": "delivered",
         "notes": "California small town lawyer outreach (NO BCC). Pitch: 24/7 client intake & consultation onboarding ($19/mo, $0 build fee, free mockup). Sent from hello@mail.beeclue.com with reply_to hello@beeclue.com."
+      },
+      {
+        "step": "Day 4 Follow-up",
+        "sentAt": "2026-11-07T00:18:52.318Z",
+        "subject": "Re: 24/7 client intake & consultation for Law Office of Neal D. Douglass",
+        "resendId": "01a1b35f-56d9-7d99-87b2-1fb64f752ddf",
+        "status": "delivered",
+        "notes": "Day 4 threaded follow-up (NO BCC). Offered complimentary custom mockup preview / partnership review. Sent from hello@mail.beeclue.com with reply_to hello@beeclue.com."
       }
     ]
   },
@@ -38256,9 +38296,9 @@
     "location": "Coulterville, CA (Mariposa County)",
     "pricingQuoted": "$19/month",
     "initialContactDate": "2026-10-27T21:54:22.210Z",
-    "lastContactDate": "2026-10-27T21:54:22.210Z",
+    "lastContactDate": "2026-11-07T00:18:53.354Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Outreach",
+    "sequenceStep": "Day 4 - Follow-up",
     "diagnosedIssues": "Active California licensee in Coulterville (Mariposa County) with no dedicated firm website. Relies on state bar and third-party directories. Offered 24/7 client intake advisor angle at $19/mo Core tier + free mockup preview via taralattanzio.ca.",
     "caseStudySent": "https://taralattanzio.ca?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-law-office-of-myra-s-mitzman",
     "history": [
@@ -38269,6 +38309,14 @@
         "resendId": "01a17f5b-7337-7a8e-9ef0-b8f14202fc65",
         "status": "delivered",
         "notes": "California small town lawyer outreach (NO BCC). Pitch: 24/7 client intake & consultation onboarding ($19/mo, $0 build fee, free mockup). Sent from hello@mail.beeclue.com with reply_to hello@beeclue.com."
+      },
+      {
+        "step": "Day 4 Follow-up",
+        "sentAt": "2026-11-07T00:18:53.354Z",
+        "subject": "Re: 24/7 client intake & consultation for Law Office of Myra S. Mitzman",
+        "resendId": "01a1b35f-5af0-78d7-b2a3-8a90deaf5802",
+        "status": "delivered",
+        "notes": "Day 4 threaded follow-up (NO BCC). Offered complimentary custom mockup preview / partnership review. Sent from hello@mail.beeclue.com with reply_to hello@beeclue.com."
       }
     ]
   },
@@ -38310,9 +38358,9 @@
     "location": "Mariposa, CA (Mariposa County)",
     "pricingQuoted": "$19/month",
     "initialContactDate": "2026-10-27T21:54:24.254Z",
-    "lastContactDate": "2026-10-27T21:54:24.254Z",
+    "lastContactDate": "2026-11-07T00:18:54.380Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Outreach",
+    "sequenceStep": "Day 4 - Follow-up",
     "diagnosedIssues": "Active California licensee in Mariposa (Mariposa County) with no dedicated firm website. Relies on state bar and third-party directories. Offered 24/7 client intake advisor angle at $19/mo Core tier + free mockup preview via taralattanzio.ca.",
     "caseStudySent": "https://taralattanzio.ca?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-law-office-of-ronald-lynn-rohde",
     "history": [
@@ -38323,6 +38371,14 @@
         "resendId": "01a17f5b-7b2c-74ea-82d3-ee47b0b01d2d",
         "status": "delivered",
         "notes": "California small town lawyer outreach (NO BCC). Pitch: 24/7 client intake & consultation onboarding ($19/mo, $0 build fee, free mockup). Sent from hello@mail.beeclue.com with reply_to hello@beeclue.com."
+      },
+      {
+        "step": "Day 4 Follow-up",
+        "sentAt": "2026-11-07T00:18:54.380Z",
+        "subject": "Re: 24/7 client intake & consultation for Law Office of Ronald Lynn Rohde",
+        "resendId": "01a1b35f-5f07-725f-8bc3-d69d6b0f12db",
+        "status": "delivered",
+        "notes": "Day 4 threaded follow-up (NO BCC). Offered complimentary custom mockup preview / partnership review. Sent from hello@mail.beeclue.com with reply_to hello@beeclue.com."
       }
     ]
   },
@@ -38337,9 +38393,9 @@
     "location": "Bishop, CA (Inyo County)",
     "pricingQuoted": "$19/month",
     "initialContactDate": "2026-10-27T21:54:25.356Z",
-    "lastContactDate": "2026-10-27T21:54:25.356Z",
+    "lastContactDate": "2026-11-07T00:18:55.394Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Outreach",
+    "sequenceStep": "Day 4 - Follow-up",
     "diagnosedIssues": "Active California licensee in Bishop (Inyo County) with no dedicated firm website. Relies on state bar and third-party directories. Offered 24/7 client intake advisor angle at $19/mo Core tier + free mockup preview via taralattanzio.ca.",
     "caseStudySent": "https://taralattanzio.ca?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-law-office-of-linda-d-hess",
     "history": [
@@ -38350,6 +38406,14 @@
         "resendId": "01a17f5b-7f5e-75df-8f63-aa370409b0c5",
         "status": "delivered",
         "notes": "California small town lawyer outreach (NO BCC). Pitch: 24/7 client intake & consultation onboarding ($19/mo, $0 build fee, free mockup). Sent from hello@mail.beeclue.com with reply_to hello@beeclue.com."
+      },
+      {
+        "step": "Day 4 Follow-up",
+        "sentAt": "2026-11-07T00:18:55.394Z",
+        "subject": "Re: 24/7 client intake & consultation for Law Office of Linda D Hess",
+        "resendId": "01a1b35f-62e2-7929-8a6d-c8436f4a6cd2",
+        "status": "delivered",
+        "notes": "Day 4 threaded follow-up (NO BCC). Offered complimentary custom mockup preview / partnership review. Sent from hello@mail.beeclue.com with reply_to hello@beeclue.com."
       }
     ]
   },
@@ -38364,9 +38428,9 @@
     "location": "Bishop, CA (Inyo County)",
     "pricingQuoted": "$19/month",
     "initialContactDate": "2026-10-27T21:54:26.397Z",
-    "lastContactDate": "2026-10-27T21:54:26.397Z",
+    "lastContactDate": "2026-11-07T00:18:56.411Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Outreach",
+    "sequenceStep": "Day 4 - Follow-up",
     "diagnosedIssues": "Active California licensee in Bishop (Inyo County) with no dedicated firm website. Relies on state bar and third-party directories. Offered 24/7 client intake advisor angle at $19/mo Core tier + free mockup preview via taralattanzio.ca.",
     "caseStudySent": "https://taralattanzio.ca?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-law-office-of-meredith-lee-stevenson",
     "history": [
@@ -38377,6 +38441,14 @@
         "resendId": "01a17f5b-8377-757b-adff-230fe15b0301",
         "status": "delivered",
         "notes": "California small town lawyer outreach (NO BCC). Pitch: 24/7 client intake & consultation onboarding ($19/mo, $0 build fee, free mockup). Sent from hello@mail.beeclue.com with reply_to hello@beeclue.com."
+      },
+      {
+        "step": "Day 4 Follow-up",
+        "sentAt": "2026-11-07T00:18:56.411Z",
+        "subject": "Re: 24/7 client intake & consultation for Law Office of Meredith Lee Stevenson",
+        "resendId": "01a1b35f-66cf-7039-9eb5-79f1d4a77fa2",
+        "status": "delivered",
+        "notes": "Day 4 threaded follow-up (NO BCC). Offered complimentary custom mockup preview / partnership review. Sent from hello@mail.beeclue.com with reply_to hello@beeclue.com."
       }
     ]
   },
@@ -38391,9 +38463,9 @@
     "location": "Bishop, CA (Inyo County)",
     "pricingQuoted": "$19/month",
     "initialContactDate": "2026-10-27T21:54:27.525Z",
-    "lastContactDate": "2026-10-27T21:54:27.525Z",
+    "lastContactDate": "2026-11-07T00:18:57.460Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Outreach",
+    "sequenceStep": "Day 4 - Follow-up",
     "diagnosedIssues": "Active California licensee in Bishop (Inyo County) with no dedicated firm website. Relies on state bar and third-party directories. Offered 24/7 client intake advisor angle at $19/mo Core tier + free mockup preview via taralattanzio.ca.",
     "caseStudySent": "https://taralattanzio.ca?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-law-office-of-lynne-elizabeth-corpora",
     "history": [
@@ -38404,6 +38476,14 @@
         "resendId": "01a17f5b-87c4-7b8c-8abe-64d2ea49e2f4",
         "status": "delivered",
         "notes": "California small town lawyer outreach (NO BCC). Pitch: 24/7 client intake & consultation onboarding ($19/mo, $0 build fee, free mockup). Sent from hello@mail.beeclue.com with reply_to hello@beeclue.com."
+      },
+      {
+        "step": "Day 4 Follow-up",
+        "sentAt": "2026-11-07T00:18:57.460Z",
+        "subject": "Re: 24/7 client intake & consultation for Law Office of Lynne Elizabeth Corpora",
+        "resendId": "01a1b35f-6ac1-7b1d-8e4a-4e4963b1ab6b",
+        "status": "delivered",
+        "notes": "Day 4 threaded follow-up (NO BCC). Offered complimentary custom mockup preview / partnership review. Sent from hello@mail.beeclue.com with reply_to hello@beeclue.com."
       }
     ]
   },
@@ -38418,9 +38498,9 @@
     "location": "Bishop, CA (Inyo County)",
     "pricingQuoted": "$19/month",
     "initialContactDate": "2026-10-27T21:54:28.543Z",
-    "lastContactDate": "2026-10-27T21:54:28.543Z",
+    "lastContactDate": "2026-11-07T00:18:58.582Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Outreach",
+    "sequenceStep": "Day 4 - Follow-up",
     "diagnosedIssues": "Active California licensee in Bishop (Inyo County) with no dedicated firm website. Relies on state bar and third-party directories. Offered 24/7 client intake advisor angle at $19/mo Core tier + free mockup preview via taralattanzio.ca.",
     "caseStudySent": "https://taralattanzio.ca?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-law-office-of-taylor-fitzmaurice",
     "history": [
@@ -38431,6 +38511,14 @@
         "resendId": "01a17f5b-8bfa-7127-86b4-6a781d4d9447",
         "status": "delivered",
         "notes": "California small town lawyer outreach (NO BCC). Pitch: 24/7 client intake & consultation onboarding ($19/mo, $0 build fee, free mockup). Sent from hello@mail.beeclue.com with reply_to hello@beeclue.com."
+      },
+      {
+        "step": "Day 4 Follow-up",
+        "sentAt": "2026-11-07T00:18:58.582Z",
+        "subject": "Re: 24/7 client intake & consultation for Law Office of Taylor Fitzmaurice",
+        "resendId": "01a1b35f-6eef-70eb-b439-b8c2fd452784",
+        "status": "delivered",
+        "notes": "Day 4 threaded follow-up (NO BCC). Offered complimentary custom mockup preview / partnership review. Sent from hello@mail.beeclue.com with reply_to hello@beeclue.com."
       }
     ]
   },
@@ -38445,9 +38533,9 @@
     "location": "Bishop, CA (Inyo County)",
     "pricingQuoted": "$19/month",
     "initialContactDate": "2026-10-27T21:54:29.578Z",
-    "lastContactDate": "2026-10-27T21:54:29.578Z",
+    "lastContactDate": "2026-11-07T00:18:59.661Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Outreach",
+    "sequenceStep": "Day 4 - Follow-up",
     "diagnosedIssues": "Active California licensee in Bishop (Inyo County) with no dedicated firm website. Relies on state bar and third-party directories. Offered 24/7 client intake advisor angle at $19/mo Core tier + free mockup preview via taralattanzio.ca.",
     "caseStudySent": "https://taralattanzio.ca?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-law-office-of-terry-k-walker",
     "history": [
@@ -38458,6 +38546,14 @@
         "resendId": "01a17f5b-9005-7866-9236-73575c7184b1",
         "status": "delivered",
         "notes": "California small town lawyer outreach (NO BCC). Pitch: 24/7 client intake & consultation onboarding ($19/mo, $0 build fee, free mockup). Sent from hello@mail.beeclue.com with reply_to hello@beeclue.com."
+      },
+      {
+        "step": "Day 4 Follow-up",
+        "sentAt": "2026-11-07T00:18:59.661Z",
+        "subject": "Re: 24/7 client intake & consultation for Law Office of Terry K. Walker",
+        "resendId": "01a1b35f-7386-7b94-8fbe-939a9d646d37",
+        "status": "delivered",
+        "notes": "Day 4 threaded follow-up (NO BCC). Offered complimentary custom mockup preview / partnership review. Sent from hello@mail.beeclue.com with reply_to hello@beeclue.com."
       }
     ]
   },
@@ -38472,9 +38568,9 @@
     "location": "Bishop, CA (Inyo County)",
     "pricingQuoted": "$19/month",
     "initialContactDate": "2026-10-27T21:54:30.595Z",
-    "lastContactDate": "2026-10-27T21:54:30.595Z",
+    "lastContactDate": "2026-11-07T00:19:00.682Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Outreach",
+    "sequenceStep": "Day 4 - Follow-up",
     "diagnosedIssues": "Active California licensee in Bishop (Inyo County) with no dedicated firm website. Relies on state bar and third-party directories. Offered 24/7 client intake advisor angle at $19/mo Core tier + free mockup preview via taralattanzio.ca.",
     "caseStudySent": "https://taralattanzio.ca?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-law-office-of-john-f-harris",
     "history": [
@@ -38485,6 +38581,14 @@
         "resendId": "01a17f5b-93fe-78ba-87f0-738ca4eb3f93",
         "status": "delivered",
         "notes": "California small town lawyer outreach (NO BCC). Pitch: 24/7 client intake & consultation onboarding ($19/mo, $0 build fee, free mockup). Sent from hello@mail.beeclue.com with reply_to hello@beeclue.com."
+      },
+      {
+        "step": "Day 4 Follow-up",
+        "sentAt": "2026-11-07T00:19:00.682Z",
+        "subject": "Re: 24/7 client intake & consultation for Law Office of John F. Harris",
+        "resendId": "01a1b35f-779f-7725-a54a-40cf9dcfa03a",
+        "status": "delivered",
+        "notes": "Day 4 threaded follow-up (NO BCC). Offered complimentary custom mockup preview / partnership review. Sent from hello@mail.beeclue.com with reply_to hello@beeclue.com."
       }
     ]
   },
@@ -38499,9 +38603,9 @@
     "location": "Bishop, CA (Inyo County)",
     "pricingQuoted": "$19/month",
     "initialContactDate": "2026-10-27T21:54:31.653Z",
-    "lastContactDate": "2026-10-27T21:54:31.653Z",
+    "lastContactDate": "2026-11-07T00:19:01.795Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Outreach",
+    "sequenceStep": "Day 4 - Follow-up",
     "diagnosedIssues": "Active California licensee in Bishop (Inyo County) with no dedicated firm website. Relies on state bar and third-party directories. Offered 24/7 client intake advisor angle at $19/mo Core tier + free mockup preview via taralattanzio.ca.",
     "caseStudySent": "https://taralattanzio.ca?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-law-office-of-nita-jan-almquist",
     "history": [
@@ -38512,6 +38616,14 @@
         "resendId": "01a17f5b-981c-7625-b318-5b91ff0557ac",
         "status": "delivered",
         "notes": "California small town lawyer outreach (NO BCC). Pitch: 24/7 client intake & consultation onboarding ($19/mo, $0 build fee, free mockup). Sent from hello@mail.beeclue.com with reply_to hello@beeclue.com."
+      },
+      {
+        "step": "Day 4 Follow-up",
+        "sentAt": "2026-11-07T00:19:01.795Z",
+        "subject": "Re: 24/7 client intake & consultation for Law Office of Nita Jan Almquist",
+        "resendId": "01a1b35f-7bb6-77d5-9c66-77a05540bbf9",
+        "status": "delivered",
+        "notes": "Day 4 threaded follow-up (NO BCC). Offered complimentary custom mockup preview / partnership review. Sent from hello@mail.beeclue.com with reply_to hello@beeclue.com."
       }
     ]
   },
@@ -38526,9 +38638,9 @@
     "location": "Bishop, CA (Inyo County)",
     "pricingQuoted": "$19/month",
     "initialContactDate": "2026-10-27T21:54:32.664Z",
-    "lastContactDate": "2026-10-27T21:54:32.664Z",
+    "lastContactDate": "2026-11-07T00:19:02.884Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Outreach",
+    "sequenceStep": "Day 4 - Follow-up",
     "diagnosedIssues": "Active California licensee in Bishop (Inyo County) with no dedicated firm website. Relies on state bar and third-party directories. Offered 24/7 client intake advisor angle at $19/mo Core tier + free mockup preview via taralattanzio.ca.",
     "caseStudySent": "https://taralattanzio.ca?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-law-office-of-victoria-l-campbell",
     "history": [
@@ -38539,6 +38651,14 @@
         "resendId": "01a17f5b-9c13-7788-9d6c-0f9a962cc527",
         "status": "delivered",
         "notes": "California small town lawyer outreach (NO BCC). Pitch: 24/7 client intake & consultation onboarding ($19/mo, $0 build fee, free mockup). Sent from hello@mail.beeclue.com with reply_to hello@beeclue.com."
+      },
+      {
+        "step": "Day 4 Follow-up",
+        "sentAt": "2026-11-07T00:19:02.884Z",
+        "subject": "Re: 24/7 client intake & consultation for Law Office of Victoria L. Campbell",
+        "resendId": "01a1b35f-7fcf-77c8-a672-bac8330515ef",
+        "status": "delivered",
+        "notes": "Day 4 threaded follow-up (NO BCC). Offered complimentary custom mockup preview / partnership review. Sent from hello@mail.beeclue.com with reply_to hello@beeclue.com."
       }
     ]
   },
@@ -38553,9 +38673,9 @@
     "location": "Bishop, CA (Inyo County)",
     "pricingQuoted": "$19/month",
     "initialContactDate": "2026-10-27T21:54:33.696Z",
-    "lastContactDate": "2026-10-27T21:54:33.696Z",
+    "lastContactDate": "2026-11-07T00:19:03.861Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Outreach",
+    "sequenceStep": "Day 4 - Follow-up",
     "diagnosedIssues": "Active California licensee in Bishop (Inyo County) with no dedicated firm website. Relies on state bar and third-party directories. Offered 24/7 client intake advisor angle at $19/mo Core tier + free mockup preview via taralattanzio.ca.",
     "caseStudySent": "https://taralattanzio.ca?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-law-office-of-angela-k-hwangpo",
     "history": [
@@ -38566,6 +38686,14 @@
         "resendId": "01a17f5b-a00f-7bbf-b8eb-687e452b4084",
         "status": "delivered",
         "notes": "California small town lawyer outreach (NO BCC). Pitch: 24/7 client intake & consultation onboarding ($19/mo, $0 build fee, free mockup). Sent from hello@mail.beeclue.com with reply_to hello@beeclue.com."
+      },
+      {
+        "step": "Day 4 Follow-up",
+        "sentAt": "2026-11-07T00:19:03.861Z",
+        "subject": "Re: 24/7 client intake & consultation for Law Office of Angela K. Hwangpo",
+        "resendId": "01a1b35f-8411-70cf-8c90-cea935026695",
+        "status": "delivered",
+        "notes": "Day 4 threaded follow-up (NO BCC). Offered complimentary custom mockup preview / partnership review. Sent from hello@mail.beeclue.com with reply_to hello@beeclue.com."
       }
     ]
   },
@@ -38580,9 +38708,9 @@
     "location": "Bishop, CA (Inyo County)",
     "pricingQuoted": "$19/month",
     "initialContactDate": "2026-10-27T21:54:34.761Z",
-    "lastContactDate": "2026-10-27T21:54:34.761Z",
+    "lastContactDate": "2026-11-07T00:19:04.902Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Outreach",
+    "sequenceStep": "Day 4 - Follow-up",
     "diagnosedIssues": "Active California licensee in Bishop (Inyo County) with no dedicated firm website. Relies on state bar and third-party directories. Offered 24/7 client intake advisor angle at $19/mo Core tier + free mockup preview via taralattanzio.ca.",
     "caseStudySent": "https://taralattanzio.ca?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-law-office-of-bryan-mack",
     "history": [
@@ -38593,6 +38721,14 @@
         "resendId": "01a17f5b-a434-7c08-ab66-3214910afe90",
         "status": "delivered",
         "notes": "California small town lawyer outreach (NO BCC). Pitch: 24/7 client intake & consultation onboarding ($19/mo, $0 build fee, free mockup). Sent from hello@mail.beeclue.com with reply_to hello@beeclue.com."
+      },
+      {
+        "step": "Day 4 Follow-up",
+        "sentAt": "2026-11-07T00:19:04.902Z",
+        "subject": "Re: 24/7 client intake & consultation for Law Office of Bryan Mack",
+        "resendId": "01a1b35f-87fe-7d28-ac73-615b77ea2a3a",
+        "status": "delivered",
+        "notes": "Day 4 threaded follow-up (NO BCC). Offered complimentary custom mockup preview / partnership review. Sent from hello@mail.beeclue.com with reply_to hello@beeclue.com."
       }
     ]
   },
@@ -38607,9 +38743,9 @@
     "location": "Bishop, CA (Inyo County)",
     "pricingQuoted": "$19/month",
     "initialContactDate": "2026-10-27T21:54:35.808Z",
-    "lastContactDate": "2026-10-27T21:54:35.808Z",
+    "lastContactDate": "2026-11-07T00:19:06.058Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Outreach",
+    "sequenceStep": "Day 4 - Follow-up",
     "diagnosedIssues": "Active California licensee in Bishop (Inyo County) with no dedicated firm website. Relies on state bar and third-party directories. Offered 24/7 client intake advisor angle at $19/mo Core tier + free mockup preview via taralattanzio.ca.",
     "caseStudySent": "https://taralattanzio.ca?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-law-office-of-gerard-brennan-harvey",
     "history": [
@@ -38620,6 +38756,14 @@
         "resendId": "01a17f5b-a835-77e6-8d2e-6eb12cad0e0c",
         "status": "delivered",
         "notes": "California small town lawyer outreach (NO BCC). Pitch: 24/7 client intake & consultation onboarding ($19/mo, $0 build fee, free mockup). Sent from hello@mail.beeclue.com with reply_to hello@beeclue.com."
+      },
+      {
+        "step": "Day 4 Follow-up",
+        "sentAt": "2026-11-07T00:19:06.058Z",
+        "subject": "Re: 24/7 client intake & consultation for Law Office of Gerard Brennan Harvey",
+        "resendId": "01a1b35f-8c16-770f-bd8f-cc10b177bada",
+        "status": "delivered",
+        "notes": "Day 4 threaded follow-up (NO BCC). Offered complimentary custom mockup preview / partnership review. Sent from hello@mail.beeclue.com with reply_to hello@beeclue.com."
       }
     ]
   },
@@ -38634,9 +38778,9 @@
     "location": "Bishop, CA (Inyo County)",
     "pricingQuoted": "$19/month",
     "initialContactDate": "2026-10-27T21:54:36.820Z",
-    "lastContactDate": "2026-10-27T21:54:36.820Z",
+    "lastContactDate": "2026-11-07T00:19:07.182Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Outreach",
+    "sequenceStep": "Day 4 - Follow-up",
     "diagnosedIssues": "Active California licensee in Bishop (Inyo County) with no dedicated firm website. Relies on state bar and third-party directories. Offered 24/7 client intake advisor angle at $19/mo Core tier + free mockup preview via taralattanzio.ca.",
     "caseStudySent": "https://taralattanzio.ca?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-law-office-of-mark-a-vickness",
     "history": [
@@ -38647,6 +38791,14 @@
         "resendId": "01a17f5b-ac51-7878-bf51-288d8bca616f",
         "status": "delivered",
         "notes": "California small town lawyer outreach (NO BCC). Pitch: 24/7 client intake & consultation onboarding ($19/mo, $0 build fee, free mockup). Sent from hello@mail.beeclue.com with reply_to hello@beeclue.com."
+      },
+      {
+        "step": "Day 4 Follow-up",
+        "sentAt": "2026-11-07T00:19:07.182Z",
+        "subject": "Re: 24/7 client intake & consultation for Law Office of Mark A. Vickness",
+        "resendId": "01a1b35f-907c-7720-b4b5-f9ef6ee1da80",
+        "status": "delivered",
+        "notes": "Day 4 threaded follow-up (NO BCC). Offered complimentary custom mockup preview / partnership review. Sent from hello@mail.beeclue.com with reply_to hello@beeclue.com."
       }
     ]
   },
@@ -38661,9 +38813,9 @@
     "location": "Bishop, CA (Inyo County)",
     "pricingQuoted": "$19/month",
     "initialContactDate": "2026-10-27T21:54:37.839Z",
-    "lastContactDate": "2026-10-27T21:54:37.839Z",
+    "lastContactDate": "2026-11-07T00:19:08.207Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Outreach",
+    "sequenceStep": "Day 4 - Follow-up",
     "diagnosedIssues": "Active California licensee in Bishop (Inyo County) with no dedicated firm website. Relies on state bar and third-party directories. Offered 24/7 client intake advisor angle at $19/mo Core tier + free mockup preview via taralattanzio.ca.",
     "caseStudySent": "https://taralattanzio.ca?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-law-office-of-gregory-lloyd-james",
     "history": [
@@ -38674,6 +38826,14 @@
         "resendId": "01a17f5b-b042-7dcf-82bd-d02c1f41d129",
         "status": "delivered",
         "notes": "California small town lawyer outreach (NO BCC). Pitch: 24/7 client intake & consultation onboarding ($19/mo, $0 build fee, free mockup). Sent from hello@mail.beeclue.com with reply_to hello@beeclue.com."
+      },
+      {
+        "step": "Day 4 Follow-up",
+        "sentAt": "2026-11-07T00:19:08.207Z",
+        "subject": "Re: 24/7 client intake & consultation for Law Office of Gregory Lloyd James",
+        "resendId": "01a1b35f-94e3-7622-9e17-f17fb86e2738",
+        "status": "delivered",
+        "notes": "Day 4 threaded follow-up (NO BCC). Offered complimentary custom mockup preview / partnership review. Sent from hello@mail.beeclue.com with reply_to hello@beeclue.com."
       }
     ]
   },
@@ -38688,9 +38848,9 @@
     "location": "Chico, CA (Butte County)",
     "pricingQuoted": "$19/month",
     "initialContactDate": "2026-10-27T21:54:38.845Z",
-    "lastContactDate": "2026-10-27T21:54:38.845Z",
+    "lastContactDate": "2026-11-07T00:19:09.222Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Outreach",
+    "sequenceStep": "Day 4 - Follow-up",
     "diagnosedIssues": "Independent accounting and tax advisory practice in Chico (Butte County). Pitched 24/7 automated client intake advisor, tax document onboarding checklists, and $19/mo Core tier ($0 build fee, free mockup).",
     "caseStudySent": "https://beeclue.com?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-john-burge-cpa",
     "history": [
@@ -38701,6 +38861,14 @@
         "resendId": "01a17f5b-b43a-7c70-83a8-8351a90b9a7c",
         "status": "delivered",
         "notes": "California small town accountant outreach (NO BCC). Pitch: 24/7 client intake advisor & onboarding checklist ($19/mo, $0 build fee, free mockup). Sent from hello@mail.beeclue.com with reply_to hello@beeclue.com."
+      },
+      {
+        "step": "Day 4 Follow-up",
+        "sentAt": "2026-11-07T00:19:09.222Z",
+        "subject": "Re: 24/7 client intake & onboarding for John Burge, CPA",
+        "resendId": "01a1b35f-98de-7787-b880-9b1b7d6b0376",
+        "status": "delivered",
+        "notes": "Day 4 threaded follow-up (NO BCC). Offered complimentary custom mockup preview / partnership review. Sent from hello@mail.beeclue.com with reply_to hello@beeclue.com."
       }
     ]
   },
@@ -38715,9 +38883,9 @@
     "location": "Chico, CA (Butte County)",
     "pricingQuoted": "$19/month",
     "initialContactDate": "2026-10-27T21:54:39.864Z",
-    "lastContactDate": "2026-10-27T21:54:39.864Z",
+    "lastContactDate": "2026-11-07T00:19:10.257Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Outreach",
+    "sequenceStep": "Day 4 - Follow-up",
     "diagnosedIssues": "Independent accounting and tax advisory practice in Chico (Butte County). Pitched 24/7 automated client intake advisor, tax document onboarding checklists, and $19/mo Core tier ($0 build fee, free mockup).",
     "caseStudySent": "https://beeclue.com?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-harold-littlejohn-cpa",
     "history": [
@@ -38728,6 +38896,14 @@
         "resendId": "01a17f5b-b828-7681-9f07-02b369df517c",
         "status": "delivered",
         "notes": "California small town accountant outreach (NO BCC). Pitch: 24/7 client intake advisor & onboarding checklist ($19/mo, $0 build fee, free mockup). Sent from hello@mail.beeclue.com with reply_to hello@beeclue.com."
+      },
+      {
+        "step": "Day 4 Follow-up",
+        "sentAt": "2026-11-07T00:19:10.257Z",
+        "subject": "Re: 24/7 client intake & onboarding for Harold Littlejohn, CPA",
+        "resendId": "01a1b35f-9cd6-7b14-928b-057fb9829bbb",
+        "status": "delivered",
+        "notes": "Day 4 threaded follow-up (NO BCC). Offered complimentary custom mockup preview / partnership review. Sent from hello@mail.beeclue.com with reply_to hello@beeclue.com."
       }
     ]
   },
@@ -38742,9 +38918,9 @@
     "location": "Yreka, CA (Siskiyou County)",
     "pricingQuoted": "$19/month",
     "initialContactDate": "2026-10-27T21:54:40.884Z",
-    "lastContactDate": "2026-10-27T21:54:40.884Z",
+    "lastContactDate": "2026-11-07T00:19:11.380Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Outreach",
+    "sequenceStep": "Day 4 - Follow-up",
     "diagnosedIssues": "Independent accounting and tax advisory practice in Yreka (Siskiyou County). Pitched 24/7 automated client intake advisor, tax document onboarding checklists, and $19/mo Core tier ($0 build fee, free mockup).",
     "caseStudySent": "https://beeclue.com?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-sum-it-up-accounting",
     "history": [
@@ -38755,6 +38931,14 @@
         "resendId": "01a17f5b-bc25-7a7e-910d-31dc4e37af1a",
         "status": "delivered",
         "notes": "California small town accountant outreach (NO BCC). Pitch: 24/7 client intake advisor & onboarding checklist ($19/mo, $0 build fee, free mockup). Sent from hello@mail.beeclue.com with reply_to hello@beeclue.com."
+      },
+      {
+        "step": "Day 4 Follow-up",
+        "sentAt": "2026-11-07T00:19:11.380Z",
+        "subject": "Re: 24/7 client intake & onboarding for Sum It Up Accounting",
+        "resendId": "01a1b35f-a0d9-7a48-b5c2-ef47d2364e2b",
+        "status": "delivered",
+        "notes": "Day 4 threaded follow-up (NO BCC). Offered complimentary custom mockup preview / partnership review. Sent from hello@mail.beeclue.com with reply_to hello@beeclue.com."
       }
     ]
   },
@@ -38769,9 +38953,9 @@
     "location": "Mount Shasta, CA (Siskiyou County)",
     "pricingQuoted": "$19/month",
     "initialContactDate": "2026-10-27T21:54:41.942Z",
-    "lastContactDate": "2026-10-27T21:54:41.942Z",
+    "lastContactDate": "2026-11-07T00:19:12.390Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Outreach",
+    "sequenceStep": "Day 4 - Follow-up",
     "diagnosedIssues": "Independent accounting and tax advisory practice in Mount Shasta (Siskiyou County). Pitched 24/7 automated client intake advisor, tax document onboarding checklists, and $19/mo Core tier ($0 build fee, free mockup).",
     "caseStudySent": "https://beeclue.com?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-agt-cpas-advisors",
     "history": [
@@ -38782,6 +38966,14 @@
         "resendId": "01a17f5b-c042-7e4b-814d-2e35ae3d9f0f",
         "status": "delivered",
         "notes": "California small town accountant outreach (NO BCC). Pitch: 24/7 client intake advisor & onboarding checklist ($19/mo, $0 build fee, free mockup). Sent from hello@mail.beeclue.com with reply_to hello@beeclue.com."
+      },
+      {
+        "step": "Day 4 Follow-up",
+        "sentAt": "2026-11-07T00:19:12.390Z",
+        "subject": "Re: 24/7 client intake & onboarding for AGT CPAs & Advisors",
+        "resendId": "01a1b35f-a53f-7047-a993-ed23bcd67b76",
+        "status": "delivered",
+        "notes": "Day 4 threaded follow-up (NO BCC). Offered complimentary custom mockup preview / partnership review. Sent from hello@mail.beeclue.com with reply_to hello@beeclue.com."
       }
     ]
   },
@@ -38796,9 +38988,9 @@
     "location": "Redding, CA (Shasta County)",
     "pricingQuoted": "$19/month",
     "initialContactDate": "2026-10-27T21:54:42.963Z",
-    "lastContactDate": "2026-10-27T21:54:42.963Z",
+    "lastContactDate": "2026-11-07T00:19:13.399Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Outreach",
+    "sequenceStep": "Day 4 - Follow-up",
     "diagnosedIssues": "Independent accounting and tax advisory practice in Redding (Shasta County). Pitched 24/7 automated client intake advisor, tax document onboarding checklists, and $19/mo Core tier ($0 build fee, free mockup).",
     "caseStudySent": "https://beeclue.com?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-evanhoe-kellogg-company",
     "history": [
@@ -38809,6 +39001,14 @@
         "resendId": "01a17f5b-c451-7d33-a97d-55295ec97410",
         "status": "delivered",
         "notes": "California small town accountant outreach (NO BCC). Pitch: 24/7 client intake advisor & onboarding checklist ($19/mo, $0 build fee, free mockup). Sent from hello@mail.beeclue.com with reply_to hello@beeclue.com."
+      },
+      {
+        "step": "Day 4 Follow-up",
+        "sentAt": "2026-11-07T00:19:13.399Z",
+        "subject": "Re: 24/7 client intake & onboarding for Evanhoe, Kellogg & Company",
+        "resendId": "01a1b35f-a932-7432-900a-74459f365d2b",
+        "status": "delivered",
+        "notes": "Day 4 threaded follow-up (NO BCC). Offered complimentary custom mockup preview / partnership review. Sent from hello@mail.beeclue.com with reply_to hello@beeclue.com."
       }
     ]
   },
@@ -38823,9 +39023,9 @@
     "location": "Redding, CA (Shasta County)",
     "pricingQuoted": "$19/month",
     "initialContactDate": "2026-10-27T21:54:44.032Z",
-    "lastContactDate": "2026-10-27T21:54:44.032Z",
+    "lastContactDate": "2026-11-07T00:19:14.455Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Outreach",
+    "sequenceStep": "Day 4 - Follow-up",
     "diagnosedIssues": "Independent accounting and tax advisory practice in Redding (Shasta County). Pitched 24/7 automated client intake advisor, tax document onboarding checklists, and $19/mo Core tier ($0 build fee, free mockup).",
     "caseStudySent": "https://beeclue.com?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-fairbanks-cpa-advisory-services",
     "history": [
@@ -38836,6 +39036,14 @@
         "resendId": "01a17f5b-c86e-7a70-b573-e2c2cce5b318",
         "status": "delivered",
         "notes": "California small town accountant outreach (NO BCC). Pitch: 24/7 client intake advisor & onboarding checklist ($19/mo, $0 build fee, free mockup). Sent from hello@mail.beeclue.com with reply_to hello@beeclue.com."
+      },
+      {
+        "step": "Day 4 Follow-up",
+        "sentAt": "2026-11-07T00:19:14.455Z",
+        "subject": "Re: 24/7 client intake & onboarding for Fairbanks CPA & Advisory Services",
+        "resendId": "01a1b35f-ad1d-7c4b-9576-77b8b4ae6276",
+        "status": "delivered",
+        "notes": "Day 4 threaded follow-up (NO BCC). Offered complimentary custom mockup preview / partnership review. Sent from hello@mail.beeclue.com with reply_to hello@beeclue.com."
       }
     ]
   },
@@ -38850,9 +39058,9 @@
     "location": "Redding, CA (Shasta County)",
     "pricingQuoted": "$19/month",
     "initialContactDate": "2026-10-27T21:54:45.072Z",
-    "lastContactDate": "2026-10-27T21:54:45.072Z",
+    "lastContactDate": "2026-11-07T00:19:15.557Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Outreach",
+    "sequenceStep": "Day 4 - Follow-up",
     "diagnosedIssues": "Independent accounting and tax advisory practice in Redding (Shasta County). Pitched 24/7 automated client intake advisor, tax document onboarding checklists, and $19/mo Core tier ($0 build fee, free mockup).",
     "caseStudySent": "https://beeclue.com?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-greg-shaddix-cpa-cfp",
     "history": [
@@ -38863,6 +39071,14 @@
         "resendId": "01a17f5b-cc85-771f-876d-01da22f6b98d",
         "status": "delivered",
         "notes": "California small town accountant outreach (NO BCC). Pitch: 24/7 client intake advisor & onboarding checklist ($19/mo, $0 build fee, free mockup). Sent from hello@mail.beeclue.com with reply_to hello@beeclue.com."
+      },
+      {
+        "step": "Day 4 Follow-up",
+        "sentAt": "2026-11-07T00:19:15.557Z",
+        "subject": "Re: 24/7 client intake & onboarding for Greg Shaddix, CPA, CFP®",
+        "resendId": "01a1b35f-b148-7bf2-a0e8-82553a9530c8",
+        "status": "delivered",
+        "notes": "Day 4 threaded follow-up (NO BCC). Offered complimentary custom mockup preview / partnership review. Sent from hello@mail.beeclue.com with reply_to hello@beeclue.com."
       }
     ]
   },
@@ -38877,9 +39093,9 @@
     "location": "Redding, CA (Shasta County)",
     "pricingQuoted": "$19/month",
     "initialContactDate": "2026-10-27T21:54:46.108Z",
-    "lastContactDate": "2026-10-27T21:54:46.108Z",
+    "lastContactDate": "2026-11-07T00:19:16.604Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Outreach",
+    "sequenceStep": "Day 4 - Follow-up",
     "diagnosedIssues": "Independent accounting and tax advisory practice in Redding (Shasta County). Pitched 24/7 automated client intake advisor, tax document onboarding checklists, and $19/mo Core tier ($0 build fee, free mockup).",
     "caseStudySent": "https://beeclue.com?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-t-r-goyne-company",
     "history": [
@@ -38890,6 +39106,14 @@
         "resendId": "01a17f5b-d09e-7a4a-a0b6-89ea239eada0",
         "status": "delivered",
         "notes": "California small town accountant outreach (NO BCC). Pitch: 24/7 client intake advisor & onboarding checklist ($19/mo, $0 build fee, free mockup). Sent from hello@mail.beeclue.com with reply_to hello@beeclue.com."
+      },
+      {
+        "step": "Day 4 Follow-up",
+        "sentAt": "2026-11-07T00:19:16.604Z",
+        "subject": "Re: 24/7 client intake & onboarding for T.R. Goyne & Company",
+        "resendId": "01a1b35f-b592-7d35-bb34-fc6e66240b96",
+        "status": "delivered",
+        "notes": "Day 4 threaded follow-up (NO BCC). Offered complimentary custom mockup preview / partnership review. Sent from hello@mail.beeclue.com with reply_to hello@beeclue.com."
       }
     ]
   },
@@ -38904,9 +39128,9 @@
     "location": "Willows, CA (Glenn County)",
     "pricingQuoted": "$19/month",
     "initialContactDate": "2026-10-27T21:54:47.153Z",
-    "lastContactDate": "2026-10-27T21:54:47.153Z",
+    "lastContactDate": "2026-11-07T00:19:17.632Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Outreach",
+    "sequenceStep": "Day 4 - Follow-up",
     "diagnosedIssues": "Independent accounting and tax advisory practice in Willows (Glenn County). Pitched 24/7 automated client intake advisor, tax document onboarding checklists, and $19/mo Core tier ($0 build fee, free mockup).",
     "caseStudySent": "https://beeclue.com?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-sac-valley-cpa",
     "history": [
@@ -38917,6 +39141,14 @@
         "resendId": "01a17f5b-d4b0-7d5c-a348-2ab1cdf944d8",
         "status": "delivered",
         "notes": "California small town accountant outreach (NO BCC). Pitch: 24/7 client intake advisor & onboarding checklist ($19/mo, $0 build fee, free mockup). Sent from hello@mail.beeclue.com with reply_to hello@beeclue.com."
+      },
+      {
+        "step": "Day 4 Follow-up",
+        "sentAt": "2026-11-07T00:19:17.632Z",
+        "subject": "Re: 24/7 client intake & onboarding for Sac Valley CPA",
+        "resendId": "01a1b35f-b9aa-7163-85e3-54bc1cd8b829",
+        "status": "delivered",
+        "notes": "Day 4 threaded follow-up (NO BCC). Offered complimentary custom mockup preview / partnership review. Sent from hello@mail.beeclue.com with reply_to hello@beeclue.com."
       }
     ]
   },
@@ -38931,9 +39163,9 @@
     "location": "Nevada City, CA (Nevada County)",
     "pricingQuoted": "$19/month",
     "initialContactDate": "2026-10-27T21:54:48.251Z",
-    "lastContactDate": "2026-10-27T21:54:48.251Z",
+    "lastContactDate": "2026-11-07T00:19:18.641Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Outreach",
+    "sequenceStep": "Day 4 - Follow-up",
     "diagnosedIssues": "Independent accounting and tax advisory practice in Nevada City (Nevada County). Pitched 24/7 automated client intake advisor, tax document onboarding checklists, and $19/mo Core tier ($0 build fee, free mockup).",
     "caseStudySent": "https://beeclue.com?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-janet-peake-cpa",
     "history": [
@@ -38944,6 +39176,14 @@
         "resendId": "01a17f5b-d8f5-7ea2-9cbf-270ef88e2e2a",
         "status": "delivered",
         "notes": "California small town accountant outreach (NO BCC). Pitch: 24/7 client intake advisor & onboarding checklist ($19/mo, $0 build fee, free mockup). Sent from hello@mail.beeclue.com with reply_to hello@beeclue.com."
+      },
+      {
+        "step": "Day 4 Follow-up",
+        "sentAt": "2026-11-07T00:19:18.641Z",
+        "subject": "Re: 24/7 client intake & onboarding for Janet Peake, CPA",
+        "resendId": "01a1b35f-bdac-7814-b635-1f011431e75a",
+        "status": "delivered",
+        "notes": "Day 4 threaded follow-up (NO BCC). Offered complimentary custom mockup preview / partnership review. Sent from hello@mail.beeclue.com with reply_to hello@beeclue.com."
       }
     ]
   },
@@ -38958,9 +39198,9 @@
     "location": "Quincy, CA (Plumas County)",
     "pricingQuoted": "$19/month",
     "initialContactDate": "2026-10-27T21:54:49.257Z",
-    "lastContactDate": "2026-10-27T21:54:49.257Z",
+    "lastContactDate": "2026-11-07T00:19:19.678Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Outreach",
+    "sequenceStep": "Day 4 - Follow-up",
     "diagnosedIssues": "Independent accounting and tax advisory practice in Quincy (Plumas County). Pitched 24/7 automated client intake advisor, tax document onboarding checklists, and $19/mo Core tier ($0 build fee, free mockup).",
     "caseStudySent": "https://beeclue.com?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-feather-financial-and-tax-service",
     "history": [
@@ -38971,6 +39211,14 @@
         "resendId": "01a17f5b-dce9-7d67-a734-fd67cc76b941",
         "status": "delivered",
         "notes": "California small town accountant outreach (NO BCC). Pitch: 24/7 client intake advisor & onboarding checklist ($19/mo, $0 build fee, free mockup). Sent from hello@mail.beeclue.com with reply_to hello@beeclue.com."
+      },
+      {
+        "step": "Day 4 Follow-up",
+        "sentAt": "2026-11-07T00:19:19.678Z",
+        "subject": "Re: 24/7 client intake & onboarding for Feather Financial and Tax Service",
+        "resendId": "01a1b35f-c1a2-73b1-b0ac-f59923840ae9",
+        "status": "delivered",
+        "notes": "Day 4 threaded follow-up (NO BCC). Offered complimentary custom mockup preview / partnership review. Sent from hello@mail.beeclue.com with reply_to hello@beeclue.com."
       }
     ]
   },
@@ -38985,9 +39233,9 @@
     "location": "Angels Camp, CA (Calaveras County)",
     "pricingQuoted": "$19/month",
     "initialContactDate": "2026-10-27T21:54:50.375Z",
-    "lastContactDate": "2026-10-27T21:54:50.375Z",
+    "lastContactDate": "2026-11-07T00:19:20.800Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Outreach",
+    "sequenceStep": "Day 4 - Follow-up",
     "diagnosedIssues": "Independent accounting and tax advisory practice in Angels Camp (Calaveras County). Pitched 24/7 automated client intake advisor, tax document onboarding checklists, and $19/mo Core tier ($0 build fee, free mockup).",
     "caseStudySent": "https://beeclue.com?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-tribble-ayala-cpas",
     "history": [
@@ -38998,6 +39246,14 @@
         "resendId": "01a17f5b-e0ff-74c9-844f-01ac50691985",
         "status": "delivered",
         "notes": "California small town accountant outreach (NO BCC). Pitch: 24/7 client intake advisor & onboarding checklist ($19/mo, $0 build fee, free mockup). Sent from hello@mail.beeclue.com with reply_to hello@beeclue.com."
+      },
+      {
+        "step": "Day 4 Follow-up",
+        "sentAt": "2026-11-07T00:19:20.800Z",
+        "subject": "Re: 24/7 client intake & onboarding for Tribble & Ayala, CPAs",
+        "resendId": "01a1b35f-c5ae-776f-9629-19017064d5f2",
+        "status": "delivered",
+        "notes": "Day 4 threaded follow-up (NO BCC). Offered complimentary custom mockup preview / partnership review. Sent from hello@mail.beeclue.com with reply_to hello@beeclue.com."
       }
     ]
   },
@@ -39012,9 +39268,9 @@
     "location": "Yuba City, CA (Sutter County)",
     "pricingQuoted": "$19/month",
     "initialContactDate": "2026-10-27T21:54:51.378Z",
-    "lastContactDate": "2026-10-27T21:54:51.378Z",
+    "lastContactDate": "2026-11-07T00:19:21.781Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Outreach",
+    "sequenceStep": "Day 4 - Follow-up",
     "diagnosedIssues": "Independent accounting and tax advisory practice in Yuba City (Sutter County). Pitched 24/7 automated client intake advisor, tax document onboarding checklists, and $19/mo Core tier ($0 build fee, free mockup).",
     "caseStudySent": "https://beeclue.com?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-bc-cpas-inc",
     "history": [
@@ -39025,6 +39281,14 @@
         "resendId": "01a17f5b-e530-7b65-9f8d-71543a013126",
         "status": "delivered",
         "notes": "California small town accountant outreach (NO BCC). Pitch: 24/7 client intake advisor & onboarding checklist ($19/mo, $0 build fee, free mockup). Sent from hello@mail.beeclue.com with reply_to hello@beeclue.com."
+      },
+      {
+        "step": "Day 4 Follow-up",
+        "sentAt": "2026-11-07T00:19:21.781Z",
+        "subject": "Re: 24/7 client intake & onboarding for BC CPAs, Inc.",
+        "resendId": "01a1b35f-ca0f-7731-bbcf-0d325cfb8a06",
+        "status": "delivered",
+        "notes": "Day 4 threaded follow-up (NO BCC). Offered complimentary custom mockup preview / partnership review. Sent from hello@mail.beeclue.com with reply_to hello@beeclue.com."
       }
     ]
   },
@@ -39039,9 +39303,9 @@
     "location": "El Dorado Hills, CA (El Dorado County)",
     "pricingQuoted": "$19/month",
     "initialContactDate": "2026-10-27T21:54:52.401Z",
-    "lastContactDate": "2026-10-27T21:54:52.401Z",
+    "lastContactDate": "2026-11-07T00:19:22.852Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Outreach",
+    "sequenceStep": "Day 4 - Follow-up",
     "diagnosedIssues": "Independent accounting and tax advisory practice in El Dorado Hills (El Dorado County). Pitched 24/7 automated client intake advisor, tax document onboarding checklists, and $19/mo Core tier ($0 build fee, free mockup).",
     "caseStudySent": "https://beeclue.com?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-platinum-accounting-tax-solutions",
     "history": [
@@ -39052,6 +39316,14 @@
         "resendId": "01a17f5b-e92a-70a1-8de3-f5ec82be1d7a",
         "status": "delivered",
         "notes": "California small town accountant outreach (NO BCC). Pitch: 24/7 client intake advisor & onboarding checklist ($19/mo, $0 build fee, free mockup). Sent from hello@mail.beeclue.com with reply_to hello@beeclue.com."
+      },
+      {
+        "step": "Day 4 Follow-up",
+        "sentAt": "2026-11-07T00:19:22.852Z",
+        "subject": "Re: 24/7 client intake & onboarding for Platinum Accounting & Tax Solutions",
+        "resendId": "01a1b35f-cde0-7e0c-9a13-45ace4ad8fee",
+        "status": "delivered",
+        "notes": "Day 4 threaded follow-up (NO BCC). Offered complimentary custom mockup preview / partnership review. Sent from hello@mail.beeclue.com with reply_to hello@beeclue.com."
       }
     ]
   },
@@ -39066,9 +39338,9 @@
     "location": "Oakhurst, CA (Madera County)",
     "pricingQuoted": "$19/month",
     "initialContactDate": "2026-10-27T21:54:53.463Z",
-    "lastContactDate": "2026-10-27T21:54:53.463Z",
+    "lastContactDate": "2026-11-07T00:19:23.849Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Outreach",
+    "sequenceStep": "Day 4 - Follow-up",
     "diagnosedIssues": "Independent accounting and tax advisory practice in Oakhurst (Madera County). Pitched 24/7 automated client intake advisor, tax document onboarding checklists, and $19/mo Core tier ($0 build fee, free mockup).",
     "caseStudySent": "https://beeclue.com?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-claiborne-lavoie-associates",
     "history": [
@@ -39079,6 +39351,14 @@
         "resendId": "01a17f5b-ed4f-7cdd-99da-eec74a6d49ff",
         "status": "delivered",
         "notes": "California small town accountant outreach (NO BCC). Pitch: 24/7 client intake advisor & onboarding checklist ($19/mo, $0 build fee, free mockup). Sent from hello@mail.beeclue.com with reply_to hello@beeclue.com."
+      },
+      {
+        "step": "Day 4 Follow-up",
+        "sentAt": "2026-11-07T00:19:23.849Z",
+        "subject": "Re: 24/7 client intake & onboarding for Claiborne Lavoie & Associates",
+        "resendId": "01a1b35f-d20b-7353-94bd-0323a6faf32c",
+        "status": "delivered",
+        "notes": "Day 4 threaded follow-up (NO BCC). Offered complimentary custom mockup preview / partnership review. Sent from hello@mail.beeclue.com with reply_to hello@beeclue.com."
       }
     ]
   },
@@ -39093,9 +39373,9 @@
     "location": "Oakhurst, CA (Madera County)",
     "pricingQuoted": "$19/month",
     "initialContactDate": "2026-10-27T21:54:54.529Z",
-    "lastContactDate": "2026-10-27T21:54:54.529Z",
+    "lastContactDate": "2026-11-07T00:19:24.900Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Outreach",
+    "sequenceStep": "Day 4 - Follow-up",
     "diagnosedIssues": "Independent accounting and tax advisory practice in Oakhurst (Madera County). Pitched 24/7 automated client intake advisor, tax document onboarding checklists, and $19/mo Core tier ($0 build fee, free mockup).",
     "caseStudySent": "https://beeclue.com?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-busy-bee-accounting-services",
     "history": [
@@ -39106,6 +39386,14 @@
         "resendId": "01a17f5b-f15a-732f-a77c-e30f526d46e2",
         "status": "delivered",
         "notes": "California small town accountant outreach (NO BCC). Pitch: 24/7 client intake advisor & onboarding checklist ($19/mo, $0 build fee, free mockup). Sent from hello@mail.beeclue.com with reply_to hello@beeclue.com."
+      },
+      {
+        "step": "Day 4 Follow-up",
+        "sentAt": "2026-11-07T00:19:24.900Z",
+        "subject": "Re: 24/7 client intake & onboarding for Busy Bee Accounting Services",
+        "resendId": "01a1b35f-d5f2-7a38-b164-586fe651c194",
+        "status": "delivered",
+        "notes": "Day 4 threaded follow-up (NO BCC). Offered complimentary custom mockup preview / partnership review. Sent from hello@mail.beeclue.com with reply_to hello@beeclue.com."
       }
     ]
   },
@@ -39120,9 +39408,9 @@
     "location": "Colfax, CA (Placer County)",
     "pricingQuoted": "$19/month",
     "initialContactDate": "2026-10-27T21:54:55.569Z",
-    "lastContactDate": "2026-10-27T21:54:55.569Z",
+    "lastContactDate": "2026-11-07T00:19:25.977Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Outreach",
+    "sequenceStep": "Day 4 - Follow-up",
     "diagnosedIssues": "Independent accounting and tax advisory practice in Colfax (Placer County). Pitched 24/7 automated client intake advisor, tax document onboarding checklists, and $19/mo Core tier ($0 build fee, free mockup).",
     "caseStudySent": "https://beeclue.com?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-sierra-business-services",
     "history": [
@@ -39133,6 +39421,14 @@
         "resendId": "01a17f5b-f57c-782f-b359-c2db0cc30725",
         "status": "delivered",
         "notes": "California small town accountant outreach (NO BCC). Pitch: 24/7 client intake advisor & onboarding checklist ($19/mo, $0 build fee, free mockup). Sent from hello@mail.beeclue.com with reply_to hello@beeclue.com."
+      },
+      {
+        "step": "Day 4 Follow-up",
+        "sentAt": "2026-11-07T00:19:25.977Z",
+        "subject": "Re: 24/7 client intake & onboarding for Sierra Business Services",
+        "resendId": "01a1b35f-da74-77fe-84a2-bd79cc461558",
+        "status": "delivered",
+        "notes": "Day 4 threaded follow-up (NO BCC). Offered complimentary custom mockup preview / partnership review. Sent from hello@mail.beeclue.com with reply_to hello@beeclue.com."
       }
     ]
   },
@@ -39147,9 +39443,9 @@
     "location": "Colfax, CA (Placer County)",
     "pricingQuoted": "$19/month",
     "initialContactDate": "2026-10-27T21:54:56.597Z",
-    "lastContactDate": "2026-10-27T21:54:56.597Z",
+    "lastContactDate": "2026-11-07T00:19:26.981Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Outreach",
+    "sequenceStep": "Day 4 - Follow-up",
     "diagnosedIssues": "Independent accounting and tax advisory practice in Colfax (Placer County). Pitched 24/7 automated client intake advisor, tax document onboarding checklists, and $19/mo Core tier ($0 build fee, free mockup).",
     "caseStudySent": "https://beeclue.com?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-south-placer-tax-bookkeeping-services",
     "history": [
@@ -39160,6 +39456,14 @@
         "resendId": "01a17f5b-f992-75e8-aa44-9fbb28fd131e",
         "status": "delivered",
         "notes": "California small town accountant outreach (NO BCC). Pitch: 24/7 client intake advisor & onboarding checklist ($19/mo, $0 build fee, free mockup). Sent from hello@mail.beeclue.com with reply_to hello@beeclue.com."
+      },
+      {
+        "step": "Day 4 Follow-up",
+        "sentAt": "2026-11-07T00:19:26.981Z",
+        "subject": "Re: 24/7 client intake & onboarding for South Placer Tax & Bookkeeping Services",
+        "resendId": "01a1b35f-de42-7832-8df2-2c5ca64180e4",
+        "status": "delivered",
+        "notes": "Day 4 threaded follow-up (NO BCC). Offered complimentary custom mockup preview / partnership review. Sent from hello@mail.beeclue.com with reply_to hello@beeclue.com."
       }
     ]
   },
@@ -39174,9 +39478,9 @@
     "location": "Fort Bragg, CA (Mendocino County)",
     "pricingQuoted": "$19/month",
     "initialContactDate": "2026-10-27T21:54:57.642Z",
-    "lastContactDate": "2026-10-27T21:54:57.642Z",
+    "lastContactDate": "2026-11-07T00:19:28.041Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Outreach",
+    "sequenceStep": "Day 4 - Follow-up",
     "diagnosedIssues": "Independent accounting and tax advisory practice in Fort Bragg (Mendocino County). Pitched 24/7 automated client intake advisor, tax document onboarding checklists, and $19/mo Core tier ($0 build fee, free mockup).",
     "caseStudySent": "https://beeclue.com?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-k-mckee-company-inc",
     "history": [
@@ -39187,6 +39491,14 @@
         "resendId": "01a17f5b-fda5-76ff-9a6f-71eadb3ce48d",
         "status": "delivered",
         "notes": "California small town accountant outreach (NO BCC). Pitch: 24/7 client intake advisor & onboarding checklist ($19/mo, $0 build fee, free mockup). Sent from hello@mail.beeclue.com with reply_to hello@beeclue.com."
+      },
+      {
+        "step": "Day 4 Follow-up",
+        "sentAt": "2026-11-07T00:19:28.041Z",
+        "subject": "Re: 24/7 client intake & onboarding for K. McKee & Company, Inc.",
+        "resendId": "01a1b35f-e236-70a6-a38b-b1a567e26197",
+        "status": "delivered",
+        "notes": "Day 4 threaded follow-up (NO BCC). Offered complimentary custom mockup preview / partnership review. Sent from hello@mail.beeclue.com with reply_to hello@beeclue.com."
       }
     ]
   },
@@ -39201,9 +39513,9 @@
     "location": "Coarsegold, CA (Madera County)",
     "pricingQuoted": "$19/month",
     "initialContactDate": "2026-10-27T21:54:58.706Z",
-    "lastContactDate": "2026-10-27T21:54:58.706Z",
+    "lastContactDate": "2026-11-07T00:19:29.047Z",
     "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Outreach",
+    "sequenceStep": "Day 4 - Follow-up",
     "diagnosedIssues": "Independent accounting and tax advisory practice in Coarsegold (Madera County). Pitched 24/7 automated client intake advisor, tax document onboarding checklists, and $19/mo Core tier ($0 build fee, free mockup).",
     "caseStudySent": "https://beeclue.com?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-alisa-sparks-cpa",
     "history": [
@@ -39214,6 +39526,14 @@
         "resendId": "01a17f5c-01cc-777b-a6bc-d7647916ffb9",
         "status": "delivered",
         "notes": "California small town accountant outreach (NO BCC). Pitch: 24/7 client intake advisor & onboarding checklist ($19/mo, $0 build fee, free mockup). Sent from hello@mail.beeclue.com with reply_to hello@beeclue.com."
+      },
+      {
+        "step": "Day 4 Follow-up",
+        "sentAt": "2026-11-07T00:19:29.047Z",
+        "subject": "Re: 24/7 client intake & onboarding for Alisa Sparks, CPA",
+        "resendId": "01a1b35f-e655-743e-8a96-9b1f57487a13",
+        "status": "delivered",
+        "notes": "Day 4 threaded follow-up (NO BCC). Offered complimentary custom mockup preview / partnership review. Sent from hello@mail.beeclue.com with reply_to hello@beeclue.com."
       }
     ]
   },
@@ -46232,6 +46552,1626 @@
         "sentAt": "2026-11-02T22:21:58.782Z",
         "subject": "Web design referral partnership for Monterey Signs clients",
         "resendId": "01a19e5a-e214-76b2-bf13-50675f40329d",
+        "status": "delivered",
+        "notes": "California print & sign shop partnership outreach (NO BCC). Offered 20% referral commission on website design/development + reciprocal referrals for physical print collateral. Sent from hello@mail.beeclue.com with reply_to hello@beeclue.com."
+      }
+    ]
+  },
+  {
+    "id": "minney-law",
+    "firmName": "Minney Law",
+    "contactName": "Maria E. Minney, Esq.",
+    "email": "maria@minneylaw.com",
+    "phone": "916-798-7793",
+    "website": "None (Directory / Bar Listing Only)",
+    "niche": "General Practice, Civil Matters & Estate Planning",
+    "location": "Willows, CA (Glenn County)",
+    "pricingQuoted": "$19/mo Core",
+    "initialContactDate": "2026-11-07T00:17:47.640Z",
+    "lastContactDate": "2026-11-07T00:17:47.640Z",
+    "status": "delivered",
+    "sequenceStep": "Day 0 - Initial Outreach",
+    "diagnosedIssues": "Active California solo/boutique law practice in Willows (Glenn County) operating without a standalone website. Pitched 24/7 intake advisor, $19/mo Core plan ($0 build fee), and free custom mockup.",
+    "caseStudySent": "https://taralattanzio.ca?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-minney-law",
+    "history": [
+      {
+        "step": "Day 0",
+        "sentAt": "2026-11-07T00:17:47.640Z",
+        "subject": "24/7 client intake & consultation for Minney Law",
+        "resendId": "01a1b35e-5a36-755c-87c0-810411103673",
+        "status": "delivered",
+        "notes": "California small town lawyer outreach (NO BCC). Addressed 24/7 client intake advisor angle, $19/mo Core tier, $0 build fee, free custom mockup. Sent from hello@mail.beeclue.com with reply_to hello@beeclue.com."
+      }
+    ]
+  },
+  {
+    "id": "law-office-of-brianna-marcel-sullivan",
+    "firmName": "Law Office of Brianna Marcel Sullivan",
+    "contactName": "Brianna Marcel Sullivan, Esq.",
+    "email": "briannamarcel@gmail.com",
+    "phone": "Not Available",
+    "website": "None (Directory / Bar Listing Only)",
+    "niche": "General Practice, Civil Matters & Estate Planning",
+    "location": "Willows, CA (Glenn County)",
+    "pricingQuoted": "$19/mo Core",
+    "initialContactDate": "2026-11-07T00:17:48.688Z",
+    "lastContactDate": "2026-11-07T00:17:48.688Z",
+    "status": "delivered",
+    "sequenceStep": "Day 0 - Initial Outreach",
+    "diagnosedIssues": "Active California solo/boutique law practice in Willows (Glenn County) operating without a standalone website. Pitched 24/7 intake advisor, $19/mo Core plan ($0 build fee), and free custom mockup.",
+    "caseStudySent": "https://taralattanzio.ca?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-law-office-of-brianna-marcel-sullivan",
+    "history": [
+      {
+        "step": "Day 0",
+        "sentAt": "2026-11-07T00:17:48.688Z",
+        "subject": "24/7 client intake & consultation for Law Office of Brianna Marcel Sullivan",
+        "resendId": "01a1b35e-5e47-7c0f-8271-6a75f01122af",
+        "status": "delivered",
+        "notes": "California small town lawyer outreach (NO BCC). Addressed 24/7 client intake advisor angle, $19/mo Core tier, $0 build fee, free custom mockup. Sent from hello@mail.beeclue.com with reply_to hello@beeclue.com."
+      }
+    ]
+  },
+  {
+    "id": "law-office-of-jane-ellen-stansell",
+    "firmName": "Law Office of Jane Ellen Stansell",
+    "contactName": "Jane Ellen Stansell, Esq.",
+    "email": "stanselllaw97@gmail.com",
+    "phone": "530-342-4524",
+    "website": "None (Directory / Bar Listing Only)",
+    "niche": "General Practice, Civil Matters & Estate Planning",
+    "location": "Willows, CA (Glenn County)",
+    "pricingQuoted": "$19/mo Core",
+    "initialContactDate": "2026-11-07T00:17:49.666Z",
+    "lastContactDate": "2026-11-07T00:17:49.666Z",
+    "status": "delivered",
+    "sequenceStep": "Day 0 - Initial Outreach",
+    "diagnosedIssues": "Active California solo/boutique law practice in Willows (Glenn County) operating without a standalone website. Pitched 24/7 intake advisor, $19/mo Core plan ($0 build fee), and free custom mockup.",
+    "caseStudySent": "https://taralattanzio.ca?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-law-office-of-jane-ellen-stansell",
+    "history": [
+      {
+        "step": "Day 0",
+        "sentAt": "2026-11-07T00:17:49.666Z",
+        "subject": "24/7 client intake & consultation for Law Office of Jane Ellen Stansell",
+        "resendId": "01a1b35e-623d-716f-bbc4-979a3093783b",
+        "status": "delivered",
+        "notes": "California small town lawyer outreach (NO BCC). Addressed 24/7 client intake advisor angle, $19/mo Core tier, $0 build fee, free custom mockup. Sent from hello@mail.beeclue.com with reply_to hello@beeclue.com."
+      }
+    ]
+  },
+  {
+    "id": "law-office-of-travis-e-stroud",
+    "firmName": "Law Office of Travis E. Stroud",
+    "contactName": "Travis Edward Stroud, Esq.",
+    "email": "travisstroudlaw@yahoo.com",
+    "phone": "530-838-0828",
+    "website": "None (Directory / Bar Listing Only)",
+    "niche": "General Practice, Civil Matters & Estate Planning",
+    "location": "Willows, CA (Glenn County)",
+    "pricingQuoted": "$19/mo Core",
+    "initialContactDate": "2026-11-07T00:17:50.654Z",
+    "lastContactDate": "2026-11-07T00:17:50.654Z",
+    "status": "delivered",
+    "sequenceStep": "Day 0 - Initial Outreach",
+    "diagnosedIssues": "Active California solo/boutique law practice in Willows (Glenn County) operating without a standalone website. Pitched 24/7 intake advisor, $19/mo Core plan ($0 build fee), and free custom mockup.",
+    "caseStudySent": "https://taralattanzio.ca?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-law-office-of-travis-e-stroud",
+    "history": [
+      {
+        "step": "Day 0",
+        "sentAt": "2026-11-07T00:17:50.654Z",
+        "subject": "24/7 client intake & consultation for Law Office of Travis E. Stroud",
+        "resendId": "01a1b35e-6617-7c61-8a60-55cca8b596c7",
+        "status": "delivered",
+        "notes": "California small town lawyer outreach (NO BCC). Addressed 24/7 client intake advisor angle, $19/mo Core tier, $0 build fee, free custom mockup. Sent from hello@mail.beeclue.com with reply_to hello@beeclue.com."
+      }
+    ]
+  },
+  {
+    "id": "law-office-of-jeffrey-s-ogilvie",
+    "firmName": "Law Office of Jeffrey S. Ogilvie",
+    "contactName": "Jeffrey Scott Ogilvie, Esq.",
+    "email": "ogilvie@shasta.com",
+    "phone": "530-241-1100",
+    "website": "None (Directory / Bar Listing Only)",
+    "niche": "General Practice, Civil Matters & Estate Planning",
+    "location": "Colusa, CA (Colusa County)",
+    "pricingQuoted": "$19/mo Core",
+    "initialContactDate": "2026-11-07T00:17:51.657Z",
+    "lastContactDate": "2026-11-07T00:17:51.657Z",
+    "status": "delivered",
+    "sequenceStep": "Day 0 - Initial Outreach",
+    "diagnosedIssues": "Active California solo/boutique law practice in Colusa (Colusa County) operating without a standalone website. Pitched 24/7 intake advisor, $19/mo Core plan ($0 build fee), and free custom mockup.",
+    "caseStudySent": "https://taralattanzio.ca?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-law-office-of-jeffrey-s-ogilvie",
+    "history": [
+      {
+        "step": "Day 0",
+        "sentAt": "2026-11-07T00:17:51.657Z",
+        "subject": "24/7 client intake & consultation for Law Office of Jeffrey S. Ogilvie",
+        "resendId": "01a1b35e-69e5-7952-a490-e6bdd938ddf4",
+        "status": "delivered",
+        "notes": "California small town lawyer outreach (NO BCC). Addressed 24/7 client intake advisor angle, $19/mo Core tier, $0 build fee, free custom mockup. Sent from hello@mail.beeclue.com with reply_to hello@beeclue.com."
+      }
+    ]
+  },
+  {
+    "id": "steidlmayer-law",
+    "firmName": "Steidlmayer Law",
+    "contactName": "Erin Elizabeth Steidlmayer, Esq.",
+    "email": "erin@steidlmayerlaw.com",
+    "phone": "530-458-7795",
+    "website": "None (Directory / Bar Listing Only)",
+    "niche": "General Practice, Civil Matters & Estate Planning",
+    "location": "Colusa, CA (Colusa County)",
+    "pricingQuoted": "$19/mo Core",
+    "initialContactDate": "2026-11-07T00:17:52.670Z",
+    "lastContactDate": "2026-11-07T00:17:52.670Z",
+    "status": "delivered",
+    "sequenceStep": "Day 0 - Initial Outreach",
+    "diagnosedIssues": "Active California solo/boutique law practice in Colusa (Colusa County) operating without a standalone website. Pitched 24/7 intake advisor, $19/mo Core plan ($0 build fee), and free custom mockup.",
+    "caseStudySent": "https://taralattanzio.ca?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-steidlmayer-law",
+    "history": [
+      {
+        "step": "Day 0",
+        "sentAt": "2026-11-07T00:17:52.670Z",
+        "subject": "24/7 client intake & consultation for Steidlmayer Law",
+        "resendId": "01a1b35e-6dd8-7eac-98fc-723774f944e6",
+        "status": "delivered",
+        "notes": "California small town lawyer outreach (NO BCC). Addressed 24/7 client intake advisor angle, $19/mo Core tier, $0 build fee, free custom mockup. Sent from hello@mail.beeclue.com with reply_to hello@beeclue.com."
+      }
+    ]
+  },
+  {
+    "id": "law-office-of-peter-nils-lindquist",
+    "firmName": "Law Office of Peter Nils Lindquist",
+    "contactName": "Peter Nils Lindquist, Esq.",
+    "email": "office@lindlaw.net",
+    "phone": "530-458-8250",
+    "website": "None (Directory / Bar Listing Only)",
+    "niche": "General Practice, Civil Matters & Estate Planning",
+    "location": "Colusa, CA (Colusa County)",
+    "pricingQuoted": "$19/mo Core",
+    "initialContactDate": "2026-11-07T00:17:53.678Z",
+    "lastContactDate": "2026-11-07T00:17:53.678Z",
+    "status": "delivered",
+    "sequenceStep": "Day 0 - Initial Outreach",
+    "diagnosedIssues": "Active California solo/boutique law practice in Colusa (Colusa County) operating without a standalone website. Pitched 24/7 intake advisor, $19/mo Core plan ($0 build fee), and free custom mockup.",
+    "caseStudySent": "https://taralattanzio.ca?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-law-office-of-peter-nils-lindquist",
+    "history": [
+      {
+        "step": "Day 0",
+        "sentAt": "2026-11-07T00:17:53.678Z",
+        "subject": "24/7 client intake & consultation for Law Office of Peter Nils Lindquist",
+        "resendId": "01a1b35e-71c8-7e08-9222-172d82113c7d",
+        "status": "delivered",
+        "notes": "California small town lawyer outreach (NO BCC). Addressed 24/7 client intake advisor angle, $19/mo Core tier, $0 build fee, free custom mockup. Sent from hello@mail.beeclue.com with reply_to hello@beeclue.com."
+      }
+    ]
+  },
+  {
+    "id": "carrion-law-offices",
+    "firmName": "Carrion Law Offices",
+    "contactName": "Angeles Susan Carrion, Esq.",
+    "email": "scarrion@carrionlawoffices.com",
+    "phone": "530-458-2950",
+    "website": "None (Directory / Bar Listing Only)",
+    "niche": "General Practice, Civil Matters & Estate Planning",
+    "location": "Colusa, CA (Colusa County)",
+    "pricingQuoted": "$19/mo Core",
+    "initialContactDate": "2026-11-07T00:17:54.687Z",
+    "lastContactDate": "2026-11-07T00:17:54.687Z",
+    "status": "delivered",
+    "sequenceStep": "Day 0 - Initial Outreach",
+    "diagnosedIssues": "Active California solo/boutique law practice in Colusa (Colusa County) operating without a standalone website. Pitched 24/7 intake advisor, $19/mo Core plan ($0 build fee), and free custom mockup.",
+    "caseStudySent": "https://taralattanzio.ca?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-carrion-law-offices",
+    "history": [
+      {
+        "step": "Day 0",
+        "sentAt": "2026-11-07T00:17:54.687Z",
+        "subject": "24/7 client intake & consultation for Carrion Law Offices",
+        "resendId": "01a1b35e-75bd-75b9-b03b-b1b478bb0910",
+        "status": "delivered",
+        "notes": "California small town lawyer outreach (NO BCC). Addressed 24/7 client intake advisor angle, $19/mo Core tier, $0 build fee, free custom mockup. Sent from hello@mail.beeclue.com with reply_to hello@beeclue.com."
+      }
+    ]
+  },
+  {
+    "id": "clark-nelson",
+    "firmName": "Clark & Nelson",
+    "contactName": "David Robert Nelson, Esq.",
+    "email": "clarkandnelson@gmail.com",
+    "phone": "530-458-5157",
+    "website": "None (Directory / Bar Listing Only)",
+    "niche": "General Practice, Civil Matters & Estate Planning",
+    "location": "Colusa, CA (Colusa County)",
+    "pricingQuoted": "$19/mo Core",
+    "initialContactDate": "2026-11-07T00:17:55.707Z",
+    "lastContactDate": "2026-11-07T00:17:55.707Z",
+    "status": "delivered",
+    "sequenceStep": "Day 0 - Initial Outreach",
+    "diagnosedIssues": "Active California solo/boutique law practice in Colusa (Colusa County) operating without a standalone website. Pitched 24/7 intake advisor, $19/mo Core plan ($0 build fee), and free custom mockup.",
+    "caseStudySent": "https://taralattanzio.ca?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-clark-nelson",
+    "history": [
+      {
+        "step": "Day 0",
+        "sentAt": "2026-11-07T00:17:55.707Z",
+        "subject": "24/7 client intake & consultation for Clark & Nelson",
+        "resendId": "01a1b35e-79b5-7762-b058-b65d582bb337",
+        "status": "delivered",
+        "notes": "California small town lawyer outreach (NO BCC). Addressed 24/7 client intake advisor angle, $19/mo Core tier, $0 build fee, free custom mockup. Sent from hello@mail.beeclue.com with reply_to hello@beeclue.com."
+      }
+    ]
+  },
+  {
+    "id": "law-office-of-shannon-s-thompson",
+    "firmName": "Law Office of Shannon S Thompson",
+    "contactName": "Shannon S Thompson, Esq.",
+    "email": "shannonthompson5975@comcast.net",
+    "phone": "530-513-8050",
+    "website": "None (Directory / Bar Listing Only)",
+    "niche": "General Practice, Civil Matters & Estate Planning",
+    "location": "Colusa, CA (Colusa County)",
+    "pricingQuoted": "$19/mo Core",
+    "initialContactDate": "2026-11-07T00:17:56.751Z",
+    "lastContactDate": "2026-11-07T00:17:56.751Z",
+    "status": "delivered",
+    "sequenceStep": "Day 0 - Initial Outreach",
+    "diagnosedIssues": "Active California solo/boutique law practice in Colusa (Colusa County) operating without a standalone website. Pitched 24/7 intake advisor, $19/mo Core plan ($0 build fee), and free custom mockup.",
+    "caseStudySent": "https://taralattanzio.ca?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-law-office-of-shannon-s-thompson",
+    "history": [
+      {
+        "step": "Day 0",
+        "sentAt": "2026-11-07T00:17:56.751Z",
+        "subject": "24/7 client intake & consultation for Law Office of Shannon S Thompson",
+        "resendId": "01a1b35e-7dc6-747e-817f-93ea6dbebc30",
+        "status": "delivered",
+        "notes": "California small town lawyer outreach (NO BCC). Addressed 24/7 client intake advisor angle, $19/mo Core tier, $0 build fee, free custom mockup. Sent from hello@mail.beeclue.com with reply_to hello@beeclue.com."
+      }
+    ]
+  },
+  {
+    "id": "carter-law-firm",
+    "firmName": "Carter Law Firm",
+    "contactName": "Angela Najd Carter, Esq.",
+    "email": "cartercarterlaw@gmail.com",
+    "phone": "707-263-0400",
+    "website": "None (Directory / Bar Listing Only)",
+    "niche": "Family Law, Custody & Support Matters",
+    "location": "Lakeport, CA (Lake County)",
+    "pricingQuoted": "$19/mo Core",
+    "initialContactDate": "2026-11-07T00:17:57.788Z",
+    "lastContactDate": "2026-11-07T00:17:57.788Z",
+    "status": "delivered",
+    "sequenceStep": "Day 0 - Initial Outreach",
+    "diagnosedIssues": "Active California solo/boutique law practice in Lakeport (Lake County) operating without a standalone website. Pitched 24/7 intake advisor, $19/mo Core plan ($0 build fee), and free custom mockup.",
+    "caseStudySent": "https://taralattanzio.ca?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-carter-law-firm",
+    "history": [
+      {
+        "step": "Day 0",
+        "sentAt": "2026-11-07T00:17:57.788Z",
+        "subject": "24/7 client intake & consultation for Carter Law Firm",
+        "resendId": "01a1b35e-81e0-760c-956f-18fe7973d5cd",
+        "status": "delivered",
+        "notes": "California small town lawyer outreach (NO BCC). Addressed 24/7 client intake advisor angle, $19/mo Core tier, $0 build fee, free custom mockup. Sent from hello@mail.beeclue.com with reply_to hello@beeclue.com."
+      }
+    ]
+  },
+  {
+    "id": "mehr-law-office",
+    "firmName": "Mehr Law Office",
+    "contactName": "Tedd Arthur Mehr, Esq.",
+    "email": "tedd@mehrlawoffice.com",
+    "phone": "530-458-5481",
+    "website": "None (Directory / Bar Listing Only)",
+    "niche": "General Practice, Civil Matters & Estate Planning",
+    "location": "Colusa, CA (Colusa County)",
+    "pricingQuoted": "$19/mo Core",
+    "initialContactDate": "2026-11-07T00:17:58.851Z",
+    "lastContactDate": "2026-11-07T00:17:58.851Z",
+    "status": "delivered",
+    "sequenceStep": "Day 0 - Initial Outreach",
+    "diagnosedIssues": "Active California solo/boutique law practice in Colusa (Colusa County) operating without a standalone website. Pitched 24/7 intake advisor, $19/mo Core plan ($0 build fee), and free custom mockup.",
+    "caseStudySent": "https://taralattanzio.ca?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-mehr-law-office",
+    "history": [
+      {
+        "step": "Day 0",
+        "sentAt": "2026-11-07T00:17:58.851Z",
+        "subject": "24/7 client intake & consultation for Mehr Law Office",
+        "resendId": "01a1b35e-85f7-78b4-83a1-e9ed2443364d",
+        "status": "delivered",
+        "notes": "California small town lawyer outreach (NO BCC). Addressed 24/7 client intake advisor angle, $19/mo Core tier, $0 build fee, free custom mockup. Sent from hello@mail.beeclue.com with reply_to hello@beeclue.com."
+      }
+    ]
+  },
+  {
+    "id": "law-office-of-natalie-ann-mccullough",
+    "firmName": "Law Office of Natalie Ann McCullough",
+    "contactName": "Natalie Ann McCullough, Esq.",
+    "email": "nmccullough02@gmail.com",
+    "phone": "707-344-0059",
+    "website": "None (Directory / Bar Listing Only)",
+    "niche": "General Practice, Civil Matters & Estate Planning",
+    "location": "Williams, CA (Colusa County)",
+    "pricingQuoted": "$19/mo Core",
+    "initialContactDate": "2026-11-07T00:17:59.866Z",
+    "lastContactDate": "2026-11-07T00:17:59.866Z",
+    "status": "delivered",
+    "sequenceStep": "Day 0 - Initial Outreach",
+    "diagnosedIssues": "Active California solo/boutique law practice in Williams (Colusa County) operating without a standalone website. Pitched 24/7 intake advisor, $19/mo Core plan ($0 build fee), and free custom mockup.",
+    "caseStudySent": "https://taralattanzio.ca?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-law-office-of-natalie-ann-mccullough",
+    "history": [
+      {
+        "step": "Day 0",
+        "sentAt": "2026-11-07T00:17:59.866Z",
+        "subject": "24/7 client intake & consultation for Law Office of Natalie Ann McCullough",
+        "resendId": "01a1b35e-8a0b-7f02-b60d-2e3d1ecfaa0b",
+        "status": "delivered",
+        "notes": "California small town lawyer outreach (NO BCC). Addressed 24/7 client intake advisor angle, $19/mo Core tier, $0 build fee, free custom mockup. Sent from hello@mail.beeclue.com with reply_to hello@beeclue.com."
+      }
+    ]
+  },
+  {
+    "id": "law-office-of-jeffrey-nash-daly",
+    "firmName": "Law Office of Jeffrey Nash Daly",
+    "contactName": "Jeffrey Nash Daly, Esq.",
+    "email": "jdalylaw@aol.com",
+    "phone": "707-350-0659",
+    "website": "None (Directory / Bar Listing Only)",
+    "niche": "General Practice, Civil Matters & Estate Planning",
+    "location": "Kelseyville, CA (Lake County)",
+    "pricingQuoted": "$19/mo Core",
+    "initialContactDate": "2026-11-07T00:18:00.954Z",
+    "lastContactDate": "2026-11-07T00:18:00.954Z",
+    "status": "delivered",
+    "sequenceStep": "Day 0 - Initial Outreach",
+    "diagnosedIssues": "Active California solo/boutique law practice in Kelseyville (Lake County) operating without a standalone website. Pitched 24/7 intake advisor, $19/mo Core plan ($0 build fee), and free custom mockup.",
+    "caseStudySent": "https://taralattanzio.ca?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-law-office-of-jeffrey-nash-daly",
+    "history": [
+      {
+        "step": "Day 0",
+        "sentAt": "2026-11-07T00:18:00.954Z",
+        "subject": "24/7 client intake & consultation for Law Office of Jeffrey Nash Daly",
+        "resendId": "01a1b35e-8e28-78c3-b63f-bdd2df3d5df9",
+        "status": "delivered",
+        "notes": "California small town lawyer outreach (NO BCC). Addressed 24/7 client intake advisor angle, $19/mo Core tier, $0 build fee, free custom mockup. Sent from hello@mail.beeclue.com with reply_to hello@beeclue.com."
+      }
+    ]
+  },
+  {
+    "id": "law-office-of-mitchell-zale-hauptman",
+    "firmName": "Law Office of Mitchell Zale Hauptman",
+    "contactName": "Mitchell Zale Hauptman, Esq.",
+    "email": "law@law-guy.com",
+    "phone": "707-263-3707",
+    "website": "None (Directory / Bar Listing Only)",
+    "niche": "General Practice, Civil Matters & Estate Planning",
+    "location": "Lakeport, CA (Lake County)",
+    "pricingQuoted": "$19/mo Core",
+    "initialContactDate": "2026-11-07T00:18:01.996Z",
+    "lastContactDate": "2026-11-07T00:18:01.996Z",
+    "status": "delivered",
+    "sequenceStep": "Day 0 - Initial Outreach",
+    "diagnosedIssues": "Active California solo/boutique law practice in Lakeport (Lake County) operating without a standalone website. Pitched 24/7 intake advisor, $19/mo Core plan ($0 build fee), and free custom mockup.",
+    "caseStudySent": "https://taralattanzio.ca?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-law-office-of-mitchell-zale-hauptman",
+    "history": [
+      {
+        "step": "Day 0",
+        "sentAt": "2026-11-07T00:18:01.996Z",
+        "subject": "24/7 client intake & consultation for Law Office of Mitchell Zale Hauptman",
+        "resendId": "01a1b35e-9239-7eca-881a-56e0ad943849",
+        "status": "delivered",
+        "notes": "California small town lawyer outreach (NO BCC). Addressed 24/7 client intake advisor angle, $19/mo Core tier, $0 build fee, free custom mockup. Sent from hello@mail.beeclue.com with reply_to hello@beeclue.com."
+      }
+    ]
+  },
+  {
+    "id": "law-office-of-michele-m-poteracke",
+    "firmName": "Law Office of Michele M Poteracke",
+    "contactName": "Michele M Poteracke, Esq.",
+    "email": "mpoteracke@gmail.com",
+    "phone": "707-571-1109",
+    "website": "None (Directory / Bar Listing Only)",
+    "niche": "General Practice, Civil Matters & Estate Planning",
+    "location": "Clearlake Oaks, CA (Lake County)",
+    "pricingQuoted": "$19/mo Core",
+    "initialContactDate": "2026-11-07T00:18:03.040Z",
+    "lastContactDate": "2026-11-07T00:18:03.040Z",
+    "status": "delivered",
+    "sequenceStep": "Day 0 - Initial Outreach",
+    "diagnosedIssues": "Active California solo/boutique law practice in Clearlake Oaks (Lake County) operating without a standalone website. Pitched 24/7 intake advisor, $19/mo Core plan ($0 build fee), and free custom mockup.",
+    "caseStudySent": "https://taralattanzio.ca?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-law-office-of-michele-m-poteracke",
+    "history": [
+      {
+        "step": "Day 0",
+        "sentAt": "2026-11-07T00:18:03.040Z",
+        "subject": "24/7 client intake & consultation for Law Office of Michele M Poteracke",
+        "resendId": "01a1b35e-9655-7dc3-aca0-8a5928679cdb",
+        "status": "delivered",
+        "notes": "California small town lawyer outreach (NO BCC). Addressed 24/7 client intake advisor angle, $19/mo Core tier, $0 build fee, free custom mockup. Sent from hello@mail.beeclue.com with reply_to hello@beeclue.com."
+      }
+    ]
+  },
+  {
+    "id": "law-office-of-donald-arthur-anderson",
+    "firmName": "Law Office of Donald Arthur Anderson",
+    "contactName": "Donald Arthur Anderson, Esq.",
+    "email": "andersonlawfirm@att.net",
+    "phone": "707-349-0355",
+    "website": "None (Directory / Bar Listing Only)",
+    "niche": "General Practice, Civil Matters & Estate Planning",
+    "location": "Lakeport, CA (Lake County)",
+    "pricingQuoted": "$19/mo Core",
+    "initialContactDate": "2026-11-07T00:18:04.110Z",
+    "lastContactDate": "2026-11-07T00:18:04.110Z",
+    "status": "delivered",
+    "sequenceStep": "Day 0 - Initial Outreach",
+    "diagnosedIssues": "Active California solo/boutique law practice in Lakeport (Lake County) operating without a standalone website. Pitched 24/7 intake advisor, $19/mo Core plan ($0 build fee), and free custom mockup.",
+    "caseStudySent": "https://taralattanzio.ca?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-law-office-of-donald-arthur-anderson",
+    "history": [
+      {
+        "step": "Day 0",
+        "sentAt": "2026-11-07T00:18:04.110Z",
+        "subject": "24/7 client intake & consultation for Law Office of Donald Arthur Anderson",
+        "resendId": "01a1b35e-9a79-742e-8e2a-1fa310e43ab3",
+        "status": "delivered",
+        "notes": "California small town lawyer outreach (NO BCC). Addressed 24/7 client intake advisor angle, $19/mo Core tier, $0 build fee, free custom mockup. Sent from hello@mail.beeclue.com with reply_to hello@beeclue.com."
+      }
+    ]
+  },
+  {
+    "id": "law-office-of-mary-margaret-heare-amodio",
+    "firmName": "Law Office of Mary Margaret Heare Amodio",
+    "contactName": "Mary Margaret Heare Amodio, Esq.",
+    "email": "amodiolaw@sbcglobal.net",
+    "phone": "707-263-5759",
+    "website": "None (Directory / Bar Listing Only)",
+    "niche": "General Practice, Civil Matters & Estate Planning",
+    "location": "Lakeport, CA (Lake County)",
+    "pricingQuoted": "$19/mo Core",
+    "initialContactDate": "2026-11-07T00:18:05.138Z",
+    "lastContactDate": "2026-11-07T00:18:05.138Z",
+    "status": "delivered",
+    "sequenceStep": "Day 0 - Initial Outreach",
+    "diagnosedIssues": "Active California solo/boutique law practice in Lakeport (Lake County) operating without a standalone website. Pitched 24/7 intake advisor, $19/mo Core plan ($0 build fee), and free custom mockup.",
+    "caseStudySent": "https://taralattanzio.ca?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-law-office-of-mary-margaret-heare-amodio",
+    "history": [
+      {
+        "step": "Day 0",
+        "sentAt": "2026-11-07T00:18:05.138Z",
+        "subject": "24/7 client intake & consultation for Law Office of Mary Margaret Heare Amodio",
+        "resendId": "01a1b35e-9e89-7677-8376-cedf65a02b63",
+        "status": "delivered",
+        "notes": "California small town lawyer outreach (NO BCC). Addressed 24/7 client intake advisor angle, $19/mo Core tier, $0 build fee, free custom mockup. Sent from hello@mail.beeclue.com with reply_to hello@beeclue.com."
+      }
+    ]
+  },
+  {
+    "id": "law-office-of-rita-m-miller",
+    "firmName": "Law Office of Rita M. Miller",
+    "contactName": "Rita Mongoven Miller, Esq.",
+    "email": "ritaclaire631@gmail.com",
+    "phone": "707-279-0550",
+    "website": "None (Directory / Bar Listing Only)",
+    "niche": "General Practice, Civil Matters & Estate Planning",
+    "location": "Kelseyville, CA (Lake County)",
+    "pricingQuoted": "$19/mo Core",
+    "initialContactDate": "2026-11-07T00:18:06.184Z",
+    "lastContactDate": "2026-11-07T00:18:06.184Z",
+    "status": "delivered",
+    "sequenceStep": "Day 0 - Initial Outreach",
+    "diagnosedIssues": "Active California solo/boutique law practice in Kelseyville (Lake County) operating without a standalone website. Pitched 24/7 intake advisor, $19/mo Core plan ($0 build fee), and free custom mockup.",
+    "caseStudySent": "https://taralattanzio.ca?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-law-office-of-rita-m-miller",
+    "history": [
+      {
+        "step": "Day 0",
+        "sentAt": "2026-11-07T00:18:06.184Z",
+        "subject": "24/7 client intake & consultation for Law Office of Rita M. Miller",
+        "resendId": "01a1b35e-a2a4-757d-acd1-cee9abe81bd1",
+        "status": "delivered",
+        "notes": "California small town lawyer outreach (NO BCC). Addressed 24/7 client intake advisor angle, $19/mo Core tier, $0 build fee, free custom mockup. Sent from hello@mail.beeclue.com with reply_to hello@beeclue.com."
+      }
+    ]
+  },
+  {
+    "id": "law-offices-of-edward-p-savin",
+    "firmName": "Law Offices of Edward P. Savin",
+    "contactName": "Edward Philip Savin, Esq.",
+    "email": "attorney@edwardsavin.com",
+    "phone": "707-263-6300",
+    "website": "None (Directory / Bar Listing Only)",
+    "niche": "Estate Planning, Probate & Trust Administration",
+    "location": "Lakeport, CA (Lake County)",
+    "pricingQuoted": "$19/mo Core",
+    "initialContactDate": "2026-11-07T00:18:07.198Z",
+    "lastContactDate": "2026-11-07T00:18:07.198Z",
+    "status": "delivered",
+    "sequenceStep": "Day 0 - Initial Outreach",
+    "diagnosedIssues": "Active California solo/boutique law practice in Lakeport (Lake County) operating without a standalone website. Pitched 24/7 intake advisor, $19/mo Core plan ($0 build fee), and free custom mockup.",
+    "caseStudySent": "https://taralattanzio.ca?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-law-offices-of-edward-p-savin",
+    "history": [
+      {
+        "step": "Day 0",
+        "sentAt": "2026-11-07T00:18:07.198Z",
+        "subject": "24/7 client intake & consultation for Law Offices of Edward P. Savin",
+        "resendId": "01a1b35e-a6b8-7c06-ad41-d6aea8931c27",
+        "status": "delivered",
+        "notes": "California small town lawyer outreach (NO BCC). Addressed 24/7 client intake advisor angle, $19/mo Core tier, $0 build fee, free custom mockup. Sent from hello@mail.beeclue.com with reply_to hello@beeclue.com."
+      }
+    ]
+  },
+  {
+    "id": "acct-higgins-associates-cpa-inc",
+    "firmName": "Higgins & Associates, CPA Inc.",
+    "contactName": "Higgins CPA Team",
+    "email": "info@cpa-now.com",
+    "phone": "",
+    "website": "Independent Accounting / CPA Practice",
+    "niche": "Accounting & Tax - Tax Planning, Bookkeeping & Small Business Advisory",
+    "location": "Orland, CA (Glenn County)",
+    "pricingQuoted": "$19/mo Core",
+    "initialContactDate": "2026-11-07T00:18:08.203Z",
+    "lastContactDate": "2026-11-07T00:18:08.203Z",
+    "status": "delivered",
+    "sequenceStep": "Day 0 - Initial Outreach",
+    "diagnosedIssues": "Independent CPA / accounting practice in Orland (Glenn County). Pitched 24/7 onboarding hub, document intake checklist, $19/mo Core plan ($0 build fee), and free custom mockup.",
+    "caseStudySent": "https://beeclue.com?utm_source=beeclue&utm_medium=email&utm_campaign=sales-outreach-acct-higgins-associates-cpa-inc",
+    "history": [
+      {
+        "step": "Day 0",
+        "sentAt": "2026-11-07T00:18:08.203Z",
+        "subject": "24/7 client intake & onboarding for Higgins & Associates, CPA Inc.",
+        "resendId": "01a1b35e-aa8a-7177-a61b-b7a43656e936",
+        "status": "delivered",
+        "notes": "California independent accountant outreach (NO BCC). Addressed 24/7 intake checklist, Core $19/mo tier, $0 build fee, free custom mockup. Sent from hello@mail.beeclue.com with reply_to hello@beeclue.com."
+      }
+    ]
+  },
+  {
+    "id": "acct-sac-valley-cpa",
+    "firmName": "Sac Valley CPA",
+    "contactName": "Hilda & Sac Valley Team",
+    "email": "info@sacvalley.net",
+    "phone": "",
+    "website": "Independent Accounting / CPA Practice",
+    "niche": "Accounting & Tax - Tax Compliance, Bookkeeping & Advisory",
+    "location": "Willows, CA (Glenn County)",
+    "pricingQuoted": "$19/mo Core",
+    "initialContactDate": "2026-11-07T00:18:09.224Z",
+    "lastContactDate": "2026-11-07T00:18:09.224Z",
+    "status": "delivered",
+    "sequenceStep": "Day 0 - Initial Outreach",
+    "diagnosedIssues": "Independent CPA / accounting practice in Willows (Glenn County). Pitched 24/7 onboarding hub, document intake checklist, $19/mo Core plan ($0 build fee), and free custom mockup.",
+    "caseStudySent": "https://beeclue.com?utm_source=beeclue&utm_medium=email&utm_campaign=sales-outreach-acct-sac-valley-cpa",
+    "history": [
+      {
+        "step": "Day 0",
+        "sentAt": "2026-11-07T00:18:09.224Z",
+        "subject": "24/7 client intake & onboarding for Sac Valley CPA",
+        "resendId": "01a1b35e-ae75-70b6-9e20-78e05a9af2d9",
+        "status": "delivered",
+        "notes": "California independent accountant outreach (NO BCC). Addressed 24/7 intake checklist, Core $19/mo tier, $0 build fee, free custom mockup. Sent from hello@mail.beeclue.com with reply_to hello@beeclue.com."
+      }
+    ]
+  },
+  {
+    "id": "acct-larry-l-snyder-ea",
+    "firmName": "Larry L. Snyder, EA",
+    "contactName": "Larry L. Snyder, EA",
+    "email": "snydertaxoffice@gmail.com",
+    "phone": "",
+    "website": "Independent Accounting / CPA Practice",
+    "niche": "Accounting & Tax - Income Tax Preparation, Bookkeeping & Payroll",
+    "location": "Hollister, CA (San Benito County)",
+    "pricingQuoted": "$19/mo Core",
+    "initialContactDate": "2026-11-07T00:18:10.273Z",
+    "lastContactDate": "2026-11-07T00:18:10.273Z",
+    "status": "delivered",
+    "sequenceStep": "Day 0 - Initial Outreach",
+    "diagnosedIssues": "Independent CPA / accounting practice in Hollister (San Benito County). Pitched 24/7 onboarding hub, document intake checklist, $19/mo Core plan ($0 build fee), and free custom mockup.",
+    "caseStudySent": "https://beeclue.com?utm_source=beeclue&utm_medium=email&utm_campaign=sales-outreach-acct-larry-l-snyder-ea",
+    "history": [
+      {
+        "step": "Day 0",
+        "sentAt": "2026-11-07T00:18:10.273Z",
+        "subject": "24/7 client intake & onboarding for Larry L. Snyder, EA",
+        "resendId": "01a1b35e-b272-77b8-91be-7ed5185ea1f2",
+        "status": "delivered",
+        "notes": "California independent accountant outreach (NO BCC). Addressed 24/7 intake checklist, Core $19/mo tier, $0 build fee, free custom mockup. Sent from hello@mail.beeclue.com with reply_to hello@beeclue.com."
+      }
+    ]
+  },
+  {
+    "id": "acct-abc-bookkeeping-tax-services",
+    "firmName": "ABC Bookkeeping & Tax Services",
+    "contactName": "ABC Accounting Team",
+    "email": "info@abcbookkeepingandtax.com",
+    "phone": "",
+    "website": "Independent Accounting / CPA Practice",
+    "niche": "Accounting & Tax - Bookkeeping & Business Tax Preparation",
+    "location": "Exeter, CA (Tulare County)",
+    "pricingQuoted": "$19/mo Core",
+    "initialContactDate": "2026-11-07T00:18:11.326Z",
+    "lastContactDate": "2026-11-07T00:18:11.326Z",
+    "status": "delivered",
+    "sequenceStep": "Day 0 - Initial Outreach",
+    "diagnosedIssues": "Independent CPA / accounting practice in Exeter (Tulare County). Pitched 24/7 onboarding hub, document intake checklist, $19/mo Core plan ($0 build fee), and free custom mockup.",
+    "caseStudySent": "https://beeclue.com?utm_source=beeclue&utm_medium=email&utm_campaign=sales-outreach-acct-abc-bookkeeping-tax-services",
+    "history": [
+      {
+        "step": "Day 0",
+        "sentAt": "2026-11-07T00:18:11.326Z",
+        "subject": "24/7 client intake & onboarding for ABC Bookkeeping & Tax Services",
+        "resendId": "01a1b35e-b68b-723c-a865-5f6a947e62b6",
+        "status": "delivered",
+        "notes": "California independent accountant outreach (NO BCC). Addressed 24/7 intake checklist, Core $19/mo tier, $0 build fee, free custom mockup. Sent from hello@mail.beeclue.com with reply_to hello@beeclue.com."
+      }
+    ]
+  },
+  {
+    "id": "acct-bressler-company-cpas",
+    "firmName": "Bressler & Company CPAs",
+    "contactName": "Bressler CPA Team",
+    "email": "info@bresslercompany.com",
+    "phone": "",
+    "website": "Independent Accounting / CPA Practice",
+    "niche": "Accounting & Tax - Small Business Accounting, Payroll & Tax Strategy",
+    "location": "Lemoore, CA (Kings County)",
+    "pricingQuoted": "$19/mo Core",
+    "initialContactDate": "2026-11-07T00:18:12.373Z",
+    "lastContactDate": "2026-11-07T00:18:12.373Z",
+    "status": "delivered",
+    "sequenceStep": "Day 0 - Initial Outreach",
+    "diagnosedIssues": "Independent CPA / accounting practice in Lemoore (Kings County). Pitched 24/7 onboarding hub, document intake checklist, $19/mo Core plan ($0 build fee), and free custom mockup.",
+    "caseStudySent": "https://beeclue.com?utm_source=beeclue&utm_medium=email&utm_campaign=sales-outreach-acct-bressler-company-cpas",
+    "history": [
+      {
+        "step": "Day 0",
+        "sentAt": "2026-11-07T00:18:12.373Z",
+        "subject": "24/7 client intake & onboarding for Bressler & Company CPAs",
+        "resendId": "01a1b35e-baaf-7f2e-aba8-d674f85e8746",
+        "status": "delivered",
+        "notes": "California independent accountant outreach (NO BCC). Addressed 24/7 intake checklist, Core $19/mo tier, $0 build fee, free custom mockup. Sent from hello@mail.beeclue.com with reply_to hello@beeclue.com."
+      }
+    ]
+  },
+  {
+    "id": "acct-agt-cpas-advisors",
+    "firmName": "AGT CPAs & Advisors",
+    "contactName": "AGT Advisory Team",
+    "email": "info@agtcpa.com",
+    "phone": "",
+    "website": "Independent Accounting / CPA Practice",
+    "niche": "Accounting & Tax - Strategic Tax Planning, Accounting & Virtual CFO Advisory",
+    "location": "Mount Shasta, CA (Siskiyou County)",
+    "pricingQuoted": "$19/mo Core",
+    "initialContactDate": "2026-11-07T00:18:13.419Z",
+    "lastContactDate": "2026-11-07T00:18:13.419Z",
+    "status": "delivered",
+    "sequenceStep": "Day 0 - Initial Outreach",
+    "diagnosedIssues": "Independent CPA / accounting practice in Mount Shasta (Siskiyou County). Pitched 24/7 onboarding hub, document intake checklist, $19/mo Core plan ($0 build fee), and free custom mockup.",
+    "caseStudySent": "https://beeclue.com?utm_source=beeclue&utm_medium=email&utm_campaign=sales-outreach-acct-agt-cpas-advisors",
+    "history": [
+      {
+        "step": "Day 0",
+        "sentAt": "2026-11-07T00:18:13.419Z",
+        "subject": "24/7 client intake & onboarding for AGT CPAs & Advisors",
+        "resendId": "01a1b35e-bec0-7333-8f78-285b1b7c54cb",
+        "status": "delivered",
+        "notes": "California independent accountant outreach (NO BCC). Addressed 24/7 intake checklist, Core $19/mo tier, $0 build fee, free custom mockup. Sent from hello@mail.beeclue.com with reply_to hello@beeclue.com."
+      }
+    ]
+  },
+  {
+    "id": "acct-tenney-and-company-cpas",
+    "firmName": "Tenney and Company CPAs",
+    "contactName": "Tenney CPA Team",
+    "email": "cls@tenney-cpa.com",
+    "phone": "",
+    "website": "Independent Accounting / CPA Practice",
+    "niche": "Accounting & Tax - Tax Preparation, Accounting & Advisory",
+    "location": "Yuba City, CA (Sutter County)",
+    "pricingQuoted": "$19/mo Core",
+    "initialContactDate": "2026-11-07T00:18:14.394Z",
+    "lastContactDate": "2026-11-07T00:18:14.394Z",
+    "status": "delivered",
+    "sequenceStep": "Day 0 - Initial Outreach",
+    "diagnosedIssues": "Independent CPA / accounting practice in Yuba City (Sutter County). Pitched 24/7 onboarding hub, document intake checklist, $19/mo Core plan ($0 build fee), and free custom mockup.",
+    "caseStudySent": "https://beeclue.com?utm_source=beeclue&utm_medium=email&utm_campaign=sales-outreach-acct-tenney-and-company-cpas",
+    "history": [
+      {
+        "step": "Day 0",
+        "sentAt": "2026-11-07T00:18:14.394Z",
+        "subject": "24/7 client intake & onboarding for Tenney and Company CPAs",
+        "resendId": "01a1b35e-c2d5-7d76-9241-29e35b7166f6",
+        "status": "delivered",
+        "notes": "California independent accountant outreach (NO BCC). Addressed 24/7 intake checklist, Core $19/mo tier, $0 build fee, free custom mockup. Sent from hello@mail.beeclue.com with reply_to hello@beeclue.com."
+      }
+    ]
+  },
+  {
+    "id": "acct-ibs-tax-services-inc",
+    "firmName": "IBS Tax Services, Inc.",
+    "contactName": "IBS Tax Team",
+    "email": "sac@ibstaxinc.com",
+    "phone": "",
+    "website": "Independent Accounting / CPA Practice",
+    "niche": "Accounting & Tax - Business Tax Filing, Bookkeeping & Payroll",
+    "location": "Yuba City, CA (Sutter County)",
+    "pricingQuoted": "$19/mo Core",
+    "initialContactDate": "2026-11-07T00:18:15.574Z",
+    "lastContactDate": "2026-11-07T00:18:15.574Z",
+    "status": "delivered",
+    "sequenceStep": "Day 0 - Initial Outreach",
+    "diagnosedIssues": "Independent CPA / accounting practice in Yuba City (Sutter County). Pitched 24/7 onboarding hub, document intake checklist, $19/mo Core plan ($0 build fee), and free custom mockup.",
+    "caseStudySent": "https://beeclue.com?utm_source=beeclue&utm_medium=email&utm_campaign=sales-outreach-acct-ibs-tax-services-inc",
+    "history": [
+      {
+        "step": "Day 0",
+        "sentAt": "2026-11-07T00:18:15.574Z",
+        "subject": "24/7 client intake & onboarding for IBS Tax Services, Inc.",
+        "resendId": "01a1b35e-c6a4-7ebc-adb8-eb7876759d76",
+        "status": "delivered",
+        "notes": "California independent accountant outreach (NO BCC). Addressed 24/7 intake checklist, Core $19/mo tier, $0 build fee, free custom mockup. Sent from hello@mail.beeclue.com with reply_to hello@beeclue.com."
+      }
+    ]
+  },
+  {
+    "id": "acct-gtr-tax-prep",
+    "firmName": "GTR Tax Prep",
+    "contactName": "GTR Tax Team",
+    "email": "gtrtaxprep@gmail.com",
+    "phone": "",
+    "website": "Independent Accounting / CPA Practice",
+    "niche": "Accounting & Tax - Personalized Tax Preparation & Financial Planning",
+    "location": "Loomis, CA (Placer County)",
+    "pricingQuoted": "$19/mo Core",
+    "initialContactDate": "2026-11-07T00:18:16.571Z",
+    "lastContactDate": "2026-11-07T00:18:16.571Z",
+    "status": "delivered",
+    "sequenceStep": "Day 0 - Initial Outreach",
+    "diagnosedIssues": "Independent CPA / accounting practice in Loomis (Placer County). Pitched 24/7 onboarding hub, document intake checklist, $19/mo Core plan ($0 build fee), and free custom mockup.",
+    "caseStudySent": "https://beeclue.com?utm_source=beeclue&utm_medium=email&utm_campaign=sales-outreach-acct-gtr-tax-prep",
+    "history": [
+      {
+        "step": "Day 0",
+        "sentAt": "2026-11-07T00:18:16.571Z",
+        "subject": "24/7 client intake & onboarding for GTR Tax Prep",
+        "resendId": "01a1b35e-cb3c-75a5-8e8e-236a74a1c71f",
+        "status": "delivered",
+        "notes": "California independent accountant outreach (NO BCC). Addressed 24/7 intake checklist, Core $19/mo tier, $0 build fee, free custom mockup. Sent from hello@mail.beeclue.com with reply_to hello@beeclue.com."
+      }
+    ]
+  },
+  {
+    "id": "acct-steven-l-carter-brc",
+    "firmName": "Steven L. Carter BRC",
+    "contactName": "Steven L. Carter, CPA",
+    "email": "info@pasocpas.com",
+    "phone": "",
+    "website": "Independent Accounting / CPA Practice",
+    "niche": "Accounting & Tax - Small Business Accounting, Bookkeeping & Tax",
+    "location": "Paso Robles, CA (San Luis Obispo County)",
+    "pricingQuoted": "$19/mo Core",
+    "initialContactDate": "2026-11-07T00:18:17.616Z",
+    "lastContactDate": "2026-11-07T00:18:17.616Z",
+    "status": "delivered",
+    "sequenceStep": "Day 0 - Initial Outreach",
+    "diagnosedIssues": "Independent CPA / accounting practice in Paso Robles (San Luis Obispo County). Pitched 24/7 onboarding hub, document intake checklist, $19/mo Core plan ($0 build fee), and free custom mockup.",
+    "caseStudySent": "https://beeclue.com?utm_source=beeclue&utm_medium=email&utm_campaign=sales-outreach-acct-steven-l-carter-brc",
+    "history": [
+      {
+        "step": "Day 0",
+        "sentAt": "2026-11-07T00:18:17.616Z",
+        "subject": "24/7 client intake & onboarding for Steven L. Carter BRC",
+        "resendId": "01a1b35e-cf26-7268-9625-62388b64b253",
+        "status": "delivered",
+        "notes": "California independent accountant outreach (NO BCC). Addressed 24/7 intake checklist, Core $19/mo tier, $0 build fee, free custom mockup. Sent from hello@mail.beeclue.com with reply_to hello@beeclue.com."
+      }
+    ]
+  },
+  {
+    "id": "acct-paul-gonzalez-cpa",
+    "firmName": "Paul Gonzalez, CPA",
+    "contactName": "Paul Gonzalez, CPA",
+    "email": "paul@pasoroblescpa.com",
+    "phone": "",
+    "website": "Independent Accounting / CPA Practice",
+    "niche": "Accounting & Tax - Tax Consulting, Trust Administration & Advisory",
+    "location": "Paso Robles, CA (San Luis Obispo County)",
+    "pricingQuoted": "$19/mo Core",
+    "initialContactDate": "2026-11-07T00:18:18.663Z",
+    "lastContactDate": "2026-11-07T00:18:18.663Z",
+    "status": "delivered",
+    "sequenceStep": "Day 0 - Initial Outreach",
+    "diagnosedIssues": "Independent CPA / accounting practice in Paso Robles (San Luis Obispo County). Pitched 24/7 onboarding hub, document intake checklist, $19/mo Core plan ($0 build fee), and free custom mockup.",
+    "caseStudySent": "https://beeclue.com?utm_source=beeclue&utm_medium=email&utm_campaign=sales-outreach-acct-paul-gonzalez-cpa",
+    "history": [
+      {
+        "step": "Day 0",
+        "sentAt": "2026-11-07T00:18:18.663Z",
+        "subject": "24/7 client intake & onboarding for Paul Gonzalez, CPA",
+        "resendId": "01a1b35e-d33b-7352-b5d5-256dd69e6ec1",
+        "status": "delivered",
+        "notes": "California independent accountant outreach (NO BCC). Addressed 24/7 intake checklist, Core $19/mo tier, $0 build fee, free custom mockup. Sent from hello@mail.beeclue.com with reply_to hello@beeclue.com."
+      }
+    ]
+  },
+  {
+    "id": "acct-macfarlane-cpa-pc",
+    "firmName": "Macfarlane CPA, PC",
+    "contactName": "Macfarlane CPA Team",
+    "email": "info@macfarlanecpa.com",
+    "phone": "",
+    "website": "Independent Accounting / CPA Practice",
+    "niche": "Accounting & Tax - Business & Individual Tax Planning & Accounting",
+    "location": "Templeton, CA (San Luis Obispo County)",
+    "pricingQuoted": "$19/mo Core",
+    "initialContactDate": "2026-11-07T00:18:19.711Z",
+    "lastContactDate": "2026-11-07T00:18:19.711Z",
+    "status": "delivered",
+    "sequenceStep": "Day 0 - Initial Outreach",
+    "diagnosedIssues": "Independent CPA / accounting practice in Templeton (San Luis Obispo County). Pitched 24/7 onboarding hub, document intake checklist, $19/mo Core plan ($0 build fee), and free custom mockup.",
+    "caseStudySent": "https://beeclue.com?utm_source=beeclue&utm_medium=email&utm_campaign=sales-outreach-acct-macfarlane-cpa-pc",
+    "history": [
+      {
+        "step": "Day 0",
+        "sentAt": "2026-11-07T00:18:19.711Z",
+        "subject": "24/7 client intake & onboarding for Macfarlane CPA, PC",
+        "resendId": "01a1b35e-d74e-7cab-aed1-ffa659896197",
+        "status": "delivered",
+        "notes": "California independent accountant outreach (NO BCC). Addressed 24/7 intake checklist, Core $19/mo tier, $0 build fee, free custom mockup. Sent from hello@mail.beeclue.com with reply_to hello@beeclue.com."
+      }
+    ]
+  },
+  {
+    "id": "acct-central-bookkeeping-tax-service-inc",
+    "firmName": "Central Bookkeeping & Tax Service Inc.",
+    "contactName": "Central Bookkeeping Team",
+    "email": "centralbookkeeping@gmail.com",
+    "phone": "",
+    "website": "Independent Accounting / CPA Practice",
+    "niche": "Accounting & Tax - Small Business Bookkeeping & Corporate Tax Prep",
+    "location": "Paso Robles, CA (San Luis Obispo County)",
+    "pricingQuoted": "$19/mo Core",
+    "initialContactDate": "2026-11-07T00:18:20.759Z",
+    "lastContactDate": "2026-11-07T00:18:20.759Z",
+    "status": "delivered",
+    "sequenceStep": "Day 0 - Initial Outreach",
+    "diagnosedIssues": "Independent CPA / accounting practice in Paso Robles (San Luis Obispo County). Pitched 24/7 onboarding hub, document intake checklist, $19/mo Core plan ($0 build fee), and free custom mockup.",
+    "caseStudySent": "https://beeclue.com?utm_source=beeclue&utm_medium=email&utm_campaign=sales-outreach-acct-central-bookkeeping-tax-service-inc",
+    "history": [
+      {
+        "step": "Day 0",
+        "sentAt": "2026-11-07T00:18:20.759Z",
+        "subject": "24/7 client intake & onboarding for Central Bookkeeping & Tax Service Inc.",
+        "resendId": "01a1b35e-db65-780f-8e6e-7efd2de8c844",
+        "status": "delivered",
+        "notes": "California independent accountant outreach (NO BCC). Addressed 24/7 intake checklist, Core $19/mo tier, $0 build fee, free custom mockup. Sent from hello@mail.beeclue.com with reply_to hello@beeclue.com."
+      }
+    ]
+  },
+  {
+    "id": "acct-c-d-llp-cpas-and-advisors",
+    "firmName": "C&D LLP, CPAs and Advisors",
+    "contactName": "C&D Advisory Team",
+    "email": "info@cdllp.com",
+    "phone": "",
+    "website": "Independent Accounting / CPA Practice",
+    "niche": "Accounting & Tax - Estate, Trust & Business Tax Planning",
+    "location": "Solvang, CA (Santa Barbara County)",
+    "pricingQuoted": "$19/mo Core",
+    "initialContactDate": "2026-11-07T00:18:21.732Z",
+    "lastContactDate": "2026-11-07T00:18:21.732Z",
+    "status": "delivered",
+    "sequenceStep": "Day 0 - Initial Outreach",
+    "diagnosedIssues": "Independent CPA / accounting practice in Solvang (Santa Barbara County). Pitched 24/7 onboarding hub, document intake checklist, $19/mo Core plan ($0 build fee), and free custom mockup.",
+    "caseStudySent": "https://beeclue.com?utm_source=beeclue&utm_medium=email&utm_campaign=sales-outreach-acct-c-d-llp-cpas-and-advisors",
+    "history": [
+      {
+        "step": "Day 0",
+        "sentAt": "2026-11-07T00:18:21.732Z",
+        "subject": "24/7 client intake & onboarding for C&D LLP, CPAs and Advisors",
+        "resendId": "01a1b35e-df7f-741d-9e7f-3a48c4a689cc",
+        "status": "delivered",
+        "notes": "California independent accountant outreach (NO BCC). Addressed 24/7 intake checklist, Core $19/mo tier, $0 build fee, free custom mockup. Sent from hello@mail.beeclue.com with reply_to hello@beeclue.com."
+      }
+    ]
+  },
+  {
+    "id": "acct-serritslev-norwine-co-cpas-llp",
+    "firmName": "Serritslev Norwine & Co CPAs, LLP",
+    "contactName": "Duane & Mike",
+    "email": "admin@solvangcpa.com",
+    "phone": "",
+    "website": "Independent Accounting / CPA Practice",
+    "niche": "Accounting & Tax - Tax Preparation, QuickBooks & Advisory",
+    "location": "Solvang, CA (Santa Barbara County)",
+    "pricingQuoted": "$19/mo Core",
+    "initialContactDate": "2026-11-07T00:18:22.737Z",
+    "lastContactDate": "2026-11-07T00:18:22.737Z",
+    "status": "delivered",
+    "sequenceStep": "Day 0 - Initial Outreach",
+    "diagnosedIssues": "Independent CPA / accounting practice in Solvang (Santa Barbara County). Pitched 24/7 onboarding hub, document intake checklist, $19/mo Core plan ($0 build fee), and free custom mockup.",
+    "caseStudySent": "https://beeclue.com?utm_source=beeclue&utm_medium=email&utm_campaign=sales-outreach-acct-serritslev-norwine-co-cpas-llp",
+    "history": [
+      {
+        "step": "Day 0",
+        "sentAt": "2026-11-07T00:18:22.737Z",
+        "subject": "24/7 client intake & onboarding for Serritslev Norwine & Co CPAs, LLP",
+        "resendId": "01a1b35e-e34e-777f-9e55-340a1c391ef5",
+        "status": "delivered",
+        "notes": "California independent accountant outreach (NO BCC). Addressed 24/7 intake checklist, Core $19/mo tier, $0 build fee, free custom mockup. Sent from hello@mail.beeclue.com with reply_to hello@beeclue.com."
+      }
+    ]
+  },
+  {
+    "id": "acct-johnson-johnson-cpas",
+    "firmName": "Johnson & Johnson CPAs",
+    "contactName": "Johnson & Johnson Team",
+    "email": "info@vikingcpa.com",
+    "phone": "",
+    "website": "Independent Accounting / CPA Practice",
+    "niche": "Accounting & Tax - Comprehensive Accounting & Taxation Services",
+    "location": "Solvang, CA (Santa Barbara County)",
+    "pricingQuoted": "$19/mo Core",
+    "initialContactDate": "2026-11-07T00:18:23.755Z",
+    "lastContactDate": "2026-11-07T00:18:23.755Z",
+    "status": "delivered",
+    "sequenceStep": "Day 0 - Initial Outreach",
+    "diagnosedIssues": "Independent CPA / accounting practice in Solvang (Santa Barbara County). Pitched 24/7 onboarding hub, document intake checklist, $19/mo Core plan ($0 build fee), and free custom mockup.",
+    "caseStudySent": "https://beeclue.com?utm_source=beeclue&utm_medium=email&utm_campaign=sales-outreach-acct-johnson-johnson-cpas",
+    "history": [
+      {
+        "step": "Day 0",
+        "sentAt": "2026-11-07T00:18:23.755Z",
+        "subject": "24/7 client intake & onboarding for Johnson & Johnson CPAs",
+        "resendId": "01a1b35e-e73b-7c93-88ab-0641ba1d9ef1",
+        "status": "delivered",
+        "notes": "California independent accountant outreach (NO BCC). Addressed 24/7 intake checklist, Core $19/mo tier, $0 build fee, free custom mockup. Sent from hello@mail.beeclue.com with reply_to hello@beeclue.com."
+      }
+    ]
+  },
+  {
+    "id": "acct-ferguson-bookkeeping",
+    "firmName": "Ferguson Bookkeeping",
+    "contactName": "April Ferguson",
+    "email": "april@fergusonbookkeeping.com",
+    "phone": "",
+    "website": "Independent Accounting / CPA Practice",
+    "niche": "Accounting & Tax - Boutique Small Business Bookkeeping & Client Intake",
+    "location": "Solvang, CA (Santa Barbara County)",
+    "pricingQuoted": "$19/mo Core",
+    "initialContactDate": "2026-11-07T00:18:24.762Z",
+    "lastContactDate": "2026-11-07T00:18:24.762Z",
+    "status": "delivered",
+    "sequenceStep": "Day 0 - Initial Outreach",
+    "diagnosedIssues": "Independent CPA / accounting practice in Solvang (Santa Barbara County). Pitched 24/7 onboarding hub, document intake checklist, $19/mo Core plan ($0 build fee), and free custom mockup.",
+    "caseStudySent": "https://beeclue.com?utm_source=beeclue&utm_medium=email&utm_campaign=sales-outreach-acct-ferguson-bookkeeping",
+    "history": [
+      {
+        "step": "Day 0",
+        "sentAt": "2026-11-07T00:18:24.762Z",
+        "subject": "24/7 client intake & onboarding for Ferguson Bookkeeping",
+        "resendId": "01a1b35e-eb36-71b4-b514-5479b7d3674c",
+        "status": "delivered",
+        "notes": "California independent accountant outreach (NO BCC). Addressed 24/7 intake checklist, Core $19/mo tier, $0 build fee, free custom mockup. Sent from hello@mail.beeclue.com with reply_to hello@beeclue.com."
+      }
+    ]
+  },
+  {
+    "id": "acct-nicholson-and-schwartz-cpas",
+    "firmName": "Nicholson and Schwartz CPAs",
+    "contactName": "Nicholson & Schwartz Team",
+    "email": "info@nicholsonschwartz.com",
+    "phone": "",
+    "website": "Independent Accounting / CPA Practice",
+    "niche": "Accounting & Tax - Tax Planning, Estate Planning & Bookkeeping",
+    "location": "Buellton, CA (Santa Barbara County)",
+    "pricingQuoted": "$19/mo Core",
+    "initialContactDate": "2026-11-07T00:18:25.767Z",
+    "lastContactDate": "2026-11-07T00:18:25.767Z",
+    "status": "delivered",
+    "sequenceStep": "Day 0 - Initial Outreach",
+    "diagnosedIssues": "Independent CPA / accounting practice in Buellton (Santa Barbara County). Pitched 24/7 onboarding hub, document intake checklist, $19/mo Core plan ($0 build fee), and free custom mockup.",
+    "caseStudySent": "https://beeclue.com?utm_source=beeclue&utm_medium=email&utm_campaign=sales-outreach-acct-nicholson-and-schwartz-cpas",
+    "history": [
+      {
+        "step": "Day 0",
+        "sentAt": "2026-11-07T00:18:25.767Z",
+        "subject": "24/7 client intake & onboarding for Nicholson and Schwartz CPAs",
+        "resendId": "01a1b35e-ef26-760f-8927-1b4cb300932a",
+        "status": "delivered",
+        "notes": "California independent accountant outreach (NO BCC). Addressed 24/7 intake checklist, Core $19/mo tier, $0 build fee, free custom mockup. Sent from hello@mail.beeclue.com with reply_to hello@beeclue.com."
+      }
+    ]
+  },
+  {
+    "id": "acct-walker-wilson-hughen-cpas",
+    "firmName": "Walker, Wilson & Hughen, CPAs",
+    "contactName": "Walker Wilson CPA Team",
+    "email": "email@wwhcpas.com",
+    "phone": "",
+    "website": "Independent Accounting / CPA Practice",
+    "niche": "Accounting & Tax - Individual & Business Tax Planning & Trust Services",
+    "location": "Lompoc, CA (Santa Barbara County)",
+    "pricingQuoted": "$19/mo Core",
+    "initialContactDate": "2026-11-07T00:18:26.769Z",
+    "lastContactDate": "2026-11-07T00:18:26.769Z",
+    "status": "delivered",
+    "sequenceStep": "Day 0 - Initial Outreach",
+    "diagnosedIssues": "Independent CPA / accounting practice in Lompoc (Santa Barbara County). Pitched 24/7 onboarding hub, document intake checklist, $19/mo Core plan ($0 build fee), and free custom mockup.",
+    "caseStudySent": "https://beeclue.com?utm_source=beeclue&utm_medium=email&utm_campaign=sales-outreach-acct-walker-wilson-hughen-cpas",
+    "history": [
+      {
+        "step": "Day 0",
+        "sentAt": "2026-11-07T00:18:26.769Z",
+        "subject": "24/7 client intake & onboarding for Walker, Wilson & Hughen, CPAs",
+        "resendId": "01a1b35e-f30e-7553-bb31-38230bf74c7a",
+        "status": "delivered",
+        "notes": "California independent accountant outreach (NO BCC). Addressed 24/7 intake checklist, Core $19/mo tier, $0 build fee, free custom mockup. Sent from hello@mail.beeclue.com with reply_to hello@beeclue.com."
+      }
+    ]
+  },
+  {
+    "id": "acct-lopez-tax-service",
+    "firmName": "Lopez Tax Service",
+    "contactName": "Lopez Tax Team",
+    "email": "info@lopeztax.net",
+    "phone": "",
+    "website": "Independent Accounting / CPA Practice",
+    "niche": "Accounting & Tax - Business Tax Preparation & Accounting Advisory",
+    "location": "Soledad, CA (Monterey County)",
+    "pricingQuoted": "$19/mo Core",
+    "initialContactDate": "2026-11-07T00:18:27.771Z",
+    "lastContactDate": "2026-11-07T00:18:27.771Z",
+    "status": "delivered",
+    "sequenceStep": "Day 0 - Initial Outreach",
+    "diagnosedIssues": "Independent CPA / accounting practice in Soledad (Monterey County). Pitched 24/7 onboarding hub, document intake checklist, $19/mo Core plan ($0 build fee), and free custom mockup.",
+    "caseStudySent": "https://beeclue.com?utm_source=beeclue&utm_medium=email&utm_campaign=sales-outreach-acct-lopez-tax-service",
+    "history": [
+      {
+        "step": "Day 0",
+        "sentAt": "2026-11-07T00:18:27.771Z",
+        "subject": "24/7 client intake & onboarding for Lopez Tax Service",
+        "resendId": "01a1b35e-f6fa-7e88-a56f-101afe632eaa",
+        "status": "delivered",
+        "notes": "California independent accountant outreach (NO BCC). Addressed 24/7 intake checklist, Core $19/mo tier, $0 build fee, free custom mockup. Sent from hello@mail.beeclue.com with reply_to hello@beeclue.com."
+      }
+    ]
+  },
+  {
+    "id": "ink-monkey-graphics",
+    "firmName": "Ink Monkey Graphics",
+    "contactName": "Ink Monkey Team",
+    "email": "frontdesk@inkmonkeygraphics.com",
+    "phone": "(530) 753-3333",
+    "website": "Commercial Printing & Signage Partner",
+    "niche": "Print & Sign Partner - Commercial Printing, Vehicle Lettering & Signage",
+    "location": "Davis, CA (Yolo County)",
+    "pricingQuoted": "20% Referral Commission",
+    "initialContactDate": "2026-11-07T00:18:28.772Z",
+    "lastContactDate": "2026-11-07T00:18:28.772Z",
+    "status": "delivered",
+    "sequenceStep": "Day 0 - Initial Outreach",
+    "diagnosedIssues": "California print & sign company in Davis (Yolo County). Offered 20% reciprocal web design commission + reciprocal print referrals.",
+    "caseStudySent": "https://beeclue.com?utm_source=beeclue&utm_medium=partner-outreach&utm_campaign=sales-outreach-partner-ink-monkey-graphics",
+    "history": [
+      {
+        "step": "Day 0",
+        "sentAt": "2026-11-07T00:18:28.772Z",
+        "subject": "Web design referral partnership for Ink Monkey Graphics clients",
+        "resendId": "01a1b35e-fae3-77f2-b4c2-3f754fa27b96",
+        "status": "delivered",
+        "notes": "California print & sign shop partnership outreach (NO BCC). Offered 20% referral commission on website design/development + reciprocal referrals for physical print collateral. Sent from hello@mail.beeclue.com with reply_to hello@beeclue.com."
+      }
+    ]
+  },
+  {
+    "id": "woodland-signs-banners",
+    "firmName": "Woodland Signs & Banners",
+    "contactName": "Woodland Signs Team",
+    "email": "info@woodlandsignsandbanners.com",
+    "phone": "(530) 848-3511",
+    "website": "Commercial Printing & Signage Partner",
+    "niche": "Print & Sign Partner - Commercial Printing, Vehicle Lettering & Signage",
+    "location": "Woodland, CA (Yolo County)",
+    "pricingQuoted": "20% Referral Commission",
+    "initialContactDate": "2026-11-07T00:18:29.783Z",
+    "lastContactDate": "2026-11-07T00:18:29.783Z",
+    "status": "delivered",
+    "sequenceStep": "Day 0 - Initial Outreach",
+    "diagnosedIssues": "California print & sign company in Woodland (Yolo County). Offered 20% reciprocal web design commission + reciprocal print referrals.",
+    "caseStudySent": "https://beeclue.com?utm_source=beeclue&utm_medium=partner-outreach&utm_campaign=sales-outreach-partner-woodland-signs-banners",
+    "history": [
+      {
+        "step": "Day 0",
+        "sentAt": "2026-11-07T00:18:29.783Z",
+        "subject": "Web design referral partnership for Woodland Signs & Banners clients",
+        "resendId": "01a1b35e-fed1-7dbd-bae1-3fb72d86aec5",
+        "status": "delivered",
+        "notes": "California print & sign shop partnership outreach (NO BCC). Offered 20% referral commission on website design/development + reciprocal referrals for physical print collateral. Sent from hello@mail.beeclue.com with reply_to hello@beeclue.com."
+      }
+    ]
+  },
+  {
+    "id": "vaca-printing",
+    "firmName": "Vaca Printing",
+    "contactName": "Vaca Printing Team",
+    "email": "vacaprinting@gmail.com",
+    "phone": "(707) 448-4000",
+    "website": "Commercial Printing & Signage Partner",
+    "niche": "Print & Sign Partner - Commercial Printing, Vehicle Lettering & Signage",
+    "location": "Vacaville, CA (Solano County)",
+    "pricingQuoted": "20% Referral Commission",
+    "initialContactDate": "2026-11-07T00:18:30.913Z",
+    "lastContactDate": "2026-11-07T00:18:30.913Z",
+    "status": "delivered",
+    "sequenceStep": "Day 0 - Initial Outreach",
+    "diagnosedIssues": "California print & sign company in Vacaville (Solano County). Offered 20% reciprocal web design commission + reciprocal print referrals.",
+    "caseStudySent": "https://beeclue.com?utm_source=beeclue&utm_medium=partner-outreach&utm_campaign=sales-outreach-partner-vaca-printing",
+    "history": [
+      {
+        "step": "Day 0",
+        "sentAt": "2026-11-07T00:18:30.913Z",
+        "subject": "Web design referral partnership for Vaca Printing clients",
+        "resendId": "01a1b35f-035c-7da7-ab78-afedd782d69c",
+        "status": "delivered",
+        "notes": "California print & sign shop partnership outreach (NO BCC). Offered 20% referral commission on website design/development + reciprocal referrals for physical print collateral. Sent from hello@mail.beeclue.com with reply_to hello@beeclue.com."
+      }
+    ]
+  },
+  {
+    "id": "solano-signs",
+    "firmName": "Solano Signs",
+    "contactName": "Solano Signs Team",
+    "email": "sales@solanosigns.com",
+    "phone": "(707) 425-7446",
+    "website": "Commercial Printing & Signage Partner",
+    "niche": "Print & Sign Partner - Commercial Printing, Vehicle Lettering & Signage",
+    "location": "Fairfield, CA (Solano County)",
+    "pricingQuoted": "20% Referral Commission",
+    "initialContactDate": "2026-11-07T00:18:32.367Z",
+    "lastContactDate": "2026-11-07T00:18:32.367Z",
+    "status": "delivered",
+    "sequenceStep": "Day 0 - Initial Outreach",
+    "diagnosedIssues": "California print & sign company in Fairfield (Solano County). Offered 20% reciprocal web design commission + reciprocal print referrals.",
+    "caseStudySent": "https://beeclue.com?utm_source=beeclue&utm_medium=partner-outreach&utm_campaign=sales-outreach-partner-solano-signs",
+    "history": [
+      {
+        "step": "Day 0",
+        "sentAt": "2026-11-07T00:18:32.367Z",
+        "subject": "Web design referral partnership for Solano Signs clients",
+        "resendId": "01a1b35f-085a-77b9-bbc9-4a2fe7077a4e",
+        "status": "delivered",
+        "notes": "California print & sign shop partnership outreach (NO BCC). Offered 20% referral commission on website design/development + reciprocal referrals for physical print collateral. Sent from hello@mail.beeclue.com with reply_to hello@beeclue.com."
+      }
+    ]
+  },
+  {
+    "id": "western-sign-co",
+    "firmName": "Western Sign Co.",
+    "contactName": "Western Sign Team",
+    "email": "westernsignco@sbcglobal.net",
+    "phone": "(707) 422-7446",
+    "website": "Commercial Printing & Signage Partner",
+    "niche": "Print & Sign Partner - Commercial Printing, Vehicle Lettering & Signage",
+    "location": "Fairfield, CA (Solano County)",
+    "pricingQuoted": "20% Referral Commission",
+    "initialContactDate": "2026-11-07T00:18:33.413Z",
+    "lastContactDate": "2026-11-07T00:18:33.413Z",
+    "status": "delivered",
+    "sequenceStep": "Day 0 - Initial Outreach",
+    "diagnosedIssues": "California print & sign company in Fairfield (Solano County). Offered 20% reciprocal web design commission + reciprocal print referrals.",
+    "caseStudySent": "https://beeclue.com?utm_source=beeclue&utm_medium=partner-outreach&utm_campaign=sales-outreach-partner-western-sign-co",
+    "history": [
+      {
+        "step": "Day 0",
+        "sentAt": "2026-11-07T00:18:33.413Z",
+        "subject": "Web design referral partnership for Western Sign Co. clients",
+        "resendId": "01a1b35f-0d20-73ea-a272-89b4a0d9c5ad",
+        "status": "delivered",
+        "notes": "California print & sign shop partnership outreach (NO BCC). Offered 20% referral commission on website design/development + reciprocal referrals for physical print collateral. Sent from hello@mail.beeclue.com with reply_to hello@beeclue.com."
+      }
+    ]
+  },
+  {
+    "id": "healdsburg-signs",
+    "firmName": "Healdsburg Signs",
+    "contactName": "Healdsburg Signs Team",
+    "email": "orders@healdsburgsigns.com",
+    "phone": "(707) 433-7446",
+    "website": "Commercial Printing & Signage Partner",
+    "niche": "Print & Sign Partner - Commercial Printing, Vehicle Lettering & Signage",
+    "location": "Healdsburg, CA (Sonoma County)",
+    "pricingQuoted": "20% Referral Commission",
+    "initialContactDate": "2026-11-07T00:18:34.420Z",
+    "lastContactDate": "2026-11-07T00:18:34.420Z",
+    "status": "delivered",
+    "sequenceStep": "Day 0 - Initial Outreach",
+    "diagnosedIssues": "California print & sign company in Healdsburg (Sonoma County). Offered 20% reciprocal web design commission + reciprocal print referrals.",
+    "caseStudySent": "https://beeclue.com?utm_source=beeclue&utm_medium=partner-outreach&utm_campaign=sales-outreach-partner-healdsburg-signs",
+    "history": [
+      {
+        "step": "Day 0",
+        "sentAt": "2026-11-07T00:18:34.420Z",
+        "subject": "Web design referral partnership for Healdsburg Signs clients",
+        "resendId": "01a1b35f-10f0-728c-b2a4-5fd1072f059b",
+        "status": "delivered",
+        "notes": "California print & sign shop partnership outreach (NO BCC). Offered 20% referral commission on website design/development + reciprocal referrals for physical print collateral. Sent from hello@mail.beeclue.com with reply_to hello@beeclue.com."
+      }
+    ]
+  },
+  {
+    "id": "healdsburg-blue-blueprinting-digital-services",
+    "firmName": "Healdsburg Blue Blueprinting & Digital Services",
+    "contactName": "Healdsburg Blue Team",
+    "email": "HLDGBLUE@SONIC.NET",
+    "phone": "(707) 431-7700",
+    "website": "Commercial Printing & Signage Partner",
+    "niche": "Print & Sign Partner - Commercial Printing, Vehicle Lettering & Signage",
+    "location": "Healdsburg, CA (Sonoma County)",
+    "pricingQuoted": "20% Referral Commission",
+    "initialContactDate": "2026-11-07T00:18:35.465Z",
+    "lastContactDate": "2026-11-07T00:18:35.465Z",
+    "status": "delivered",
+    "sequenceStep": "Day 0 - Initial Outreach",
+    "diagnosedIssues": "California print & sign company in Healdsburg (Sonoma County). Offered 20% reciprocal web design commission + reciprocal print referrals.",
+    "caseStudySent": "https://beeclue.com?utm_source=beeclue&utm_medium=partner-outreach&utm_campaign=sales-outreach-partner-healdsburg-blue-blueprinting-digital-services",
+    "history": [
+      {
+        "step": "Day 0",
+        "sentAt": "2026-11-07T00:18:35.465Z",
+        "subject": "Web design referral partnership for Healdsburg Blue Blueprinting & Digital Services clients",
+        "resendId": "01a1b35f-14e0-7d27-a56e-482f97b49bbc",
+        "status": "delivered",
+        "notes": "California print & sign shop partnership outreach (NO BCC). Offered 20% referral commission on website design/development + reciprocal referrals for physical print collateral. Sent from hello@mail.beeclue.com with reply_to hello@beeclue.com."
+      }
+    ]
+  },
+  {
+    "id": "sprint-copy-center",
+    "firmName": "Sprint Copy Center",
+    "contactName": "Sprint Copy Team",
+    "email": "sprint@sonic.net",
+    "phone": "(707) 823-7446",
+    "website": "Commercial Printing & Signage Partner",
+    "niche": "Print & Sign Partner - Commercial Printing, Vehicle Lettering & Signage",
+    "location": "Sebastopol, CA (Sonoma County)",
+    "pricingQuoted": "20% Referral Commission",
+    "initialContactDate": "2026-11-07T00:18:36.566Z",
+    "lastContactDate": "2026-11-07T00:18:36.566Z",
+    "status": "delivered",
+    "sequenceStep": "Day 0 - Initial Outreach",
+    "diagnosedIssues": "California print & sign company in Sebastopol (Sonoma County). Offered 20% reciprocal web design commission + reciprocal print referrals.",
+    "caseStudySent": "https://beeclue.com?utm_source=beeclue&utm_medium=partner-outreach&utm_campaign=sales-outreach-partner-sprint-copy-center",
+    "history": [
+      {
+        "step": "Day 0",
+        "sentAt": "2026-11-07T00:18:36.566Z",
+        "subject": "Web design referral partnership for Sprint Copy Center clients",
+        "resendId": "01a1b35f-18f9-7ca2-a802-952f44e5306b",
+        "status": "delivered",
+        "notes": "California print & sign shop partnership outreach (NO BCC). Offered 20% referral commission on website design/development + reciprocal referrals for physical print collateral. Sent from hello@mail.beeclue.com with reply_to hello@beeclue.com."
+      }
+    ]
+  },
+  {
+    "id": "signarama-napa",
+    "firmName": "Signarama Napa",
+    "contactName": "Nat & Signarama Team",
+    "email": "nat@signarama-napa.com",
+    "phone": "(707) 254-7446",
+    "website": "Commercial Printing & Signage Partner",
+    "niche": "Print & Sign Partner - Commercial Printing, Vehicle Lettering & Signage",
+    "location": "Napa, CA (Napa County)",
+    "pricingQuoted": "20% Referral Commission",
+    "initialContactDate": "2026-11-07T00:18:37.603Z",
+    "lastContactDate": "2026-11-07T00:18:37.603Z",
+    "status": "delivered",
+    "sequenceStep": "Day 0 - Initial Outreach",
+    "diagnosedIssues": "California print & sign company in Napa (Napa County). Offered 20% reciprocal web design commission + reciprocal print referrals.",
+    "caseStudySent": "https://beeclue.com?utm_source=beeclue&utm_medium=partner-outreach&utm_campaign=sales-outreach-partner-signarama-napa",
+    "history": [
+      {
+        "step": "Day 0",
+        "sentAt": "2026-11-07T00:18:37.603Z",
+        "subject": "Web design referral partnership for Signarama Napa clients",
+        "resendId": "01a1b35f-1d80-79a4-9d9b-857f1bd71fed",
+        "status": "delivered",
+        "notes": "California print & sign shop partnership outreach (NO BCC). Offered 20% referral commission on website design/development + reciprocal referrals for physical print collateral. Sent from hello@mail.beeclue.com with reply_to hello@beeclue.com."
+      }
+    ]
+  },
+  {
+    "id": "jodie-s-designs",
+    "firmName": "Jodie's Designs",
+    "contactName": "Jodie & Team",
+    "email": "jodie@jodiesdesign.com",
+    "phone": "(707) 963-7446",
+    "website": "Commercial Printing & Signage Partner",
+    "niche": "Print & Sign Partner - Commercial Printing, Vehicle Lettering & Signage",
+    "location": "St. Helena, CA (Napa County)",
+    "pricingQuoted": "20% Referral Commission",
+    "initialContactDate": "2026-11-07T00:18:38.613Z",
+    "lastContactDate": "2026-11-07T00:18:38.613Z",
+    "status": "delivered",
+    "sequenceStep": "Day 0 - Initial Outreach",
+    "diagnosedIssues": "California print & sign company in St. Helena (Napa County). Offered 20% reciprocal web design commission + reciprocal print referrals.",
+    "caseStudySent": "https://beeclue.com?utm_source=beeclue&utm_medium=partner-outreach&utm_campaign=sales-outreach-partner-jodie-s-designs",
+    "history": [
+      {
+        "step": "Day 0",
+        "sentAt": "2026-11-07T00:18:38.613Z",
+        "subject": "Web design referral partnership for Jodie's Designs clients",
+        "resendId": "01a1b35f-214e-797f-a328-ae46d5f38fea",
+        "status": "delivered",
+        "notes": "California print & sign shop partnership outreach (NO BCC). Offered 20% referral commission on website design/development + reciprocal referrals for physical print collateral. Sent from hello@mail.beeclue.com with reply_to hello@beeclue.com."
+      }
+    ]
+  },
+  {
+    "id": "napa-sign-shop",
+    "firmName": "Napa Sign Shop",
+    "contactName": "Napa Sign Team",
+    "email": "signs@napasignshop.net",
+    "phone": "(707) 255-5855",
+    "website": "Commercial Printing & Signage Partner",
+    "niche": "Print & Sign Partner - Commercial Printing, Vehicle Lettering & Signage",
+    "location": "Napa, CA (Napa County)",
+    "pricingQuoted": "20% Referral Commission",
+    "initialContactDate": "2026-11-07T00:18:39.740Z",
+    "lastContactDate": "2026-11-07T00:18:39.740Z",
+    "status": "delivered",
+    "sequenceStep": "Day 0 - Initial Outreach",
+    "diagnosedIssues": "California print & sign company in Napa (Napa County). Offered 20% reciprocal web design commission + reciprocal print referrals.",
+    "caseStudySent": "https://beeclue.com?utm_source=beeclue&utm_medium=partner-outreach&utm_campaign=sales-outreach-partner-napa-sign-shop",
+    "history": [
+      {
+        "step": "Day 0",
+        "sentAt": "2026-11-07T00:18:39.740Z",
+        "subject": "Web design referral partnership for Napa Sign Shop clients",
+        "resendId": "01a1b35f-2540-7688-bd55-0273755f9748",
+        "status": "delivered",
+        "notes": "California print & sign shop partnership outreach (NO BCC). Offered 20% referral commission on website design/development + reciprocal referrals for physical print collateral. Sent from hello@mail.beeclue.com with reply_to hello@beeclue.com."
+      }
+    ]
+  },
+  {
+    "id": "m-m-signs-and-graphics",
+    "firmName": "M&M Signs and Graphics",
+    "contactName": "Lori & Team",
+    "email": "lori@mandmsigns.com",
+    "phone": "(209) 334-7446",
+    "website": "Commercial Printing & Signage Partner",
+    "niche": "Print & Sign Partner - Commercial Printing, Vehicle Lettering & Signage",
+    "location": "Lodi, CA (San Joaquin County)",
+    "pricingQuoted": "20% Referral Commission",
+    "initialContactDate": "2026-11-07T00:18:40.749Z",
+    "lastContactDate": "2026-11-07T00:18:40.749Z",
+    "status": "delivered",
+    "sequenceStep": "Day 0 - Initial Outreach",
+    "diagnosedIssues": "California print & sign company in Lodi (San Joaquin County). Offered 20% reciprocal web design commission + reciprocal print referrals.",
+    "caseStudySent": "https://beeclue.com?utm_source=beeclue&utm_medium=partner-outreach&utm_campaign=sales-outreach-partner-m-m-signs-and-graphics",
+    "history": [
+      {
+        "step": "Day 0",
+        "sentAt": "2026-11-07T00:18:40.749Z",
+        "subject": "Web design referral partnership for M&M Signs and Graphics clients",
+        "resendId": "01a1b35f-29c8-7812-b34e-6de408af2345",
+        "status": "delivered",
+        "notes": "California print & sign shop partnership outreach (NO BCC). Offered 20% referral commission on website design/development + reciprocal referrals for physical print collateral. Sent from hello@mail.beeclue.com with reply_to hello@beeclue.com."
+      }
+    ]
+  },
+  {
+    "id": "sp-signs-and-wraps",
+    "firmName": "SP Signs and Wraps",
+    "contactName": "SP Signs Team",
+    "email": "info@spsignsandwraps.com",
+    "phone": "(209) 948-7446",
+    "website": "Commercial Printing & Signage Partner",
+    "niche": "Print & Sign Partner - Commercial Printing, Vehicle Lettering & Signage",
+    "location": "Stockton, CA (San Joaquin County)",
+    "pricingQuoted": "20% Referral Commission",
+    "initialContactDate": "2026-11-07T00:18:41.754Z",
+    "lastContactDate": "2026-11-07T00:18:41.754Z",
+    "status": "delivered",
+    "sequenceStep": "Day 0 - Initial Outreach",
+    "diagnosedIssues": "California print & sign company in Stockton (San Joaquin County). Offered 20% reciprocal web design commission + reciprocal print referrals.",
+    "caseStudySent": "https://beeclue.com?utm_source=beeclue&utm_medium=partner-outreach&utm_campaign=sales-outreach-partner-sp-signs-and-wraps",
+    "history": [
+      {
+        "step": "Day 0",
+        "sentAt": "2026-11-07T00:18:41.754Z",
+        "subject": "Web design referral partnership for SP Signs and Wraps clients",
+        "resendId": "01a1b35f-2d96-7e90-a41f-08b3de0a6b12",
+        "status": "delivered",
+        "notes": "California print & sign shop partnership outreach (NO BCC). Offered 20% referral commission on website design/development + reciprocal referrals for physical print collateral. Sent from hello@mail.beeclue.com with reply_to hello@beeclue.com."
+      }
+    ]
+  },
+  {
+    "id": "ojai-print-works",
+    "firmName": "Ojai Print Works",
+    "contactName": "Ojai Print Team",
+    "email": "theojaiprintworks@gmail.com",
+    "phone": "(805) 649-0735",
+    "website": "Commercial Printing & Signage Partner",
+    "niche": "Print & Sign Partner - Commercial Printing, Vehicle Lettering & Signage",
+    "location": "Ojai, CA (Ventura County)",
+    "pricingQuoted": "20% Referral Commission",
+    "initialContactDate": "2026-11-07T00:18:42.779Z",
+    "lastContactDate": "2026-11-07T00:18:42.779Z",
+    "status": "delivered",
+    "sequenceStep": "Day 0 - Initial Outreach",
+    "diagnosedIssues": "California print & sign company in Ojai (Ventura County). Offered 20% reciprocal web design commission + reciprocal print referrals.",
+    "caseStudySent": "https://beeclue.com?utm_source=beeclue&utm_medium=partner-outreach&utm_campaign=sales-outreach-partner-ojai-print-works",
+    "history": [
+      {
+        "step": "Day 0",
+        "sentAt": "2026-11-07T00:18:42.779Z",
+        "subject": "Web design referral partnership for Ojai Print Works clients",
+        "resendId": "01a1b35f-3185-7db8-93c0-2be83f17e632",
+        "status": "delivered",
+        "notes": "California print & sign shop partnership outreach (NO BCC). Offered 20% referral commission on website design/development + reciprocal referrals for physical print collateral. Sent from hello@mail.beeclue.com with reply_to hello@beeclue.com."
+      }
+    ]
+  },
+  {
+    "id": "classic-letterpress",
+    "firmName": "Classic Letterpress",
+    "contactName": "Norman & Team",
+    "email": "norman@classicletterpress.com",
+    "phone": "(805) 633-0741",
+    "website": "Commercial Printing & Signage Partner",
+    "niche": "Print & Sign Partner - Commercial Printing, Vehicle Lettering & Signage",
+    "location": "Ojai, CA (Ventura County)",
+    "pricingQuoted": "20% Referral Commission",
+    "initialContactDate": "2026-11-07T00:18:43.828Z",
+    "lastContactDate": "2026-11-07T00:18:43.828Z",
+    "status": "delivered",
+    "sequenceStep": "Day 0 - Initial Outreach",
+    "diagnosedIssues": "California print & sign company in Ojai (Ventura County). Offered 20% reciprocal web design commission + reciprocal print referrals.",
+    "caseStudySent": "https://beeclue.com?utm_source=beeclue&utm_medium=partner-outreach&utm_campaign=sales-outreach-partner-classic-letterpress",
+    "history": [
+      {
+        "step": "Day 0",
+        "sentAt": "2026-11-07T00:18:43.828Z",
+        "subject": "Web design referral partnership for Classic Letterpress clients",
+        "resendId": "01a1b35f-3588-768f-8eb8-ea0c2d52ff55",
+        "status": "delivered",
+        "notes": "California print & sign shop partnership outreach (NO BCC). Offered 20% referral commission on website design/development + reciprocal referrals for physical print collateral. Sent from hello@mail.beeclue.com with reply_to hello@beeclue.com."
+      }
+    ]
+  },
+  {
+    "id": "lemon-tree-embroidery-print",
+    "firmName": "Lemon Tree Embroidery & Print",
+    "contactName": "Lemon Tree Team",
+    "email": "lemontreeemb@gmail.com",
+    "phone": "(805) 524-7446",
+    "website": "Commercial Printing & Signage Partner",
+    "niche": "Print & Sign Partner - Commercial Printing, Vehicle Lettering & Signage",
+    "location": "Fillmore, CA (Ventura County)",
+    "pricingQuoted": "20% Referral Commission",
+    "initialContactDate": "2026-11-07T00:18:44.876Z",
+    "lastContactDate": "2026-11-07T00:18:44.876Z",
+    "status": "delivered",
+    "sequenceStep": "Day 0 - Initial Outreach",
+    "diagnosedIssues": "California print & sign company in Fillmore (Ventura County). Offered 20% reciprocal web design commission + reciprocal print referrals.",
+    "caseStudySent": "https://beeclue.com?utm_source=beeclue&utm_medium=partner-outreach&utm_campaign=sales-outreach-partner-lemon-tree-embroidery-print",
+    "history": [
+      {
+        "step": "Day 0",
+        "sentAt": "2026-11-07T00:18:44.876Z",
+        "subject": "Web design referral partnership for Lemon Tree Embroidery & Print clients",
+        "resendId": "01a1b35f-39a2-79c2-abaa-0d9bb3393078",
+        "status": "delivered",
+        "notes": "California print & sign shop partnership outreach (NO BCC). Offered 20% referral commission on website design/development + reciprocal referrals for physical print collateral. Sent from hello@mail.beeclue.com with reply_to hello@beeclue.com."
+      }
+    ]
+  },
+  {
+    "id": "goodland-signs",
+    "firmName": "Goodland Signs",
+    "contactName": "Goodland Signs Team",
+    "email": "sales@goodlandsigns.com",
+    "phone": "(805) 683-4600",
+    "website": "Commercial Printing & Signage Partner",
+    "niche": "Print & Sign Partner - Commercial Printing, Vehicle Lettering & Signage",
+    "location": "Goleta, CA (Santa Barbara County)",
+    "pricingQuoted": "20% Referral Commission",
+    "initialContactDate": "2026-11-07T00:18:45.986Z",
+    "lastContactDate": "2026-11-07T00:18:45.986Z",
+    "status": "delivered",
+    "sequenceStep": "Day 0 - Initial Outreach",
+    "diagnosedIssues": "California print & sign company in Goleta (Santa Barbara County). Offered 20% reciprocal web design commission + reciprocal print referrals.",
+    "caseStudySent": "https://beeclue.com?utm_source=beeclue&utm_medium=partner-outreach&utm_campaign=sales-outreach-partner-goodland-signs",
+    "history": [
+      {
+        "step": "Day 0",
+        "sentAt": "2026-11-07T00:18:45.986Z",
+        "subject": "Web design referral partnership for Goodland Signs clients",
+        "resendId": "01a1b35f-3db3-7e04-931a-e39e9dd35cca",
+        "status": "delivered",
+        "notes": "California print & sign shop partnership outreach (NO BCC). Offered 20% referral commission on website design/development + reciprocal referrals for physical print collateral. Sent from hello@mail.beeclue.com with reply_to hello@beeclue.com."
+      }
+    ]
+  },
+  {
+    "id": "goleta-signs",
+    "firmName": "Goleta Signs",
+    "contactName": "Goleta Signs Team",
+    "email": "cs@goletasigns.com",
+    "phone": "(805) 683-4498",
+    "website": "Commercial Printing & Signage Partner",
+    "niche": "Print & Sign Partner - Commercial Printing, Vehicle Lettering & Signage",
+    "location": "Goleta, CA (Santa Barbara County)",
+    "pricingQuoted": "20% Referral Commission",
+    "initialContactDate": "2026-11-07T00:18:47.005Z",
+    "lastContactDate": "2026-11-07T00:18:47.005Z",
+    "status": "delivered",
+    "sequenceStep": "Day 0 - Initial Outreach",
+    "diagnosedIssues": "California print & sign company in Goleta (Santa Barbara County). Offered 20% reciprocal web design commission + reciprocal print referrals.",
+    "caseStudySent": "https://beeclue.com?utm_source=beeclue&utm_medium=partner-outreach&utm_campaign=sales-outreach-partner-goleta-signs",
+    "history": [
+      {
+        "step": "Day 0",
+        "sentAt": "2026-11-07T00:18:47.005Z",
+        "subject": "Web design referral partnership for Goleta Signs clients",
+        "resendId": "01a1b35f-4219-75d5-9beb-2e0f9929d289",
+        "status": "delivered",
+        "notes": "California print & sign shop partnership outreach (NO BCC). Offered 20% referral commission on website design/development + reciprocal referrals for physical print collateral. Sent from hello@mail.beeclue.com with reply_to hello@beeclue.com."
+      }
+    ]
+  },
+  {
+    "id": "copyright-systems",
+    "firmName": "CopyRight Systems",
+    "contactName": "CopyRight Systems Team",
+    "email": "orders@copyrightsb.com",
+    "phone": "(805) 964-7446",
+    "website": "Commercial Printing & Signage Partner",
+    "niche": "Print & Sign Partner - Commercial Printing, Vehicle Lettering & Signage",
+    "location": "Goleta, CA (Santa Barbara County)",
+    "pricingQuoted": "20% Referral Commission",
+    "initialContactDate": "2026-11-07T00:18:48.023Z",
+    "lastContactDate": "2026-11-07T00:18:48.023Z",
+    "status": "delivered",
+    "sequenceStep": "Day 0 - Initial Outreach",
+    "diagnosedIssues": "California print & sign company in Goleta (Santa Barbara County). Offered 20% reciprocal web design commission + reciprocal print referrals.",
+    "caseStudySent": "https://beeclue.com?utm_source=beeclue&utm_medium=partner-outreach&utm_campaign=sales-outreach-partner-copyright-systems",
+    "history": [
+      {
+        "step": "Day 0",
+        "sentAt": "2026-11-07T00:18:48.023Z",
+        "subject": "Web design referral partnership for CopyRight Systems clients",
+        "resendId": "01a1b35f-4608-72c4-97e7-aa7bd9a1c5d6",
+        "status": "delivered",
+        "notes": "California print & sign shop partnership outreach (NO BCC). Offered 20% referral commission on website design/development + reciprocal referrals for physical print collateral. Sent from hello@mail.beeclue.com with reply_to hello@beeclue.com."
+      }
+    ]
+  },
+  {
+    "id": "freedom-signs",
+    "firmName": "Freedom Signs",
+    "contactName": "Freedom Signs Team",
+    "email": "info@freedomsigns.com",
+    "phone": "(805) 965-1410",
+    "website": "Commercial Printing & Signage Partner",
+    "niche": "Print & Sign Partner - Commercial Printing, Vehicle Lettering & Signage",
+    "location": "Carpinteria, CA (Santa Barbara County)",
+    "pricingQuoted": "20% Referral Commission",
+    "initialContactDate": "2026-11-07T00:18:49.161Z",
+    "lastContactDate": "2026-11-07T00:18:49.161Z",
+    "status": "delivered",
+    "sequenceStep": "Day 0 - Initial Outreach",
+    "diagnosedIssues": "California print & sign company in Carpinteria (Santa Barbara County). Offered 20% reciprocal web design commission + reciprocal print referrals.",
+    "caseStudySent": "https://beeclue.com?utm_source=beeclue&utm_medium=partner-outreach&utm_campaign=sales-outreach-partner-freedom-signs",
+    "history": [
+      {
+        "step": "Day 0",
+        "sentAt": "2026-11-07T00:18:49.161Z",
+        "subject": "Web design referral partnership for Freedom Signs clients",
+        "resendId": "01a1b35f-4a03-7147-aba6-2b79dfc29fae",
         "status": "delivered",
         "notes": "California print & sign shop partnership outreach (NO BCC). Offered 20% referral commission on website design/development + reciprocal referrals for physical print collateral. Sent from hello@mail.beeclue.com with reply_to hello@beeclue.com."
       }
