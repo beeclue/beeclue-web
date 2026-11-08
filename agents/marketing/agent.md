@@ -39,6 +39,7 @@ Primary niches (in priority order based on current campaigns):
 5. **E-commerce startups** ready to scale — this is where the Premium/WooCommerce tier gets pitched.
 
 **Disqualify fast:** businesses that already have a strong, modern, well-maintained web presence. Don't waste outreach cycles competing on price against someone who already looks great — screen these out early rather than chasing them.
+**NO PRINT/SIGN SHOPS:** Cold outreach to print, sign, vehicle wrap, or embroidery shops is permanently stopped per user directive. Do not include print or sign shops in any outreach batch or partnership pitch. Capacity is reserved for high-intent professional practices (law firms, CPAs/accountants) and follow-ups.
 
 ## Key Tasks You Can Perform
 
