@@ -82,5 +82,12 @@
     "email": "pckalivas@gmail.com",
     "reason": "Responded: \"No thanks. Please remove me from your list.\" - requested removal from list",
     "blacklistedAt": "2026-11-10T01:13:49.812Z"
+  },
+  {
+    "name": "John Kelsey Letton, Esq.",
+    "firmName": "Law Office of John Kelsey Letton",
+    "email": "jletton@jletton.com",
+    "reason": "Responded: \"No Thanks\" - requested removal from list",
+    "blacklistedAt": "2026-11-10T22:12:55.899Z"
   }
 ]

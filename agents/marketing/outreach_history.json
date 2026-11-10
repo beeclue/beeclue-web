@@ -50698,8 +50698,8 @@
     "pricingQuoted": "$19/mo Core",
     "initialContactDate": "2026-11-10T21:57:33.420Z",
     "lastContactDate": "2026-11-10T21:57:33.420Z",
-    "status": "delivered",
-    "sequenceStep": "Day 0 - Initial Outreach",
+    "status": "not_interested",
+    "sequenceStep": "Unsubscribed / Removed on Request",
     "diagnosedIssues": "Solo / boutique California attorney in Weaverville without an active standalone website. Relies on state bar and directories. Offered free custom mockup + $19/mo tier.",
     "caseStudySent": "https://taralattanzio.ca?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-law-office-of-john-kelsey-letton",
     "history": [
@@ -50710,6 +50710,12 @@
         "resendId": "01a1c777-65fd-7a63-87cf-b4eba9fab5c6",
         "status": "delivered",
         "notes": "Solo attorney outreach (NO BCC). Highlighted lack of standalone site, 24/7 client intake advisor positioning, taralattanzio.ca proof, and $19/mo Core tier. Sent from hello@mail.beeclue.com with reply_to hello@beeclue.com."
+      },
+      {
+        "step": "Opt-Out / Blacklist",
+        "sentAt": "2026-11-10T22:12:55.899Z",
+        "status": "opted_out",
+        "notes": "Prospect replied: \"No Thanks\". Immediately blacklisted and permanently suppressed from future outreach."
       }
     ]
   },
