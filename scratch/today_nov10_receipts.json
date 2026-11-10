@@ -1,0 +1,802 @@
+[
+  {
+    "batch": "Lawyer Day 0",
+    "fullName": "Ivan Petrzelka, Esq.",
+    "firmName": "Gemini Law",
+    "email": "lawyer@geminilawoffice.com",
+    "city": "Red Bluff",
+    "county": "Tehama",
+    "resendId": "01a1c777-4211-7825-bf82-06f4daa10e10",
+    "sentAt": "2026-11-10T21:57:24.193Z",
+    "status": "delivered"
+  },
+  {
+    "batch": "Lawyer Day 0",
+    "fullName": "Stephen Archer Datu, Esq.",
+    "firmName": "Law Office of Stephen A. Datu",
+    "email": "stephen@johnmurraylaw.com",
+    "city": "Red Bluff",
+    "county": "Tehama",
+    "resendId": "01a1c777-4616-7ef6-8fc1-d152ce66b05a",
+    "sentAt": "2026-11-10T21:57:25.178Z",
+    "status": "delivered"
+  },
+  {
+    "batch": "Lawyer Day 0",
+    "fullName": "Paul Allan Brisso, Esq.",
+    "firmName": "Law Office of Paul A. Brisso",
+    "email": "eurekabrisso@gmail.com",
+    "city": "Red Bluff",
+    "county": "Tehama",
+    "resendId": "01a1c777-49e2-75af-b6b5-e4d209ade4ae",
+    "sentAt": "2026-11-10T21:57:26.186Z",
+    "status": "delivered"
+  },
+  {
+    "batch": "Lawyer Day 0",
+    "fullName": "Jacob Raye Wright, Esq.",
+    "firmName": "McCarthy & Rubright LLP",
+    "email": "jwright@mccarthyrubright.com",
+    "city": "Red Bluff",
+    "county": "Tehama",
+    "resendId": "01a1c777-4dfa-79f6-9de3-590c147bfda2",
+    "sentAt": "2026-11-10T21:57:27.207Z",
+    "status": "delivered"
+  },
+  {
+    "batch": "Lawyer Day 0",
+    "fullName": "Jeanette Palla, Esq.",
+    "firmName": "Law Office of Jeanette Palla",
+    "email": "jpallalaw@gmail.com",
+    "city": "Douglas City",
+    "county": "Trinity",
+    "resendId": "01a1c777-5210-7d3d-a1e3-39255c5c8e31",
+    "sentAt": "2026-11-10T21:57:28.293Z",
+    "status": "delivered"
+  },
+  {
+    "batch": "Lawyer Day 0",
+    "fullName": "Colleen Theresa Murray, Esq.",
+    "firmName": "Law Office of Colleen Murray",
+    "email": "cmurray3295@yahoo.com",
+    "city": "Weaverville",
+    "county": "Trinity",
+    "resendId": "01a1c777-5631-7cc8-8073-ddffb3754742",
+    "sentAt": "2026-11-10T21:57:29.334Z",
+    "status": "delivered"
+  },
+  {
+    "batch": "Lawyer Day 0",
+    "fullName": "Lora Lee McClain, Esq.",
+    "firmName": "Law Office of Lora Lee McClain",
+    "email": "lora@loralegal.com",
+    "city": "Weaverville",
+    "county": "Trinity",
+    "resendId": "01a1c777-5a42-7d71-b5e4-d54436fef703",
+    "sentAt": "2026-11-10T21:57:30.342Z",
+    "status": "delivered"
+  },
+  {
+    "batch": "Lawyer Day 0",
+    "fullName": "James Michael Underwood, Esq.",
+    "firmName": "Underwood Law Offices",
+    "email": "jim@jmulawoffice.com",
+    "city": "Weaverville",
+    "county": "Trinity",
+    "resendId": "01a1c777-5e14-70a1-b51e-98ff33cd9f99",
+    "sentAt": "2026-11-10T21:57:31.332Z",
+    "status": "delivered"
+  },
+  {
+    "batch": "Lawyer Day 0",
+    "fullName": "Anthony Clay Edwards, Esq.",
+    "firmName": "Law Office of Anthony Clay Edwards",
+    "email": "acedwards1939@gmail.com",
+    "city": "Weaverville",
+    "county": "Trinity",
+    "resendId": "01a1c777-61ec-7c70-9b3f-48a76d6b0d76",
+    "sentAt": "2026-11-10T21:57:32.371Z",
+    "status": "delivered"
+  },
+  {
+    "batch": "Lawyer Day 0",
+    "fullName": "John Kelsey Letton, Esq.",
+    "firmName": "Law Office of John Kelsey Letton",
+    "email": "jletton@jletton.com",
+    "city": "Weaverville",
+    "county": "Trinity",
+    "resendId": "01a1c777-65fd-7a63-87cf-b4eba9fab5c6",
+    "sentAt": "2026-11-10T21:57:33.420Z",
+    "status": "delivered"
+  },
+  {
+    "batch": "Lawyer Day 0",
+    "fullName": "Charles Tuttle Yerxa Jr, Esq.",
+    "firmName": "Clark & Nelson",
+    "email": "charlestyerxa@gmail.com",
+    "city": "Colusa",
+    "county": "Colusa",
+    "resendId": "01a1c777-6a1a-7d94-8aca-9edf8170174f",
+    "sentAt": "2026-11-10T21:57:34.468Z",
+    "status": "delivered"
+  },
+  {
+    "batch": "Lawyer Day 0",
+    "fullName": "Gregory Charles Gatto, Esq.",
+    "firmName": "Law Office of Gregory Charles Gatto",
+    "email": "greg@sierralanduselaw.com",
+    "city": "Calpine",
+    "county": "Sierra",
+    "resendId": "01a1c777-6e30-7878-a521-82a212668e58",
+    "sentAt": "2026-11-10T21:57:35.517Z",
+    "status": "delivered"
+  },
+  {
+    "batch": "Lawyer Day 0",
+    "fullName": "Thomas Spencer Archer, Esq.",
+    "firmName": "Law Office of Thomas Spencer Archer",
+    "email": "thomas@tsarcherlaw.com",
+    "city": "Sierraville",
+    "county": "Sierra",
+    "resendId": "01a1c777-724d-74ad-a586-a759bc732b93",
+    "sentAt": "2026-11-10T21:57:36.565Z",
+    "status": "delivered"
+  },
+  {
+    "batch": "Lawyer Day 0",
+    "fullName": "Carolyn Ingrid Larson, Esq.",
+    "firmName": "Law Offices of C. Ingrid Larson",
+    "email": "cingridlarson@gmail.com",
+    "city": "Downieville",
+    "county": "Sierra",
+    "resendId": "01a1c777-7660-768d-bfa2-ebc2018bfa60",
+    "sentAt": "2026-11-10T21:57:37.621Z",
+    "status": "delivered"
+  },
+  {
+    "batch": "Lawyer Day 0",
+    "fullName": "Timothy Wayne Pemberton, Esq.",
+    "firmName": "Law Office of Timothy W. Pemberton",
+    "email": "timothywpemberton@gmail.com",
+    "city": "Markleeville",
+    "county": "Alpine",
+    "resendId": "01a1c777-7a85-7a7d-b1f1-dc6ec09f4f9f",
+    "sentAt": "2026-11-10T21:57:38.663Z",
+    "status": "delivered"
+  },
+  {
+    "batch": "Lawyer Day 0",
+    "fullName": "Elizabeth Catherine Sears, Esq.",
+    "firmName": "Law Office of Elizabeth Catherine Sears",
+    "email": "esears@elizabethsearslaw.com",
+    "city": "Markleeville",
+    "county": "Alpine",
+    "resendId": "01a1c777-7e91-7172-a297-e13762510b38",
+    "sentAt": "2026-11-10T21:57:39.636Z",
+    "status": "delivered"
+  },
+  {
+    "batch": "Lawyer Day 0",
+    "fullName": "Amy Jo Hoffman, Esq.",
+    "firmName": "Fitzgerald & Abbott",
+    "email": "ahoffman@faclawoffices.com",
+    "city": "Jackson",
+    "county": "Amador",
+    "resendId": "01a1c777-8267-7e5d-9162-d98b8a10d732",
+    "sentAt": "2026-11-10T21:57:40.649Z",
+    "status": "delivered"
+  },
+  {
+    "batch": "Lawyer Day 0",
+    "fullName": "Thomas Michael Swett, Esq.",
+    "firmName": "Burton & Swett",
+    "email": "tom@burtonswett.com",
+    "city": "Amador City",
+    "county": "Amador",
+    "resendId": "01a1c777-8654-71bc-81e8-bb5aebfa0781",
+    "sentAt": "2026-11-10T21:57:41.699Z",
+    "status": "delivered"
+  },
+  {
+    "batch": "Lawyer Day 0",
+    "fullName": "Terrence Allen Beard, Esq.",
+    "firmName": "Law Offices of Terrence A. Beard",
+    "email": "tbeard1053@aol.com",
+    "city": "Sutter Creek",
+    "county": "Amador",
+    "resendId": "01a1c777-8a71-7476-9f12-366955eccd3b",
+    "sentAt": "2026-11-10T21:57:42.729Z",
+    "status": "delivered"
+  },
+  {
+    "batch": "Lawyer Day 0",
+    "fullName": "David Eugene Foyil, Esq.",
+    "firmName": "Equal Justice Law Group",
+    "email": "mail@equaljusticelawgroup.com",
+    "city": "Jackson",
+    "county": "Amador",
+    "resendId": "01a1c777-8e73-7bf7-b589-1120a1292431",
+    "sentAt": "2026-11-10T21:57:43.712Z",
+    "status": "delivered"
+  },
+  {
+    "batch": "Accountant Day 0",
+    "firmName": "Solari Accountancy",
+    "contactName": "Solari Accountancy Team",
+    "email": "frontdesk@solariacc.com",
+    "city": "Lodi",
+    "county": "San Joaquin",
+    "resendId": "01a1c777-924e-7525-acf9-83dcd9596229",
+    "sentAt": "2026-11-10T21:57:44.703Z",
+    "status": "delivered"
+  },
+  {
+    "batch": "Accountant Day 0",
+    "firmName": "Feather Accounting",
+    "contactName": "Feather Accounting Team",
+    "email": "info@featheraccounting.com",
+    "city": "Lodi",
+    "county": "San Joaquin",
+    "resendId": "01a1c777-9628-77a8-ac4a-0d19b0e1a80e",
+    "sentAt": "2026-11-10T21:57:45.676Z",
+    "status": "delivered"
+  },
+  {
+    "batch": "Accountant Day 0",
+    "firmName": "Green, Polack & Company",
+    "contactName": "Green, Polack & Company Team",
+    "email": "gp@greenpolackcompany.com",
+    "city": "Lodi",
+    "county": "San Joaquin",
+    "resendId": "01a1c777-99f8-7b82-af22-92a6eeaf3edb",
+    "sentAt": "2026-11-10T21:57:46.654Z",
+    "status": "delivered"
+  },
+  {
+    "batch": "Accountant Day 0",
+    "firmName": "Stapp Accountancy, Inc.",
+    "contactName": "Lorelei Stapp, CPA & Team",
+    "email": "lorelei@stappcpa.com",
+    "city": "Merced",
+    "county": "Merced",
+    "resendId": "01a1c777-9dd7-74fb-97af-ae299706acd0",
+    "sentAt": "2026-11-10T21:57:47.676Z",
+    "status": "delivered"
+  },
+  {
+    "batch": "Accountant Day 0",
+    "firmName": "Willingham & Associates, CPA PC",
+    "contactName": "Willingham & Associates Team",
+    "email": "info@chicocpa.com",
+    "city": "Chico",
+    "county": "Butte",
+    "resendId": "01a1c777-a1f2-70b9-814d-1c9bf1594d3e",
+    "sentAt": "2026-11-10T21:57:48.694Z",
+    "status": "delivered"
+  },
+  {
+    "batch": "Accountant Day 0",
+    "firmName": "Vincent Financial Group Inc.",
+    "contactName": "Dan Vincent & Team",
+    "email": "dan@vfgchico.com",
+    "city": "Chico",
+    "county": "Butte",
+    "resendId": "01a1c777-a5c1-7da0-acb7-382381fe7f6e",
+    "sentAt": "2026-11-10T21:57:49.683Z",
+    "status": "delivered"
+  },
+  {
+    "batch": "Accountant Day 0",
+    "firmName": "Merrell, Irwin & Associates CPAs",
+    "contactName": "Merrell, Irwin & Associates Team",
+    "email": "info@micpachico.com",
+    "city": "Chico",
+    "county": "Butte",
+    "resendId": "01a1c777-a99f-7e39-8179-3c34101226f2",
+    "sentAt": "2026-11-10T21:57:50.732Z",
+    "status": "delivered"
+  },
+  {
+    "batch": "Accountant Day 0",
+    "firmName": "TaxPro Chico",
+    "contactName": "Jeff & TaxPro Team",
+    "email": "jeff@chicotaxpro.com",
+    "city": "Chico",
+    "county": "Butte",
+    "resendId": "01a1c777-adb7-772e-844a-e5084220c7cf",
+    "sentAt": "2026-11-10T21:57:51.770Z",
+    "status": "delivered"
+  },
+  {
+    "batch": "Accountant Day 0",
+    "firmName": "Bill McMahon, CPA",
+    "contactName": "Bill McMahon, CPA",
+    "email": "bill@billmcmahoncpa.com",
+    "city": "Red Bluff",
+    "county": "Tehama",
+    "resendId": "01a1c777-b1ca-7737-bf36-79c27d2790fe",
+    "sentAt": "2026-11-10T21:57:52.748Z",
+    "status": "delivered"
+  },
+  {
+    "batch": "Accountant Day 0",
+    "firmName": "CAC Professional Services",
+    "contactName": "CAC Professional Team",
+    "email": "cactax@yahoo.com",
+    "city": "Auburn",
+    "county": "Placer",
+    "resendId": "01a1c777-b599-7404-a8b0-671914947bb0",
+    "sentAt": "2026-11-10T21:57:53.768Z",
+    "status": "delivered"
+  },
+  {
+    "batch": "Accountant Day 0",
+    "firmName": "Midtown CPA",
+    "contactName": "Tyler Thomas, CPA & Team",
+    "email": "tyler@midtowncpa.com",
+    "city": "El Dorado Hills",
+    "county": "El Dorado",
+    "resendId": "01a1c777-b991-71b6-b0e2-0399b14b9bcd",
+    "sentAt": "2026-11-10T21:57:54.775Z",
+    "status": "delivered"
+  },
+  {
+    "batch": "Accountant Day 0",
+    "firmName": "Tribble & Ayala, CPAs",
+    "contactName": "Dan Ayala, CPA & Team",
+    "email": "info@tribbleayala.com",
+    "city": "Angels Camp",
+    "county": "Calaveras",
+    "resendId": "01a1c777-bd87-70e6-8fee-dd662f6648ec",
+    "sentAt": "2026-11-10T21:57:55.784Z",
+    "status": "delivered"
+  },
+  {
+    "batch": "Accountant Day 0",
+    "firmName": "Hamersley Tax Professionals",
+    "contactName": "Hamersley Tax Team",
+    "email": "info@htptax.com",
+    "city": "Jackson",
+    "county": "Amador",
+    "resendId": "01a1c777-c176-771b-9cf0-f4aed69a5977",
+    "sentAt": "2026-11-10T21:57:56.795Z",
+    "status": "delivered"
+  },
+  {
+    "batch": "Accountant Day 0",
+    "firmName": "William Holtsman, CPA",
+    "contactName": "William Holtsman, CPA",
+    "email": "william@wh-cpa.com",
+    "city": "Ripon",
+    "county": "San Joaquin",
+    "resendId": "01a1c777-c570-77c9-8da9-1145fdfacc82",
+    "sentAt": "2026-11-10T21:57:57.782Z",
+    "status": "delivered"
+  },
+  {
+    "batch": "Accountant Day 0",
+    "firmName": "Severin Financial Services",
+    "contactName": "Michael Severin & Team",
+    "email": "michael@severinfinancial.com",
+    "city": "Ripon",
+    "county": "San Joaquin",
+    "resendId": "01a1c777-c948-7d69-aaa7-a55f3c96324e",
+    "sentAt": "2026-11-10T21:57:58.797Z",
+    "status": "delivered"
+  },
+  {
+    "batch": "Accountant Day 0",
+    "firmName": "Cruz Tax Advisory & Strategy PC",
+    "contactName": "Ross Cruz, CPA & Team",
+    "email": "ross@mycruztax.com",
+    "city": "Scotts Valley",
+    "county": "Santa Cruz",
+    "resendId": "01a1c777-cd3c-784d-abe2-eae2923cda0e",
+    "sentAt": "2026-11-10T21:57:59.775Z",
+    "status": "delivered"
+  },
+  {
+    "batch": "Accountant Day 0",
+    "firmName": "Timothy Imbrie CPA",
+    "contactName": "Timothy Imbrie, CPA",
+    "email": "imbriecpa@gmail.com",
+    "city": "Scotts Valley",
+    "county": "Santa Cruz",
+    "resendId": "01a1c777-d10e-7928-abf4-08b8af54106b",
+    "sentAt": "2026-11-10T21:58:00.759Z",
+    "status": "delivered"
+  },
+  {
+    "batch": "Accountant Day 0",
+    "firmName": "Santa Cruz Pacific Accounting and Tax",
+    "contactName": "Conrad Seales, CPA & Team",
+    "email": "action@pacific.tax",
+    "city": "Santa Cruz",
+    "county": "Santa Cruz",
+    "resendId": "01a1c777-d526-739c-9edf-73639e9928d3",
+    "sentAt": "2026-11-10T21:58:01.832Z",
+    "status": "delivered"
+  },
+  {
+    "batch": "Accountant Day 0",
+    "firmName": "Blyth Warner & Associates, LLP",
+    "contactName": "Blyth Warner & Associates Team",
+    "email": "info@bwatax.com",
+    "city": "St. Helena",
+    "county": "Napa",
+    "resendId": "01a1c777-d93d-7c34-bd8c-6c5bf489d128",
+    "sentAt": "2026-11-10T21:58:02.850Z",
+    "status": "delivered"
+  },
+  {
+    "batch": "Accountant Day 0",
+    "firmName": "G & J Seiberlich & Co LLP",
+    "contactName": "G & J Seiberlich CPA Team",
+    "email": "napa@gjs.cpa",
+    "city": "Napa",
+    "county": "Napa",
+    "resendId": "01a1c777-dd11-7c7a-b2e9-0af1b97b327b",
+    "sentAt": "2026-11-10T21:58:03.858Z",
+    "status": "delivered"
+  },
+  {
+    "batch": "Follow-Up Day 4",
+    "firmName": "Law Office of Peter M Talia",
+    "contactName": "Peter Mathew Talia, Esq.",
+    "email": "pandjtalia@hotmail.com",
+    "resendId": "01a1c777-e0ff-790d-8ba9-ee9066d51272",
+    "sentAt": "2026-11-10T21:58:04.877Z",
+    "status": "delivered"
+  },
+  {
+    "batch": "Follow-Up Day 4",
+    "firmName": "Stacey L. Montgomery Attorney at Law",
+    "contactName": "Stacey Lee Montgomery, Esq.",
+    "email": "smontgomerylaw@gmail.com",
+    "resendId": "01a1c777-e4f5-7716-b63e-28ae27c13bb3",
+    "sentAt": "2026-11-10T21:58:05.943Z",
+    "status": "delivered"
+  },
+  {
+    "batch": "Follow-Up Day 4",
+    "firmName": "Law Offices of Eugene B. Chittock",
+    "contactName": "Eugene B Chittock, Esq.",
+    "email": "echittock@chittocklaw.com",
+    "resendId": "01a1c777-e922-72ee-9e75-ff097716c554",
+    "sentAt": "2026-11-10T21:58:07.056Z",
+    "status": "delivered"
+  },
+  {
+    "batch": "Follow-Up Day 4",
+    "firmName": "Law Office of David B. Evans",
+    "contactName": "David B. Evans, Esq.",
+    "email": "davidevans.lawoffice@gmail.com",
+    "resendId": "01a1c777-edb9-7d71-98d1-8103a190253e",
+    "sentAt": "2026-11-10T21:58:08.095Z",
+    "status": "delivered"
+  },
+  {
+    "batch": "Follow-Up Day 4",
+    "firmName": "Stephanie Skeen",
+    "contactName": "Stephanie M. Skeen, Esq.",
+    "email": "skeenlawattorney@gmail.com",
+    "resendId": "01a1c777-f18b-7735-ade2-579c58ac1237",
+    "sentAt": "2026-11-10T21:58:09.099Z",
+    "status": "delivered"
+  },
+  {
+    "batch": "Follow-Up Day 4",
+    "firmName": "Law Office of Jill N. Robbins",
+    "contactName": "Jill Nicole Robbins, Esq.",
+    "email": "jill@jillrobbinslaw.com",
+    "resendId": "01a1c777-f574-77e4-a562-bbcdd647aa0a",
+    "sentAt": "2026-11-10T21:58:10.120Z",
+    "status": "delivered"
+  },
+  {
+    "batch": "Follow-Up Day 4",
+    "firmName": "Hoopes Law",
+    "contactName": "Helen Massey Hoopes, Esq.",
+    "email": "hmhoopes2@aol.com",
+    "resendId": "01a1c777-f970-7af4-b66e-380062a2d1c7",
+    "sentAt": "2026-11-10T21:58:11.093Z",
+    "status": "delivered"
+  },
+  {
+    "batch": "Follow-Up Day 4",
+    "firmName": "Law Office Of James Fallman",
+    "contactName": "Tamra S Berling, Esq.",
+    "email": "tfallmanlaw@gmail.com",
+    "resendId": "01a1c777-fd3f-7868-8582-63e38830f2dc",
+    "sentAt": "2026-11-10T21:58:12.102Z",
+    "status": "delivered"
+  },
+  {
+    "batch": "Follow-Up Day 4",
+    "firmName": "Law Office of David Owen Cooper",
+    "contactName": "David Owen Cooper, Esq.",
+    "email": "docooper@davidocooperlaw.com",
+    "resendId": "01a1c778-0131-71c4-82d9-3a42e05529fc",
+    "sentAt": "2026-11-10T21:58:13.077Z",
+    "status": "delivered"
+  },
+  {
+    "batch": "Follow-Up Day 4",
+    "firmName": "Attorney at Law",
+    "contactName": "Christopher Lee Van Hook, Esq.",
+    "email": "chris@cvanhooklaw.com",
+    "resendId": "01a1c778-0502-722a-964c-f7e12fa91096",
+    "sentAt": "2026-11-10T21:58:14.132Z",
+    "status": "delivered"
+  },
+  {
+    "batch": "Follow-Up Day 4",
+    "firmName": "Lise Hamilton",
+    "contactName": "Lise DePas Hamilton, Esq.",
+    "email": "lise@lisehamilton.net",
+    "resendId": "01a1c778-0927-76d9-9435-affcfb5e8c7b",
+    "sentAt": "2026-11-10T21:58:15.160Z",
+    "status": "delivered"
+  },
+  {
+    "batch": "Follow-Up Day 4",
+    "firmName": "Law Office of Joseph Futrell",
+    "contactName": "Joseph Edward Futrell, Esq.",
+    "email": "jfutrelllaw@gmail.com",
+    "resendId": "01a1c778-0d20-7bc4-99c7-f1956544fe97",
+    "sentAt": "2026-11-10T21:58:16.136Z",
+    "status": "delivered"
+  },
+  {
+    "batch": "Follow-Up Day 4",
+    "firmName": "Law Office of Cathie Childs",
+    "contactName": "Cathie Anne Childs, Esq.",
+    "email": "cathie@cchildslaw.com",
+    "resendId": "01a1c778-10f6-79d0-a18b-cf4939c3d045",
+    "sentAt": "2026-11-10T21:58:17.120Z",
+    "status": "delivered"
+  },
+  {
+    "batch": "Follow-Up Day 4",
+    "firmName": "Law Office of Gino deSolenni",
+    "contactName": "Gino Vincenti Desolenni, Esq.",
+    "email": "lawoffice@desolenni.net",
+    "resendId": "01a1c778-14ca-7e3b-8b9a-2ee60f396a6a",
+    "sentAt": "2026-11-10T21:58:18.232Z",
+    "status": "delivered"
+  },
+  {
+    "batch": "Follow-Up Day 4",
+    "firmName": "Keith Morris",
+    "contactName": "Keith Vernon Morris, Esq.",
+    "email": "keith@kmorrislaw.net",
+    "resendId": "01a1c778-1922-7e55-81ad-a24db941efec",
+    "sentAt": "2026-11-10T21:58:19.256Z",
+    "status": "delivered"
+  },
+  {
+    "batch": "Follow-Up Day 4",
+    "firmName": "Law Office of William Abramson",
+    "contactName": "William Abramson, Esq.",
+    "email": "abramsonlaw96@gmail.com",
+    "resendId": "01a1c778-1d24-7012-9fc2-cbd2428cf332",
+    "sentAt": "2026-11-10T21:58:20.233Z",
+    "status": "delivered"
+  },
+  {
+    "batch": "Follow-Up Day 4",
+    "firmName": "Law Office of Christine Ann Doehle",
+    "contactName": "Christine Ann Doehle, Esq.",
+    "email": "doehlechris@gmail.com",
+    "resendId": "01a1c778-20f5-7779-bdfa-939a16c936b0",
+    "sentAt": "2026-11-10T21:58:21.305Z",
+    "status": "delivered"
+  },
+  {
+    "batch": "Follow-Up Day 4",
+    "firmName": "Martha G. McQuarrie",
+    "contactName": "Martha Grebenik McQuarrie, Esq.",
+    "email": "martha@mcquarrielaw.com",
+    "resendId": "01a1c778-2521-7ccb-85d8-c3b976988d9a",
+    "sentAt": "2026-11-10T21:58:22.282Z",
+    "status": "delivered"
+  },
+  {
+    "batch": "Follow-Up Day 4",
+    "firmName": "del norte law",
+    "contactName": "Michael Donald Riese, Esq.",
+    "email": "delnortelawfirm@gmail.com",
+    "resendId": "01a1c778-291e-7af4-930b-293263022716",
+    "sentAt": "2026-11-10T21:58:23.298Z",
+    "status": "delivered"
+  },
+  {
+    "batch": "Follow-Up Day 4",
+    "firmName": "Robert N. Black",
+    "contactName": "Robert Norris Black, Esq.",
+    "email": "rblack@attyblack.com",
+    "resendId": "01a1c778-2cf1-762d-9a19-87ff6a874139",
+    "sentAt": "2026-11-10T21:58:24.304Z",
+    "status": "delivered"
+  },
+  {
+    "batch": "Follow-Up Day 4",
+    "firmName": "Del Norte Tax",
+    "contactName": "Shawna Hyatt",
+    "email": "shawnahyatt@msn.com",
+    "resendId": "01a1c778-30e2-790e-9859-86bd01926024",
+    "sentAt": "2026-11-10T21:58:25.401Z",
+    "status": "delivered"
+  },
+  {
+    "batch": "Follow-Up Day 4",
+    "firmName": "Summit Accounting Services",
+    "contactName": "Accounting Team",
+    "email": "summitaccountingservices@aol.com",
+    "resendId": "01a1c778-3566-76e9-b338-9adf204b7f61",
+    "sentAt": "2026-11-10T21:58:26.440Z",
+    "status": "delivered"
+  },
+  {
+    "batch": "Follow-Up Day 4",
+    "firmName": "Grace CPAs, LLP",
+    "contactName": "Accounting Team",
+    "email": "info@gracecpas.com",
+    "resendId": "01a1c778-392f-7815-9c75-41fdf847fca5",
+    "sentAt": "2026-11-10T21:58:27.456Z",
+    "status": "delivered"
+  },
+  {
+    "batch": "Follow-Up Day 4",
+    "firmName": "831 Tax & Accounting Corp",
+    "contactName": "Leo Ferrel",
+    "email": "leoferrel1991@gmail.com",
+    "resendId": "01a1c778-3d30-7b4a-96df-409b84432556",
+    "sentAt": "2026-11-10T21:58:28.686Z",
+    "status": "delivered"
+  },
+  {
+    "batch": "Follow-Up Day 4",
+    "firmName": "Nickell Tax & Financial Planning",
+    "contactName": "Client Services Desk",
+    "email": "office@nickelltax.com",
+    "resendId": "01a1c778-41fb-7576-bc5e-667db8eb31fe",
+    "sentAt": "2026-11-10T21:58:29.663Z",
+    "status": "delivered"
+  },
+  {
+    "batch": "Follow-Up Day 4",
+    "firmName": "Taylor Accountancy Corp",
+    "contactName": "Tax & Accounting Team",
+    "email": "tac@tayloracctcorp.com",
+    "resendId": "01a1c778-45c8-76c2-9602-9f651a41b3fe",
+    "sentAt": "2026-11-10T21:58:30.724Z",
+    "status": "delivered"
+  },
+  {
+    "batch": "Follow-Up Day 4",
+    "firmName": "Professional Connections",
+    "contactName": "Tax Services Desk",
+    "email": "pro.conn@live.com",
+    "resendId": "01a1c778-49f1-7df4-b599-db85c7bfcee4",
+    "sentAt": "2026-11-10T21:58:31.748Z",
+    "status": "delivered"
+  },
+  {
+    "batch": "Follow-Up Day 4",
+    "firmName": "Patricia Schwindt, CPA",
+    "contactName": "Patricia Schwindt, CPA",
+    "email": "patricia@schwindtcpa.com",
+    "resendId": "01a1c778-4dfa-79c4-b728-039aa0228afc",
+    "sentAt": "2026-11-10T21:58:32.874Z",
+    "status": "delivered"
+  },
+  {
+    "batch": "Follow-Up Day 4",
+    "firmName": "Affordable Accounting Solutions",
+    "contactName": "Client Desk",
+    "email": "info@affordablesolutions.us",
+    "resendId": "01a1c778-5253-7643-9d21-970e80ada0d0",
+    "sentAt": "2026-11-10T21:58:33.847Z",
+    "status": "delivered"
+  },
+  {
+    "batch": "Follow-Up Day 4",
+    "firmName": "South Placer Tax & Bookkeeping",
+    "contactName": "Admin Team",
+    "email": "admin@southplacertax.com",
+    "resendId": "01a1c778-562b-7ac3-8a3a-923d0e9176d8",
+    "sentAt": "2026-11-10T21:58:34.833Z",
+    "status": "delivered"
+  },
+  {
+    "batch": "Follow-Up Day 4",
+    "firmName": "Yuba Gold Accounting Services",
+    "contactName": "Accounting Team",
+    "email": "yubasgold@gmail.com",
+    "resendId": "01a1c778-59fe-7958-9ee6-2b6f9893c70c",
+    "sentAt": "2026-11-10T21:58:35.824Z",
+    "status": "delivered"
+  },
+  {
+    "batch": "Follow-Up Day 4",
+    "firmName": "McSweeney and Associates",
+    "contactName": "Linda Eckhart",
+    "email": "lindaeckhart@mcsweeneyandassociates.com",
+    "resendId": "01a1c778-5ddd-70e0-a783-ce457e0aed49",
+    "sentAt": "2026-11-10T21:58:36.864Z",
+    "status": "delivered"
+  },
+  {
+    "batch": "Follow-Up Day 4",
+    "firmName": "C&P Tax Service",
+    "contactName": "Tax Team",
+    "email": "info@cptaxservice.net",
+    "resendId": "01a1c778-61ee-7113-bd3a-f001e675fbf0",
+    "sentAt": "2026-11-10T21:58:37.994Z",
+    "status": "delivered"
+  },
+  {
+    "batch": "Follow-Up Day 4",
+    "firmName": "Arrache CPA",
+    "contactName": "Arrache Advisory Team",
+    "email": "info@mrarrachecpa.com",
+    "resendId": "01a1c778-6690-715c-b601-265f7841e44b",
+    "sentAt": "2026-11-10T21:58:39.031Z",
+    "status": "delivered"
+  },
+  {
+    "batch": "Follow-Up Day 4",
+    "firmName": "Blankenship & Company",
+    "contactName": "Jeff Blankenship, CPA",
+    "email": "jeff@blankenshipcpas.com",
+    "resendId": "01a1c778-6aa5-77a8-beae-8b39a00208df",
+    "sentAt": "2026-11-10T21:58:40.072Z",
+    "status": "delivered"
+  },
+  {
+    "batch": "Follow-Up Day 4",
+    "firmName": "Ralph E. McKinnis, CPA",
+    "contactName": "Ralph E. McKinnis, CPA",
+    "email": "ralph-mckinnis@att.net",
+    "resendId": "01a1c778-6e72-73ca-a48c-e88e7b9291c8",
+    "sentAt": "2026-11-10T21:58:41.067Z",
+    "status": "delivered"
+  },
+  {
+    "batch": "Follow-Up Day 4",
+    "firmName": "ABC Bookkeeping & Tax Services",
+    "contactName": "Linda",
+    "email": "linda@abcbookkeepingandtax.com",
+    "resendId": "01a1c778-7258-74a6-a52e-a9d49d9380ee",
+    "sentAt": "2026-11-10T21:58:42.192Z",
+    "status": "delivered"
+  },
+  {
+    "batch": "Follow-Up Day 4",
+    "firmName": "Tomkins Tax Consultants - Lucerne Office",
+    "contactName": "Tax Preparation Desk",
+    "email": "office@tomkinstax.com",
+    "resendId": "01a1c778-76f0-7e4d-809c-e54bf6e07704",
+    "sentAt": "2026-11-10T21:58:43.421Z",
+    "status": "delivered"
+  },
+  {
+    "batch": "Follow-Up Day 4",
+    "firmName": "Marty Lalanne, CPA",
+    "contactName": "Marty Lalanne, CPA",
+    "email": "marty@lalannecpa.com",
+    "resendId": "01a1c778-7b87-7026-a296-a70795f87fe7",
+    "sentAt": "2026-11-10T21:58:44.427Z",
+    "status": "delivered"
+  },
+  {
+    "batch": "Follow-Up Day 4",
+    "firmName": "Alvarez Tax & Immigration Services",
+    "contactName": "Tax Preparation Team",
+    "email": "alvareztaxm2@yahoo.com",
+    "resendId": "01a1c778-7f81-7a65-8cc8-f00431fd6717",
+    "sentAt": "2026-11-10T21:58:45.442Z",
+    "status": "delivered"
+  }
+]

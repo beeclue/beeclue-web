@@ -1,0 +1,162 @@
+[
+  {
+    "email": "frontdesk@solariacc.com",
+    "firmName": "Solari Accountancy",
+    "contactName": "Solari Accountancy Team",
+    "city": "Lodi",
+    "county": "San Joaquin",
+    "niche": "Accounting & Tax - Tax Preparation, Bookkeeping & Payroll"
+  },
+  {
+    "email": "info@featheraccounting.com",
+    "firmName": "Feather Accounting",
+    "contactName": "Feather Accounting Team",
+    "city": "Lodi",
+    "county": "San Joaquin",
+    "niche": "Accounting & Tax - Full-Service Accounting & Small Business Tax Support"
+  },
+  {
+    "email": "gp@greenpolackcompany.com",
+    "firmName": "Green, Polack & Company",
+    "contactName": "Green, Polack & Company Team",
+    "city": "Lodi",
+    "county": "San Joaquin",
+    "niche": "Accounting & Tax - Tax Return Preparation & Financial Advisory"
+  },
+  {
+    "email": "lorelei@stappcpa.com",
+    "firmName": "Stapp Accountancy, Inc.",
+    "contactName": "Lorelei Stapp, CPA & Team",
+    "city": "Merced",
+    "county": "Merced",
+    "niche": "Accounting & Tax - Tax Planning, Accounting & Advisory Services"
+  },
+  {
+    "email": "info@chicocpa.com",
+    "firmName": "Willingham & Associates, CPA PC",
+    "contactName": "Willingham & Associates Team",
+    "city": "Chico",
+    "county": "Butte",
+    "niche": "Accounting & Tax - Full-Service Tax Compliance & Business Consulting"
+  },
+  {
+    "email": "dan@vfgchico.com",
+    "firmName": "Vincent Financial Group Inc.",
+    "contactName": "Dan Vincent & Team",
+    "city": "Chico",
+    "county": "Butte",
+    "niche": "Accounting & Tax - Small Business Accounting, Tax Prep & Planning"
+  },
+  {
+    "email": "info@micpachico.com",
+    "firmName": "Merrell, Irwin & Associates CPAs",
+    "contactName": "Merrell, Irwin & Associates Team",
+    "city": "Chico",
+    "county": "Butte",
+    "niche": "Accounting & Tax - Tax Planning, Bookkeeping & Advisory Services"
+  },
+  {
+    "email": "jeff@chicotaxpro.com",
+    "firmName": "TaxPro Chico",
+    "contactName": "Jeff & TaxPro Team",
+    "city": "Chico",
+    "county": "Butte",
+    "niche": "Accounting & Tax - Individual & Small Business Tax Filing"
+  },
+  {
+    "email": "bill@billmcmahoncpa.com",
+    "firmName": "Bill McMahon, CPA",
+    "contactName": "Bill McMahon, CPA",
+    "city": "Red Bluff",
+    "county": "Tehama",
+    "niche": "Accounting & Tax - Individual & Corporate Tax Compliance"
+  },
+  {
+    "email": "cactax@yahoo.com",
+    "firmName": "CAC Professional Services",
+    "contactName": "CAC Professional Team",
+    "city": "Auburn",
+    "county": "Placer",
+    "niche": "Accounting & Tax - Business Tax Filing, Payroll & Bookkeeping"
+  },
+  {
+    "email": "tyler@midtowncpa.com",
+    "firmName": "Midtown CPA",
+    "contactName": "Tyler Thomas, CPA & Team",
+    "city": "El Dorado Hills",
+    "county": "El Dorado",
+    "niche": "Accounting & Tax - Business Advisory, Tax Planning & Bookkeeping"
+  },
+  {
+    "email": "info@tribbleayala.com",
+    "firmName": "Tribble & Ayala, CPAs",
+    "contactName": "Dan Ayala, CPA & Team",
+    "city": "Angels Camp",
+    "county": "Calaveras",
+    "niche": "Accounting & Tax - Tax Planning, Preparation & Financial Consulting"
+  },
+  {
+    "email": "info@htptax.com",
+    "firmName": "Hamersley Tax Professionals",
+    "contactName": "Hamersley Tax Team",
+    "city": "Jackson",
+    "county": "Amador",
+    "niche": "Accounting & Tax - Federal/State Tax Prep, Planning & Audit Defense"
+  },
+  {
+    "email": "william@wh-cpa.com",
+    "firmName": "William Holtsman, CPA",
+    "contactName": "William Holtsman, CPA",
+    "city": "Ripon",
+    "county": "San Joaquin",
+    "niche": "Accounting & Tax - Tax Preparation, Planning & Business Advisory"
+  },
+  {
+    "email": "michael@severinfinancial.com",
+    "firmName": "Severin Financial Services",
+    "contactName": "Michael Severin & Team",
+    "city": "Ripon",
+    "county": "San Joaquin",
+    "niche": "Accounting & Tax - Financial Consulting, Bookkeeping & Tax Strategy"
+  },
+  {
+    "email": "ross@mycruztax.com",
+    "firmName": "Cruz Tax Advisory & Strategy PC",
+    "contactName": "Ross Cruz, CPA & Team",
+    "city": "Scotts Valley",
+    "county": "Santa Cruz",
+    "niche": "Accounting & Tax - Strategic Tax Advisory & Business Accounting"
+  },
+  {
+    "email": "imbriecpa@gmail.com",
+    "firmName": "Timothy Imbrie CPA",
+    "contactName": "Timothy Imbrie, CPA",
+    "city": "Scotts Valley",
+    "county": "Santa Cruz",
+    "niche": "Accounting & Tax - Small Business Advisory, Bookkeeping & Tax Preparation"
+  },
+  {
+    "email": "action@pacific.tax",
+    "firmName": "Santa Cruz Pacific Accounting and Tax",
+    "contactName": "Conrad Seales, CPA & Team",
+    "city": "Santa Cruz",
+    "county": "Santa Cruz",
+    "niche": "Accounting & Tax - Full-Service Tax Compliance, Payroll & Advisory"
+  },
+  {
+    "email": "info@bwatax.com",
+    "firmName": "Blyth Warner & Associates, LLP",
+    "contactName": "Blyth Warner & Associates Team",
+    "city": "St. Helena",
+    "county": "Napa",
+    "niche": "Accounting & Tax - Winery Accounting, Estate Planning & Tax Advisory"
+  },
+  {
+    "email": "napa@gjs.cpa",
+    "firmName": "G & J Seiberlich & Co LLP",
+    "contactName": "G & J Seiberlich CPA Team",
+    "city": "Napa",
+    "county": "Napa",
+    "niche": "Accounting & Tax - Comprehensive Tax Planning, Compliance & Advisory"
+  }
+]
