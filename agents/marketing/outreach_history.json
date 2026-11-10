@@ -40124,8 +40124,8 @@
     "pricingQuoted": "$19/mo Core",
     "initialContactDate": "2026-10-29T14:12:02.730Z",
     "lastContactDate": "2026-11-08T19:20:50.293Z",
-    "status": "delivered",
-    "sequenceStep": "Day 4 - Follow-up",
+    "status": "not_interested",
+    "sequenceStep": "Unsubscribed / Removed on Request",
     "diagnosedIssues": "Active California solo/boutique law practice in Mammoth Lakes (Mono County) operating without a standalone website. Pitched 24/7 intake advisor, $19/mo Core plan ($0 build fee), and free custom mockup.",
     "caseStudySent": "https://taralattanzio.ca?utm_source=beeclue&utm_medium=blog&utm_campaign=sales-outreach-law-office-of-paul-christy-kalivas",
     "history": [
@@ -40144,6 +40144,12 @@
         "resendId": "01a1bc9b-330a-7c98-9217-6b8e7a46e128",
         "status": "delivered",
         "notes": "Day 4 threaded follow-up (NO BCC). Offered complimentary custom mockup preview. Sent from hello@mail.beeclue.com with reply_to hello@beeclue.com."
+      },
+      {
+        "step": "Opt-Out / Blacklist",
+        "sentAt": "2026-11-10T01:13:49.828Z",
+        "status": "opted_out",
+        "notes": "Prospect replied: \"No thanks. Please remove me from your list.\" Immediately blacklisted and suppressed from future outreach."
       }
     ]
   },

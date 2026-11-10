@@ -75,5 +75,12 @@
     "email": "mary@yourtypegraphics.com",
     "reason": "Responded not interested - home-based micro-business, rarely asked for websites, not a good fit",
     "blacklistedAt": "2026-10-31T15:12:05.150Z"
+  },
+  {
+    "name": "Paul Christy Kalivas, Esq.",
+    "firmName": "Law Office of Paul Christy Kalivas",
+    "email": "pckalivas@gmail.com",
+    "reason": "Responded: \"No thanks. Please remove me from your list.\" - requested removal from list",
+    "blacklistedAt": "2026-11-10T01:13:49.812Z"
   }
 ]
