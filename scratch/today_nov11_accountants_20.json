@@ -1,0 +1,162 @@
+[
+  {
+    "email": "jeremy@thewacco.com",
+    "firmName": "Winery Accounting & Compliance Co.",
+    "contactName": "Jeremy",
+    "city": "Napa",
+    "county": "Napa",
+    "niche": "Accounting & Tax - Bookkeeping, Payroll & Winery Compliance Accounting"
+  },
+  {
+    "email": "octavio@llamasfinancial.com",
+    "firmName": "Llamas Financial",
+    "contactName": "Octavio Llamas",
+    "city": "Napa",
+    "county": "Napa",
+    "niche": "Accounting & Tax - Small Business Bookkeeping, Payroll & CFO Advisory"
+  },
+  {
+    "email": "babette@babettesmithea.com",
+    "firmName": "Babette Smith Bookkeeping & Tax",
+    "contactName": "Babette Smith, EA",
+    "city": "Morgan Hill",
+    "county": "Santa Clara",
+    "niche": "Accounting & Tax - Full-Service Accounting, Bookkeeping & Tax Strategy"
+  },
+  {
+    "email": "savvytxbk@gmail.com",
+    "firmName": "Savvy Tax & Bookkeeping",
+    "contactName": "Savvy Tax Team",
+    "city": "Morgan Hill",
+    "county": "Santa Clara",
+    "niche": "Accounting & Tax - Personal, Business & Corporate Tax Return Preparation"
+  },
+  {
+    "email": "pacheco_l@msn.com",
+    "firmName": "Tax Systems Gilroy",
+    "contactName": "L. Pacheco",
+    "city": "Gilroy",
+    "county": "Santa Clara",
+    "niche": "Accounting & Tax - Tax Planning, Preparation & IRS Resolution"
+  },
+  {
+    "email": "barbara@elmcpateam.com",
+    "firmName": "Keeley & Cleveland, Inc.",
+    "contactName": "Barbara",
+    "city": "Scotts Valley",
+    "county": "Santa Cruz",
+    "niche": "Accounting & Tax - Comprehensive Tax, Bookkeeping & Business Consulting"
+  },
+  {
+    "email": "hillberg@hillbergcpa.com",
+    "firmName": "Hillberg & Company",
+    "contactName": "Hillberg CPA Team",
+    "city": "Sacramento",
+    "county": "Sacramento",
+    "niche": "Accounting & Tax - CPA Tax Planning, Bookkeeping & Business Advisory"
+  },
+  {
+    "email": "jmarta@jpmcpa.com",
+    "firmName": "James Marta & Company LLP",
+    "contactName": "James Marta, CPA",
+    "city": "Sacramento",
+    "county": "Sacramento",
+    "niche": "Accounting & Tax - Audits, Tax Preparation & Local Business Accounting"
+  },
+  {
+    "email": "tammy@bdcpasllp.com",
+    "firmName": "Bluemel & Dhillon CPAs, LLP",
+    "contactName": "Tammy",
+    "city": "Sacramento",
+    "county": "Sacramento",
+    "niche": "Accounting & Tax - Small Business Accounting, Payroll & Tax Filing"
+  },
+  {
+    "email": "brett@devriestax.com",
+    "firmName": "DeVries Tax Service",
+    "contactName": "Brett DeVries",
+    "city": "Santa Rosa",
+    "county": "Sonoma",
+    "niche": "Accounting & Tax - Individual, Small Business & Year-Round Tax Advisory"
+  },
+  {
+    "email": "susanc@dchcpas.com",
+    "firmName": "Davis, Campbell & Hollister",
+    "contactName": "Susan Campbell, CPA",
+    "city": "Napa",
+    "county": "Napa",
+    "niche": "Accounting & Tax - Full-Service Accounting, Trusts & Tax Advisory"
+  },
+  {
+    "email": "linda@ljhamiltoncpa.com",
+    "firmName": "Linda J. Hamilton, CPA",
+    "contactName": "Linda J. Hamilton, CPA",
+    "city": "Paso Robles",
+    "county": "San Luis Obispo",
+    "niche": "Accounting & Tax - Local Tax Planning, Bookkeeping & Compliance"
+  },
+  {
+    "email": "michael@michaelcpa.com",
+    "firmName": "Chursenoff Accountancy, Inc.",
+    "contactName": "Michael Chursenoff, CPA",
+    "city": "Roseville",
+    "county": "Placer",
+    "niche": "Accounting & Tax - Small Business Accounting & Tax Strategy"
+  },
+  {
+    "email": "thomas.cpas@gmail.com",
+    "firmName": "Thomas & Associates CPAs Inc.",
+    "contactName": "Thomas & Associates Team",
+    "city": "Folsom",
+    "county": "Sacramento",
+    "niche": "Accounting & Tax - Tax Preparation, Bookkeeping & CFO Services"
+  },
+  {
+    "email": "travis@tlongcpa.com",
+    "firmName": "Travis H. Long, CPA, Inc.",
+    "contactName": "Travis H. Long, CPA",
+    "city": "Pacific Grove",
+    "county": "Monterey",
+    "niche": "Accounting & Tax - Proactive Tax Planning & Accounting Services"
+  },
+  {
+    "email": "trish@santacruzcpa.com",
+    "firmName": "Patricia A. Beckwith, CPA",
+    "contactName": "Patricia A. Beckwith, CPA",
+    "city": "Soquel",
+    "county": "Santa Cruz",
+    "niche": "Accounting & Tax - Personal & Small Business Tax Preparation"
+  },
+  {
+    "email": "anita@agraziano.com",
+    "firmName": "Anita J. Graziano, CPA",
+    "contactName": "Anita J. Graziano, CPA",
+    "city": "Santa Rosa",
+    "county": "Sonoma",
+    "niche": "Accounting & Tax - CPA Tax Planning, Bookkeeping & Advisory"
+  },
+  {
+    "email": "grant@stmartincpa.com",
+    "firmName": "Grant St. Martin, CPA",
+    "contactName": "Grant St. Martin, CPA",
+    "city": "Sebastopol",
+    "county": "Sonoma",
+    "niche": "Accounting & Tax - Local Tax Strategy & Small Business Accounting"
+  },
+  {
+    "email": "jmcknight@plazaprofessionals.com",
+    "firmName": "Plaza Professionals LLC",
+    "contactName": "Jessica McKnight",
+    "city": "Arcata",
+    "county": "Humboldt",
+    "niche": "Accounting & Tax - Tax Preparation & Small Business Consulting"
+  },
+  {
+    "email": "tanner@pattersonstaxpractice.com",
+    "firmName": "Patterson's Tax Practice",
+    "contactName": "Tanner Ketcham",
+    "city": "Grass Valley",
+    "county": "Nevada",
+    "niche": "Accounting & Tax - Individual & Business Tax Preparation"
+  }
+]
