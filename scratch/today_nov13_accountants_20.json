@@ -1,0 +1,162 @@
+[
+  {
+    "email": "george@morrobaycpa.com",
+    "firmName": "Ross Carreiro Brown CPAs",
+    "contactName": "George G. Ross, CPA",
+    "city": "Morro Bay",
+    "county": "San Luis Obispo",
+    "niche": "Accounting & Tax - Comprehensive Tax, Bookkeeping & Financial Advisory"
+  },
+  {
+    "email": "zacariastaxoffice@gmail.com",
+    "firmName": "Hilda Zacar\u00edas, CPA",
+    "contactName": "Hilda Zacar\u00edas, CPA",
+    "city": "Santa Maria",
+    "county": "Santa Barbara",
+    "niche": "Accounting & Tax - Personal & Small Business Tax Filing & Advisory"
+  },
+  {
+    "email": "contact@directps.info",
+    "firmName": "Direct Professional Services",
+    "contactName": "Direct PS Team",
+    "city": "Santa Maria",
+    "county": "Santa Barbara",
+    "niche": "Accounting & Tax - Full-Service Tax Return Preparation & Bookkeeping"
+  },
+  {
+    "email": "cindy@lfmgcpas.com",
+    "firmName": "Lapp, Fatch, Myers & Gallagher CPAs",
+    "contactName": "Cynthia K. Bayless, CPA",
+    "city": "Santa Maria",
+    "county": "Santa Barbara",
+    "niche": "Accounting & Tax - Accounting, Audits & Corporate Tax Compliance"
+  },
+  {
+    "email": "info@venturacpafirm.com",
+    "firmName": "Ventura CPA Firm",
+    "contactName": "Ventura CPA Team",
+    "city": "Ventura",
+    "county": "Ventura",
+    "niche": "Accounting & Tax - Local CPA Accounting & Tax Preparation Services"
+  },
+  {
+    "email": "john@laubachercpa.com",
+    "firmName": "John F. Laubacher, CPA",
+    "contactName": "John F. Laubacher, CPA",
+    "city": "Ventura",
+    "county": "Ventura",
+    "niche": "Accounting & Tax - Small Business Tax Filing, Payroll & Accounting"
+  },
+  {
+    "email": "carolstax@caroltaxservice.com",
+    "firmName": "Carol's Tax Service",
+    "contactName": "Carol",
+    "city": "Ventura",
+    "county": "Ventura",
+    "niche": "Accounting & Tax - Individual & Business Tax Preparation Services"
+  },
+  {
+    "email": "amy@covincpa.com",
+    "firmName": "Amy Covin, CPA",
+    "contactName": "Amy Covin, CPA",
+    "city": "Healdsburg",
+    "county": "Sonoma",
+    "niche": "Accounting & Tax - Strategic Tax Planning & Bookkeeping Services"
+  },
+  {
+    "email": "daniel@canelloscpa.com",
+    "firmName": "Daniel N. Canellos, CPA",
+    "contactName": "Daniel N. Canellos, CPA",
+    "city": "Healdsburg",
+    "county": "Sonoma",
+    "niche": "Accounting & Tax - Personal & Corporate Tax Return Compliance"
+  },
+  {
+    "email": "sana@taxprosaccountingsolutions.com",
+    "firmName": "TaxPros Accounting Solutions",
+    "contactName": "Sana",
+    "city": "Rohnert Park",
+    "county": "Sonoma",
+    "niche": "Accounting & Tax - Full-Charge Bookkeeping, Payroll & Tax Strategy"
+  },
+  {
+    "email": "info@sonomataxservices.com",
+    "firmName": "Sonoma Tax Services",
+    "contactName": "Sonoma Tax Team",
+    "city": "Rohnert Park",
+    "county": "Sonoma",
+    "niche": "Accounting & Tax - Tax Filing & Small Business Accounting Solutions"
+  },
+  {
+    "email": "nickelltax1991@gmail.com",
+    "firmName": "Nickell Tax & Financial Planning",
+    "contactName": "Nickell Tax Team",
+    "city": "Marysville",
+    "county": "Yuba",
+    "niche": "Accounting & Tax - Tax Planning & Preparation"
+  },
+  {
+    "email": "kathy@kathybirdwelltax.com",
+    "firmName": "Kathy Birdwell Tax Service",
+    "contactName": "Kathy Birdwell, EA",
+    "city": "Yuba City",
+    "county": "Sutter",
+    "niche": "Accounting & Tax - Individual & Small Business Tax Return Filing"
+  },
+  {
+    "email": "maryh@bkpcpa.com",
+    "firmName": "Bianchi, Kasavan & Pope, LLP",
+    "contactName": "Mary H, CPA",
+    "city": "Hollister",
+    "county": "San Benito",
+    "niche": "Accounting & Tax - CPA Tax Compliance, Audits & Bookkeeping"
+  },
+  {
+    "email": "denise@taxwise.biz",
+    "firmName": "Tax Wise Inc.",
+    "contactName": "Denise, CPA",
+    "city": "El Dorado Hills",
+    "county": "El Dorado",
+    "niche": "Accounting & Tax - Strategic CPA Tax Planning & Advisory"
+  },
+  {
+    "email": "michael@mjmcmurrycpa.com",
+    "firmName": "Michael J. McMurry, CPA",
+    "contactName": "Michael J. McMurry, CPA",
+    "city": "Fairfield",
+    "county": "Solano",
+    "niche": "Accounting & Tax - Individual, Business Tax Planning & Consulting"
+  },
+  {
+    "email": "info@taxassociatesllp.com",
+    "firmName": "Tax Associates LLP",
+    "contactName": "Tax Associates Team",
+    "city": "Vacaville",
+    "county": "Solano",
+    "niche": "Accounting & Tax - Full-Service Tax Return Preparation & Bookkeeping"
+  },
+  {
+    "email": "taxfactory@taxfactory.com",
+    "firmName": "Tax Factory Inc.",
+    "contactName": "Tax Factory Team",
+    "city": "Vacaville",
+    "county": "Solano",
+    "niche": "Accounting & Tax - Personal & Business Tax Preparation Services"
+  },
+  {
+    "email": "info@ccconsultingservice.com",
+    "firmName": "C & C Consulting Service",
+    "contactName": "Cheryl & Cindy",
+    "city": "Vacaville",
+    "county": "Solano",
+    "niche": "Accounting & Tax - Small Business Bookkeeping, Payroll & Tax Solutions"
+  },
+  {
+    "email": "gouldtax@msn.com",
+    "firmName": "Gould Tax & Business Service, Inc.",
+    "contactName": "John Gould, EA",
+    "city": "Manteca",
+    "county": "San Joaquin",
+    "niche": "Accounting & Tax - Family-Owned Tax Preparation, Estates & Bookkeeping"
+  }
+]
