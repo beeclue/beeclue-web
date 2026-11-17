@@ -57,9 +57,8 @@ next-env.d.ts
 .superpowers
 docs
 
-# Agents directory
-/agents/**/temp*
-/agents/**/cache*
+# Agents directory & marketing data (prevents unnecessary CI deployments)
+/agents/
 
 # local python environment
 .venv/
