@@ -67,4 +67,7 @@ docs
 # Automation scripts
 /scripts/
 
+# Video reels & assets
+/reels/
+
 seo_state.json

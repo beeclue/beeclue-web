@@ -72,3 +72,9 @@ This version has breaking changes — APIs, conventions, and file structure may 
   - Success Example: `{"status": "success", "message": "...", "data": {...}}`
   - Error Example: `{"status": "error", "message": "...", "error": "..."}`
 - **No Null Values**: Never return `null` values in the JSON. When creating new FastAPI endpoints, ALWAYS include `response_model_exclude_none=True` in the route decorator (e.g., `@router.post("/", response_model=StandardResponse[MyModel], response_model_exclude_none=True)`).
+
+# Video & Reels Production
+- **Destination Folder**: All video shorts, TikToks/Reels, and animations created for Beeclue must be saved into the project root [`reels/`](reels/) directory (e.g. `reels/<short-name>/` or `reels/<name>.mp4`).
+- **Cover Images**: Every generated video must include its corresponding high-res cover picture saved alongside it in `reels/`.
+- **Git Excluded**: The `reels/` directory is strictly ignored in `.gitignore` to prevent any binary video or media assets from being committed to GitHub.
+
